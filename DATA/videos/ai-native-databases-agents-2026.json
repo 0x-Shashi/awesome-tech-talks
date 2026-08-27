@@ -1,0 +1,99 @@
+{
+  "id": "ai-native-databases-agents-2026",
+  "title": "Power intelligent agents with AI-native databases",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Amit Ganesh",
+    "Yannis Papakonstantinou",
+    "David Soria Parra"
+  ],
+  "url": "https://youtu.be/7awKinJhGPo?si=BiOdsdrT3_GisbsY",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "AI-native databases are essential for powering agents with enterprise data. Learn how they enable highly relevant context, automate operations, and manage risk. In this session, we examine AI-powered search, natural language interfaces, multimodal queries, and graph retrieval-augmented generation (GraphRAG). These move beyond simple retrieval, providing agents with high-fidelity, interconnected context. Discover how open standards like Model Context Protocol (MCP) and agentic IDEs streamline workflows for rapid, reliable deployment of agents.",
+  "entities": [
+    "AlloyDB",
+    "AlloyDB Omni",
+    "Spanner",
+    "MCP (Model Context Protocol)",
+    "MCP Toolbox",
+    "Data Agent Kit",
+    "Agentic Data Cloud",
+    "TimesFM (Times FM foundational model)",
+    "BIRD benchmark",
+    "Conversational Analytics Agent",
+    "ScaNN index (Google proprietary approximate nearest neighbor index)",
+    "pgvector",
+    "AlloyDB Columnar Engine",
+    "BM25",
+    "GraphRAG",
+    "Data Agent Platform",
+    "Knowledge Catalog",
+    "Parameterized Secure Views",
+    "Query Data tool",
+    "AI functions (AlloyDB)",
+    "Database Observability Agent",
+    "Database Center",
+    "Database Testing Agent",
+    "Looker Studio",
+    "Gemini Enterprise",
+    "Vertex AI",
+    "TPUs",
+    "AI Studio",
+    "Firestore",
+    "Cloud SQL",
+    "target.com",
+    "Hughes Network Systems",
+    "EchoStar AMR",
+    "Anthropic"
+  ],
+  "segments": [
+    {
+      "heading": "The case for an agentic data cloud: from system of insight to system of action",
+      "text": "Legacy data architectures are walled gardens of disconnected warehouses and siloed operational databases. Agents require seamless access to data from multiple sources and semantic context that gives meaning to the data. The current paradigm of moving data to AI creates lag and manual integration cost. Google's strategy is the reverse: move AI to data. The result is the Agentic Data Cloud, a vertically integrated data and AI stack with three properties: AI-native (TPUs invoked for inference within database workloads, models embedded in SQL, data agents in the agentic layer), flexible (Postgres compatibility, run anywhere with AlloyDB Omni), and trusted (enterprise semantic knowledge as context, strict privacy and governance guardrails)."
+    },
+    {
+      "heading": "AlloyDB as an AI-native database: vector, hybrid, and AI search",
+      "text": "AlloyDB is 100% PostgreSQL-compatible and adds Google-specific AI primitives. It supports multimodal data types (structured, text, images, video as embeddings, time series, graph models) and multiple access modalities (vector search, full-text search, forecasting, anomaly detection). Key features: (1) ScaNN index: Google's proprietary approximate nearest neighbor index used in Google Search and YouTube, supporting 10 billion-plus vectors and substantially outperforming plain pgvector. (2) Columnar engine integration boosting pgvector by up to 4x without configuration changes. (3) BM25-based hybrid search: combining vector search and full-text search in a single SQL query. (4) AI functions: SQL functions powered by Gemini for tasks like reranking search candidates by relevance to a nuanced query (for example, shirts suitable for summer in Santorini), sentiment analysis, summarization, and forecasting with the TimesFM model."
+    },
+    {
+      "heading": "TimesFM: forecasting as a database SQL function",
+      "text": "TimesFM is Google's foundational model pre-trained on time series data. Integrated into AlloyDB as a SQL AI function called forecast, it can produce time series forecasts in seconds on queries that previously required minutes or days. Example query: ask for a sales forecast for all red shoes. AlloyDB performs vector search to find product rows semantically similar to red shoes, fetches the time series for those products, and feeds them into TimesFM to produce a projection. This pipeline is invoked from a single SQL query; the database internally routes inference work to TPUs."
+    },
+    {
+      "heading": "target.com case study: 20% search relevance improvement with AlloyDB",
+      "text": "target.com migrated their entire search traffic to AlloyDB to improve online search relevance. Using the ScaNN index and dynamic SQL filters on complex data types, they reported a 20% improvement in search relevance. The performance for filtered search queries exceeded what was achievable by manually integrating a relational database with a dedicated vector search engine."
+    },
+    {
+      "heading": "Spanner and GraphRAG for relationship-aware retrieval",
+      "text": "Spanner extends AI-native search into graph retrieval-augmented generation (GraphRAG). Graph models capture relationships among entities: for example, a product's category relationships, supply chain links, or user-behavior connections. In AlloyDB and Spanner, the graph model is virtual and layered over the existing SQL model. Developers do not need to copy or migrate data to a separate graph database. Hybrid search (vector plus full-text) coupled with graph traversal provides agents with interconnected, relationship-aware context that plain vector retrieval cannot."
+    },
+    {
+      "heading": "Data Agent Platform: bridging natural language to SQL with near-100% accuracy",
+      "text": "The Data Agent Platform addresses three gaps in natural language to SQL conversion: the accuracy gap (many applications require near-100% accuracy), the security gap (lack of in-database granular access control forces developers to build custom security layers), and the scaffolding burden. The Query Data tool reaches near-100% accuracy through three context types: schema ontologies (describing the database schema), query blueprints (developer-injected nuanced interpretations for specific question fragments), and value searches (disambiguating questions against actual data values). Google holds the top rank on the BIRD benchmark for natural language to SQL using schema ontologies alone."
+    },
+    {
+      "heading": "Parameterized Secure Views: deterministic security for agent-generated SQL",
+      "text": "A naive text-to-SQL approach is vulnerable: an attacker can craft a question that causes the agent to generate SQL joining the user's table to other users' data. Parameterized Secure Views are virtual SQL views that expose only the current end user's data by design. The view is parameterized by user identity, so the agent can only query data scoped to the authenticated user. This is a deterministic security guardrail, not a heuristic one, and is efficient because views are virtual and carry no storage overhead."
+    },
+    {
+      "heading": "MCP strategy: managed servers, MCP Toolbox, and protocol steering",
+      "text": "Google's MCP approach has three tracks. First, fully managed MCP servers for virtually every Data Cloud service (AlloyDB, Cloud SQL, Spanner, BigQuery, Cloud Storage, analytics services): zero-ops, with IAM, audit logging, Model Armor data protection, and governance controls built in. Second, open-source MCP Toolbox for Databases: stable 1.0 release, 14,000 GitHub stars, 100-plus contributors, 40-plus data sources including Oracle and MongoDB. Third, active participation in MCP steering committees alongside Anthropic to evolve the protocol. Upcoming MCP features include serving agent skills over MCP servers (domain-specific knowledge bundled with the server) and long-running task support."
+    },
+    {
+      "heading": "Fireside chat with David Soria Parra (Anthropic, MCP co-creator)",
+      "text": "David Soria Parra explains why MCP succeeded: the ecosystem needed a connective layer between frontier models and enterprise data and tools. Companies did not want to build integrations ten times; MCP provided a standard once-and-done integration point. Building MCP servers is intentionally simple to lower adoption friction. On AI-native databases: agents are very good at selecting from large inputs once they have them, but getting to the right first layer of input is difficult. Native database AI primitives (vector search, hybrid search, graph traversal) give agents the toolset to do that retrieval work themselves without developers hand-crafting SQL for each case. Anthropic uses AlloyDB internally and benefits from its enterprise security features combined with the open MCP protocol."
+    },
+    {
+      "heading": "Pre-built data agents from Google: builders, operators, and business users",
+      "text": "Google offers a suite of pre-built agents covering every data role. For builders: the Data Agent Kit provides agent skills, MCP Toolbox, and IDE extensions; AI Studio now supports Firestore as an underlying database, with Cloud SQL for Postgres support coming. For operators: a Database Observability Agent automates database management by converting complex metrics into actionable insights; Database Center provides real-time fleet visibility; a Database Testing Agent automatically tests performance impact of application and configuration changes. For business users: the Conversational Analytics Agent allows natural language querying of operational AlloyDB and Cloud SQL databases directly from the Cloud Console, with security enforced by Parameterized Secure Views."
+    }
+  ],
+  "read_time_minutes": 3.8
+}

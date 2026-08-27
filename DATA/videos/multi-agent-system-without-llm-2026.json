@@ -1,0 +1,48 @@
+{
+  "id": "multi-agent-system-without-llm-2026",
+  "title": "How to design a multi-agent system that skips the LLM",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Casey West",
+    "Annie Wang"
+  ],
+  "url": "https://youtu.be/Fzd0BWMH65s?si=bKyJ75VM6jfjKbCT",
+  "date": "2026-06-06",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "Architectural deep dive into 'Race Condition' - a 1,000-agent marathon simulation built on Google's Agent Development Kit (ADK) where almost none of the agents call the LLM. Casey West breaks down when to delegate decisions to LLMs vs. deterministic code, using the before_model_callback trick to bypass model inference, the NP-hard Spine & Sprout route planning algorithm, and scaling 1,000 stateless agents on Redis.",
+  "entities": [
+    "Agent Development Kit (ADK)",
+    "before_model_callback",
+    "Race Condition (Simulation)",
+    "Spine & Sprout Algorithm",
+    "Redis State Store",
+    "Deterministic Multi-Agent Systems",
+    "Token Economics",
+    "FastAPI"
+  ],
+  "segments": [
+    {
+      "heading": "The core architectural dilemma: LLM reasoning vs. deterministic code",
+      "text": "Many AI engineers mistakenly route every micro-decision through expensive LLM inference. In 'Race Condition', a simulation of 1,000 marathon runners, only the initial course design and runner persona formulation require LLM creativity. Running continuous physics, pacing calculations, and route waypoints via LLMs would cost millions of wasted tokens with high latency."
+    },
+    {
+      "heading": "The before_model_callback technique: keep the agent, skip the model",
+      "text": "The ADK provides a before_model_callback hook that inspects incoming user and agent state before firing an LLM inference call. If the required action can be calculated deterministically (e.g., checking runner stamina, updating coordinates), the callback computes the result directly and short-circuits the pipeline with an immediate structured response, consuming 0 tokens."
+    },
+    {
+      "heading": "Deterministic pathfinding: NP-hard route planning and the Spine & Sprout algorithm",
+      "text": "Generating an exact 26.2-mile marathon course passing required cultural waypoints is an NP-hard graph traversal problem. Rather than asking an LLM to hallucinate map coordinates, the system pairs high-level LLM waypoint selection with a deterministic 'Spine & Sprout' graph algorithm that mathematically constructs optimal road routes."
+    },
+    {
+      "heading": "Scaling 1,000 stateless agent sessions with Redis",
+      "text": "To scale 1,000 autonomous runner agents executing concurrent tick loops, the architecture decouples agent execution from persistent storage. Runner state (pace, hydration, fatigue, position) is maintained in Redis, allowing lightweight worker processes to resume and tick agents statelessly without memory overhead."
+    }
+  ],
+  "read_time_minutes": 0.8
+}

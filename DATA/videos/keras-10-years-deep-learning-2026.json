@@ -1,0 +1,88 @@
+{
+  "id": "keras-10-years-deep-learning-2026",
+  "title": "Keras Turns 10: A decade of deep learning",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Yufeng Guo",
+    "François Chollet",
+    "Matt Watson"
+  ],
+  "url": "https://youtu.be/oekqrCFN7MM?si=QjlOx7afHeY9hiTk",
+  "date": "2026-01-16",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "Research/Papers",
+    "AI Coding Tools"
+  ],
+  "description": "Celebrate 10 years of Keras! In this special anniversary interview, Developer Advocate Yufeng Guo sits down with Keras founder François Chollet and engineer Matt Watson to discuss the library's incredible decade-long journey.",
+  "entities": [
+    "Keras",
+    "Keras 3",
+    "KerasHub",
+    "KerasCV",
+    "KerasNLP",
+    "TensorFlow",
+    "PyTorch",
+    "JAX",
+    "Theano",
+    "NumPy",
+    "OpenVINO",
+    "MLX",
+    "François Chollet",
+    "Matt Watson",
+    "Yufeng Guo",
+    "Scikit-Learn",
+    "Caffe",
+    "The Odyssey",
+    "Gate of Horn",
+    "Sequential API",
+    "Functional API",
+    "LSTMs",
+    "RNNs",
+    "Kaggle",
+    "Kaggle Models",
+    "XGBoost",
+    "Deep Learning with Python",
+    "Stable Diffusion",
+    "DeepSeek",
+    "Program Synthesis",
+    "Symbolic AI"
+  ],
+  "segments": [
+    {
+      "heading": "The origin of Keras: from Theano chatbot tooling to open-source library",
+      "text": "François Chollet recounts founding Keras in early 2015. While building a question-answering chatbot research project (an early precursor to RAG) using Theano, Chollet developed reusable tooling for Recurrent Neural Networks (RNNs) and LSTMs. Frustrated by the complexity of existing 2014-era machine learning tooling (which required brittle YAML config files like Caffe), he packaged the components into a user-friendly library modeled on scikit-learn's ergonomics and released it on GitHub under the domain Keras.io."
+    },
+    {
+      "heading": "Etymology: the Gate of Horn from Homer's Odyssey",
+      "text": "Chollet explains the literary origin of the name Keras (Greek for horn). In Homer's Odyssey, dreams visit Earth through two portals: false, deceptive dreams pass through a gate of polished ivory (elephas, sounding like elephairo, to deceive), while true, prophetic visions pass through the Gate of Horn (keras, sounding like kraino, to fulfill). Keras was conceived as the portal through which true visions of the AI future could be realized, maintaining thematic Greek naming consistency with Theano."
+    },
+    {
+      "heading": "Evolution of Keras versions: 0.x to 3.0",
+      "text": "The framework traversed several distinct architectural eras:\n\n- Keras 0.x (2015): Sequential API centered on RNNs, LSTMs, and ConvNets on Theano, quickly adding multi-backend support when TensorFlow launched in late 2015.\n- Keras 1.0 (2016): Introduced the Functional API, customizable callbacks, metrics, and losses.\n- Keras 2.0 (2017-2018): Tight integration into TensorFlow (tf.keras), dropping multi-backend support due to organizational pressure.\n- Keras 3.0 (2023+): Rebuilt from scratch in two months as a standalone, framework-agnostic system supporting JAX, PyTorch, TensorFlow, NumPy, OpenVINO, and MLX without requiring a TensorFlow installation."
+    },
+    {
+      "heading": "Design philosophy: progressive disclosure of complexity",
+      "text": "The enduring architectural principle behind Keras is progressive disclosure of complexity: simple, standard workflows must require only 2 to 20 lines of clean code, while advanced customizations remain possible through incremental adjustments without hitting architectural cliffs. Developers can start with high-level Sequential models, customize layer logic via sub-classing, or descend directly into native framework kernels (such as custom JAX or PyTorch operations)."
+    },
+    {
+      "heading": "Pre-trained models, KerasHub, and Kaggle integration",
+      "text": "Matt Watson discusses how ML workflows have evolved from training models from scratch to fine-tuning large pre-trained foundation models. KerasCV and KerasNLP have consolidated into KerasHub, a unified library for text, vision, and multimodal architectures (including Stable Diffusion and LLMs). KerasHub integrates natively with Kaggle Models for hosting open weights, allowing seamless deployment across Colab, Kaggle Notebooks, and local scripts."
+    },
+    {
+      "heading": "Kaggle's role in ML best practices",
+      "text": "Chollet and Watson emphasize Kaggle as a crucible for practical machine learning advances. Chollet competed in Kaggle's 2014 Higgs Boson challenge (placing 4th), which popularized XGBoost and gradient-boosted decision trees. Kaggle competitions provide an empirical, hype-free benchmark for identifying architectures and libraries that deliver verifiable performance on real-world datasets."
+    },
+    {
+      "heading": "Advice for ML practitioners: first principles over hype cycles",
+      "text": "Chollet and Watson advise developers navigating AI hype. While weekly headlines generate noise, underlying deep learning theory, core model architectures (transformers, RNNs, backpropagation), and training dynamics remain remarkably stable over multi-year horizons. Practitioners should learn foundational concepts thoroughly (e.g., via Deep Learning with Python) and evaluate new papers and techniques from first principles rather than social media momentum."
+    },
+    {
+      "heading": "The next 10 years: program synthesis and neuro-symbolic AI",
+      "text": "Looking ahead to 2035, Chollet anticipates the primary growth frontier in AI will be program synthesis and the fusion of deep learning with symbolic reasoning (autonomous discrete program search and learning symbolic representations). Both speakers predict that core deep learning abstractions and differentiable optimization will remain foundational to software development for decades to come."
+    }
+  ],
+  "read_time_minutes": 2.1
+}

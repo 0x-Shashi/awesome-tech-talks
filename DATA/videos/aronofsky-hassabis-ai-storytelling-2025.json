@@ -1,0 +1,53 @@
+{
+  "id": "aronofsky-hassabis-ai-storytelling-2025",
+  "title": "Darren Aronofsky and Demis Hassabis on storytelling in the age of AI",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Mira Lane",
+    "Darren Aronofsky",
+    "Demis Hassabis",
+    "Eliza McNitt"
+  ],
+  "url": "https://youtu.be/VJllI3jMEb4?si=rcmRah8Dfq5_wRIS",
+  "date": "2025-05-24",
+  "format": "Fireside Chat",
+  "level": "Beginner",
+  "topics": [
+    "LLM Fundamentals",
+    "Product/Startup"
+  ],
+  "description": "Fireside discussion between filmmaker Darren Aronofsky (Primordial Soup) and Google DeepMind CEO Demis Hassabis exploring how generative video models (Veo 3) and world models expand creative storytelling. Covers the philosophy of 'Make soup, not slop,' intentional hallucination, AI as digital collage, and features director Eliza McNitt discussing Ancestra, an emotional hybrid film combining live-action cinematography with AI-generated visuals trained on personal family archives via LoRA.",
+  "entities": [
+    "Google DeepMind",
+    "Veo 3",
+    "Primordial Soup",
+    "Demis Hassabis",
+    "Darren Aronofsky",
+    "Eliza McNitt",
+    "Ancestra (film)",
+    "LoRA (Low-Rank Adaptation)",
+    "AlphaGo (Move 37)",
+    "Genie 2",
+    "World Models",
+    "AlphaFold"
+  ],
+  "segments": [
+    {
+      "heading": "Make soup, not slop: creative philosophy and partnership",
+      "text": "Darren Aronofsky and Demis Hassabis announce a partnership between production company Primordial Soup and Google DeepMind. Aronofsky emphasizes that while generative tools produce endless visual novelties, true cinema requires emotional depth and patient storytelling. DeepMind seeks deep collaboration with world-class artists to shape generative video tools (Veo 3) to serve authentic creative expression rather than generic digital noise."
+    },
+    {
+      "heading": "Generative video, world models, and intentional hallucination",
+      "text": "Demis Hassabis explains that generative video models like Veo represent a crucial stepping stone toward building world models that deeply understand physical dynamics (light, gravity, materials). In informational search, hallucinations are errors; in artistic creation, hallucination equals imagination. Aronofsky and Hassabis discuss adding intentional hallucination controls to encourage creative accidents and exploration."
+    },
+    {
+      "heading": "Creativity beyond Move 37: tool precision vs. human artistry",
+      "text": "Reflecting on AlphaGo's famous Move 37, Hassabis distinguishes between constrained creative search and true paradigm-shifting human invention (such as formulating General Relativity or inventing the game of Go). Aronofsky compares current generative video workflows to sophisticated digital collage, where human directors curate, prompt, and composite disparate elements into coherent emotional narratives."
+    },
+    {
+      "heading": "Ancestra case study: hybrid filmmaking with Eliza McNitt",
+      "text": "Director Eliza McNitt presents Ancestra, the first film from the collaboration. The project tells the deeply personal story of her emergency birth, combining live-action performances with Veo generative video. The team used Low-Rank Adaptation (LoRA) fine-tuning on McNitt's late father's copyrighted 35mm film photography and baby photos to generate emotionally authentic, consenting newborn imagery that would be impossible or unethical to film with real infants."
+    }
+  ],
+  "read_time_minutes": 0.9
+}

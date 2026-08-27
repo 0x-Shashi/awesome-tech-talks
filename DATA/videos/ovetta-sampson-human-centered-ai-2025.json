@@ -1,0 +1,66 @@
+{
+  "id": "ovetta-sampson-human-centered-ai-2025",
+  "title": "Building human-centered AI products with Ovetta Sampson",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Ashley Oldacre",
+    "Ovetta Sampson"
+  ],
+  "url": "https://youtu.be/PALRROM2JWE?si=8EiT1FNB5A04k3mI",
+  "date": "2025-07-23",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "Research/Papers",
+    "Career/Advice"
+  ],
+  "description": "Meet Ovetta Sampson, Director of UX for AI compute enablement at Google. She shares her unique path from journalism to AI, including her work on groundbreaking projects prioritizing human-centered design principles. Discover valuable insights into making AI more accessible, the importance of responsible development, and more in this episode of People of AI.",
+  "entities": [
+    "Ovetta Sampson",
+    "Ashley Oldacre",
+    "Google",
+    "People of AI",
+    "IDEO",
+    "Microsoft",
+    "Capital One",
+    "DataScope",
+    "DePaul University",
+    "Benjamin Cabe",
+    "AI nose",
+    "medical malpractice predictive models",
+    "human-centered AI design",
+    "traumatized datasets",
+    "responsible AI tooling",
+    "AI literacy",
+    "ISO human-centered design standard",
+    "Gemini"
+  ],
+  "segments": [
+    {
+      "heading": "From investigative journalism to machine learning design",
+      "text": "Ovetta Sampson (Director of UX for AI Compute Enablement at Google) recounts her journey from early computer programming (Commodore 64 at age nine) to 22 years in print and broadcast journalism. Performing computer-assisted reporting on crime and education led her to write SQL, R, and Python models to analyze large public datasets. After earning a master's in human-computer interaction at DePaul University, she joined IDEO in 2016 as an embedded design researcher shaping early machine learning systems with DataScope."
+    },
+    {
+      "heading": "Human-centered AI: augmenting human expertise vs. tech-driven capability",
+      "text": "Sampson distinguishes between technology-driven development (fitting use cases to raw model capabilities) and human-centered design (solving real human problems by augmenting human cognitive strengths). In an IDEO project designing predictive models for medical malpractice risk, her team interviewed experienced legal intake coordinators-the human algorithms whose 20 years of tacit heuristic pattern recognition formed the qualitative ground truth for the algorithmic features."
+    },
+    {
+      "heading": "Sensor fusion and human problem solving: the AI nose case study",
+      "text": "Sampson illustrates problem-matching through an edge AI example. Benjamin Cabé initially paired gas sensors with a microcontroller ML model to detect optimal sourdough bread proofing via chemical gas signatures (an AI nose). A 13-year-old developer subsequently adapted this exact sensory architecture in a research lab to detect early gas biomarkers of pneumonia in human respiratory systems, demonstrating how general sensor-model pairings can solve life-saving human needs."
+    },
+    {
+      "heading": "The hazard of traumatized datasets and systemic algorithmic bias",
+      "text": "Sampson cautions against viewing technology as neutral or socially agnostic. Training predictive models on traumatized or historically discriminatory datasets (such as arrest records in Chicago's Strategic Subjects List or legacy credit scoring models) codifies and scales historical injustices. Developers and data scientists must critically inspect training data lineages, examine social context, and establish ethical checks before training deep neural networks."
+    },
+    {
+      "heading": "Shifting responsible AI from individual developers to system infrastructure",
+      "text": "At Google, Sampson's UX team works directly on ML infrastructure to simplify responsible AI deployment. Rather than placing the entire compliance burden on individual engineers, modern AI infrastructure builds automated guardrails directly into developer platforms: scanning training datasets for demographic skew, flagging biased feature correlations, providing provenance dashboards, and enforcing auditable model governance similar to banking regulatory standards."
+    },
+    {
+      "heading": "AI literacy, media ethics, and designing for human vulnerability",
+      "text": "Reflecting on real-world weaponization (such as deepfake voice clones used for defamation), Sampson emphasizes that AI safety requires widespread AI literacy. Guided by ISO human-centered design standards, product designers must actively design against cognitive, physical, and psychological harm by bounding model affordances, providing transparent verification pathways, and designing systems that prioritize societal benefit over raw capability."
+    }
+  ],
+  "read_time_minutes": 1.5
+}

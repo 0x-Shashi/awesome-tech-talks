@@ -1,0 +1,54 @@
+{
+  "id": "agent-knowledge-base-bigquery-2026",
+  "title": "Build an AI Agent knowledge base using SQL (BigQuery + Gemini)",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Annie Wang",
+    "Ayo Adedeji"
+  ],
+  "url": "https://youtu.be/zvmtHZSt8es?si=EAmXpMAEmxwRKSl6",
+  "date": "2026-03-28",
+  "format": "Workshop",
+  "level": "Beginner",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Episode 1 of a multi-part Hands On AI series demonstrating how to build an AI agent knowledge base directly using BigQuery and Gemini. Walks through creating BigQuery external tables to query raw text files in Cloud Storage without copying data, using ML.GENERATE_TEXT to prompt Gemini inside SQL, and parsing nested JSON responses into normalized relational tables.",
+  "entities": [
+    "BigQuery",
+    "Cloud Storage (GCS)",
+    "Gemini 2.5 Flash",
+    "ML.GENERATE_TEXT (BQML)",
+    "BigQuery External Tables",
+    "BigQuery Connection",
+    "PARSE_JSON",
+    "Cloud Shell",
+    "Cloud Build",
+    "Cloud Run",
+    "Dataflow",
+    "Cloud SQL",
+    "Agent Development Kit (ADK)",
+    "AgentVerse"
+  ],
+  "segments": [
+    {
+      "heading": "Hands-on project overview: unstructured to structured ELT pipeline",
+      "text": "The lab demonstrates how to convert unstructured text files stored in Google Cloud Storage into structured, queryable tables in BigQuery using Gemini models called directly from SQL. In this two-part series, the resulting structured bestiary dataset is prepared as an analytical knowledge base for downstream RAG agents running on Cloud Run."
+    },
+    {
+      "heading": "Environment setup and BigQuery external tables",
+      "text": "Setting up the project involves activating Cloud Shell, enabling core APIs (BigQuery, Cloud Storage, AI Platform, Dataflow), and establishing a BigQuery Connection service account. Using BigQuery external tables allows querying raw CSV and text files residing in Cloud Storage as virtual tables without duplicating data across environments. External tables dynamically reflect new files added to the storage bucket while preserving central governance."
+    },
+    {
+      "heading": "Invoking Gemini via BQML ML.GENERATE_TEXT",
+      "text": "A remote model reference pointing to Gemini 2.5 Flash is created in BigQuery via the remote connection. The ML.GENERATE_TEXT SQL function executes prompt instructions across every row of the external table in parallel. The prompt instructs Gemini to extract entities (monsters, battles, adventurers) into a strictly formatted JSON object."
+    },
+    {
+      "heading": "JSON parsing, cleansing, and table normalization",
+      "text": "ML.GENERATE_TEXT outputs candidate text alongside evaluation metadata like token counts and log probabilities. Using BigQuery's built-in PARSE_JSON function and JSON path expressions (for example, JSON_VALUE), the raw output is cleaned and split into distinct normalized tables (monsters, battles, adventurers) ready for SQL analytics and agent retrieval."
+    }
+  ],
+  "read_time_minutes": 0.8
+}

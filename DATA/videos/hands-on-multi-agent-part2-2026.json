@@ -1,0 +1,48 @@
+{
+  "id": "hands-on-multi-agent-part2-2026",
+  "title": "Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Ayo Adedeji",
+    "Annie Wang"
+  ],
+  "url": "https://youtu.be/pEAZ5iyKgWE?si=CDH2IkBK8GCOtfxH",
+  "date": "2026-03-22",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Part 2 of the hands-on RPG multi-agent codelab series. Covers implementing the Agent-to-Agent (A2A) protocol for direct distributed agent communication over HTTP, persisting memory and session state across multi-agent workflows, using agent lifecycle callbacks for guardrails and logging, containerizing agents with Cloud Build, and deploying the complete multi-agent cluster to Cloud Run for the final boss fight.",
+  "entities": [
+    "Agent-to-Agent Protocol (A2A)",
+    "Agent Development Kit (ADK)",
+    "Cloud Run",
+    "Cloud Build",
+    "Agent Memory Bank",
+    "Agent Callbacks (on_tool_call, on_model_response)",
+    "Artifact Registry",
+    "Gemini 2.5 Flash"
+  ],
+  "segments": [
+    {
+      "heading": "Distributed agent architecture and the Agent-to-Agent (A2A) protocol",
+      "text": "While local workflow agents execute in-process, production architectures deploy agents as decoupled microservices across separate endpoints. The Agent-to-Agent (A2A) protocol standardizes HTTP JSON messaging between remote agents, allowing the Summoner orchestrator to delegate combat and quest actions to remote Familiar agents running on independent Cloud Run services."
+    },
+    {
+      "heading": "State management, memory persistence, and lifecycle callbacks",
+      "text": "The session integrates persistent state management to preserve inventory status, character stats, and multi-turn battle history. ADK lifecycle callbacks (e.g., before_tool_call, after_model_response) are implemented to enforce input guardrails, track token consumption, and log debug traces."
+    },
+    {
+      "heading": "Containerization with Cloud Build and Artifact Registry",
+      "text": "Each agent microservice is packaged with Docker, built using Google Cloud Build, and published to Artifact Registry. Configuration variables (API keys, MCP endpoint URLs, model identifiers) are passed securely via environment parameters."
+    },
+    {
+      "heading": "Deploying to Cloud Run and the final boss fight demo",
+      "text": "The complete multi-agent cluster is deployed to Google Cloud Run, utilizing serverless concurrency and automatic scaling. The lab concludes with a live RPG 'boss fight' where the Summoner and Familiar agents coordinate tactical spell selections, inventory updates, and iterative attack calculations in real time."
+    }
+  ],
+  "read_time_minutes": 0.6
+}

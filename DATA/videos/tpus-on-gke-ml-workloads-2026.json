@@ -1,0 +1,49 @@
+{
+  "id": "tpus-on-gke-ml-workloads-2026",
+  "title": "Orchestrating ML/AI workloads with TPUs on GKE",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Yufeng Guo",
+    "Kavitha Gowda"
+  ],
+  "url": "https://youtu.be/coP5_SmE4AI?si=o79IroUrSluCePZI",
+  "date": "2026-04-10",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "Backend/Infra",
+    "Research/Papers"
+  ],
+  "description": "Comprehensive technical guide on orchestrating Google Cloud Tensor Processing Units (TPUs) using Google Kubernetes Engine (GKE). Kavitha Gowda (GKE TPU Product Manager) and Yufeng Guo explore 7th-generation TPU hardware architectures, Matrix Multiplying Units (MXU), 3D Torus pod topologies, AI Hypercomputer integration, Kueue job scheduling, and multi-slice Kubernetes orchestration for LLM training and serving.",
+  "entities": [
+    "Google Cloud TPUs (v5p, v6e)",
+    "Google Kubernetes Engine (GKE)",
+    "Matrix Multiplying Unit (MXU)",
+    "3D Torus Interconnect",
+    "AI Hypercomputer",
+    "Kueue",
+    "Dynamic Workload Schedulers",
+    "Multi-Slice TPU Pods",
+    "Anthropic",
+    "Moloco"
+  ],
+  "segments": [
+    {
+      "heading": "TPU hardware architecture: Matrix Multiplying Units (MXUs) and ASICs",
+      "text": "Tensor Processing Units are Google's custom Application-Specific Integrated Circuits (ASICs) optimized for dense linear algebra. Unlike general-purpose CPUs and GPUs, TPUs feature dedicated Matrix Multiplying Units (MXUs) executing massive matrix multiplications in a single clock cycle, delivering exceptional throughput and energy efficiency for transformer models and recommendation embeddings."
+    },
+    {
+      "heading": "Topology and multi-slice architecture: 3D Torus interconnects",
+      "text": "TPUs scale from single chips to massive pods connected via an ultra-low latency optical circuit switch (3D Torus network). Kubernetes manages multi-slice deployments, treating entire TPU pods as unified, co-scheduled compute fabrics to execute distributed training without network bottlenecks."
+    },
+    {
+      "heading": "Orchestrating TPUs with GKE: Kueue and automated node provisioning",
+      "text": "GKE automates TPU cluster management: GKE Auto-provisioning spins up exact TPU topologies on demand; open-source Kueue provides multi-tenant fair-share scheduling, queuing large batch training jobs and dynamically evicting lower-priority tasks when urgent model serving requests arrive."
+    },
+    {
+      "heading": "Best practices for AI model builders: Anthropic, Moloco, and Lightricks",
+      "text": "Leading AI teams deploy mission-critical ML workloads on GKE and TPUs by combining hardware-aware scheduling with containerized training frameworks (JAX, PyTorch/XLA), maximizing accelerator compute efficiency and minimizing cost-per-token."
+    }
+  ],
+  "read_time_minutes": 0.6
+}

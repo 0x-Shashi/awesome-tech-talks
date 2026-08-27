@@ -1,0 +1,49 @@
+{
+  "id": "hands-on-multi-agent-part1-2026",
+  "title": "Build a multi-agent system | Hands On AI (Part 1)",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Annie Wang",
+    "Ayo Adedeji"
+  ],
+  "url": "https://youtu.be/rHtRWyxVQps?si=m5ka_Qjq-qtAbGaO",
+  "date": "2026-03-21",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Part 1 of a hands-on multi-agent lab series using an RPG game theme. Covers setting up Google Cloud developer credits and APIs, building a Model Context Protocol (MCP) server to expose custom tools, and constructing specialized ADK workflow agents (Sequential Fire Familiar, Parallel Water Familiar, and Loop Earth Familiar) orchestrated by a central Summoner agent.",
+  "entities": [
+    "Agent Development Kit (ADK)",
+    "Model Context Protocol (MCP)",
+    "Gemini 2.5 Flash",
+    "Sequential Workflow Agent",
+    "Parallel Workflow Agent",
+    "Loop Workflow Agent",
+    "Cloud Shell",
+    "FastAPI",
+    "Pydantic"
+  ],
+  "segments": [
+    {
+      "heading": "Hands-on project overview and multi-agent RPG architecture",
+      "text": "The codelab establishes a multi-agent RPG system where player commands are orchestrated by a Summoner agent coordinating specialized sub-agents: a Fire Familiar (sequential step execution), a Water Familiar (parallel data gathering), and an Earth Familiar (iterative validation loops). The architecture demonstrates modular tool and agent composition using ADK and MCP."
+    },
+    {
+      "heading": "Building an MCP server for tool integration",
+      "text": "Developers create a custom Model Context Protocol (MCP) server using Python and FastAPI. The server exposes structured tools (calculating combat damage, querying spell registries, checking inventory state) with standardized JSON schemas that can be attached dynamically to any ADK agent."
+    },
+    {
+      "heading": "Constructing specialized ADK workflow patterns",
+      "text": "The lab walks through coding distinct workflow agent topologies in ADK: (1) Sequential Agents executing deterministic linear pipelines, (2) Parallel Agents querying multiple sources concurrently to minimize latency, and (3) Loop / Evaluator Agents executing multi-turn validation loops until quality criteria are satisfied."
+    },
+    {
+      "heading": "Orchestrating agents with the Summoner agent core",
+      "text": "The Summoner agent is configured with Gemini 2.5 Flash as its reasoning core. It parses freeform user intent, connects to the MCP tool server, delegates sub-tasks to the appropriate familiar agents, and synthesizes structured action plans ready for deployment in Part 2."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

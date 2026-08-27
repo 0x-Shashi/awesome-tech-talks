@@ -1,0 +1,81 @@
+{
+  "id": "koray-kavukcuoglu-building-agi-2025",
+  "title": "Koray Kavukcuoglu: This Is How We Are Going to Build AGI",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Logan Kilpatrick",
+    "Koray Kavukcuoglu"
+  ],
+  "url": "https://youtu.be/fXtna7UrL44?si=cwFn4bPyjMNkKVYJ",
+  "date": "2025-11-25",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "AI Agents",
+    "Research/Papers"
+  ],
+  "description": "Join Logan Kilpatrick and Koray Kavukcuoglu, CTO of Google DeepMind and Chief AI Architect of Google, as they discuss Gemini 3 and the state of AI! Their conversation includes the reception of Gemini 3, the ongoing advancements in AI research, and the role of benchmarks in pushing new frontiers. They explore critical areas for Gemini's focus, emphasizing instruction following, tool calls, and internationalization, alongside Google's collaborative approach to AI development.",
+  "entities": [
+    "Gemini 3",
+    "Gemini 3 Pro",
+    "Gemini 2.5",
+    "Google DeepMind",
+    "Koray Kavukcuoglu",
+    "Logan Kilpatrick",
+    "Demis Hassabis",
+    "Shane Legg",
+    "Sergey Brin",
+    "Yann LeCun",
+    "Tulsee Doshi",
+    "Antigravity",
+    "AI Studio",
+    "Search AI Mode",
+    "Nano Banana",
+    "Nano Banana Pro",
+    "Deep Think",
+    "Veo 3.1",
+    "PixelCNN",
+    "DQN",
+    "AlphaGo",
+    "AlphaZero",
+    "AlphaFold",
+    "HLE",
+    "GPQA Diamond",
+    "ARC-AGI-2",
+    "IMO",
+    "ICPC",
+    "LMSYS Chatbot Arena"
+  ],
+  "segments": [
+    {
+      "heading": "Gemini 3 launch reception and continuous research acceleration",
+      "text": "Koray Kavukcuoglu (CTO of Google DeepMind and Chief AI Architect of Google) reflects on the global release of Gemini 3. Contrasting the prevailing external skepticism about model scaling limits, Kavukcuoglu asserts that research momentum across pre-training, post-training, and reinforcement learning has accelerated rather than plateaued. When static benchmarks (such as GPQA Diamond) near saturation, new dynamic evaluations (HLE, ARC-AGI-2) emerge to measure newly unlocked reasoning frontiers."
+    },
+    {
+      "heading": "Key focus areas for Gemini: instruction following, internationalization, and tool calls",
+      "text": "Kavukcuoglu identifies the core capabilities prioritized in Gemini 3:\n\n1. Instruction following: Ensuring models adhere precisely to user constraints rather than hallucinating generic responses.\n2. Internationalization: Expanding multilingual reasoning depth for non-English languages historically underserved by frontier LLMs.\n3. Function calling and agentic code generation: Empowering models to naturally invoke external APIs, author their own tools, and write functional software to solve digital tasks."
+    },
+    {
+      "heading": "Product scaffolding: Antigravity, AI Studio, and real-world signal",
+      "text": "Kavukcuoglu emphasizes that artificial general intelligence will not be constructed in isolated research silos. Google's product ecosystem (Antigravity coding harness, AI Studio, Gemini App, and Search AI Mode) provides high-bandwidth user feedback loops. Direct signals from professional developers and enterprise users allow model researchers to identify behavioral bottlenecks and optimize training runs for real-world utility rather than theoretical benchmarks."
+    },
+    {
+      "heading": "Role of Chief AI Architect: aligning research with global products",
+      "text": "In his dual role as DeepMind CTO and Google Chief AI Architect, Kavukcuoglu bridges frontier research with massive-scale product deployment. Rather than dictating product features, the architecture team provides foundational models and frameworks to internal Google product teams, synchronizing Day 1 global launches across billions of touchpoints while maintaining rigorous engineering standards for safety and security."
+    },
+    {
+      "heading": "From pure research to an engineering mindset: scaling DeepMind",
+      "text": "Kavukcuoglu charts the cultural evolution of DeepMind. Historically focused on academic paper publishing (DQN, AlphaGo, AlphaFold), the organization transitioned into an engineering discipline shipping major model families every six months and minor iterations every 45 days. Research teams now organize around shared mainlines (such as Deep Think competing in IMO and ICPC) while maintaining exploratory scientific freedom."
+    },
+    {
+      "heading": "Generative media convergence: Nano Banana and Nano Banana Pro",
+      "text": "The panel discusses the unification of text and vision architectures. From early PixelCNN experiments to Nano Banana and Nano Banana Pro (built on Gemini 3 Pro), generative media models have merged with multimodal foundation models. Rather than operating as isolated diffusion systems, unified architectures comprehend complex multimodal inputs (such as synthesizing dense technical documents into precise infographics) through joint world representations."
+    },
+    {
+      "heading": "Google's comeback story and the imperative of ongoing innovation",
+      "text": "Kavukcuoglu recounts joining DeepMind in 2012 as its first deep learning researcher out of Yann LeCun's NYU lab. He candidly acknowledges that Google experienced an underdog phase when modern LLMs first surged, requiring the company to catch up on large language model training. Rather than relying solely on infrastructure scale, Google regained its leadership position (crossing 1500 Elo on the LMSYS Arena with Gemini 3) through relentless algorithmic innovation across the entire vertical stack."
+    }
+  ],
+  "read_time_minutes": 1.7
+}

@@ -1,0 +1,70 @@
+{
+  "id": "mike-clark-vertex-ai-devfest-2025",
+  "title": "Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Frank van Puffelen",
+    "Mike Clark"
+  ],
+  "url": "https://youtu.be/9oYHU1hdDog?si=6tJa6SYQq0apwmL6",
+  "date": "2025-11-21",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "AI just reset the developer playbook. In this DevFest Silicon Valley sit-down, Mike Clark (Google Director of Product Management, AI Agents) sits down with Frank (Puf) Van Puffelen (Google Developer Expert and Engineer), sharing how agents are moving from demos to production with Vertex AI Agent Builder, Agent Engine, and the open-source Agent Developer Kit (SDK). They also discuss what build scale govern means for real teams.",
+  "entities": [
+    "Mike Clark",
+    "Frank van Puffelen",
+    "Vertex AI Agent Builder",
+    "Agent Engine",
+    "Agent Development Kit (ADK)",
+    "Gemini Enterprise",
+    "Google DeepMind",
+    "A2A protocol",
+    "A2UI",
+    "A2P",
+    "OpenTelemetry",
+    "Google Cloud Run",
+    "Google Kubernetes Engine (GKE)",
+    "DevFest Silicon Valley",
+    "Llama",
+    "Photobucket",
+    "Firebase",
+    "Color Health",
+    "NotebookLM",
+    "Deep Research",
+    "Gemini CLI",
+    "Linux Foundation"
+  ],
+  "segments": [
+    {
+      "heading": "DevFest energy and the democratizing reset of AI",
+      "text": "Mike Clark (Director of Product Management for AI Agents at Google Cloud) and Frank van Puffelen discuss the atmosphere at DevFest Silicon Valley. Clark highlights that modern generative AI represents a global reset across engineering, product management, and research disciplines. Unlike earlier computational eras requiring massive capital and specialized supercomputing access, modern agent platforms make advanced tools accessible to individual builders, startups, and enterprises alike."
+    },
+    {
+      "heading": "Shifting from syntax mastery to creative intent and business outcomes",
+      "text": "Clark and van Puffelen reflect on historical shifts in software engineering (from early Unix, Photobucket, and early Firebase client-side databases to modern vibe coding). Historically, developers had to master low-level syntax, dependency management, and specific language dialects before solving problems. Today, creativity and architectural intent matter as much as manual coding chops. Citizen creators build functional software using tools like AI Studio and ADK, while marketing and product teams deploy substantial volumes of functional business logic without traditional engineering bottlenecks."
+    },
+    {
+      "heading": "Rethinking code quality: outcome-driven evaluation vs. traditional PRs",
+      "text": "The speakers discuss how code quality is evaluated in agentic ecosystems. Clark argues that businesses measure success by outcomes (whether a system securely, reliably, and safely achieves its intended business goal) rather than stylistic code perfection. The concept of the traditional pull request is evolving into continuous agent validation loops where multi-step autonomous agents verify intermediate safety, security, and functional boundaries at every execution step."
+    },
+    {
+      "heading": "Vertex AI Agent Platform: ADK, Agent Engine, and runtime hosting",
+      "text": "Clark details the core architecture of Google Cloud's agent stack:\n\n1. Agent Development Kit (ADK): An open-source framework for orchestrating models, instructions, and tools.\n2. Agent Engine: A fully managed runtime providing scalable hosting, identity authentication, execution traces, observability (built on OpenTelemetry), and evaluation frameworks.\n3. Deployment flexibility: Agents developed with ADK can deploy natively to Vertex AI Agent Engine, Google Cloud Run, or custom GKE clusters, powering internal Google products and enterprise suites like Gemini Enterprise."
+    },
+    {
+      "heading": "The Build-Scale-Govern lifecycle for enterprise agents",
+      "text": "Clark frames the evolution of enterprise agent adoption across three distinct phases: Build (initial prototype exploration and prompt engineering), Scale (deploying high-concurrency runtimes with telemetry and performance tracing), and Govern (enforcing granular RBAC security, agent identity authentication, and regulatory compliance). Case study: Color Health leverages the full stack to build regulated healthcare workflows for cancer screening adherence while complying with strict healthcare governance mandates."
+    },
+    {
+      "heading": "Open standards: A2A, A2UI, A2P, and Linux Foundation contributions",
+      "text": "To foster interoperability across the industry, Google Cloud open-sources core agentic protocols and contributes them to the Linux Foundation:\n\n- A2A (Agent-to-Agent): Standardizing direct inter-agent communication, discovery, and skill negotiation.\n- A2UI (Agent-to-UI): Standardizing dynamic real-time user interface generation from agent streams.\n- A2P (Agent-to-Payment): Establishing protocols for secure agentic transactions and commercial contracts."
+    }
+  ],
+  "read_time_minutes": 1.6
+}

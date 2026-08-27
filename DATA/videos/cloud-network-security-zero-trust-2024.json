@@ -1,0 +1,48 @@
+{
+  "id": "cloud-network-security-zero-trust-2024",
+  "title": "Simplified Google Cloud network security: Zero-trust and beyond",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "S. Shiraj",
+    "Toby",
+    "Olivier",
+    "Ashok"
+  ],
+  "url": "https://youtu.be/pQyhpIR6HPU?si=PwB5RR0_rcvk4cPw",
+  "date": "2024-07-01",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra"
+  ],
+  "description": "Comprehensive session on Google Cloud's ML-powered zero-trust network security architecture. Covers Cloud Next-Generation Firewall (NGFW), Cloud Secure Web Proxy with inline Symantec DLP integration, and Cloud Armor edge DDoS protection. Features financial collaboration platform Symphony showcasing their cloud migration security architecture.",
+  "entities": [
+    "Cloud Next-Generation Firewall (NGFW)",
+    "Cloud Secure Web Proxy",
+    "Cloud Armor",
+    "Zero-Trust Architecture",
+    "Broadcom / Symantec DLP",
+    "Symphony",
+    "VPC Service Controls",
+    "Data Loss Prevention (DLP)"
+  ],
+  "segments": [
+    {
+      "heading": "The modern threat landscape: securing multi-cloud and distributed applications",
+      "text": "Over 88% of organizations face major security challenges as workloads distribute across multi-region, multi-cloud, and public-facing environments. A typical enterprise experiences over 60,000 security attacks annually. Cloud network security addresses three primary vectors: protecting distributed application-to-application traffic, securing public-facing global frontends, and protecting hybrid workforces."
+    },
+    {
+      "heading": "Cloud Secure Web Proxy and inline DLP integration",
+      "text": "Cloud Secure Web Proxy provides a fully managed, serverless egress proxy that enforces granular URL and domain authorization policies for outbound traffic without managing VM fleets or legacy Squid proxies. In partnership with Broadcom, Google Cloud integrates inline Symantec Data Loss Prevention (DLP) directly into Secure Web Proxy and Cloud Load Balancers, inspecting encrypted egress traffic to prevent data exfiltration."
+    },
+    {
+      "heading": "Cloud Next-Generation Firewall (NGFW) and intrusion prevention",
+      "text": "Cloud NGFW embeds advanced threat detection and intrusion prevention services (IPS) natively into the Google Cloud network fabric. It provides distributed, scalable Layer 7 application inspection, automatically blocking known CVE exploits and malicious lateral traffic across VPCs without network re-architecture."
+    },
+    {
+      "heading": "Customer spotlight: Symphony's zero-trust cloud migration",
+      "text": "Financial communication platform Symphony shares their migration to Google Cloud, detailing how they implemented zero-trust network controls to satisfy strict banking regulatory compliance while maintaining high-throughput, low-latency messaging across hybrid deployments."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

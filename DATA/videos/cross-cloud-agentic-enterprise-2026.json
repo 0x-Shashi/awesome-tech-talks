@@ -1,0 +1,51 @@
+{
+  "id": "cross-cloud-agentic-enterprise-2026",
+  "title": "Cross-cloud infrastructure for the agentic enterprise",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Drew Bradstock",
+    "Muninder Sambi",
+    "James Duncan",
+    "Fiona Tan"
+  ],
+  "url": "https://youtu.be/gY95kEL-JGI?si=SE5Zt-KUcR6kY9F5",
+  "date": "2026-04-28",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Explores the infrastructure transformation required for enterprise AI agents operating across multi-cloud and sovereign environments. Details four core architectural pillars: Fluid Compute (TPU v8, Axion ARM CPUs, GKE Agent Sandbox with gVisor isolation), Secure Cross-Cloud Connectivity, Unified Data Layer (combating data gravity), and Digital Sovereignty. Features case studies from Lovable, Walmart, and CSSF.",
+  "entities": [
+    "GKE Agent Sandbox (gVisor)",
+    "Tensor Processing Unit (TPU v8)",
+    "Google Axion (ARM CPUs)",
+    "Cross-Cloud Interconnect",
+    "Hyperdisk Extreme",
+    "C4 / N4 Compute Instances",
+    "Lovable",
+    "Walmart",
+    "CSSF (Luxembourg)",
+    "Digital Sovereignty"
+  ],
+  "segments": [
+    {
+      "heading": "The infrastructure renaissance: inference dominance and agent demand",
+      "text": "AI inference has grown to represent nearly half of all cloud AI workloads, eclipsing model training. Autonomous agents execute multi-step tool calls at machine speed, stressing legacy networks and compute clusters. Over 350 enterprise customers processed more than 100 billion tokens monthly, requiring infrastructure that dynamically adapts to high-throughput, low-latency agentic spikes."
+    },
+    {
+      "heading": "Fluid compute: TPU v8, Google Axion ARM CPUs, and GKE Agent Sandbox",
+      "text": "Fluid compute pairs specialized AI accelerators with flexible CPUs: 8th-generation TPUs handle high-volume inference while Google Axion ARM CPUs provide 2x better price-performance for orchestration and data preparation. GKE Agent Sandbox uses open-source gVisor kernel isolation to spin up secure, sandboxed code execution environments in under one second, scaling up to 300 sandboxes per second per cluster with instant suspend/resume snapshots."
+    },
+    {
+      "heading": "Network performance and storage throughput for enterprise workloads",
+      "text": "Google Cloud introduces network-optimized C4 VM instances delivering 95 million packets per second and 400 Gbps VM-to-VM bandwidth. In-memory database workloads (SAP HANA, Oracle on M4) combine with Hyperdisk Extreme to achieve 1 million IOPS and 25 GB/s throughput, lowering total cost of ownership by 20% compared to other hyperscalers."
+    },
+    {
+      "heading": "Unified data layer and digital sovereignty in multi-cloud operations",
+      "text": "Case studies demonstrate cross-cloud architecture in action: Lovable executes over 200,000 daily AI-generated apps inside GKE Agent Sandboxes; Walmart overcomes global data gravity to synchronize supply chain telemetry; Luxembourg's financial regulator (CSSF) deploys AI risk-monitoring agents within sovereign cloud boundaries without compromising innovation pace."
+    }
+  ],
+  "read_time_minutes": 0.8
+}

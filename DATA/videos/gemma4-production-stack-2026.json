@@ -1,0 +1,51 @@
+{
+  "id": "gemma4-production-stack-2026",
+  "title": "Gemma 4 production stack: Model Armor, ADK Agents, Tracing",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Ayo Adedeji",
+    "Annie Wang"
+  ],
+  "url": "https://youtu.be/7wENq-LMHgQ?si=u6WZXqoRDuJYxzeW",
+  "date": "2026-04-19",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Step-by-step codelab on building a secure, observable Gemma 4 production agent stack on Google Cloud. Covers deploying open-weights Gemma 4 models on vLLM and Ollama on Cloud Run, securing traffic via Cloud Load Balancer with Model Armor Service Extensions (blocking prompt injection and PII leaks), scraping GPU metrics with a Prometheus sidecar, and instrumenting end-to-end OpenTelemetry Cloud Trace.",
+  "entities": [
+    "Gemma 4",
+    "Model Armor",
+    "Agent Development Kit (ADK)",
+    "Cloud Run",
+    "Cloud Load Balancing",
+    "Service Extensions (Envoy)",
+    "vLLM",
+    "Ollama",
+    "Cloud Trace (OpenTelemetry)",
+    "Prometheus Sidecar",
+    "Cloud Monitoring"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture overview: securing and observing Gemma 4",
+      "text": "Building a production open-weights agent stack requires four core layers: (1) Optimized serving using vLLM and Ollama deployed on Cloud Run GPU instances, (2) Traffic routing through Cloud Load Balancing, (3) Security inspection via Model Armor service extensions, and (4) Comprehensive observability using Prometheus metrics and Cloud Trace."
+    },
+    {
+      "heading": "Model security: Model Armor via Load Balancer Service Extensions",
+      "text": "Model Armor secures open-weights inference by intercepting both incoming prompts and outgoing completions. By deploying Model Armor as a Cloud Load Balancing Service Extension (running Envoy Callout filters), the security layer inspects payloads at the network edge, rejecting prompt injections, jailbreaks, and PII before requests touch the vLLM backend."
+    },
+    {
+      "heading": "ADK Agent orchestration on Cloud Run",
+      "text": "The Agent Development Kit (ADK) wraps the Gemma 4 backend into an autonomous conversational agent. The agent is containerized and deployed to Cloud Run using automated Cloud Build CI/CD pipelines, supporting dynamic tool execution and session handling."
+    },
+    {
+      "heading": "Observability: Prometheus metrics and end-to-end Cloud Trace",
+      "text": "Observability is implemented across two dimensions: a Prometheus sidecar container scrapes vLLM metrics (GPU memory utilization, token generation throughput, prefill latency), while OpenTelemetry traces propagate execution context through the ADK agent, database tools, and inference backends into Google Cloud Trace."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

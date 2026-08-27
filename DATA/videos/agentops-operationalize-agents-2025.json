@@ -1,0 +1,62 @@
+{
+  "id": "agentops-operationalize-agents-2025",
+  "title": "AgentOps: Operationalize AI Agents",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Sita Lakshmi Sangameswaran",
+    "Sokratis Kartakis"
+  ],
+  "url": "https://youtu.be/kJRgj58ujEk?si=GxGlzxwuOcqRhDeg",
+  "date": "2025-06-12",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "A comprehensive masterclass on operationalizing generative AI agents (AgentOps). Builds upon the evolution from DevOps to MLOps and GenAIOps to establish foundational AgentOps practices: standardized repository structures, multi-environment architectures (Dev, Staging, Prod, Governance), prompt and tool catalogs, Model Armor guardrails, evaluation loops, and tool registry patterns.",
+  "entities": [
+    "AgentOps",
+    "DevOps",
+    "MLOps",
+    "GenAIOps",
+    "Agent Development Kit (ADK)",
+    "Gemini 2.0 Flash",
+    "Gemini Pro",
+    "Model Armor",
+    "Apigee API Hub",
+    "Model Registry",
+    "Prompt Catalog",
+    "Tool Registry",
+    "Firestore",
+    "Cloud Run",
+    "BigQuery",
+    "Cloud Storage",
+    "Terraform",
+    "LLM-as-a-Judge"
+  ],
+  "segments": [
+    {
+      "heading": "Evolution from DevOps and MLOps to GenAIOps and AgentOps",
+      "text": "DevOps established repository, CI/CD, and automated testing standards for deterministic software. MLOps extended DevOps to non-deterministic model training and deployment. GenAIOps emerged as an umbrella discipline covering Foundation Model Operations (producers) and AI application lifecycle management (consumers). Under GenAIOps, AgentOps specifically tackles multi-step reasoning, tool execution, memory persistence, and dynamic planning."
+    },
+    {
+      "heading": "Multi-environment enterprise architecture for AI systems",
+      "text": "Robust AI operations require four distinct environment layers: (1) Infrastructure and networking (VPCs, IAM, Terraform); (2) Data Lake / Data Mesh (ETL pipelines, RAG stores, prompt catalogs); (3) Compute environments (Sandbox for research, Development for building, Staging for integration testing, Production for user traffic); (4) Governance (central Model Registry, code repositories, artifact stores, audit dashboards)."
+    },
+    {
+      "heading": "GenAIOps workflows: prompt catalog, model selection, and guardrails",
+      "text": "Enterprises filter thousands of public models down to approved sets evaluated on custom datasets across precision, latency, and cost (such as choosing Gemini Flash over Pro for speed and cost efficiency). A Prompt Catalog versions prompts and test cases. The backend application implements caching, auto context retrieval (RAG), telemetry monitoring, and safety guardrails (using Model Armor to prevent prompt injection and redact PII)."
+    },
+    {
+      "heading": "Agent core mechanics: function calling and runtime loops",
+      "text": "An agent core consists of a foundation model, system instructions, and declared tool schemas. When given a query, the model outputs structured function call parameters. The agent runtime executes the function against underlying APIs or code, feeds the tool output back to the model, and iterates until the final response is constructed."
+    },
+    {
+      "heading": "AgentOps evaluation, tool registries, and repository standardization",
+      "text": "Agent evaluation tests tool selection accuracy, parameter extraction validity, answer grounding, and operational latency. Tool Registries (using Apigee API Hub and Firestore) centralize and govern code tools, data tools, and API tools with unified authentication. Standardized repository layouts organize modular tools, agent prompts, eval scripts, and deployment configurations into reproducible CI/CD pipelines."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

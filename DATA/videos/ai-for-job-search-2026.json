@@ -1,0 +1,59 @@
+{
+  "id": "ai-for-job-search-2026",
+  "title": "How to use AI for your job search | Google Career Certificates",
+  "channel": "Grow with Google",
+  "speakers": [
+    "Tony",
+    "Sydney"
+  ],
+  "url": "https://youtu.be/Iw_G_j1o6fQ?si=PriKzpvDryQEE_xp",
+  "date": "2026-01-28",
+  "format": "Workshop",
+  "level": "Beginner",
+  "topics": [
+    "Product/Startup",
+    "LLM Fundamentals"
+  ],
+  "description": "Comprehensive practical guide from Google Career Certificates on using generative AI tools across the entire job search lifecycle. Covers identifying transferable skills, building career identity statements with Career Dreamer, structuring actionable job search plans with Gemini, writing tailored and measurable resumes, managing professional online presence, and preparing for behavioral interviews.",
+  "entities": [
+    "Gemini (Google AI)",
+    "Career Dreamer (Google)",
+    "Google Career Certificates",
+    "Lightcast",
+    "ChatGPT",
+    "Claude",
+    "Copilot",
+    "LinkedIn",
+    "Behance",
+    "GitHub",
+    "Handshake",
+    "Google Docs"
+  ],
+  "segments": [
+    {
+      "heading": "Introduction: structuring the modern job search with AI",
+      "text": "The average US job search takes around 20 weeks and involves hundreds of application rounds. Generative AI tools (Gemini, ChatGPT, Claude) act as collaborative assistants to simplify and organize the process: identifying transferable skills, drafting career identity statements, building search plans, tailoring resumes, and practicing interview scenarios."
+    },
+    {
+      "heading": "Identifying transferable skills and skills-based hiring",
+      "text": "Employers increasingly adopt skills-based hiring practices, prioritizing verified competencies over rigid degree credentials. Transferable skills (communication, problem solving, teamwork, data analysis) are uncovered through a three-step reflection: examining life and work experiences, isolating specific capabilities built during those roles, and mapping those capabilities to target job requirements."
+    },
+    {
+      "heading": "Career identity statements and the Career Dreamer tool",
+      "text": "A career identity statement acts as a North Star, summarizing a candidate's skills, background, and professional goals in a concise, authentic paragraph for bios, elevator pitches, and cover letters. Career Dreamer (grow.google/careerdreamer) uses Lightcast labor market data and generative AI to extract transferable skills from prior jobs, generate tailored identity statements, and suggest aligned career pathways."
+    },
+    {
+      "heading": "Building a customized job search plan with Gemini",
+      "text": "Job seekers with structured search plans are 30% more likely to receive offers. Prompting Gemini with a target role, available weekly hours, and a career identity statement produces an iterative step-by-step roadmap covering company research, portfolio updates, application targets, and follow-up cadence."
+    },
+    {
+      "heading": "Resume best practices: content, structure, and AI tailoring",
+      "text": "Recruiters spend an average of 7.4 seconds reviewing a resume. Key principles: (1) Content: lead with measurable business impact (quantifiable metrics), strong action verbs, and clear context; (2) Structure: concise 1-2 page layout, scannable bullet points, and prominent skill keywords matching the target job description; (3) Personalization: iteratively tailoring resume bullets to specific job postings rather than submitting generic applications."
+    },
+    {
+      "heading": "Building and curating a professional online presence",
+      "text": "An online presence acts as an always-on personal brand. Candidates should actively engage in industry discussions, publish project portfolios (GitHub for developers, Behance for designers, LinkedIn for general networking), audit personal privacy settings, and use AI prompts to identify relevant industry platforms and communities."
+    }
+  ],
+  "read_time_minutes": 1.2
+}

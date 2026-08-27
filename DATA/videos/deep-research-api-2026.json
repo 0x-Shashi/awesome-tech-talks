@@ -1,0 +1,50 @@
+{
+  "id": "deep-research-api-2026",
+  "title": "Implementing DeepMind innovation: Deep research API",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Advait Bopardikar",
+    "Philipp Schmid",
+    "Patrick Starling"
+  ],
+  "url": "https://youtu.be/05043f3GseE?si=upFs_lzz0NXh8q0V",
+  "date": "2026-06-25",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "LLM Fundamentals",
+    "Product/Startup"
+  ],
+  "description": "Deep dive into Google DeepMind's Deep Research API available on Google AI Studio and Gemini Enterprise Agent Platform. Explains how Gemini uses post-training for iterative multi-step web search, data synthesis, inline chart generation, and MCP data connectors. Features financial intelligence provider FactSet demonstrating automated research reporting on financial assets.",
+  "entities": [
+    "Deep Research API",
+    "Google DeepMind",
+    "Gemini Enterprise Agent Platform",
+    "Google AI Studio",
+    "Model Context Protocol (MCP)",
+    "FactSet",
+    "Iterative Search Reasoning",
+    "Grounding & Citations",
+    "Infographic Generation"
+  ],
+  "segments": [
+    {
+      "heading": "DeepMind innovation strategy: bringing research directly to APIs",
+      "text": "Google's vertical integration (custom silicon, foundation models, enterprise agent platforms) allows translating DeepMind research breakthroughs directly into commercial APIs. The Deep Research API exposes the autonomous research capabilities powering consumer Gemini directly to software developers, automating multi-hour manual research workflows into minutes."
+    },
+    {
+      "heading": "How the Deep Research agent works: iterative search and post-training",
+      "text": "Unlike standard one-shot search grounding, Deep Research uses a specialized reasoning loop: (1) Decomposes complex queries into search sub-hypotheses, (2) Executes iterative Google searches, evaluating domain authority and factuality, (3) Pulls proprietary internal data via MCP servers, (4) Synthesizes long-form reports with strict source citations, and (5) Renders visual charts and infographics automatically."
+    },
+    {
+      "heading": "Hands-on developer walkthrough and API parameters",
+      "text": "Philipp Schmid demonstrates integrating the Deep Research API via Google AI Studio and Python SDKs. Developers configure search depth, domain inclusion filters, MCP data connectors, and structured output formatting, enabling autonomous research agents to power internal enterprise knowledge bases."
+    },
+    {
+      "heading": "Customer case study: FactSet automated financial research",
+      "text": "Patrick Starling from FactSet demonstrates integrating the Deep Research API into institutional financial workflows. FactSet combines its proprietary financial market data with Deep Research web intelligence to generate comprehensive equity research briefs, ESG risk assessments, and earnings call syntheses for financial analysts."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

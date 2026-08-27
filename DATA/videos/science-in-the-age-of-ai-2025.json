@@ -1,0 +1,50 @@
+{
+  "id": "science-in-the-age-of-ai-2025",
+  "title": "Science in the age of AI",
+  "channel": "Google for Developers",
+  "speakers": [
+    "James Manyika",
+    "Pushmeet Kohli",
+    "Joëlle Barral",
+    "Anima Anandkumar"
+  ],
+  "url": "https://youtu.be/NYtQuneZMXc?si=0xRnvtYslsp-UHKV",
+  "date": "2025-05-23",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "Research/Papers",
+    "LLM Fundamentals"
+  ],
+  "description": "Google I/O 2025 science keynote exploring landmark breakthroughs powered by AI across biology, medicine, and physical sciences. Google DeepMind and Google Research leaders discuss AlphaFold 3 and the free AlphaFold Server for molecular modeling, TxGemma open foundation models for therapeutics discovery, AMIE diagnostic dialogue agents with multimodal vision, and neural PDE solvers for climate prediction.",
+  "entities": [
+    "AlphaFold 3",
+    "AlphaFold Server",
+    "Google DeepMind",
+    "TxGemma",
+    "AMIE (Articulate Medical Intelligence Explorer)",
+    "Neural Partial Differential Equations (PDEs)",
+    "GraphCast (Weather AI)",
+    "Caltech",
+    "Therapeutics Discovery"
+  ],
+  "segments": [
+    {
+      "heading": "AI driving landmark advances across the scientific frontier",
+      "text": "James Manyika opens the session highlighting Google's commitment to applying AI to fundamental science. Rather than viewing AI solely as an economic productivity tool, AI models act as catalytic research tools accelerating discovery across structural biology, genomics, materials science, and climate dynamics."
+    },
+    {
+      "heading": "AlphaFold 3 and the AlphaFold Server: modeling the entire biomolecular universe",
+      "text": "Pushmeet Kohli details AlphaFold 3, which expands beyond single protein structures to model complex interactions across proteins, DNA, RNA, ligands, and chemical modifications in a single unified diffusion architecture. DeepMind offers the AlphaFold Server for free to non-commercial researchers globally, drastically accelerating biological and pharmaceutical research."
+    },
+    {
+      "heading": "Therapeutics and clinical AI: TxGemma and AMIE multimodal diagnostics",
+      "text": "Joëlle Barral presents TxGemma, an open-weights foundation model suite fine-tuned on biochemical and therapeutic benchmarks. In medical diagnostics, the AMIE agent adds multimodal vision to conversational reasoning, demonstrating clinical diagnostic dialogue and visual symptom reasoning exceeding primary care physician benchmarks in simulated clinical trials."
+    },
+    {
+      "heading": "AI for physical sciences and climate modeling with Anima Anandkumar",
+      "text": "Caltech Professor Anima Anandkumar discusses using Fourier Neural Operators and physics-informed ML to solve complex partial differential equations (PDEs) up to orders of magnitude faster than numerical solvers, enabling real-time weather forecasting (GraphCast), seismic imaging, and carbon sequestration simulations."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

@@ -1,0 +1,83 @@
+{
+  "id": "agentops-bigquery-adk-mcp-2026",
+  "title": "Agent development and AgentOps with BigQuery, ADK, and MCP",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Sandeep Karmarkar",
+    "Jiaxun Wu",
+    "Guillaume Blaquiere"
+  ],
+  "url": "https://youtu.be/tQGalTBL1Ek?si=3S4gCmuNRLWXPrN-",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Join this session to learn about Agent Development Kit (ADK) and Model Context Protocol (MCP) integration methods that standardize how agents connect to your data while removing the need to build custom database connectors from scratch. Discover how to build agents with the ADK that access BigQuery for analysis, Google Maps for geospatial insights, and AlloyDB for transactions, all in a single workflow. Learn how to implement agent operations (AgentOps) for deep observability into both agent performance and cost with a single line of code.",
+  "entities": [
+    "Agent Development Kit (ADK)",
+    "Model Context Protocol (MCP)",
+    "BigQuery",
+    "AlloyDB",
+    "Google Maps",
+    "MCP Toolbox",
+    "Agent Analytics",
+    "BigQuery Agent Analytics plugin",
+    "Vertex AI Agent Engine",
+    "Vertex AI Search Engine",
+    "Gemini Enterprise Agent Platform",
+    "Cloud Run",
+    "Agent Hub",
+    "LLM as a judge",
+    "Carrefour",
+    "Phenix Darwin platform",
+    "Bigtable",
+    "Kafka",
+    "Qiddiya",
+    "Bloomberg Media",
+    "Cloud registry",
+    "Glean",
+    "Gemini 2.5 Pro",
+    "Gemini 3.1 Flash",
+    "Google Chat",
+    "OAuth"
+  ],
+  "segments": [
+    {
+      "heading": "Agentic Data Cloud stack: from open-source to managed data agents",
+      "text": "BigQuery positions its agent connectivity offerings on a stack. At the bottom, raw APIs give full flexibility but require the developer to own value creation. Moving up: (1) Agent Development Kit (ADK) with first-party BigQuery tools, (2) open-source MCP Toolbox, (3) managed remote MCP servers (zero-ops), and (4) first-party data agents with built-in agentic harness. Higher on the stack means more built-in value; lower means more flexibility."
+    },
+    {
+      "heading": "ADK with BigQuery tools: a data agent in under 10 lines",
+      "text": "A pip install of the ADK package now includes BigQuery function tools in three categories: foundational tools (find tables, get schema, query in multiple modes), advanced tools (forecasting, contribution analysis), and the ability to use an existing data agent as a tool. BigQuery skills are also available in ADK for higher accuracy in data workflows. A working data agent can be built in under 10 lines of Python using block write mode (read-only) and application default credentials."
+    },
+    {
+      "heading": "MCP Toolbox: open-source server with parameterized SQL tools",
+      "text": "MCP Toolbox is an open-source MCP server with pre-built connectors to multiple data sources including BigQuery. It is configured via YAML and runs locally or remotely. The standout feature is creating custom tools using parameterized SQL: the agent passes parameters instead of generating SQL, making agentic actions more deterministic. Example: a hotel-booking chatbot tool that accepts a hotel name as a parameter rather than allowing the agent to write arbitrary SQL. MCP Toolbox and its tools are available in a stable release."
+    },
+    {
+      "heading": "Managed BigQuery MCP server: zero-ops with IAM governance",
+      "text": "Google's managed MCP server for BigQuery is available at bigquery.googleapis.com/mcp. It provides two tool sets: read-only tools (blocks all DML and DDL to prevent accidental modifications) and read-write tools (full SQL surface via Execute SQL). Data administrators can apply IAM deny policies to block all read-write tools regardless of what the agent developer configures, keeping data ownership with the platform team. The server integrates with IAM, audit logs, and VPC Service Controls (VPCSC). BigQuery MCP is generally available and used by Anthropic internally and by partners including Glean."
+    },
+    {
+      "heading": "Agent Analytics: one-line observability piped into BigQuery",
+      "text": "Agent Analytics is an open-source ADK plugin (and a Langgraph callback handler) that streams all agent events to a BigQuery table with a single line of code change. Data includes tool use, latency per step, input and output tokens, and can include multimodal data (images, video, audio) through BigQuery object references. Once in BigQuery, standard SQL gives performance and error views; AI functions in BigQuery enable LLM-as-a-judge evaluations and conversation categorization at scale. A data agent can then be built on top of the agent logs table so teams can query their production agent behavior using natural language."
+    },
+    {
+      "heading": "Demo: bakery-location business consultant agent (BigQuery + Google Maps)",
+      "text": "Jiaxun Wu demonstrated a business consultant agent for opening a bakery in Los Angeles. The agent uses two managed MCP tools: BigQuery (for traffic data and sales history) and Google Maps (for real-time competitor locations). The agent routes each question to the right tool automatically. Steps: (1) find the zip code with the highest morning traffic using BigQuery, (2) list competing bakeries in that zip code using Google Maps, (3) get top-three best-selling bakery items from sales history using BigQuery. Agent Analytics logged all events in real time. A BigQuery conversational analytics agent then analyzed agent latency and identified that Google Maps place searches were slower than BigQuery queries."
+    },
+    {
+      "heading": "Carrefour case study: data platform support agent with ADK and OAuth",
+      "text": "Guillaume Blaquiere (Carrefour) built a support agent for the Carrefour data platform (code-named Phenix Darwin) that handles 600-plus internal data consumers via Google Chat. The problem: repetitive questions from new team members draining platform team time. The agent ingests documentation and chat history via Vertex AI Search, manages sessions via Vertex AI Agent Engine (Gemini Enterprise Agent Platform), and runs on Cloud Run. BigQuery Agent Analytics provides dashboards on session counts (approximately 200 per week), error rates, latency, and most-used tools. An OAuth flow restricted to direct messages prevents credential sharing in group spaces. Switching from custom Python code to ADK BigQuery toolsets eliminated hundreds of lines of bespoke database introspection code."
+    },
+    {
+      "heading": "Production takeaways: use case selection, proximity, and integration cost",
+      "text": "Guillaume's three closing lessons: (1) choose the right use case: do not apply AI to every workflow; pick cases where AI delivers clear value. (2) Bring agents to where users already are: integrating the agent into Google Chat rather than a new tool drove immediate adoption. (3) Never underestimate integration cost: connecting agents to legacy applications, especially mainframe systems without APIs, is harder than it appears."
+    }
+  ],
+  "read_time_minutes": 2.8
+}

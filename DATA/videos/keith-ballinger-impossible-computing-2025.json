@@ -1,0 +1,50 @@
+{
+  "id": "keith-ballinger-impossible-computing-2025",
+  "title": "The Impossible Computing with Keith Ballinger | The Agent Factory Podcast",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Keith Ballinger",
+    "Mollie Pettit",
+    "Vlad Kolesnikov"
+  ],
+  "url": "https://youtu.be/I-xS4nw-HfU?si=5EYpQofB8w80Y7Y6",
+  "date": "2025-09-04",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools",
+    "Product/Startup"
+  ],
+  "description": "Episode of The Agent Factory Podcast featuring Keith Ballinger. Explores 'Impossible Computing' - building software and agentic workflows that were previously economically or computationally infeasible. Discusses developer leverage, Gemini CLI, multimodal media pipelines (Veo 3, Imagen 4), and moving from basic coding assistance to autonomous agents executing multi-step production deployments on Cloud Run.",
+  "entities": [
+    "Impossible Computing",
+    "Gemini CLI",
+    "Gemini 2.5 Flash",
+    "Cloud Run",
+    "Veo 3",
+    "Imagen 4",
+    "Agent Development Kit (ADK)",
+    "Vibe Coding",
+    "Autonomous Task Automation"
+  ],
+  "segments": [
+    {
+      "heading": "Impossible computing: rethinking software economics with AI",
+      "text": "Keith Ballinger introduces 'Impossible Computing' - the concept that modern foundation models make previously unthinkable software applications economically viable to build overnight. Tasks requiring months of manual coding or complex heuristics can now be solved with high-leverage agentic prompts and autonomous tooling."
+    },
+    {
+      "heading": "Developer empowerment and the shift to vibe coding",
+      "text": "The hosts discuss how agentic IDEs and Gemini CLI transform the developer experience. Software development evolves from writing manual syntax line-by-line to orchestrating high-level architectural intent, rapid prototyping, and automated iterative debugging."
+    },
+    {
+      "heading": "Multimodal media generation pipelines: Veo 3 and Imagen 4",
+      "text": "The conversation explores chaining reasoning models with multimodal generation tools like Veo 3 for cinematic video and Imagen 4 for high-resolution graphics. Agents synthesize unstructured concepts, script narrative scenes, and dynamically call generative media APIs to produce interactive media applications."
+    },
+    {
+      "heading": "Deploying production agents to Cloud Run",
+      "text": "Ballinger highlights architectural patterns for deploying agents into production. Utilizing serverless container platforms like Cloud Run allows developer agents to handle spiky user traffic with instant elasticity, low idle costs, and robust API governance."
+    }
+  ],
+  "read_time_minutes": 0.6
+}

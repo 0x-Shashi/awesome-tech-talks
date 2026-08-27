@@ -1,0 +1,77 @@
+{
+  "id": "developer-craft-evolution-2026",
+  "title": "A fireside chat on the evolution of the developer craft",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Addy Osmani",
+    "Richard Seroter",
+    "Aja Hammerly",
+    "Ciera Jaspan"
+  ],
+  "url": "https://youtu.be/VTYx7Ex-0bA?si=Zh_H7seeITHvqTVg",
+  "date": "2026-05-21",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Career/Advice",
+    "AI Agents"
+  ],
+  "description": "Join leaders from Google developer and AI teams for a candid chat about the human experience of building software today. Move beyond the hype of code generation to discuss how daily creative flows shift when you spend less time on syntax and more time on system architecture. Explore the evolution of the craft, what debugging looks like when your partner is an AI, and discover what the future of your work entails.",
+  "entities": [
+    "Addy Osmani",
+    "Richard Seroter",
+    "Aja Hammerly",
+    "Ciera Jaspan",
+    "Margaret-Anne Storey",
+    "Antigravity",
+    "Antigravity CLI",
+    "Emacs",
+    "Go",
+    "Lisp",
+    "ADK",
+    "AI Studio",
+    "Gemini",
+    "Google I/O",
+    "cognitive debt",
+    "cognitive surrender",
+    "technical debt",
+    "intent debt",
+    "vibe coding",
+    "agentic engineering",
+    "adversarial mentor",
+    "orchestration tax",
+    "spec-driven development"
+  ],
+  "segments": [
+    {
+      "heading": "Redefining the senior engineer in 2026",
+      "text": "The panel examines how seniority in engineering has evolved. Addy Osmani notes that seniority historically meant writing code and solving problems others could not; today, it means understanding complex systems and trade-offs that others cannot parse. Ciera Jaspan emphasizes that senior engineers decompose ambiguous business problems into components and perform trade-off analysis (balancing security, performance, and maintainability). The current challenge is accelerating junior engineers into senior-level architectural thinking quickly. Aja Hammerly defines senior engineers as pragmatic problem solvers who can navigate production incidents at 2:00 AM while maintaining technological curiosity and structured learning habits."
+    },
+    {
+      "heading": "Blurring boundaries across engineering, product, and UX roles",
+      "text": "Jaspan shares findings from internal studies at Google: when cross-functional teams (software engineers, UX researchers, data scientists) adopt AI coding tools, traditional task divisions invert. Software engineers spend less time writing syntax and more time refining technical documentation and architecture design docs; UX researchers and PMs write functional prototype code. Everyone operates at a junior level in adjacent domains while maintaining senior judgment in their core discipline."
+    },
+    {
+      "heading": "Vibe coding vs. agentic engineering: raising the floor vs. hardening for prod",
+      "text": "Osmani distinguishes between vibe coding (non-developers and casual builders rapidly generating interactive prototypes, raising the floor of software creation) and agentic engineering (applying classic computer science, systems engineering, security, and verification to build durable, maintainable production software). The total addressable market of builders has expanded, but production systems require engineering rigor that one-shot code generation cannot replace."
+    },
+    {
+      "heading": "Cognitive debt and cognitive surrender",
+      "text": "Osmani and Jaspan warn against two psychological traps in AI-assisted development. Cognitive debt is the gradual erosion of a developer's mental model and memory of system architecture caused by constantly deferring problem-solving to AI. Cognitive surrender occurs when developers stop critical thinking altogether, blindly accepting model outputs into production codebases without comprehension. Jaspan references research by Margaret-Anne Storey distinguishing three forms of debt: technical debt, cognitive debt, and intent debt."
+    },
+    {
+      "heading": "De-skilling on syntax, up-skilling on architecture and documentation",
+      "text": "The panel explores which developer skills are depreciating and which are appreciating. Syntax memorization, IDE configuration tuning, and framework dogma are rapidly losing value; Hammerly notes touching five programming languages a week (such as Go and Lisp) by relying on conceptual understanding rather than syntax mastery. Conversely, high-value skills include: system architecture, decomposing problems across multi-agent harnesses, and writing exhaustive internal documentation (crucial when team capacity expands with agentic assistants that require clear technical context)."
+    },
+    {
+      "heading": "Daily habits: mutual amplification and the adversarial mentor",
+      "text": "Panelists share practical daily practices for working with AI coding tools:\n\n1. Mutual amplification (Osmani): Ending sessions by codifying new technical insights into project markdown files or skill configurations, creating a continuous reinforcement loop where developer and agent improve together.\n\n2. Adversarial mentor (Hammerly): Prompting models with explicit instructions to critically interrogate finished code and documentation (asking what edge cases were missed, what architectural flaws exist, and instructing the model not to be polite).\n\n3. Innovation budget (Osmani, Jaspan): Resisting daily tooling churn by dedicating focused time (such as exploring one new tool per month or two hours per week) to evaluate real productivity gains on actual work rather than toy benchmarks."
+    },
+    {
+      "heading": "The orchestration tax and parallel cognitive limits",
+      "text": "Osmani addresses the fatigue associated with managing multiple autonomous agents. While developers can spawn 20 agents in parallel, human cognitive bandwidth does not parallelize. Managing numerous concurrent work streams incurs a heavy orchestration tax. Osmani recommends partitioning work into isolated, low-complexity background tasks while reserving personal focus for high-complexity architectural design."
+    }
+  ],
+  "read_time_minutes": 2.1
+}

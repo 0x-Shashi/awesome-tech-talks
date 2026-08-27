@@ -1,0 +1,74 @@
+{
+  "id": "agent-context-engineering-2026",
+  "title": "Agent context engineering for production",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "George Lee",
+    "Kimberly Milam",
+    "Jeff Dixon",
+    "Preethi Prabhakar"
+  ],
+  "url": "https://youtu.be/YKLkHvzjFDk?si=p0SkhaQVKF_wo1T1",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Scalable agents need more than a good system prompt. Every LLM turn is a compiled view across session context, memory, artifacts, tool responses, examples, and instructions. This session covers context engineering: the discipline of providing exactly the right information at the right time. Covers context rot, skills vs. tools, session compaction, and the Vertex AI Memory Bank service with a live demo. Concludes with an AT&T production case study showing cross-channel, multi-session persistent memory.",
+  "entities": [
+    "Context engineering",
+    "Context rot",
+    "Context poisoning",
+    "Progressive disclosure",
+    "Session compaction",
+    "Agent skills (ADK)",
+    "Memory Bank (Vertex AI Agent Platform)",
+    "Memory profiles",
+    "Ingest events (Memory Bank)",
+    "Vertex AI Session Service",
+    "ADK (Agent Development Kit)",
+    "Working context (ADK)",
+    "Gemini (model)",
+    "DLP (Data Loss Prevention)",
+    "MCP tools",
+    "AT&T Xfinity agent",
+    "Orchestrator subagent pattern",
+    "Pydantic schema",
+    "Multi-agentic architecture",
+    "IVR (Interactive Voice Response)"
+  ],
+  "segments": [
+    {
+      "heading": "From models to agents: why context engineering matters",
+      "text": "LLMs are inherently stateless: they generate text but cannot access real-time information, read a database, or plan multi-step tasks. Every agentic technique exists to overcome one or more of these limitations. Large context windows create the illusion that more context is always better, but context rot is real: performance degrades significantly as input token count increases regardless of which model is used. The goal of context engineering is to give the agent exactly the right information, in the right structure, at the right time so it can reliably complete high-value tasks with minimal errors and supervision."
+    },
+    {
+      "heading": "Context poisoning, the Goldilocks zone, and compounding errors",
+      "text": "Bad context compounds in long-horizon tasks. A single agent with 95% accuracy drops to approximately 86% across three sequential decisions (0.95^3). Context too sparse: the agent hallucinates, asks excessive clarifying questions, and reasons from outdated facts. Context too dense: slower responses, higher API costs, distraction, and noise. Context poisoning is the extreme case where malicious or incorrect instructions embedded in context override the agent's intended behavior. The Goldilocks zone is the right amount of context, properly structured, for the current task."
+    },
+    {
+      "heading": "Three strategies to dynamically manage the context window: tools, skills, session compaction",
+      "text": "Tools are executable functions the agent calls to retrieve external context. Tool schema definitions (when to call, what parameters) add tokens to the context window, so tool-heavy agents embed most of their intelligence in tool definitions. Skills (ADK concept) use progressive disclosure: only a skill title and description (Level 1 metadata) are loaded initially. When the agent invokes a skill, the full skill instructions are loaded. This is more token-efficient than including all tools upfront. Session compaction removes stale prior turns from context as the conversation grows, using LLM-driven summarization to extract meaningful content from verbose turn logs without losing important information."
+    },
+    {
+      "heading": "ADK working context: how the context window is assembled",
+      "text": "ADK has the concept of a working context: an ephemeral, just-in-time compilation that is thrown out after every model invocation. It assembles from: (1) conversation history from session storage (Vertex AI Session Service) with compaction applied; (2) developer-provided system instructions, tool definitions, and skill definitions; (3) memories retrieved from Memory Bank, injected either into the session history (via tool calls) or into system instructions for always-on context."
+    },
+    {
+      "heading": "Memory Bank: agentic long-term memory as a managed service",
+      "text": "Memory Bank is a managed Vertex AI Agent Platform service for long-term, cross-session memory. The workflow: the agent streams events to Memory Bank during conversation. Memory Bank decouples ingestion from processing so the agent is not slowed by memory extraction. A memory extraction LLM processes the conversation, extracts meaningful facts, and consolidates new memories with existing ones for the same user (by user ID scope). Consolidation prevents duplicate memories and maintains a single source of truth. Memory generation rules (for example, extract after 10 minutes of inactivity) are configurable. Memory scopes can be user-level, session-level, or department-level."
+    },
+    {
+      "heading": "Memory profiles: structured schemas for precomputed context",
+      "text": "Memory profiles are a new Memory Bank feature providing structured memory with a developer-defined Pydantic schema. Instead of unstructured natural language snippets, profiles define fields (for example, preferred communication style, travel preferences) and Memory Bank extracts and populates those fields from conversation history. Benefits: predictable schema means system instructions can reference known fields directly; rollback to previous profile versions is supported; individual memory entries can be inspected to see how they evolved from source conversations. Two memory injection patterns: just-in-time retrieval via a tool call when the agent decides it is needed, and always-on context loading the profile into system instructions at session start."
+    },
+    {
+      "heading": "AT&T case study: multi-channel, multi-session customer sales agent",
+      "text": "AT&T's product catalog is highly complex (hundreds of phone models, multiple wireless plan tiers, fiber plans, bundled products). Human sales agents have short tenures (under a year) and cannot hold the full catalog in memory. Customers make purchase decisions across multiple sessions and multiple channels (web, chat, IVR, retail, call center). The AI agent architecture uses an orchestrator that identifies customer intent and routes to expert subagents (defined by skill, not product line). The logical layer is separated from the display layer (formatter adapts output per channel). Context is tightly curated per agent with thinking budget controls. DLP encrypts PII before it reaches the LLM and decrypts on the way back. Memory Bank and Vertex AI Session Service provide short and long-term memory across sessions and channels. A customer browsing on day 1 and returning on day 3 via a different channel receives recommendations that continue from where the previous session left off. The agent is hyper-personalized at individual line level (not account level). The production app is live in the AT&T flagship mobile app for device upgrades."
+    }
+  ],
+  "read_time_minutes": 2.9
+}

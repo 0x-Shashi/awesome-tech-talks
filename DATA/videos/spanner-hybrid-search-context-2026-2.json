@@ -1,0 +1,48 @@
+{
+  "id": "spanner-hybrid-search-context-2026-2",
+  "title": "Boost AI context with hybrid search in Spanner",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Jeff",
+    "Alexander",
+    "Girish"
+  ],
+  "url": "https://youtu.be/gV5NEo8-LFI?si=Aefu2R44_9JamC8s",
+  "date": "2026-06-25",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "Explores how Google Cloud Spanner delivers high-relevance AI context via built-in Hybrid Search. Explains combining BM25 full-text keyword indexing with high-dimensional vector embeddings in unified SQL/GQL queries. Highlights Spanner's 99.999% availability SLA, zero-maintenance global scaling, and enterprise use cases in e-commerce, content management, and healthcare.",
+  "entities": [
+    "Cloud Spanner",
+    "Hybrid Search",
+    "BM25 Full-Text Search",
+    "Vector Search (KNN / ANN)",
+    "Five-Nines Availability (99.999%)",
+    "Spanner Graph",
+    "Gemini Enterprise Agent Platform",
+    "Adyen / Uber Search"
+  ],
+  "segments": [
+    {
+      "heading": "Spanner as a foundational search and AI data platform",
+      "text": "Cloud Spanner powers core Google properties (Drive, Gmail, YouTube, Google Photos) and global enterprises like Uber. It combines relational consistency with multi-model search capabilities (full-text search, vector embeddings, and graph traversal) on a single unified dataset with 99.999% availability and limitless horizontal scalability."
+    },
+    {
+      "heading": "The power of Hybrid Search: BM25 keyword matching plus vector similarity",
+      "text": "Pure vector search can miss exact keywords (part numbers, specific proper nouns, acronyms), while pure keyword search misses semantic synonyms and conceptual intent. Spanner Hybrid Search executes both BM25 token matching and dense vector similarity scoring within a single SQL statement, applying Reciprocal Rank Fusion (RRF) to return maximally grounded context to AI agents."
+    },
+    {
+      "heading": "Enterprise search use cases: e-commerce, healthcare, and content management",
+      "text": "Real-world implementations illustrate hybrid search advantages: e-commerce platforms match customer queries with fuzzy spelling tolerances and product catalog embeddings; healthcare applications cross-reference doctor specializations with patient clinical histories; content management systems search multi-terabyte document corpuses with near-zero latency."
+    },
+    {
+      "heading": "Integration with Gemini Enterprise Agent Platform",
+      "text": "Spanner integrates directly into the Gemini Enterprise Agent Platform via Model Context Protocol (MCP) servers and SQL ML extensions, allowing autonomous agents to query live operational data without building external ETL pipelines or maintaining separate vector databases."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

@@ -1,0 +1,70 @@
+{
+  "id": "frontier-ai-search-experience-2025",
+  "title": "Building a frontier AI search experience",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Logan Kilpatrick",
+    "Robby Stein"
+  ],
+  "url": "https://youtu.be/zUB5A_ezIOU?si=QOqX-kk9uoHP4IMb",
+  "date": "2025-07-24",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "LLM Fundamentals",
+    "Product/Startup"
+  ],
+  "description": "Robby Stein, VP of Product for Google Search, joins host Logan Kilpatrick to explore how Search is evolving into a frontier AI product. Their conversation covers the shift from simple keywords to complex, conversational queries, the rise of agentic capabilities that can take action on your behalf, and the vision to help billions of users truly ask anything. Learn more about the technology behind AI Overviews, AI Mode, Deep Search, and the future of multimodal interaction.",
+  "entities": [
+    "Robby Stein",
+    "Logan Kilpatrick",
+    "Google Search",
+    "Gemini 2.5 Pro",
+    "AI Overviews",
+    "AI Mode",
+    "Deep Search",
+    "Google Lens",
+    "Circle to Search",
+    "Google Finance",
+    "Google Flights",
+    "Shopping Graph",
+    "Knowledge Graph",
+    "Project Mariner",
+    "Search Live",
+    "Gmail personalization",
+    "agentic RL",
+    "query fan-out"
+  ],
+  "segments": [
+    {
+      "heading": "Google Search as a frontier AI product: scale and mission",
+      "text": "Robby Stein (VP of Product for Google Search) and Logan Kilpatrick discuss the transformation of Google Search from a keyword index into a frontier AI product. Serving over 1.5 billion monthly users, Search represents the largest real-world deployment of Gemini models. The product vision centers on enabling users to ask open-ended questions of arbitrary complexity, synthesizing real-time web knowledge with deep contextual understanding."
+    },
+    {
+      "heading": "AI Mode, query fan-out, and agentic search tooling",
+      "text": "Stein details the architecture behind AI Mode. Rather than processing inputs as single queries, AI Mode uses custom Gemini reasoning checkpoints to perform automated query fan-out: breaking multifaceted user questions into dozens of concurrent sub-queries. The model treats Google Search and real-time backend systems (such as the 50-billion-item Shopping Graph updated billions of times per hour and Google Finance tickers) as native tools before aggregating findings into an interactive synthesis."
+    },
+    {
+      "heading": "Deep Search: multi-step research plans for high-stakes decisions",
+      "text": "For complex, high-stakes consumer queries (such as purchasing a fire-rated safe or evaluating college programs), Search provides Deep Search. Operating asynchronously in the background, Deep Search formulates structured research plans, explores hundreds of data sources across multiple minutes, evaluates technical specifications, and delivers comprehensive comparison dossiers complete with source citations and follow-up threads."
+    },
+    {
+      "heading": "Visual search explosion: Google Lens and Circle to Search",
+      "text": "Multimodal visual queries represent Search's fastest-growing segment, expanding 70% year-over-year. Powered by Gemini's native vision architecture, tools like Google Lens and Circle to Search allow users to snap photos of physical objects (clothing, machinery, homework, or furniture) and execute follow-up refinement queries (e.g., asking for color variations or styling ideas) directly against Google's image corpus."
+    },
+    {
+      "heading": "Search Live and real-time conversational assistance",
+      "text": "Stein introduces Search Live (developed in Google Labs), bringing low-latency conversational audio and live video into search. Users can point their smartphone cameras at real-world tasks (such as bicycle repairs or cooking recipes) while having a natural back-and-forth dialogue with Search, receiving real-time spoken guidance grounded in verified web links displayed directly in the viewfinder."
+    },
+    {
+      "heading": "Personalization with privacy: integrating Gmail and user context",
+      "text": "Google Search is introducing opt-in personalization layers. By allowing models to access authorized user context (such as past purchases or travel itineraries via Gmail), Search eliminates redundant explanations for taste-dependent queries (e.g., autumn wardrobe recommendations or date-night dining). Factual and historical queries remain strictly neutral and objective."
+    },
+    {
+      "heading": "Agentic execution: Project Mariner and the reality of task automation",
+      "text": "Stein explores the future of agentic search built on Gemini and Project Mariner. Rather than focusing solely on trivial end-point checkout buttons, agentic search solves high-friction discovery bottlenecks: continuously monitoring rolling calendar availability across hotel rooms or verifying seating configurations for concert tickets before handing the user a single verified confirmation step."
+    }
+  ],
+  "read_time_minutes": 1.6
+}

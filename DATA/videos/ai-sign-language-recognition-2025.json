@@ -1,0 +1,49 @@
+{
+  "id": "ai-sign-language-recognition-2025",
+  "title": "How AI is revolutionizing sign language recognition with Sam Sepah and Thad Starner",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Ashley Oldacre",
+    "Sam Sepah",
+    "Thad Starner"
+  ],
+  "url": "https://youtu.be/1NJX4sP6ubc?si=JQKH2QN0g-TEe9cZ",
+  "date": "2025-07-23",
+  "format": "Fireside Chat",
+  "level": "Beginner",
+  "topics": [
+    "Research/Papers",
+    "Product/Startup"
+  ],
+  "description": "Episode of the People of AI podcast featuring Sam Sepah (Google AI/ML Research Manager) and Thad Starner (Georgia Tech Professor and wearable computing pioneer). Explores the 30-year evolution of wearable AI, computer vision for sign language recognition, the impact of language deprivation on deaf children, and educational tools like PopSign AI built to help hearing parents learn American Sign Language.",
+  "entities": [
+    "Google Glass",
+    "PopSign AI",
+    "American Sign Language (ASL)",
+    "Wearable computing",
+    "Hidden Markov Models (HMM)",
+    "Kaggle ASL Competition",
+    "Remembrance Agent",
+    "Language Deprivation Syndrome",
+    "National Technical Institute for the Deaf (NTID)"
+  ],
+  "segments": [
+    {
+      "heading": "Pioneering wearable computing and early augmented reality",
+      "text": "Thad Starner shares his early journey into AI, from reading Pamela McCorduck's Machines Who Think at age 14 to building custom wearable computers in 1993. His early 'Remembrance Agent' displayed contextually relevant past notes in real-time during conversations, an early predecessor to modern augmented reality demonstrated to Larry Page and Sergey Brin in 1998."
+    },
+    {
+      "heading": "Evolution of Google Glass and accessibility captioning",
+      "text": "Starner joined Google to lead technical development on Google Glass, evolving bulky 10kg prototypes into lightweight 42g wearable displays. Glass explored real-time speech-to-text captions for deaf and hard-of-hearing users, leading to Starner's collaboration with Google accessibility leader Sam Sepah."
+    },
+    {
+      "heading": "The critical stakes of language acquisition and deaf education",
+      "text": "Sam Sepah recounts losing his hearing to spinal meningitis at 14 months and his parents' journey learning sign language across Iran, Germany, and the United States. With over 95% of deaf infants born to hearing parents, lack of early visual language access frequently causes Language Deprivation Syndrome, resulting in developmental, cognitive, and employment hurdles. Teaching infant signing (baby sign) accelerates cognitive development in both deaf and hearing children."
+    },
+    {
+      "heading": "Computer vision for ASL: from Hidden Markov Models to PopSign AI",
+      "text": "Starner's early master's thesis demonstrated the first camera-based phrase-level sign language recognizer using Hidden Markov Models. Modern AI breakthroughs and Google Kaggle competitions enabled PopSign AI, an educational smartphone mobile game that uses real-time computer vision to teach hearing parents foundational ASL vocabulary in their homes."
+    }
+  ],
+  "read_time_minutes": 0.8
+}

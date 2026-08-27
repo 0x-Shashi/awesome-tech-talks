@@ -1,0 +1,52 @@
+{
+  "id": "gemini-enterprise-prototype-to-production-2026",
+  "title": "From prototype to production: 45 minutes to a reliable Gemini Enterprise Agent Platform agent",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Alibek Datbayev",
+    "Maria-Irène Călinoiu",
+    "Naz Bayrak",
+    "Manasa Kandula"
+  ],
+  "url": "https://youtu.be/fkCTifAqVGg?si=ze-G7eeT6wwwB4U0",
+  "date": "2026-06-25",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "A production-first masterclass on building enterprise-grade agents with the Gemini Enterprise Agent Platform. Booking.com shares their evolution from LLM wrappers to a governed multi-provider platform running customer-facing and internal agents. Google engineers present the 4-step production framework: Connect (MCP servers), Protect (Model Armor, Agent Identity), Inspect (Cloud Tracing, Observability), and Perfect (Response & Trajectory Evals).",
+  "entities": [
+    "Gemini Enterprise Agent Platform",
+    "Model Context Protocol (MCP)",
+    "Booking.com",
+    "Model Armor",
+    "Agent Identity",
+    "Agent Observability & Tracing",
+    "Trajectory Evaluation",
+    "LLM-as-a-Judge",
+    "Agent Engine / Agent Runtime",
+    "Cloud SQL"
+  ],
+  "segments": [
+    {
+      "heading": "Booking.com case study: journey from wrappers to governed agent platform",
+      "text": "Booking.com processes 500,000 requests per second across 175,000 destinations. Engineering leaders Alibek Datbayev and Maria-Irène Călinoiu share their AI evolution: graduating from simple 2023 wrapper apps to a centralized internal gateway with unified governance, provisioning throughput for low latency, and shipping agents like 'Know Before You Go' (travel concierge), 'BigBot' (internal data mesh assistant), and 'Reels to Reality' (multimodal video itinerary planning)."
+    },
+    {
+      "heading": "Step 1: Connect via Model Context Protocol (MCP)",
+      "text": "Enterprise agents connect to real-world context using MCP servers. In the live London Travel Concierge demo, an orchestrator agent accesses real-time weather APIs and queries proprietary enterprise booking databases in Cloud SQL through standardized MCP tool interfaces, eliminating custom brittle integrations."
+    },
+    {
+      "heading": "Step 2: Protect with Agent Identity and Model Armor",
+      "text": "Production deployments replace shared service accounts with discrete Agent Identities bound to least-privilege IAM roles. Model Armor sits in the data path, inspecting both user prompts for jailbreaks and tool outputs for sensitive PII exfiltration before tokens reach downstream applications."
+    },
+    {
+      "heading": "Step 3 and 4: Inspect via Observability and Perfect via Trajectory Evaluations",
+      "text": "Observability provides forensic traces of tool execution lineages and latency bottlenecks. Quality is enforced using two-pronged evaluation: Response Evaluation (measuring groundedness and formatting) and Trajectory Evaluation (verifying intermediate tool calling logic, parameter validity, and step sequences against golden evaluation datasets via automated LLM-as-a-Judge pipelines)."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

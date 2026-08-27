@@ -1,0 +1,74 @@
+{
+  "id": "demis-hassabis-evals-world-models-2025",
+  "title": "Demis Hassabis on shipping momentum, better evals and world models",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Logan Kilpatrick",
+    "Demis Hassabis"
+  ],
+  "url": "https://youtu.be/njDochQ2zHs?si=jyW6558bNmAoKQ70",
+  "date": "2025-08-11",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Research/Papers",
+    "LLM Fundamentals",
+    "AI Agents"
+  ],
+  "description": "Demis Hassabis, CEO of Google DeepMind, sits down with host Logan Kilpatrick. In this episode, learn about the evolution from game-playing AI to today's thinking models, how projects like Genie 3 are building world models to help AI understand reality and why new testing grounds like Kaggle’s Game Arena are needed to evaluate progress on the path to AGI.",
+  "entities": [
+    "Demis Hassabis",
+    "Logan Kilpatrick",
+    "Google DeepMind",
+    "Deep Think",
+    "Genie 3",
+    "SIMA",
+    "Project Astra",
+    "Gemini Live",
+    "Veo 3",
+    "Gemini",
+    "AlphaGo",
+    "AlphaZero",
+    "AlphaFold",
+    "Kaggle Game Arena",
+    "AIME",
+    "IMO",
+    "Stockfish",
+    "Theme Park",
+    "AI Studio",
+    "world models",
+    "omni model",
+    "jagged intelligence"
+  ],
+  "segments": [
+    {
+      "heading": "DeepMind shipping momentum: Deep Think and thinking models",
+      "text": "Demis Hassabis (CEO of Google DeepMind) discusses DeepMind's accelerating release tempo. The emergence of thinking models (such as Deep Think achieving gold-medal standard on International Mathematical Olympiad problems) represents a continuation of DeepMind's reinforcement learning heritage from AlphaGo and AlphaZero. By combining multimodal foundation models with test-time compute, reasoning search, and parallel thought rollouts, systems self-critique and refine candidate reasoning paths before committing to an output."
+    },
+    {
+      "heading": "Jagged intelligence: why frontier models still fail at basic tasks",
+      "text": "Hassabis addresses the phenomenon of jagged or uneven intelligence: models that can solve Olympiad-level mathematics or synthesize complex software still make trivial errors on high school logic or simple board games when questions are phrased out of distribution. True artificial general intelligence requires closing these consistency and memory gaps through fundamental reasoning innovations rather than pure parameter scaling."
+    },
+    {
+      "heading": "Genie 3 and the physics of world models",
+      "text": "Hassabis explains why world models are essential for AGI. Intelligence cannot exist solely in language and mathematics; systems must understand intuitive physics, material properties, spatial consistency, and causal dynamics to operate in reality. Genie 3 demonstrates world-model maturity by generating interactive, persistent 3D environments where objects maintain spatial permanence when a user turns away and looks back. World models form the foundational backbone for autonomous robotics and universal embodied assistants like Project Astra."
+    },
+    {
+      "heading": "AI inside AI: SIMA playing within Genie-generated worlds",
+      "text": "DeepMind leverages Genie 3 as an infinite synthetic data generator by pairing it with SIMA (Scalable Instructable Multiworld Agent). In this architecture, one AI system (Genie) generates dynamic 3D physical worlds on the fly, while a second agent (SIMA) receives natural language goals to explore, manipulate objects, and navigate within the generated simulation. Beyond training robotics and foundation models, world models pave the way for interactive, emergent forms of digital entertainment blending video games and cinematic experiences."
+    },
+    {
+      "heading": "Kaggle Game Arena: moving past saturated static benchmarks",
+      "text": "With academic benchmarks like AIME approaching saturation (Deep Think scoring 99.2%), static test suites fail to differentiate frontier capabilities. Google DeepMind partnered with Kaggle to launch Game Arena, an objective evaluation platform where models compete directly against each other across thousands of board and computer games. Tournaments provide dynamic Elo ratings that scale automatically in difficulty without leaking static question sets to the web."
+    },
+    {
+      "heading": "Tool integration vs. core capabilities in foundation models",
+      "text": "Hassabis explores the architectural boundary between native model weights and external tool invocation. Fundamental cognitive capabilities like coding and mathematics are baked directly into core Gemini models because mathematical reasoning lifts general problem-solving performance across all tasks. Conversely, specialized computational engines (like Stockfish for chess or physics simulators) are exposed as external tools invoked dynamically during reasoning loops."
+    },
+    {
+      "heading": "The convergence path: from specialized tools to a single Omni model",
+      "text": "Hassabis outlines the technical roadmap uniting video generation (Veo 3), interactive simulation (Genie 3), and reasoning language agents (Gemini). While currently developed across specialized pipelines, DeepMind's architectural trajectory converges toward a single multimodal Omni model capable of natively understanding, generating, and acting across text, audio, video, and physical world dynamics simultaneously."
+    }
+  ],
+  "read_time_minutes": 1.8
+}

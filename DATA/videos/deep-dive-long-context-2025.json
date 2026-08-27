@@ -1,0 +1,47 @@
+{
+  "id": "deep-dive-long-context-2025",
+  "title": "Deep Dive into Long Context",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Logan Kilpatrick",
+    "Nikolay Savinov"
+  ],
+  "url": "https://youtu.be/NHMJ9mqKeMQ?si=15tgX0ycptnfiOPn",
+  "date": "2025-05-02",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "Research/Papers"
+  ],
+  "description": "Episode of the Release Notes podcast featuring Google DeepMind research scientist Nikolay Savinov. Explores the mechanics of 1M to 2M+ token context windows in Gemini, why tokenization remains essential over character-level models, the trade-offs between long context vs. RAG, the economics of Context Caching, and the future of multi-modal long-context agents.",
+  "entities": [
+    "Gemini 1.5 Pro",
+    "Google DeepMind",
+    "Long Context Window (1M-2M+)",
+    "Context Caching",
+    "Retrieval Augmented Generation (RAG)",
+    "Needle in a Haystack (NIAH)",
+    "Tokenization",
+    "Multi-Modal Context"
+  ],
+  "segments": [
+    {
+      "heading": "Foundations: what is a token and why tokenization persists",
+      "text": "Nikolay Savinov defines tokens as sub-word linguistic chunks averaging slightly less than one full word. While character-level models eliminate tokenization edge cases (such as counting characters in words), token-level autoregression is fundamentally faster and more computationally efficient during generation, cementing tokenization as the standard across state-of-the-art LLMs."
+    },
+    {
+      "heading": "Scaling context windows to millions of tokens",
+      "text": "Expanding context windows from thousands to millions of tokens required pre-training optimizations, synthetic multi-hop dataset curation, and specialized attention mechanisms. Gemini achieves high-fidelity retrieval across its entire 2M+ window, maintaining near-perfect accuracy on needle-in-a-haystack benchmarks across text, full codebases, hours of audio, and hours of video."
+    },
+    {
+      "heading": "Long context vs. RAG: synergy and trade-offs",
+      "text": "Long context models and RAG are complementary rather than mutually exclusive: RAG excels at initial coarse retrieval across massive billion-token enterprise archives, while long context windows ingest retrieved document clusters or entire repository trees to perform deep multi-document synthesis, cross-file reasoning, and complex relational analysis."
+    },
+    {
+      "heading": "Context Caching: economics and latency breakthroughs",
+      "text": "Context Caching allows developers to store pre-computed key-value (KV) activations for large prompt prefixes (such as API documentation, codebase repositories, or reference books) in memory. Subsequent queries against the cached context reduce input token pricing by up to 75% while drastically reducing time-to-first-token (TTFT) latency."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

@@ -1,0 +1,66 @@
+{
+  "id": "data-agent-kit-coding-agent-2026",
+  "title": "Data agent kit: Your coding agent can now query your data",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Annie Wang",
+    "Jeff Planner"
+  ],
+  "url": "https://youtu.be/Vs2_Palg1QY?si=79aHKCKjJ1VDGndz",
+  "date": "2026-08-15",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "In this episode of Hands On, host Annie Wang and Google Cloud developer advocate Jeff discuss the Data Agent Kit, a Google-built unified source for data engineering, data analytics, and data science that provides skills, MCP tools, and IDE integrations for AI coding environments.",
+  "entities": [
+    "Data Agent Kit",
+    "Google Cloud",
+    "BigQuery",
+    "Cloud SQL",
+    "AlloyDB",
+    "Spanner",
+    "Antigravity IDE",
+    "Antigravity CLI",
+    "Cloud Code",
+    "Codex",
+    "MCP (Model Context Protocol)",
+    "Knowledge Catalog",
+    "Conversational Analytics",
+    "Cloud Run",
+    "Vertex AI",
+    "Gemini CLI",
+    "Agent Skills",
+    "MCP Toolbox"
+  ],
+  "segments": [
+    {
+      "heading": "What the Data Agent Kit is and what it provides",
+      "text": "The Data Agent Kit is a Google-built unified source for data engineering, data analytics, and data science. It provides three primary components: agent skills (a library of data engineering, data science, and analytics best practices that steer agents in how to use Data Cloud), MCP tools (which securely connect to Cloud Data Cloud products including BigQuery, Cloud SQL, AlloyDB, and Spanner), and IDE integrations (extensions available in any VS Code fork including Cloud Code, Codex, and Antigravity)."
+    },
+    {
+      "heading": "Setting up the Data Agent Kit extension in Antigravity IDE",
+      "text": "The Data Agent Kit is available as an extension in the VS Code extension marketplace. Once installed, it adds a Data Agent Kit icon in the sidebar and a setup and configuration pane. Configuration options include setting a Google Cloud project, region, and billing project, plus enabling specific APIs. One-click MCP server provisioning is available for BigQuery, Cloud SQL, Spanner, AlloyDB, and Knowledge Catalog."
+    },
+    {
+      "heading": "One-click MCP server setup for BigQuery and Cloud SQL",
+      "text": "The extension provides one-click enablement of MCP servers for each supported database product. Regions configure the MCP servers. Once a BigQuery MCP server is enabled, the IDE extension surfaces a side panel that brings the entire Data Cloud estate into a single view: BigQuery tables can be browsed, conversational analytics can be used to query data in natural language, and data assets can be searched across using Knowledge Catalog."
+    },
+    {
+      "heading": "Conversational analytics and Knowledge Catalog integration",
+      "text": "Within the IDE extension, users can use conversational analytics to query BigQuery data using natural language, without writing SQL. Knowledge Catalog integration allows searching across all data assets from within the same side panel. The demo shows querying Cloud SQL directly from the IDE after connecting via the MCP server configuration."
+    },
+    {
+      "heading": "Agent skills for steering coding agents on data tasks",
+      "text": "Agent skills give AI coding agents context and best practices for working with Data Cloud. Instead of a coding agent generating arbitrary SQL or guessing table schemas, the skills steer it with domain knowledge about BigQuery, Cloud SQL, and related tools. This improves accuracy and reduces hallucinations when agents write queries or interact with data infrastructure."
+    },
+    {
+      "heading": "Who benefits: data personas and software engineers",
+      "text": "For data professionals, the kit consolidates tools normally spread across many browser tabs into one view. For software engineers without deep data expertise, the agent skills and conversational interface allow analyzing and modifying data without needing to know SQL or the schema in depth. The demo explicitly notes the kit helps people who do not normally work with data day-to-day."
+    }
+  ],
+  "read_time_minutes": 1.5
+}

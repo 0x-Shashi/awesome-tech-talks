@@ -1,0 +1,54 @@
+{
+  "id": "agents-for-data-engineering-2025",
+  "title": "AI agents for data engineering and data science | The Agent Factory Podcast",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Smitha Kolan",
+    "Lucia Subatin"
+  ],
+  "url": "https://youtu.be/ATgIU47V1yI?si=yr9gqDI27nInkl2k",
+  "date": "2025-10-16",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "Episode of The Agent Factory Podcast covering new agent developments. Discusses the Gemini Computer Use model for browser automation and CodeMender for autonomous code vulnerability remediation. Demos the BigQuery Data Engineering Agent (Dataform declarative pipelines, time dimensions, quality assertions), the Data Science Agent in Colab Enterprise (isolation forest anomaly detection), and an ADK app using Spanner graph traversal and Nano Banana image generation.",
+  "entities": [
+    "Gemini API",
+    "Computer Use Model (Gemini)",
+    "CodeMender",
+    "BigQuery Data Engineering Agent",
+    "Data Science Agent (Colab Enterprise)",
+    "Agent Development Kit (ADK)",
+    "Cloud Spanner",
+    "Spanner Graph (GQL)",
+    "Dataform",
+    "Playwright",
+    "Nano Banana (Imagen)",
+    "Isolation Forest",
+    "BigQuery DataFrames",
+    "dbt"
+  ],
+  "segments": [
+    {
+      "heading": "Industry update: Gemini Computer Use model and CodeMender",
+      "text": "The Gemini API introduced a computer use model capable of taking screen captures and returning UI actions (click, type, scroll, navigate) with integrated safety confirmations for sensitive steps. CodeMender is an autonomous security agent operating in reactive mode (patching active zero-days found by tools like Big Sleep and OSS-Fuzz) and proactive mode (refactoring entire vulnerability classes), having upstreamed 72 verified security patches to open-source codebases."
+    },
+    {
+      "heading": "Data Science Agent in Colab Enterprise: anomaly detection",
+      "text": "The Data Science Agent in Colab Enterprise takes natural language prompts and generates end-to-end exploratory data science workflows. In the demo, the agent loads BigQuery tables, structures pre-processing pipelines, trains an Isolation Forest model to detect statistical anomalies in customer support cases, and generates charts with actionable explanations."
+    },
+    {
+      "heading": "BigQuery Data Engineering Agent: Dataform pipelines and quality assertions",
+      "text": "The BigQuery Data Engineering Agent operates on Dataform declarative pipeline files stored in Git repositories. The agent generates SQL definitions calling AI functions (AI.GENERATE with Gemini 2.5 Flash), models time dimensions for natural-language-to-SQL query optimization, and creates automated data quality assertions (such as non-null ID checks and unique constraints) across staging and production tables."
+    },
+    {
+      "heading": "Demo: ADK multi-agent app with Spanner Graph and comic generation",
+      "text": "An ADK application demonstrates connecting to a Cloud Spanner knowledge graph using GQL and Spanner QA chains. The agent queries Spanner documentation concepts (e.g., regional vs. multi-region configurations), constructs structured comic strip panel scripts, and passes prompts to Nano Banana with an automated multi-step quality checker loop evaluating generated images."
+    }
+  ],
+  "read_time_minutes": 0.9
+}

@@ -1,0 +1,68 @@
+{
+  "id": "oliver-aalami-digital-health-2025",
+  "title": "Digital health with Dr. Oliver Aalami",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Ashley Oldacre",
+    "Dr. Oliver Aalami"
+  ],
+  "url": "https://youtu.be/sgx7-NAJJ0g?si=JHqkKCSxB-cSWZJc",
+  "date": "2025-07-23",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "Research/Papers",
+    "Android/Mobile"
+  ],
+  "description": "Discover the fascinating world of digital health innovation with a leading expert in vascular surgery and digital health innovation, Dr. Oliver Aalami. In this insightful People of AI episode, Dr. Aalami shares his path to medicine, his passion for integrating technology in patient care, and his role as director of Stanford's Biodesign for Digital Health program. Explore the groundbreaking projects and initiatives shaping the future of healthcare.",
+  "entities": [
+    "Dr. Oliver Aalami",
+    "Ashley Oldacre",
+    "Stanford University",
+    "Stanford Biodesign",
+    "Palo Alto VA",
+    "Stanford Spezi",
+    "CardinalKit",
+    "HL7 FHIR",
+    "HealthConnect",
+    "21st Century Cures Act",
+    "Zio Patch (iRhythm)",
+    "Omada Health",
+    "Hinge Health",
+    "Firebase",
+    "Firestore",
+    "Google Colab",
+    "HealthGPT",
+    "LLM on FHIR",
+    "Medicare Advantage",
+    "multimodal health AI"
+  ],
+  "segments": [
+    {
+      "heading": "Clinical vascular surgery and the origins of Stanford Biodesign",
+      "text": "Dr. Oliver Aalami (Vascular Surgeon at Stanford University and Palo Alto VA, and Director of Stanford Biodesign for Digital Health) shares his journey from molecular biology to vascular surgery and digital innovation. The Stanford Biodesign methodology was created to de-risk medical technology through rigorous needs-finding: observing clinical environments as a fly on the wall, identifying unaddressed stakeholder needs, and formulating strict need criteria before designing hardware or software solutions."
+    },
+    {
+      "heading": "Needs finding beyond hospital walls: remote chronic disease management",
+      "text": "Digital health expands traditional needs-finding beyond inpatient clinics into patients' homes. Aalami explains how sensor-based connected devices (smart scales, blood pressure cuffs, continuous Holter monitors like the Zio Patch) transform chronic disease management by shifting continuous physiological monitoring and behavioral intervention into home settings."
+    },
+    {
+      "heading": "Spezi: open-source modular infrastructure for mobile health research",
+      "text": "To eliminate redundant mobile app development in academic medical research, Stanford Biodesign created Spezi (formerly CardinalKit). Spezi provides an open-source, modular framework for iOS and Android supporting Bluetooth sensor connectivity, automated onboarding surveys, serverless Firebase backends, Google Colab telemetry analysis pipelines, and native adherence to the HL7 FHIR medical data standard."
+    },
+    {
+      "heading": "The 21st Century Cures Act: democratizing patient electronic health records",
+      "text": "Aalami highlights underutilized federal mandates under the 21st Century Cures Act requiring electronic health record systems (such as Epic) to expose standardized APIs for patient data access. By leveraging platforms like Android Health Connect, patients can securely sync their comprehensive health records locally onto mobile devices, enabling private on-device intelligence without cloud privacy risks."
+    },
+    {
+      "heading": "LLM on FHIR: conversational clinical records and patient discharge synthesis",
+      "text": "Stanford researchers developed applications like HealthGPT and LLM on FHIR to turn static, opaque medical records into interactive patient dialogues. For complex post-operative discharge notes or ambiguous lab results (such as thyroid hormone panels), conversational models summarize technical jargon into 5th-grade reading levels, reducing patient anxiety while maintaining clinical accuracy."
+    },
+    {
+      "heading": "Incentive alignment: value-based care, Medicare Advantage, and cross-functional teams",
+      "text": "Aalami discusses economic adoption models for digital health. While fee-for-service systems incentivize billable procedural interventions, value-based healthcare models (such as Medicare Advantage, Kaiser Permanente, and self-insured employers like Google) financially reward proactive prevention. He emphasizes the necessity of interdisciplinary training, blending clinical medicine with computer science to accelerate real-world clinical translation."
+    }
+  ],
+  "read_time_minutes": 1.3
+}

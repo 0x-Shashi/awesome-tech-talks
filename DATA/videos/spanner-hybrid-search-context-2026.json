@@ -1,0 +1,88 @@
+{
+  "id": "spanner-hybrid-search-context-2026",
+  "title": "Boost AI context with hybrid search in Spanner",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Jeff Sosa",
+    "Girish Baliga",
+    "Alexander Christie"
+  ],
+  "url": "https://youtu.be/fAf4Zh-CC08?si=07lUFU9TF3J7DWxN",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents",
+    "LLM Fundamentals"
+  ],
+  "description": "Go beyond keyword search to get the most out of your operational data. In this session, learn to build sophisticated, AI-powered experiences with Spanner. Discover how to combine full-text and vector search into powerful multi-model queries that deeply understand user intent. New AI innovations simplify contextual search and retrieval-augmented generation (RAG) applications. Explore seamless integrations with the Gemini Enterprise Agent Platform to create the next generation of contextual, intelligent, multi-model search.",
+  "entities": [
+    "Cloud Spanner",
+    "Spanner Omni",
+    "Spanner Search",
+    "Full-text search (Spanner)",
+    "Vector search (Spanner)",
+    "Hybrid search (Spanner)",
+    "GraphRAG (Spanner)",
+    "ScaNN index",
+    "KNN search",
+    "Approximate Nearest Neighbor (ANN) index",
+    "Reciprocal Rank Fusion (RRF)",
+    "Relative score function",
+    "Enhanced query (intelligent query expansion)",
+    "Custom dictionaries (Spanner search)",
+    "Tokenize N-grams",
+    "Gemini Enterprise Agent Platform",
+    "Vertex AI",
+    "LangChain",
+    "Spanner graph",
+    "Knowledge graph",
+    "Ask Atteo",
+    "Atteo (AI-native CRM)",
+    "Algolia",
+    "PostgreSQL",
+    "Uber",
+    "Gmail",
+    "Google Drive",
+    "YouTube Photos",
+    "mModal",
+    "Granola",
+    "Railway"
+  ],
+  "segments": [
+    {
+      "heading": "Spanner as the underlying search platform for Google products",
+      "text": "Spanner is the data platform under most Google consumer products, and Spanner Search is used for in-product search in Google Drive, Gmail, YouTube, and Photos. Spanner Search is also offered to Cloud Spanner customers. Uber's search runs on Spanner. Key platform advantages for search workloads: zero maintenance, near-limitless scalability, five-nines SLA, and multi-model architecture (relational, search, and graph workloads can run against the same data without copying it)."
+    },
+    {
+      "heading": "Three search modalities: full-text, vector, and hybrid",
+      "text": "Spanner Search offers three search methods. Full-text search performs keyword-based token matching using an inverted index, with fuzzy search for spelling variants and synonyms. Vector search uses AI embeddings to match based on semantic meaning rather than exact keywords: a search for space LEGO for 8 plus can return results about STEM toy sets that do not contain those words. Hybrid search merges both modalities using techniques like Reciprocal Rank Fusion to produce results that combine precision (from keyword matching) with recall (from semantic matching). Before Spanner, implementing these modalities required running separate platforms and maintaining ETL pipelines between them."
+    },
+    {
+      "heading": "Full-text search deep dive: n-grams, fuzzy search, and intelligent query expansion",
+      "text": "Spanner full-text search tokenizes columns defined in DDL using SQL. Tokenize_ngrams splits text into size-3 character substrings, creating a fuzzy-matching inverted index. A search for Jennifer matches Jennifer, Jennifer as a substring match, and Jenny as an alternate spelling. The order_by_score function ranks results by text relevance rather than row ID. Enhanced query (intelligent search expansion) is Google's proprietary technology from Google Search: a search term like hair dye is automatically expanded to hair, hair dye, color, coloring, dyeing, and related terms before hitting the index. Atteo (case study) reported a step-change improvement in result quality across multilingual customer data by enabling enhanced query. Also announced at GA: custom dictionaries, allowing domain-specific synonym and expansion mappings to be plugged into the search pipeline."
+    },
+    {
+      "heading": "Vector search in Spanner: KNN, ScaNN, and transactional consistency",
+      "text": "Spanner supports both KNN (exact nearest neighbor) and ANN (approximate nearest neighbor) vector search. KNN is appropriate for small, filtered result sets (for example, Gmail searches only within a single user's mail). ANN builds a tree-structure clustering index over the full vector space and returns approximate top-K results much faster and cheaper. ScaNN (Scalable Approximate Nearest Neighbors) is Google's proprietary ANN algorithm, the same index behind Google Search and YouTube. Spanner's ANN index is transactionally consistent: when a document is written, its embedding is indexed immediately with no ETL or sync delay. Tested with 10 billion-plus vectors. Vector latency improvements were announced, with significant reductions since six months prior; index build times were also reduced."
+    },
+    {
+      "heading": "Hybrid search templates: vector-ranked full-text and multi-retriever fusion",
+      "text": "Two main hybrid search patterns in Spanner. Pattern 1: use full-text search as the retriever and vector search for ranking. A WHERE clause does full-text token matching; the ORDER BY uses Euclidean distance on the document embedding versus the query embedding. This brings semantic relevance ranking to keyword-retrieved results in a five-line SQL query. Pattern 2: two retrievers, one full-text and one vector, merged using RRF (Reciprocal Rank Fusion) or relative score functions. The full-text retriever returns precise keyword matches (space-themed products), the vector retriever returns semantically related results (Star Trek, Star Wars toys), and the fusion layer ranks the combined set. Reranking using ML models is also supported."
+    },
+    {
+      "heading": "Graph and GraphRAG in Spanner",
+      "text": "Spanner Graph is defined as an overlay on existing relational tables: no data copy is needed. A full-text or vector search can identify a starting node, and then a graph traversal expands context to linked nodes. This pattern (GraphRAG) significantly outperforms standard RAG in precision and recall because relationships between entities are modeled explicitly as graph edges rather than being inferred from embedding proximity. Traditional RAG forces the embedding model to encode relationships in vector space, which is an indirect and lossy representation. GraphRAG encodes the same relationships deterministically as graph edges, letting the retrieval path follow known structure."
+    },
+    {
+      "heading": "Atteo case study: from Algolia to Spanner for full-text and vector search",
+      "text": "Atteo is an AI-native CRM platform. In 2021, a large foundational AI lab customer brought data volumes that caused the Postgres query planner to fail, leading to a migration to Spanner for relational workloads. Full-text search was originally offloaded to Algolia, which introduced ETL delays and materialization lag. Atteo migrated to Spanner full-text search combined with Spanner vector embeddings, eliminating the Algolia dependency. Results: $165,000 saved in FY26, with the Algolia renewal for FY27 projected above $500,000. No ETL means read-after-write consistency: agents and API calls see search index changes immediately after a write. Atteo now indexes 350 million documents with 20%-per-month growth. The ask atteo agentic chat interface combines Boolean search, full-text search, vector search, and raw SQL on a billion-document corpus with 50,000 reads per second, all on Spanner."
+    },
+    {
+      "heading": "Spanner Omni and audience questions",
+      "text": "All search features (full-text, vector, graph, hybrid) are available in Spanner Omni (the portable, self-managed version of Spanner). One exception: enhanced query expansion requires integration with Google's internal keyword expansion service, so that specific feature may behave differently outside the managed cloud service. On HNSW index support: Spanner currently uses ScaNN (clustering-based ANN). HNSW support is under exploration."
+    }
+  ],
+  "read_time_minutes": 3.2
+}

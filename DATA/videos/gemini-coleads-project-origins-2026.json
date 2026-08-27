@@ -1,0 +1,88 @@
+{
+  "id": "gemini-coleads-project-origins-2026",
+  "title": "Gemini co-leads on project origins and what's next",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Jeff Dean",
+    "Koray Kavukcuoglu",
+    "Noam Shazeer",
+    "Oriol Vinyals",
+    "Logan Kilpatrick"
+  ],
+  "url": "https://youtu.be/8hfpLa5wPGo?si=vDuNpCfEHs_gbMye",
+  "date": "unknown",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "Research/Papers",
+    "AI Agents"
+  ],
+  "description": "To mark the launch of Gemini 3.5 Flash, Logan Kilpatrick sat down at Gradient Canopy with four of the people who built it: Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, and Oriol Vinyals. They talked about the origin of the Gemini project, the bet on a single unified model, why each Flash generation now outperforms the previous Pro, and what's coming next.",
+  "entities": [
+    "Gemini 3.5 Flash",
+    "Gemini 3.5",
+    "Pathways",
+    "PaLM",
+    "PaLM 2",
+    "Google Brain",
+    "Google DeepMind",
+    "Gemini Omni",
+    "Veo",
+    "Genie",
+    "distillation",
+    "speculative decoding",
+    "MOE",
+    "mixture of experts",
+    "Google Search",
+    "Gradient Canopy",
+    "Gemini 1.0",
+    "True benchmark",
+    "Did You Mean",
+    "Google Trends",
+    "Google Autocomplete",
+    "AlphaGo",
+    "Move 37",
+    "DeepMind acquisition",
+    "Release Notes"
+  ],
+  "segments": [
+    {
+      "heading": "Origin of the Gemini project: merging fragmented teams",
+      "text": "Before Gemini started, multiple teams at Google Brain and DeepMind were independently building powerful models. Oriol Vinyals was leading efforts at DeepMind; Jeff Dean was steering work around the Pathways project, PaLM, and PaLM 2. Dean wrote a half-page internal memo arguing that fragmenting effort and compute across separate teams was counterproductive, and that building one single model jointly was the right approach. He credits the consolidation as the origin of the project name Gemini, meaning twins, representing the merger of the two organizations. Koray Kavukcuoglu noted the transition from an era of more academic-style AI research where parallelism was fine, to an era where each model training run requires massive concentrated effort across many researchers, making a focused single operation far more valuable than parallel teams."
+    },
+    {
+      "heading": "Why product usage drives model improvement",
+      "text": "A key insight from the founders: having a model used at scale by real people is irreplaceable for understanding what is and is not working. Dean draws the analogy to Search, where usage statistics over many years revealed what needed improvement in ways that internal testing could not. Noam Shazeer adds that optimizing internally without real users risks hill-climbing benchmarks, including potentially contaminated ones, rather than building genuine capability. Kavukcuoglu frames it as: you cannot define the frontier of AI without simultaneously being at the frontier of product usefulness. Vinyals notes the bet was clear from the start: one powerful unified model would leap-frog everything Google was powering with separate ML models, even if the exact product shape was less obvious."
+    },
+    {
+      "heading": "Gemini 3.5 Flash: distillation packing Pro capability into Flash",
+      "text": "Gemini 3.5 Flash is the focus of the conversation. Vinyals notes that each Flash generation has outperformed the previous generation's Pro model, and finds this consistently surprising given how much intelligence is packed per parameter. The mechanism is distillation: a large teacher model (the Pro) transfers knowledge to a smaller student model (Flash). The core technique from the original distillation paper (using soft labels from the teacher rather than hard labels from training data) is essentially unchanged, with modest tweaks. Kavukcuoglu summarizes it as squeezing the lemon: the juice (intelligence) comes out and goes into the glass (the smaller model). Jeff Dean clarifies the current approach: one very good teacher model and one student, no longer requiring the 50-model ensembles from the original research. The focus of Gemini 3.5 is on agentic and coding capabilities while maintaining and improving other capabilities."
+    },
+    {
+      "heading": "Surprising progress: one box, general intelligence",
+      "text": "Shazeer reflects on an early Google philosophy called the one box: a single Search input box that users assumed was powered by a general-purpose AI behind the scenes, when in reality each result type (sports scores, stock quotes, weather) was a separate specialized backend. The ambition was always to build the actual general-purpose AI that the frontend implied. He says they have now built it. The user-facing interface is one box and there is finally one backend to match. This is framed as one of the biggest positive surprises of the Gemini project."
+    },
+    {
+      "heading": "What has been harder than expected: evaluation and continual learning",
+      "text": "On the challenging side, Vinyals identifies evaluation as consistently underappreciated. Evaluating model capabilities in ways that are not contaminated by training data, that users actually agree with, and that track what will be important next, remains a difficult unsolved problem. The field shifted from benchmark tables in papers to real user feedback, which itself introduced new complexity.\n\nDean expresses mild disappointment that continual learning and more organic, fluid model architectures (beyond today's MOE structure where all experts have similar structure) have not progressed further. He imagined more progress toward architectures with greater plasticity.\n\nKavukcuoglu observes that current models are not dramatically larger in parameter count than models from three or four years ago, yet they pack far more capability, suggesting there is still substantial untapped capacity that algorithmic improvements could unlock. Dean estimates LLMs need roughly 1,000 times more training data than humans to reach comparable capabilities, and believes that gap represents a major opportunity if algorithmic improvements can close it."
+    },
+    {
+      "heading": "How the Gemini co-leads met each other",
+      "text": "Jeff Dean called Noam Shazeer in 2000 to persuade him to accept a Google offer; Shazeer joined and became Dean's officemate for three and a half years. Shazeer's starter project was the Did You Mean spell correction system in Search. Dean also called Oriol Vinyals in 2012 to persuade him to choose Google over a competing offer; Vinyals was finishing his PhD and joined to work on distillation, with Dean effectively acting as a coding assistant during the early implementation. Koray Kavukcuoglu's first significant interaction with Dean was during the DeepMind acquisition process in London, where Dean asked to review the DeepMind codebase directly alongside Kavukcuoglu during the due diligence process."
+    },
+    {
+      "heading": "Gemini Omni and the world modeling direction",
+      "text": "Gemini Omni is a model that takes in any modality (text, image, audio, video, genomic sequences, chemical structure, robotic data, LiDAR) and outputs any modality, now including video generation. Kavukcuoglu distinguishes Omni from Veo (text-to-video) by arguing that a true world model must not only generate video but understand the dynamics, physics, and causality of the physical world well enough to simulate it forward, and to use those future simulations as the basis for decisions. That makes Omni a qualitatively different category from separate generation and understanding models. Vinyals notes that the joint training approach, where video, audio, text, and other modalities are trained together, is producing emergent capabilities like 3D consistency and scene coherence that previously required hand-specified rules, and that this seemed unlikely to work from first principles but has proven out at scale. Dean extends multimodality beyond human-centric modalities to scientific data types."
+    },
+    {
+      "heading": "Predictions for I/O 2027: self-improvement and long-running agents",
+      "text": "Kavukcuoglu predicts that by I/O 2027, models will be meaningfully contributing to their own improvement, with at least some significant Gemini capability having been generated by agents running experiments rather than by human researchers directly. Dean extends this: by then, the team will be able to point to specific model improvements that came from AI-directed self-improvement under human guidance.\n\nVinyals predicts continual learning will see meaningful progress: a model that can update its knowledge base through experience and interaction without requiring weight updates, so users see the model improving in real time based on what it has encountered.\n\nKilpatrick predicts a model that runs autonomously for 30 consecutive days becomes a demonstrated reality, which he sees as requiring the full stack: better memory systems, continual learning, and faster inference hardware (so 30 days of work compresses into one day of wall time). Dean adds that tool latency is an underappreciated constraint: most agent time is spent waiting for external tools built for human interaction cadences, not for model inference speed."
+    },
+    {
+      "heading": "One model or thousands of products in five years",
+      "text": "Kavukcuoglu's answer: one product, the model. Google's current and future products are expressions of a single model becoming more capable. Dean qualifies this: there are many product interfaces and surfaces, each serving different human needs, but a smaller number of underlying capabilities that make all of them good. He cites the AI glasses demonstrated at I/O as a distinct product form from Search, both powered by the same underlying model. Vinyals notes that user intent segmentation (I want to check email, I want to buy something) may reflect a genuine human preference for separation of concerns rather than a technological limitation, and is cautious about predicting the consolidation away. Shazeer speculates that longer-term, physical products that move atoms rather than just bits may emerge from Omni-class models."
+    }
+  ],
+  "read_time_minutes": 4.8
+}

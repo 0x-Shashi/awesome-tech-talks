@@ -1,0 +1,87 @@
+{
+  "id": "physical-ai-robotics-2026",
+  "title": "Physical AI: the new era of robotics",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Jacklyn Dallas",
+    "Kanishka Rao",
+    "Alberto Rodriguez"
+  ],
+  "url": "https://youtu.be/jn3iypY-cN4?si=mZcYAxibt6K5PkhY",
+  "date": "unknown",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "Research/Papers",
+    "AI Agents",
+    "LLM Fundamentals"
+  ],
+  "description": "Join scientific leaders from Google DeepMind and Boston Dynamics as they unpack the seismic leap in embodied AI. This session will examine how machines are moving beyond scripted automation to possess the general-purpose AI and reasoning required to navigate our physical reality.",
+  "entities": [
+    "Atlas",
+    "Spot",
+    "Stretch",
+    "Boston Dynamics",
+    "Google DeepMind",
+    "Gemini robotics model",
+    "VLA",
+    "vision language action model",
+    "reinforcement learning",
+    "teleoperation",
+    "simulation",
+    "wrist camera",
+    "haptic sensing",
+    "tactile sensing",
+    "proprioception",
+    "physical AGI",
+    "origami robot",
+    "laundry sorting",
+    "thinking tokens",
+    "action tokens",
+    "Gemini Omni",
+    "world models",
+    "video models",
+    "bin picking",
+    "KYC",
+    "imitation learning"
+  ],
+  "segments": [
+    {
+      "heading": "Why 2026 is a breakthrough year for robotics",
+      "text": "Kanishka Rao, Head of Robotics at Google DeepMind, identifies the wave of general-purpose AI breakthroughs as the primary driver. A few years ago, Google adapted large vision-language models (VLMs) for robotics by adding a third modality: action, represented as physical tokens alongside vision and language tokens. The result was a vision-language-action (VLA) model that gave robots human-world understanding for free. A demonstration example: the robot, never having seen the object in robotics training data, correctly identified and picked up a dinosaur toy when asked to pick up the extinct animal. The understanding came from the digital AI pretraining, not from robotics-specific data."
+    },
+    {
+      "heading": "Why humanoid robots: the hardware and data arguments",
+      "text": "Alberto Rodriguez, Head of Robotics Behavior at Boston Dynamics, gives two arguments for the humanoid form factor:\n\n1. Data scaling: the most practical path to large-scale data collection for robot training is learning from human demonstration. Matching the human body form factor makes that learning most direct and efficient.\n\n2. Hardware capability: two arms enable load balancing and object repositioning that a single arm cannot do. Two legs give access to essentially any place a human can reach, plus the ability to change the robot's shape and orientation to adapt to tight spaces, and to adjust friction with the ground dynamically for faster acceleration and deceleration than wheeled robots.\n\nRao adds the physical AGI argument: if AGI means a system that can do anything a human can do, the humanoid form factor is the right substrate for testing that claim."
+    },
+    {
+      "heading": "Two training paradigms: simulation for locomotion, teleoperation for dexterity",
+      "text": "Robot training currently divides into two buckets:\n\n1. Simulation-based reinforcement learning: works for tasks that can be simulated with high fidelity, primarily whole-body locomotion and balance. Walking, running, dancing, carrying loads, and whole-body dynamics are all trained in simulation with verifiable reward loops, then transferred to the real world. Boston Dynamics leads on this. The new Atlas robot was designed for mass manufacturing (simpler hardware, higher reliability) specifically to enable large-scale deployment and data collection.\n\n2. Real-world data collection through teleoperation: required for dexterity, because the full variety of objects and manipulation tasks in the world cannot be simulated. Human pilots wearing VR headsets see through the robot's cameras and control it to perform tasks, generating physical tokens that the robot learns from. The goal is that the pilot cannot use information the robot would not have, making the demonstration as close to the robot's actual perception as possible."
+    },
+    {
+      "heading": "Why dexterity is the hardest remaining problem",
+      "text": "Rao and Rodriguez identify fine manipulation as the central unsolved challenge in robotics. Key reasons:\n\n1. Whole-body locomotion is largely solved: humanoid balance is solved, as are walking, running, and locomotion over varied terrain. Picking up and placing objects in constrained environments also works well today.\n\n2. Dexterity requires skills that are hard to learn: opening a bottle cap requires force feedback that is both difficult to demonstrate (pilots cannot feel what they are doing through the robot) and difficult to simulate (contact mechanics, skin compression, fingertip sensing are hard to model at the required fidelity).\n\n3. Generalization of verbs to objects remains narrow: a robot trained to unscrew something can do it with a few objects, but does not generalize the verb unscrew the way humans do (once learned, applicable to almost any screwing task). Robots have not achieved universal skill transfer.\n\nRao notes: today, AI can code an operating system in 24 hours or solve advanced math, but cannot scramble eggs. The gap between digital and physical intelligence is real and distinct."
+    },
+    {
+      "heading": "Vision-based models and the tactile gap",
+      "text": "All state-of-the-art robot manipulation models are currently vision-based rather than tactile-based. This is counterintuitive because humans use tactile feedback for most daily manipulation more than vision. Reasons for the current state:\n\n1. Pre-training data: internet-scale vision data is orders of magnitude larger than any tactile dataset.\n2. Wrist cameras as tactile proxies: cameras on robot wrists or end effectors provide close-up views of contact points, allowing the model to infer forces from pixel-level compression signals rather than feeling them directly. An origami-folding task (which intuitively requires touch) was successfully demonstrated by a purely vision-based model reading creases and folds.\n\nRodriguez notes an empirical observation that informs this: humans doing everyday tasks rarely look at their hands while performing them. Eye-tracking studies show that most manipulation is driven by tactile and proprioceptive feedback with only brief visual confirmation. His hypothesis: once reliable tactile hardware exists, robots will shift to using vision primarily for common sense understanding and tactile sensing for high-frequency control loops, mirroring the human architecture."
+    },
+    {
+      "heading": "Thinking tokens in the Gemini robotics model",
+      "text": "Google DeepMind introduced thinking tokens in the Gemini robotics model as a mechanism for moving from purely reactive muscle-memory-style action generation to interpretable and steerable behavior.\n\nIn standard VLA models, the robot observes an image and outputs an action with no intermediate reasoning. The model cannot explain why it took an action.\n\nWith thinking tokens, before generating an action token, the model explicitly generates a text-format reasoning trace about what it is doing and why. Example: I am close enough to close my hand and will grasp the bottle vs. I am not close enough, I need to go lower. The action that follows is conditioned on that thought trace.\n\nEditing the thought trace changes the resulting action in predictable ways, making the model both more interpretable and more steerable. The demonstration from the laundry sorting video showed the model generating thoughts like adjust the black bin a little bit so I can pick up the cloth, a behavior not explicitly present in training, emerging from the combined thinking-and-action training."
+    },
+    {
+      "heading": "Robotics roadmap: timeline and remaining blockers",
+      "text": "Rao's timeline estimate: 5 to 10 years before robots capable of general household tasks become realistic. Near-term industrial applications are the earlier entry point.\n\nRemaining technical blockers:\n- Dexterity and generalization of manipulation skills to arbitrary objects\n- Tactile hardware: current sensors are not reliable or sensitive enough at scale\n- Safety: robots are useless without robust safety AI. Rao compares this to autonomous driving, where safety is not a side consideration but an essential requirement before deployment.\n\nAlberto Rodriguez's focus at Boston Dynamics: architecture for multi-frequency decision making. Robots must make some decisions at 1 Hz or less (what object to interact with, what preshape of the hand to use) and others at 50-100 Hz (contact accommodation, balance). The right architecture accommodates both decision frequencies simultaneously. The open research question is what combination of demonstration and trial-and-error training populates this architecture most effectively."
+    },
+    {
+      "heading": "What robots are very good at today",
+      "text": "Rao and Rodriguez list current robot capabilities:\n\n- Whole-body balance and locomotion: solved, enabling humanoid robots to walk, run, and navigate stairs\n- Pick and place: basic object grasping and placement works well with imitation learning\n- Physical tasks in structured environments: Atlas lifts and carries heavy objects (fridge, up to 60 lb boxes via Stretch)\n- Inspection and monitoring: Spot patrols industrial facilities on regular schedules, monitoring hundreds or thousands of inspection points reliably, without fatigue or attention drift\n- Simulation-based locomotion training: reinforcement learning in simulation with transfer to the real world is working\n\nIndustrial challenges still in progress: cable handling (deformable objects with routing requirements), power tool use (requires grip strength calibration), bin picking of single objects from unstructured bins."
+    },
+    {
+      "heading": "Vision for robotics in 10 years",
+      "text": "Rao: if dexterity and safety are solved, robots capable of general daily-life tasks (household chores, repetitive and dull work) become realistic within 10 years. The goal is robots handling boring, repetitive, and dangerous physical labor so humans do not have to.\n\nRodriguez: the target is eliminating arduous physical labor. Stretch already eliminates the need for humans to unload boxes from trucks in 100-degree trailers. Spot eliminates the need for humans to do 500 consecutive identical inspections to catch the 1 anomaly. Atlas targets heavier industrial labor. The commercial roadmap runs from controlled industrial environments (where safety constraints are easier to implement) toward eventually residential and consumer deployments as the technology and safety approaches mature."
+    }
+  ],
+  "read_time_minutes": 5.1
+}

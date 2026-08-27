@@ -1,0 +1,72 @@
+{
+  "id": "race-condition-agentic-simulation-2026",
+  "title": "Fireside chat on an agentic simulation: Race Condition",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Tom Greenaway",
+    "Casey West"
+  ],
+  "url": "https://youtu.be/WYPdz3OZfuQ?si=bB7MJSEG80CFE9Pg",
+  "date": "2026-04-24",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "Join Casey West and Tom Greenaway as they chat through some of the development choices and learnings made during the creation of Race Condition. A high-scale agentic AI-powered simulation sandbox with Gemini Enterprise Agent Platform",
+  "entities": [
+    "Race Condition",
+    "Gemini Enterprise Agent Platform",
+    "Agent Development Kit (ADK)",
+    "A2A protocol",
+    "Agent Registry",
+    "Agent Cards",
+    "Agent Gateway",
+    "MCP servers",
+    "Model Context Protocol",
+    "Google Cloud Next",
+    "Google Kubernetes Engine (GKE)",
+    "Gemma 4",
+    "vLLM",
+    "Google Cloud Pub/Sub",
+    "Cloud Memorystore",
+    "Redis",
+    "Angular",
+    "Minecraft",
+    "Adventure",
+    "AI Venture"
+  ],
+  "segments": [
+    {
+      "heading": "Race Condition overview: reference architecture for agentic simulations",
+      "text": "Tom Greenaway (Frontend/Gaming Lead) and Casey West (Backend Architect) introduce Race Condition, an open-source reference architecture demonstrating large-scale agentic simulation for planning a marathon along the Las Vegas Strip. Developed for the Google Cloud Next developer keynote, the project showcases the Gemini Enterprise Agent Platform, combining cloud infrastructure, open standards, and multi-agent coordination."
+    },
+    {
+      "heading": "Core components of an agent: model, instructions, and tools",
+      "text": "Casey West outlines the foundational structure of an agent within the Agent Development Kit (ADK): an LLM generating actions and narratives, structured instructions defining boundaries and goals, and tools connecting to external services. In Race Condition, specialized agents include Planner agents (designing marathon routes and assessing city traffic/safety impacts), Simulator agents (managing execution loops), and Runner agents (simulating individual participant behavior)."
+    },
+    {
+      "heading": "Multi-agent communication: A2A protocol, Agent Cards, and Message Bus",
+      "text": "The simulation implements Google's Agent-to-Agent (A2A) protocol. Deployed agents publish structured Agent Cards to the Agent Registry, advertising their capabilities and skills. For high-throughput internal communication between thousands of entities, the architecture avoids point-to-point HTTP bottlenecking by integrating an enterprise message bus using Google Cloud Pub/Sub and Cloud Memorystore (managed Redis), streaming state updates directly to the frontend visualization."
+    },
+    {
+      "heading": "Game development patterns in agentic distributed architectures",
+      "text": "The architecture borrows core multiplayer game patterns. The backend maintains authoritative game-loop state and ticks every 5 to 10 seconds, while the 3D client functions as a lightweight observer. Client-side collision detection (e.g., runners hitting 3D spherical water stations) triggers events back to the backend, updating agent state (replenishment status) asynchronously. Inter-agent messaging supports natural language queries as well as structured JSON payloads."
+    },
+    {
+      "heading": "Hybrid scaling: deterministic agents vs. open-weight Gemma 4 models",
+      "text": "To simulate thousands of concurrent runners cost-effectively without token bottlenecks, the team implemented a dual approach:\n\n1. Deterministic ADK runners: LLM-free rule-based agents responding to structured JSON in milliseconds for massive scale.\n\n2. Model-driven Gemma 4 runners: Open-weight Gemma 4 instances hosted on Google Kubernetes Engine (GKE) using vLLM for high-concurrency private inference. This configuration allows runners to express chaotic emergent behaviors, internal thoughts, and dynamic decisions without paying per-token API costs on proprietary frontier models."
+    },
+    {
+      "heading": "Context management and subagent token optimization",
+      "text": "Accumulating chat history across long-running simulations leads to escalating token costs and response latency. Race Condition mitigates this through strict context isolation: subagents receive only immediate local task context without unneeded historical tokens. In addition, historical state is compacted into periodic summaries, keeping per-tick token budgets minimal and response times fast."
+    },
+    {
+      "heading": "Enterprise agent security: Agent Gateway, Identity, and MCP permissions",
+      "text": "Securing autonomous agents interacting with enterprise infrastructure requires network-layer controls under a shared responsibility model. The architecture enforces:\n\n- Agent Identity: Cryptographically assigning distinct principal identities to each deployed agent.\n- Agent Gateway: Enforcing network-layer RBAC policies on Model Context Protocol (MCP) server endpoints, ensuring planner agents with read access to municipal data cannot invoke destructive budget modification tools."
+    }
+  ],
+  "read_time_minutes": 1.7
+}

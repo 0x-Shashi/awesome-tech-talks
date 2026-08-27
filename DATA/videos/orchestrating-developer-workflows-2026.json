@@ -1,0 +1,50 @@
+{
+  "id": "orchestrating-developer-workflows-2026",
+  "title": "Beyond the hype: Orchestrating end-to-end developer workflows with agents",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Ricky Robinett",
+    "Aaron Wanjala",
+    "Azim Shaik",
+    "Doug McKenzie"
+  ],
+  "url": "https://youtu.be/t6jH_GPFqgs?si=MZIrswUN4IFH7vVR",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools",
+    "Backend/Infra"
+  ],
+  "description": "Cloud Next 2026 developer spotlight session addressing the DORA report finding that unmanaged AI tools increase organizational instability. Demonstrates replacing fragmented coding assistants with agent-first developer workflows using Gemini CLI and Antigravity. Features live demos of full-lifecycle issue triage, automated code refactoring, CI/CD verification, and cross-functional collaboration.",
+  "entities": [
+    "Antigravity (Google AI IDE)",
+    "Gemini CLI",
+    "DORA Report (DevOps Research and Assessment)",
+    "Agent-First Development",
+    "Intent-Driven Development",
+    "GitHub Actions Integration",
+    "Cloud Build",
+    "Automated Code Refactoring"
+  ],
+  "segments": [
+    {
+      "heading": "The DORA paradox: individual productivity vs. organizational instability",
+      "text": "The latest DORA report reveals that while 80% of developers report higher individual output using AI coding assistants, organizations suffer increased delivery instability and technical debt when AI is deployed as unstructured copy-paste snippets. Agent-first development solves this by moving from isolated autocomplete to structured, verifiable end-to-end agentic workflows."
+    },
+    {
+      "heading": "Breaking down functional silos between product, design, and engineering",
+      "text": "Agentic tooling dissolves rigid departmental boundaries. Product managers spin up functional prototypes, designers export live React code connected to real databases, and developers orchestrate backend APIs and infrastructure without endless Jira ticket handoffs."
+    },
+    {
+      "heading": "Live demo: end-to-end issue triage and remediation with Antigravity and Gemini CLI",
+      "text": "The team demonstrates Antigravity and Gemini CLI resolving a live customer issue: an agent ingests a bug report, traces runtime logs, navigates repository files, plans a minimal reproduction test, modifies code across multiple files, and runs unit tests in an isolated sandbox before submitting a clean pull request."
+    },
+    {
+      "heading": "Enterprise governance, reproducible builds, and developer trust",
+      "text": "Scaling agentic development requires enterprise guardrails: verifiable test runs, immutable audit trails, and human-in-the-loop review gates. When agents adhere to established CI/CD pipelines, teams maintain software stability while accelerating feature velocity."
+    }
+  ],
+  "read_time_minutes": 0.6
+}

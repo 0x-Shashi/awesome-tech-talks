@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/0x-Shashi/awesome-tech-talks/blob/main/DATA/schema.json",
+  "title": "Awesome Tech Talks video record",
+  "description": "One record per talk. Every file in DATA/videos/ validates against this schema, and DATA/manifest.jsonl holds the same records one per line for bulk export into an AI tool.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "channel",
+    "speakers",
+    "url",
+    "date",
+    "format",
+    "level",
+    "topics",
+    "description",
+    "entities",
+    "segments",
+    "read_time_minutes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug for the talk, shaped as speaker-or-topic-hint-year. Also the filename in DATA/videos/ and INFO/{channel}/."
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the talk as published on YouTube."
+    },
+    "channel": {
+      "type": "string",
+      "description": "YouTube channel that published the talk.",
+      "examples": ["Google for Developers", "Google Cloud Tech", "Grow with Google", "Google Cloud"]
+    },
+    "speakers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Everyone speaking on camera, hosts included. Uses [\"unknown\"] when the source gives no attribution and the transcript does not identify anyone."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical YouTube link."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^(\\d{4}-\\d{2}-\\d{2}|unknown)$",
+      "description": "Publication date in ISO form, or the literal string unknown when the source did not carry one. Dates are never inferred."
+    },
+    "format": {
+      "type": "string",
+      "enum": ["Talk", "Workshop", "Panel", "Fireside Chat", "Demo"],
+      "description": "Delivery format, judged from the content and tone of the transcript."
+    },
+    "level": {
+      "type": "string",
+      "enum": ["Beginner", "Intermediate", "Advanced"],
+      "description": "Assumed background needed to follow the talk."
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AI Agents",
+          "LLM Fundamentals",
+          "Prompt Engineering",
+          "AI Coding Tools",
+          "Web Development",
+          "Android/Mobile",
+          "Backend/Infra",
+          "Product/Startup",
+          "Research/Papers",
+          "Career/Advice"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "description": "One to three topics from a fixed list. The list is closed so that filtering stays predictable across the whole dataset."
+    },
+    "description": {
+      "type": "string",
+      "description": "The publisher's own description, carried over verbatim."
+    },
+    "entities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "Every named product, feature, model, codename, standard, or tool mentioned, including terms that appear only once. This field feeds glossary and jargon lookups."
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["heading", "text"],
+        "properties": {
+          "heading": {
+            "type": "string",
+            "description": "What this stretch of the talk is actually about, specific enough that reading the headings alone gives you the structure of the talk."
+          },
+          "text": {
+            "type": "string",
+            "description": "The transcript for this segment with verbal filler, false starts, and immediate restatement removed. Named things, numbers, claims, reasoning chains, and anecdotes are preserved in full."
+          }
+        }
+      },
+      "minItems": 1,
+      "description": "The talk broken at real topic shifts. Concatenating every text field gives you the full cleaned talk in order."
+    },
+    "read_time_minutes": {
+      "type": "number",
+      "description": "Estimated reading time for the cleaned segment text at 250 words per minute."
+    }
+  }
+}

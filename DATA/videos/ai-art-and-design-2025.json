@@ -1,0 +1,65 @@
+{
+  "id": "ai-art-and-design-2025",
+  "title": "The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Ashley Oldacre",
+    "Douglas Edric Stanley",
+    "Anthony Masure"
+  ],
+  "url": "https://youtu.be/XbvHlMTzi6E?si=f_wdfb_RbJqhSvL5",
+  "date": "2025-07-23",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "Research/Papers",
+    "Career/Advice"
+  ],
+  "description": "Join Ashley Oldacre as she hosts a conversation with artist Douglas Edric Stanley and Dean of Research at Geneva University of Art and Design Anthony Masure. They discuss their origin stories, the role of AI in creative fields, and the value of critical thinking in a technology-driven world.",
+  "entities": [
+    "Douglas Edric Stanley",
+    "Anthony Masure",
+    "Ashley Oldacre",
+    "Geneva University of Art and Design (HEAD Geneve)",
+    "Centre Pompidou",
+    "La Rue Virtuelle",
+    "Eniarof",
+    "Caran d Ache",
+    "Back Office journal",
+    "I Ching",
+    "cybernetics",
+    "generative art",
+    "critical thinking",
+    "digital anthropology",
+    "hybrid creative strategies",
+    "pareidolia"
+  ],
+  "segments": [
+    {
+      "heading": "Origins across Silicon Valley hacker culture, French philosophy, and media labs",
+      "text": "Douglas Edric Stanley (new media artist and professor) and Anthony Masure (Dean of Research at Geneva University of Art and Design, HEAD Geneve) recount their career paths. Growing up in 1970s Silicon Valley with mainframe teletype machines and early Atari prototypes, Stanley transitioned to Paris to study post-structuralist philosophy before curating early digital art at the Centre Pompidou and developing creative coding curricula. Masure established research on the politics of design, blockchain, and artificial intelligence."
+    },
+    {
+      "heading": "Cybernetic loops and the temporality of human-machine interaction",
+      "text": "Stanley examines how technological artifacts shape human perceptions of time. Unlike novels or cinema which have predefined linear conclusions, digital systems operate on continuous cybernetic clock cycles where states recurse infinitely (such as save-and-retry gameplay loops in video games). Interacting with algorithmic systems creates recursive feedback loops where human cognitive models shape code, and algorithmic outputs subsequently reshape cultural thought patterns."
+    },
+    {
+      "heading": "The role of the designer: holistic context vs. automated optimization",
+      "text": "The panel explores the fundamental difference between design methodology and automated AI generation. True design requires interpreting client briefs within unique cultural, generational, and institutional contexts rather than retrieving generic statistical averages from past datasets. While generative tools output polished artifacts instantly, design education emphasizes understanding underlying problem spaces, materials, and human relational dynamics."
+    },
+    {
+      "heading": "Resisting late-capitalist maintenance: preserving the craft of drawing",
+      "text": "Stanley cautions against over-optimizing creative workflows into button-pushing interfaces where humans become mere maintainers of generative machines. In a collaborative project with Swiss art utensil manufacturer Caran d'Ache, researchers investigated how AI can be injected subtly into physical sketching without interrupting the somatic pleasure and cognitive flow of drawing on paper."
+    },
+    {
+      "heading": "Hybrid strategies: AI as an experimental medium rather than a turnkey tool",
+      "text": "Discussing the exhibition Assembling Intelligence - Hybrid Strategies for AI, Art, and Design, Stanley details diverse student approaches: retraining local language models to deliver generative 3D sculpting prompts, exploring prompt-output discordances as poetic commentary, and combining machine learning predictions with traditional physical ceramics and oil paintings. The panel argues that AI serves best as an idiosyncratic creative medium rather than a standardized productivity substitute."
+    },
+    {
+      "heading": "Ancient roots of generative text: from the I Ching to non-linear narratives",
+      "text": "Stanley contextualizes modern large language models within millennia of human fascination with non-human generative oracles. Ancient systems like the I Ching used physical randomization (yarrow sticks) to assemble textual divination, reflecting human tendencies toward pareidolia and longing for dialogue with external intelligences. Modern generative models unlock real-time non-linear interactive storytelling where dynamic narratives synthesize adaptively around reader agency."
+    }
+  ],
+  "read_time_minutes": 1.5
+}

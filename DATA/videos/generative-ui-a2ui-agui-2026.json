@@ -1,0 +1,51 @@
+{
+  "id": "generative-ui-a2ui-agui-2026",
+  "title": "Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Alan Blount",
+    "Atai Barkai",
+    "Ido Salomon",
+    "Nicolas Le Pallec"
+  ],
+  "url": "https://youtu.be/UsMDkEsR-ok?si=VmlK6p7cd0lNmEf4",
+  "date": "2026-06-25",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development",
+    "Product/Startup"
+  ],
+  "description": "Explores the emergence of Generative UI standards to break beyond text-only chatbot walls. Details three complementary approaches: MCP Apps (interactive web UI extensions over Model Context Protocol), AG-UI from CopilotKit (bridging any frontend framework with agent backends), and A2UI (declarative data-driven UI treating design systems as secure trust catalogs) across Gemini Enterprise, Google Search, and the agentic web.",
+  "entities": [
+    "Generative UI",
+    "A2UI (Agent-to-UI)",
+    "AG-UI (CopilotKit)",
+    "MCP Apps (Model Context Protocol)",
+    "CopilotKit",
+    "Gemini Enterprise",
+    "Design System Trust Catalog",
+    "PostHog MCP App",
+    "Declarative UI"
+  ],
+  "segments": [
+    {
+      "heading": "Breaking the chat wall: the evolution from text to adaptive interfaces",
+      "text": "Text-only chat interfaces create cognitive overload when presenting complex multi-dimensional data like funnel analytics, booking options, or financial charts. Generative UI dynamically generates interactive, brand-aligned graphical user interfaces in real time based on agent intent and user context."
+    },
+    {
+      "heading": "MCP Apps: interactive frontend extensions over Model Context Protocol",
+      "text": "Ido Salomon explains MCP Apps, the official extension to MCP standardizing UI delivery from tool providers to client applications. When an agent queries an analytics server like PostHog, the server returns an interactive UI component (rendered in an isolated iframe or web component) rather than static text, allowing instant inline data exploration."
+    },
+    {
+      "heading": "AG-UI by CopilotKit: universal agent-to-frontend bridge",
+      "text": "Atai Barkai presents AG-UI, an open-source protocol by CopilotKit that connects frontend application state with autonomous agent backends (LangChain, LangGraph, ADK, CrewAI). AG-UI enables bidirectional context sharing: agents can inspect frontend DOM/state and render dynamic generative widgets directly into native React/Vue components."
+    },
+    {
+      "heading": "A2UI: declarative data-driven UI and design system trust catalogs",
+      "text": "Nicolas Le Pallec and Alan Blount introduce A2UI, Google's declarative UI standard. Instead of letting LLMs output arbitrary unsafe HTML/JavaScript, A2UI treats UI as structured JSON data referencing pre-approved enterprise design system components (the 'trust catalog'), guaranteeing strict visual consistency, mobile responsiveness, and zero XSS vulnerability."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

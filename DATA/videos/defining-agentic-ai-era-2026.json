@@ -1,0 +1,79 @@
+{
+  "id": "defining-agentic-ai-era-2026",
+  "title": "Defining the agentic AI era",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Logan Kilpatrick",
+    "Koray Kavukcuoglu",
+    "Liz Reid",
+    "Josh Woodward",
+    "Jeff Dean"
+  ],
+  "url": "https://youtu.be/bc4QwDd5jB0?si=6JCnE-EZh0kr5q5o",
+  "date": "2026-05-22",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools",
+    "Product/Startup"
+  ],
+  "description": "Join Google’s AI leadership to discuss how the rapid acceleration of model capabilities is transforming productivity and access to information in a new era of proactive, agentic AI.",
+  "entities": [
+    "Gemini 3.5 Flash",
+    "Gemini 3.0",
+    "Gemini Spark",
+    "Antigravity",
+    "Google Search",
+    "Google Labs",
+    "AI Studio",
+    "Google DeepMind",
+    "TPU v8",
+    "Amdahl law",
+    "Google Flow",
+    "Stitch",
+    "DESIGN.md",
+    "Gemini Omni",
+    "Docs Live",
+    "vibe coding",
+    "agentic coding",
+    "bespoke software",
+    "asynchronous agents",
+    "tool latency"
+  ],
+  "segments": [
+    {
+      "heading": "Gemini 3.5 Flash: purpose-built for agentic workflows and coding",
+      "text": "Koray Kavukcuoglu (CTO of Google DeepMind) explains the design focus of Gemini 3.5 Flash: advancing reasoning, multimodal comprehension, and long-horizon agentic task execution beyond Gemini 3.0. Internally at Google, researchers and engineers stress-tested models on real software engineering and long-horizon workflows. The operational insights directly informed architectural adjustments in training to resolve performance bottlenecks on extended multi-step reasoning tasks."
+    },
+    {
+      "heading": "Full-stack AI infrastructure: 8th-generation TPUs and inference optimization",
+      "text": "Jeff Dean (Chief Scientist) highlights Google's vertical integration spanning custom silicon to deployed user interfaces. The 8th-generation TPU architecture introduces dedicated design separations optimizing training throughput versus high-speed inference serving. Dean emphasizes that high-speed inference fundamentally alters user experience: when agents execute tasks autonomously on a user's behalf, low latency compounds across dozens of iterative tool calls and subagent steps."
+    },
+    {
+      "heading": "Rethinking search latency in an agentic paradigm",
+      "text": "Liz Reid (Head of Search) describes how latency expectations adapt to task complexity. For quick factual queries, users demand millisecond responses. For complex, multi-source synthesis or custom tool generation (such as building an interactive weekend planner), users comfortably tolerate a 30 to 60-second processing window. Search incorporates Gemini 3.5 Flash and Antigravity SDK components under the hood, routing multi-step queries across specialized backend databases (finance, sports, travel) through general reasoning rather than hardcoded query templates."
+    },
+    {
+      "heading": "Gemini Spark: proactive 24/7 background agent workflows",
+      "text": "Josh Woodward (VP of Google Labs and Gemini App) outlines Gemini Spark, an always-on background agent. Key use cases include: automated morning information syntheses; conditional triggers (monitoring priority communications from executive leadership, conducting background research, and drafting responses without automatically sending); personalized sports updates delivered in a fan-tailored voice; and autonomous document/slide deck generation."
+    },
+    {
+      "heading": "Amdahl's law and tool latency: the next performance bottleneck",
+      "text": "Jeff Dean notes that as inference speed and model compute times approach near-zero, external tool execution becomes the dominant system bottleneck under Amdahl's law. Tools designed for human interaction speeds (listing files, running heavy scripts, spinning up slow runtimes) severely limit autonomous agent throughput. Dean cites an internal example where Google engineers used Gemini to translate legacy internal tooling from slow Python implementations into optimized Go code in a single night, delivering 10x to 20x speedups in tool execution."
+    },
+    {
+      "heading": "Machine-readable context: DESIGN.md and the elimination of PRDs",
+      "text": "Josh Woodward discusses how internal software engineering workflows have moved away from traditional product requirement documents (PRDs). Product teams increasingly write structured markdown context files (such as DESIGN.md, open-sourced via the Stitch project) that encode architectural boundaries, design tokens, and constraints in machine-consumable form, allowing agentic coding harnesses to implement UI and backend features directly."
+    },
+    {
+      "heading": "Organizational transformation: the asynchronous engineering Renaissance",
+      "text": "Panelists describe how daily workflows have evolved across Google leadership. Executive and engineering roles now delegate substantive tasks asynchronously to background agents overnight or between meetings. Liz Reid emphasizes how AI tools dissolve traditional job boundaries: product managers can directly prototype and adjust UI stylesheets, and engineers can debug performance issues in unfamiliar legacy codebases by instructing agents to implement and benchmark alternative concurrency patterns."
+    },
+    {
+      "heading": "Bespoke software generation: shifting from static apps to autonomous tools",
+      "text": "The panel highlights creative generation tools such as Google Flow, where filmmakers and artists vibe-code custom shaders, lighting pipelines, and UI tools directly within the creative suite. Jeff Dean observes that historical software engineering required standardizing rigid applications due to high development costs; agentic generation enables on-demand bespoke software tailored to specific users, tasks, or ephemeral queries."
+    }
+  ],
+  "read_time_minutes": 2.0
+}

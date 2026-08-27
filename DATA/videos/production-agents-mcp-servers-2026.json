@@ -1,0 +1,66 @@
+{
+  "id": "production-agents-mcp-servers-2026",
+  "title": "Beyond the prompt: Build production-ready agents with Google's MCP servers",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Vidya Nagarajan",
+    "Tarun Gumar",
+    "Keren He",
+    "Levi Chen"
+  ],
+  "url": "https://youtu.be/df7ZdrBxlsE?si=tIl4FWKhUUTDo9hJ",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Explores Google's over 50 fully managed remote Model Context Protocol (MCP) servers for services like BigQuery, Cloud Run, GKE, Google Drive, and Gmail. Covers enterprise governance with IAM allow and deny policies, VPCSC, Model Armor content scanning to prevent prompt injection and PII leaks, and Cloud audit logs. Includes a customer case study and architecture walkthrough from Insta360 for an AI video editing agent (Moments Pro).",
+  "entities": [
+    "Model Context Protocol (MCP)",
+    "Google-managed MCP servers",
+    "Agent Registry",
+    "Gemini CLI",
+    "Claude",
+    "ChatGPT",
+    "VS Code",
+    "LangChain",
+    "ADK",
+    "crewAI",
+    "BigQuery MCP server",
+    "Compute MCP server",
+    "Cloud Run MCP server",
+    "IAM allow and deny policies",
+    "VPCSC (VPC Service Controls)",
+    "Model Armor",
+    "Cloud audit logs",
+    "OTel tracing",
+    "Application Default Credentials (ADC)",
+    "Insta360",
+    "Moments Pro (Insta360)",
+    "Gemini 3",
+    "Google Cloud Storage",
+    "Vertex AI Vector Search",
+    "ffmpeg"
+  ],
+  "segments": [
+    {
+      "heading": "Connectivity as the bottleneck and the launch of Google-managed MCP servers",
+      "text": "Experts project over 1 billion deployed agents by 2029, but agents are limited by their connectivity to enterprise systems. Current bottlenecks include non-standardized integrations, inconsistent security per service, and brittle custom connections. While local MCP servers (stdio) work for demos, production enterprises face scale, performance, and compliance hurdles. Google announced over 50 fully managed remote MCP servers across GA and Preview. Every Google Cloud service is now MCP-enabled by default, supporting standardized discovery via Agent Registry, OTel tracing, Cloud audit logs, and Model Armor content scanning."
+    },
+    {
+      "heading": "Demo: Gemini CLI extensions and BigQuery MCP server discovery",
+      "text": "Google-managed MCP servers are packaged as Gemini CLI extensions for one-click installation. A developer copies the extension URL from Agent Registry and runs gemini mcp install. The CLI uses local Application Default Credentials (ADC) to authenticate via OAuth 2.1 compliant flows. The agent dynamically lists datasets, queries table schemas to understand column structure, and writes and executes SQL queries (for example, identifying top customers by lifetime value) without manual schema hardcoding."
+    },
+    {
+      "heading": "Enterprise governance: IAM policies, IAM Deny, VPCSC, and Model Armor",
+      "text": "Access to Google-managed MCP servers requires two-layer authorization: underlying API permissions and the specific MCP tool user role. Security administrators can apply granular IAM Deny policies using conditional attributes such as read-only enforcement, blocking specific OAuth client IDs, or denying all MCP access organization-wide. Model Armor provides native content filtering: switching from inspect-only to inspect-and-block automatically redacts or blocks sensitive PII (such as credit card numbers) and protects against prompt injection before data reaches the model. Full end-to-end observability is maintained across MCP calls and underlying API endpoints in Cloud audit logs."
+    },
+    {
+      "heading": "Insta360 case study: Moments Pro AI video editing agent",
+      "text": "Insta360 (the world's leading 360-degree camera brand with over 6 million creators) built Moments Pro, a conversational video editing assistant powered by Gemini 3. Users describe desired video edits in natural language (for example, 'make a skiing highlight reel'). The orchestrator agent decomposes requests into multi-step editing plans, while specialized sub-agents call Google Cloud tools (upload_to_gcs, query_vector_search, deploy_to_cloudrun, and ffmpeg). Migrating from local tool connections to Google-managed remote MCP servers decoupled the architecture, eliminated infrastructure management (zero-ops), and provided enterprise security across millions of global creators."
+    }
+  ],
+  "read_time_minutes": 1.3
+}

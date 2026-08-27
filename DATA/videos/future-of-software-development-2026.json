@@ -1,0 +1,92 @@
+{
+  "id": "future-of-software-development-2026",
+  "title": "The future of software development",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Logan Kilpatrick",
+    "Tulsee Doshi",
+    "Varun Mohan",
+    "Michael Gerstenhaber"
+  ],
+  "url": "https://youtu.be/v0RQiNJ9nhw?si=2UzULe4B5jMgxxCt",
+  "date": "2026-05-23",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Coding is evolving from writing boilerplate to curating outcomes. Join the leads of Gemini, Google Antigravity, and Google AI Studio for a discussion on the rise of vibe coding and the agentic future of software development. Explore the reality of building with today's most advanced models, dive into the latest capabilities of Google's developer tools, and gain insights on how engineering roles are evolving.",
+  "entities": [
+    "Gemini 3.5 Flash",
+    "Gemini 3.1 Pro",
+    "Antigravity",
+    "AI Studio",
+    "Vertex AI",
+    "Gemini Enterprise Agent Platform",
+    "Gemini Spark",
+    "Gemini Live",
+    "SWE-bench",
+    "vending bench",
+    "RAG",
+    "SRE agent",
+    "etcd",
+    "Kubernetes",
+    "Playwright",
+    "Datadog",
+    "Spanner",
+    "Jira",
+    "Know Your Customer",
+    "KYC",
+    "AI Mode",
+    "AI Overviews",
+    "Dynamic FPS",
+    "Gemini API",
+    "Google Docs",
+    "vibe coding",
+    "agentic engineering",
+    "subagents",
+    "distillation",
+    "reinforcement learning",
+    "SDLC",
+    "Flash Lite",
+    "Pixel Watch",
+    "Fitbit"
+  ],
+  "segments": [
+    {
+      "heading": "Gemini 3.5 Flash: best model yet for agentic and long-running tasks",
+      "text": "Gemini 3.5 Flash outperforms Gemini 3.1 Pro on most benchmarks, with particular strength in tool use, long-running coding tasks, real-world finance tasks, productivity tasks like slide deck creation, and general multi-step reasoning. It combines high performance with high inference speed, publishing over 200 tokens per second, which is significantly faster than competing frontier models. The model is available via the API, in AI Studio, in the Gemini app, and in Antigravity. The meaning of Flash has shifted from a model for simple chat use cases to a model capable of extended agentic tasks. One demonstrated example: building an operating system through 15,000 model invocations."
+    },
+    {
+      "heading": "Vibe coding versus agentic engineering: two distinct use cases",
+      "text": "The software development use case spans a spectrum. On one end, vibe coding: non-programmers building software for the first time, requiring high aesthetic quality and ease of iteration, lower verification requirements. On the other end, agentic engineering: professional developers building production systems, requiring the model to handle large legacy codebases, complex context, and multi-step orchestration with verifiable correctness. These two use cases require the same foundational model capabilities (reasoning, tool use, multimodal input, high-quality code generation) but differ in what they emphasize. Models need to see and be evaluated on both use case types to avoid excelling at one and failing at the other."
+    },
+    {
+      "heading": "The product-model flywheel: why Antigravity is integral to training",
+      "text": "Varun Mohan describes how the Antigravity harness has become integral to model training, not just a consumer product. Early agent harnesses were simple (bash commands, file system calls, user prompts). Current Antigravity supports: native subagent creation, asynchronous parallel tool calls, the ability for users to override a running agent mid-task, and the model managing multiple concurrent tasks. These behavioral details cannot be learned purely from SWE-bench-style GitHub PR datasets. The team does reinforcement learning directly on real harness behavior. Researchers use Antigravity internally to experience the model's limitations, creating a direct feedback loop. This means benchmarks and product experience cannot be separated: a model that looks great on benchmarks but behaves poorly in the harness gets caught immediately because the same researchers are using both."
+    },
+    {
+      "heading": "How to build products on a rapidly improving model foundation",
+      "text": "Michael Gerstenhaber identifies a key tension: every six months, models improve enough that the right product architecture changes. His advice: distinguish between failures because the model is not yet smart enough and failures because you built something wrong. Build for the former: design products that will work once the model improves, rather than workarounds that fight the model's strengths. The conversation around agents has already shifted from build me an agent to help me use your agent for my purpose, as pre-built agentic capabilities (agent API, agent CLI) often outperform what individual teams can build. He recommends thinking of the model as a coworker: same entity whether it reaches you via Slack, phone call, or email."
+    },
+    {
+      "heading": "Where the bottleneck moves when coding is mostly solved",
+      "text": "As models become increasingly capable at executing code from a clear specification, the bottlenecks move in two directions:\n\n1. Upstream: what to build. When building is easy, the hard problem becomes identifying real user pain points and making hard calls about what features to ship. Varun Mohan emphasizes that high-agency product judgment, knowing what not to build, will be in short supply. You cannot add 100 buttons and expect users to benefit from all of them.\n\n2. Downstream: information retrieval, deployment, and scaling. Gerstenhaber argues a significant current bottleneck is not intelligence but information retrieval: agents need access to real-time or sensitive data to complete tasks. Example: two banks running Know Your Customer compliance processes with AI agents only became possible after solving data credentialing, not after the model became smart enough. An SRE agent (diagnosing and fixing live production systems) is harder than a coding agent because it requires continuously querying live system state rather than working with static information already written down."
+    },
+    {
+      "heading": "Benchmarks evolving toward product-like complexity",
+      "text": "Standard coding benchmarks are no longer adequate for measuring real-world model quality. Tulsee Doshi notes that internal evals are shifting toward approximating full product experiences. An external example is vending bench, which measures a model's ability to run a functional store and earn profit over multiple days. However, benchmarks are insufficient alone: a significant portion of developer feedback is qualitative and subjective even in coding, covering model tone, eagerness, laziness, and communication style during a task rather than just correctness of final output. Live experiments and side-by-side feedback are becoming essential complements to automated benchmarks."
+    },
+    {
+      "heading": "Agent interface: when to interrupt, audio vs. visual, multi-agent orchestration",
+      "text": "As agents run longer and more autonomously, the interface design problem shifts to: when should an agent interrupt a human, and with what channel? Gerstenhaber frames this as requiring agents to develop savoir-faire: knowing whether to ping immediately, wait an hour, or escalate. Getting this wrong leads to a persistently annoying agent rather than a useful coworker.\n\nMohan expects audio to become the dominant interaction modality for orchestrating multiple background agents, because voice is fast and allows interaction regardless of what surface you are on. He notes the open question of how to consume agent outputs, whether voice, text, or something else.\n\nDoshi predicts a future where a single interface (potentially voice-driven) can spawn multiple specialized agents, replacing today's model of going to different apps for different tasks. This represents a major shift in product design principles.\n\nFor the question about model selection in multi-agent systems: the main agent in Antigravity can already choose which model (larger or smaller) to use for each subagent task. The direction of travel is large models delegating most subtasks to smaller models, reserving the large model for verification and judgment calls."
+    },
+    {
+      "heading": "Avoiding AI slop: integration testing with agents",
+      "text": "Mohan's recommendation for avoiding regressions in AI-assisted codebases: from the very start of a project, set up the agent to spin up the application, navigate its UI, click buttons, and perform integration tests automatically. From those agent test runs, generate Playwright scripts of exactly what was clicked, then use those as persistent regression tests. He acknowledges this works best on greenfield projects. For existing products, some rearchitecting is required to enable this testing paradigm, which is substantial work."
+    }
+  ],
+  "read_time_minutes": 3.9
+}

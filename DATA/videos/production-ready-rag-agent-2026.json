@@ -1,0 +1,48 @@
+{
+  "id": "production-ready-rag-agent-2026",
+  "title": "How to Build a production-ready RAG AI agent",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Ayo Adedeji",
+    "Annie Wang"
+  ],
+  "url": "https://youtu.be/Ni1P8TITtE8?si=_GELuEACYOqyenjx",
+  "date": "2026-03-29",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Episode 2 of the Hands On AI knowledge base series. Builds an end-to-end production RAG system on Google Cloud: setting up Cloud SQL for PostgreSQL with pgvector, running containerized Apache Beam pipelines on Dataflow to generate text embeddings with Gemini, creating a semantic retrieval layer, wrapping retrieval into an ADK agent, and deploying to Cloud Run.",
+  "entities": [
+    "Retrieval Augmented Generation (RAG)",
+    "Cloud SQL (PostgreSQL + pgvector)",
+    "Google Cloud Dataflow (Apache Beam)",
+    "Agent Development Kit (ADK)",
+    "Gemini Text Embedding",
+    "Gemini 2.5 Flash",
+    "Cloud Run",
+    "HNSW Vector Index"
+  ],
+  "segments": [
+    {
+      "heading": "Hands-on project overview: from structured data to RAG agent",
+      "text": "Building upon the BigQuery knowledge base from Episode 1, this session constructs a production RAG pipeline. The architecture ingests normalized monster and battle entities, computes high-dimensional vector embeddings, indexes them in Cloud SQL pgvector, and exposes semantic query tools to an ADK agent running on Cloud Run."
+    },
+    {
+      "heading": "Configuring Cloud SQL with pgvector for semantic search",
+      "text": "The lab provisions a Cloud SQL PostgreSQL instance, enables the pgvector extension, and defines tables storing text payloads alongside 768-dimensional embedding vectors. An HNSW (Hierarchical Navigable Small World) index is created to accelerate approximate nearest neighbor (ANN) similarity lookups under high query volume."
+    },
+    {
+      "heading": "Batch embedding generation with Apache Beam and Dataflow",
+      "text": "To vectorize enterprise datasets efficiently without API throttling, developers deploy a containerized Apache Beam pipeline onto Google Cloud Dataflow. The pipeline reads normalized records, invokes the Gemini text embedding API in parallel batches, and writes vector embeddings directly into Cloud SQL."
+    },
+    {
+      "heading": "ADK RAG agent integration and Cloud Run deployment",
+      "text": "An Agent Development Kit (ADK) agent is implemented with specialized semantic search tools querying pgvector via cosine similarity. The agent synthesizes retrieved context to answer user inquiries accurately. The service is containerized and deployed to Cloud Run with least-privilege IAM and connection pooling."
+    }
+  ],
+  "read_time_minutes": 0.7
+}

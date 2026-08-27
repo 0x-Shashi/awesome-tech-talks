@@ -1,0 +1,56 @@
+{
+  "id": "autonomous-data-agents-bigquery-2026",
+  "title": "Enable autonomous data agents with BigQuery and Cloud Run",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Vlad Kolesnikov"
+  ],
+  "url": "https://youtu.be/nfCTJN42LyE?si=pg1g2BVTdz9F-XV_",
+  "date": "2026-06-25",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "A practitioner demo exploring MCP servers for BigQuery, running ADK agents on Cloud Run, and using Gemma 4 as the inference engine for a data agent. Covers the why of MCP (determinism, governance, scalability) versus code generation, Cloud Run execution types (Services, Jobs, Worker Pools, Instances), and a live demo of a Gemma 4-powered agent querying the NYC Citi Bike public dataset to answer complex business questions.",
+  "entities": [
+    "BigQuery MCP server (managed)",
+    "Cloud Run",
+    "ADK (Agent Development Kit)",
+    "Gemma 4 (31B)",
+    "vLLM framework",
+    "RTX 6000 Pro GPU",
+    "Cloud Run Instances (new type)",
+    "Cloud Run Worker Pools",
+    "Cloud Run Jobs",
+    "Cloud Run Services",
+    "Cloud Run Sandbox (open-source and official)",
+    "Pub/Sub (Eventarc triggers for ADK)",
+    "Eventarc",
+    "MCP (Model Context Protocol)",
+    "NYC Citi Bike public dataset (BigQuery)",
+    "STDIO MCP server",
+    "ADK API server",
+    "IAM (authentication)"
+  ],
+  "segments": [
+    {
+      "heading": "Why MCP and why now: skills vs. tools, determinism, governance",
+      "text": "The industry has coined many 'X is all you need' claims: agents, MCP, evals, skills. The correct answer is that all of these are needed together. Skills refer to instruction sets that steer agents, but skills still call executable code in the form of tools. The key distinction: when part of a workflow is deterministic, use a deterministic tool rather than non-deterministic code generation. MCP tools are deterministic, explicitly callable, and relatively easy for LLMs to call correctly using schema definitions. Benefits of properly deployed MCP servers: (1) a unified, standardized way to integrate and observe tools; (2) security, IAM, governance built into the platform rather than built per tool by each team; (3) scalability from local STDIO to production managed endpoints."
+    },
+    {
+      "heading": "Cloud Run execution types for autonomous agents",
+      "text": "Cloud Run provides four execution types. Services: HTTP-based, request-driven, similar to a traditional web app. Jobs: batch compute, runs a task to completion and stops. Worker Pools: long-running processes that wait for messages (Pub/Sub or storage events) and react; no HTTP endpoint exposed. Instances (newly announced at Cloud Next 2026): similar to Jobs but can run for extended durations and spin up very quickly, making them well-suited for autonomous, long-running agent tasks. Cloud Run Sandbox: both open-source sandbox and a new official sandbox for isolated, secure code execution within Cloud Run were announced."
+    },
+    {
+      "heading": "ADK autonomous agent support via Eventarc and Pub/Sub",
+      "text": "ADK now supports invoking agents via special endpoints on the ADK API server that can be triggered by Pub/Sub messages or Eventarc events. This enables truly autonomous agents: rather than waiting for a synchronous HTTP request, the agent can be triggered by an event (for example, a new file appearing in Cloud Storage, or a scheduled Pub/Sub message) and run a full session without a human present. Combined with Cloud Run Instances or Worker Pools, this creates the foundation for long-running agentic pipelines."
+    },
+    {
+      "heading": "Demo: Gemma 4 data agent querying NYC Citi Bike on BigQuery MCP",
+      "text": "The demo agent runs on Cloud Run and is powered by a self-hosted Gemma 4 31B instance deployed with the vLLM framework on RTX 6000 Pro GPUs. It has a single tool: the BigQuery MCP server. The dataset is the NYC Citi Bike public dataset (stations and trips tables). First question: 'What data do you have?' The agent calls BigQuery MCP list_tables, gets the schema, and answers. Authentication: the agent does not initially have access to execute BigQuery jobs; an OAuth sign-in flow is triggered from the ADK front end, and after the user authenticates, the agent continues. Second question: 'How can I increase revenue? Suggest up to 10 locations.' The agent reasons about the data, attempts to join stations and trips by station ID, discovers the IDs are of different types (the join fails), self-corrects by joining on station name strings, executes additional SQL to compute usage by subscriber vs. customer type and by station capacity, and produces a ranked list of recommendations. Notable station: Broadway and 36th Street had only 3 docking slots despite approximately 5,000 trips per dock. Gemma 4 showed strong reasoning for a self-hosted open model."
+    }
+  ],
+  "read_time_minutes": 2.0
+}

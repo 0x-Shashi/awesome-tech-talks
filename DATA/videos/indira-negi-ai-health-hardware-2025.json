@@ -1,0 +1,47 @@
+{
+  "id": "indira-negi-ai-health-hardware-2025",
+  "title": "Indira Negi - Investing in AI hardware for health",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Ashley Oldacre",
+    "Indira Negi"
+  ],
+  "url": "https://youtu.be/itoaY1vG2qE?si=deZ8r3s91HgdYJBI",
+  "date": "2025-07-23",
+  "format": "Fireside Chat",
+  "level": "Beginner",
+  "topics": [
+    "Product/Startup",
+    "Research/Papers"
+  ],
+  "description": "Episode of the People of AI podcast featuring Indira Negi (Senior Advisor & Deputy Director at the Bill & Melinda Gates Foundation). Traces her career from growing up in the Himalayan foothills to leading wearable sensor engineering at Intel, VP of Product at AliveCor, and funding breakthrough AI-powered medical hardware and handheld ultrasound devices to drastically reduce maternal and neonatal mortality in low-resource global communities.",
+  "entities": [
+    "Bill & Melinda Gates Foundation",
+    "AI-enabled Ultrasound",
+    "AliveCor",
+    "Intel",
+    "Maternal and Newborn Health",
+    "Biosensors",
+    "Low- and Middle-Income Countries (LMIC)",
+    "Clinical AI Chatbots"
+  ],
+  "segments": [
+    {
+      "heading": "From the Himalayas to biosensors: engineering for human impact",
+      "text": "Indira Negi shares her upbringing in Dehradun, India, and her academic journey studying electrical engineering and biosensors at Arizona State University. Her early work focused on developing electrochemical sensors to detect biomarkers, establishing a lifelong mission to eliminate human suffering through accessible medical technology."
+    },
+    {
+      "heading": "Wearable sensors and ECG diagnostics: Intel and AliveCor",
+      "text": "Negi spent over a decade at Intel leading sensor engineering for wearable devices and advising Intel Capital on health investments. She later joined AliveCor as VP of Product Management, pioneering smartphone-connected FDA-cleared electrocardiogram (ECG) hardware that brought clinical cardiac monitoring into patients' pockets."
+    },
+    {
+      "heading": "Gates Foundation mission: AI hardware for maternal and newborn health",
+      "text": "In 2021, Negi established the Devices and AI team within the Maternal, Newborn & Child Health Discovery program at the Bill & Melinda Gates Foundation. In low- and middle-income countries (LMICs), preventable pregnancy and childbirth complications remain leading causes of mortality due to extreme shortages of trained sonographers and diagnostic equipment."
+    },
+    {
+      "heading": "AI-enabled ultrasound and the future of clinical AI assistance",
+      "text": "The foundation invests in low-cost handheld ultrasound probes paired with on-device computer vision models. The AI guides untrained frontline community health workers in real time to position the probe correctly and automatically measures gestational age, detects fetal anomalies, and flags obstetric risks. Negi discusses the promise and pitfalls of clinical AI chatbots, emphasizing rigorous safety and cultural adaptation."
+    }
+  ],
+  "read_time_minutes": 0.8
+}

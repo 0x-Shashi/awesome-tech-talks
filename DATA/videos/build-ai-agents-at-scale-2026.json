@@ -1,0 +1,56 @@
+{
+  "id": "build-ai-agents-at-scale-2026",
+  "title": "Build AI agents at scale with Google Cloud",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Brian Delahunty",
+    "Addy Osmani",
+    "Andrew McNamara",
+    "Michael Gerstenhaber",
+    "Sara Liao-Troth"
+  ],
+  "url": "https://youtu.be/ZRs1PHngOIA?si=Po_aMr6QKeth5VB0",
+  "date": "2026-04-27",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "Product/Startup"
+  ],
+  "description": "Cloud Next 2026 spotlight session on scaling enterprise AI agents from prototype to global production. Covers the enhanced Agent Runtime (subsecond warm starts, long-running 7-day workflows), Agent Studio, Agent Identity, Agent Gateway, and Memory Bank. Includes a live interactive conference badge-scanning demo by Addy Osmani and enterprise case studies from Shopify (Sidekick agent co-founder) and HCA Healthcare (nurse shift handoff assistant).",
+  "entities": [
+    "Gemini Enterprise Agent Platform",
+    "Agent Development Kit (ADK)",
+    "Agent Studio",
+    "Agent Runtime",
+    "Agent Identity",
+    "Agent Gateway",
+    "Agent Memory Bank",
+    "Model Armor",
+    "Shopify Sidekick",
+    "HCA Healthcare",
+    "LLM-as-a-Judge",
+    "Agent Anomaly Detection",
+    "Computer Use Sandbox"
+  ],
+  "segments": [
+    {
+      "heading": "The paradigm shift: moving from instructions to goals",
+      "text": "Brian Delahunty opens with an analogy from his childhood farm: delegation requires defining outcomes and boundaries of trust rather than micromanaging step-by-step procedures. True agents figure out the necessary actions using available tools without explicit procedural programming. Google Cloud announces the unified Gemini Enterprise Agent Platform, integrating Vertex AI, ADK, and DeepMind models to scale agentic workloads across Build, Scale, Govern, and Optimize pillars."
+    },
+    {
+      "heading": "Build and Scale: ADK enhancements, Agent Studio, and Agent Runtime GA",
+      "text": "Developers process over 6 trillion tokens monthly through ADK. New releases include: (1) Graph-based execution engine with dynamic reasoning vs. deterministic controls, (2) native multi-day checkpointing and resumption, (3) Agent Studio low-code visual canvas exporting to ADK code, (4) Agent Runtime GA featuring subsecond cold starts, 7-day long-running execution, and enterprise compliance (CMEK, HIPAA, VPCSC), and (5) persistent Agent Memory Bank mapping custom session IDs to customer records."
+    },
+    {
+      "heading": "Live demo: autonomous swag order agent with runtime tool discovery",
+      "text": "Addy Osmani builds and deploys an autonomous shopping pipeline live on stage: an Intake Agent analyzes badge photos with Gemini vision, a Stockroom Agent checks BigQuery inventory and triggers automated restock supplier sub-agents, and a Fulfillment Agent dynamically discovers the update_order tool via Agent Registry without hardcoded endpoints. Live conference attendees claim real swag via QR code, showcasing automatic Cloud Run scaling, sub-cent transaction costs, and Model Armor blocking live prompt injection attacks."
+    },
+    {
+      "heading": "Enterprise case studies: Shopify Sidekick and HCA Healthcare nurse handoff",
+      "text": "Andrew McNamara details Shopify Sidekick, an AI co-founder assisting millions of global merchants using foundational tools, proactive deep research, and an LLM-as-a-judge evaluation rubric passing narrow Turing tests. Sara Liao-Troth presents HCA Healthcare's nurse handoff system across 190 hospitals (80,000 daily handoffs), utilizing a hierarchy of parallel clinical agents, automated citation verifiers, and continuous prompt optimization loops to eliminate communication breakdowns."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

@@ -1,0 +1,51 @@
+{
+  "id": "checks-mobile-app-compliance-2025",
+  "title": "3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Ashley Oldacre",
+    "Fergus Hurley",
+    "Nia Castelly"
+  ],
+  "url": "https://youtu.be/Zcw427_z6Xg?si=28tg_6nMIvr18W82",
+  "date": "2025-07-23",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "Research/Papers"
+  ],
+  "description": "Episode of the People of AI podcast featuring Fergus Hurley and Nia Castelly, co-founders of Checks (Google's AI-powered compliance platform). Discusses the origin of Checks inside Area 120, using NLP and Gemini classifiers to analyze complex privacy policies at scale, and their 3-step compliance framework comparing regulatory mandates, stated developer policies, and live app network telemetry on physical devices.",
+  "entities": [
+    "Checks (Google)",
+    "Area 120 (Google incubator)",
+    "GDPR",
+    "CCPA",
+    "Google Play Console",
+    "Android Vitals",
+    "NLP Classifiers",
+    "Gemini / PaLM",
+    "Pre-Launch Report",
+    "Dynamic and Static Code Analysis",
+    "SDK Monitoring"
+  ],
+  "segments": [
+    {
+      "heading": "Founders' backgrounds: from Android Vitals and e-discovery to Area 120",
+      "text": "Fergus Hurley (entrepreneur, engineer, creator of Android Vitals) and Nia Castelly (Google Play senior product counsel, litigator, computer scientist) share their career journeys. Observing the seismic impact of global regulations like GDPR and CCPA on mobile developers, they recognized that compliance was a major pain point for developers of all sizes, leading them to incubate Checks inside Google's Area 120."
+    },
+    {
+      "heading": "NLP of privacy policies: extracting structured meaning from unstructured legal text",
+      "text": "Collaborating with NLP privacy researcher Dr. Hamza Harkous, Checks built specialized language models and expert-labeled classifier pipelines. The models extract key data collection and sharing disclosures from long, unstructured privacy policies and terms of service at scale, transforming legal documentation into structured data."
+    },
+    {
+      "heading": "The 3-step Checks compliance triangle",
+      "text": "Checks automates compliance through a three-prong validation triangle: (1) What the app is legally required to do (GDPR, CCPA, app store policies); (2) What the app says it does (privacy policies and data safety labels extracted via NLP/Gemini); (3) What the app actually does (dynamic network traffic monitoring and static analysis on real physical devices). Any discrepancy between these three vertices triggers actionable alerts in the developer dashboard."
+    },
+    {
+      "heading": "Third-party SDK risks and building trust for digital products",
+      "text": "Modern mobile apps embed an average of 20 or more third-party SDKs for analytics, ads, and crash reporting. Many compliance violations occur inadvertently when third-party libraries collect permissions or transmit data contrary to the developer's stated policies. Checks inspects live device behavior without requiring code instrumentation, helping developers build consumer trust and meet global privacy standards."
+    }
+  ],
+  "read_time_minutes": 0.9
+}

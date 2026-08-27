@@ -1,0 +1,68 @@
+{
+  "id": "ai-agents-with-memory-2025",
+  "title": "How to build AI agents with memory",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Sita Lakshmi Sangameswaran",
+    "Kimberly Milam"
+  ],
+  "url": "https://youtu.be/sMtrelDNxIc?si=l8-wTWgukhgLfbQ_",
+  "date": "2025-10-07",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "Prompt Engineering"
+  ],
+  "description": "Join Google's Sita Lakshmi Sangameswaran and Kimberly Milam, the tech lead for Vertex AI Memory Bank, as they walk you through the complete playbook for building agents that remember. You will learn the difference between volatile and persistent memory, how to generate, store, and retrieve information across conversations, and even how to customize your agent's memory with a time-to-live (TTL).",
+  "entities": [
+    "Sita Lakshmi Sangameswaran",
+    "Kimberly Milam",
+    "Vertex AI Memory Bank",
+    "Agent Development Kit (ADK)",
+    "Agent Engine",
+    "Agent Engine Sessions",
+    "Gemini 2.5 Flash",
+    "in-memory memory service",
+    "persistent memory",
+    "volatile memory",
+    "memory extraction",
+    "memory consolidation",
+    "preload memory tool",
+    "load memory tool",
+    "search memory API",
+    "add session to memory",
+    "direct memory source",
+    "managed topics",
+    "custom topics",
+    "time-to-live (TTL)"
+  ],
+  "segments": [
+    {
+      "heading": "The problem of forgetful agents: volatile vs. persistent memory",
+      "text": "Sita Lakshmi Sangameswaran and Kimberly Milam (Tech Lead for Vertex AI Memory Bank) discuss why stateless AI agents are expensive and frustrating for users. Repeatedly explaining context inflates token budgets across sessions. While volatile in-memory storage maintains turn-by-turn context strictly within an active session, production architectures require persistent memory services to extract, consolidate, and retrieve semantic facts across multi-session user lifecycles."
+    },
+    {
+      "heading": "ADK memory architecture: BaseMemoryService, InMemory, and Memory Bank",
+      "text": "The Agent Development Kit (ADK) standardizes memory via BaseMemoryService, exposing two primary methods: add_session_to_memory (extracting and storing session facts) and search_memory (querying stored facts via similarity search). While the development-oriented InMemoryMemoryService simply dumps raw conversation dictionaries into local memory without filtering, Vertex AI Memory Bank acts as an asynchronous, managed service that runs background extraction LLM chains (e.g., using Gemini 2.5 Flash) to distill raw turns into high-signal atomic facts."
+    },
+    {
+      "heading": "Memory lifecycle: background extraction and automatic consolidation",
+      "text": "Vertex AI Memory Bank operates in the background through two automated stages:\n\n1. Extraction: An LLM analyzes session turns, discarding irrelevant chitchat while extracting meaningful facts, preferences, and task outcomes.\n2. Consolidation: The service compares extracted facts against existing user memories. It deduplicates redundant data, merges complementary updates (e.g., updating a generic bike preference to a red balance bike), and resolves contradictions without bloating the vector corpus."
+    },
+    {
+      "heading": "Retrieval patterns: Preload Memory Tool vs. Load Memory Tool vs. Callbacks",
+      "text": "Developers have three distinct options for injecting persistent memories into agent context:\n\n- Preload Memory Tool: Runs deterministically before agent execution, injecting relevant user memories directly into the system prompt.\n- Load Memory Tool: Exposed as an on-demand function call; the LLM explicitly chooses whether to query memory when incoming queries require historical context.\n- Custom Callbacks: Developers define granular pre-invocation hooks using the Agent Engine SDK to execute custom similarity searches across specific scope keys (app_name and user_id)."
+    },
+    {
+      "heading": "Custom memory extraction: managed topics vs. custom business topics",
+      "text": "By default, Memory Bank filters facts into four managed topics: personal information, user preferences, key conversation events/task outcomes, and explicit instructions to remember/forget. Developers can customize extraction by creating domain-specific custom topics with descriptive labels and few-shot examples (e.g., capturing structured customer feedback on coffee shop offerings while ignoring general conversational dialogue)."
+    },
+    {
+      "heading": "Memory governance: Time-to-Live (TTL) and lifecycle management",
+      "text": "To comply with data privacy policies and prevent stale context buildup, Memory Bank supports Time-to-Live (TTL) policies. Developers can configure global default TTLs (e.g., 30 days) across an entire Agent Engine instance or define granular operational TTLs that establish expiration timers only upon memory creation without resetting timers during subsequent consolidation updates."
+    }
+  ],
+  "read_time_minutes": 1.5
+}

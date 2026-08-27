@@ -1,0 +1,46 @@
+{
+  "id": "orchestrate-genai-workflows-2024",
+  "title": "Orchestrate generative AI with Workflows",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Mete Atamel"
+  ],
+  "url": "https://youtu.be/wi0nP6nxa0A?si=Tn3TpPQLy0wM5lcr",
+  "date": "2024-07-01",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Explores orchestrating generative AI pipelines using Google Cloud Workflows. Covers the advantages of serverless workflow orchestration (declarative YAML, automatic retries, state management, parallel branching) over custom glue code. Demos an event-driven map-reduce summarization pipeline triggered by Eventarc that splits long text files in Cloud Storage and parallelizes Vertex AI PaLM/Gemini calls.",
+  "entities": [
+    "Google Cloud Workflows",
+    "Vertex AI",
+    "Eventarc",
+    "Cloud Storage (GCS)",
+    "Map-Reduce Text Summarization",
+    "Parallel Branches",
+    "Cloud Run",
+    "Gemini / PaLM"
+  ],
+  "segments": [
+    {
+      "heading": "Why orchestrate generative AI with Google Cloud Workflows",
+      "text": "Calling LLM APIs directly from application code introduces fragility: handling network rate limits, managing token quotas, and orchestrating multi-step prompt sequences requires complex retry and error-handling logic. Google Cloud Workflows provides a fully managed, serverless orchestration engine defined in YAML/JSON that handles state persistence, exponential backoff retries, and step execution out of the box."
+    },
+    {
+      "heading": "Calling Vertex AI foundation models from Workflows",
+      "text": "Workflows includes built-in Google Cloud connectors that call Vertex AI APIs directly using IAM authentication without managing API keys. Developers configure model parameters (temperature, top_p, maxOutputTokens) and parse JSON response candidates natively within workflow expressions."
+    },
+    {
+      "heading": "Event-driven map-reduce summarization with Eventarc and Cloud Storage",
+      "text": "Mete Atamel demonstrates an end-to-end event-driven architecture: uploading a large text document to Cloud Storage fires an Eventarc event triggering a workflow. The workflow chunks the text, executes parallel workflow branches to summarize individual chapters with Vertex AI simultaneously (Map step), and aggregates the intermediate summaries into a final coherent executive summary (Reduce step)."
+    },
+    {
+      "heading": "AI-assisted workflow authoring and future capabilities",
+      "text": "The session highlights how generative AI assists in writing workflow orchestration definitions themselves, translating natural language business process descriptions into verified Workflows YAML templates."
+    }
+  ],
+  "read_time_minutes": 0.7
+}
