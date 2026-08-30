@@ -4,6 +4,8 @@ RAW/
 # Local pipeline and agent artifacts.
 .claude/
 Progress.txt
+Reference/
+web-portal-specs/
 
 # OS and editor noise.
 Thumbs.db

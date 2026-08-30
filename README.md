@@ -9,6 +9,21 @@ A curated collection of structured knowledge, machine-readable transcript datase
 
 ---
 
+## Documentation Guides
+
+| Guide | Purpose |
+|---|---|
+| [Quickstart Guide](docs/quickstart.md) | 5-minute onboarding for AI agents and developers |
+| [System Architecture](docs/architecture.md) | Monorepo layout, data boundaries, and Next.js portal flow |
+| [Dataset Specification](docs/dataset-specification.md) | JSON schema definition, field dictionary, and closed taxonomy |
+| [Web Portal Specification](docs/web-portal.md) | YouTube-style layout, Geist design system, and color tokens |
+| [Curation Pipeline](docs/curation-pipeline.md) | Workflow for adding, cleaning, and verifying new talks |
+| [Monetization Policy](docs/monetization-policy.md) | Self-serve ad rate card, sponsor partnerships, and Telegram relay |
+| [Frequently Asked Questions](docs/faq.md) | Common questions on usage, licensing, and embedding |
+| [AI Agent Guidelines](AGENTS.md) | Contributor and LLM agent operational constraints |
+
+---
+
 ## Executive Summary
 
 The **Awesome Tech Talks** repository addresses the challenge of technical knowledge extraction from recorded developer talks and research keynotes. Spoken talks frequently suffer from conversational filler, fragmented explanations, and unstructured formats that hinder automated semantic search and rapid human review.
@@ -34,6 +49,7 @@ This project maintains two synchronized layers:
 
 ## Table of Contents
 
+- [Documentation Guides](#documentation-guides)
 - [Curated Tracks](#curated-tracks)
   - [Track 1: AI Agents and Autonomous Systems](#track-1-ai-agents-and-autonomous-systems)
   - [Track 2: LLM Fundamentals, Architecture and Reasoning](#track-2-llm-fundamentals-architecture-and-reasoning)
@@ -355,14 +371,23 @@ The complete inventory of curated sessions currently available across all channe
 ```
 .
 |-- .gitignore                          # Excludes raw unedited files and local tools
+|-- AGENTS.md                           # Contributor and AI agent guidelines
 |-- CODE_OF_CONDUCT.md                  # Contributor Covenant Code of Conduct v2.1
 |-- CONTRIBUTING.md                     # Contribution guidelines and schema rules
 |-- LICENSE                             # MIT Open Source License
 |-- README.md                           # Master index and documentation
 |-- SECURITY.md                         # Security policy and reporting instructions
+|-- docs/                               # Modular documentation guides
+|   |-- quickstart.md
+|   |-- architecture.md
+|   |-- dataset-specification.md
+|   |-- web-portal.md
+|   |-- curation-pipeline.md
+|   |-- monetization-policy.md
+|   `-- faq.md
 |-- DATA/
-|-- schema.json                     # JSON Schema specification for video records
-|-- manifest.jsonl                  # Bulk export JSON lines for all records
+|   |-- schema.json                     # JSON Schema specification for video records
+|   |-- manifest.jsonl                  # Bulk export JSON lines for all records
 |   `-- videos/                         # Machine-readable video data (UTF-8 JSON)
 |       |-- ai-agents-with-memory-2025.json
 |       |-- clement-farabet-agentic-future-2025.json
