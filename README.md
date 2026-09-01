@@ -1,6 +1,6 @@
 # Awesome Tech Talks: 150+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
-<img width="3430" height="1216" alt="Image" src="https://github.com/user-attachments/assets/dad2e263-2e14-41d5-9790-63a3278642f9" />
+<img width="3200" height="1136" alt="Image" src="https://github.com/user-attachments/assets/e11a7836-139f-4608-bb02-5586457a98d4" />
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
