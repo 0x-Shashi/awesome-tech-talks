@@ -1,0 +1,42 @@
+{
+  "id": "boost-performance-of-go-applications-wit-2024",
+  "title": "Boost performance of Go applications with profile guided optimization",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Cameron Balahan",
+    "Michael Pratt",
+    "James Ma"
+  ],
+  "url": "https://youtu.be/FwzE5Sdhhdw",
+  "date": "2024-05-16",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Backend/Infra"
+  ],
+  "description": "By profiling Go applications at runtime, the Go compiler can make better optimization decisions in subsequent builds, leading to substantial improvements in CPU performance. In this technical session, developers will learn how profile-guided optimization works and how they can use it to improve (and measure) their application performance on Google Cloud and beyond. Profile-guided optimization blog post https://goo.gle/go-blog-pgo Profile-guided optimization documentation https://goo.gle/go-doc-pgo Profiling Go applications with Google Cloud Profiler https://goo.gle/3Qjt45I",
+  "entities": [
+    "Cloud Run",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and Core Problem Space in Boost performance of Go applications with pro",
+      "text": "[MUSIC PLAYING] CAMERON BALAHAN: All right, hello, everyone. I hope you've had a great Google I/O so far. Thanks especially for staying till the end. I'm the product lead for the Go programming language at Google. I'm here with my colleagues, Michael, software engineer on the Go team, and James, product manager for Cloud Serverless. We're here to show you how to boost the performance of your Go applications with Profile Guided Optimization, or PGO, including on Google Cloud."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Workload Optimization",
+      "text": "As Cameron mentioned earlier, my name is Michael. I'm a software engineer on the Go team at Google. I'm going to dive into Profile Guided Optimization, which was added to Go in Go 121 last year. Profile Guided Optimization, or PGO, is a category of compiler optimization techniques supported by a variety of different languages. With PGO, the compiler's using information about the runtime behavior of an application in order to improve the optimization decisions made during compilation. Now, you may have also heard the term Feedback Directed Optimization, or FDO, FDO and PGO are just interchangeable terms for the exact same concepts."
+    },
+    {
+      "heading": "Performance Scaling, Distributed Coordination, and Reliability",
+      "text": "Then when bar returns, we don't need b and c anymore, so the stack size decreases and we've freed up that space. Finally, when we call bar again, we once again need space for b and c, and we grow the stack again. Now notice that we've reused the same part of the stack as the previous call, which gives us a really fast reuse of memory that didn't involve the garbage collector. But note that because of this, the stack has limitations. Because the memory is freed on function return, we must never place something on the stack if it can be referenced after the function returns. It can only be used for values local to the function."
+    },
+    {
+      "heading": "Production Best Practices, Real-World Use Cases, and Next Steps",
+      "text": "Gregg and is used in profiling tools across many different languages. If you're not familiar with a flame graph, a quick overview. Each box you see is a stack frame with callers above callees. In the upper left, we see a Serve method calling three different ServeHTTP methods. Finally, the Upload Post function, which is the one I showed a few minutes ago. The width of the boxes on the screen give the proportion of total CPU time spent in that function in any of its callees."
+    }
+  ],
+  "read_time_minutes": 1.6
+}

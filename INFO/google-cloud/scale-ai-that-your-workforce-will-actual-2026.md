@@ -1,0 +1,47 @@
+# Scale AI that your workforce will actually use
+
+**Speaker(s):** Casey McNamara, Akram Al-Ganad, Daniel Sumners · **Channel:** Google Cloud · **Date:** 2026-06-26
+**Watch:** https://youtu.be/sFWQFRu5JQY · **Format:** Talk · **Level:** Intermediate
+**Topics:** LLM Fundamentals, Product/Startup
+
+## TL;DR
+
+Enterprise AI pilots stall because they don't match how teams actually work. Learn how CenterPoint Energy built Helix, a platform that connects AI directly to existing business logic. Helix achieves over 73% active engagement by designing for relevance. In partnership with Capgemini, Helix leverages the comprehensive Google Cloud AI and data product portfolio, from ADK and Vertex AI to LookML and FirestoreDB/BigQuery. This session explores how to move beyond isolated tools and build a connective tissue of intelligence to deliver real value.
+
+## Contents
+
+- [Strategic Overview and Core Architecture in Scale AI that your workforce will actual](#strategic-overview-and-core-architecture-in-scale-ai-that-your-workforce-will-actual)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in Scale AI that your workforce will actual
+
+First, Casey McNamara Casey is a competitive offshore sailor based in Newport, Rhode Island and the founder of McNamara marine systems. We used an AI for this, and there's an issue here. Casey McNamara, Capgemini and Ben Casey is a behavioral economist and executive leadership coach who joined Capgemini's talent transformation practice in 2021. Let's try this the old fashioned way. I lead data and AI at Capgemini. Invent our purpose in life is to make AI real for our clients.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+It guides users through intuitive journeys that turn questions into clarity without friction. Users can discover it, understand it, action it. Let's see how this journey comes to life today. Helix brings reports, data sets and dashboards from across the enterprise into a single trusted entry point, surfacing what matters the most in ECC. When questions go deeper, the conversation begins. Users ask naturally and explore insights in real time.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+Empowering the employee, employees become like the corner of our approach, how to back it in real and tie it to back to decisions. We're not just building for curiosity, but also we're building for people to really use the tool in their day to day activities. In Casey, as we start to think about this, if we want to empower employees or employees more how would we start to design an intelligence in a way that really helps them. That brings us to our second decision. Our second design decision was about how do we embed business context at scale and make sure we're always mapping that to the business intent. If someone asks a common BI business intelligence type question show me last week's completed work orders broken down by region completed might mean something very specific.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+We talked about why we built it and we talked about the decisions behind it. I think it's probably time to talk about where we're going from here. So, Daniel, do you want to talk a little bit more about how this is evolving at center point. Yeah, today we've got for our core pilot user group about a 70% adoption rate. We like to call our most active users helix heroes. The goal being to publicly recognize and reward these individuals.
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/scale-ai-that-your-workforce-will-actual-2026.json`
+Original YouTube Video: https://youtu.be/sFWQFRu5JQY

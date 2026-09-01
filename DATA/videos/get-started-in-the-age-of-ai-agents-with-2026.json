@@ -1,0 +1,48 @@
+{
+  "id": "get-started-in-the-age-of-ai-agents-with-2026",
+  "title": "Get started in the age of AI agents with Agent Search on Gemini Enterprise Agent Platform",
+  "channel": "Google Cloud",
+  "speakers": [
+    "Eran Lewis",
+    "Yeye Zhang",
+    "Cliff Levy",
+    "Jishnu Raj"
+  ],
+  "url": "https://youtu.be/b-_WCvhocqo",
+  "date": "2026-06-26",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "In a world where AI agents are the new front door, discoverability is everything. Learn how to unlock explosive growth and ROI by making your business an AI agent’s most trusted source of information with with Agent Search on Gemini Enterprise Agent Platform. Join us to discover how industry leaders are future-proofing their businesses and transforming customer engagement in the age of AI.",
+  "entities": [
+    "Agent Search",
+    "BigQuery",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "Vertex AI"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Get started in the age of AI agents with",
+      "text": "Thank you for being here with us at this hour. I'm Arron Lewis, group product manager at Google Cloud. Over the next 45 minutes, we'll talk about what's new with AI Search. We'll show you some of the new capabilities. We will be here on stage, and then you'll hear from our friends at Wirecutter and Priceline about the things that they have been building recently. I want you all to think for a moment about the way you search and discover."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "From query processing, retrieval, Ranking you can bring in your own business logic boost and vary. You are always in control on the generation side as well. You can choose which model you want to use. All of that's available in the product. You get the quality, you get the scale, you get the speed of a fully managed Google service, but you have controls that you and your engineering team need. Now, to show you how we're bringing all of this into this new agentic era, I'm going to pass over the mic to E Thank you."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "We have Wirecutter has its own independent newsroom. We have more than 160 journalists who independently review products. Those recommendations are rooted in integrity, in rigorous testing, in expertise, in experience, and most importantly, in trust. I'm going to linger on trust for a second because that has been a key to this partnership. How do we move into the search era in ways that continue, that bond that we have with our audience. It was enormously important to us maintaining that trust of our audience and maintaining that integrity."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "I'm now going to turn it over to my colleague from Priceline. I'm a group engineering lead leading the search platform group at Priceline. Today I'm going to talk about how we transform conversational search with Vertex AI Search at Priceline. Before I dive into this, the last time any of you planned the trip, did you know where you wanted to go. I know all of us travel to Vegas for the conference, but usually when people plan their travel, they don't know where they want to go. Maybe let's start with a bit about Priceline."
+    }
+  ],
+  "read_time_minutes": 1.5
+}

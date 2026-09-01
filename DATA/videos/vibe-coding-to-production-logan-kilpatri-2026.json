@@ -1,0 +1,42 @@
+{
+  "id": "vibe-coding-to-production-logan-kilpatri-2026",
+  "title": "Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio",
+  "channel": "Google Cloud",
+  "speakers": [
+    "Logan Kilpatrick"
+  ],
+  "url": "https://youtu.be/GrhTj48kAF4",
+  "date": "2026-04-23",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "LLM Fundamentals"
+  ],
+  "description": "Is the era of \"Vibe Coding\" finally ready for production?\n\nJoin Sam Witteveen (GDE) and Logan Kilpatrick (Google DeepMind) live from the floor at Google Cloud Next '26. In this high-energy conversation, Logan breaks down the massive shift from \"prompt-to-prototype\" to a world where AI agents are delivering on their mission for millions of users.\n\nThe Evolution of AI Studio:\nVibe Coding at Scale: Logan discusses the \"Build Tab\" in AI Studio, which allows users to go from a simple prompt to a deployed application on Cloud Run in minutes.\n\nTap-Tap-Tab: A look at the new generative auto-complete feature that uses Gemini Flash to help users articulate complex app ideas as they type.\n\nYap-to-App: Why voice-to-app generation is the second most popular way to build today - letting users \"garble\" an idea and having Gemini refine it into a working UI.\n\nDesign Previews & Edits: New features allowing builders to draw on their app previews or select UI elements for real-time AI regeneration.\n\nThe Future of Agents & Engineering:\nAgentic Engineering vs. Vibe Coding: Logan shares how Google’s own engineers are using agentic workflows to build AI Studio itself, creating a new partnership model between \"vibe coders\" and senior staff engineers.\n\nLong-Running Agents: Why we are moving from agents that run for hours to agents that can run for weeks autonomously, shifting the burden of \"capability\" from the model to the builder's ambition.\n\nGemini Live & Screen Sharing: The power of omnipresent agents that can see your screen, walk you through complex UIs (like a digital tutor), and even help you debug code in real time.\n\nDemocratizing Opportunity: Logan’s vision for AI as the \"YouTube era for software\" - putting the power to create economically empowering tools into the hands of non-coders globally.\n\n\"We’re at Chapter One. In the next 12 months, the question won't be 'can the model build this?' it will be 'do you have the ambition to ask for it?' The technology has crossed the chasm.\"\n\nBuild Now: Head to aistudio.google.com (or ai.dev) to try the new Build Tab and start your own production-ready \"vibe coding\" journey today.",
+  "entities": [
+    "Cloud Run",
+    "Gemini",
+    "Gemma",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Vibe coding to production: Logan Kilpatr",
+      "text": "SAM WITTEVEEN: Hello, and welcome to Google Cloud Next. It's awesome to be literally live in the venue right now. SAM WITTEVEEN: Exactly, we're sitting right with hundreds of people around us and stuff like that. SAM WITTEVEEN: Walking around, what have you seen today that's been interesting?. LOGAN KILPATRICK: Yeah, it feels like the era of agents is upon us. I think this morning's keynote, you heard from TC and from many other folks about just how much, on the Google Cloud side, how much progress has been made from a platform perspective, to bring agents and all these new ways."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Lot of exciting stuff coming in the mobile space. The team's been pushing super hard to bring AI Studio to life on mobile, so we'll have more to share there soon. I think the future for mobile, for us, is we want to let people build anywhere, wherever they are, for whatever platform they want. Also, as you think about reaching this next 100 million user, next gen developer audience, a lot of those folks are on mobile. They're not on a web, laptop, desktop, whatever it is. We need to go there as far as reaching those users."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Goes back even to the original Gemini, people didn't really understand what multimodal meant. They didn't understand the consequences of that. I feel now, with the new live voice mode, all these other things. You want to talk a little bit about, perhaps, live voice?. LOGAN KILPATRICK: Yeah, so we rolled out, I think it was last year, actually, at I/O, our first live model. It gives the ability to stream audio and video and text directly to the model and get responses back in real time."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "How is everyone going to go through this trade-off exercise of like, you probably will end up with a fixed amount of tokens. Where do you deploy the tokens in your own life and your business?. All of those, that's very much the reality of what's going to happen. So finding those high value use cases, finding those examples of where you can actually move the needle and get a huge amount of leverage, I think is going to be the next era of this. Instead of just throwing AI at everything, I think you're going to have to be more intentional about doing it in the highest value cases because there's so much demand for the models. LOGAN KILPATRICK: Even with Google spending tons of money to build TPUs."
+    }
+  ],
+  "read_time_minutes": 1.7
+}

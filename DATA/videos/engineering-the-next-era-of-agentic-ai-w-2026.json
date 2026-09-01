@@ -1,0 +1,36 @@
+{
+  "id": "engineering-the-next-era-of-agentic-ai-w-2026",
+  "title": "Engineering the Next Era of Agentic AI (with Publicis Sapient)",
+  "channel": "Google Cloud",
+  "speakers": [
+    "Google Cloud Technical Leaders"
+  ],
+  "url": "https://youtu.be/cpjh22CAEkg",
+  "date": "2026-04-01",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "Join host Salim Hasham as he sits down with Publicis Sapient's Sharonyka Kumar and Vishnu Indugula to explore why true AI transformation demands fixing the enterprise core rather than just polishing the shiny front end. Together, they trace the company's incredible 100-year evolution from an advertising pioneer to a technology powerhouse, revealing how platforms like Bodhi are bridging the gap between the CMO and CIO. Tune in to discover actionable strategies for moving beyond the hype and unlocking the real business value of agentic AI.",
+  "entities": [
+    "Gemini",
+    "Google Cloud Platform"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Engineering the Next Era of Agentic AI (",
+      "text": "Join host Salim Hasham as he sits down with Publicis Sapient's Sharonyka Kumar and Vishnu Indugula to explore why true AI transformation demands fixing the enterprise core rather."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Than just polishing the shiny front end. Together, they trace the company's incredible 100-year evolution from an advertising pioneer to a technology powerhouse, revealing how platforms like Bodhi."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "Are bridging the gap between the CMO and CIO. Tune in to discover actionable strategies for moving beyond the hype and unlocking the real business value of agentic AI."
+    }
+  ],
+  "read_time_minutes": 0.5
+}

@@ -1,0 +1,40 @@
+{
+  "id": "how-to-deploy-all-the-javascript-framewo-2024",
+  "title": "How to deploy all the JavaScript frameworks to Cloud Run",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Luke Schlangen"
+  ],
+  "url": "https://youtu.be/eemS-UTjdb0",
+  "date": "2024-05-16",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "Research/Papers"
+  ],
+  "description": "The JavaScript ecosystem moves so quickly that it can leave you wondering, can I deploy [JavaScript framework] to Google Cloud Run? Yes. Let's prove it by deploying JavaScript frameworks as quickly as we can. To participate, create a Google Cloud project where you are the owner. Optionally, complete the Cloud Run Node.js Quickstart to confirm everything is working: https://cloud.google.com/run/docs/qui.... Quickstart: Deploy a Node.js service to Cloud Run https://goo.gle/3Uqe6gF",
+  "entities": [
+    "Cloud Run",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and Core Problem Space in How to deploy all the JavaScript frameworks t",
+      "text": "[MUSIC PLAYING] LUKE SCHLANGEN: All right, welcome, everybody. This talk is called How to Deploy all the JavaScript Frameworks to Cloud Run. If we want a chance of living up to that title, we need to start now. I am a developer advocate at Google. Specifically, I help JavaScript developers on Google Cloud. Prior to that, I spent five years teaching, and I taught JavaScript development to students at a coding boot camp, and then at a Fortune-500 company for the onboarding program."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Workload Optimization",
+      "text": "I'm going to be choosing us-central1 because I'm from the Midwest, and I like my friends in Iowa. This is going to be deploying to us-central1. Then the next command we will run, gcloud config set project my project name. Anything in blue you see today, that is going to be different for you. You're going to type the name of your project when we get to that line. Let's go ahead and run those first two commands."
+    },
+    {
+      "heading": "Performance Scaling, Distributed Coordination, and Reliability",
+      "text": "There are actually three products, it's not just Cloud run, but three products involved in making this happen. It's Cloud Build, which creates the container. It creates the container image that we'd like to run. Artifact Registry, which stores that container image until finally, we are ready to run it with Cloud Run, so Cloud Build, Artifact Registry, and Cloud Run. The one that's actually doing most of the work is Cloud Build. If we go gcloud run deploy --allow-unauthenticated, you might have seen this."
+    },
+    {
+      "heading": "Production Best Practices, Real-World Use Cases, and Next Steps",
+      "text": "We were setting things up with our configuration?. Git is being used in this project by default. It'll create a nice initial commit for us with Git. That's part of what it's doing during this process. Again, the two new commands are npx astro add node for our node adapter. Then npm pkg set scripts.start so that it knows what to run when we get to the point where we're starting to run our application in Cloud Run."
+    }
+  ],
+  "read_time_minutes": 1.3
+}

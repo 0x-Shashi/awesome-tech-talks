@@ -1,368 +1,266 @@
-# Awesome Tech Talks
+# Awesome Tech Talks: 150+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
-A curated collection of structured knowledge, machine-readable transcript datasets, technical architecture notes, and system flowcharts from frontier technology talks, engineering panels, and fireside chats.
+<img width="3430" height="1216" alt="Image" src="https://github.com/user-attachments/assets/dad2e263-2e14-41d5-9790-63a3278642f9" />
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Schema Validation](https://img.shields.io/badge/Schema-Validated-success.svg)](DATA/schema.json)
-[![Dataset Status](https://img.shields.io/badge/Curated_Talks-66-brightgreen.svg)](#curated-tracks)
-[![Code of Conduct](https://img.shields.io/badge/Contributor_Covenant-2.1-informational.svg)](CODE_OF_CONDUCT.md)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+  <a href="#curated-tracks"><img src="https://img.shields.io/badge/Curated_Talks-150+-brightgreen.svg" alt="150+ Curated Talks"></a>
+  <a href="#repository-metrics"><img src="https://img.shields.io/badge/Workshops_%26_Talks-Official_Channels-e78a53.svg" alt="Workshops and Talks from Official Channels"></a>
+  <a href="https://www.trackawesomelist.com/0x-Shashi/awesome-tech-talks/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"></a>
+  <a href="https://github.com/0x-Shashi/awesome-tech-talks/commits/main"><img src="https://img.shields.io/github/last-commit/0x-Shashi/awesome-tech-talks.svg" alt="GitHub Last Commit"></a>
+</p>
 
----
+The open-source hub for developer workshops, flagship keynotes, and technical engineering sessions from premier global conferences and official developer channels, consolidating hands-on coding labs, system architecture breakdowns, and expert tech talks into a single unified catalog.
+
+## What It Provides
+* **150+ Curated Sessions and Workshops**: Access a growing catalog of technical developer talks, hands-on workshops, and flagship keynotes aggregated from official channels.
+* **Structured Technical Notes**: Replaces noisy, hard-to-read transcripts with clean, high-signal study notes focused on concrete concepts, architecture, and code.
+* **AI-Ready JSON Datasets**: Provides structured JSON files for every talk, allowing you to easily export the metadata and notes to feed into AI agents or custom RAG pipelines.
+* **YouTube-Style Web Portal**: Features a custom web UI designed to make discovering, searching, and watching the curated catalog simple and familiar.
+
+## Why We Built It
+
+* **Direct Attribution for Scattered Content**: Flagship tech talks and workshops are often scattered across isolated official channels with low visibility, or re-uploaded to social media for views without crediting the creators. This project consolidates them and restores proper attribution to original company meetings.
+* **Strict Practitioner Focus**: We bypass content creators and tech influencers. Every talk in this repository features actual engineers, developers, and researchers presenting real-world engineering solutions.
+* **Software and AI Concentration**: General media covers everything from hardware to consumer gadgets. We focus exclusively on software engineering, cloud runtimes, and artificial intelligence to keep signal density as high as possible.
+
+## Consumable Data Assets
+
+| Data Asset | Path | Purpose |
+|---|---|---|
+| **Canonical JSON Schema** | [`DATA/schema.json`](file:///d:/DEV%20WORK/UnlcippedTalks/DATA/schema.json) | The exact schema specification used to validate talk metadata, categories, and structure. |
+| **Granular Talk JSONs** | [`DATA/videos/`](file:///d:/DEV%20WORK/UnlcippedTalks/DATA/videos/) | Structured files containing metadata, timestamps, entity tags, and segmented notes for RAG integration. |
+| **Full Manifest Index** | [`DATA/manifest.jsonl`](file:///d:/DEV%20WORK/UnlcippedTalks/DATA/manifest.jsonl) | A single, fast-loading JSON Lines catalog index containing metadata summary records for all talks.
 
 ## Documentation Guides
 
-| Guide | Purpose |
-|---|---|
-| [Quickstart Guide](docs/quickstart.md) | 5-minute onboarding for AI agents and developers |
-| [System Architecture](docs/architecture.md) | Monorepo layout, data boundaries, and Next.js portal flow |
-| [Dataset Specification](docs/dataset-specification.md) | JSON schema definition, field dictionary, and closed taxonomy |
-| [Web Portal Specification](docs/web-portal.md) | YouTube-style layout, Geist design system, and color tokens |
-| [Curation Pipeline](docs/curation-pipeline.md) | Workflow for adding, cleaning, and verifying new talks |
-| [Monetization Policy](docs/monetization-policy.md) | Self-serve ad rate card, sponsor partnerships, and Telegram relay |
-| [Frequently Asked Questions](docs/faq.md) | Common questions on usage, licensing, and embedding |
-| [AI Agent Guidelines](AGENTS.md) | Contributor and LLM agent operational constraints |
-
----
-
-## Executive Summary
-
-The **Awesome Tech Talks** repository addresses the challenge of technical knowledge extraction from recorded developer talks and research keynotes. Spoken talks frequently suffer from conversational filler, fragmented explanations, and unstructured formats that hinder automated semantic search and rapid human review.
-
-This project maintains two synchronized layers:
-1. **Machine-Readable Layer (`DATA/`)**: Validated JSON records adhering to strict JSON Schema (`DATA/schema.json`), containing granular metadata, speaker attribution, entity registries, and de-fluffed segment texts optimized for retrieval-augmented generation (RAG) and vector embedding pipelines.
-2. **Human-Readable Layer (`INFO/`)**: Comprehensive technical markdown documents featuring executive summaries, concept breakdowns, comparison matrices, direct YouTube timestamps, and Mermaid architecture flowcharts.
-
----
-
-## Repository Metrics
-
-| Metric | Current Count | Description |
-|---|---|---|
-| **Curated Talks** | 66 sessions | Fully processed, segmented, and verified |
-| **Cleaned Words** | 40,894 words | High-signal technical transcript text |
-| **Average Read Time** | 2.5 minutes | Estimated reading time at 250 wpm |
-| **Channels Covered** | 4 channels | Google Cloud Tech, Google for Developers, Grow with Google, Google Cloud |
-| **Topic Categories** | 10 categories | Closed-set taxonomy for consistent tagging |
-| **Schema Validation** | 100% compliant | Zero schema errors, zero style violations |
-
----
+<p align="center">
+  <b>
+    <a href="docs/quickstart.md">Quickstart</a> &nbsp;|&nbsp;
+    <a href="docs/architecture.md">System Architecture</a> &nbsp;|&nbsp;
+    <a href="docs/dataset-specification.md">Dataset Specification</a> &nbsp;|&nbsp;
+    <a href="docs/curation-pipeline.md">Curation Pipeline</a> &nbsp;|&nbsp;
+    <a href="docs/monetization-policy.md">Monetization Policy</a> &nbsp;|&nbsp;
+    <a href="docs/faq.md">FAQ</a> &nbsp;|&nbsp;
+    <a href="AGENTS.md">AI Agent Guidelines</a>
+  </b>
+</p>
 
 ## Table of Contents
 
-- [Documentation Guides](#documentation-guides)
-- [Curated Tracks](#curated-tracks)
-  - [Track 1: AI Agents and Autonomous Systems](#track-1-ai-agents-and-autonomous-systems)
-  - [Track 2: LLM Fundamentals, Architecture and Reasoning](#track-2-llm-fundamentals-architecture-and-reasoning)
-  - [Track 3: AI Coding Tools and Developer Craft](#track-3-ai-coding-tools-and-developer-craft)
-  - [Track 4: Frontier Science, Robotics and World Models](#track-4-frontier-science-robotics-and-world-models)
-  - [Track 5: Cloud Runtimes, Backend and Infrastructure](#track-5-cloud-runtimes-backend-and-infrastructure)
-  - [Track 6: Mobile, Consumer and Multimodal AI](#track-6-mobile-consumer-and-multimodal-ai)
-- [Master Inventory](#master-inventory)
-- [Repository Architecture and Structure](#repository-architecture-and-structure)
-- [Topic Taxonomy](#topic-taxonomy)
-- [Data Schema Specification](#data-schema-specification)
-- [Developer Guide and Ingestion Examples](#developer-guide-and-ingestion-examples)
-- [Open Source Governance](#open-source-governance)
-
 ---
 
-## Curated Tracks
+## Google
 
-To facilitate structured exploration, talks are organized below into thematic tracks based on primary focus areas.
+ - Google Cloud
 
-### Track 1: AI Agents and Autonomous Systems
-Focuses on autonomous planning, tool invocation, persistent agent memory, multi-agent simulation, and agent runtime orchestration.
+    - 2026
 
-| Talk Title | Speaker(s) | Level | Primary Theme | Read Time | Links |
-|---|---|---|---|---|---|
-| **Physical AI: the new era of robotics** | Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez | Intermediate | Why 2026 is a breakthrough year for robotics | 5.1 min | [Notes](INFO/google-for-developers/physical-ai-robotics-2026.md) \| [JSON](DATA/videos/physical-ai-robotics-2026.json) \| [Watch](https://youtu.be/jn3iypY-cN4?si=mZcYAxibt6K5PkhY) |
-| **Gemini co-leads on project origins and what's next** | Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick | Intermediate | Origin of the Gemini project: merging fragmented teams | 4.8 min | [Notes](INFO/google-for-developers/gemini-coleads-project-origins-2026.md) \| [JSON](DATA/videos/gemini-coleads-project-origins-2026.json) \| [Watch](https://youtu.be/8hfpLa5wPGo?si=vDuNpCfEHs_gbMye) |
-| **Data agent kit: Your coding agent can now query your data** | Annie Wang, Jeff Planner | Intermediate | What the Data Agent Kit is and what it provides | 1.5 min | [Notes](INFO/google-cloud-tech/data-agent-kit-coding-agent-2026.md) \| [JSON](DATA/videos/data-agent-kit-coding-agent-2026.json) \| [Watch](https://youtu.be/Vs2_Palg1QY?si=79aHKCKjJ1VDGndz) |
-| **From tokenmaxxing to tokenomics for your AI agents** | J.R. Storment, Luke Schlangen | Intermediate | The era of tokenmaxxing and why it ended | 2.7 min | [Notes](INFO/google-cloud-tech/tokenomics-for-ai-agents-2026.md) \| [JSON](DATA/videos/tokenomics-for-ai-agents-2026.json) \| [Watch](https://youtu.be/6LQNHQ7-IcI?si=DRo7Z1210viBghp6) |
-| **AI Agent Infrastructure Decoded** | Chelsie Czop, Schneider Larbi | Intermediate | What defines an AI agent and why enterprise adoption converged | 1.4 min | [Notes](INFO/google-cloud/ai-agent-infrastructure-decoded-2026.md) \| [JSON](DATA/videos/ai-agent-infrastructure-decoded-2026.json) \| [Watch](https://youtu.be/TZTDqtSpzv8?si=Frm_R3P_ezMyW0mw) |
-| **Intent-driven development with Claude Code and Fable 5** | Smitha Kolan, Lydia Hallie, YK Sugi | Intermediate | Intent-driven development: expressing what, not how | 2.8 min | [Notes](INFO/google-cloud-tech/intent-driven-development-2026.md) \| [JSON](DATA/videos/intent-driven-development-2026.json) \| [Watch](https://youtu.be/6ERUGFurDHY?si=6ARv2tiq-dVOqRFu) |
-| **Sameer Samat on Android 17 and the Future of Intelligent Computing** | Sameer Samat, Logan Kilpatrick | Intermediate | Why the Android Show never used the word AI | 19.2 min | [Notes](INFO/google-for-developers/sameer-samat-android17-2026.md) \| [JSON](DATA/videos/sameer-samat-android17-2026.json) \| [Watch](https://youtu.be/YvVsdZL2ogY?si=9AumEBct2D41ygDy) |
-| **Build a multi-agent system: A2A and Agent Registry** | Annie Wang, Sita Lakshmi | Intermediate | What is Agent2Agent (A2A): HTTP for AI agents | 3.1 min | [Notes](INFO/google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) \| [JSON](DATA/videos/multi-agent-a2a-agent-registry-2026.json) \| [Watch](https://youtu.be/-MME36Ft9Gc?si=sX4r_L4j8pdKh-m4) |
-| **Scale AI agents in production** | Ryan Ismert, Elia Secchi, Praveen Dhas, Tejal Pandit | Intermediate | Gemini Enterprise Agent Platform: the four pillars | 1.3 min | [Notes](INFO/google-cloud-tech/scale-ai-agents-production-2026.md) \| [JSON](DATA/videos/scale-ai-agents-production-2026.json) \| [Watch](https://youtu.be/LHcjN11nNPU?si=uQ4EMOZchxCusM6-) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | Intermediate | The inflection point: AI-native databases vs. legacy data silos | 0.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026-2.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026-2.json) \| [Watch](https://youtu.be/quzn4hOXQmI?si=6zwj5VpOhl03CF45) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | Advanced | The case for an agentic data cloud: from system of insight to system of action | 3.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026.json) \| [Watch](https://youtu.be/7awKinJhGPo?si=BiOdsdrT3_GisbsY) |
-| **Navigate the agentic shift in software development with Google** | Niranjan Tulpule, Madhura Joshi | Intermediate | Scale of AI-written code at Google | 3.1 min | [Notes](INFO/google-cloud-tech/agentic-shift-software-development-2026.md) \| [JSON](DATA/videos/agentic-shift-software-development-2026.json) \| [Watch](https://youtu.be/Z9Zz75pmOeg?si=SzxL-z7MQbcTe-t4) |
-| **Implementing DeepMind innovation: Deep research API** | Advait Bopardikar, Philipp Schmid, Patrick Starling | Intermediate | DeepMind innovation strategy: bringing research directly to APIs | 0.7 min | [Notes](INFO/google-cloud-tech/deep-research-api-2026.md) \| [JSON](DATA/videos/deep-research-api-2026.json) \| [Watch](https://youtu.be/05043f3GseE?si=upFs_lzz0NXh8q0V) |
-| **Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more** | Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec | Intermediate | Breaking the chat wall: the evolution from text to adaptive interfaces | 0.7 min | [Notes](INFO/google-cloud-tech/generative-ui-a2ui-agui-2026.md) \| [JSON](DATA/videos/generative-ui-a2ui-agui-2026.json) \| [Watch](https://youtu.be/UsMDkEsR-ok?si=VmlK6p7cd0lNmEf4) |
-| **From prototype to production: 45 minutes to a reliable Gemini Enterprise Agent Platform agent** | Alibek Datbayev, Maria-Irène Călinoiu, Naz Bayrak, Manasa Kandula | Intermediate | Booking.com case study: journey from wrappers to governed agent platform | 0.7 min | [Notes](INFO/google-cloud-tech/gemini-enterprise-prototype-to-production-2026.md) \| [JSON](DATA/videos/gemini-enterprise-prototype-to-production-2026.json) \| [Watch](https://youtu.be/fkCTifAqVGg?si=ze-G7eeT6wwwB4U0) |
-| **Engineering the future of Kubernetes for AI at scale** | Kaslin Fields, Jago Macleod, Boaz Rant | Advanced | Evolution of Kubernetes: from stateless cattle to AI accelerators | 0.6 min | [Notes](INFO/google-cloud-tech/kubernetes-for-ai-at-scale-2026.md) \| [JSON](DATA/videos/kubernetes-for-ai-at-scale-2026.json) \| [Watch](https://youtu.be/yVvLjWDmb0Y?si=DOYxe9PHHjIJQmi_) |
-| **Enable autonomous data agents with BigQuery and Cloud Run** | Vlad Kolesnikov | Intermediate | Why MCP and why now: skills vs. tools, determinism, governance | 2.0 min | [Notes](INFO/google-cloud-tech/autonomous-data-agents-bigquery-2026.md) \| [JSON](DATA/videos/autonomous-data-agents-bigquery-2026.json) \| [Watch](https://youtu.be/nfCTJN42LyE?si=pg1g2BVTdz9F-XV_) |
-| **Build connected AI: Orchestrate tools and agents with registries and ADK** | Michael Vakoc, Mak Ahmad, Min Zu | Intermediate | The challenge has shifted: from building agents to governing hundreds | 2.5 min | [Notes](INFO/google-cloud-tech/connected-ai-tool-registries-2026.md) \| [JSON](DATA/videos/connected-ai-tool-registries-2026.json) \| [Watch](https://youtu.be/bjaXpSz4ao0?si=_wre7_yF3XkPMHTL) |
-| **Boost AI context with hybrid search in Spanner** | Jeff, Alexander, Girish | Intermediate | Spanner as a foundational search and AI data platform | 0.7 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026-2.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026-2.json) \| [Watch](https://youtu.be/gV5NEo8-LFI?si=Aefu2R44_9JamC8s) |
-| **Boost AI context with hybrid search in Spanner** | Jeff Sosa, Girish Baliga, Alexander Christie | Intermediate | Spanner as the underlying search platform for Google products | 3.2 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026.json) \| [Watch](https://youtu.be/fAf4Zh-CC08?si=07lUFU9TF3J7DWxN) |
-| **Beyond the prompt: Build production-ready agents with Google's MCP servers** | Vidya Nagarajan, Tarun Gumar, Keren He, Levi Chen | Intermediate | Connectivity as the bottleneck and the launch of Google-managed MCP servers | 1.3 min | [Notes](INFO/google-cloud-tech/production-agents-mcp-servers-2026.md) \| [JSON](DATA/videos/production-agents-mcp-servers-2026.json) \| [Watch](https://youtu.be/df7ZdrBxlsE?si=tIl4FWKhUUTDo9hJ) |
-| **Beyond the hype: Orchestrating end-to-end developer workflows with agents** | Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie | Intermediate | The DORA paradox: individual productivity vs. organizational instability | 0.6 min | [Notes](INFO/google-cloud-tech/orchestrating-developer-workflows-2026.md) \| [JSON](DATA/videos/orchestrating-developer-workflows-2026.json) \| [Watch](https://youtu.be/t6jH_GPFqgs?si=MZIrswUN4IFH7vVR) |
-| **Agent development and AgentOps with BigQuery, ADK, and MCP** | Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere | Intermediate | Agentic Data Cloud stack: from open-source to managed data agents | 2.8 min | [Notes](INFO/google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) \| [JSON](DATA/videos/agentops-bigquery-adk-mcp-2026.json) \| [Watch](https://youtu.be/tQGalTBL1Ek?si=3S4gCmuNRLWXPrN-) |
-| **Agent context engineering for production** | George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar | Intermediate | From models to agents: why context engineering matters | 2.9 min | [Notes](INFO/google-cloud-tech/agent-context-engineering-2026.md) \| [JSON](DATA/videos/agent-context-engineering-2026.json) \| [Watch](https://youtu.be/YKLkHvzjFDk?si=p0SkhaQVKF_wo1T1) |
-| **Yossi Matias on the golden age of research** | Yossi Matias, Logan Kilpatrick | Intermediate | The mission of Google Research and the magic cycle | 6.5 min | [Notes](INFO/google-for-developers/yossi-matias-research-golden-age-2026.md) \| [JSON](DATA/videos/yossi-matias-research-golden-age-2026.json) \| [Watch](https://youtu.be/FPBwadTeph0?si=pPTO_eUXVrUf1Oq0) |
-| **How to design a multi-agent system that skips the LLM** | Casey West, Annie Wang | Advanced | The core architectural dilemma: LLM reasoning vs. deterministic code | 0.8 min | [Notes](INFO/google-cloud-tech/multi-agent-system-without-llm-2026.md) \| [JSON](DATA/videos/multi-agent-system-without-llm-2026.json) \| [Watch](https://youtu.be/Fzd0BWMH65s?si=bKyJ75VM6jfjKbCT) |
-| **The future of software development** | Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber | Intermediate | Gemini 3.5 Flash: best model yet for agentic and long-running tasks | 3.9 min | [Notes](INFO/google-for-developers/future-of-software-development-2026.md) \| [JSON](DATA/videos/future-of-software-development-2026.json) \| [Watch](https://youtu.be/v0RQiNJ9nhw?si=2UzULe4B5jMgxxCt) |
-| **Directing the future: craft and creativity in the age of AI** | Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob | Beginner | Technology as a creative tool through Doug Liman's career | 5.0 min | [Notes](INFO/google-for-developers/doug-liman-directing-future-2026.md) \| [JSON](DATA/videos/doug-liman-directing-future-2026.json) \| [Watch](https://youtu.be/3AIme0FZr4g?si=A0moCFMArrYeJTmL) |
-| **Defining the agentic AI era** | Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean | Intermediate | Gemini 3.5 Flash: purpose-built for agentic workflows and coding | 2.0 min | [Notes](INFO/google-for-developers/defining-agentic-ai-era-2026.md) \| [JSON](DATA/videos/defining-agentic-ai-era-2026.json) \| [Watch](https://youtu.be/bc4QwDd5jB0?si=6JCnE-EZh0kr5q5o) |
-| **A new era of discovery: AI and the frontiers of science with Demis Hassabis** | Mike Allen, Demis Hassabis | Beginner | Foothills of the singularity: AGI timeline around 2030 | 4.9 min | [Notes](INFO/google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) \| [JSON](DATA/videos/demis-hassabis-ai-science-frontiers-2026.json) \| [Watch](https://youtu.be/dgBLVm2L1P4?si=1IKjLoQltfXyp98i) |
-| **A fireside chat on the evolution of the developer craft** | Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan | Intermediate | Redefining the senior engineer in 2026 | 2.1 min | [Notes](INFO/google-for-developers/developer-craft-evolution-2026.md) \| [JSON](DATA/videos/developer-craft-evolution-2026.json) \| [Watch](https://youtu.be/VTYx7Ex-0bA?si=Zh_H7seeITHvqTVg) |
-| **Cross-cloud infrastructure for the agentic enterprise** | Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan | Intermediate | The infrastructure renaissance: inference dominance and agent demand | 0.8 min | [Notes](INFO/google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) \| [JSON](DATA/videos/cross-cloud-agentic-enterprise-2026.json) \| [Watch](https://youtu.be/gY95kEL-JGI?si=SE5Zt-KUcR6kY9F5) |
-| **Build AI agents at scale with Google Cloud** | Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth | Intermediate | The paradigm shift: moving from instructions to goals | 1.1 min | [Notes](INFO/google-cloud-tech/build-ai-agents-at-scale-2026.md) \| [JSON](DATA/videos/build-ai-agents-at-scale-2026.json) \| [Watch](https://youtu.be/ZRs1PHngOIA?si=Po_aMr6QKeth5VB0) |
-| **Fireside chat on an agentic simulation: Race Condition** | Tom Greenaway, Casey West | Intermediate | Race Condition overview: reference architecture for agentic simulations | 1.7 min | [Notes](INFO/google-for-developers/race-condition-agentic-simulation-2026.md) \| [JSON](DATA/videos/race-condition-agentic-simulation-2026.json) \| [Watch](https://youtu.be/WYPdz3OZfuQ?si=bB7MJSEG80CFE9Pg) |
-| **Gemma 4 production stack: Model Armor, ADK Agents, Tracing** | Ayo Adedeji, Annie Wang | Intermediate | Architecture overview: securing and observing Gemma 4 | 0.7 min | [Notes](INFO/google-cloud-tech/gemma4-production-stack-2026.md) \| [JSON](DATA/videos/gemma4-production-stack-2026.json) \| [Watch](https://youtu.be/7wENq-LMHgQ?si=u6WZXqoRDuJYxzeW) |
-| **How to Build a production-ready RAG AI agent** | Ayo Adedeji, Annie Wang | Intermediate | Hands-on project overview: from structured data to RAG agent | 0.7 min | [Notes](INFO/google-cloud-tech/production-ready-rag-agent-2026.md) \| [JSON](DATA/videos/production-ready-rag-agent-2026.json) \| [Watch](https://youtu.be/Ni1P8TITtE8?si=_GELuEACYOqyenjx) |
-| **Build an AI Agent knowledge base using SQL (BigQuery + Gemini)** | Annie Wang, Ayo Adedeji | Beginner | Hands-on project overview: unstructured to structured ELT pipeline | 0.8 min | [Notes](INFO/google-cloud-tech/agent-knowledge-base-bigquery-2026.md) \| [JSON](DATA/videos/agent-knowledge-base-bigquery-2026.json) \| [Watch](https://youtu.be/zvmtHZSt8es?si=EAmXpMAEmxwRKSl6) |
-| **Build multi-agent AI A2A + Cloud Run \| Hands On AI (Part 2)** | Ayo Adedeji, Annie Wang | Intermediate | Distributed agent architecture and the Agent-to-Agent (A2A) protocol | 0.6 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part2-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part2-2026.json) \| [Watch](https://youtu.be/pEAZ5iyKgWE?si=CDH2IkBK8GCOtfxH) |
-| **Build a multi-agent system \| Hands On AI (Part 1)** | Annie Wang, Ayo Adedeji | Intermediate | Hands-on project overview and multi-agent RPG architecture | 0.7 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part1-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part1-2026.json) \| [Watch](https://youtu.be/rHtRWyxVQps?si=m5ka_Qjq-qtAbGaO) |
-| **Koray Kavukcuoglu: This Is How We Are Going to Build AGI** | Logan Kilpatrick, Koray Kavukcuoglu | Intermediate | Gemini 3 launch reception and continuous research acceleration | 1.7 min | [Notes](INFO/google-for-developers/koray-kavukcuoglu-building-agi-2025.md) \| [JSON](DATA/videos/koray-kavukcuoglu-building-agi-2025.json) \| [Watch](https://youtu.be/fXtna7UrL44?si=cwFn4bPyjMNkKVYJ) |
-| **Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley** | Frank van Puffelen, Mike Clark | Intermediate | DevFest energy and the democratizing reset of AI | 1.6 min | [Notes](INFO/google-for-developers/mike-clark-vertex-ai-devfest-2025.md) \| [JSON](DATA/videos/mike-clark-vertex-ai-devfest-2025.json) \| [Watch](https://youtu.be/9oYHU1hdDog?si=6tJa6SYQq0apwmL6) |
-| **AI agents for data engineering and data science \| The Agent Factory Podcast** | Smitha Kolan, Lucia Subatin | Intermediate | Industry update: Gemini Computer Use model and CodeMender | 0.9 min | [Notes](INFO/google-cloud-tech/agents-for-data-engineering-2025.md) \| [JSON](DATA/videos/agents-for-data-engineering-2025.json) \| [Watch](https://youtu.be/ATgIU47V1yI?si=yr9gqDI27nInkl2k) |
-| **How to build AI agents with memory** | Sita Lakshmi Sangameswaran, Kimberly Milam | Intermediate | The problem of forgetful agents: volatile vs. persistent memory | 1.5 min | [Notes](INFO/google-for-developers/ai-agents-with-memory-2025.md) \| [JSON](DATA/videos/ai-agents-with-memory-2025.json) \| [Watch](https://youtu.be/sMtrelDNxIc?si=l8-wTWgukhgLfbQ_) |
-| **The Impossible Computing with Keith Ballinger \| The Agent Factory Podcast** | Keith Ballinger, Mollie Pettit, Vlad Kolesnikov | Intermediate | Impossible computing: rethinking software economics with AI | 0.6 min | [Notes](INFO/google-cloud-tech/keith-ballinger-impossible-computing-2025.md) \| [JSON](DATA/videos/keith-ballinger-impossible-computing-2025.json) \| [Watch](https://youtu.be/I-xS4nw-HfU?si=5EYpQofB8w80Y7Y6) |
-| **Demis Hassabis on shipping momentum, better evals and world models** | Logan Kilpatrick, Demis Hassabis | Intermediate | DeepMind shipping momentum: Deep Think and thinking models | 1.8 min | [Notes](INFO/google-for-developers/demis-hassabis-evals-world-models-2025.md) \| [JSON](DATA/videos/demis-hassabis-evals-world-models-2025.json) \| [Watch](https://youtu.be/njDochQ2zHs?si=jyW6558bNmAoKQ70) |
-| **Season 5 - Shaping the agentic future with Clement Farabet** | Ashley Oldacre, Christina Warren, Clement Farabet | Intermediate | From CNN hardware to Twitter and NVIDIA AI infrastructure | 1.7 min | [Notes](INFO/google-for-developers/clement-farabet-agentic-future-2025.md) \| [JSON](DATA/videos/clement-farabet-agentic-future-2025.json) \| [Watch](https://youtu.be/AM3yzTDW65U?si=NXWhzzSEChPauGBq) |
-| **Building a frontier AI search experience** | Logan Kilpatrick, Robby Stein | Intermediate | Google Search as a frontier AI product: scale and mission | 1.6 min | [Notes](INFO/google-for-developers/frontier-ai-search-experience-2025.md) \| [JSON](DATA/videos/frontier-ai-search-experience-2025.json) \| [Watch](https://youtu.be/zUB5A_ezIOU?si=QOqX-kk9uoHP4IMb) |
-| **AgentOps: Operationalize AI Agents** | Sita Lakshmi Sangameswaran, Sokratis Kartakis | Advanced | Evolution from DevOps and MLOps to GenAIOps and AgentOps | 1.1 min | [Notes](INFO/google-cloud-tech/agentops-operationalize-agents-2025.md) \| [JSON](DATA/videos/agentops-operationalize-agents-2025.json) \| [Watch](https://youtu.be/kJRgj58ujEk?si=GxGlzxwuOcqRhDeg) |
+         - [10x-productivity-with-the-gemini-cli-2026](https://youtu.be/Tqn2UdufXrk)
+         - [accelerating-the-next-wave-of-intelligen-2026](https://youtu.be/ZfaPLwmjq_o)
+         - [accelerating-the-next-wave-of-intelligen-2026-2](https://youtu.be/eIYJvawCDzM)
+         - [agentic-transformation-in-the-public-sec-2026](https://youtu.be/XQJkGDNKL_s)
+         - [ai-agent-infrastructure-decoded-2026](https://youtu.be/TZTDqtSpzv8?si=Frm_R3P_ezMyW0mw)
+         - [ai-with-a-mission-from-strategy-to-high-2026](https://youtu.be/L6Qllh2HUJo)
+         - [behind-googles-strategic-bets-in-ai-a-co-2026](https://youtu.be/BpnJYJmbXcM)
+         - [driving-enterprise-value-from-agentic-ai-2026](https://youtu.be/9i9N7eyswNw)
+         - [driving-hyper-personalized-cx-outcomes-w-2026](https://youtu.be/06vPLKRxUhE)
+         - [engineering-the-next-era-of-agentic-ai-w-2026](https://youtu.be/cpjh22CAEkg)
+         - [from-pilot-to-production-google-clouds-n-2026](https://youtu.be/Ji7JN6LcNcA)
+         - [from-systems-of-intelligence-to-systems-2026](https://youtu.be/fY6OL_VOwg4)
+         - [get-started-in-the-age-of-ai-agents-with-2026](https://youtu.be/b-_WCvhocqo)
+         - [next-26-the-future-of-ai-infrastructure-2026](https://youtu.be/PJQPMv8TqLA)
+         - [own-your-signature-customer-agentic-expe-2026](https://youtu.be/DQYd3UDSniI)
+         - [scale-ai-that-your-workforce-will-actual-2026](https://youtu.be/sFWQFRu5JQY)
+         - [secure-whats-next-ai-driven-defense-for-2026](https://youtu.be/o1PuhBMlpac)
+         - [securing-and-managing-agentic-ai-at-scal-2026](https://youtu.be/3D7G-adDKAo)
+         - [the-agentic-data-cloud-powering-a-system-2026](https://youtu.be/JkmmDL386c4)
+         - [the-agentic-enterprise-google-workspace-2026](https://youtu.be/5kZ_m8_yVmI)
+         - [the-questions-every-ceo-should-ask-about-2026](https://youtu.be/hLldl7tlZAg)
+         - [vibe-coding-to-production-logan-kilpatri-2026](https://youtu.be/GrhTj48kAF4)
+         - [whats-new-with-gemini-enterprise-app-2026](https://youtu.be/Tc3IiGNmXHc)
+         - [whats-next-in-ai-infrastructure-scaling-2026](https://youtu.be/VfSG2WeSTBk)
+    - 2025
 
----
+         - [becoming-ai-first-a-partners-blueprint-w-2025](https://youtu.be/eE8RO5ZOn8c)
+         - [how-ai-agents-will-impact-your-business-2025](https://youtu.be/IkCY53hF8iI)
+         - [what-is-smart-storage-meet-google-clouds-2025](https://youtu.be/yF_V0TYwSyE)
+         - [whats-new-with-iam-and-org-policy-access-2025](https://youtu.be/Lourkw64AVM)
 
-### Track 2: LLM Fundamentals, Architecture and Reasoning
-Explores foundation model pre-training, post-training alignment, reasoning architectures, context window scaling, and model convergence.
+ - Google Cloud Tech
 
-| Talk Title | Speaker(s) | Level | Primary Theme | Read Time | Links |
-|---|---|---|---|---|---|
-| **Physical AI: the new era of robotics** | Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez | Intermediate | Why 2026 is a breakthrough year for robotics | 5.1 min | [Notes](INFO/google-for-developers/physical-ai-robotics-2026.md) \| [JSON](DATA/videos/physical-ai-robotics-2026.json) \| [Watch](https://youtu.be/jn3iypY-cN4?si=mZcYAxibt6K5PkhY) |
-| **Gemini co-leads on project origins and what's next** | Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick | Intermediate | Origin of the Gemini project: merging fragmented teams | 4.8 min | [Notes](INFO/google-for-developers/gemini-coleads-project-origins-2026.md) \| [JSON](DATA/videos/gemini-coleads-project-origins-2026.json) \| [Watch](https://youtu.be/8hfpLa5wPGo?si=vDuNpCfEHs_gbMye) |
-| **AI Agent Infrastructure Decoded** | Chelsie Czop, Schneider Larbi | Intermediate | What defines an AI agent and why enterprise adoption converged | 1.4 min | [Notes](INFO/google-cloud/ai-agent-infrastructure-decoded-2026.md) \| [JSON](DATA/videos/ai-agent-infrastructure-decoded-2026.json) \| [Watch](https://youtu.be/TZTDqtSpzv8?si=Frm_R3P_ezMyW0mw) |
-| **AI tools for human creativity** | Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin | Beginner | Creative Lab's job, and the one thing that is not changing | 30.6 min | [Notes](INFO/google-for-developers/creative-lab-ai-creative-tools-2026.md) \| [JSON](DATA/videos/creative-lab-ai-creative-tools-2026.json) \| [Watch](https://youtu.be/cL7uFe5RqHY?si=9TZUVuK1Ga4_ygOS) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | Intermediate | The inflection point: AI-native databases vs. legacy data silos | 0.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026-2.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026-2.json) \| [Watch](https://youtu.be/quzn4hOXQmI?si=6zwj5VpOhl03CF45) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | Advanced | The case for an agentic data cloud: from system of insight to system of action | 3.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026.json) \| [Watch](https://youtu.be/7awKinJhGPo?si=BiOdsdrT3_GisbsY) |
-| **Implementing DeepMind innovation: Deep research API** | Advait Bopardikar, Philipp Schmid, Patrick Starling | Intermediate | DeepMind innovation strategy: bringing research directly to APIs | 0.7 min | [Notes](INFO/google-cloud-tech/deep-research-api-2026.md) \| [JSON](DATA/videos/deep-research-api-2026.json) \| [Watch](https://youtu.be/05043f3GseE?si=upFs_lzz0NXh8q0V) |
-| **From prototype to production: 45 minutes to a reliable Gemini Enterprise Agent Platform agent** | Alibek Datbayev, Maria-Irène Călinoiu, Naz Bayrak, Manasa Kandula | Intermediate | Booking.com case study: journey from wrappers to governed agent platform | 0.7 min | [Notes](INFO/google-cloud-tech/gemini-enterprise-prototype-to-production-2026.md) \| [JSON](DATA/videos/gemini-enterprise-prototype-to-production-2026.json) \| [Watch](https://youtu.be/fkCTifAqVGg?si=ze-G7eeT6wwwB4U0) |
-| **Boost AI context with hybrid search in Spanner** | Jeff Sosa, Girish Baliga, Alexander Christie | Intermediate | Spanner as the underlying search platform for Google products | 3.2 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026.json) \| [Watch](https://youtu.be/fAf4Zh-CC08?si=07lUFU9TF3J7DWxN) |
-| **Agent development and AgentOps with BigQuery, ADK, and MCP** | Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere | Intermediate | Agentic Data Cloud stack: from open-source to managed data agents | 2.8 min | [Notes](INFO/google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) \| [JSON](DATA/videos/agentops-bigquery-adk-mcp-2026.json) \| [Watch](https://youtu.be/tQGalTBL1Ek?si=3S4gCmuNRLWXPrN-) |
-| **Agent context engineering for production** | George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar | Intermediate | From models to agents: why context engineering matters | 2.9 min | [Notes](INFO/google-cloud-tech/agent-context-engineering-2026.md) \| [JSON](DATA/videos/agent-context-engineering-2026.json) \| [Watch](https://youtu.be/YKLkHvzjFDk?si=p0SkhaQVKF_wo1T1) |
-| **Yossi Matias on the golden age of research** | Yossi Matias, Logan Kilpatrick | Intermediate | The mission of Google Research and the magic cycle | 6.5 min | [Notes](INFO/google-for-developers/yossi-matias-research-golden-age-2026.md) \| [JSON](DATA/videos/yossi-matias-research-golden-age-2026.json) \| [Watch](https://youtu.be/FPBwadTeph0?si=pPTO_eUXVrUf1Oq0) |
-| **Building the quantum-AI future with Hartmut Neven and James Manyika** | James Manyika, Hartmut Neven | Intermediate | Quantum computing fundamentals and superposition | 2.9 min | [Notes](INFO/google-for-developers/neven-manyika-quantum-ai-2026.md) \| [JSON](DATA/videos/neven-manyika-quantum-ai-2026.json) \| [Watch](https://youtu.be/yQPnb4gxKRc?si=Z2WEZuDCKp0fhSuV) |
-| **Gemma 4 production stack: Model Armor, ADK Agents, Tracing** | Ayo Adedeji, Annie Wang | Intermediate | Architecture overview: securing and observing Gemma 4 | 0.7 min | [Notes](INFO/google-cloud-tech/gemma4-production-stack-2026.md) \| [JSON](DATA/videos/gemma4-production-stack-2026.json) \| [Watch](https://youtu.be/7wENq-LMHgQ?si=u6WZXqoRDuJYxzeW) |
-| **How to Build a production-ready RAG AI agent** | Ayo Adedeji, Annie Wang | Intermediate | Hands-on project overview: from structured data to RAG agent | 0.7 min | [Notes](INFO/google-cloud-tech/production-ready-rag-agent-2026.md) \| [JSON](DATA/videos/production-ready-rag-agent-2026.json) \| [Watch](https://youtu.be/Ni1P8TITtE8?si=_GELuEACYOqyenjx) |
-| **Build an AI Agent knowledge base using SQL (BigQuery + Gemini)** | Annie Wang, Ayo Adedeji | Beginner | Hands-on project overview: unstructured to structured ELT pipeline | 0.8 min | [Notes](INFO/google-cloud-tech/agent-knowledge-base-bigquery-2026.md) \| [JSON](DATA/videos/agent-knowledge-base-bigquery-2026.json) \| [Watch](https://youtu.be/zvmtHZSt8es?si=EAmXpMAEmxwRKSl6) |
-| **Build multi-agent AI A2A + Cloud Run \| Hands On AI (Part 2)** | Ayo Adedeji, Annie Wang | Intermediate | Distributed agent architecture and the Agent-to-Agent (A2A) protocol | 0.6 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part2-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part2-2026.json) \| [Watch](https://youtu.be/pEAZ5iyKgWE?si=CDH2IkBK8GCOtfxH) |
-| **Build a multi-agent system \| Hands On AI (Part 1)** | Annie Wang, Ayo Adedeji | Intermediate | Hands-on project overview and multi-agent RPG architecture | 0.7 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part1-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part1-2026.json) \| [Watch](https://youtu.be/rHtRWyxVQps?si=m5ka_Qjq-qtAbGaO) |
-| **How to use AI for your job search \| Google Career Certificates** | Tony, Sydney | Beginner | Introduction: structuring the modern job search with AI | 1.2 min | [Notes](INFO/grow-with-google/ai-for-job-search-2026.md) \| [JSON](DATA/videos/ai-for-job-search-2026.json) \| [Watch](https://youtu.be/Iw_G_j1o6fQ?si=PriKzpvDryQEE_xp) |
-| **Keras Turns 10: A decade of deep learning** | Yufeng Guo, François Chollet, Matt Watson | Intermediate | The origin of Keras: from Theano chatbot tooling to open-source library | 2.1 min | [Notes](INFO/google-for-developers/keras-10-years-deep-learning-2026.md) \| [JSON](DATA/videos/keras-10-years-deep-learning-2026.json) \| [Watch](https://youtu.be/oekqrCFN7MM?si=QjlOx7afHeY9hiTk) |
-| **Koray Kavukcuoglu: This Is How We Are Going to Build AGI** | Logan Kilpatrick, Koray Kavukcuoglu | Intermediate | Gemini 3 launch reception and continuous research acceleration | 1.7 min | [Notes](INFO/google-for-developers/koray-kavukcuoglu-building-agi-2025.md) \| [JSON](DATA/videos/koray-kavukcuoglu-building-agi-2025.json) \| [Watch](https://youtu.be/fXtna7UrL44?si=cwFn4bPyjMNkKVYJ) |
-| **How to build AI agents with memory** | Sita Lakshmi Sangameswaran, Kimberly Milam | Intermediate | The problem of forgetful agents: volatile vs. persistent memory | 1.5 min | [Notes](INFO/google-for-developers/ai-agents-with-memory-2025.md) \| [JSON](DATA/videos/ai-agents-with-memory-2025.json) \| [Watch](https://youtu.be/sMtrelDNxIc?si=l8-wTWgukhgLfbQ_) |
-| **The evolved developer with Muhammad Farooq** | Christina Warren, Ashley Oldacre, Muhammad Farooq | Intermediate | Academic roots and the viral launch of engineerprompt | 1.7 min | [Notes](INFO/google-for-developers/muhammad-farooq-evolved-developer-2025.md) \| [JSON](DATA/videos/muhammad-farooq-evolved-developer-2025.json) \| [Watch](https://youtu.be/bvfTtLzWVPw?si=8vT9c8SplHXJZ7tU) |
-| **Demis Hassabis on shipping momentum, better evals and world models** | Logan Kilpatrick, Demis Hassabis | Intermediate | DeepMind shipping momentum: Deep Think and thinking models | 1.8 min | [Notes](INFO/google-for-developers/demis-hassabis-evals-world-models-2025.md) \| [JSON](DATA/videos/demis-hassabis-evals-world-models-2025.json) \| [Watch](https://youtu.be/njDochQ2zHs?si=jyW6558bNmAoKQ70) |
-| **Season 5 - Shaping the agentic future with Clement Farabet** | Ashley Oldacre, Christina Warren, Clement Farabet | Intermediate | From CNN hardware to Twitter and NVIDIA AI infrastructure | 1.7 min | [Notes](INFO/google-for-developers/clement-farabet-agentic-future-2025.md) \| [JSON](DATA/videos/clement-farabet-agentic-future-2025.json) \| [Watch](https://youtu.be/AM3yzTDW65U?si=NXWhzzSEChPauGBq) |
-| **Building a frontier AI search experience** | Logan Kilpatrick, Robby Stein | Intermediate | Google Search as a frontier AI product: scale and mission | 1.6 min | [Notes](INFO/google-for-developers/frontier-ai-search-experience-2025.md) \| [JSON](DATA/videos/frontier-ai-search-experience-2025.json) \| [Watch](https://youtu.be/zUB5A_ezIOU?si=QOqX-kk9uoHP4IMb) |
-| **AgentOps: Operationalize AI Agents** | Sita Lakshmi Sangameswaran, Sokratis Kartakis | Advanced | Evolution from DevOps and MLOps to GenAIOps and AgentOps | 1.1 min | [Notes](INFO/google-cloud-tech/agentops-operationalize-agents-2025.md) \| [JSON](DATA/videos/agentops-operationalize-agents-2025.json) \| [Watch](https://youtu.be/kJRgj58ujEk?si=GxGlzxwuOcqRhDeg) |
-| **Darren Aronofsky and Demis Hassabis on storytelling in the age of AI** | Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt | Beginner | Make soup, not slop: creative philosophy and partnership | 0.9 min | [Notes](INFO/google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) \| [JSON](DATA/videos/aronofsky-hassabis-ai-storytelling-2025.json) \| [Watch](https://youtu.be/VJllI3jMEb4?si=rcmRah8Dfq5_wRIS) |
-| **Science in the age of AI** | James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar | Intermediate | AI driving landmark advances across the scientific frontier | 0.7 min | [Notes](INFO/google-for-developers/science-in-the-age-of-ai-2025.md) \| [JSON](DATA/videos/science-in-the-age-of-ai-2025.json) \| [Watch](https://youtu.be/NYtQuneZMXc?si=0xRnvtYslsp-UHKV) |
-| **Deep Dive into Long Context** | Logan Kilpatrick, Nikolay Savinov | Intermediate | Foundations: what is a token and why tokenization persists | 0.7 min | [Notes](INFO/google-for-developers/deep-dive-long-context-2025.md) \| [JSON](DATA/videos/deep-dive-long-context-2025.json) \| [Watch](https://youtu.be/NHMJ9mqKeMQ?si=15tgX0ycptnfiOPn) |
-| **Orchestrate generative AI with Workflows** | Mete Atamel | Intermediate | Why orchestrate generative AI with Google Cloud Workflows | 0.7 min | [Notes](INFO/google-cloud-tech/orchestrate-genai-workflows-2024.md) \| [JSON](DATA/videos/orchestrate-genai-workflows-2024.json) \| [Watch](https://youtu.be/wi0nP6nxa0A?si=Tn3TpPQLy0wM5lcr) |
+    - 2026
 
----
+         - [agent-context-engineering-2026](https://youtu.be/YKLkHvzjFDk?si=p0SkhaQVKF_wo1T1)
+         - [agent-knowledge-base-bigquery-2026](https://youtu.be/zvmtHZSt8es?si=EAmXpMAEmxwRKSl6)
+         - [agentic-shift-software-development-2026](https://youtu.be/Z9Zz75pmOeg?si=SzxL-z7MQbcTe-t4)
+         - [agentops-bigquery-adk-mcp-2026](https://youtu.be/tQGalTBL1Ek?si=3S4gCmuNRLWXPrN-)
+         - [ai-native-databases-agents-2026](https://youtu.be/7awKinJhGPo?si=BiOdsdrT3_GisbsY)
+         - [ai-native-databases-agents-2026-2](https://youtu.be/quzn4hOXQmI?si=6zwj5VpOhl03CF45)
+         - [autonomous-data-agents-bigquery-2026](https://youtu.be/nfCTJN42LyE?si=pg1g2BVTdz9F-XV_)
+         - [build-ai-agents-at-scale-2026](https://youtu.be/ZRs1PHngOIA?si=Po_aMr6QKeth5VB0)
+         - [connected-ai-tool-registries-2026](https://youtu.be/bjaXpSz4ao0?si=_wre7_yF3XkPMHTL)
+         - [cross-cloud-agentic-enterprise-2026](https://youtu.be/gY95kEL-JGI?si=SE5Zt-KUcR6kY9F5)
+         - [data-agent-kit-coding-agent-2026](https://youtu.be/Vs2_Palg1QY?si=79aHKCKjJ1VDGndz)
+         - [deep-research-api-2026](https://youtu.be/05043f3GseE?si=upFs_lzz0NXh8q0V)
+         - [gemini-enterprise-prototype-to-production-2026](https://youtu.be/fkCTifAqVGg?si=ze-G7eeT6wwwB4U0)
+         - [gemma4-production-stack-2026](https://youtu.be/7wENq-LMHgQ?si=u6WZXqoRDuJYxzeW)
+         - [generative-ui-a2ui-agui-2026](https://youtu.be/UsMDkEsR-ok?si=VmlK6p7cd0lNmEf4)
+         - [hands-on-multi-agent-part1-2026](https://youtu.be/rHtRWyxVQps?si=m5ka_Qjq-qtAbGaO)
+         - [hands-on-multi-agent-part2-2026](https://youtu.be/pEAZ5iyKgWE?si=CDH2IkBK8GCOtfxH)
+         - [intent-driven-development-2026](https://youtu.be/6ERUGFurDHY?si=6ARv2tiq-dVOqRFu)
+         - [kubernetes-for-ai-at-scale-2026](https://youtu.be/yVvLjWDmb0Y?si=DOYxe9PHHjIJQmi_)
+         - [multi-agent-a2a-agent-registry-2026](https://youtu.be/-MME36Ft9Gc?si=sX4r_L4j8pdKh-m4)
+         - [multi-agent-system-without-llm-2026](https://youtu.be/Fzd0BWMH65s?si=bKyJ75VM6jfjKbCT)
+         - [orchestrating-developer-workflows-2026](https://youtu.be/t6jH_GPFqgs?si=MZIrswUN4IFH7vVR)
+         - [production-agents-mcp-servers-2026](https://youtu.be/df7ZdrBxlsE?si=tIl4FWKhUUTDo9hJ)
+         - [production-ready-rag-agent-2026](https://youtu.be/Ni1P8TITtE8?si=_GELuEACYOqyenjx)
+         - [scale-ai-agents-production-2026](https://youtu.be/LHcjN11nNPU?si=uQ4EMOZchxCusM6-)
+         - [spanner-hybrid-search-context-2026](https://youtu.be/fAf4Zh-CC08?si=07lUFU9TF3J7DWxN)
+         - [spanner-hybrid-search-context-2026-2](https://youtu.be/gV5NEo8-LFI?si=Aefu2R44_9JamC8s)
+         - [tokenomics-for-ai-agents-2026](https://youtu.be/6LQNHQ7-IcI?si=DRo7Z1210viBghp6)
+         - [tpus-on-gke-ml-workloads-2026](https://youtu.be/coP5_SmE4AI?si=o79IroUrSluCePZI)
+    - 2025
 
-### Track 3: AI Coding Tools and Developer Craft
-Examines the transformation of software engineering, agentic IDEs, specs-driven development, code reviews, and developer career evolution.
+         - [agentops-operationalize-agents-2025](https://youtu.be/kJRgj58ujEk?si=GxGlzxwuOcqRhDeg)
+         - [agents-for-data-engineering-2025](https://youtu.be/ATgIU47V1yI?si=yr9gqDI27nInkl2k)
+         - [keith-ballinger-impossible-computing-2025](https://youtu.be/I-xS4nw-HfU?si=5EYpQofB8w80Y7Y6)
+    - 2024
 
-| Talk Title | Speaker(s) | Level | Primary Theme | Read Time | Links |
-|---|---|---|---|---|---|
-| **Data agent kit: Your coding agent can now query your data** | Annie Wang, Jeff Planner | Intermediate | What the Data Agent Kit is and what it provides | 1.5 min | [Notes](INFO/google-cloud-tech/data-agent-kit-coding-agent-2026.md) \| [JSON](DATA/videos/data-agent-kit-coding-agent-2026.json) \| [Watch](https://youtu.be/Vs2_Palg1QY?si=79aHKCKjJ1VDGndz) |
-| **Intent-driven development with Claude Code and Fable 5** | Smitha Kolan, Lydia Hallie, YK Sugi | Intermediate | Intent-driven development: expressing what, not how | 2.8 min | [Notes](INFO/google-cloud-tech/intent-driven-development-2026.md) \| [JSON](DATA/videos/intent-driven-development-2026.json) \| [Watch](https://youtu.be/6ERUGFurDHY?si=6ARv2tiq-dVOqRFu) |
-| **AI tools for human creativity** | Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin | Beginner | Creative Lab's job, and the one thing that is not changing | 30.6 min | [Notes](INFO/google-for-developers/creative-lab-ai-creative-tools-2026.md) \| [JSON](DATA/videos/creative-lab-ai-creative-tools-2026.json) \| [Watch](https://youtu.be/cL7uFe5RqHY?si=9TZUVuK1Ga4_ygOS) |
-| **Navigate the agentic shift in software development with Google** | Niranjan Tulpule, Madhura Joshi | Intermediate | Scale of AI-written code at Google | 3.1 min | [Notes](INFO/google-cloud-tech/agentic-shift-software-development-2026.md) \| [JSON](DATA/videos/agentic-shift-software-development-2026.json) \| [Watch](https://youtu.be/Z9Zz75pmOeg?si=SzxL-z7MQbcTe-t4) |
-| **Beyond the hype: Orchestrating end-to-end developer workflows with agents** | Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie | Intermediate | The DORA paradox: individual productivity vs. organizational instability | 0.6 min | [Notes](INFO/google-cloud-tech/orchestrating-developer-workflows-2026.md) \| [JSON](DATA/videos/orchestrating-developer-workflows-2026.json) \| [Watch](https://youtu.be/t6jH_GPFqgs?si=MZIrswUN4IFH7vVR) |
-| **How to design a multi-agent system that skips the LLM** | Casey West, Annie Wang | Advanced | The core architectural dilemma: LLM reasoning vs. deterministic code | 0.8 min | [Notes](INFO/google-cloud-tech/multi-agent-system-without-llm-2026.md) \| [JSON](DATA/videos/multi-agent-system-without-llm-2026.json) \| [Watch](https://youtu.be/Fzd0BWMH65s?si=bKyJ75VM6jfjKbCT) |
-| **The future of software development** | Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber | Intermediate | Gemini 3.5 Flash: best model yet for agentic and long-running tasks | 3.9 min | [Notes](INFO/google-for-developers/future-of-software-development-2026.md) \| [JSON](DATA/videos/future-of-software-development-2026.json) \| [Watch](https://youtu.be/v0RQiNJ9nhw?si=2UzULe4B5jMgxxCt) |
-| **Defining the agentic AI era** | Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean | Intermediate | Gemini 3.5 Flash: purpose-built for agentic workflows and coding | 2.0 min | [Notes](INFO/google-for-developers/defining-agentic-ai-era-2026.md) \| [JSON](DATA/videos/defining-agentic-ai-era-2026.json) \| [Watch](https://youtu.be/bc4QwDd5jB0?si=6JCnE-EZh0kr5q5o) |
-| **A fireside chat on the evolution of the developer craft** | Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan | Intermediate | Redefining the senior engineer in 2026 | 2.1 min | [Notes](INFO/google-for-developers/developer-craft-evolution-2026.md) \| [JSON](DATA/videos/developer-craft-evolution-2026.json) \| [Watch](https://youtu.be/VTYx7Ex-0bA?si=Zh_H7seeITHvqTVg) |
-| **Fireside chat on an agentic simulation: Race Condition** | Tom Greenaway, Casey West | Intermediate | Race Condition overview: reference architecture for agentic simulations | 1.7 min | [Notes](INFO/google-for-developers/race-condition-agentic-simulation-2026.md) \| [JSON](DATA/videos/race-condition-agentic-simulation-2026.json) \| [Watch](https://youtu.be/WYPdz3OZfuQ?si=bB7MJSEG80CFE9Pg) |
-| **Keras Turns 10: A decade of deep learning** | Yufeng Guo, François Chollet, Matt Watson | Intermediate | The origin of Keras: from Theano chatbot tooling to open-source library | 2.1 min | [Notes](INFO/google-for-developers/keras-10-years-deep-learning-2026.md) \| [JSON](DATA/videos/keras-10-years-deep-learning-2026.json) \| [Watch](https://youtu.be/oekqrCFN7MM?si=QjlOx7afHeY9hiTk) |
-| **Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley** | Frank van Puffelen, Mike Clark | Intermediate | DevFest energy and the democratizing reset of AI | 1.6 min | [Notes](INFO/google-for-developers/mike-clark-vertex-ai-devfest-2025.md) \| [JSON](DATA/videos/mike-clark-vertex-ai-devfest-2025.json) \| [Watch](https://youtu.be/9oYHU1hdDog?si=6tJa6SYQq0apwmL6) |
-| **AI agents for data engineering and data science \| The Agent Factory Podcast** | Smitha Kolan, Lucia Subatin | Intermediate | Industry update: Gemini Computer Use model and CodeMender | 0.9 min | [Notes](INFO/google-cloud-tech/agents-for-data-engineering-2025.md) \| [JSON](DATA/videos/agents-for-data-engineering-2025.json) \| [Watch](https://youtu.be/ATgIU47V1yI?si=yr9gqDI27nInkl2k) |
-| **The Impossible Computing with Keith Ballinger \| The Agent Factory Podcast** | Keith Ballinger, Mollie Pettit, Vlad Kolesnikov | Intermediate | Impossible computing: rethinking software economics with AI | 0.6 min | [Notes](INFO/google-cloud-tech/keith-ballinger-impossible-computing-2025.md) \| [JSON](DATA/videos/keith-ballinger-impossible-computing-2025.json) \| [Watch](https://youtu.be/I-xS4nw-HfU?si=5EYpQofB8w80Y7Y6) |
-| **The evolved developer with Muhammad Farooq** | Christina Warren, Ashley Oldacre, Muhammad Farooq | Intermediate | Academic roots and the viral launch of engineerprompt | 1.7 min | [Notes](INFO/google-for-developers/muhammad-farooq-evolved-developer-2025.md) \| [JSON](DATA/videos/muhammad-farooq-evolved-developer-2025.json) \| [Watch](https://youtu.be/bvfTtLzWVPw?si=8vT9c8SplHXJZ7tU) |
-| **The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure** | Ashley Oldacre, Douglas Edric Stanley, Anthony Masure | Intermediate | Origins across Silicon Valley hacker culture, French philosophy, and media labs | 1.5 min | [Notes](INFO/google-for-developers/ai-art-and-design-2025.md) \| [JSON](DATA/videos/ai-art-and-design-2025.json) \| [Watch](https://youtu.be/XbvHlMTzi6E?si=f_wdfb_RbJqhSvL5) |
-| **Building human-centered AI products with Ovetta Sampson** | Ashley Oldacre, Ovetta Sampson | Intermediate | From investigative journalism to machine learning design | 1.5 min | [Notes](INFO/google-for-developers/ovetta-sampson-human-centered-ai-2025.md) \| [JSON](DATA/videos/ovetta-sampson-human-centered-ai-2025.json) \| [Watch](https://youtu.be/PALRROM2JWE?si=8EiT1FNB5A04k3mI) |
+         - [a-cybersecurity-experts-guide-to-securin-2024](https://youtu.be/2xSNyfAbWb8)
+         - [a-deep-dive-into-alloydb-for-postgresql-2024](https://youtu.be/iafduXqwfMs)
+         - [a-primer-on-data-on-kubernetes-2024](https://youtu.be/l9o88O422EM)
+         - [accelerate-ai-inference-workloads-with-g-2024](https://youtu.be/5QsM1K9ahtw)
+         - [accelerate-ai-training-workloads-with-go-2024](https://youtu.be/1t4SOuEeBTI)
+         - [accelerate-insights-with-a-new-natural-l-2024](https://youtu.be/yMgwMHiORHw)
+         - [accelerate-your-generative-ai-journey-wi-2024](https://youtu.be/XZScgsMglOQ)
+         - [achieving-unprecedented-migration-and-mo-2024](https://youtu.be/Nzqd-rLIu9A)
+         - [advanced-productivity-for-data-science-2024](https://youtu.be/lIckIhEWuOs)
+         - [ai-and-modernization-on-your-terms-from-2024](https://youtu.be/GQYsL9e58Lg)
+         - [best-practices-to-manage-and-automate-on-2024](https://youtu.be/qnkqyNtqVnE)
+         - [bigquery-and-biglake-real-world-data-pro-2024](https://youtu.be/rlQ61X9J8NM)
+         - [boost-performance-of-go-applications-wit-2024](https://youtu.be/FwzE5Sdhhdw)
+         - [bring-the-power-of-machine-learning-to-t-2024](https://youtu.be/SGsD0K1s8cI)
+         - [build-a-unified-open-and-fully-managed-l-2024](https://youtu.be/LIMnhzJWmLQ)
+         - [build-an-internal-developer-platform-on-2024](https://youtu.be/T4LiXvEiPuU)
+         - [build-continuous-data-and-ai-pipelines-w-2024](https://youtu.be/Zo_y34J16yg)
+         - [building-generative-ai-apps-on-google-cl-2024](https://youtu.be/l7tNx52bnsc)
+         - [cloud-compromises-lessons-learned-from-m-2024](https://youtu.be/Fg13kGsN9ok)
+         - [cloud-network-security-zero-trust-2024](https://youtu.be/pQyhpIR6HPU?si=PwB5RR0_rcvk4cPw)
+         - [cloud-security-threat-briefing-with-mand-2024](https://youtu.be/EwxpRoX17Co)
+         - [confidential-computing-and-confidential-2024](https://youtu.be/a-hd78NX36c)
+         - [confidential-computing-and-confidential-2024-2](https://youtu.be/-m-fKkSFJvg)
+         - [data-governance-in-the-ai-era-2024](https://youtu.be/3A855rN_9pE)
+         - [deliver-the-next-generation-of-customer-2024](https://youtu.be/YcJCtN1yIB8)
+         - [ensure-the-health-of-cloud-resources-how-2024](https://youtu.be/XB6egcqhYcg)
+         - [from-rag-to-autonomous-apps-with-weaviat-2024](https://youtu.be/WORgeRAAN-4)
+         - [generative-ai-text-and-multimodal-embedd-2024](https://youtu.be/d4foqxCzRuA)
+         - [generative-ai-use-cases-and-design-patte-2024](https://youtu.be/g7J3q-MW284)
+         - [go-from-large-language-model-to-market-f-2024](https://youtu.be/qwFCZKKFXd4)
+         - [goodbye-deployment-headaches-cloud-deplo-2024](https://youtu.be/_NlGk9Ao_oA)
+         - [google-cloud-databases-in-the-gen-ai-era-2024](https://youtu.be/jR2YY9)
+         - [harness-ai-for-better-business-intellige-2024](https://youtu.be/3N-s1SermC8)
+         - [harness-ai-for-better-business-intellige-2024-2](https://youtu.be/2CFYDnZ8q3k)
+         - [harness-generative-ai-accenture-security-2024](https://youtu.be/JU6TxB5-uRA)
+         - [how-anthropic-uses-google-kubernetes-eng-2024](https://youtu.be/b87I1plPeMg)
+         - [how-to-define-a-storage-infrastructure-f-2024](https://youtu.be/A4daQj9tnWk)
+         - [how-to-define-and-maintain-compliant-inf-2024](https://youtu.be/AP2lsbSlIWI)
+         - [how-to-deliver-a-large-scale-kubernetes-2024](https://youtu.be/Cie9OZA5M-0)
+         - [how-to-deploy-all-the-javascript-framewo-2024](https://youtu.be/eemS-UTjdb0)
+         - [how-to-deploy-programmable-global-front-2024](https://youtu.be/aN4zrUBViiU)
+         - [how-to-design-a-cloud-network-for-apps-a-2024](https://youtu.be/8239pIsOT-M)
+         - [how-to-design-a-service-centric-cross-cl-2024](https://youtu.be/6zfdIGmFCyc)
+         - [how-to-get-easy-and-affordable-access-to-2024](https://youtu.be/FyGB1dcjnc8)
+         - [how-to-meet-public-sector-requirements-o-2024](https://youtu.be/VNBJDmBjuH8)
+         - [how-to-use-google-cloud-storage-to-unify-2024](https://youtu.be/26i9gH4jRDw)
+         - [how-unity-powers-their-workloads-on-goog-2024](https://youtu.be/kOjgD377u_s)
+         - [how-vertex-ai-makes-it-easy-to-customize-2024](https://youtu.be/oeQ36hiGC0k)
+         - [identities-as-the-bedrock-for-google-clo-2024](https://youtu.be/-Cy6SGVJguM)
+         - [introducing-cloud-service-mesh-a-fully-m-2024](https://youtu.be/WDEkokFDYp4)
+         - [large-language-models-and-detecting-ai-g-2024](https://youtu.be/o7VUMZP2D5o)
+         - [large-language-models-in-action-transfor-2024](https://youtu.be/qtbir-54N88)
+         - [least-privilege-move-beyond-default-serv-2024](https://youtu.be/sBiZukrBDMo)
+         - [level-up-your-sustainable-engineering-pr-2024](https://youtu.be/hrh6-e-0HJ0)
+         - [leveraging-google-kubernetes-engine-and-2024](https://youtu.be/lE6A19GtptM)
+         - [managing-google-cloud-storage-at-scale-w-2024](https://youtu.be/9R2UI_1O1A4)
+         - [migrating-from-data-centers-the-benefits-2024](https://youtu.be/JPaYYrLgbzg)
+         - [ml-frameworks-for-generative-ai-developm-2024](https://youtu.be/Tk3xoHJmWEE)
+         - [multi-project-multi-runtime-multi-region-2024](https://youtu.be/lN1YEEZ)
+         - [next-generation-storage-designing-storag-2024](https://youtu.be/KXXjKPCCwk0)
+         - [non-relational-databases-design-patterns-2024](https://youtu.be/MUnFtU83Ub4)
+         - [optimize-bigquery-operations-at-geotab-2024](https://youtu.be/2qz7VzTUY9M)
+         - [optimize-costs-and-efficiency-with-new-c-2024](https://youtu.be/2Oi76rCquCk)
+         - [optimize-your-machine-learning-applicati-2024](https://youtu.be/qrA-LikZlWc)
+         - [orchestrate-genai-workflows-2024](https://youtu.be/wi0nP6nxa0A?si=Tn3TpPQLy0wM5lcr)
+         - [power-data-analytics-with-generative-ai-2024](https://youtu.be/5vuSBm2mPoA)
+         - [prevent-data-exfiltration-with-google-cl-2024](https://youtu.be/LnG33OMTkxw)
+         - [protect-your-workload-with-google-cloud-2024](https://youtu.be/MoUeHQJQFFY)
+         - [rock-solid-business-continuity-and-data-2024](https://youtu.be/WO-NkZMfK4E)
+         - [scalable-advanced-ml-systems-with-ray-go-2024](https://youtu.be/vpM2Gq4RvIU)
+         - [scale-infrastructure-as-code-proven-stra-2024](https://youtu.be/YkNZ56eiXhw)
+         - [security-privacy-and-governance-consider-2024](https://youtu.be/l6ou6hVUJ3k)
+         - [supercharge-your-data-analytics-with-gem-2024](https://youtu.be/9WE1rltc4ec)
+         - [supercharge-your-data-analytics-with-the-2024](https://youtu.be/GdGdCG4f3lA)
+         - [take-large-scale-ai-from-research-to-pro-2024](https://youtu.be/J0r)
+         - [the-past-present-and-future-of-google-ku-2024](https://youtu.be/7p5omI1kOws)
+         - [the-secret-sauce-to-certification-readin-2024](https://youtu.be/tIkN43CebQM)
+         - [transform-your-cloud-operations-and-desi-2024](https://youtu.be/iQw)
+         - [transform-your-sap-workload-with-google-2024](https://youtu.be/nWG8qZMrf0I)
+         - [two-sigma-push-computing-research-bounda-2024](https://youtu.be/t9YoFaswvZo)
+         - [unleash-the-power-of-vector-search-and-m-2024](https://youtu.be/B-0dZGJDtJw)
+         - [use-large-language-models-to-answer-diff-2024](https://youtu.be/eA_7Uz7ATXs)
+         - [vertex-ai-gemini-model-selection-and-pro-2024](https://youtu.be/PV0noZVXb4I)
+         - [what-s-next-for-security-professionals-2024](https://youtu.be/Uw5glgDmDhc)
+         - [whats-new-in-cloud-network-security-2024](https://youtu.be/1FPzEtkUYkk)
+         - [whats-new-in-cloud-networking-2024](https://youtu.be/9Jig45qG1Mk)
+         - [whats-next-with-gemini-driving-business-2024](https://youtu.be/DqH1R9Pk5RI)
+         - [why-google-kubernetes-engine-uniquely-su-2024](unknown)
+         - [workload-optimized-and-ai-powered-infras-2024](https://youtu.be/zqizhMfEuu0)
+         - [you-can-only-secure-what-you-can-see-how-2024](https://youtu.be/xD-IjRAEYh8)
 
----
+ - Google for Developers
 
-### Track 4: Frontier Science, Robotics and World Models
-Covers deep reinforcement learning for scientific discovery, physical robotics perception, 3D simulation world models, and quantum computing.
+    - 2026
 
-| Talk Title | Speaker(s) | Level | Primary Theme | Read Time | Links |
-|---|---|---|---|---|---|
-| **Physical AI: the new era of robotics** | Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez | Intermediate | Why 2026 is a breakthrough year for robotics | 5.1 min | [Notes](INFO/google-for-developers/physical-ai-robotics-2026.md) \| [JSON](DATA/videos/physical-ai-robotics-2026.json) \| [Watch](https://youtu.be/jn3iypY-cN4?si=mZcYAxibt6K5PkhY) |
-| **Gemini co-leads on project origins and what's next** | Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick | Intermediate | Origin of the Gemini project: merging fragmented teams | 4.8 min | [Notes](INFO/google-for-developers/gemini-coleads-project-origins-2026.md) \| [JSON](DATA/videos/gemini-coleads-project-origins-2026.json) \| [Watch](https://youtu.be/8hfpLa5wPGo?si=vDuNpCfEHs_gbMye) |
-| **Yossi Matias on the golden age of research** | Yossi Matias, Logan Kilpatrick | Intermediate | The mission of Google Research and the magic cycle | 6.5 min | [Notes](INFO/google-for-developers/yossi-matias-research-golden-age-2026.md) \| [JSON](DATA/videos/yossi-matias-research-golden-age-2026.json) \| [Watch](https://youtu.be/FPBwadTeph0?si=pPTO_eUXVrUf1Oq0) |
-| **Directing the future: craft and creativity in the age of AI** | Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob | Beginner | Technology as a creative tool through Doug Liman's career | 5.0 min | [Notes](INFO/google-for-developers/doug-liman-directing-future-2026.md) \| [JSON](DATA/videos/doug-liman-directing-future-2026.json) \| [Watch](https://youtu.be/3AIme0FZr4g?si=A0moCFMArrYeJTmL) |
-| **Building the quantum-AI future with Hartmut Neven and James Manyika** | James Manyika, Hartmut Neven | Intermediate | Quantum computing fundamentals and superposition | 2.9 min | [Notes](INFO/google-for-developers/neven-manyika-quantum-ai-2026.md) \| [JSON](DATA/videos/neven-manyika-quantum-ai-2026.json) \| [Watch](https://youtu.be/yQPnb4gxKRc?si=Z2WEZuDCKp0fhSuV) |
-| **A new era of discovery: AI and the frontiers of science with Demis Hassabis** | Mike Allen, Demis Hassabis | Beginner | Foothills of the singularity: AGI timeline around 2030 | 4.9 min | [Notes](INFO/google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) \| [JSON](DATA/videos/demis-hassabis-ai-science-frontiers-2026.json) \| [Watch](https://youtu.be/dgBLVm2L1P4?si=1IKjLoQltfXyp98i) |
-| **Orchestrating ML/AI workloads with TPUs on GKE** | Yufeng Guo, Kavitha Gowda | Advanced | TPU hardware architecture: Matrix Multiplying Units (MXUs) and ASICs | 0.6 min | [Notes](INFO/google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) \| [JSON](DATA/videos/tpus-on-gke-ml-workloads-2026.json) \| [Watch](https://youtu.be/coP5_SmE4AI?si=o79IroUrSluCePZI) |
-| **Keras Turns 10: A decade of deep learning** | Yufeng Guo, François Chollet, Matt Watson | Intermediate | The origin of Keras: from Theano chatbot tooling to open-source library | 2.1 min | [Notes](INFO/google-for-developers/keras-10-years-deep-learning-2026.md) \| [JSON](DATA/videos/keras-10-years-deep-learning-2026.json) \| [Watch](https://youtu.be/oekqrCFN7MM?si=QjlOx7afHeY9hiTk) |
-| **Koray Kavukcuoglu: This Is How We Are Going to Build AGI** | Logan Kilpatrick, Koray Kavukcuoglu | Intermediate | Gemini 3 launch reception and continuous research acceleration | 1.7 min | [Notes](INFO/google-for-developers/koray-kavukcuoglu-building-agi-2025.md) \| [JSON](DATA/videos/koray-kavukcuoglu-building-agi-2025.json) \| [Watch](https://youtu.be/fXtna7UrL44?si=cwFn4bPyjMNkKVYJ) |
-| **Demis Hassabis on shipping momentum, better evals and world models** | Logan Kilpatrick, Demis Hassabis | Intermediate | DeepMind shipping momentum: Deep Think and thinking models | 1.8 min | [Notes](INFO/google-for-developers/demis-hassabis-evals-world-models-2025.md) \| [JSON](DATA/videos/demis-hassabis-evals-world-models-2025.json) \| [Watch](https://youtu.be/njDochQ2zHs?si=jyW6558bNmAoKQ70) |
-| **Season 5 - Shaping the agentic future with Clement Farabet** | Ashley Oldacre, Christina Warren, Clement Farabet | Intermediate | From CNN hardware to Twitter and NVIDIA AI infrastructure | 1.7 min | [Notes](INFO/google-for-developers/clement-farabet-agentic-future-2025.md) \| [JSON](DATA/videos/clement-farabet-agentic-future-2025.json) \| [Watch](https://youtu.be/AM3yzTDW65U?si=NXWhzzSEChPauGBq) |
-| **The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure** | Ashley Oldacre, Douglas Edric Stanley, Anthony Masure | Intermediate | Origins across Silicon Valley hacker culture, French philosophy, and media labs | 1.5 min | [Notes](INFO/google-for-developers/ai-art-and-design-2025.md) \| [JSON](DATA/videos/ai-art-and-design-2025.json) \| [Watch](https://youtu.be/XbvHlMTzi6E?si=f_wdfb_RbJqhSvL5) |
-| **Indira Negi - Investing in AI hardware for health** | Ashley Oldacre, Indira Negi | Beginner | From the Himalayas to biosensors: engineering for human impact | 0.8 min | [Notes](INFO/google-for-developers/indira-negi-ai-health-hardware-2025.md) \| [JSON](DATA/videos/indira-negi-ai-health-hardware-2025.json) \| [Watch](https://youtu.be/itoaY1vG2qE?si=deZ8r3s91HgdYJBI) |
-| **How AI is revolutionizing sign language recognition with Sam Sepah and Thad Starner** | Ashley Oldacre, Sam Sepah, Thad Starner | Beginner | Pioneering wearable computing and early augmented reality | 0.8 min | [Notes](INFO/google-for-developers/ai-sign-language-recognition-2025.md) \| [JSON](DATA/videos/ai-sign-language-recognition-2025.json) \| [Watch](https://youtu.be/1NJX4sP6ubc?si=JQKH2QN0g-TEe9cZ) |
-| **Digital health with Dr. Oliver Aalami** | Ashley Oldacre, Dr. Oliver Aalami | Intermediate | Clinical vascular surgery and the origins of Stanford Biodesign | 1.3 min | [Notes](INFO/google-for-developers/oliver-aalami-digital-health-2025.md) \| [JSON](DATA/videos/oliver-aalami-digital-health-2025.json) \| [Watch](https://youtu.be/sgx7-NAJJ0g?si=JHqkKCSxB-cSWZJc) |
-| **Building human-centered AI products with Ovetta Sampson** | Ashley Oldacre, Ovetta Sampson | Intermediate | From investigative journalism to machine learning design | 1.5 min | [Notes](INFO/google-for-developers/ovetta-sampson-human-centered-ai-2025.md) \| [JSON](DATA/videos/ovetta-sampson-human-centered-ai-2025.json) \| [Watch](https://youtu.be/PALRROM2JWE?si=8EiT1FNB5A04k3mI) |
-| **3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly** | Ashley Oldacre, Fergus Hurley, Nia Castelly | Intermediate | Founders' backgrounds: from Android Vitals and e-discovery to Area 120 | 0.9 min | [Notes](INFO/google-for-developers/checks-mobile-app-compliance-2025.md) \| [JSON](DATA/videos/checks-mobile-app-compliance-2025.json) \| [Watch](https://youtu.be/Zcw427_z6Xg?si=28tg_6nMIvr18W82) |
-| **Waymo: AI in the physical world powering the future of driving** | Aditi Roy, Dmitri Dolgov | Intermediate | The imperative for autonomous mobility: road safety and human error | 0.7 min | [Notes](INFO/google-for-developers/waymo-ai-physical-world-2025.md) \| [JSON](DATA/videos/waymo-ai-physical-world-2025.json) \| [Watch](https://youtu.be/jnUUo7xso_0?si=jYl4_yDJ1PLwELi9) |
-| **Science in the age of AI** | James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar | Intermediate | AI driving landmark advances across the scientific frontier | 0.7 min | [Notes](INFO/google-for-developers/science-in-the-age-of-ai-2025.md) \| [JSON](DATA/videos/science-in-the-age-of-ai-2025.json) \| [Watch](https://youtu.be/NYtQuneZMXc?si=0xRnvtYslsp-UHKV) |
-| **Deep Dive into Long Context** | Logan Kilpatrick, Nikolay Savinov | Intermediate | Foundations: what is a token and why tokenization persists | 0.7 min | [Notes](INFO/google-for-developers/deep-dive-long-context-2025.md) \| [JSON](DATA/videos/deep-dive-long-context-2025.json) \| [Watch](https://youtu.be/NHMJ9mqKeMQ?si=15tgX0ycptnfiOPn) |
+         - [creative-lab-ai-creative-tools-2026](https://youtu.be/cL7uFe5RqHY?si=9TZUVuK1Ga4_ygOS)
+         - [defining-agentic-ai-era-2026](https://youtu.be/bc4QwDd5jB0?si=6JCnE-EZh0kr5q5o)
+         - [demis-hassabis-ai-science-frontiers-2026](https://youtu.be/dgBLVm2L1P4?si=1IKjLoQltfXyp98i)
+         - [developer-craft-evolution-2026](https://youtu.be/VTYx7Ex-0bA?si=Zh_H7seeITHvqTVg)
+         - [doug-liman-directing-future-2026](https://youtu.be/3AIme0FZr4g?si=A0moCFMArrYeJTmL)
+         - [future-of-software-development-2026](https://youtu.be/v0RQiNJ9nhw?si=2UzULe4B5jMgxxCt)
+         - [gemini-coleads-project-origins-2026](https://youtu.be/8hfpLa5wPGo?si=vDuNpCfEHs_gbMye)
+         - [keras-10-years-deep-learning-2026](https://youtu.be/oekqrCFN7MM?si=QjlOx7afHeY9hiTk)
+         - [neven-manyika-quantum-ai-2026](https://youtu.be/yQPnb4gxKRc?si=Z2WEZuDCKp0fhSuV)
+         - [physical-ai-robotics-2026](https://youtu.be/jn3iypY-cN4?si=mZcYAxibt6K5PkhY)
+         - [race-condition-agentic-simulation-2026](https://youtu.be/WYPdz3OZfuQ?si=bB7MJSEG80CFE9Pg)
+         - [sameer-samat-android17-2026](https://youtu.be/YvVsdZL2ogY?si=9AumEBct2D41ygDy)
+         - [yossi-matias-research-golden-age-2026](https://youtu.be/FPBwadTeph0?si=pPTO_eUXVrUf1Oq0)
+    - 2025
 
----
+         - [ai-agents-with-memory-2025](https://youtu.be/sMtrelDNxIc?si=l8-wTWgukhgLfbQ_)
+         - [ai-art-and-design-2025](https://youtu.be/XbvHlMTzi6E?si=f_wdfb_RbJqhSvL5)
+         - [ai-sign-language-recognition-2025](https://youtu.be/1NJX4sP6ubc?si=JQKH2QN0g-TEe9cZ)
+         - [aronofsky-hassabis-ai-storytelling-2025](https://youtu.be/VJllI3jMEb4?si=rcmRah8Dfq5_wRIS)
+         - [checks-mobile-app-compliance-2025](https://youtu.be/Zcw427_z6Xg?si=28tg_6nMIvr18W82)
+         - [clement-farabet-agentic-future-2025](https://youtu.be/AM3yzTDW65U?si=NXWhzzSEChPauGBq)
+         - [deep-dive-long-context-2025](https://youtu.be/NHMJ9mqKeMQ?si=15tgX0ycptnfiOPn)
+         - [demis-hassabis-evals-world-models-2025](https://youtu.be/njDochQ2zHs?si=jyW6558bNmAoKQ70)
+         - [frontier-ai-search-experience-2025](https://youtu.be/zUB5A_ezIOU?si=QOqX-kk9uoHP4IMb)
+         - [indira-negi-ai-health-hardware-2025](https://youtu.be/itoaY1vG2qE?si=deZ8r3s91HgdYJBI)
+         - [koray-kavukcuoglu-building-agi-2025](https://youtu.be/fXtna7UrL44?si=cwFn4bPyjMNkKVYJ)
+         - [mike-clark-vertex-ai-devfest-2025](https://youtu.be/9oYHU1hdDog?si=6tJa6SYQq0apwmL6)
+         - [muhammad-farooq-evolved-developer-2025](https://youtu.be/bvfTtLzWVPw?si=8vT9c8SplHXJZ7tU)
+         - [oliver-aalami-digital-health-2025](https://youtu.be/sgx7-NAJJ0g?si=JHqkKCSxB-cSWZJc)
+         - [ovetta-sampson-human-centered-ai-2025](https://youtu.be/PALRROM2JWE?si=8EiT1FNB5A04k3mI)
+         - [science-in-the-age-of-ai-2025](https://youtu.be/NYtQuneZMXc?si=0xRnvtYslsp-UHKV)
+         - [waymo-ai-physical-world-2025](https://youtu.be/jnUUo7xso_0?si=jYl4_yDJ1PLwELi9)
 
-### Track 5: Cloud Runtimes, Backend and Infrastructure
-Details managed agent runtimes, telemetry and tracing standards, high-throughput model serving, and compute cluster orchestration.
+ - Grow with Google
 
-| Talk Title | Speaker(s) | Level | Primary Theme | Read Time | Links |
-|---|---|---|---|---|---|
-| **Data agent kit: Your coding agent can now query your data** | Annie Wang, Jeff Planner | Intermediate | What the Data Agent Kit is and what it provides | 1.5 min | [Notes](INFO/google-cloud-tech/data-agent-kit-coding-agent-2026.md) \| [JSON](DATA/videos/data-agent-kit-coding-agent-2026.json) \| [Watch](https://youtu.be/Vs2_Palg1QY?si=79aHKCKjJ1VDGndz) |
-| **From tokenmaxxing to tokenomics for your AI agents** | J.R. Storment, Luke Schlangen | Intermediate | The era of tokenmaxxing and why it ended | 2.7 min | [Notes](INFO/google-cloud-tech/tokenomics-for-ai-agents-2026.md) \| [JSON](DATA/videos/tokenomics-for-ai-agents-2026.json) \| [Watch](https://youtu.be/6LQNHQ7-IcI?si=DRo7Z1210viBghp6) |
-| **AI Agent Infrastructure Decoded** | Chelsie Czop, Schneider Larbi | Intermediate | What defines an AI agent and why enterprise adoption converged | 1.4 min | [Notes](INFO/google-cloud/ai-agent-infrastructure-decoded-2026.md) \| [JSON](DATA/videos/ai-agent-infrastructure-decoded-2026.json) \| [Watch](https://youtu.be/TZTDqtSpzv8?si=Frm_R3P_ezMyW0mw) |
-| **Intent-driven development with Claude Code and Fable 5** | Smitha Kolan, Lydia Hallie, YK Sugi | Intermediate | Intent-driven development: expressing what, not how | 2.8 min | [Notes](INFO/google-cloud-tech/intent-driven-development-2026.md) \| [JSON](DATA/videos/intent-driven-development-2026.json) \| [Watch](https://youtu.be/6ERUGFurDHY?si=6ARv2tiq-dVOqRFu) |
-| **Build a multi-agent system: A2A and Agent Registry** | Annie Wang, Sita Lakshmi | Intermediate | What is Agent2Agent (A2A): HTTP for AI agents | 3.1 min | [Notes](INFO/google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) \| [JSON](DATA/videos/multi-agent-a2a-agent-registry-2026.json) \| [Watch](https://youtu.be/-MME36Ft9Gc?si=sX4r_L4j8pdKh-m4) |
-| **Scale AI agents in production** | Ryan Ismert, Elia Secchi, Praveen Dhas, Tejal Pandit | Intermediate | Gemini Enterprise Agent Platform: the four pillars | 1.3 min | [Notes](INFO/google-cloud-tech/scale-ai-agents-production-2026.md) \| [JSON](DATA/videos/scale-ai-agents-production-2026.json) \| [Watch](https://youtu.be/LHcjN11nNPU?si=uQ4EMOZchxCusM6-) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | Intermediate | The inflection point: AI-native databases vs. legacy data silos | 0.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026-2.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026-2.json) \| [Watch](https://youtu.be/quzn4hOXQmI?si=6zwj5VpOhl03CF45) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | Advanced | The case for an agentic data cloud: from system of insight to system of action | 3.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026.json) \| [Watch](https://youtu.be/7awKinJhGPo?si=BiOdsdrT3_GisbsY) |
-| **Navigate the agentic shift in software development with Google** | Niranjan Tulpule, Madhura Joshi | Intermediate | Scale of AI-written code at Google | 3.1 min | [Notes](INFO/google-cloud-tech/agentic-shift-software-development-2026.md) \| [JSON](DATA/videos/agentic-shift-software-development-2026.json) \| [Watch](https://youtu.be/Z9Zz75pmOeg?si=SzxL-z7MQbcTe-t4) |
-| **Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more** | Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec | Intermediate | Breaking the chat wall: the evolution from text to adaptive interfaces | 0.7 min | [Notes](INFO/google-cloud-tech/generative-ui-a2ui-agui-2026.md) \| [JSON](DATA/videos/generative-ui-a2ui-agui-2026.json) \| [Watch](https://youtu.be/UsMDkEsR-ok?si=VmlK6p7cd0lNmEf4) |
-| **From prototype to production: 45 minutes to a reliable Gemini Enterprise Agent Platform agent** | Alibek Datbayev, Maria-Irène Călinoiu, Naz Bayrak, Manasa Kandula | Intermediate | Booking.com case study: journey from wrappers to governed agent platform | 0.7 min | [Notes](INFO/google-cloud-tech/gemini-enterprise-prototype-to-production-2026.md) \| [JSON](DATA/videos/gemini-enterprise-prototype-to-production-2026.json) \| [Watch](https://youtu.be/fkCTifAqVGg?si=ze-G7eeT6wwwB4U0) |
-| **Engineering the future of Kubernetes for AI at scale** | Kaslin Fields, Jago Macleod, Boaz Rant | Advanced | Evolution of Kubernetes: from stateless cattle to AI accelerators | 0.6 min | [Notes](INFO/google-cloud-tech/kubernetes-for-ai-at-scale-2026.md) \| [JSON](DATA/videos/kubernetes-for-ai-at-scale-2026.json) \| [Watch](https://youtu.be/yVvLjWDmb0Y?si=DOYxe9PHHjIJQmi_) |
-| **Enable autonomous data agents with BigQuery and Cloud Run** | Vlad Kolesnikov | Intermediate | Why MCP and why now: skills vs. tools, determinism, governance | 2.0 min | [Notes](INFO/google-cloud-tech/autonomous-data-agents-bigquery-2026.md) \| [JSON](DATA/videos/autonomous-data-agents-bigquery-2026.json) \| [Watch](https://youtu.be/nfCTJN42LyE?si=pg1g2BVTdz9F-XV_) |
-| **Build connected AI: Orchestrate tools and agents with registries and ADK** | Michael Vakoc, Mak Ahmad, Min Zu | Intermediate | The challenge has shifted: from building agents to governing hundreds | 2.5 min | [Notes](INFO/google-cloud-tech/connected-ai-tool-registries-2026.md) \| [JSON](DATA/videos/connected-ai-tool-registries-2026.json) \| [Watch](https://youtu.be/bjaXpSz4ao0?si=_wre7_yF3XkPMHTL) |
-| **Boost AI context with hybrid search in Spanner** | Jeff, Alexander, Girish | Intermediate | Spanner as a foundational search and AI data platform | 0.7 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026-2.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026-2.json) \| [Watch](https://youtu.be/gV5NEo8-LFI?si=Aefu2R44_9JamC8s) |
-| **Boost AI context with hybrid search in Spanner** | Jeff Sosa, Girish Baliga, Alexander Christie | Intermediate | Spanner as the underlying search platform for Google products | 3.2 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026.json) \| [Watch](https://youtu.be/fAf4Zh-CC08?si=07lUFU9TF3J7DWxN) |
-| **Beyond the prompt: Build production-ready agents with Google's MCP servers** | Vidya Nagarajan, Tarun Gumar, Keren He, Levi Chen | Intermediate | Connectivity as the bottleneck and the launch of Google-managed MCP servers | 1.3 min | [Notes](INFO/google-cloud-tech/production-agents-mcp-servers-2026.md) \| [JSON](DATA/videos/production-agents-mcp-servers-2026.json) \| [Watch](https://youtu.be/df7ZdrBxlsE?si=tIl4FWKhUUTDo9hJ) |
-| **Beyond the hype: Orchestrating end-to-end developer workflows with agents** | Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie | Intermediate | The DORA paradox: individual productivity vs. organizational instability | 0.6 min | [Notes](INFO/google-cloud-tech/orchestrating-developer-workflows-2026.md) \| [JSON](DATA/videos/orchestrating-developer-workflows-2026.json) \| [Watch](https://youtu.be/t6jH_GPFqgs?si=MZIrswUN4IFH7vVR) |
-| **Agent development and AgentOps with BigQuery, ADK, and MCP** | Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere | Intermediate | Agentic Data Cloud stack: from open-source to managed data agents | 2.8 min | [Notes](INFO/google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) \| [JSON](DATA/videos/agentops-bigquery-adk-mcp-2026.json) \| [Watch](https://youtu.be/tQGalTBL1Ek?si=3S4gCmuNRLWXPrN-) |
-| **Agent context engineering for production** | George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar | Intermediate | From models to agents: why context engineering matters | 2.9 min | [Notes](INFO/google-cloud-tech/agent-context-engineering-2026.md) \| [JSON](DATA/videos/agent-context-engineering-2026.json) \| [Watch](https://youtu.be/YKLkHvzjFDk?si=p0SkhaQVKF_wo1T1) |
-| **How to design a multi-agent system that skips the LLM** | Casey West, Annie Wang | Advanced | The core architectural dilemma: LLM reasoning vs. deterministic code | 0.8 min | [Notes](INFO/google-cloud-tech/multi-agent-system-without-llm-2026.md) \| [JSON](DATA/videos/multi-agent-system-without-llm-2026.json) \| [Watch](https://youtu.be/Fzd0BWMH65s?si=bKyJ75VM6jfjKbCT) |
-| **The future of software development** | Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber | Intermediate | Gemini 3.5 Flash: best model yet for agentic and long-running tasks | 3.9 min | [Notes](INFO/google-for-developers/future-of-software-development-2026.md) \| [JSON](DATA/videos/future-of-software-development-2026.json) \| [Watch](https://youtu.be/v0RQiNJ9nhw?si=2UzULe4B5jMgxxCt) |
-| **Building the quantum-AI future with Hartmut Neven and James Manyika** | James Manyika, Hartmut Neven | Intermediate | Quantum computing fundamentals and superposition | 2.9 min | [Notes](INFO/google-for-developers/neven-manyika-quantum-ai-2026.md) \| [JSON](DATA/videos/neven-manyika-quantum-ai-2026.json) \| [Watch](https://youtu.be/yQPnb4gxKRc?si=Z2WEZuDCKp0fhSuV) |
-| **Cross-cloud infrastructure for the agentic enterprise** | Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan | Intermediate | The infrastructure renaissance: inference dominance and agent demand | 0.8 min | [Notes](INFO/google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) \| [JSON](DATA/videos/cross-cloud-agentic-enterprise-2026.json) \| [Watch](https://youtu.be/gY95kEL-JGI?si=SE5Zt-KUcR6kY9F5) |
-| **Build AI agents at scale with Google Cloud** | Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth | Intermediate | The paradigm shift: moving from instructions to goals | 1.1 min | [Notes](INFO/google-cloud-tech/build-ai-agents-at-scale-2026.md) \| [JSON](DATA/videos/build-ai-agents-at-scale-2026.json) \| [Watch](https://youtu.be/ZRs1PHngOIA?si=Po_aMr6QKeth5VB0) |
-| **Fireside chat on an agentic simulation: Race Condition** | Tom Greenaway, Casey West | Intermediate | Race Condition overview: reference architecture for agentic simulations | 1.7 min | [Notes](INFO/google-for-developers/race-condition-agentic-simulation-2026.md) \| [JSON](DATA/videos/race-condition-agentic-simulation-2026.json) \| [Watch](https://youtu.be/WYPdz3OZfuQ?si=bB7MJSEG80CFE9Pg) |
-| **Gemma 4 production stack: Model Armor, ADK Agents, Tracing** | Ayo Adedeji, Annie Wang | Intermediate | Architecture overview: securing and observing Gemma 4 | 0.7 min | [Notes](INFO/google-cloud-tech/gemma4-production-stack-2026.md) \| [JSON](DATA/videos/gemma4-production-stack-2026.json) \| [Watch](https://youtu.be/7wENq-LMHgQ?si=u6WZXqoRDuJYxzeW) |
-| **Orchestrating ML/AI workloads with TPUs on GKE** | Yufeng Guo, Kavitha Gowda | Advanced | TPU hardware architecture: Matrix Multiplying Units (MXUs) and ASICs | 0.6 min | [Notes](INFO/google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) \| [JSON](DATA/videos/tpus-on-gke-ml-workloads-2026.json) \| [Watch](https://youtu.be/coP5_SmE4AI?si=o79IroUrSluCePZI) |
-| **How to Build a production-ready RAG AI agent** | Ayo Adedeji, Annie Wang | Intermediate | Hands-on project overview: from structured data to RAG agent | 0.7 min | [Notes](INFO/google-cloud-tech/production-ready-rag-agent-2026.md) \| [JSON](DATA/videos/production-ready-rag-agent-2026.json) \| [Watch](https://youtu.be/Ni1P8TITtE8?si=_GELuEACYOqyenjx) |
-| **Build an AI Agent knowledge base using SQL (BigQuery + Gemini)** | Annie Wang, Ayo Adedeji | Beginner | Hands-on project overview: unstructured to structured ELT pipeline | 0.8 min | [Notes](INFO/google-cloud-tech/agent-knowledge-base-bigquery-2026.md) \| [JSON](DATA/videos/agent-knowledge-base-bigquery-2026.json) \| [Watch](https://youtu.be/zvmtHZSt8es?si=EAmXpMAEmxwRKSl6) |
-| **Build multi-agent AI A2A + Cloud Run \| Hands On AI (Part 2)** | Ayo Adedeji, Annie Wang | Intermediate | Distributed agent architecture and the Agent-to-Agent (A2A) protocol | 0.6 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part2-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part2-2026.json) \| [Watch](https://youtu.be/pEAZ5iyKgWE?si=CDH2IkBK8GCOtfxH) |
-| **Build a multi-agent system \| Hands On AI (Part 1)** | Annie Wang, Ayo Adedeji | Intermediate | Hands-on project overview and multi-agent RPG architecture | 0.7 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part1-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part1-2026.json) \| [Watch](https://youtu.be/rHtRWyxVQps?si=m5ka_Qjq-qtAbGaO) |
-| **Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley** | Frank van Puffelen, Mike Clark | Intermediate | DevFest energy and the democratizing reset of AI | 1.6 min | [Notes](INFO/google-for-developers/mike-clark-vertex-ai-devfest-2025.md) \| [JSON](DATA/videos/mike-clark-vertex-ai-devfest-2025.json) \| [Watch](https://youtu.be/9oYHU1hdDog?si=6tJa6SYQq0apwmL6) |
-| **AI agents for data engineering and data science \| The Agent Factory Podcast** | Smitha Kolan, Lucia Subatin | Intermediate | Industry update: Gemini Computer Use model and CodeMender | 0.9 min | [Notes](INFO/google-cloud-tech/agents-for-data-engineering-2025.md) \| [JSON](DATA/videos/agents-for-data-engineering-2025.json) \| [Watch](https://youtu.be/ATgIU47V1yI?si=yr9gqDI27nInkl2k) |
-| **How to build AI agents with memory** | Sita Lakshmi Sangameswaran, Kimberly Milam | Intermediate | The problem of forgetful agents: volatile vs. persistent memory | 1.5 min | [Notes](INFO/google-for-developers/ai-agents-with-memory-2025.md) \| [JSON](DATA/videos/ai-agents-with-memory-2025.json) \| [Watch](https://youtu.be/sMtrelDNxIc?si=l8-wTWgukhgLfbQ_) |
-| **AgentOps: Operationalize AI Agents** | Sita Lakshmi Sangameswaran, Sokratis Kartakis | Advanced | Evolution from DevOps and MLOps to GenAIOps and AgentOps | 1.1 min | [Notes](INFO/google-cloud-tech/agentops-operationalize-agents-2025.md) \| [JSON](DATA/videos/agentops-operationalize-agents-2025.json) \| [Watch](https://youtu.be/kJRgj58ujEk?si=GxGlzxwuOcqRhDeg) |
-| **Simplified Google Cloud network security: Zero-trust and beyond** | S. Shiraj, Toby, Olivier, Ashok | Intermediate | The modern threat landscape: securing multi-cloud and distributed applications | 0.7 min | [Notes](INFO/google-cloud-tech/cloud-network-security-zero-trust-2024.md) \| [JSON](DATA/videos/cloud-network-security-zero-trust-2024.json) \| [Watch](https://youtu.be/pQyhpIR6HPU?si=PwB5RR0_rcvk4cPw) |
-| **Orchestrate generative AI with Workflows** | Mete Atamel | Intermediate | Why orchestrate generative AI with Google Cloud Workflows | 0.7 min | [Notes](INFO/google-cloud-tech/orchestrate-genai-workflows-2024.md) \| [JSON](DATA/videos/orchestrate-genai-workflows-2024.json) \| [Watch](https://youtu.be/wi0nP6nxa0A?si=Tn3TpPQLy0wM5lcr) |
+    - 2026
 
----
-
-### Track 6: Mobile, Consumer and Multimodal AI
-Explores on-device intelligence, mobile operating systems (Android 17), live visual/audio search, and consumer product design.
-
-| Talk Title | Speaker(s) | Level | Primary Theme | Read Time | Links |
-|---|---|---|---|---|---|
-| **From tokenmaxxing to tokenomics for your AI agents** | J.R. Storment, Luke Schlangen | Intermediate | The era of tokenmaxxing and why it ended | 2.7 min | [Notes](INFO/google-cloud-tech/tokenomics-for-ai-agents-2026.md) \| [JSON](DATA/videos/tokenomics-for-ai-agents-2026.json) \| [Watch](https://youtu.be/6LQNHQ7-IcI?si=DRo7Z1210viBghp6) |
-| **Sameer Samat on Android 17 and the Future of Intelligent Computing** | Sameer Samat, Logan Kilpatrick | Intermediate | Why the Android Show never used the word AI | 19.2 min | [Notes](INFO/google-for-developers/sameer-samat-android17-2026.md) \| [JSON](DATA/videos/sameer-samat-android17-2026.json) \| [Watch](https://youtu.be/YvVsdZL2ogY?si=9AumEBct2D41ygDy) |
-| **Implementing DeepMind innovation: Deep research API** | Advait Bopardikar, Philipp Schmid, Patrick Starling | Intermediate | DeepMind innovation strategy: bringing research directly to APIs | 0.7 min | [Notes](INFO/google-cloud-tech/deep-research-api-2026.md) \| [JSON](DATA/videos/deep-research-api-2026.json) \| [Watch](https://youtu.be/05043f3GseE?si=upFs_lzz0NXh8q0V) |
-| **Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more** | Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec | Intermediate | Breaking the chat wall: the evolution from text to adaptive interfaces | 0.7 min | [Notes](INFO/google-cloud-tech/generative-ui-a2ui-agui-2026.md) \| [JSON](DATA/videos/generative-ui-a2ui-agui-2026.json) \| [Watch](https://youtu.be/UsMDkEsR-ok?si=VmlK6p7cd0lNmEf4) |
-| **Directing the future: craft and creativity in the age of AI** | Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob | Beginner | Technology as a creative tool through Doug Liman's career | 5.0 min | [Notes](INFO/google-for-developers/doug-liman-directing-future-2026.md) \| [JSON](DATA/videos/doug-liman-directing-future-2026.json) \| [Watch](https://youtu.be/3AIme0FZr4g?si=A0moCFMArrYeJTmL) |
-| **Defining the agentic AI era** | Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean | Intermediate | Gemini 3.5 Flash: purpose-built for agentic workflows and coding | 2.0 min | [Notes](INFO/google-for-developers/defining-agentic-ai-era-2026.md) \| [JSON](DATA/videos/defining-agentic-ai-era-2026.json) \| [Watch](https://youtu.be/bc4QwDd5jB0?si=6JCnE-EZh0kr5q5o) |
-| **A new era of discovery: AI and the frontiers of science with Demis Hassabis** | Mike Allen, Demis Hassabis | Beginner | Foothills of the singularity: AGI timeline around 2030 | 4.9 min | [Notes](INFO/google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) \| [JSON](DATA/videos/demis-hassabis-ai-science-frontiers-2026.json) \| [Watch](https://youtu.be/dgBLVm2L1P4?si=1IKjLoQltfXyp98i) |
-| **Build AI agents at scale with Google Cloud** | Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth | Intermediate | The paradigm shift: moving from instructions to goals | 1.1 min | [Notes](INFO/google-cloud-tech/build-ai-agents-at-scale-2026.md) \| [JSON](DATA/videos/build-ai-agents-at-scale-2026.json) \| [Watch](https://youtu.be/ZRs1PHngOIA?si=Po_aMr6QKeth5VB0) |
-| **How to use AI for your job search \| Google Career Certificates** | Tony, Sydney | Beginner | Introduction: structuring the modern job search with AI | 1.2 min | [Notes](INFO/grow-with-google/ai-for-job-search-2026.md) \| [JSON](DATA/videos/ai-for-job-search-2026.json) \| [Watch](https://youtu.be/Iw_G_j1o6fQ?si=PriKzpvDryQEE_xp) |
-| **The Impossible Computing with Keith Ballinger \| The Agent Factory Podcast** | Keith Ballinger, Mollie Pettit, Vlad Kolesnikov | Intermediate | Impossible computing: rethinking software economics with AI | 0.6 min | [Notes](INFO/google-cloud-tech/keith-ballinger-impossible-computing-2025.md) \| [JSON](DATA/videos/keith-ballinger-impossible-computing-2025.json) \| [Watch](https://youtu.be/I-xS4nw-HfU?si=5EYpQofB8w80Y7Y6) |
-| **Building a frontier AI search experience** | Logan Kilpatrick, Robby Stein | Intermediate | Google Search as a frontier AI product: scale and mission | 1.6 min | [Notes](INFO/google-for-developers/frontier-ai-search-experience-2025.md) \| [JSON](DATA/videos/frontier-ai-search-experience-2025.json) \| [Watch](https://youtu.be/zUB5A_ezIOU?si=QOqX-kk9uoHP4IMb) |
-| **The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure** | Ashley Oldacre, Douglas Edric Stanley, Anthony Masure | Intermediate | Origins across Silicon Valley hacker culture, French philosophy, and media labs | 1.5 min | [Notes](INFO/google-for-developers/ai-art-and-design-2025.md) \| [JSON](DATA/videos/ai-art-and-design-2025.json) \| [Watch](https://youtu.be/XbvHlMTzi6E?si=f_wdfb_RbJqhSvL5) |
-| **Indira Negi - Investing in AI hardware for health** | Ashley Oldacre, Indira Negi | Beginner | From the Himalayas to biosensors: engineering for human impact | 0.8 min | [Notes](INFO/google-for-developers/indira-negi-ai-health-hardware-2025.md) \| [JSON](DATA/videos/indira-negi-ai-health-hardware-2025.json) \| [Watch](https://youtu.be/itoaY1vG2qE?si=deZ8r3s91HgdYJBI) |
-| **How AI is revolutionizing sign language recognition with Sam Sepah and Thad Starner** | Ashley Oldacre, Sam Sepah, Thad Starner | Beginner | Pioneering wearable computing and early augmented reality | 0.8 min | [Notes](INFO/google-for-developers/ai-sign-language-recognition-2025.md) \| [JSON](DATA/videos/ai-sign-language-recognition-2025.json) \| [Watch](https://youtu.be/1NJX4sP6ubc?si=JQKH2QN0g-TEe9cZ) |
-| **Digital health with Dr. Oliver Aalami** | Ashley Oldacre, Dr. Oliver Aalami | Intermediate | Clinical vascular surgery and the origins of Stanford Biodesign | 1.3 min | [Notes](INFO/google-for-developers/oliver-aalami-digital-health-2025.md) \| [JSON](DATA/videos/oliver-aalami-digital-health-2025.json) \| [Watch](https://youtu.be/sgx7-NAJJ0g?si=JHqkKCSxB-cSWZJc) |
-| **Building human-centered AI products with Ovetta Sampson** | Ashley Oldacre, Ovetta Sampson | Intermediate | From investigative journalism to machine learning design | 1.5 min | [Notes](INFO/google-for-developers/ovetta-sampson-human-centered-ai-2025.md) \| [JSON](DATA/videos/ovetta-sampson-human-centered-ai-2025.json) \| [Watch](https://youtu.be/PALRROM2JWE?si=8EiT1FNB5A04k3mI) |
-| **3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly** | Ashley Oldacre, Fergus Hurley, Nia Castelly | Intermediate | Founders' backgrounds: from Android Vitals and e-discovery to Area 120 | 0.9 min | [Notes](INFO/google-for-developers/checks-mobile-app-compliance-2025.md) \| [JSON](DATA/videos/checks-mobile-app-compliance-2025.json) \| [Watch](https://youtu.be/Zcw427_z6Xg?si=28tg_6nMIvr18W82) |
-| **Waymo: AI in the physical world powering the future of driving** | Aditi Roy, Dmitri Dolgov | Intermediate | The imperative for autonomous mobility: road safety and human error | 0.7 min | [Notes](INFO/google-for-developers/waymo-ai-physical-world-2025.md) \| [JSON](DATA/videos/waymo-ai-physical-world-2025.json) \| [Watch](https://youtu.be/jnUUo7xso_0?si=jYl4_yDJ1PLwELi9) |
-| **Darren Aronofsky and Demis Hassabis on storytelling in the age of AI** | Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt | Beginner | Make soup, not slop: creative philosophy and partnership | 0.9 min | [Notes](INFO/google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) \| [JSON](DATA/videos/aronofsky-hassabis-ai-storytelling-2025.json) \| [Watch](https://youtu.be/VJllI3jMEb4?si=rcmRah8Dfq5_wRIS) |
-
----
-
-## Master Inventory
-
-The complete inventory of curated sessions currently available across all channels:
-
-| Talk Title | Speaker(s) | Date | Format | Level | Topics | Read Time | Links |
-|---|---|---|---|---|---|---|---|
-| **Physical AI: the new era of robotics** | Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez | unknown | Panel | Intermediate | Research/Papers, AI Agents, LLM Fundamentals | 5.1 min | [Notes](INFO/google-for-developers/physical-ai-robotics-2026.md) \| [JSON](DATA/videos/physical-ai-robotics-2026.json) \| [Watch](https://youtu.be/jn3iypY-cN4?si=mZcYAxibt6K5PkhY) |
-| **Gemini co-leads on project origins and what's next** | Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick | unknown | Panel | Intermediate | LLM Fundamentals, Research/Papers, AI Agents | 4.8 min | [Notes](INFO/google-for-developers/gemini-coleads-project-origins-2026.md) \| [JSON](DATA/videos/gemini-coleads-project-origins-2026.json) \| [Watch](https://youtu.be/8hfpLa5wPGo?si=vDuNpCfEHs_gbMye) |
-| **Data agent kit: Your coding agent can now query your data** | Annie Wang, Jeff Planner | 2026-08-15 | Demo | Intermediate | AI Agents, Backend/Infra, AI Coding Tools | 1.5 min | [Notes](INFO/google-cloud-tech/data-agent-kit-coding-agent-2026.md) \| [JSON](DATA/videos/data-agent-kit-coding-agent-2026.json) \| [Watch](https://youtu.be/Vs2_Palg1QY?si=79aHKCKjJ1VDGndz) |
-| **From tokenmaxxing to tokenomics for your AI agents** | J.R. Storment, Luke Schlangen | 2026-08-03 | Fireside Chat | Intermediate | AI Agents, Backend/Infra, Product/Startup | 2.7 min | [Notes](INFO/google-cloud-tech/tokenomics-for-ai-agents-2026.md) \| [JSON](DATA/videos/tokenomics-for-ai-agents-2026.json) \| [Watch](https://youtu.be/6LQNHQ7-IcI?si=DRo7Z1210viBghp6) |
-| **AI Agent Infrastructure Decoded** | Chelsie Czop, Schneider Larbi | 2026-07-24 | Fireside Chat | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 1.4 min | [Notes](INFO/google-cloud/ai-agent-infrastructure-decoded-2026.md) \| [JSON](DATA/videos/ai-agent-infrastructure-decoded-2026.json) \| [Watch](https://youtu.be/TZTDqtSpzv8?si=Frm_R3P_ezMyW0mw) |
-| **Intent-driven development with Claude Code and Fable 5** | Smitha Kolan, Lydia Hallie, YK Sugi | 2026-07-06 | Demo | Intermediate | AI Coding Tools, AI Agents, Backend/Infra | 2.8 min | [Notes](INFO/google-cloud-tech/intent-driven-development-2026.md) \| [JSON](DATA/videos/intent-driven-development-2026.json) \| [Watch](https://youtu.be/6ERUGFurDHY?si=6ARv2tiq-dVOqRFu) |
-| **Sameer Samat on Android 17 and the Future of Intelligent Computing** | Sameer Samat, Logan Kilpatrick | 2026-07-01 | Fireside Chat | Intermediate | Android/Mobile, AI Agents, Product/Startup | 19.2 min | [Notes](INFO/google-for-developers/sameer-samat-android17-2026.md) \| [JSON](DATA/videos/sameer-samat-android17-2026.json) \| [Watch](https://youtu.be/YvVsdZL2ogY?si=9AumEBct2D41ygDy) |
-| **Build a multi-agent system: A2A and Agent Registry** | Annie Wang, Sita Lakshmi | 2026-06-27 | Demo | Intermediate | AI Agents, Backend/Infra | 3.1 min | [Notes](INFO/google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) \| [JSON](DATA/videos/multi-agent-a2a-agent-registry-2026.json) \| [Watch](https://youtu.be/-MME36Ft9Gc?si=sX4r_L4j8pdKh-m4) |
-| **AI tools for human creativity** | Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin | 2026-06-27 | Talk | Beginner | Prompt Engineering, AI Coding Tools, Career/Advice | 30.6 min | [Notes](INFO/google-for-developers/creative-lab-ai-creative-tools-2026.md) \| [JSON](DATA/videos/creative-lab-ai-creative-tools-2026.json) \| [Watch](https://youtu.be/cL7uFe5RqHY?si=9TZUVuK1Ga4_ygOS) |
-| **Scale AI agents in production** | Ryan Ismert, Elia Secchi, Praveen Dhas, Tejal Pandit | 2026-06-25 | Talk | Intermediate | AI Agents, Backend/Infra | 1.3 min | [Notes](INFO/google-cloud-tech/scale-ai-agents-production-2026.md) \| [JSON](DATA/videos/scale-ai-agents-production-2026.json) \| [Watch](https://youtu.be/LHcjN11nNPU?si=uQ4EMOZchxCusM6-) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | 2026-06-25 | Talk | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 0.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026-2.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026-2.json) \| [Watch](https://youtu.be/quzn4hOXQmI?si=6zwj5VpOhl03CF45) |
-| **Power intelligent agents with AI-native databases** | Amit Ganesh, Yannis Papakonstantinou, David Soria Parra | 2026-06-25 | Talk | Advanced | AI Agents, Backend/Infra, LLM Fundamentals | 3.8 min | [Notes](INFO/google-cloud-tech/ai-native-databases-agents-2026.md) \| [JSON](DATA/videos/ai-native-databases-agents-2026.json) \| [Watch](https://youtu.be/7awKinJhGPo?si=BiOdsdrT3_GisbsY) |
-| **Navigate the agentic shift in software development with Google** | Niranjan Tulpule, Madhura Joshi | 2026-06-25 | Talk | Intermediate | AI Coding Tools, Backend/Infra, AI Agents | 3.1 min | [Notes](INFO/google-cloud-tech/agentic-shift-software-development-2026.md) \| [JSON](DATA/videos/agentic-shift-software-development-2026.json) \| [Watch](https://youtu.be/Z9Zz75pmOeg?si=SzxL-z7MQbcTe-t4) |
-| **Implementing DeepMind innovation: Deep research API** | Advait Bopardikar, Philipp Schmid, Patrick Starling | 2026-06-25 | Demo | Intermediate | AI Agents, LLM Fundamentals, Product/Startup | 0.7 min | [Notes](INFO/google-cloud-tech/deep-research-api-2026.md) \| [JSON](DATA/videos/deep-research-api-2026.json) \| [Watch](https://youtu.be/05043f3GseE?si=upFs_lzz0NXh8q0V) |
-| **Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more** | Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec | 2026-06-25 | Panel | Intermediate | AI Agents, Web Development, Product/Startup | 0.7 min | [Notes](INFO/google-cloud-tech/generative-ui-a2ui-agui-2026.md) \| [JSON](DATA/videos/generative-ui-a2ui-agui-2026.json) \| [Watch](https://youtu.be/UsMDkEsR-ok?si=VmlK6p7cd0lNmEf4) |
-| **From prototype to production: 45 minutes to a reliable Gemini Enterprise Agent Platform agent** | Alibek Datbayev, Maria-Irène Călinoiu, Naz Bayrak, Manasa Kandula | 2026-06-25 | Demo | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 0.7 min | [Notes](INFO/google-cloud-tech/gemini-enterprise-prototype-to-production-2026.md) \| [JSON](DATA/videos/gemini-enterprise-prototype-to-production-2026.json) \| [Watch](https://youtu.be/fkCTifAqVGg?si=ze-G7eeT6wwwB4U0) |
-| **Engineering the future of Kubernetes for AI at scale** | Kaslin Fields, Jago Macleod, Boaz Rant | 2026-06-25 | Talk | Advanced | Backend/Infra, AI Agents | 0.6 min | [Notes](INFO/google-cloud-tech/kubernetes-for-ai-at-scale-2026.md) \| [JSON](DATA/videos/kubernetes-for-ai-at-scale-2026.json) \| [Watch](https://youtu.be/yVvLjWDmb0Y?si=DOYxe9PHHjIJQmi_) |
-| **Enable autonomous data agents with BigQuery and Cloud Run** | Vlad Kolesnikov | 2026-06-25 | Demo | Intermediate | AI Agents, Backend/Infra | 2.0 min | [Notes](INFO/google-cloud-tech/autonomous-data-agents-bigquery-2026.md) \| [JSON](DATA/videos/autonomous-data-agents-bigquery-2026.json) \| [Watch](https://youtu.be/nfCTJN42LyE?si=pg1g2BVTdz9F-XV_) |
-| **Build connected AI: Orchestrate tools and agents with registries and ADK** | Michael Vakoc, Mak Ahmad, Min Zu | 2026-06-25 | Talk | Intermediate | AI Agents, Backend/Infra | 2.5 min | [Notes](INFO/google-cloud-tech/connected-ai-tool-registries-2026.md) \| [JSON](DATA/videos/connected-ai-tool-registries-2026.json) \| [Watch](https://youtu.be/bjaXpSz4ao0?si=_wre7_yF3XkPMHTL) |
-| **Boost AI context with hybrid search in Spanner** | Jeff, Alexander, Girish | 2026-06-25 | Demo | Intermediate | Backend/Infra, AI Agents | 0.7 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026-2.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026-2.json) \| [Watch](https://youtu.be/gV5NEo8-LFI?si=Aefu2R44_9JamC8s) |
-| **Boost AI context with hybrid search in Spanner** | Jeff Sosa, Girish Baliga, Alexander Christie | 2026-06-25 | Talk | Intermediate | Backend/Infra, AI Agents, LLM Fundamentals | 3.2 min | [Notes](INFO/google-cloud-tech/spanner-hybrid-search-context-2026.md) \| [JSON](DATA/videos/spanner-hybrid-search-context-2026.json) \| [Watch](https://youtu.be/fAf4Zh-CC08?si=07lUFU9TF3J7DWxN) |
-| **Beyond the prompt: Build production-ready agents with Google's MCP servers** | Vidya Nagarajan, Tarun Gumar, Keren He, Levi Chen | 2026-06-25 | Talk | Intermediate | AI Agents, Backend/Infra | 1.3 min | [Notes](INFO/google-cloud-tech/production-agents-mcp-servers-2026.md) \| [JSON](DATA/videos/production-agents-mcp-servers-2026.json) \| [Watch](https://youtu.be/df7ZdrBxlsE?si=tIl4FWKhUUTDo9hJ) |
-| **Beyond the hype: Orchestrating end-to-end developer workflows with agents** | Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie | 2026-06-25 | Talk | Intermediate | AI Agents, AI Coding Tools, Backend/Infra | 0.6 min | [Notes](INFO/google-cloud-tech/orchestrating-developer-workflows-2026.md) \| [JSON](DATA/videos/orchestrating-developer-workflows-2026.json) \| [Watch](https://youtu.be/t6jH_GPFqgs?si=MZIrswUN4IFH7vVR) |
-| **Agent development and AgentOps with BigQuery, ADK, and MCP** | Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere | 2026-06-25 | Talk | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 2.8 min | [Notes](INFO/google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) \| [JSON](DATA/videos/agentops-bigquery-adk-mcp-2026.json) \| [Watch](https://youtu.be/tQGalTBL1Ek?si=3S4gCmuNRLWXPrN-) |
-| **Agent context engineering for production** | George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar | 2026-06-25 | Talk | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 2.9 min | [Notes](INFO/google-cloud-tech/agent-context-engineering-2026.md) \| [JSON](DATA/videos/agent-context-engineering-2026.json) \| [Watch](https://youtu.be/YKLkHvzjFDk?si=p0SkhaQVKF_wo1T1) |
-| **Yossi Matias on the golden age of research** | Yossi Matias, Logan Kilpatrick | 2026-06-12 | Fireside Chat | Intermediate | Research/Papers, AI Agents, LLM Fundamentals | 6.5 min | [Notes](INFO/google-for-developers/yossi-matias-research-golden-age-2026.md) \| [JSON](DATA/videos/yossi-matias-research-golden-age-2026.json) \| [Watch](https://youtu.be/FPBwadTeph0?si=pPTO_eUXVrUf1Oq0) |
-| **How to design a multi-agent system that skips the LLM** | Casey West, Annie Wang | 2026-06-06 | Talk | Advanced | AI Agents, Backend/Infra, AI Coding Tools | 0.8 min | [Notes](INFO/google-cloud-tech/multi-agent-system-without-llm-2026.md) \| [JSON](DATA/videos/multi-agent-system-without-llm-2026.json) \| [Watch](https://youtu.be/Fzd0BWMH65s?si=bKyJ75VM6jfjKbCT) |
-| **The future of software development** | Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber | 2026-05-23 | Panel | Intermediate | AI Coding Tools, AI Agents, Backend/Infra | 3.9 min | [Notes](INFO/google-for-developers/future-of-software-development-2026.md) \| [JSON](DATA/videos/future-of-software-development-2026.json) \| [Watch](https://youtu.be/v0RQiNJ9nhw?si=2UzULe4B5jMgxxCt) |
-| **Directing the future: craft and creativity in the age of AI** | Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob | 2026-05-22 | Fireside Chat | Beginner | Product/Startup, Research/Papers, AI Agents | 5.0 min | [Notes](INFO/google-for-developers/doug-liman-directing-future-2026.md) \| [JSON](DATA/videos/doug-liman-directing-future-2026.json) \| [Watch](https://youtu.be/3AIme0FZr4g?si=A0moCFMArrYeJTmL) |
-| **Defining the agentic AI era** | Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean | 2026-05-22 | Panel | Intermediate | AI Agents, AI Coding Tools, Product/Startup | 2.0 min | [Notes](INFO/google-for-developers/defining-agentic-ai-era-2026.md) \| [JSON](DATA/videos/defining-agentic-ai-era-2026.json) \| [Watch](https://youtu.be/bc4QwDd5jB0?si=6JCnE-EZh0kr5q5o) |
-| **Building the quantum-AI future with Hartmut Neven and James Manyika** | James Manyika, Hartmut Neven | 2026-05-22 | Fireside Chat | Intermediate | Research/Papers, Backend/Infra, LLM Fundamentals | 2.9 min | [Notes](INFO/google-for-developers/neven-manyika-quantum-ai-2026.md) \| [JSON](DATA/videos/neven-manyika-quantum-ai-2026.json) \| [Watch](https://youtu.be/yQPnb4gxKRc?si=Z2WEZuDCKp0fhSuV) |
-| **A new era of discovery: AI and the frontiers of science with Demis Hassabis** | Mike Allen, Demis Hassabis | 2026-05-22 | Fireside Chat | Beginner | Research/Papers, Product/Startup, AI Agents | 4.9 min | [Notes](INFO/google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) \| [JSON](DATA/videos/demis-hassabis-ai-science-frontiers-2026.json) \| [Watch](https://youtu.be/dgBLVm2L1P4?si=1IKjLoQltfXyp98i) |
-| **A fireside chat on the evolution of the developer craft** | Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan | 2026-05-21 | Fireside Chat | Intermediate | AI Coding Tools, Career/Advice, AI Agents | 2.1 min | [Notes](INFO/google-for-developers/developer-craft-evolution-2026.md) \| [JSON](DATA/videos/developer-craft-evolution-2026.json) \| [Watch](https://youtu.be/VTYx7Ex-0bA?si=Zh_H7seeITHvqTVg) |
-| **Cross-cloud infrastructure for the agentic enterprise** | Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan | 2026-04-28 | Talk | Intermediate | AI Agents, Backend/Infra | 0.8 min | [Notes](INFO/google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) \| [JSON](DATA/videos/cross-cloud-agentic-enterprise-2026.json) \| [Watch](https://youtu.be/gY95kEL-JGI?si=SE5Zt-KUcR6kY9F5) |
-| **Build AI agents at scale with Google Cloud** | Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth | 2026-04-27 | Talk | Intermediate | AI Agents, Backend/Infra, Product/Startup | 1.1 min | [Notes](INFO/google-cloud-tech/build-ai-agents-at-scale-2026.md) \| [JSON](DATA/videos/build-ai-agents-at-scale-2026.json) \| [Watch](https://youtu.be/ZRs1PHngOIA?si=Po_aMr6QKeth5VB0) |
-| **Fireside chat on an agentic simulation: Race Condition** | Tom Greenaway, Casey West | 2026-04-24 | Fireside Chat | Intermediate | AI Agents, Backend/Infra, AI Coding Tools | 1.7 min | [Notes](INFO/google-for-developers/race-condition-agentic-simulation-2026.md) \| [JSON](DATA/videos/race-condition-agentic-simulation-2026.json) \| [Watch](https://youtu.be/WYPdz3OZfuQ?si=bB7MJSEG80CFE9Pg) |
-| **Gemma 4 production stack: Model Armor, ADK Agents, Tracing** | Ayo Adedeji, Annie Wang | 2026-04-19 | Workshop | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 0.7 min | [Notes](INFO/google-cloud-tech/gemma4-production-stack-2026.md) \| [JSON](DATA/videos/gemma4-production-stack-2026.json) \| [Watch](https://youtu.be/7wENq-LMHgQ?si=u6WZXqoRDuJYxzeW) |
-| **Orchestrating ML/AI workloads with TPUs on GKE** | Yufeng Guo, Kavitha Gowda | 2026-04-10 | Talk | Advanced | Backend/Infra, Research/Papers | 0.6 min | [Notes](INFO/google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) \| [JSON](DATA/videos/tpus-on-gke-ml-workloads-2026.json) \| [Watch](https://youtu.be/coP5_SmE4AI?si=o79IroUrSluCePZI) |
-| **How to Build a production-ready RAG AI agent** | Ayo Adedeji, Annie Wang | 2026-03-29 | Workshop | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 0.7 min | [Notes](INFO/google-cloud-tech/production-ready-rag-agent-2026.md) \| [JSON](DATA/videos/production-ready-rag-agent-2026.json) \| [Watch](https://youtu.be/Ni1P8TITtE8?si=_GELuEACYOqyenjx) |
-| **Build an AI Agent knowledge base using SQL (BigQuery + Gemini)** | Annie Wang, Ayo Adedeji | 2026-03-28 | Workshop | Beginner | AI Agents, Backend/Infra, LLM Fundamentals | 0.8 min | [Notes](INFO/google-cloud-tech/agent-knowledge-base-bigquery-2026.md) \| [JSON](DATA/videos/agent-knowledge-base-bigquery-2026.json) \| [Watch](https://youtu.be/zvmtHZSt8es?si=EAmXpMAEmxwRKSl6) |
-| **Build multi-agent AI A2A + Cloud Run \| Hands On AI (Part 2)** | Ayo Adedeji, Annie Wang | 2026-03-22 | Workshop | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 0.6 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part2-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part2-2026.json) \| [Watch](https://youtu.be/pEAZ5iyKgWE?si=CDH2IkBK8GCOtfxH) |
-| **Build a multi-agent system \| Hands On AI (Part 1)** | Annie Wang, Ayo Adedeji | 2026-03-21 | Workshop | Intermediate | AI Agents, Backend/Infra, LLM Fundamentals | 0.7 min | [Notes](INFO/google-cloud-tech/hands-on-multi-agent-part1-2026.md) \| [JSON](DATA/videos/hands-on-multi-agent-part1-2026.json) \| [Watch](https://youtu.be/rHtRWyxVQps?si=m5ka_Qjq-qtAbGaO) |
-| **How to use AI for your job search \| Google Career Certificates** | Tony, Sydney | 2026-01-28 | Workshop | Beginner | Product/Startup, LLM Fundamentals | 1.2 min | [Notes](INFO/grow-with-google/ai-for-job-search-2026.md) \| [JSON](DATA/videos/ai-for-job-search-2026.json) \| [Watch](https://youtu.be/Iw_G_j1o6fQ?si=PriKzpvDryQEE_xp) |
-| **Keras Turns 10: A decade of deep learning** | Yufeng Guo, François Chollet, Matt Watson | 2026-01-16 | Fireside Chat | Intermediate | LLM Fundamentals, Research/Papers, AI Coding Tools | 2.1 min | [Notes](INFO/google-for-developers/keras-10-years-deep-learning-2026.md) \| [JSON](DATA/videos/keras-10-years-deep-learning-2026.json) \| [Watch](https://youtu.be/oekqrCFN7MM?si=QjlOx7afHeY9hiTk) |
-| **Koray Kavukcuoglu: This Is How We Are Going to Build AGI** | Logan Kilpatrick, Koray Kavukcuoglu | 2025-11-25 | Fireside Chat | Intermediate | LLM Fundamentals, AI Agents, Research/Papers | 1.7 min | [Notes](INFO/google-for-developers/koray-kavukcuoglu-building-agi-2025.md) \| [JSON](DATA/videos/koray-kavukcuoglu-building-agi-2025.json) \| [Watch](https://youtu.be/fXtna7UrL44?si=cwFn4bPyjMNkKVYJ) |
-| **Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley** | Frank van Puffelen, Mike Clark | 2025-11-21 | Fireside Chat | Intermediate | AI Agents, Backend/Infra, AI Coding Tools | 1.6 min | [Notes](INFO/google-for-developers/mike-clark-vertex-ai-devfest-2025.md) \| [JSON](DATA/videos/mike-clark-vertex-ai-devfest-2025.json) \| [Watch](https://youtu.be/9oYHU1hdDog?si=6tJa6SYQq0apwmL6) |
-| **AI agents for data engineering and data science \| The Agent Factory Podcast** | Smitha Kolan, Lucia Subatin | 2025-10-16 | Demo | Intermediate | AI Agents, Backend/Infra, AI Coding Tools | 0.9 min | [Notes](INFO/google-cloud-tech/agents-for-data-engineering-2025.md) \| [JSON](DATA/videos/agents-for-data-engineering-2025.json) \| [Watch](https://youtu.be/ATgIU47V1yI?si=yr9gqDI27nInkl2k) |
-| **How to build AI agents with memory** | Sita Lakshmi Sangameswaran, Kimberly Milam | 2025-10-07 | Talk | Intermediate | AI Agents, Backend/Infra, Prompt Engineering | 1.5 min | [Notes](INFO/google-for-developers/ai-agents-with-memory-2025.md) \| [JSON](DATA/videos/ai-agents-with-memory-2025.json) \| [Watch](https://youtu.be/sMtrelDNxIc?si=l8-wTWgukhgLfbQ_) |
-| **The Impossible Computing with Keith Ballinger \| The Agent Factory Podcast** | Keith Ballinger, Mollie Pettit, Vlad Kolesnikov | 2025-09-04 | Fireside Chat | Intermediate | AI Agents, AI Coding Tools, Product/Startup | 0.6 min | [Notes](INFO/google-cloud-tech/keith-ballinger-impossible-computing-2025.md) \| [JSON](DATA/videos/keith-ballinger-impossible-computing-2025.json) \| [Watch](https://youtu.be/I-xS4nw-HfU?si=5EYpQofB8w80Y7Y6) |
-| **The evolved developer with Muhammad Farooq** | Christina Warren, Ashley Oldacre, Muhammad Farooq | 2025-08-29 | Fireside Chat | Intermediate | AI Coding Tools, Prompt Engineering, Career/Advice | 1.7 min | [Notes](INFO/google-for-developers/muhammad-farooq-evolved-developer-2025.md) \| [JSON](DATA/videos/muhammad-farooq-evolved-developer-2025.json) \| [Watch](https://youtu.be/bvfTtLzWVPw?si=8vT9c8SplHXJZ7tU) |
-| **Demis Hassabis on shipping momentum, better evals and world models** | Logan Kilpatrick, Demis Hassabis | 2025-08-11 | Fireside Chat | Intermediate | Research/Papers, LLM Fundamentals, AI Agents | 1.8 min | [Notes](INFO/google-for-developers/demis-hassabis-evals-world-models-2025.md) \| [JSON](DATA/videos/demis-hassabis-evals-world-models-2025.json) \| [Watch](https://youtu.be/njDochQ2zHs?si=jyW6558bNmAoKQ70) |
-| **Season 5 - Shaping the agentic future with Clement Farabet** | Ashley Oldacre, Christina Warren, Clement Farabet | 2025-07-24 | Fireside Chat | Intermediate | AI Agents, Research/Papers, LLM Fundamentals | 1.7 min | [Notes](INFO/google-for-developers/clement-farabet-agentic-future-2025.md) \| [JSON](DATA/videos/clement-farabet-agentic-future-2025.json) \| [Watch](https://youtu.be/AM3yzTDW65U?si=NXWhzzSEChPauGBq) |
-| **Building a frontier AI search experience** | Logan Kilpatrick, Robby Stein | 2025-07-24 | Fireside Chat | Intermediate | AI Agents, LLM Fundamentals, Product/Startup | 1.6 min | [Notes](INFO/google-for-developers/frontier-ai-search-experience-2025.md) \| [JSON](DATA/videos/frontier-ai-search-experience-2025.json) \| [Watch](https://youtu.be/zUB5A_ezIOU?si=QOqX-kk9uoHP4IMb) |
-| **The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure** | Ashley Oldacre, Douglas Edric Stanley, Anthony Masure | 2025-07-23 | Panel | Intermediate | Product/Startup, Research/Papers, Career/Advice | 1.5 min | [Notes](INFO/google-for-developers/ai-art-and-design-2025.md) \| [JSON](DATA/videos/ai-art-and-design-2025.json) \| [Watch](https://youtu.be/XbvHlMTzi6E?si=f_wdfb_RbJqhSvL5) |
-| **Indira Negi - Investing in AI hardware for health** | Ashley Oldacre, Indira Negi | 2025-07-23 | Fireside Chat | Beginner | Product/Startup, Research/Papers | 0.8 min | [Notes](INFO/google-for-developers/indira-negi-ai-health-hardware-2025.md) \| [JSON](DATA/videos/indira-negi-ai-health-hardware-2025.json) \| [Watch](https://youtu.be/itoaY1vG2qE?si=deZ8r3s91HgdYJBI) |
-| **How AI is revolutionizing sign language recognition with Sam Sepah and Thad Starner** | Ashley Oldacre, Sam Sepah, Thad Starner | 2025-07-23 | Fireside Chat | Beginner | Research/Papers, Product/Startup | 0.8 min | [Notes](INFO/google-for-developers/ai-sign-language-recognition-2025.md) \| [JSON](DATA/videos/ai-sign-language-recognition-2025.json) \| [Watch](https://youtu.be/1NJX4sP6ubc?si=JQKH2QN0g-TEe9cZ) |
-| **Digital health with Dr. Oliver Aalami** | Ashley Oldacre, Dr. Oliver Aalami | 2025-07-23 | Fireside Chat | Intermediate | Product/Startup, Research/Papers, Android/Mobile | 1.3 min | [Notes](INFO/google-for-developers/oliver-aalami-digital-health-2025.md) \| [JSON](DATA/videos/oliver-aalami-digital-health-2025.json) \| [Watch](https://youtu.be/sgx7-NAJJ0g?si=JHqkKCSxB-cSWZJc) |
-| **Building human-centered AI products with Ovetta Sampson** | Ashley Oldacre, Ovetta Sampson | 2025-07-23 | Fireside Chat | Intermediate | Product/Startup, Research/Papers, Career/Advice | 1.5 min | [Notes](INFO/google-for-developers/ovetta-sampson-human-centered-ai-2025.md) \| [JSON](DATA/videos/ovetta-sampson-human-centered-ai-2025.json) \| [Watch](https://youtu.be/PALRROM2JWE?si=8EiT1FNB5A04k3mI) |
-| **3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly** | Ashley Oldacre, Fergus Hurley, Nia Castelly | 2025-07-23 | Fireside Chat | Intermediate | Product/Startup, Research/Papers | 0.9 min | [Notes](INFO/google-for-developers/checks-mobile-app-compliance-2025.md) \| [JSON](DATA/videos/checks-mobile-app-compliance-2025.json) \| [Watch](https://youtu.be/Zcw427_z6Xg?si=28tg_6nMIvr18W82) |
-| **AgentOps: Operationalize AI Agents** | Sita Lakshmi Sangameswaran, Sokratis Kartakis | 2025-06-12 | Talk | Advanced | AI Agents, Backend/Infra, LLM Fundamentals | 1.1 min | [Notes](INFO/google-cloud-tech/agentops-operationalize-agents-2025.md) \| [JSON](DATA/videos/agentops-operationalize-agents-2025.json) \| [Watch](https://youtu.be/kJRgj58ujEk?si=GxGlzxwuOcqRhDeg) |
-| **Waymo: AI in the physical world powering the future of driving** | Aditi Roy, Dmitri Dolgov | 2025-05-24 | Fireside Chat | Intermediate | Research/Papers, Product/Startup | 0.7 min | [Notes](INFO/google-for-developers/waymo-ai-physical-world-2025.md) \| [JSON](DATA/videos/waymo-ai-physical-world-2025.json) \| [Watch](https://youtu.be/jnUUo7xso_0?si=jYl4_yDJ1PLwELi9) |
-| **Darren Aronofsky and Demis Hassabis on storytelling in the age of AI** | Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt | 2025-05-24 | Fireside Chat | Beginner | LLM Fundamentals, Product/Startup | 0.9 min | [Notes](INFO/google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) \| [JSON](DATA/videos/aronofsky-hassabis-ai-storytelling-2025.json) \| [Watch](https://youtu.be/VJllI3jMEb4?si=rcmRah8Dfq5_wRIS) |
-| **Science in the age of AI** | James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar | 2025-05-23 | Panel | Intermediate | Research/Papers, LLM Fundamentals | 0.7 min | [Notes](INFO/google-for-developers/science-in-the-age-of-ai-2025.md) \| [JSON](DATA/videos/science-in-the-age-of-ai-2025.json) \| [Watch](https://youtu.be/NYtQuneZMXc?si=0xRnvtYslsp-UHKV) |
-| **Deep Dive into Long Context** | Logan Kilpatrick, Nikolay Savinov | 2025-05-02 | Fireside Chat | Intermediate | LLM Fundamentals, Research/Papers | 0.7 min | [Notes](INFO/google-for-developers/deep-dive-long-context-2025.md) \| [JSON](DATA/videos/deep-dive-long-context-2025.json) \| [Watch](https://youtu.be/NHMJ9mqKeMQ?si=15tgX0ycptnfiOPn) |
-| **Simplified Google Cloud network security: Zero-trust and beyond** | S. Shiraj, Toby, Olivier, Ashok | 2024-07-01 | Demo | Intermediate | Backend/Infra | 0.7 min | [Notes](INFO/google-cloud-tech/cloud-network-security-zero-trust-2024.md) \| [JSON](DATA/videos/cloud-network-security-zero-trust-2024.json) \| [Watch](https://youtu.be/pQyhpIR6HPU?si=PwB5RR0_rcvk4cPw) |
-| **Orchestrate generative AI with Workflows** | Mete Atamel | 2024-07-01 | Demo | Intermediate | Backend/Infra, LLM Fundamentals | 0.7 min | [Notes](INFO/google-cloud-tech/orchestrate-genai-workflows-2024.md) \| [JSON](DATA/videos/orchestrate-genai-workflows-2024.json) \| [Watch](https://youtu.be/wi0nP6nxa0A?si=Tn3TpPQLy0wM5lcr) |
+         - [ai-for-job-search-2026](https://youtu.be/Iw_G_j1o6fQ?si=PriKzpvDryQEE_xp)
 
 ---
 

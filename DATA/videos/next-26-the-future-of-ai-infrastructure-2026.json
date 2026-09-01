@@ -1,0 +1,42 @@
+{
+  "id": "next-26-the-future-of-ai-infrastructure-2026",
+  "title": "Next '26: The Future of AI Infrastructure",
+  "channel": "Google Cloud",
+  "speakers": [
+    "Google Cloud Technical Leaders"
+  ],
+  "url": "https://youtu.be/PJQPMv8TqLA",
+  "date": "2026-04-23",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "Amin Vahdat SVP, Google Chief Technologist AI & Infrastructure, shares an inside look into the infrastructure powering the agentic era. He will be joined by Ben Gilbert and David Rosenthal of the Acquired podcast for an on-stage interview on how Google is architecting the future of AI innovation.",
+  "entities": [
+    "Acquired Podcast",
+    "Gemini",
+    "Gemini Enterprise",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Next '26: The Future of AI Infrastructur",
+      "text": "We're really, really thrilled to have you all out here tonight. Uh, it's a big night for us leading up to a big few days at Google Next. Infrastructure is foundational to everything that we do. We're going to be talking a lot about AI. We're going to be talking a lot about agents. In the end, it is the infrastructure that powers it all."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Designed from the ground up for training and inference separately. These are not simple derivatives of one another. The specs the capabilities the connectivity all different because they're specialized for the individual needs. If you need the powerhouse training, you have AT. If you need the lightning fast inference, you have ADI. These TPUs are going to continue to power Gemini."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "From the acquired lens, I think one of the things that is the most interesting about Google in AI is the fact that it is uh a frontier model, a scaled infrastructure cloud and a you know leading edge AI chip company all under one roof. Intuitively it makes sense that those things should have advantages to have them in in one company. I mean no one else has quite that stew that Google has. What are some uh very concrete examples of how those teams kind of work together to take advantage of that integration?. I I think number one I mean these TPUs would not have been possible in the early days without um deep collaboration with the services for example language translation voice recognition I mean the first TPU was essentially built as a application literally an application specific single application specific integrated circuit right and so if you're going to build a piece of hardware for one application there better be deep deep collaboration uh between them uh in the middle uh generations and Still today um these CPUs were used for recommener systems for our ads serving infrastructure. How could we make the hardware a better fit for your service use case?."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "If you look at AI mode, AI overviews and practically every search I run these days has AI mode which you know I I think about or sorry AI overviews. I think about just like wow what is the cost that is going into into that and we're very proud of the efficiency work that we've done to actually make it possible to be able to power that into every essentially every Google search right and and that even non-monetizable ones not exactly for us and this is the great thing about how we're set up is that search's goal as a business unit and I love this about the company is not to make money is to produce the highest quality most engaging results. There's a separate organization, a fantastic one with the smartest people as well, that generates the ads, but search's job is whether it's monetizable or not, not not material, produce the best results and they're doing so with TPUs. Now, on the flip side, I uh you'll hear this example tomorrow. We covered it actually at the session today, so I I think I can u mention it here. Citadel, leading securities trading company in the world, they use TPUs."
+    }
+  ],
+  "read_time_minutes": 2.2
+}

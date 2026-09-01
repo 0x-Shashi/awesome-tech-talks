@@ -12,6 +12,13 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
 - [Build a multi-agent system: A2A and Agent Registry](google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) - Annie Wang, Sita Lakshmi, Google Cloud Tech, 2026-06-27
+- [What's new with Gemini Enterprise app](google-cloud/whats-new-with-gemini-enterprise-app-2026.md) - Jamie de Guerre, Dev Tagare, Aaron Purcell, Lisa Knab, Google Cloud, 2026-06-26
+- [The agentic data cloud: Powering a system of action](google-cloud/the-agentic-data-cloud-powering-a-system-2026.md) - Andi Gutmans, Yasmeen Ahmad, Gabe Weiss, Sean Zinsmeister, Ignacio Garcia, Google Cloud, 2026-06-26
+- [Securing and managing agentic AI at scale: What Google and Palo Alto Networks are building together](google-cloud/securing-and-managing-agentic-ai-at-scal-2026.md) - Munish Khetrapal, Rob Skillington, Mike Buratowski, Josh Haslett, Google Cloud, 2026-06-26
+- [Secure what's next: AI-driven defense for the enterprise](google-cloud/secure-whats-next-ai-driven-defense-for-2026.md) - Francis deSouza, Sandra Joyce, Jiong Liu, Payal Chakravarti, Jodie Kautt, Google Cloud, 2026-06-26
+- [Get started in the age of AI agents with Agent Search on Gemini Enterprise Agent Platform](google-cloud/get-started-in-the-age-of-ai-agents-with-2026.md) - Eran Lewis, Yeye Zhang, Cliff Levy, Jishnu Raj, Google Cloud, 2026-06-26
+- [Driving hyper-personalized CX outcomes with Google Agentic AI](google-cloud/driving-hyper-personalized-cx-outcomes-w-2026.md) - Arunprakash Balasubramanian, Kimberly Agin, Kieren Johnson, Chirag Gheewala, Google Cloud, 2026-06-26
+- [Agentic transformation in the public sector](google-cloud/agentic-transformation-in-the-public-sec-2026.md) - Karen Dahut, Ted Ross, Jeremy Walsh, Pavan Pidigu, Google Cloud, 2026-06-26
 - [Scale AI agents in production](google-cloud-tech/scale-ai-agents-production-2026.md) - Ryan Ismert, Elia Secchi, Praveen Dhas, Tejal Pandit, Google Cloud Tech, 2026-06-25
 - [Power intelligent agents with AI-native databases](google-cloud-tech/ai-native-databases-agents-2026-2.md) - Amit Ganesh, Yannis Papakonstantinou, David Soria Parra, Google Cloud Tech, 2026-06-25
 - [Power intelligent agents with AI-native databases](google-cloud-tech/ai-native-databases-agents-2026.md) - Amit Ganesh, Yannis Papakonstantinou, David Soria Parra, Google Cloud Tech, 2026-06-25
@@ -35,14 +42,24 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
+- [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
+- [The agentic enterprise: Google Workspace & Gemini Enterprise](google-cloud/the-agentic-enterprise-google-workspace-2026.md) - Yulie Kwon Kim, Maryam Gholami, Derek Snyder, Yotam Lemberger, John Aisien, Google Cloud, 2026-04-28
+- [Own your signature customer agentic experiences](google-cloud/own-your-signature-customer-agentic-expe-2026.md) - Darshan Kantak, Archana Kannan, Chad Westfall, Google Cloud, 2026-04-28
+- [Driving enterprise value from Agentic AI - Addressing the hard part](google-cloud/driving-enterprise-value-from-agentic-ai-2026.md) - Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart, Google Cloud, 2026-04-28
 - [Cross-cloud infrastructure for the agentic enterprise](google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) - Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan, Google Cloud Tech, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
+- [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
+- [Next '26: The Future of AI Infrastructure](google-cloud/next-26-the-future-of-ai-infrastructure-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
+- [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
+- [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
+- [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
@@ -58,6 +75,10 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Physical AI: the new era of robotics](google-for-developers/physical-ai-robotics-2026.md) - Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez, Google for Developers, unknown
 - [Gemini co-leads on project origins and what's next](google-for-developers/gemini-coleads-project-origins-2026.md) - Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick, Google for Developers, unknown
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
+- [Scale AI that your workforce will actually use](google-cloud/scale-ai-that-your-workforce-will-actual-2026.md) - Casey McNamara, Akram Al-Ganad, Daniel Sumners, Google Cloud, 2026-06-26
+- [Accelerating the next wave of intelligent innovation with NVIDIA and Google Cloud](google-cloud/accelerating-the-next-wave-of-intelligen-2026-2.md) - Ian Buck, Google Cloud, 2026-06-26
+- [Accelerating the next wave of intelligent innovation with NVIDIA and Google Cloud](google-cloud/accelerating-the-next-wave-of-intelligen-2026.md) - Ian Buck, Google Cloud, 2026-06-26
+- [10x productivity with the Gemini CLI](google-cloud/10x-productivity-with-the-gemini-cli-2026.md) - Dmitry Lyalin, Taylor Mullen, Google Cloud, 2026-06-26
 - [Power intelligent agents with AI-native databases](google-cloud-tech/ai-native-databases-agents-2026-2.md) - Amit Ganesh, Yannis Papakonstantinou, David Soria Parra, Google Cloud Tech, 2026-06-25
 - [Power intelligent agents with AI-native databases](google-cloud-tech/ai-native-databases-agents-2026.md) - Amit Ganesh, Yannis Papakonstantinou, David Soria Parra, Google Cloud Tech, 2026-06-25
 - [Implementing DeepMind innovation: Deep research API](google-cloud-tech/deep-research-api-2026.md) - Advait Bopardikar, Philipp Schmid, Patrick Starling, Google Cloud Tech, 2026-06-25
@@ -67,6 +88,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Agent context engineering for production](google-cloud-tech/agent-context-engineering-2026.md) - George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar, Google Cloud Tech, 2026-06-25
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
+- [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
@@ -82,19 +104,43 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Darren Aronofsky and Demis Hassabis on storytelling in the age of AI](google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) - Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt, Google for Developers, 2025-05-24
 - [Science in the age of AI](google-for-developers/science-in-the-age-of-ai-2025.md) - James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar, Google for Developers, 2025-05-23
 - [Deep Dive into Long Context](google-for-developers/deep-dive-long-context-2025.md) - Logan Kilpatrick, Nikolay Savinov, Google for Developers, 2025-05-02
+- [What's next with Gemini: Driving business impact with multimodal use cases](google-cloud-tech/whats-next-with-gemini-driving-business-2024.md) - To The, Jason, Here With, Excited About, Google Cloud Tech, 2024-07-01
+- [Vertex AI Gemini: Model selection and prompt design principles and strategies](google-cloud-tech/vertex-ai-gemini-model-selection-and-pro-2024.md) - Skander Hannachi, Rajesh Thallam, Google Cloud Tech, 2024-07-01
+- [Use large language models to answer difficult science questions](google-cloud-tech/use-large-language-models-to-answer-diff-2024.md) - Nicholas Broad, Google Cloud Tech, 2024-07-01
+- [Unleash the power of vector search and multimodal embeddings in BigQuery](google-cloud-tech/unleash-the-power-of-vector-search-and-m-2024.md) - Jeff Nelson, Márton Kodok, Google Cloud Tech, 2024-07-01
+- [Transform your cloud operations and design capability with Gemini Cloud Assist](google-cloud-tech/transform-your-cloud-operations-and-desi-2024.md) - Jeff Welsch, Mark Church, David Cheng, Google Cloud Tech, 2024-07-01
+- [Supercharge your data analytics with the AI collaborator in BigQuery](google-cloud-tech/supercharge-your-data-analytics-with-the-2024.md) - Deepak Dayama, Joe Malone, Tim Velasquez, Google Cloud Tech, 2024-07-01
+- [Supercharge your data analytics with Gemini in BigQuery](google-cloud-tech/supercharge-your-data-analytics-with-gem-2024.md) - Deepak Dayama, Joe Malone, Tim Velasquez, Google Cloud Tech, 2024-07-01
+- [Power data analytics with generative AI using BigQuery and Gemini](google-cloud-tech/power-data-analytics-with-generative-ai-2024.md) - Alicia Williams, Tomas Talius, Seamus Abshere, Google Cloud Tech, 2024-07-01
 - [Orchestrate generative AI with Workflows](google-cloud-tech/orchestrate-genai-workflows-2024.md) - Mete Atamel, Google Cloud Tech, 2024-07-01
+- [ML frameworks for generative AI development](google-cloud-tech/ml-frameworks-for-generative-ai-developm-2024.md) - Robert Crowe, Google Cloud Tech, 2024-07-01
+- [Large language models in action: Transforming ideas into cloud architecture blueprints](google-cloud-tech/large-language-models-in-action-transfor-2024.md) - Ais Customer, Happy To, Google Cloud Tech, 2024-07-01
+- [Large language models and detecting AI-generated text](google-cloud-tech/large-language-models-and-detecting-ai-g-2024.md) - David Austin, Google Cloud Tech, 2024-07-01
+- [How to get easy and affordable access to GPUs for AI/ML workloads](google-cloud-tech/how-to-get-easy-and-affordable-access-to-2024.md) - Ari Liberman, Laura Ionita, Google Cloud Tech, 2024-07-01
+- [How Anthropic uses Google Kubernetes Engine to run inference for Claude](google-cloud-tech/how-anthropic-uses-google-kubernetes-eng-2024.md) - Here To, Nova, Joined By, Google Cloud Tech, 2024-07-01
+- [Go from large language model to market faster with Ray, Hugging Face, and LangChain](google-cloud-tech/go-from-large-language-model-to-market-f-2024.md) - Alex Zakonov, Brandon Royal, Stephen Allen, Google Cloud Tech, 2024-07-01
+- [Generative AI text and multimodal embedding models for real world use cases](google-cloud-tech/generative-ai-text-and-multimodal-embedd-2024.md) - Ugo Obialo, Parashar Shah, Jake Bograd-Denton, Google Cloud Tech, 2024-07-01
+- [Building generative AI apps on Google Cloud with LangChain](google-cloud-tech/building-generative-ai-apps-on-google-cl-2024.md) - Harrison Chase, The Ceo, Google Cloud Tech, 2024-07-01
+- [Accelerate AI inference workloads with Google Cloud TPUs and GPUs](google-cloud-tech/accelerate-ai-inference-workloads-with-g-2024.md) - Alexander Spiridonov, Omer Hasan, Uğur Arpaci, Kirat Pandya, Google Cloud Tech, 2024-07-01
 
 ## Prompt Engineering
 
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
+- [Vertex AI Gemini: Model selection and prompt design principles and strategies](google-cloud-tech/vertex-ai-gemini-model-selection-and-pro-2024.md) - Skander Hannachi, Rajesh Thallam, Google Cloud Tech, 2024-07-01
+- [How Vertex AI makes it easy to customize gen AI models](google-cloud-tech/how-vertex-ai-makes-it-easy-to-customize-2024.md) - Anand Iyer, May Hu, Lavanya Ramani, Google Cloud Tech, 2024-07-01
+- [Deliver the next generation of customer experiences with AI generated live images](google-cloud-tech/deliver-the-next-generation-of-customer-2024.md) - Avanti Sane, Peter Gordon, Joaquín Cuenca, Google Cloud Tech, 2024-07-01
 
 ## AI Coding Tools
 
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
+- [Securing and managing agentic AI at scale: What Google and Palo Alto Networks are building together](google-cloud/securing-and-managing-agentic-ai-at-scal-2026.md) - Munish Khetrapal, Rob Skillington, Mike Buratowski, Josh Haslett, Google Cloud, 2026-06-26
+- [Agentic transformation in the public sector](google-cloud/agentic-transformation-in-the-public-sec-2026.md) - Karen Dahut, Ted Ross, Jeremy Walsh, Pavan Pidigu, Google Cloud, 2026-06-26
+- [AI with a mission: From strategy to high-stakes impact](google-cloud/ai-with-a-mission-from-strategy-to-high-2026.md) - Ranjit Bawa, Brian Bot, Ryan Cox, Google Cloud, 2026-06-26
+- [10x productivity with the Gemini CLI](google-cloud/10x-productivity-with-the-gemini-cli-2026.md) - Dmitry Lyalin, Taylor Mullen, Google Cloud, 2026-06-26
 - [Navigate the agentic shift in software development with Google](google-cloud-tech/agentic-shift-software-development-2026.md) - Niranjan Tulpule, Madhura Joshi, Google Cloud Tech, 2026-06-25
 - [Beyond the hype: Orchestrating end-to-end developer workflows with agents](google-cloud-tech/orchestrating-developer-workflows-2026.md) - Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie, Google Cloud Tech, 2026-06-25
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
@@ -102,20 +148,71 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
+- [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
+- [What’s new with IAM and Org Policy: Access risk, at-scale governance and AI](google-cloud/whats-new-with-iam-and-org-policy-access-2025.md) - Abhishek Hemrajani, Google Cloud, 2025-10-21
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
 - [The Impossible Computing with Keith Ballinger | The Agent Factory Podcast](google-cloud-tech/keith-ballinger-impossible-computing-2025.md) - Keith Ballinger, Mollie Pettit, Vlad Kolesnikov, Google Cloud Tech, 2025-09-04
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
+- [You can only secure what you can see: How observability empowers security](google-cloud-tech/you-can-only-secure-what-you-can-see-how-2024.md) - Rory, Google Cloud Tech, 2024-07-01
+- [What s next for security professionals](google-cloud-tech/what-s-next-for-security-professionals-2024.md) - Sunil Potti, Kevin Mandia, Sandra Joyce, Google Cloud Tech, 2024-07-01
+- [Rock-solid business continuity and data protection on Google Cloud](google-cloud-tech/rock-solid-business-continuity-and-data-2024.md) - David Seidman, Timothy Isaacs, Ranga Potluri, Google Cloud Tech, 2024-07-01
+- [Protect your workload with Google Cloud next generation firewall](google-cloud-tech/protect-your-workload-with-google-cloud-2024.md) - To The, Protecting Your, Sure You, Tracy Jan, Google Cloud Tech, 2024-07-01
+- [Multi-project, multi-runtime, multi-region infrastructure as code](google-cloud-tech/multi-project-multi-runtime-multi-region-2024.md) - Rosemary Wang, Google Cloud Tech, 2024-07-01
+- [Least privilege: Move beyond default service accounts](google-cloud-tech/least-privilege-move-beyond-default-serv-2024.md) - To Sec, Ian Lewis, Is And, Google Cloud Tech, 2024-07-01
+- [Large language models in action: Transforming ideas into cloud architecture blueprints](google-cloud-tech/large-language-models-in-action-transfor-2024.md) - Ais Customer, Happy To, Google Cloud Tech, 2024-07-01
+- [Identities as the bedrock for Google Cloud security](google-cloud-tech/identities-as-the-bedrock-for-google-clo-2024.md) - Everyone Bright, Rabish Sha, Responsible For, Google Cloud Tech, 2024-07-01
+- [How to design a service-centric cross-cloud network](google-cloud-tech/how-to-design-a-service-centric-cross-cl-2024.md) - Satish Kondalam, Payam Kohan, Anoop Vetteth, Steffen Kreis, Google Cloud Tech, 2024-07-01
+- [How Vertex AI makes it easy to customize gen AI models](google-cloud-tech/how-vertex-ai-makes-it-easy-to-customize-2024.md) - Anand Iyer, May Hu, Lavanya Ramani, Google Cloud Tech, 2024-07-01
+- [How Unity powers their workloads on Google Kubernetes Engine](google-cloud-tech/how-unity-powers-their-workloads-on-goog-2024.md) - It, Isan Sharma, Google Cloud Tech, 2024-07-01
+- [Harness generative AI: Accenture security's innovation journey with Google](google-cloud-tech/harness-generative-ai-accenture-security-2024.md) - Robert Boyce, Jonathan Kindberg, Mike Frazee, Google Cloud Tech, 2024-07-01
+- [Goodbye, deployment headaches: Cloud Deploy and Vertex AI unite](google-cloud-tech/goodbye-deployment-headaches-cloud-deplo-2024.md) - Ricardo Caro, Italian As, Ian Nardini, Google Cloud Tech, 2024-07-01
+- [Ensure the health of cloud resources: How to address software vulnerabilities and identity risk](google-cloud-tech/ensure-the-health-of-cloud-resources-how-2024.md) - Tim
+Wingerter, Google Cloud Tech, 2024-07-01
+- [Data governance in the AI era](google-cloud-tech/data-governance-in-the-ai-era-2024.md) - Lu Yang, Cynthia Gumbs, Steve Jarrett, Google Cloud Tech, 2024-07-01
+- [Confidential computing and confidential accelerators for AI workloads](google-cloud-tech/confidential-computing-and-confidential-2024-2.md) - Very Honored, Sam  
+Lugani, Google Cloud Tech, 2024-07-01
+- [Confidential computing and confidential accelerators for AI workloads](google-cloud-tech/confidential-computing-and-confidential-2024.md) - Very Honored, Sam  
+Lugani, Google Cloud Tech, 2024-07-01
+- [Cloud compromises: Lessons learned from Mandiant investigations in 2023](google-cloud-tech/cloud-compromises-lessons-learned-from-m-2024.md) - To Cloud, Omaran My, Google Cloud Tech, 2024-07-01
+- [Build an internal developer platform on Google Kubernetes Engine Enterprise](google-cloud-tech/build-an-internal-developer-platform-on-2024.md) - Nick Product, Google Cloud Tech, 2024-07-01
+- [Build a unified, open, and fully managed lakehouse for analytics and AI with BigQuery](google-cloud-tech/build-a-unified-open-and-fully-managed-l-2024.md) - Justin Levandoski, Vinod Ramachandran, Mangesh Patil, Google Cloud Tech, 2024-07-01
+- [Advanced productivity for data science](google-cloud-tech/advanced-productivity-for-data-science-2024.md) - Karthik Ramachandran, Jay Hondadkatte, Alex Martin, Google Cloud Tech, 2024-07-01
+- [Accelerate your generative AI journey with Google Cloud databases](google-cloud-tech/accelerate-your-generative-ai-journey-wi-2024.md) - Yoav Eilat, Jana van Greunen, Google Cloud Tech, 2024-07-01
+- [Accelerate insights with a new natural language-driven analytics experience in BigQuery](google-cloud-tech/accelerate-insights-with-a-new-natural-l-2024.md) - Abhinav Khushraj, Mike Romano, Tim Velasquez, Google Cloud Tech, 2024-07-01
+- [Accelerate AI training workloads with Google Cloud TPUs and GPUs](google-cloud-tech/accelerate-ai-training-workloads-with-go-2024.md) - Vaibhav Singh, Rob Martin, Amanpreet Singh, Erik Nijkamp, Google Cloud Tech, 2024-07-01
+- [Boost performance of Go applications with profile guided optimization](google-cloud-tech/boost-performance-of-go-applications-wit-2024.md) - Cameron Balahan, Michael Pratt, James Ma, Google Cloud Tech, 2024-05-16
 
 ## Web Development
 
 - [Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more](google-cloud-tech/generative-ui-a2ui-agui-2026.md) - Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec, Google Cloud Tech, 2026-06-25
+- [What's new in cloud networking](google-cloud-tech/whats-new-in-cloud-networking-2024.md) - Muninder Sambi, Payam Kohan, Anna Berenberg, Google Cloud Tech, 2024-07-01
+- [What's new in Cloud network security](google-cloud-tech/whats-new-in-cloud-network-security-2024.md) - To The, Manisha Gupta, Google Cloud Tech, 2024-07-01
+- [Prevent data exfiltration with Google Cloud's built-in controls](google-cloud-tech/prevent-data-exfiltration-with-google-cl-2024.md) - Really Happy, Sri Balas, One Of, Google Cloud Tech, 2024-07-01
+- [Optimize your machine learning applications using BigQuery DataFrames](google-cloud-tech/optimize-your-machine-learning-applicati-2024.md) - Sonakshi Pandey, Sandeep Karmarkar, Guillaume Blaquiere, Google Cloud Tech, 2024-07-01
+- [Non-relational databases design patterns: How Shopify leverages them to power their business](google-cloud-tech/non-relational-databases-design-patterns-2024.md) - Vaibhav Govil, Bora Beran, Jerene Yang, Rich Chen, Google Cloud Tech, 2024-07-01
+- [Migrating from data centers - the benefits, challenges, and lessons learned](google-cloud-tech/migrating-from-data-centers-the-benefits-2024.md) - Jessie Xie, Robert Stewart, Jeff Bryner, Miles Ward, Google Cloud Tech, 2024-07-01
+- [Introducing Cloud Service Mesh: A fully managed global scale service mesh](google-cloud-tech/introducing-cloud-service-mesh-a-fully-m-2024.md) - Everybody Wow, Amir Aboss, One Of, Just Going, Google Cloud Tech, 2024-07-01
+- [How to deploy programmable global front ends for internet-facing apps and content](google-cloud-tech/how-to-deploy-programmable-global-front-2024.md) - Raj Gulani, Peter Blum, Noah Goldman, Robert Love, Google Cloud Tech, 2024-07-01
+- [Harness AI for better business intelligence: What's new and how to apply it](google-cloud-tech/harness-ai-for-better-business-intellige-2024-2.md) - Kate Wright, Sean Zinsmeister, Peter Bailis, Matthieu Burel, Google Cloud Tech, 2024-07-01
+- [Harness AI for better business intelligence: What's new and how to apply it](google-cloud-tech/harness-ai-for-better-business-intellige-2024.md) - Kate Wright, Sean Zinsmeister, Peter Bailis, Matthieu Burel, Google Cloud Tech, 2024-07-01
+- [Goodbye, deployment headaches: Cloud Deploy and Vertex AI unite](google-cloud-tech/goodbye-deployment-headaches-cloud-deplo-2024.md) - Ricardo Caro, Italian As, Ian Nardini, Google Cloud Tech, 2024-07-01
+- [Generative AI use-cases and design patterns with Databases](google-cloud-tech/generative-ai-use-cases-and-design-patte-2024.md) - Pranav Nambiar, Kurtis Van Gent, Google Cloud Tech, 2024-07-01
+- [From RAG to autonomous apps with Weaviate and Gemini on Google Kubernetes Engine](google-cloud-tech/from-rag-to-autonomous-apps-with-weaviat-2024.md) - Brian Kaufman, Bob van Luijt, Google Cloud Tech, 2024-07-01
+- [Deliver the next generation of customer experiences with AI generated live images](google-cloud-tech/deliver-the-next-generation-of-customer-2024.md) - Avanti Sane, Peter Gordon, Joaquín Cuenca, Google Cloud Tech, 2024-07-01
+- [Cloud security threat briefing with Mandiant](google-cloud-tech/cloud-security-threat-briefing-with-mand-2024.md) - Here Today, Google Cloud Tech, 2024-07-01
+- [Achieving unprecedented migration and modernization success: Lessons from Verizon](google-cloud-tech/achieving-unprecedented-migration-and-mo-2024.md) - Sabina Joseph, Heather Remek, Anil Kumar, Google Cloud Tech, 2024-07-01
+- [A deep dive into AlloyDB for PostgreSQL](google-cloud-tech/a-deep-dive-into-alloydb-for-postgresql-2024.md) - Ravi Murthy, Sandy Ghai, Aaron Joyce, Google Cloud Tech, 2024-07-01
+- [A cybersecurity expert's guide to securing AI products with Google SAIF](google-cloud-tech/a-cybersecurity-experts-guide-to-securin-2024.md) - Shan Ra, Google Cloud Tech, 2024-07-01
 
 ## Android/Mobile
 
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
 - [Digital health with Dr. Oliver Aalami](google-for-developers/oliver-aalami-digital-health-2025.md) - Ashley Oldacre, Dr. Oliver Aalami, Google for Developers, 2025-07-23
+- [The secret sauce to certification-readiness](google-cloud-tech/the-secret-sauce-to-certification-readin-2024.md) - Alyssa Groves, Carl Franklin, Google Cloud Tech, 2024-07-01
+- [Identities as the bedrock for Google Cloud security](google-cloud-tech/identities-as-the-bedrock-for-google-clo-2024.md) - Everyone Bright, Rabish Sha, Responsible For, Google Cloud Tech, 2024-07-01
+- [AI and modernization on your terms: from edge, to sovereign, to cross-cloud](google-cloud-tech/ai-and-modernization-on-your-terms-from-2024.md) - Sachin Gupta, Google Cloud Tech, 2024-07-01
 
 ## Backend/Infra
 
@@ -124,6 +221,10 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [Build a multi-agent system: A2A and Agent Registry](google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) - Annie Wang, Sita Lakshmi, Google Cloud Tech, 2026-06-27
+- [Secure what's next: AI-driven defense for the enterprise](google-cloud/secure-whats-next-ai-driven-defense-for-2026.md) - Francis deSouza, Sandra Joyce, Jiong Liu, Payal Chakravarti, Jodie Kautt, Google Cloud, 2026-06-26
+- [Behind Google's strategic bets in AI: A conversation with the hosts of Acquired](google-cloud/behind-googles-strategic-bets-in-ai-a-co-2026.md) - Amin Vahdat, Jeff Dean, Ben Gilbert, David Rosenthal, Google Cloud, 2026-06-26
+- [Accelerating the next wave of intelligent innovation with NVIDIA and Google Cloud](google-cloud/accelerating-the-next-wave-of-intelligen-2026-2.md) - Ian Buck, Google Cloud, 2026-06-26
+- [Accelerating the next wave of intelligent innovation with NVIDIA and Google Cloud](google-cloud/accelerating-the-next-wave-of-intelligen-2026.md) - Ian Buck, Google Cloud, 2026-06-26
 - [Scale AI agents in production](google-cloud-tech/scale-ai-agents-production-2026.md) - Ryan Ismert, Elia Secchi, Praveen Dhas, Tejal Pandit, Google Cloud Tech, 2026-06-25
 - [Power intelligent agents with AI-native databases](google-cloud-tech/ai-native-databases-agents-2026-2.md) - Amit Ganesh, Yannis Papakonstantinou, David Soria Parra, Google Cloud Tech, 2026-06-25
 - [Power intelligent agents with AI-native databases](google-cloud-tech/ai-native-databases-agents-2026.md) - Amit Ganesh, Yannis Papakonstantinou, David Soria Parra, Google Cloud Tech, 2026-06-25
@@ -141,9 +242,11 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
+- [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
 - [Cross-cloud infrastructure for the agentic enterprise](google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) - Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan, Google Cloud Tech, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
+- [Next '26: The Future of AI Infrastructure](google-cloud/next-26-the-future-of-ai-infrastructure-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [Orchestrating ML/AI workloads with TPUs on GKE](google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) - Yufeng Guo, Kavitha Gowda, Google Cloud Tech, 2026-04-10
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
@@ -151,23 +254,107 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
+- [What is smart storage? Meet Google Cloud's storage vision](google-cloud/what-is-smart-storage-meet-google-clouds-2025.md) - Dave Mc, Google Cloud, 2025-11-19
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
 - [AgentOps: Operationalize AI Agents](google-cloud-tech/agentops-operationalize-agents-2025.md) - Sita Lakshmi Sangameswaran, Sokratis Kartakis, Google Cloud Tech, 2025-06-12
+- [You can only secure what you can see: How observability empowers security](google-cloud-tech/you-can-only-secure-what-you-can-see-how-2024.md) - Rory, Google Cloud Tech, 2024-07-01
+- [Workload-optimized and AI-powered infrastructure](google-cloud-tech/workload-optimized-and-ai-powered-infras-2024.md) - Mark Lohmeyer, Srinath Reddy Meadusani, Sushma Gundlapally, Jeff Welsch, Google Cloud Tech, 2024-07-01
+- [Why Google Kubernetes Engine uniquely supports the reliability-first approach](google-cloud-tech/why-google-kubernetes-engine-uniquely-su-2024.md) - Kent, Google Cloud Tech, 2024-07-01
+- [What's new in cloud networking](google-cloud-tech/whats-new-in-cloud-networking-2024.md) - Muninder Sambi, Payam Kohan, Anna Berenberg, Google Cloud Tech, 2024-07-01
+- [What's new in Cloud network security](google-cloud-tech/whats-new-in-cloud-network-security-2024.md) - To The, Manisha Gupta, Google Cloud Tech, 2024-07-01
+- [Unleash the power of vector search and multimodal embeddings in BigQuery](google-cloud-tech/unleash-the-power-of-vector-search-and-m-2024.md) - Jeff Nelson, Márton Kodok, Google Cloud Tech, 2024-07-01
+- [Two Sigma: Push computing research boundaries with Google Cloud](google-cloud-tech/two-sigma-push-computing-research-bounda-2024.md) - Everyone Uh, Alex, Dax, Ma Kraski, Google Cloud Tech, 2024-07-01
+- [Transform your cloud operations and design capability with Gemini Cloud Assist](google-cloud-tech/transform-your-cloud-operations-and-desi-2024.md) - Jeff Welsch, Mark Church, David Cheng, Google Cloud Tech, 2024-07-01
+- [Transform your SAP workload with Google Cloud](google-cloud-tech/transform-your-sap-workload-with-google-2024.md) - Mike Eacrett, Alex Joseph, Mangesh Dabaki, Lalit Patil, Google Cloud Tech, 2024-07-01
+- [The past, present, and future of Google Kubernetes Engine](google-cloud-tech/the-past-present-and-future-of-google-ku-2024.md) - Uh Gary, Like Thi, Google Cloud Tech, 2024-07-01
+- [Take large scale AI from research to production with Google Cloud's AI Hypercomputer](google-cloud-tech/take-large-scale-ai-from-research-to-pro-2024.md) - Maulin Patel, Paresh Kharya, Curtis Kim, Andrew Clare, Google Cloud Tech, 2024-07-01
+- [Supercharge your data analytics with the AI collaborator in BigQuery](google-cloud-tech/supercharge-your-data-analytics-with-the-2024.md) - Deepak Dayama, Joe Malone, Tim Velasquez, Google Cloud Tech, 2024-07-01
+- [Supercharge your data analytics with Gemini in BigQuery](google-cloud-tech/supercharge-your-data-analytics-with-gem-2024.md) - Deepak Dayama, Joe Malone, Tim Velasquez, Google Cloud Tech, 2024-07-01
 - [Simplified Google Cloud network security: Zero-trust and beyond](google-cloud-tech/cloud-network-security-zero-trust-2024.md) - S. Shiraj, Toby, Olivier, Ashok, Google Cloud Tech, 2024-07-01
+- [Scale infrastructure as code: Proven strategies and productive workflows](google-cloud-tech/scale-infrastructure-as-code-proven-stra-2024.md) - Uh Kyle, Cole Morrison, Google Cloud Tech, 2024-07-01
+- [Scalable advanced ML systems with Ray, Google Kubernetes Engine, and ML accelerators](google-cloud-tech/scalable-advanced-ml-systems-with-ray-go-2024.md) - Alan Wong, Joined Today, Google Cloud Tech, 2024-07-01
+- [Rock-solid business continuity and data protection on Google Cloud](google-cloud-tech/rock-solid-business-continuity-and-data-2024.md) - David Seidman, Timothy Isaacs, Ranga Potluri, Google Cloud Tech, 2024-07-01
+- [Protect your workload with Google Cloud next generation firewall](google-cloud-tech/protect-your-workload-with-google-cloud-2024.md) - To The, Protecting Your, Sure You, Tracy Jan, Google Cloud Tech, 2024-07-01
+- [Power data analytics with generative AI using BigQuery and Gemini](google-cloud-tech/power-data-analytics-with-generative-ai-2024.md) - Alicia Williams, Tomas Talius, Seamus Abshere, Google Cloud Tech, 2024-07-01
 - [Orchestrate generative AI with Workflows](google-cloud-tech/orchestrate-genai-workflows-2024.md) - Mete Atamel, Google Cloud Tech, 2024-07-01
+- [Optimize your machine learning applications using BigQuery DataFrames](google-cloud-tech/optimize-your-machine-learning-applicati-2024.md) - Sonakshi Pandey, Sandeep Karmarkar, Guillaume Blaquiere, Google Cloud Tech, 2024-07-01
+- [Optimize costs and efficiency with new compute operations solutions](google-cloud-tech/optimize-costs-and-efficiency-with-new-c-2024.md) - Kaustubh Das, Krish Sivakumar, Google Cloud Tech, 2024-07-01
+- [Optimize BigQuery operations at Geotab](google-cloud-tech/optimize-bigquery-operations-at-geotab-2024.md) - Vinay Yerramilli, Muhammad Junaid Gill, Google Cloud Tech, 2024-07-01
+- [Non-relational databases design patterns: How Shopify leverages them to power their business](google-cloud-tech/non-relational-databases-design-patterns-2024.md) - Vaibhav Govil, Bora Beran, Jerene Yang, Rich Chen, Google Cloud Tech, 2024-07-01
+- [Next generation storage: Designing storage for the future](google-cloud-tech/next-generation-storage-designing-storag-2024.md) - Nathan Thomas, Sameet Agarwal, Christopher Ang, Google Cloud Tech, 2024-07-01
+- [Multi-project, multi-runtime, multi-region infrastructure as code](google-cloud-tech/multi-project-multi-runtime-multi-region-2024.md) - Rosemary Wang, Google Cloud Tech, 2024-07-01
+- [Migrating from data centers - the benefits, challenges, and lessons learned](google-cloud-tech/migrating-from-data-centers-the-benefits-2024.md) - Jessie Xie, Robert Stewart, Jeff Bryner, Miles Ward, Google Cloud Tech, 2024-07-01
+- [Managing Google Cloud Storage at Scale with Gemini](google-cloud-tech/managing-google-cloud-storage-at-scale-w-2024.md) - Manjul Sahay, Abhishek Lal, Oliver Meyn, Google Cloud Tech, 2024-07-01
+- [Leveraging Google Kubernetes Engine and Pub/Sub to power research, trading, and risk](google-cloud-tech/leveraging-google-kubernetes-engine-and-2024.md) - Cindy Zhang, Sacha Best, Gin Siu Cheng, Aasif Versi, Google Cloud Tech, 2024-07-01
+- [Introducing Cloud Service Mesh: A fully managed global scale service mesh](google-cloud-tech/introducing-cloud-service-mesh-a-fully-m-2024.md) - Everybody Wow, Amir Aboss, One Of, Just Going, Google Cloud Tech, 2024-07-01
+- [How to use Google Cloud Storage to unify your data for analytics workloads](google-cloud-tech/how-to-use-google-cloud-storage-to-unify-2024.md) - Brad Kelemen, Vivek Saraswat, Henry Gray, Abhi Khune, Google Cloud Tech, 2024-07-01
+- [How to meet public sector requirements on Google Cloud](google-cloud-tech/how-to-meet-public-sector-requirements-o-2024.md) - On The, Actually Going, Jordan Sower, Actually Not, Google Cloud Tech, 2024-07-01
+- [How to get easy and affordable access to GPUs for AI/ML workloads](google-cloud-tech/how-to-get-easy-and-affordable-access-to-2024.md) - Ari Liberman, Laura Ionita, Google Cloud Tech, 2024-07-01
+- [How to design a service-centric cross-cloud network](google-cloud-tech/how-to-design-a-service-centric-cross-cl-2024.md) - Satish Kondalam, Payam Kohan, Anoop Vetteth, Steffen Kreis, Google Cloud Tech, 2024-07-01
+- [How to design a cloud network for apps and services in multi- or hybrid clouds](google-cloud-tech/how-to-design-a-cloud-network-for-apps-a-2024.md) - Himanshu Mehra, Satish Kondalam, Saikrishna Kotha, Kamala Subramanian, Google Cloud Tech, 2024-07-01
+- [How to deploy programmable global front ends for internet-facing apps and content](google-cloud-tech/how-to-deploy-programmable-global-front-2024.md) - Raj Gulani, Peter Blum, Noah Goldman, Robert Love, Google Cloud Tech, 2024-07-01
+- [How to deliver a large-scale Kubernetes network with Shopify](google-cloud-tech/how-to-deliver-a-large-scale-kubernetes-2024.md) - Nikhil Kelshikar, Maxime Ginters, Google Cloud Tech, 2024-07-01
+- [How to define and maintain compliant infrastructure to serve regulated industries](google-cloud-tech/how-to-define-and-maintain-compliant-inf-2024.md) - Simon Bennett, Christopher Perry, Jatin Bhatia, Google Cloud Tech, 2024-07-01
+- [How to define a storage infrastructure for AI and analytical workloads](google-cloud-tech/how-to-define-a-storage-infrastructure-f-2024.md) - David Stiver, Alex Bain, Jason Wu, Yusuke Yachide, Google Cloud Tech, 2024-07-01
+- [How Unity powers their workloads on Google Kubernetes Engine](google-cloud-tech/how-unity-powers-their-workloads-on-goog-2024.md) - It, Isan Sharma, Google Cloud Tech, 2024-07-01
+- [How Anthropic uses Google Kubernetes Engine to run inference for Claude](google-cloud-tech/how-anthropic-uses-google-kubernetes-eng-2024.md) - Here To, Nova, Joined By, Google Cloud Tech, 2024-07-01
+- [Google Cloud databases in the gen AI era](google-cloud-tech/google-cloud-databases-in-the-gen-ai-era-2024.md) - Andi Gutmans, Anita Kibunguchy-Grant, Harrison Chase, Google Cloud Tech, 2024-07-01
+- [Go from large language model to market faster with Ray, Hugging Face, and LangChain](google-cloud-tech/go-from-large-language-model-to-market-f-2024.md) - Alex Zakonov, Brandon Royal, Stephen Allen, Google Cloud Tech, 2024-07-01
+- [Generative AI use-cases and design patterns with Databases](google-cloud-tech/generative-ai-use-cases-and-design-patte-2024.md) - Pranav Nambiar, Kurtis Van Gent, Google Cloud Tech, 2024-07-01
+- [From RAG to autonomous apps with Weaviate and Gemini on Google Kubernetes Engine](google-cloud-tech/from-rag-to-autonomous-apps-with-weaviat-2024.md) - Brian Kaufman, Bob van Luijt, Google Cloud Tech, 2024-07-01
+- [Confidential computing and confidential accelerators for AI workloads](google-cloud-tech/confidential-computing-and-confidential-2024-2.md) - Very Honored, Sam  
+Lugani, Google Cloud Tech, 2024-07-01
+- [Confidential computing and confidential accelerators for AI workloads](google-cloud-tech/confidential-computing-and-confidential-2024.md) - Very Honored, Sam  
+Lugani, Google Cloud Tech, 2024-07-01
+- [Cloud security threat briefing with Mandiant](google-cloud-tech/cloud-security-threat-briefing-with-mand-2024.md) - Here Today, Google Cloud Tech, 2024-07-01
+- [Cloud compromises: Lessons learned from Mandiant investigations in 2023](google-cloud-tech/cloud-compromises-lessons-learned-from-m-2024.md) - To Cloud, Omaran My, Google Cloud Tech, 2024-07-01
+- [Building generative AI apps on Google Cloud with LangChain](google-cloud-tech/building-generative-ai-apps-on-google-cl-2024.md) - Harrison Chase, The Ceo, Google Cloud Tech, 2024-07-01
+- [Build continuous data and AI pipelines with BigQuery continuous queries](google-cloud-tech/build-continuous-data-and-ai-pipelines-w-2024.md) - Nick Orlove, Pavan Edara, Pinaki Mitra, Google Cloud Tech, 2024-07-01
+- [Build an internal developer platform on Google Kubernetes Engine Enterprise](google-cloud-tech/build-an-internal-developer-platform-on-2024.md) - Nick Product, Google Cloud Tech, 2024-07-01
+- [Build a unified, open, and fully managed lakehouse for analytics and AI with BigQuery](google-cloud-tech/build-a-unified-open-and-fully-managed-l-2024.md) - Justin Levandoski, Vinod Ramachandran, Mangesh Patil, Google Cloud Tech, 2024-07-01
+- [Bring the power of machine learning to the world of streaming data](google-cloud-tech/bring-the-power-of-machine-learning-to-t-2024.md) - Sachin Agarwal, Wei Hsia, Edgar Tanaka, Google Cloud Tech, 2024-07-01
+- [BigQuery and BigLake: Real-world data products for AI/ML at scale](google-cloud-tech/bigquery-and-biglake-real-world-data-pro-2024.md) - Yvette Liu, Sami Akbay, Murat Ozcan, Google Cloud Tech, 2024-07-01
+- [Best practices to manage and automate on Compute Engine](google-cloud-tech/best-practices-to-manage-and-automate-on-2024.md) - David Cheng, Omkar Suram, Milo Harris, Mohammad Alhareri, Google Cloud Tech, 2024-07-01
+- [Accelerate your generative AI journey with Google Cloud databases](google-cloud-tech/accelerate-your-generative-ai-journey-wi-2024.md) - Yoav Eilat, Jana van Greunen, Google Cloud Tech, 2024-07-01
+- [Accelerate insights with a new natural language-driven analytics experience in BigQuery](google-cloud-tech/accelerate-insights-with-a-new-natural-l-2024.md) - Abhinav Khushraj, Mike Romano, Tim Velasquez, Google Cloud Tech, 2024-07-01
+- [Accelerate AI training workloads with Google Cloud TPUs and GPUs](google-cloud-tech/accelerate-ai-training-workloads-with-go-2024.md) - Vaibhav Singh, Rob Martin, Amanpreet Singh, Erik Nijkamp, Google Cloud Tech, 2024-07-01
+- [Accelerate AI inference workloads with Google Cloud TPUs and GPUs](google-cloud-tech/accelerate-ai-inference-workloads-with-g-2024.md) - Alexander Spiridonov, Omer Hasan, Uğur Arpaci, Kirat Pandya, Google Cloud Tech, 2024-07-01
+- [AI and modernization on your terms: from edge, to sovereign, to cross-cloud](google-cloud-tech/ai-and-modernization-on-your-terms-from-2024.md) - Sachin Gupta, Google Cloud Tech, 2024-07-01
+- [A primer on data on Kubernetes](google-cloud-tech/a-primer-on-data-on-kubernetes-2024.md) - Akshay Ram, Prasanth Veerina, Google Cloud Tech, 2024-07-01
+- [A deep dive into AlloyDB for PostgreSQL](google-cloud-tech/a-deep-dive-into-alloydb-for-postgresql-2024.md) - Ravi Murthy, Sandy Ghai, Aaron Joyce, Google Cloud Tech, 2024-07-01
+- [How to deploy all the JavaScript frameworks to Cloud Run](google-cloud-tech/how-to-deploy-all-the-javascript-framewo-2024.md) - Luke Schlangen, Google Cloud Tech, 2024-05-16
+- [Boost performance of Go applications with profile guided optimization](google-cloud-tech/boost-performance-of-go-applications-wit-2024.md) - Cameron Balahan, Michael Pratt, James Ma, Google Cloud Tech, 2024-05-16
 
 ## Product/Startup
 
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
+- [What's new with Gemini Enterprise app](google-cloud/whats-new-with-gemini-enterprise-app-2026.md) - Jamie de Guerre, Dev Tagare, Aaron Purcell, Lisa Knab, Google Cloud, 2026-06-26
+- [The agentic data cloud: Powering a system of action](google-cloud/the-agentic-data-cloud-powering-a-system-2026.md) - Andi Gutmans, Yasmeen Ahmad, Gabe Weiss, Sean Zinsmeister, Ignacio Garcia, Google Cloud, 2026-06-26
+- [Scale AI that your workforce will actually use](google-cloud/scale-ai-that-your-workforce-will-actual-2026.md) - Casey McNamara, Akram Al-Ganad, Daniel Sumners, Google Cloud, 2026-06-26
+- [Get started in the age of AI agents with Agent Search on Gemini Enterprise Agent Platform](google-cloud/get-started-in-the-age-of-ai-agents-with-2026.md) - Eran Lewis, Yeye Zhang, Cliff Levy, Jishnu Raj, Google Cloud, 2026-06-26
+- [Driving hyper-personalized CX outcomes with Google Agentic AI](google-cloud/driving-hyper-personalized-cx-outcomes-w-2026.md) - Arunprakash Balasubramanian, Kimberly Agin, Kieren Johnson, Chirag Gheewala, Google Cloud, 2026-06-26
+- [Behind Google's strategic bets in AI: A conversation with the hosts of Acquired](google-cloud/behind-googles-strategic-bets-in-ai-a-co-2026.md) - Amin Vahdat, Jeff Dean, Ben Gilbert, David Rosenthal, Google Cloud, 2026-06-26
+- [AI with a mission: From strategy to high-stakes impact](google-cloud/ai-with-a-mission-from-strategy-to-high-2026.md) - Ranjit Bawa, Brian Bot, Ryan Cox, Google Cloud, 2026-06-26
 - [Implementing DeepMind innovation: Deep research API](google-cloud-tech/deep-research-api-2026.md) - Advait Bopardikar, Philipp Schmid, Patrick Starling, Google Cloud Tech, 2026-06-25
 - [Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more](google-cloud-tech/generative-ui-a2ui-agui-2026.md) - Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec, Google Cloud Tech, 2026-06-25
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
+- [The agentic enterprise: Google Workspace & Gemini Enterprise](google-cloud/the-agentic-enterprise-google-workspace-2026.md) - Yulie Kwon Kim, Maryam Gholami, Derek Snyder, Yotam Lemberger, John Aisien, Google Cloud, 2026-04-28
+- [Own your signature customer agentic experiences](google-cloud/own-your-signature-customer-agentic-expe-2026.md) - Darshan Kantak, Archana Kannan, Chad Westfall, Google Cloud, 2026-04-28
+- [Driving enterprise value from Agentic AI - Addressing the hard part](google-cloud/driving-enterprise-value-from-agentic-ai-2026.md) - Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart, Google Cloud, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
+- [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
+- [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
+- [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
+- [Becoming AI-First: A Partner's Blueprint with Egen CEO](google-cloud/becoming-ai-first-a-partners-blueprint-w-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-11
+- [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
+- [What is smart storage? Meet Google Cloud's storage vision](google-cloud/what-is-smart-storage-meet-google-clouds-2025.md) - Dave Mc, Google Cloud, 2025-11-19
+- [What’s new with IAM and Org Policy: Access risk, at-scale governance and AI](google-cloud/whats-new-with-iam-and-org-policy-access-2025.md) - Abhishek Hemrajani, Google Cloud, 2025-10-21
 - [The Impossible Computing with Keith Ballinger | The Agent Factory Podcast](google-cloud-tech/keith-ballinger-impossible-computing-2025.md) - Keith Ballinger, Mollie Pettit, Vlad Kolesnikov, Google Cloud Tech, 2025-09-04
 - [Building a frontier AI search experience](google-for-developers/frontier-ai-search-experience-2025.md) - Logan Kilpatrick, Robby Stein, Google for Developers, 2025-07-24
 - [The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure](google-for-developers/ai-art-and-design-2025.md) - Ashley Oldacre, Douglas Edric Stanley, Anthony Masure, Google for Developers, 2025-07-23
@@ -178,6 +365,24 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly](google-for-developers/checks-mobile-app-compliance-2025.md) - Ashley Oldacre, Fergus Hurley, Nia Castelly, Google for Developers, 2025-07-23
 - [Waymo: AI in the physical world powering the future of driving](google-for-developers/waymo-ai-physical-world-2025.md) - Aditi Roy, Dmitri Dolgov, Google for Developers, 2025-05-24
 - [Darren Aronofsky and Demis Hassabis on storytelling in the age of AI](google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) - Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt, Google for Developers, 2025-05-24
+- [Workload-optimized and AI-powered infrastructure](google-cloud-tech/workload-optimized-and-ai-powered-infras-2024.md) - Mark Lohmeyer, Srinath Reddy Meadusani, Sushma Gundlapally, Jeff Welsch, Google Cloud Tech, 2024-07-01
+- [Why Google Kubernetes Engine uniquely supports the reliability-first approach](google-cloud-tech/why-google-kubernetes-engine-uniquely-su-2024.md) - Kent, Google Cloud Tech, 2024-07-01
+- [Security, privacy, and governance considerations for using AI at scale](google-cloud-tech/security-privacy-and-governance-consider-2024.md) - Vincent Ciaravino, Eesha Pathak, Ken McAfee, Mark Schadler, Google Cloud Tech, 2024-07-01
+- [Optimize BigQuery operations at Geotab](google-cloud-tech/optimize-bigquery-operations-at-geotab-2024.md) - Vinay Yerramilli, Muhammad Junaid Gill, Google Cloud Tech, 2024-07-01
+- [Next generation storage: Designing storage for the future](google-cloud-tech/next-generation-storage-designing-storag-2024.md) - Nathan Thomas, Sameet Agarwal, Christopher Ang, Google Cloud Tech, 2024-07-01
+- [Managing Google Cloud Storage at Scale with Gemini](google-cloud-tech/managing-google-cloud-storage-at-scale-w-2024.md) - Manjul Sahay, Abhishek Lal, Oliver Meyn, Google Cloud Tech, 2024-07-01
+- [Level up your sustainable engineering practices with Google Cloud](google-cloud-tech/level-up-your-sustainable-engineering-pr-2024.md) - To Our, Cynthia Wu, Really Excited, Antoine  
+Castex, Google Cloud Tech, 2024-07-01
+- [How to use Google Cloud Storage to unify your data for analytics workloads](google-cloud-tech/how-to-use-google-cloud-storage-to-unify-2024.md) - Brad Kelemen, Vivek Saraswat, Henry Gray, Abhi Khune, Google Cloud Tech, 2024-07-01
+- [How to meet public sector requirements on Google Cloud](google-cloud-tech/how-to-meet-public-sector-requirements-o-2024.md) - On The, Actually Going, Jordan Sower, Actually Not, Google Cloud Tech, 2024-07-01
+- [How to define and maintain compliant infrastructure to serve regulated industries](google-cloud-tech/how-to-define-and-maintain-compliant-inf-2024.md) - Simon Bennett, Christopher Perry, Jatin Bhatia, Google Cloud Tech, 2024-07-01
+- [Harness generative AI: Accenture security's innovation journey with Google](google-cloud-tech/harness-generative-ai-accenture-security-2024.md) - Robert Boyce, Jonathan Kindberg, Mike Frazee, Google Cloud Tech, 2024-07-01
+- [Harness AI for better business intelligence: What's new and how to apply it](google-cloud-tech/harness-ai-for-better-business-intellige-2024-2.md) - Kate Wright, Sean Zinsmeister, Peter Bailis, Matthieu Burel, Google Cloud Tech, 2024-07-01
+- [Harness AI for better business intelligence: What's new and how to apply it](google-cloud-tech/harness-ai-for-better-business-intellige-2024.md) - Kate Wright, Sean Zinsmeister, Peter Bailis, Matthieu Burel, Google Cloud Tech, 2024-07-01
+- [Ensure the health of cloud resources: How to address software vulnerabilities and identity risk](google-cloud-tech/ensure-the-health-of-cloud-resources-how-2024.md) - Tim
+Wingerter, Google Cloud Tech, 2024-07-01
+- [Data governance in the AI era](google-cloud-tech/data-governance-in-the-ai-era-2024.md) - Lu Yang, Cynthia Gumbs, Steve Jarrett, Google Cloud Tech, 2024-07-01
+- [A cybersecurity expert's guide to securing AI products with Google SAIF](google-cloud-tech/a-cybersecurity-experts-guide-to-securin-2024.md) - Shan Ra, Google Cloud Tech, 2024-07-01
 
 ## Research/Papers
 
@@ -201,11 +406,44 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Waymo: AI in the physical world powering the future of driving](google-for-developers/waymo-ai-physical-world-2025.md) - Aditi Roy, Dmitri Dolgov, Google for Developers, 2025-05-24
 - [Science in the age of AI](google-for-developers/science-in-the-age-of-ai-2025.md) - James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar, Google for Developers, 2025-05-23
 - [Deep Dive into Long Context](google-for-developers/deep-dive-long-context-2025.md) - Logan Kilpatrick, Nikolay Savinov, Google for Developers, 2025-05-02
+- [What's next with Gemini: Driving business impact with multimodal use cases](google-cloud-tech/whats-next-with-gemini-driving-business-2024.md) - To The, Jason, Here With, Excited About, Google Cloud Tech, 2024-07-01
+- [What s next for security professionals](google-cloud-tech/what-s-next-for-security-professionals-2024.md) - Sunil Potti, Kevin Mandia, Sandra Joyce, Google Cloud Tech, 2024-07-01
+- [Use large language models to answer difficult science questions](google-cloud-tech/use-large-language-models-to-answer-diff-2024.md) - Nicholas Broad, Google Cloud Tech, 2024-07-01
+- [Two Sigma: Push computing research boundaries with Google Cloud](google-cloud-tech/two-sigma-push-computing-research-bounda-2024.md) - Everyone Uh, Alex, Dax, Ma Kraski, Google Cloud Tech, 2024-07-01
+- [Transform your SAP workload with Google Cloud](google-cloud-tech/transform-your-sap-workload-with-google-2024.md) - Mike Eacrett, Alex Joseph, Mangesh Dabaki, Lalit Patil, Google Cloud Tech, 2024-07-01
+- [The secret sauce to certification-readiness](google-cloud-tech/the-secret-sauce-to-certification-readin-2024.md) - Alyssa Groves, Carl Franklin, Google Cloud Tech, 2024-07-01
+- [The past, present, and future of Google Kubernetes Engine](google-cloud-tech/the-past-present-and-future-of-google-ku-2024.md) - Uh Gary, Like Thi, Google Cloud Tech, 2024-07-01
+- [Take large scale AI from research to production with Google Cloud's AI Hypercomputer](google-cloud-tech/take-large-scale-ai-from-research-to-pro-2024.md) - Maulin Patel, Paresh Kharya, Curtis Kim, Andrew Clare, Google Cloud Tech, 2024-07-01
+- [Security, privacy, and governance considerations for using AI at scale](google-cloud-tech/security-privacy-and-governance-consider-2024.md) - Vincent Ciaravino, Eesha Pathak, Ken McAfee, Mark Schadler, Google Cloud Tech, 2024-07-01
+- [Scale infrastructure as code: Proven strategies and productive workflows](google-cloud-tech/scale-infrastructure-as-code-proven-stra-2024.md) - Uh Kyle, Cole Morrison, Google Cloud Tech, 2024-07-01
+- [Scalable advanced ML systems with Ray, Google Kubernetes Engine, and ML accelerators](google-cloud-tech/scalable-advanced-ml-systems-with-ray-go-2024.md) - Alan Wong, Joined Today, Google Cloud Tech, 2024-07-01
+- [Prevent data exfiltration with Google Cloud's built-in controls](google-cloud-tech/prevent-data-exfiltration-with-google-cl-2024.md) - Really Happy, Sri Balas, One Of, Google Cloud Tech, 2024-07-01
+- [Optimize costs and efficiency with new compute operations solutions](google-cloud-tech/optimize-costs-and-efficiency-with-new-c-2024.md) - Kaustubh Das, Krish Sivakumar, Google Cloud Tech, 2024-07-01
+- [ML frameworks for generative AI development](google-cloud-tech/ml-frameworks-for-generative-ai-developm-2024.md) - Robert Crowe, Google Cloud Tech, 2024-07-01
+- [Leveraging Google Kubernetes Engine and Pub/Sub to power research, trading, and risk](google-cloud-tech/leveraging-google-kubernetes-engine-and-2024.md) - Cindy Zhang, Sacha Best, Gin Siu Cheng, Aasif Versi, Google Cloud Tech, 2024-07-01
+- [Least privilege: Move beyond default service accounts](google-cloud-tech/least-privilege-move-beyond-default-serv-2024.md) - To Sec, Ian Lewis, Is And, Google Cloud Tech, 2024-07-01
+- [Large language models and detecting AI-generated text](google-cloud-tech/large-language-models-and-detecting-ai-g-2024.md) - David Austin, Google Cloud Tech, 2024-07-01
+- [How to design a cloud network for apps and services in multi- or hybrid clouds](google-cloud-tech/how-to-design-a-cloud-network-for-apps-a-2024.md) - Himanshu Mehra, Satish Kondalam, Saikrishna Kotha, Kamala Subramanian, Google Cloud Tech, 2024-07-01
+- [How to deliver a large-scale Kubernetes network with Shopify](google-cloud-tech/how-to-deliver-a-large-scale-kubernetes-2024.md) - Nikhil Kelshikar, Maxime Ginters, Google Cloud Tech, 2024-07-01
+- [How to define a storage infrastructure for AI and analytical workloads](google-cloud-tech/how-to-define-a-storage-infrastructure-f-2024.md) - David Stiver, Alex Bain, Jason Wu, Yusuke Yachide, Google Cloud Tech, 2024-07-01
+- [Google Cloud databases in the gen AI era](google-cloud-tech/google-cloud-databases-in-the-gen-ai-era-2024.md) - Andi Gutmans, Anita Kibunguchy-Grant, Harrison Chase, Google Cloud Tech, 2024-07-01
+- [Generative AI text and multimodal embedding models for real world use cases](google-cloud-tech/generative-ai-text-and-multimodal-embedd-2024.md) - Ugo Obialo, Parashar Shah, Jake Bograd-Denton, Google Cloud Tech, 2024-07-01
+- [Build continuous data and AI pipelines with BigQuery continuous queries](google-cloud-tech/build-continuous-data-and-ai-pipelines-w-2024.md) - Nick Orlove, Pavan Edara, Pinaki Mitra, Google Cloud Tech, 2024-07-01
+- [Bring the power of machine learning to the world of streaming data](google-cloud-tech/bring-the-power-of-machine-learning-to-t-2024.md) - Sachin Agarwal, Wei Hsia, Edgar Tanaka, Google Cloud Tech, 2024-07-01
+- [BigQuery and BigLake: Real-world data products for AI/ML at scale](google-cloud-tech/bigquery-and-biglake-real-world-data-pro-2024.md) - Yvette Liu, Sami Akbay, Murat Ozcan, Google Cloud Tech, 2024-07-01
+- [Advanced productivity for data science](google-cloud-tech/advanced-productivity-for-data-science-2024.md) - Karthik Ramachandran, Jay Hondadkatte, Alex Martin, Google Cloud Tech, 2024-07-01
+- [A primer on data on Kubernetes](google-cloud-tech/a-primer-on-data-on-kubernetes-2024.md) - Akshay Ram, Prasanth Veerina, Google Cloud Tech, 2024-07-01
+- [How to deploy all the JavaScript frameworks to Cloud Run](google-cloud-tech/how-to-deploy-all-the-javascript-framewo-2024.md) - Luke Schlangen, Google Cloud Tech, 2024-05-16
 
 ## Career/Advice
 
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
+- [Becoming AI-First: A Partner's Blueprint with Egen CEO](google-cloud/becoming-ai-first-a-partners-blueprint-w-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-11
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
 - [The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure](google-for-developers/ai-art-and-design-2025.md) - Ashley Oldacre, Douglas Edric Stanley, Anthony Masure, Google for Developers, 2025-07-23
 - [Building human-centered AI products with Ovetta Sampson](google-for-developers/ovetta-sampson-human-centered-ai-2025.md) - Ashley Oldacre, Ovetta Sampson, Google for Developers, 2025-07-23
+- [Level up your sustainable engineering practices with Google Cloud](google-cloud-tech/level-up-your-sustainable-engineering-pr-2024.md) - To Our, Cynthia Wu, Really Excited, Antoine  
+Castex, Google Cloud Tech, 2024-07-01
+- [Best practices to manage and automate on Compute Engine](google-cloud-tech/best-practices-to-manage-and-automate-on-2024.md) - David Cheng, Omkar Suram, Milo Harris, Mohammad Alhareri, Google Cloud Tech, 2024-07-01
+- [Achieving unprecedented migration and modernization success: Lessons from Verizon](google-cloud-tech/achieving-unprecedented-migration-and-mo-2024.md) - Sabina Joseph, Heather Remek, Anil Kumar, Google Cloud Tech, 2024-07-01

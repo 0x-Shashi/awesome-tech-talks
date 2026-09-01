@@ -1,0 +1,47 @@
+# What is smart storage? Meet Google Cloud's storage vision
+
+**Speaker(s):** Dave Mc · **Channel:** Google Cloud · **Date:** 2025-11-19
+**Watch:** https://youtu.be/yF_V0TYwSyE · **Format:** Fireside Chat · **Level:** Intermediate
+**Topics:** Product/Startup, Backend/Infra
+
+## TL;DR
+
+Join us for an insightful fireside chat as we explore Google Cloud's new vision for smart storage, a paradigm shift that transforms storage from a passive container into an active, intelligent engine. Hosted by Asad Khan (Senior Director, Google Cloud) and Dave McCarthy (Research VP, IDC), this discussion covers the future of intelligent data infrastructure and what it means to build on an AI-ready foundation.Learn more about smart storage here: https://goo.gle/4oQD9Gs
+
+## Contents
+
+- [Strategic Overview and Core Architecture in What is smart storage? Meet Google Cloud](#strategic-overview-and-core-architecture-in-what-is-smart-storage-meet-google-cloud)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in What is smart storage? Meet Google Cloud
+
+Enterprises are collecting more data than ever and the question you have to ask yourself is how much of that data is actually being used to provide value to the business. The unfortunate answer is not as much as you would hope. This has become such a big problem that people have actually given it a name. It's called dark data and it represents a big missed opportunity for business uh and also some risk. Now, at the same time, we're at an inflection point in the industry. Generative AI is providing opportunities for companies to take advantage of more of that data and it's driving them to want to solve this dark data problem.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+You can store a lot of your data in an unstructured format and whether it is CSVs, PDF or or images or videos and then you can define the schema and then get make sense out of it. The problem with that is that it involves a lot of human interaction because now you need someone first to decide which data set is interesting and once you have decided that thing you need to do some data cleansing you need to get it in some shape or form. You have data engineers whose job is to do that as the data lands and and only after that you can run some sort of analytics or query on top of that data. It is still a huge breakthrough and we still uh see that the the amount of data which was being analyzed exponentially went up but when you look at the entire set of unstructured data in the cloud and how much is being used it is still a very very small percentage. It sounds like you're hitting on the scalability problem, but not in the way that everybody thinks about it. Sometimes people talk about scalability like how much data can I store like as if it's a technical problem, but you're hitting on some of the human scalability issues of if you have to do all that, you know, manually, if you have to go through and and build these schemas or add data metadata to the objects and things and you have to do that on a kind of a personal, you know, manual basis, then ultimately th those resources are scarce.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+Is the GCS or the Google cloud storage. What we are trying to do is like we are starting solving the problem at the storage level and then work it all the way up to the stack in terms of what is the customer interaction with that one. The way we are looking at this problem is that as the data is stored or whether it was stored few uh uh two years or six years back or 10 years how can we start to use large language models obviously with the customer consent to go and generate the insights of out of their data and the way it is generated is through generation of the metadata. Now it is uh let me walk you step by step. The first problem that we need to go and solve is if you have the trillions of object and you have exabytes of data. Can you build a platform which can store the rich metadata for each and every one of those objects?.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+Stored it in object context and now you can reason on top of it. Think of it all the scenarios that enables. Do you have any real world examples of a customer that's using some of these capabilities today?. Yeah, one of the customers we uh we are working very closely is Vivvent. They have like uh more than 27 million security devices installed and all of these images are as you can imagine generated all the time and then stored. They had a manual process through lot of human interaction building pipelines to to analyze those images and now they have reduced that from 6 months to a single month because all of these images that they are uploaded to GCS.
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/what-is-smart-storage-meet-google-clouds-2025.json`
+Original YouTube Video: https://youtu.be/yF_V0TYwSyE

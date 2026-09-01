@@ -1,0 +1,47 @@
+# The agentic data cloud: Powering a system of action
+
+**Speaker(s):** Andi Gutmans, Yasmeen Ahmad, Gabe Weiss, Sean Zinsmeister, Ignacio Garcia · **Channel:** Google Cloud · **Date:** 2026-06-26
+**Watch:** https://youtu.be/JkmmDL386c4 · **Format:** Talk · **Level:** Advanced
+**Topics:** AI Agents, Product/Startup
+
+## TL;DR
+
+Legacy architectures designed for human speed can’t survive the shift to agent scale. You must evolve from a system of intelligence to a system of action. Andi Gutmans and Yasmeen Ahmad will introduce the agentic data cloud - the world’s first architecture built to power the physics of autonomy. Spanning AI-powered analytics, data science, and agentic development, we’ll show you how to activate data anywhere in an open ecosystem, enforce universal knowledge to close the trust gap, and deploy an AI-native stack that solves the cost of scale.
+
+## Contents
+
+- [Strategic Overview and Core Architecture in The agentic data cloud: Powering a syste](#strategic-overview-and-core-architecture-in-the-agentic-data-cloud-powering-a-syste)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in The agentic data cloud: Powering a syste
+
+Please welcome Google Cloud vice president and general manager, Data Cloud, Andy gutmans. It's great to be back at next. Yesterday Thomas showed you our vision for the agentic enterprise. He showed you a world where your business isn't just a series of apps, but a single harmonious system. At the heart of that system, the very thing that gives an agent the ability to perceive, reason and act is data to make these agents work, to make them truly incredible. We need to completely flip the script on how we think about data powering AI because there are three fundamental shifts happening right now.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+Down those walled gardens, giving your agents the freedom to activate data across any Cloud, any format, without forcing you into a multi-year modernization project. You just don't have time for and can't afford. Last but not least, it has to be trusted. The bridge between intelligence and action is trust. You can't allow an agent to execute a transaction unless it is grounded in your business reality. Today, we're excited to introduce the world's first agentic Data Cloud.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+Today, I'm playing the role of a head of operations for a global robotics company. Before I came out, I received a unique alert from what our developers are calling our agentic data experience. It's a proactive insight into a sudden 40% spike in order cancelations. Checking the email, the agent has already deep dived on our data, analyzing historical sales patterns and correlating them with our live operational metrics. The agent has created a brief summary with a link to the data agent for further investigation. The agents kicked off this conversational thread with a helpful summary analysis and visualization of the root cause.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+This traverses and creates broader relationships in the data using the knowledge catalog API. I'm not going to lie to you, this does take a bit longer than we have in the demo. But what I can do is show you a visualization of that right here within my Ide. For example, I can see the relationship between our transactions date and our marketing campaigns. Now our agent has the context it needs about our data. The final step, let's create the proactive agent that actually uses the graph.
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/the-agentic-data-cloud-powering-a-system-2026.json`
+Original YouTube Video: https://youtu.be/JkmmDL386c4

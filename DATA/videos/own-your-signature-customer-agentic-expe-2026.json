@@ -1,0 +1,44 @@
+{
+  "id": "own-your-signature-customer-agentic-expe-2026",
+  "title": "Own your signature customer agentic experiences",
+  "channel": "Google Cloud",
+  "speakers": [
+    "Darshan Kantak",
+    "Archana Kannan",
+    "Chad Westfall"
+  ],
+  "url": "https://youtu.be/DQYd3UDSniI",
+  "date": "2026-04-28",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "As the industry shifts toward agent-to-agent interactions, true personalization requires owning your AI architecture. Gemini Enterprise for Customer Experience is an agentic solution that unifies shopping and service into a single intelligent solution. By leveraging Google’s latest Gemini models, businesses can deploy and own both prebuilt and configurable agents. Acting as a proactive digital concierge, the platform uses complex reasoning to understand intent and execute multi-step tasks, all while honoring customer preferences and consent. Join us to learn how to build and deploy signature AI agents with breakthrough speed.",
+  "entities": [
+    "BigQuery",
+    "Gemini",
+    "Gemini Enterprise",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Own your signature customer agentic expe",
+      "text": "Please welcome Google Cloud VP of product applied AI darshan kantak. All of our representatives are currently busy. Please stay on the line and your call will be answered by the next representative. Your whole time is currently less than 96 minutes. Ladies and gentlemen, how many of you, by show of hands, have experienced this recently. OK, you guys are in the right session because we're going to help you fix this today."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Customers have a complex, nuanced need, they shouldn't be forced to translate their thoughts and ideas into the right sets of keywords. If they have to browse and overthink, they will abandon their carts. To solve this, we've built AI, commerce search and our shopping agents. Our AI commerce search transforms the traditional search box from a keyword matching system into an intent aware retrieval engine. Instead of forcing the shopper to guess the exact terms in a catalog, a search uses semantic understanding to interpret context constraints and surface the latent intent. It doesn't just look for keywords, it understands what a shopper is actually looking for."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Let's go ahead and finish this shopping. Let's go ahead and add all these items to the bag. Done here's your card summary, you have four items for a total of $275.63 plus tax. Arriving at the address on file in three days. Ready to check out with the card on file. Yeah, I'm good to check this out."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "The thing that's most interesting to me is kind of going from a reactive service to a truly proactive discovery for our customers. We're looking at the ways that the agent can anticipate needs of our customers before they even come online to search. For example, proactively reaching out to a member and help them understand about a new collection that perfectly matches their unique style profile, or seamlessly preparing a fitting room based on an ongoing chat that customer is having with Google Cloud as our partner. We aren't just keeping up with retail trends, we are actually redefining the future of how customers experience Macy's. We are having several customers reimagining their customer experience with us. Chat just highlighted a very crucial part of Macy's going from concept to production in just four weeks."
+    }
+  ],
+  "read_time_minutes": 1.5
+}

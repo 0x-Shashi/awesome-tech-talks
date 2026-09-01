@@ -1,0 +1,47 @@
+# Driving enterprise value from Agentic AI - Addressing the hard part
+
+**Speaker(s):** Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart · **Channel:** Google Cloud · **Date:** 2026-04-28
+**Watch:** https://youtu.be/9i9N7eyswNw · **Format:** Talk · **Level:** Intermediate
+**Topics:** Product/Startup, AI Agents
+
+## TL;DR
+
+We are in the agentic era. The big lessons from last year: agents are not about productivity alone, AI is now fundamentally about growth and business value. To glean the benefits of agentic AI at scale, enterprises need to reinvent themselves and also change the narrative about what AI enables. It is about human in the lead, not human in the loop. Join Chetna Sehgal and senior leaders for an executive-level discussion that underpins the blueprint for business reinvention, moving from high-level vision to gleaning tangible enterprise value from AI.
+
+## Contents
+
+- [Strategic Overview and Core Architecture in Driving enterprise value from Agentic AI](#strategic-overview-and-core-architecture-in-driving-enterprise-value-from-agentic-ai)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in Driving enterprise value from Agentic AI
+
+Please welcome Accenture's senior managing director, Chetna sahgal. Let me start by framing our session today. We'll start with a real life example. A global bank invests millions in AI. It starts with experiments, as most enterprises did a year or so ago. When pilots sit-in pockets, the bank gets amazing results and excitement.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+Dennis, I'm going to move to the next imperative and have you talk to us about that. The second imperative is leading with value. You heard that in the keynote this morning as well. The days of experimentation are hopefully in the past. You can have lots of proofs of concepts with no cohesive business case. Leading with value means choosing a strategic area in your enterprise that will bring value to you as a differentiator from your competition.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+Then you guys have an AI Academy. So from the leadership down, we're also creating a training program so that we can train the internal train our internal people on these new roles and with new expertise, new skill sets. Because ultimately, we believe that if our team understands that AI is here to eliminate low value work, but also at the same time, it empowers and elevates the work that you're doing as well, and you can tie that directly to the business value. I think that allows our teams to come along with us on the journey, but also allows us to adopt AI capabilities much faster. You lead a massive technology organization in Accenture. How do you make sure we are doing the right things in terms of reinventing talent and ways of working.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+One can lead to another and then the other can then drive the next outcome itself. Then right now, as we are speaking right, we not only open a store of tomorrow store in Singapore. We have already scaled it up to five or six other stores, and by the end of this year, all our stores will be enabled with smart cards that allow you to do personalization, engagement and then wayfinding promotions and even very seamless self-checkout. All the frontliners are going to have their own devices powered with Gemini enterprise Workspace. That basically allowed them to self-service on any things, but at the same time help them to run the day of the work itself. All this in there basically help us to build a roadmap in there, right.
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/driving-enterprise-value-from-agentic-ai-2026.json`
+Original YouTube Video: https://youtu.be/9i9N7eyswNw

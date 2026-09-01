@@ -1,0 +1,47 @@
+# Becoming AI-First: A Partner's Blueprint with Egen CEO
+
+**Speaker(s):** Google Cloud Technical Leaders · **Channel:** Google Cloud · **Date:** 2025-12-11
+**Watch:** https://youtu.be/eE8RO5ZOn8c · **Format:** Talk · **Level:** Intermediate
+**Topics:** Product/Startup, Career/Advice
+
+## TL;DR
+
+What are the real-world effects of artificial intelligence? Join host Salim Hasham on AI Vantage, the series that cuts through the hype to explore the tangible, practical, and approachable side of AI. In each episode, we move beyond the buzzwords to show you how AI is already impacting our lives and businesses and how you can implement these technologies today. Subscribe now.
+
+## Contents
+
+- [Strategic Overview and Core Architecture in Becoming AI-First: A Partner's Blueprint](#strategic-overview-and-core-architecture-in-becoming-ai-first-a-partners-blueprint)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in Becoming AI-First: A Partner's Blueprint
+
+0:000 secondsSALIM HASHAM: Hello, and welcome to the AI Vantage. 0:077 secondsToday, I'm thrilled to share my conversation with Saleem Janmohamed, chairman and CEO of Google Cloud partner Egen. Saleem not only shares my name, 0:1616 secondsbut brings a groundbreaking approach, leading with a vision for clean sheet thinking. 0:2020 secondsEgen does this by reimagining AI-led business processes entirely, rather than just making small improvements. 0:2828 secondsIn this episode, we dive into how Egen applies this to real world challenges, like transforming mortgage underwriting for a major lender to dramatically boost accuracy and turbocharge employee productivity. 0:4040 secondsWe also discuss Egen's own journey in becoming an AI first services firm, focusing on talent development and outcome-driven solutions.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+18 secondsSo drop the silos, the constraints, all of the, if you will, friction that might exist in an existing process, 8:268 minutes, 26 secondsand think about what that would look if you started with AI and then looked at adding intelligence to the process to create the outcomes you were looking for. 8:378 minutes, 37 secondsAnd that was really the thesis behind what we do. 8:408 minutes, 40 secondsAnd the fact is that we can bring behind that then all of the technology capabilities required to help a client get to end of job as quickly as possible. 8:518 minutes, 51 secondsAnd that's, I think, a revolutionary approach for many of our audience, who are going to be much more traditional, commodity driven, maybe lift and shift service providers. 8:598 minutes, 59 secondsSo as you think about the approach you take to client service, you've clearly been very thoughtful about this. 9:069 minutes, 6 secondsAnd so what lessons did you draw that helped shaped where Egen is and how it approaches a problem?.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+Significant improvements once you understand those bottlenecks. 16:4316 minutes, 43 secondsBut you shouldn't see them as constraints. 16:4616 minutes, 46 secondsYou really need to approach this with how are you going to change this process. But it then has to be anchored on business value. How much efficiency are we going to get?. 16:5816 minutes, 58 secondsWhat is the customer experience going to look like once we're done?.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+Look, I want a-- the hero in this story is the client CTO that made the decision to give this a go. 25:1225 minutes, 12 secondsAnd interestingly enough, this was not a Google Cloud client. 25:1825 minutes, 18 secondsOne of the things that we did was when we looked at the business case, we saw that Google's engine, the Gemini engine, 25:2625 minutes, 26 secondswas actually much more suited to solving this business case than the other alternatives. 25:3225 minutes, 32 secondsThe client actually then made the decision to adopt Gemini and Google Cloud to be able to drive this sort of outcome, despite the fact 25:4125 minutes, 41 secondsthat the vast majority of their workloads were sitting either on Premise or a different hyperscaler. 25:4725 minutes, 47 secondsSALIM HASHAM: Sounds like a decision made because you needed large context windows, you probably needed multimodal. 25:5425 minutes, 54 secondsSALIM HASHAM: So Saleem, that's a fantastic example of where you've taken a practical problem, solved it with AI, had phenomenal results in productivity, on customer satisfaction, and I imagine employee satisfaction.
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/becoming-ai-first-a-partners-blueprint-w-2025.json`
+Original YouTube Video: https://youtu.be/eE8RO5ZOn8c
