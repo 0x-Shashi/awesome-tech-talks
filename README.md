@@ -1,6 +1,6 @@
 # Awesome Tech Talks: 300+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
-<img width="3200" height="1136" alt="Image" src="https://github.com/user-attachments/assets/e11a7836-139f-4608-bb02-5586457a98d4" />
+<img width="3430" height="1216" alt="Image" src="https://github.com/user-attachments/assets/dad2e263-2e14-41d5-9790-63a3278642f9" />
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
@@ -87,6 +87,7 @@ The open-source hub for developer workshops, flagship keynotes, and technical en
          - [defending-your-enterprise-against-ai-2026](https://youtu.be/n_qt5wDAHqA)
          - [demo-synchronized-intelligent-workforce-with-2026](https://youtu.be/s5fjsHeVXVo)
          - [designing-ai-ready-data-platforms-2026](https://www.youtube.com/live/6cKJw7g1w0g?si=cPjerHiI2zEUFSF7)
+         - [from-cost-center-to-value-engine-2026](https://www.youtube.com/live/7l01j6MwenY?si=2gkQ063FcPuVpQaz)
          - [from-intent-to-insight-accelerating-2026](https://www.youtube.com/live/u7AOVe11HeA?si=hM996eSYkG3JU-Io)
          - [from-prototype-to-production-hard-2026](https://youtu.be/bZk6KCoTxMQ)
          - [ge-for-cx-unifying-the-2026](https://youtu.be/iYljVB4cj20)

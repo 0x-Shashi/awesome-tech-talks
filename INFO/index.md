@@ -217,6 +217,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [TechByte: Build the next generation of creative and multimodal experiences](unlisted-videos/techbyte-build-the-next-generation-2026.md) - Katie, Unlisted Videos, 2026-06-24
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
+- [TechByte: From cost center to value engine: Building your business case for AI-assisted development](unlisted-videos/from-cost-center-to-value-engine-2026.md) - Nathan Harvey, Eva Dong, Unlisted Videos, 2026-05-27
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
@@ -461,6 +462,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
+- [TechByte: From cost center to value engine: Building your business case for AI-assisted development](unlisted-videos/from-cost-center-to-value-engine-2026.md) - Nathan Harvey, Eva Dong, Unlisted Videos, 2026-05-27
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
