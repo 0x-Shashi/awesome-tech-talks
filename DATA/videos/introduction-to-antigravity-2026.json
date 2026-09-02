@@ -1,0 +1,43 @@
+{
+  "id": "introduction-to-antigravity-2026",
+  "title": "Introduction to Antigravity",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://youtu.be/5jf1C3zZev8",
+  "date": "2026-07-23",
+  "format": "Talk",
+  "level": "Beginner",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In-depth technical session on Introduction to Antigravity.",
+  "entities": [
+    "Antigravity",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Introduction to Antigravity",
+      "text": "Today we're exploring a fundamental transition in software\nengineering. How developer tools in Google cloud are evolving from a simple autocomplete assistance into a full-fledged autonomous agentic systems. I am Arun Ki, a staff customer engineer and an AI specialist here at Google Cloud. My primary focus is developer\nproductivity ecosystem like a Gemini code assist or a Gemini CLA and currently the anti-gravity ecosystem with a Gemini enterprise agent platform. Today's our agenda is pretty straightforward. I'll start with a brief introduction to set the lay of the land. Then we'll walk through the rapid evolution of how all the AI developer tools currently look like. Then we will dive into the core of today's session, anti-gravity 2.0."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "But just\ns, 44 secondsto summarize it, right? This probably brings us to the provocative truth. Code has already become a commodity. In a\ns, 52 secondstraditional world, even 3 4 years back, even today in some of the legacy organizations, raw code generation and design were the most expensive investments. S, 4 secondsIn an agentic world, generating thousands of lines of syntax or scaffold architecture, it's practically cheap, right? If you use GMA, it's even free. S, 14 secondsWhat becomes expensive and valuable now is the precision, intent and review. S, 20 secondsWhen syntax is free, the value ships upstream like how well you specify what you want to build."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Think of it in this way. It acts\ns, 58 secondsas a mission control. Provides implementation plans and multi- aent orchestration is very simple to do. Even\ns, 5 secondsyou can schedule task. If you want to schedule a longunning task, how can you do it? You don't need to keep your laptop always on. You submit a task,\ns, 15 secondsclose your laptop and in the back end GCP takes care of it in executing it. S, 20 secondsEven we have a much better voice enabled activity."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "It lets you take a background at this part, right? Rather than there are multiple\ns, 37 secondsback and forth comes in you uh guide it at every step of the way. It reaches out to you at every critical junction and we do have an option of a custom slash\ns, 45 secondscommands. If you need something to be created created as a skill, use it as a custom slash command completely. Your\ns, 52 secondspersonal workflows and team playbooks becomes the first class commands here in anti-gravity. In a nutshell, it is a one\nsunified platform. You start an anti-gravity CLA for example scaffolding using agent CLI then you switch to\ns, 7 secondsanti-gravity 2.0 Wherever whenever you need the full power of the GUI suppose I want to call anti-gravity inside my application as an\ns, 16 secondsembedded solution you use anti-gravity SDK your context your settings and your conversation it follows you across the\ns, 24 secondssurfaces that's the power of the platform all right so now we saw different aspects of the product right but as\ns, 32 secondsbusinesses transition from running a handful of an experimental agents to managing an entire fleet or an entire\ns, 40 secondsentire enterprise fleet of agents, right? Establishing a central visibility and control is critical for protecting\ns, 47 secondsyour return off investments."
+    }
+  ],
+  "read_time_minutes": 2.2
+}

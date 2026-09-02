@@ -1,0 +1,42 @@
+{
+  "id": "techbyte-ai-infrastructure-in-2026-2026",
+  "title": "TechByte: AI infrastructure in 2026 - Architecting for agentic AI",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/Y2P_Kqiy3Vs?si=avzXEjWbbMCWMtHj",
+  "date": "2026-06-23",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "In-depth technical session on TechByte: AI infrastructure in 2026 - Architecting for agentic AI.",
+  "entities": [
+    "Gemini",
+    "Gemini Enterprise",
+    "Google Cloud",
+    "PyTorch"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in TechByte: AI infrastructure in 2026 - Ar",
+      "text": "Hey everyone, thank you so much for joining us today. We'll be talking about the state of infrastructure in the agentic AI era\nbased on our latest survey of 1,400 global leaders across the world. These are technology leaders that have shared their insights in terms of what how\nthey're thinking about infrastructure in this new AI era. Uh we'll have some interesting insights to share with you. My name is uh Rousen Malade. I lead AI infrastructure product marketing for TPUs and GPUs at Google Cloud. With me,\nwe have Jason Mond from our product team. Jason, um would you be able to introduce yourself?"
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "It's about understanding the power and reach of what's possible and now reconsidering\ns, 39 secondswhat that means for a particular industry or for particular business from from an endto-end workflow perspective. S, 46 secondsAnd then what does that look like in terms of what gets automated? Where does the human fit in in terms of uh either performing different tasks or working in\ns, 55 secondsconjunction with these agents? That's that's sort of what is being reinvented and rethought right now. S, 1 secondThis has implications in terms of the architecture as well. You mentioned that because um some of these agents act autonomously continuously. There are\ns, 10 secondsimplications in terms of how to implement them. It specifically when it comes to infrastructure, we have talked about a lot about training in the past."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "How does it authenticate into other systems that it needs to access autonomously on its own? How does it uh you know handshake\ns, 41 secondsand share data between other agents and other systems? There's definitely a lot um that's you know being taken into\ns, 49 secondsaccount in terms of um you know data management, access management, observability and transparency in terms\ns, 57 secondsof how these things are operating and again approaching it in a cautiously optimistic way. There's this powerful promise of what these things\ns, 5 secondscan do, but we want to have a lot of confidence that they're going to behave in the way we expect them to behave. S, 13 secondsum you know, part of that is introducing technologies like GKE sandbox, for example, where you can create these\ns, 20 secondsfully isolated environments where they can't even break out uh and uh attack the kernel or the shared kernel of the\ns, 27 secondsenvironment that they're running in. Because there's a lot of these different simulations that need to happen uh when you're doing reinforcement learning uh\ns, 36 secondswithin the training of these environments. So there's a lot of technologies that are being put in place to make sure that um malicious code or\ns, 44 secondsunintended consequences can't impact production environments. I think security is um being a top challenge is no surprise to a lot of the folks that we're talking to."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "We we have a lot of customers that are increasingly consolidating onto\ns, 35 secondsGoogle Cloud because they get the benefit of a single backbone and a single platform. And it really reduces their operational overhead uh\ns, 42 secondsfrom a tooling and operations management perspective. Edge makes a lot of sense too, right? You know whether\ns, 49 secondsit's physical AI where you're seeing um kind of this this new use case having models deployed either directly to\ns, 58 secondsrobots or kind of near edge you know into a manufacturing warehouse kind of facility near where the robots are\ns, 6 secondstraining happens in the cloud inferencing happens either on device or near the device uh seeing quite a bit of that um same thing when you think about\ns, 14 secondsa handheld right uh from a mobile phone perspective uh increas inreasing number of scenarios where it makes sense to do the inferencing locally there on a\ns, 22 secondshighly optimized or quantized model that lives on the device. S, 27 secondsYeah, I think all the the factors that we talked about also contribute to the next finding which is that infrastructure is a top priority in\ns, 34 secondsterms of an investment area. When we ask our leaders, where do you plan to make the most significant investments in AI\ns, 41 secondsinfrastructure in the next 12 to 24 months? 84% said that they're planning to invest in their core infrastructure and ops infrastructure. S, 51 seconds67% said that they're going to invest in their data infrastructure and 55% said that they're going to invest in their security infrastructure."
+    }
+  ],
+  "read_time_minutes": 3.0
+}

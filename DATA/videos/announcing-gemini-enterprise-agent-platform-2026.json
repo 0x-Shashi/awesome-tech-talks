@@ -1,0 +1,44 @@
+{
+  "id": "announcing-gemini-enterprise-agent-platform-2026",
+  "title": "Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://youtu.be/KUc7Otr2mKY",
+  "date": "2026-06-03",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents\nBest-suited to: Technical leaders and developers\n\nMove beyond prototypes and transform your applications and workflows into powerful, production-scale agentic systems. Join us to explore the latest features of Google Cloud's Gemini Enterprise Agent Platform, which combines Google's leading AI research with secure, global infrastructure so you can build, scale, and manage AI agents that actually work in production.\n\nThis session is for builders ready to adopt a full-stack, secure foundation that supports the entire agent lifecycle, enabling a production-scale digital workforce. Attendees will learn how to: \nBuild sophisticated agents using the Agent Development Kit (ADK).\nScale agents in production with Agent Platform’s integrated runtime.\nGovern agents with granular control via Agent Gateway and Agent Identity.\nDefine, apply, and enforce security policies across agents and tools through Agent Gateway’s integration with Agent Identity and Registry.\nEmpower the agentic taskforce with the Gemini Enterprise app, enabling employees to use AI with enterprise data and agents to act across systems. \nRegister now to build and secure your enterprise agents at global scale.",
+  "entities": [
+    "ADK 2.0",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "LangChain"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Announcing Gemini Enterprise Agent Platf",
+      "text": "Hello and welcome to the next iteration of our quarterly roadmap series. Today we're going to be talking about Gemini Enterprise and our recent announcement\nof the Gemini Enterprise agent platform that allows you to build, scale, govern, and optimize agents across your organization. I'm one of the product leaders on Google Cloud AI and I'm joined today by Dimmitri and Schubam who will be giving you demos of some of\nthe latest updates that we released. The agenda for our session today is I will first walk you through an introduction to Gemini Enterprise and then we'll dive\ninto the road map for Gemini Enterprise and several of our recent announcements and as we go we'll give you a couple of\ndemos of recent updates. It's kind of obvious at this point, but AI agents are really the next\nfrontier and organizations like yourselves are working to transform their business with generative AI. But what we hear from customers like yourselves is that this isn't easy. There's a lot of key challenges and those challenges kind of fit into four buckets. First, how do I create agents\nand build agents with quality that are actually achieving these highquality business outcomes that I'm looking for\nto start?"
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Starting with the generally available Gemini 3.5 Flash. S, 47 secondsIt's available to use today on the agent platform through the API or through Gemini Enterprise app powering all of\ns, 55 secondsthe interactions with AI from your employees and agents. We also announced that Gemini 3.5 Pro is coming soon and\ns, 2 secondswe introduced an allnew family of models with Gemini Omni coming soon to the agent platform. Taken together with each of these updates and a number of\ns, 11 secondsupdates that are in addition to these, this is a look at the short-term road map for the agent platform across how you build, scale, govern, and optimize\ns, 19 secondsagents. When building agents, this includes, for example, ADK 2.0 that just went to G, updates to the Gemini 3.5\ns, 27 secondsmodel family, all new managed agents API, and more. When scaling agents, I mentioned the code sandbox and computer\ns, 35 secondsuse sandbox. Code sandbox is now generally available and computer use coming soon. We have memory bank updates\ns, 42 secondsgiving you memory profiles and long-term memory across sessions."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "If not, you can just move ahead with that. The agent then\ns, 46 secondsleverages the ADK skills to instantly scaffold the full project creating the tools and logic on its own. Here you can\ns, 54 secondssee the agent files is created with all the logic and the code that needs to be in there. S, 1 secondAll you did is just prompting anti-gravity and it automatically used the agent skills to create that. Next, I\ns, 9 secondswant to see this agent in action. I ask anti-gravity to spin up a local development server. All you need to\ns, 18 secondsdo that is just ask, can you run a local dev server so I can test a few examples myself? S, 27 secondsWe can open up this link in our web browser."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "S, 24 secondsNow, when you create that agent, it automatically connects seamlessly to all the data that's connected into Gemini Enterprise, whether that be through\ns, 32 secondsbuilt-in connectors like Service Now, Salesforce, Jira, or SharePoint, or through anything you connect through an MCP server. When you build one of these\ns, 41 secondsagents, it automatically executes multi-step workflows and handles routines in the background for you. You can schedule these to run on a\ns, 50 secondsparticular cron schedule or based on an event from any of the systems connected to Gemini Enterprise. Now, importantly,\ns, 57 secondswhile this gives you a similar experience to something like an open claw, this is all happening in a secure Google cloud container. It runs on our\ns, 6 secondsback-end cloud infrastructure that you manage through your governance capabilities on the agent platform. This is now available in early access and\ns, 14 secondswe're bringing this to all Gemini Enterprise customers in preview next month. To show you a demo, I'd like to hand over to Dimmitri. S, 23 secondsHi, I'm Dimmitri, a director of products on Gemini Enterprise."
+    }
+  ],
+  "read_time_minutes": 2.9
+}

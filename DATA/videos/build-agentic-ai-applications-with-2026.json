@@ -1,0 +1,45 @@
+{
+  "id": "build-agentic-ai-applications-with-2026",
+  "title": "Build agentic AI applications with graphs on Google Cloud",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Chris Magu",
+    "Chris"
+  ],
+  "url": "https://www.youtube.com/live/gz73H1eYON8?si=Y8ARM5g92awprXxn",
+  "date": "2026-06-30",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "In-depth technical session on Build agentic AI applications with graphs on Google Cloud.",
+  "entities": [
+    "BigQuery",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "Spanner"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Build agentic AI applications with graph",
+      "text": "Hello everyone and welcome to this webinar on building agenti applications with graphs on Google cloud. I'm push\nmatur product manager for spanograph and I'm joined by Chris Magu and Sorup Singh. Chris Sorup why don't you introduce yourself? Hi, my name is Chris\nMcu. I'm one of the customer engineers here at Google and it's my job to make you the customer successful with all of our database offerings from Spanner to\nmemory store to fire store. I lead the data engineering team at the Yahoo monetization platform and I'm super excited to be here. We have a pretty packed agenda today. We're going to just kick off with a quick introduction on graphs and how they are\nplaying an increasing role on AI in the world of AI."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "S, 6 secondsMany of you are here because you want to build real a agentic AI applications on Google's agentic data cloud with graph\ns, 14 secondsat its core. I'm going to show you is one of is one we actually built and run\ns, 20 secondsin production. Now I know what a few of you might be thinking Yahoo. S, 29 secondsYahoo is one of the OGs of internet. 31 years in and in the middle of our one of our best transformations yet. S, 39 secondsNow we are the third largest property in the US, more than Facebook, more than Amazon, 250 million plus people on mail, finance and sports. S, 50 secondsAnd our job has never changed to be the trusted guide through the digital wilderness. Now, hold on to that phrase\ns, 58 secondstrusted guide because everything that I'm about to show you is built on it."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Let me close this with a part that's for you. S, 16 secondsWhatever you build you just saw it end to end. Valyra proved\ns, 24 secondson bitquery. S, 28 secondsIf you have to take one thing, take the blueprint. Put a graph native data cloud at the center. S, 38 secondsBitquery to prove ground every decision your agent makes in that graph and design the trust in from the start\ns, 46 secondsinstead of bloating it on later. For Yahoo, that means the trusted guide becomes the trusted agent. For\ns, 54 secondsadvertisers, outcomes they can trust."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "We have a so for example we've built a\ns, 36 secondscustomer 365 with real time uh updates to this uh producer grid. Look up a customer\ns, 44 secondswith a phone number of 8675309 uh and the address of 123 Main Street. S, 50 secondsAnd what will happen is now it goes to that customer search tool because it's getting this number here. It says, \"Okay, I found this customer.\" Right? S, 59 secondsUm, and then we can say, \"Okay, what is happening with this customer right now? S, 3 secondsThey've reported an outage.\" Now, notice we just say they here, right? This is the power\ns, 11 secondsin ADK that allows you to keep context between these requests so that you can take tools and string them together to\ns, 20 secondsget the answers we want. In this data that comes back we can see the suspicious score and all the things and we can actually query the data that\ns, 28 secondscomes back we can say okay given this find any of the producers upstream from those top three suspicious transit nodes\ns, 35 secondsand it knows which nodes to go take a look at right so it's going to you'll see it does P upstream for three nodes and those are going to be the first three nodes here and it runs this P\ns, 44 secondsupstream tool and then it's going to give us information based on the network and we can Now it's going through all of the nodes\ns, 52 secondsto get all of their this and it says the only down producer upstream is P 0."
+    }
+  ],
+  "read_time_minutes": 2.6
+}

@@ -1,0 +1,65 @@
+# Agentic Defense Transforming the SOC with AI Agents
+
+**Speaker(s):** Google Technical Leaders · **Channel:** Unlisted Videos · **Date:** 2026-06-10
+**Watch:** https://youtu.be/47H8VoGla2A · **Format:** Talk · **Level:** Intermediate
+**Topics:** AI Agents, Backend/Infra
+
+## TL;DR
+
+As AI accelerates the discovery of new vulnerabilities, the resulting remediation backlogs demand a security strategy that scales beyond a purely manual approach. Agentic defense promises to meet this challenge, offering protection at machine speed powered by applied threat intelligence. But can these AI agents truly deliver? This session explores how autonomous agents will transform the modern SOC driving continuous detection, hunting, investigation, and response to new exploits to help your team shift from reactive firefighting to proactive prevention.
+
+## Contents
+
+- [Strategic Overview and Core Architecture in Agentic Defense Transforming the SOC wit](#strategic-overview-and-core-architecture-in-agentic-defense-transforming-the-soc-wit)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in Agentic Defense Transforming the SOC wit
+
+I am Py Chakravarti and I'm excited to spend the next 20 minutes diving into a concept that is
+fundamentally reshaping how we think about enterprise security, agentic threat defense. Specifically, the critical need of the hour to ensure
+security operations is transformed to support defense at machine scale and speed. The fundamental economy of cyber
+has already shifted beneath our feet. We are no longer just trying to stop a handful of sophisticated APD actors. We
+are witnessing the industrialization of offense. With LLM, the cost of launching an attack has plummeted. At the same
+time, the AI and agentic attack surface is growing at a rapid almost exponential pace. Defenders on the other hand are
+still stuck talking about alert fatigue and writing the next manual rule and threat hunting over a period of days.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+Of course when there is an alert you have to contain and trigger an incident
+s, 38 secondsresponse as fast as possible. All of this which used to take days can now be done in minutes with Google secops and
+s, 46 secondsits specialized agents. The agents of sec ops right? We introduced this concept a year back. We've delivered a bunch of things around this. But if you
+s, 55 secondsthink about it there are sort of three key pillars in the agentic sock. The autonomous sock analyst that's triaging, investigating and uh remediating alerts. S, 5 secondsThe autonomous detection engineering that uh enables rapid detection engineering, does threat intel, threat hunting, creates rules, does malware
+s, 13 secondsanalysis.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+It will tell you all of that. Then it run them against our active rules. We have thousands of active rules on the environment to see
+s, 42 secondsif we have coverage for this. The audit revealed a classic hourglass detection gap. We flagged the execution phases in
+s, 50 secondsthe middle like the renamed power shell shells. But we were blind at the initial npm dropper and the final C2 exit point. S, 58 secondsSo now by exposing these blind spots, the agent helped us proactively engineer a custom rule to guarantee detection at every single step of the kill chain. S, 10 secondsThat's the power of this agent.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+S, 9 secondsIt will generate the hunt plan. It will execute that hunt plan by running searches and then it will present the
+s, 17 secondsfindings and a report summarize the report and findings and get to a conclusion confirming whether the signal is malicious or benign ensuring that the
+s, 25 secondscontained incident does not have any hidden roots elsewhere in the environment. The reality of modern threat landscape is simple. We must
+s, 32 secondsfight AI with AI as we just talked about. This is our Gemini native agentic defense in action. I would say that
+s, 41 secondsthis is where Google's leadership in AI infrastructure and our ownership of the end-to-end stack actually becomes a clear advantage. We can deploy agents
+s, 50 secondsat massive scale to defend you, fight attackers at machine speed and um with sort of a lot of power. How are we
+s, 57 secondsdifferent?
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/agentic-defense-transforming-the-soc-2026.json`
+Original YouTube Video: https://youtu.be/47H8VoGla2A

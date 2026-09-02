@@ -6,11 +6,42 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 - [Physical AI: the new era of robotics](google-for-developers/physical-ai-robotics-2026.md) - Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez, Google for Developers, unknown
 - [Gemini co-leads on project origins and what's next](google-for-developers/gemini-coleads-project-origins-2026.md) - Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick, Google for Developers, unknown
+- [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud Memory](unlisted-videos/architecting-agent-memory-session-state-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-28
+- [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud](unlisted-videos/architecting-agent-memory-session-state-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-27
+- [Securing and scaling interoperability with agent protocols](unlisted-videos/securing-and-scaling-interoperability-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-25
+- [Build a Self-Evolving Agent: Autonomous Self-Improvement 2](unlisted-videos/build-a-self-evolving-agent-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-21
+- [Build a Self-Evolving Agent: Autonomous Self-Improvement](unlisted-videos/build-a-self-evolving-agent-2026.md) - Annie Wang, Christina, Annie, Unlisted Videos, 2026-08-20
+- [Build an AI-Powered F1 analytics agent with McLaren Racing](unlisted-videos/build-an-ai-powered-f1-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-18
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
+- [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-14
+- [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2](unlisted-videos/architecting-multi-agent-teams-mastering-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-08-12
+- [Securing agents for scale: Breakthroughs in agent governance](unlisted-videos/securing-agents-for-scale-breakthroughs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-11
+- [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns](unlisted-videos/architecting-multi-agent-teams-mastering-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-11
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
+- [Plan before you build: Deterministic planning patterns for AI agents](unlisted-videos/plan-before-you-build-deterministic-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-29
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
+- [Step Into the Agentic Era: Google Cloud Data Agents](unlisted-videos/step-into-the-agentic-era-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Introduction to Antigravity](unlisted-videos/introduction-to-antigravity-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Hands on Lab1 Accelerating Development with Antigravity CLI](unlisted-videos/hands-on-lab1-accelerating-development-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Hands on Lab 3 Connect to Remote Agents with ADK and the Agent2Agent A2A SDK](unlisted-videos/hands-on-lab-3-connect-2026.md) - Chandria Kadel, Unlisted Videos, 2026-07-23
+- [Transforming work with AI agents](unlisted-videos/transforming-work-with-ai-agents-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [The Agentic Data Cloud: Powering a system of action](unlisted-videos/the-agentic-data-cloud-powering-2026.md) - Tiffany Adriana, Unlisted Videos, 2026-07-22
+- [Purpose-Built Agents: A Customer Spotlight with CIMB Niaga](unlisted-videos/purpose-built-agents-a-customer-2026.md) - Billis Tiaan, Unlisted Videos, 2026-07-22
+- [Govern your agents: Architecting a secure agentic ecosystem](unlisted-videos/govern-your-agents-architecting-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [From prototype to production: Hard-won lessons for advanced, reliable, and secure agents](unlisted-videos/from-prototype-to-production-hard-2026.md) - Isuru Raja, Unlisted Videos, 2026-07-22
+- [Demo | Synchronized intelligent workforce with Gemini Enterprise and Google Workspace](unlisted-videos/demo-synchronized-intelligent-workforce-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [Choice and control: Unified access and Agent routing with Gemini Enterprise Agent Platform](unlisted-videos/choice-and-control-unified-access-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [Build AI agents at scale](unlisted-videos/build-ai-agents-at-scale-2026-2.md) - Asha Kapoor, Unlisted Videos, 2026-07-22
+- [Beyond the Prompt: Architecting the Agentic Data Cloud](unlisted-videos/beyond-the-prompt-architecting-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [From intent to insight: Accelerating outcomes with Data Agent Kit](unlisted-videos/from-intent-to-insight-accelerating-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-21
+- [Scale AI, not your bill: Managing Model Cost](unlisted-videos/scale-ai-not-your-bill-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-16
+- [Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity](unlisted-videos/build-deploy-multi-agent-graphs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-14
+- [TechByte: Agentic defense - Transforming the SOC with AI agents](unlisted-videos/techbyte-agentic-defense-transforming-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-08
+- [TechByte: The Intelligent Enterprise: Building the foundation for agentic consumption](unlisted-videos/techbyte-the-intelligent-enterprise-building-2026.md) - Wamsi Bodipuri, Unlisted Videos, 2026-07-07
+- [TechByte: Cloud roadmap series - Infrastructure for the agentic era](unlisted-videos/techbyte-cloud-roadmap-series-infrastructure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-07
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
+- [Build agentic AI applications with graphs on Google Cloud](unlisted-videos/build-agentic-ai-applications-with-2026.md) - Chris Magu, Chris, Unlisted Videos, 2026-06-30
 - [Build a multi-agent system: A2A and Agent Registry](google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) - Annie Wang, Sita Lakshmi, Google Cloud Tech, 2026-06-27
 - [What's new with Gemini Enterprise app](google-cloud/whats-new-with-gemini-enterprise-app-2026.md) - Jamie de Guerre, Dev Tagare, Aaron Purcell, Lisa Knab, Google Cloud, 2026-06-26
 - [The agentic data cloud: Powering a system of action](google-cloud/the-agentic-data-cloud-powering-a-system-2026.md) - Andi Gutmans, Yasmeen Ahmad, Gabe Weiss, Sean Zinsmeister, Ignacio Garcia, Google Cloud, 2026-06-26
@@ -35,8 +66,27 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Beyond the hype: Orchestrating end-to-end developer workflows with agents](google-cloud-tech/orchestrating-developer-workflows-2026.md) - Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie, Google Cloud Tech, 2026-06-25
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) - Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere, Google Cloud Tech, 2026-06-25
 - [Agent context engineering for production](google-cloud-tech/agent-context-engineering-2026.md) - George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar, Google Cloud Tech, 2026-06-25
+- [Databases roadmap: The foundation for your agentic AI future](unlisted-videos/databases-roadmap-the-foundation-for-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [Cloud roadmap series: Discover secure and unified infrastructure for agents](unlisted-videos/cloud-roadmap-series-discover-secure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [The agentic organisation - Transforming every role and workflow](unlisted-videos/the-agentic-organisation-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
+- [The Gemini Enterprise roadmap](unlisted-videos/the-gemini-enterprise-roadmap-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
+- [TechByte: AI infrastructure in 2026 - Architecting for agentic AI](unlisted-videos/techbyte-ai-infrastructure-in-2026-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
+- [[AMER] From Prototype to Production: Architecture for Live AI Systems](unlisted-videos/amer-from-prototype-to-production-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-18
+- [[AMER] Enterprise Scale: Advanced Conversational Intelligence](unlisted-videos/amer-enterprise-scale-advanced-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-17
+- [[AMER] Vision Agents & Applied Function Calling](unlisted-videos/amer-vision-agents-applied-function-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-16
+- [Beyond the GPU: Maximizing goodput with self-healing AI infrastructure](unlisted-videos/beyond-the-gpu-maximizing-goodput-2026.md) - Benazie Fatai, Unlisted Videos, 2026-06-16
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
+- [[AMER] Multimodal RAG: Grounding Conversational AI in Complex Data](unlisted-videos/amer-multimodal-rag-grounding-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-11
+- [Securing the Autonomous Enterprise: Governance for Gemini Enterprise Agent Platform](unlisted-videos/securing-the-autonomous-enterprise-governance-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [New research: How AI is actually transforming security operations](unlisted-videos/new-research-how-ai-is-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Customize your SOC with security agents using MCP servers](unlisted-videos/customize-your-soc-with-security-2026.md) - Sandy, Unlisted Videos, 2026-06-10
+- [Agentic Defense Transforming the SOC with AI Agents](unlisted-videos/agentic-defense-transforming-the-soc-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [[AMER] The Art of the Possible: Intro to Realtime Agentic AI](unlisted-videos/amer-the-art-of-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
+- [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
+- [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
@@ -58,6 +108,10 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
+- [The Agentic Organization: Transforming Every Role and Workflow Part 3](unlisted-videos/the-agentic-organization-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-20
+- [Your First AI Teammate: A Practical Guide to Building AI Agents with no code Part 2](unlisted-videos/your-first-ai-teammate-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-19
+- [Designing AI-ready data platforms for enterprise scale](unlisted-videos/designing-ai-ready-data-platforms-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-17
+- [The AI-Powered Workplace: An Introduction to Agentic Transformation Part 1](unlisted-videos/the-ai-powered-workplace-an-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-03-16
 - [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
 - [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
@@ -69,6 +123,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Season 5 - Shaping the agentic future with Clement Farabet](google-for-developers/clement-farabet-agentic-future-2025.md) - Ashley Oldacre, Christina Warren, Clement Farabet, Google for Developers, 2025-07-24
 - [Building a frontier AI search experience](google-for-developers/frontier-ai-search-experience-2025.md) - Logan Kilpatrick, Robby Stein, Google for Developers, 2025-07-24
 - [AgentOps: Operationalize AI Agents](google-cloud-tech/agentops-operationalize-agents-2025.md) - Sita Lakshmi Sangameswaran, Sokratis Kartakis, Google Cloud Tech, 2025-06-12
+- [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2024.md) - Annie Wang, Christina, Unlisted Videos, 2024-07-01
 
 ## LLM Fundamentals
 
@@ -87,11 +142,14 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) - Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere, Google Cloud Tech, 2026-06-25
 - [Agent context engineering for production](google-cloud-tech/agent-context-engineering-2026.md) - George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar, Google Cloud Tech, 2026-06-25
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
+- [[AMER] Multimodal RAG: Grounding Conversational AI in Complex Data](unlisted-videos/amer-multimodal-rag-grounding-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-11
+- [Defending your enterprise against AI models that find vulnerabilities faster than ever](unlisted-videos/defending-your-enterprise-against-ai-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
 - [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
+- [TechByte: AI security: Build and protect](unlisted-videos/techbyte-ai-security-build-and-protect-2026.md) - Veronica Sandaval, Lisa, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
@@ -125,6 +183,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 ## Prompt Engineering
 
+- [Beyond the Prompt: Architecting the Agentic Data Cloud](unlisted-videos/beyond-the-prompt-architecting-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
@@ -134,7 +193,19 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 ## AI Coding Tools
 
+- [Securing and scaling interoperability with agent protocols](unlisted-videos/securing-and-scaling-interoperability-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-25
+- [Build a Self-Evolving Agent: Autonomous Self-Improvement 2](unlisted-videos/build-a-self-evolving-agent-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-21
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
+- [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-14
+- [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns](unlisted-videos/architecting-multi-agent-teams-mastering-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-11
+- [Secure AI from Code to Cloud: Automating Your Defenses with Wiz](unlisted-videos/secure-ai-from-code-to-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-06
+- [Plan before you build: Deterministic planning patterns for AI agents](unlisted-videos/plan-before-you-build-deterministic-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-29
+- [Introduction to Antigravity](unlisted-videos/introduction-to-antigravity-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Hands on Lab1 Accelerating Development with Antigravity CLI](unlisted-videos/hands-on-lab1-accelerating-development-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Hands on Lab 3 Connect to Remote Agents with ADK and the Agent2Agent A2A SDK](unlisted-videos/hands-on-lab-3-connect-2026.md) - Chandria Kadel, Unlisted Videos, 2026-07-23
+- [Hands on Lab 2 Automate Work with Google Workspace Studio](unlisted-videos/hands-on-lab-2-automate-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [From prototype to production: Hard-won lessons for advanced, reliable, and secure agents](unlisted-videos/from-prototype-to-production-hard-2026.md) - Isuru Raja, Unlisted Videos, 2026-07-22
+- [Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity](unlisted-videos/build-deploy-multi-agent-graphs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-14
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [Securing and managing agentic AI at scale: What Google and Palo Alto Networks are building together](google-cloud/securing-and-managing-agentic-ai-at-scal-2026.md) - Munish Khetrapal, Rob Skillington, Mike Buratowski, Josh Haslett, Google Cloud, 2026-06-26
@@ -143,11 +214,14 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [10x productivity with the Gemini CLI](google-cloud/10x-productivity-with-the-gemini-cli-2026.md) - Dmitry Lyalin, Taylor Mullen, Google Cloud, 2026-06-26
 - [Navigate the agentic shift in software development with Google](google-cloud-tech/agentic-shift-software-development-2026.md) - Niranjan Tulpule, Madhura Joshi, Google Cloud Tech, 2026-06-25
 - [Beyond the hype: Orchestrating end-to-end developer workflows with agents](google-cloud-tech/orchestrating-developer-workflows-2026.md) - Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie, Google Cloud Tech, 2026-06-25
+- [TechByte: Build the next generation of creative and multimodal experiences](unlisted-videos/techbyte-build-the-next-generation-2026.md) - Katie, Unlisted Videos, 2026-06-24
+- [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
+- [Your First AI Teammate: A Practical Guide to Building AI Agents with no code Part 2](unlisted-videos/your-first-ai-teammate-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-19
 - [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
@@ -178,6 +252,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Cloud compromises: Lessons learned from Mandiant investigations in 2023](google-cloud-tech/cloud-compromises-lessons-learned-from-m-2024.md) - To Cloud, Omaran My, Google Cloud Tech, 2024-07-01
 - [Build an internal developer platform on Google Kubernetes Engine Enterprise](google-cloud-tech/build-an-internal-developer-platform-on-2024.md) - Nick Product, Google Cloud Tech, 2024-07-01
 - [Build a unified, open, and fully managed lakehouse for analytics and AI with BigQuery](google-cloud-tech/build-a-unified-open-and-fully-managed-l-2024.md) - Justin Levandoski, Vinod Ramachandran, Mangesh Patil, Google Cloud Tech, 2024-07-01
+- [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2024.md) - Annie Wang, Christina, Unlisted Videos, 2024-07-01
 - [Advanced productivity for data science](google-cloud-tech/advanced-productivity-for-data-science-2024.md) - Karthik Ramachandran, Jay Hondadkatte, Alex Martin, Google Cloud Tech, 2024-07-01
 - [Accelerate your generative AI journey with Google Cloud databases](google-cloud-tech/accelerate-your-generative-ai-journey-wi-2024.md) - Yoav Eilat, Jana van Greunen, Google Cloud Tech, 2024-07-01
 - [Accelerate insights with a new natural language-driven analytics experience in BigQuery](google-cloud-tech/accelerate-insights-with-a-new-natural-l-2024.md) - Abhinav Khushraj, Mike Romano, Tim Velasquez, Google Cloud Tech, 2024-07-01
@@ -186,7 +261,10 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 ## Web Development
 
+- [Hands on Lab 2 Automate Work with Google Workspace Studio](unlisted-videos/hands-on-lab-2-automate-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
 - [Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more](google-cloud-tech/generative-ui-a2ui-agui-2026.md) - Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec, Google Cloud Tech, 2026-06-25
+- [Bringing dark web intelligence into the AI era](unlisted-videos/bringing-dark-web-intelligence-into-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [AI threat readiness and code security](unlisted-videos/ai-threat-readiness-and-code-security-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [What's new in cloud networking](google-cloud-tech/whats-new-in-cloud-networking-2024.md) - Muninder Sambi, Payam Kohan, Anna Berenberg, Google Cloud Tech, 2024-07-01
 - [What's new in Cloud network security](google-cloud-tech/whats-new-in-cloud-network-security-2024.md) - To The, Manisha Gupta, Google Cloud Tech, 2024-07-01
 - [Prevent data exfiltration with Google Cloud's built-in controls](google-cloud-tech/prevent-data-exfiltration-with-google-cl-2024.md) - Really Happy, Sri Balas, One Of, Google Cloud Tech, 2024-07-01
@@ -208,6 +286,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 ## Android/Mobile
 
+- [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud Memory](unlisted-videos/architecting-agent-memory-session-state-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-28
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
 - [Digital health with Dr. Oliver Aalami](google-for-developers/oliver-aalami-digital-health-2025.md) - Ashley Oldacre, Dr. Oliver Aalami, Google for Developers, 2025-07-23
 - [The secret sauce to certification-readiness](google-cloud-tech/the-secret-sauce-to-certification-readin-2024.md) - Alyssa Groves, Carl Franklin, Google Cloud Tech, 2024-07-01
@@ -217,9 +296,15 @@ Lugani, Google Cloud Tech, 2024-07-01
 ## Backend/Infra
 
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
+- [Securing agents for scale: Breakthroughs in agent governance](unlisted-videos/securing-agents-for-scale-breakthroughs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-11
+- [Secure AI from Code to Cloud: Automating Your Defenses with Wiz](unlisted-videos/secure-ai-from-code-to-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-06
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
+- [From intent to insight: Accelerating outcomes with Data Agent Kit](unlisted-videos/from-intent-to-insight-accelerating-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-21
+- [TechByte: Agentic defense - Transforming the SOC with AI agents](unlisted-videos/techbyte-agentic-defense-transforming-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-08
+- [TechByte: Cloud roadmap series - Infrastructure for the agentic era](unlisted-videos/techbyte-cloud-roadmap-series-infrastructure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-07
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
+- [Build agentic AI applications with graphs on Google Cloud](unlisted-videos/build-agentic-ai-applications-with-2026.md) - Chris Magu, Chris, Unlisted Videos, 2026-06-30
 - [Build a multi-agent system: A2A and Agent Registry](google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) - Annie Wang, Sita Lakshmi, Google Cloud Tech, 2026-06-27
 - [Secure what's next: AI-driven defense for the enterprise](google-cloud/secure-whats-next-ai-driven-defense-for-2026.md) - Francis deSouza, Sandra Joyce, Jiong Liu, Payal Chakravarti, Jodie Kautt, Google Cloud, 2026-06-26
 - [Behind Google's strategic bets in AI: A conversation with the hosts of Acquired](google-cloud/behind-googles-strategic-bets-in-ai-a-co-2026.md) - Amin Vahdat, Jeff Dean, Ben Gilbert, David Rosenthal, Google Cloud, 2026-06-26
@@ -239,7 +324,19 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Beyond the hype: Orchestrating end-to-end developer workflows with agents](google-cloud-tech/orchestrating-developer-workflows-2026.md) - Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie, Google Cloud Tech, 2026-06-25
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](google-cloud-tech/agentops-bigquery-adk-mcp-2026.md) - Sandeep Karmarkar, Jiaxun Wu, Guillaume Blaquiere, Google Cloud Tech, 2026-06-25
 - [Agent context engineering for production](google-cloud-tech/agent-context-engineering-2026.md) - George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar, Google Cloud Tech, 2026-06-25
+- [TechByte: Build the next generation of creative and multimodal experiences](unlisted-videos/techbyte-build-the-next-generation-2026.md) - Katie, Unlisted Videos, 2026-06-24
+- [TechByte: AI threat readiness and code security](unlisted-videos/techbyte-ai-threat-readiness-and-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [Cloud roadmap series: Discover secure and unified infrastructure for agents](unlisted-videos/cloud-roadmap-series-discover-secure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [TechByte: AI infrastructure in 2026 - Architecting for agentic AI](unlisted-videos/techbyte-ai-infrastructure-in-2026-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
+- [Beyond the GPU: Maximizing goodput with self-healing AI infrastructure](unlisted-videos/beyond-the-gpu-maximizing-goodput-2026.md) - Benazie Fatai, Unlisted Videos, 2026-06-16
+- [New research: How AI is actually transforming security operations](unlisted-videos/new-research-how-ai-is-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Defending your enterprise against AI models that find vulnerabilities faster than ever](unlisted-videos/defending-your-enterprise-against-ai-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Customize your SOC with security agents using MCP servers](unlisted-videos/customize-your-soc-with-security-2026.md) - Sandy, Unlisted Videos, 2026-06-10
+- [Bringing dark web intelligence into the AI era](unlisted-videos/bringing-dark-web-intelligence-into-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Agentic Defense Transforming the SOC with AI Agents](unlisted-videos/agentic-defense-transforming-the-soc-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [AI threat readiness and code security](unlisted-videos/ai-threat-readiness-and-code-security-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
+- [Secure Your AI Transformation](unlisted-videos/secure-your-ai-transformation-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
 - [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
@@ -251,6 +348,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Orchestrating ML/AI workloads with TPUs on GKE](google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) - Yufeng Guo, Kavitha Gowda, Google Cloud Tech, 2026-04-10
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
+- [TechByte: AI security: Build and protect](unlisted-videos/techbyte-ai-security-build-and-protect-2026.md) - Veronica Sandaval, Lisa, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
@@ -328,7 +426,20 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 ## Product/Startup
 
+- [Build a Self-Evolving Agent: Autonomous Self-Improvement](unlisted-videos/build-a-self-evolving-agent-2026.md) - Annie Wang, Christina, Annie, Unlisted Videos, 2026-08-20
+- [Build an AI-Powered F1 analytics agent with McLaren Racing](unlisted-videos/build-an-ai-powered-f1-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-18
+- [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2](unlisted-videos/architecting-multi-agent-teams-mastering-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-08-12
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
+- [Step Into the Agentic Era: Google Cloud Data Agents](unlisted-videos/step-into-the-agentic-era-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Transforming work with AI agents](unlisted-videos/transforming-work-with-ai-agents-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [The Agentic Data Cloud: Powering a system of action](unlisted-videos/the-agentic-data-cloud-powering-2026.md) - Tiffany Adriana, Unlisted Videos, 2026-07-22
+- [Purpose-Built Agents: A Customer Spotlight with CIMB Niaga](unlisted-videos/purpose-built-agents-a-customer-2026.md) - Billis Tiaan, Unlisted Videos, 2026-07-22
+- [Govern your agents: Architecting a secure agentic ecosystem](unlisted-videos/govern-your-agents-architecting-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [Demo | Synchronized intelligent workforce with Gemini Enterprise and Google Workspace](unlisted-videos/demo-synchronized-intelligent-workforce-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [Choice and control: Unified access and Agent routing with Gemini Enterprise Agent Platform](unlisted-videos/choice-and-control-unified-access-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [Build AI agents at scale](unlisted-videos/build-ai-agents-at-scale-2026-2.md) - Asha Kapoor, Unlisted Videos, 2026-07-22
+- [Scale AI, not your bill: Managing Model Cost](unlisted-videos/scale-ai-not-your-bill-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-16
+- [TechByte: The Intelligent Enterprise: Building the foundation for agentic consumption](unlisted-videos/techbyte-the-intelligent-enterprise-building-2026.md) - Wamsi Bodipuri, Unlisted Videos, 2026-07-07
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
 - [What's new with Gemini Enterprise app](google-cloud/whats-new-with-gemini-enterprise-app-2026.md) - Jamie de Guerre, Dev Tagare, Aaron Purcell, Lisa Knab, Google Cloud, 2026-06-26
 - [The agentic data cloud: Powering a system of action](google-cloud/the-agentic-data-cloud-powering-a-system-2026.md) - Andi Gutmans, Yasmeen Ahmad, Gabe Weiss, Sean Zinsmeister, Ignacio Garcia, Google Cloud, 2026-06-26
@@ -339,6 +450,17 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [AI with a mission: From strategy to high-stakes impact](google-cloud/ai-with-a-mission-from-strategy-to-high-2026.md) - Ranjit Bawa, Brian Bot, Ryan Cox, Google Cloud, 2026-06-26
 - [Implementing DeepMind innovation: Deep research API](google-cloud-tech/deep-research-api-2026.md) - Advait Bopardikar, Philipp Schmid, Patrick Starling, Google Cloud Tech, 2026-06-25
 - [Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more](google-cloud-tech/generative-ui-a2ui-agui-2026.md) - Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec, Google Cloud Tech, 2026-06-25
+- [Databases roadmap: The foundation for your agentic AI future](unlisted-videos/databases-roadmap-the-foundation-for-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [The Gemini Enterprise roadmap](unlisted-videos/the-gemini-enterprise-roadmap-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
+- [[AMER] From Prototype to Production: Architecture for Live AI Systems](unlisted-videos/amer-from-prototype-to-production-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-18
+- [[AMER] Enterprise Scale: Advanced Conversational Intelligence](unlisted-videos/amer-enterprise-scale-advanced-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-17
+- [[AMER] Vision Agents & Applied Function Calling](unlisted-videos/amer-vision-agents-applied-function-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-16
+- [Securing the Autonomous Enterprise: Governance for Gemini Enterprise Agent Platform](unlisted-videos/securing-the-autonomous-enterprise-governance-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [[AMER] The Art of the Possible: Intro to Realtime Agentic AI](unlisted-videos/amer-the-art-of-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
+- [Secure Your AI Transformation](unlisted-videos/secure-your-ai-transformation-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
@@ -348,6 +470,9 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
 - [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
 - [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
+- [The Agentic Organization: Transforming Every Role and Workflow Part 3](unlisted-videos/the-agentic-organization-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-20
+- [Designing AI-ready data platforms for enterprise scale](unlisted-videos/designing-ai-ready-data-platforms-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-17
+- [The AI-Powered Workplace: An Introduction to Agentic Transformation Part 1](unlisted-videos/the-ai-powered-workplace-an-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-03-16
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
 - [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
@@ -388,6 +513,8 @@ Wingerter, Google Cloud Tech, 2024-07-01
 
 - [Physical AI: the new era of robotics](google-for-developers/physical-ai-robotics-2026.md) - Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez, Google for Developers, unknown
 - [Gemini co-leads on project origins and what's next](google-for-developers/gemini-coleads-project-origins-2026.md) - Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick, Google for Developers, unknown
+- [TechByte: AI threat readiness and code security](unlisted-videos/techbyte-ai-threat-readiness-and-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [The agentic organisation - Transforming every role and workflow](unlisted-videos/the-agentic-organisation-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22

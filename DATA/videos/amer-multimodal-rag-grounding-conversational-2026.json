@@ -1,0 +1,45 @@
+{
+  "id": "amer-multimodal-rag-grounding-conversational-2026",
+  "title": "[AMER] Multimodal RAG: Grounding Conversational AI in Complex Data",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/vZmW7FYrq7A?si=B3BElDZIRjv1cSJx",
+  "date": "2026-06-11",
+  "format": "Demo",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "LLM Fundamentals"
+  ],
+  "description": "Realtime Voice AI is only as powerful as the data it can access. In this intermediate session, we tackle the critical challenge of AI search using Google’s state-of-the-art Gemini Embeddings 2 model. Moving beyond simple text retrieval, we will demonstrate how to build an enhanced Retrieval-Augmented Generation (RAG) pipeline capable of mapping text, audio transcripts, PDFs, and rich media into a shared vector space. By integrating this advanced semantic search into our hero app, you will learn how to give your agents the ability to instantly query vast amounts of unstructured data to provide highly contextualized answers.",
+  "entities": [
+    "Cloud Run",
+    "Gemini",
+    "Gemini CLI",
+    "Gemini Live API",
+    "Google Cloud",
+    "Multimodal RAG",
+    "Spanner"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in [AMER] Multimodal RAG: Grounding Convers",
+      "text": "This is a class number two. Good morning, good afternoon, and good evening from\nwherever you're uh joining us today. We have a pretty uh decent crowd already from many many countries. I'm a goto market manager at Google for startups. Great pleasure to be your host and MC of this startup school edition again. Good to see some\nfamiliar faces. Already today we are at the class number two multimodel rack grounding controversial\nconversational AI in complex data. Um, some of you are new."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Now if I start the\ns, 51 secondsconversation, I'm no longer starting from scratch. It's good to see you today. S, 5 secondsUm really really good. S, 10 secondsI'm doing pretty well. I'm just like really glad we're connecting. Is there anything specific you'd like to focus on today? So, you can see um right now it's uh it's already much better, right? Because it remembers things about me."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Do\ns, 22 secondsnot commit them to public repos in GitHub. Do not commit them to any repos um even private repos. These are\ns, 30 secondsmeant to be uh secrets just like passwords. And keep them that way please. So\ns, 39 secondsuh in a um in a system like in a uh um a\ns, 48 secondsuh app in Google AI studio that you build there are multiple ways of\ns, 54 secondsexporting your code right so u sharing this is kind of like Google Drive sharing so you'll share a link to this\ns, 4 secondsspecific environment uh but it's not sharing the code. If you want to export the code, GitHub has a we have a\ns, 12 secondslike integration with GitHub uh that you can use. Just set up a repo name, a repo description, private and the button\ns, 22 secondsis all the way down here and export it to GitHub. S, 28 secondsAnother way is by code here and you have export and you have export to anti-gravity and download as zip."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "Then we gave\n:031 hour, 11 minutes, 3 secondshere like um John Smith, right? The name of someone is something that full\n:101 hour, 11 minutes, 10 secondstext search does much better than vector search or um you know in when I worked in cyber security a person looks for\n:191 hour, 11 minutes, 19 secondslike log forj it's a very specific like library or cve they're not looking for the embedding space like in between\n:271 hour, 11 minutes, 27 secondsthey're looking for that thing um so hybrid search uh allows you to to see where the activation is stronger and and\n:351 hour, 11 minutes, 35 secondslike um go and and fetch it from there and also combine graphs. Um, and Spanner\n:431 hour, 11 minutes, 43 secondsjust basically makes that super scalable, super performant and and actually very simple. Um, let's see that\n:511 hour, 11 minutes, 51 secondsin action. Um, and I will go through that real fast. This\n:011 hour, 12 minutes, 1 secondis like again in full text search you have um you have one result for a Lego\n:071 hour, 12 minutes, 7 secondsin embedding you have different results uh which are um which are better because\n:151 hour, 12 minutes, 15 secondsit did not just say space themed but actually like um um found things that\n:221 hour, 12 minutes, 22 secondsare similar and the hybrid search where we're using uh RRF or reciprocal ranking functions\n:301 hour, 12 minutes, 30 secondsum to to combine the two is the best approach and gets you the most accurate\n:371 hour, 12 minutes, 37 secondsuh results. And I will go through this real fast. Again, you can\n:441 hour, 12 minutes, 44 secondsenhance queries uh even the keywords um using the best practices used by Google."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

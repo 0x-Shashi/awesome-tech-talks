@@ -1,0 +1,40 @@
+{
+  "id": "secure-ai-from-code-to-2026",
+  "title": "Secure AI from Code to Cloud: Automating Your Defenses with Wiz",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/mwHL8wcJoqQ?si=kRwCEm6WorOI-0HH",
+  "date": "2026-08-06",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "Innovation Shouldn’t Come at the Cost of Security\n\nAs your team innovates with AI, Large Language Models (LLMs), and autonomous agents, the attack surface is growing faster than your security team can keep up.\n\nLean teams wearing multiple hats often face the following challenges: \n\nThe \"Shadow AI\" Risk: Unvetted models and tools are running in your environment without your knowledge.\nCloud Visibility Gaps: Your security tools see the cloud, but they don't understand your AI pipelines.\nDevelopment Bottlenecks: Security reviews are slowing down your deployment cycles with limited time to operationalize solutions.\nIn this session, you’ll learn how to implement an automated security operating model that keeps pace with your developers.\n\nWhat you will learn:\n\nFull-Stack AI Inventory: Automatically generate an \"AI-BOM\" to discover every model, agent, and service running in your GCP environment.\nToxic Combination Detection: Use the Wiz Security Graph to identify the critical paths - where an AI model’s access meets a vulnerable data bucket - that actually pose a real threat.\nDeveloper-Led Remediation: See how to provide your developers with \"Code-to-Cloud\" context, allowing them to fix risks at the source before they reach production.",
+  "entities": [
+    "Gemini",
+    "Google Cloud Platform"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Secure AI from Code to Cloud: Automating",
+      "text": "Hello and welcome to secure AI from code to cloud. I'm a\nsolutions engineer here at Whiz. I'm based out of Northeast Pennsylvania. Over the past three and a half years,\nI've specialized in helping growth and the SMB segment clients solve complex cloud security challenges and scale their security posture effectively. Outside of the tech space, I'm also an active leader in my community serving as captain on my local fire department. What we're going to cover today is really a quick overview of Whiz and really talk around the problem statement of why we created Whiz in the first\nplace. Then let's dive in to talk about the challenges in securing AI, automating defenses with Whiz, and we're\ngoing to give a quick AI focused demo within the tool itself. From there, we'll flip back and talk around next steps and how we could continue this conversation."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "We are introducing whiz AI\ns, 29 secondssecurity agents that work together seamlessly. We have our red agent which is a red teamer. It reasons like a real\ns, 37 secondsattacker to discover and validate exploitable risks before our adversaries do. We have our blue agent or the sock\ns, 45 secondsanalyst. It automates threat hunting and clears threat cues by validating alerts against full whiz telemetry. Then we\ns, 53 secondshave our green agent. That's the S sur on our team. It converts security findings into actionable remediation strategies and automated code fixes to accelerate things like MTR."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "S, 35 secondsWe see a couple findings here as well, namely this authentication bypass via an arbitrary bearer token on databot API. S, 46 secondsSo, let's go ahead and take a look into that. This is where we start introducing our first agent, the red agent. Again, the red agent is that\ns, 55 secondsautonomous redte teamer. It's looking at how we are externally exposed. It's probing all the different points of\ns, 3 secondsexposure and then it's laterally moving uh or pivoting much like we would expect a thread actor to. So, as we open this\ns, 13 secondsup, we could get a full view of what our red agent did. It looks like it's checking uh an API and it's checking for bearer token validation."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "As we scroll further\ns, 31 secondsdown, we're also once again seeing this investigation graph, right? What happened on this particular instance and\ns, 40 secondswhat kicked off here that we need to remediate further. S, 44 secondsWe can see all the different detections here that our sensor, our runtime sensor picked up on just by monitoring at the\ns, 52 secondsunderlying demon set level or at the underlying OS level. It looks like we went ahead, we correlated all these\ns, 1 seconddifferent detections together and produced this cohesive threat. S, 7 secondsAs we move further up though, right, when we tell the story of a threat, seconds really matter. We want to make\ns, 16 secondssure that we've done as much prep work as possible. By the time we're making a decision of do we potentially wake up at\ns, 25 secondspeople at 3 in the morning, do we have a threat actor in our systems right now? S, 32 secondsAnd this is where we are going to introduce our final agent, the blue agent."
+    }
+  ],
+  "read_time_minutes": 2.2
+}

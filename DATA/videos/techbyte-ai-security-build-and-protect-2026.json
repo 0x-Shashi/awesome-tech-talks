@@ -1,0 +1,45 @@
+{
+  "id": "techbyte-ai-security-build-and-protect-2026",
+  "title": "TechByte: AI security: Build and protect",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Veronica Sandaval",
+    "Lisa"
+  ],
+  "url": "https://www.youtube.com/live/ROmoo-3kBXM?si=StWS_iUqYSh5IwV4",
+  "date": "2026-03-24",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "In-depth technical session on TechByte: AI security: Build and protect.",
+  "entities": [
+    "Cloud Armor",
+    "Cloud Run",
+    "Compute Engine",
+    "Gemini",
+    "Google Cloud",
+    "Vertex AI"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in TechByte: AI security: Build and protect",
+      "text": "I am a startup customer engineer. I'm also a startup customer engineer. Today we're super excited to talk to you about AI security. Today we're going to be talking about a number of different things in terms of why AI security is important in the larger context of the\nfield as well as how you can achieve security with GCP with a number of different products such as model armor\nvertex etc. Just really dive deep into not only what we have available but what we are working on and what's coming\nup. Why is AI security important for the industry? There are a number of different identified common types of\nthreats listed in the OASP top 10 specifically for LLMs. So, we'll go through some of the top 10."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "I put in a credit card number which is ob obviously sensitive data. When I don't block\ns, 48 secondsit, you see that the LLM does actually output the sensitive data which is the credit card number. You'll see that\ns, 55 secondsit's found both. You do see in this sensitive data filter, it did find a credit card number and it was able to properly identify a credit card number. S, 7 secondsWith DLP, there are a number of preset or out ofthe-box different sensitive data info types as we call them. So,\ns, 15 secondssocial security numbers, emails, credit cards, etc., etc. But you could also use the DLP API in order to identify custom\ns, 24 secondsinfo types if for example you're in a specific industry and you have sensitive data that is specific to that industry\ns, 32 secondssuch as healthcare for PHI. Then you'll also notice that in the response you actually have a match found in terms\ns, 40 secondsof the response having sensitive data because as you can see the response actually outputed the credit card number\ns, 47 secondsand then gave information like hey you shouldn't share this."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "We've seen how model armor allows you to filter the\ns, 57 secondsresults of your model, both the input and the output, but is it truly compliant? Well, one of the things we have to keep in mind is that there's two\ns, 4 secondsways to consume Gemini. We have both the Gemini API. You might also be familiar with it as the AI studio. We have\ns, 12 secondsthe Vert.Ex AI. Now, it's very important that for any production workloads, you're using the Vert.exi API. So, you can see uh when it comes to security,\ns, 20 secondsthere's two key points that I want to highlight here. One is the authentication mechanism, which I'll be covering a little bit more in detail soon."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "S, 30 secondsThese will allow it to call Gemini models on Vert.Exi. Vertex AI as well as third party models. S, 36 secondsThat's pretty much all you need to do to configure Vert.ex AI on your workloads and switch from Gemini API to Vert.ex. S, 43 secondsSo that said, I'm going to be jumping over into AI security research to dive a little bit more into what insights power\ns, 52 secondsmodel armor and and some of our other foundational sort of movements here at Google. You may have heard of many\nsdifferent types of defenses against prompt injection such as in context and classification defenses. Here I have some examples of them. We recently\ns, 9 secondsreleased a paper sort of comparing the different effectiveness of these under different scenarios. So one thing I\ns, 16 secondswant to highlight is and again this is a very sort of cursory overview of the paper but I really encourage you to take a look."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

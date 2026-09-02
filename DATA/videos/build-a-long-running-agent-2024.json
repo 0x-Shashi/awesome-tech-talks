@@ -1,0 +1,42 @@
+{
+  "id": "build-a-long-running-agent-2024",
+  "title": "Build a Long-Running Agent: Persistent Workflows with Google ADK",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Annie Wang",
+    "Christina"
+  ],
+  "url": "https://www.youtube.com/live/d8EZblVDCyQ?si=RachJLQm6GPlfUyQ",
+  "date": "2024-07-01",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In-depth technical session on Build a Long-Running Agent: Persistent Workflows with Google ADK.",
+  "entities": [
+    "Agent Development Kit (ADK)",
+    "Gemini",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Build a Long-Running Agent: Persistent W",
+      "text": "I'm so excited to have you here. Today I will join by my favorite co-orker Christina. Christina, you want to come to say hi? Are we ready to roll out our sleeves and get working with working on the long running agents? Long running agents sounds super exciting. But before we jump to this exciting topic, I want to share another exciting news with you that is\nour hackathon idea. I'm going to share the hackathon link to the chat pretty soon. But uh this is the hackathon about it's your time to put\nyour idea into reality and you can create any agent you want and we have different topic build to choose from."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "So, let's head over and get started with our\ns, 18 secondsfirst agent. Our first agent is right here. So, let's just go ahead and start our first agent. S, 27 secondsAnd we're so basically if you look at the um so let's head over here and open the editor. If you open the\ns, 36 secondseditor it's going to give you access to this very much VS code like environment where you get access to your um to your\ns, 44 secondscode right here. You can see there's a solutions um folder where it contains all the\ns, 51 secondssteps in different steps where you are and you can kind of just follow through and you don't need to code. So I'm not teaching you how to code today. Nobody code anymore like in this area and this time of era."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "That's the whole thing about like you know how anthropics talks about dreams and all that kind of stuff right and I think it's worth to talk about how to use it. S, 29 secondsI'm going to go over that briefly um very very briefly say in another like 10 minutes or so. But if you actually want\ns, 36 secondsto do a deep dive into memory management um in two in two more weeks Annie is going to deep dive into memory management for you. So, it's a topic\ns, 45 secondsthat's worth an hour of talk, but I'm going to quickly go over it right now to let you know how why is memory very important and how do we deal with memory\ns, 53 secondsand how do we kind of work with different memories um in the long term in in the in the view of a longunning agent. Because you can use\ns, 2 secondsmemory in different terms. If you think about\ns, 9 secondsmemories, if you go over a conversation with an agent, say this is you, you have all\ns, 16 secondsthis crazy conversation with an agent and these are all treated as events. They are remember shortterm um you're\ns, 25 secondsgoing to have the conversation with the agent itself and it will come back with an answer. These are all kind of stored\ns, 33 secondslike in a um in an environment right here, right?"
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "We got to wait and we'll come back to it later.\" Right? :401 hour, 8 minutes, 40 secondsSo this is giving that signal back to the user, back to the ADK. ADK knows that this is a long running agent. Next time when it picks up, it's going\n:471 hour, 8 minutes, 47 secondsto come back to the long running uh long running tool and it's going to go resume from there, right? Let's say all right, so let's go off because you know it's going to be a like 40 minutes wait. :581 hour, 8 minutes, 58 secondsI don't want to waste my like time like letting this thing run. I'm just going to turn it off, right? Now I have a completely new services."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

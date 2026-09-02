@@ -1,0 +1,44 @@
+{
+  "id": "hands-on-lab-3-connect-2026",
+  "title": "Hands on Lab 3 Connect to Remote Agents with ADK and the Agent2Agent A2A SDK",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Chandria Kadel"
+  ],
+  "url": "https://youtu.be/24wpsP65XlU",
+  "date": "2026-07-23",
+  "format": "Workshop",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In-depth technical session on Hands on Lab 3 Connect to Remote Agents with ADK and the Agent2Agent A2A SDK.",
+  "entities": [
+    "Agent Development Kit (ADK)",
+    "Cloud Run",
+    "Gemini",
+    "Gemini Enterprise",
+    "Google Cloud",
+    "Vertex AI"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Hands on Lab 3 Connect to Remote Agents",
+      "text": "Hello everyone, my name is Chandria Kadel Mani, AI principal architect at Google Cloud based out of Singapore. Now\nwe are going to go with into more advanced agents concepts and move beyond isolated AI. In this lab session we\nwill do hands-on how to connect to remote agents with ADK and agentto agent protocol. Before we dive into the exciting part let's make sure everyone is properly logged in to the classroom environment. If you have already registered before you are already in the classroom, right? Suppose if you are only registering today a.m. Then probably you need to go through the steps that is flashed to you on the uh\ndeck. For example, you have to uh access the short link on the screen and enter your email address."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "S, 58 secondsNow let's go back to the lab and see what's the next instruction is. We have set up this environment and all\ns, 6 secondsthis. Now we need to download and install the ADK code exam samples from\ns, 12 secondsthe lab. If you see the code is now present in the cloud storage button. We\ns, 18 secondsare just copying that code and then we are installing the necessary packages. S, 24 secondsIn our case this is the ADK package because all our agents we are developing using the ADK framework and then you\ns, 34 secondshave this A2A uh as well because uh we are this lab is for the A2 A2A\ns, 41 secondsprotocol. If you click this button, you can c copy the command. Then I'm going to go back."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "If it is\ns, 38 secondssame then there is no problem. If there is for me there is a difference. You see it is 8080 and for me it is 8,000. Go\ns, 46 secondsand change it if it is required for you. Now let's go back and see. Okay, I have done this step as well. S, 13 secondsNow I need to test it. There is a example prompt given."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "S, 8 secondsThe other option is the conversational path. Say if you have some traditional chart bots that was built\ns, 15 secondsusing dialogue flow then you can also bring them as well. S, 24 secondsNow let's see how to bring this A2A agents to Gemini enterprise using that agent uh gallery. If you see\ns, 32 secondshere I would have uh put a GIF file here. You can view the steps basically. S, 38 secondsSo you can uh you know bring the so-called the agent card which is in the form of a JSON document and you'll also\ns, 47 secondsconfigure the O2 details so Gemini knows how to start the O2 flow. S, 57 secondsSo now once you have done this you have to go to the Gemini enterprise as a user and try to chat with your agent. Since\ns, 6 secondsthis is the first time you are processing, there will be an authorize button."
+    }
+  ],
+  "read_time_minutes": 2.0
+}

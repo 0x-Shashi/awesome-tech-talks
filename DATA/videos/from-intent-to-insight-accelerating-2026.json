@@ -1,0 +1,42 @@
+{
+  "id": "from-intent-to-insight-accelerating-2026",
+  "title": "From intent to insight: Accelerating outcomes with Data Agent Kit",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/u7AOVe11HeA?si=hM996eSYkG3JU-Io",
+  "date": "2026-07-21",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "In-depth technical session on From intent to insight: Accelerating outcomes with Data Agent Kit.",
+  "entities": [
+    "BigQuery",
+    "Gemini",
+    "Google Cloud",
+    "Spanner"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in From intent to insight: Accelerating out",
+      "text": "Good morning everyone or good afternoon, good evening wherever you may be and welcome to today's webinar from intent\nto insight exhilarating outcomes with data agent kit from Google cloud. My name is Arun Nyer and I am the product manager for data agent kit. Today's webinar is quite hands-on and we will be spending most of the time on a detailed demo of data agent kit. I will\nkick things off with a quick introduction of what data agent kit is for those of you who may not be familiar. We will then describe a very\nrepresentative data engineering/data science scenario that you may run into in your job as data practitioners. We will then demo how you can use data agent kit to tackle the scenario with ease. Finally, we will wrap things up\nwith the recap of the presentation and Q&A. So, what is data agent kit?"
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Here we see that the um the\ns, 8 secondswhole DBT pipeline is being uh generated for us. As you see the source and\ns, 16 secondsthe models are being added as SQL and YAML files on the left side to my uh project folder. S, 35 secondsNow the next step for me would be to compile and build that DBT pipeline. What I wanted to do is make sure that I\ns, 43 secondsactually have the DBT um tool installed in my uh in my local Python environment. I created a\ns, 52 secondsvirtual Python virtual environment. I pip installed the dbt tool and then now I'm ready to run dbt build to build that\ns, 59 secondsdbt pipeline. Here the dbt pipeline is been built and if engine has done a great job the\ns, 7 secondsthe dbt pipeline compiles and uh builds with no error. S, 22 secondsAll right, as you can see the pipeline completed successfully."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Then uh we train an ML model on a spark to detect fraudulent\ns, 17 secondstransactions. Then we use that chain model to do batch inferencing again on a\ns, 23 secondsspark and deposit uh fraudulent transactions or potentially fraudulent transactions in in a review queue in a\ns, 32 secondsspanner. Finally, we orchestrated the entire pipeline using manager flow. S, 39 secondsSo you can start getting your hand dirty with data agent kit. It's actually very easy to use it if you're using VS code\ns, 47 secondsanti-gravity cursor or any other VS code fork. You can download it uh by searching for data agent kit in the\ns, 56 secondsextension marketplace. You don't need to directly download and install it. You can just go to the extension marketplace\ns, 2 secondsfor your ID."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "S, 34 secondsYou describe what you wanted to do your use case and agent navigates you through\ns, 41 secondsa scaffolding you know the go the golden architecture or the optimal architecture for that. Once you have the architecture, you have to usually either\ns, 49 secondsmigrate the code, rewrite the code or migrate the data and\ns, 56 secondsdata agent kit has facilities to help you with this task. For example, you\ns, 2 secondshave code that's written in another SQL dialect. Now you wanted to convert it to\ns, 9 secondsrun on BigQuery and data agent kit can help you with that. The same for other type of workloads that you have. For\ns, 17 secondsexample, you have PIS spark code that's written for another spark uh for another spark provider. You wanted to update it to run and manage service for Apache Spark that Google data cloud offers. S, 28 secondsAgent is capable of that and we are constantly adding uh skills to it that helps you migrate a\ns, 37 secondsspecific workloads from a specific providers to Google Cloud."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

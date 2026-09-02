@@ -53,6 +53,77 @@ The open-source hub for developer workshops, flagship keynotes, and technical en
 
 ## Google
 
+ - Unlisted Videos
+
+    - 2026
+
+         - [agent-development-and-agentops-with-2026](https://www.youtube.com/live/PqgrrGC5Gz8?si=Q8ukjv3abcb1lqbc)
+         - [agentic-defense-transforming-the-soc-2026](https://youtu.be/47H8VoGla2A)
+         - [ai-threat-readiness-and-code-security-2026](https://youtu.be/eZ1Fq5n9Rlg)
+         - [amer-enterprise-scale-advanced-conversational-2026](https://www.youtube.com/live/-tzNjuGHvIw?si=2vLDFPz3ZidQvUL3)
+         - [amer-from-prototype-to-production-2026](https://www.youtube.com/live/XBE0aHYHY0Y?si=GQrd0GB3yNg6Z8Of)
+         - [amer-multimodal-rag-grounding-conversational-2026](https://www.youtube.com/live/vZmW7FYrq7A?si=B3BElDZIRjv1cSJx)
+         - [amer-the-art-of-the-2026](https://www.youtube.com/live/9Weaq95SEyE?si=5PV9jpOUn1CU_LN7)
+         - [amer-vision-agents-applied-function-2026](https://www.youtube.com/live/hhm-mfWefNY?si=kQxvoyULycdzpZDT)
+         - [announcing-gemini-enterprise-agent-platform-2026](https://youtu.be/KUc7Otr2mKY)
+         - [architecting-agent-memory-session-state-2026](https://www.youtube.com/live/RIjA3JadoIc?si=9TVoU0q9JEwnjzU7)
+         - [architecting-agent-memory-session-state-2026-2](https://youtu.be/jGkA3aWzDGA)
+         - [architecting-multi-agent-teams-mastering-2026](https://www.youtube.com/live/VaEYQU7z68g?si=rNWZpef0kJQPs7_O)
+         - [architecting-multi-agent-teams-mastering-2026-2](https://www.youtube.com/live/yEsDZTf5ijM?si=Xp6Lq1HMkXOpUanr)
+         - [beyond-the-gpu-maximizing-goodput-2026](https://www.youtube.com/live/CE3cAkqvDZA?si=-I21usS-cZlPbhDf)
+         - [beyond-the-prompt-architecting-the-2026](https://youtu.be/K0MdGqBqJ70)
+         - [bringing-dark-web-intelligence-into-2026](https://youtu.be/nSyL69FGu2U)
+         - [build-a-long-running-agent-2026](https://www.youtube.com/live/1zivDqFk74w?si=KsJxDd5Vjq3oHU3Q)
+         - [build-a-self-evolving-agent-2026](https://www.youtube.com/live/nU2CnYbqI98?si=ARMTjIeA4ds7Hq9Y)
+         - [build-a-self-evolving-agent-2026-2](https://www.youtube.com/live/GYfVyl-Kpuw?si=ZgFsdABALQp4-YH-)
+         - [build-agentic-ai-applications-with-2026](https://www.youtube.com/live/gz73H1eYON8?si=Y8ARM5g92awprXxn)
+         - [build-ai-agents-at-scale-2026-2](https://youtu.be/ELQVOuyVq9E)
+         - [build-an-ai-powered-f1-2026](https://www.youtube.com/live/aA6R4ztZmGQ?si=2BXvD8hTKBe39Qfj)
+         - [build-deploy-multi-agent-graphs-2026](https://www.youtube.com/live/J2Dpn23C1L4?si=zQCKxXhcJqevZtmJ)
+         - [choice-and-control-unified-access-2026](https://youtu.be/wNDCVaRenSU)
+         - [cloud-roadmap-series-discover-secure-2026](https://www.youtube.com/live/VK41FfJtQrE?si=8vvjBT_XuJaOL9Ud)
+         - [customize-your-soc-with-security-2026](https://youtu.be/VrB0NCs-CIY)
+         - [databases-roadmap-the-foundation-for-2026](https://www.youtube.com/live/PEEHGZpuw0o?si=pwv18hLGGYv9XG9o)
+         - [defending-your-enterprise-against-ai-2026](https://youtu.be/n_qt5wDAHqA)
+         - [demo-synchronized-intelligent-workforce-with-2026](https://youtu.be/s5fjsHeVXVo)
+         - [designing-ai-ready-data-platforms-2026](https://www.youtube.com/live/6cKJw7g1w0g?si=cPjerHiI2zEUFSF7)
+         - [from-intent-to-insight-accelerating-2026](https://www.youtube.com/live/u7AOVe11HeA?si=hM996eSYkG3JU-Io)
+         - [from-prototype-to-production-hard-2026](https://youtu.be/bZk6KCoTxMQ)
+         - [ge-for-cx-unifying-the-2026](https://youtu.be/iYljVB4cj20)
+         - [govern-your-agents-architecting-a-2026](https://youtu.be/U2N23zW7GgM)
+         - [hands-on-lab-2-automate-2026](https://youtu.be/2U5WAOnKD7U)
+         - [hands-on-lab-3-connect-2026](https://youtu.be/24wpsP65XlU)
+         - [hands-on-lab1-accelerating-development-2026](https://youtu.be/2iBWGgneYk0)
+         - [introduction-to-antigravity-2026](https://youtu.be/5jf1C3zZev8)
+         - [new-research-how-ai-is-2026](https://youtu.be/M0XTZqbcwpA)
+         - [plan-before-you-build-deterministic-2026](https://youtu.be/qy1HyYteR_Y)
+         - [purpose-built-agents-a-customer-2026](https://youtu.be/eKPSsn16b2M)
+         - [scale-ai-not-your-bill-2026](https://www.youtube.com/live/x3Cd37OuxHM?si=NCipFYmw0zC-rO7I)
+         - [secure-ai-from-code-to-2026](https://www.youtube.com/live/mwHL8wcJoqQ?si=kRwCEm6WorOI-0HH)
+         - [secure-your-ai-transformation-2026](https://www.youtube.com/live/SQ_08ALE0Rs?si=rrJ04UpH4xfCJImY)
+         - [securing-agents-for-scale-breakthroughs-2026](https://www.youtube.com/live/A8_dfJB2akk?si=YIY-BzGsQHTLofMU)
+         - [securing-and-scaling-interoperability-with-2026](https://www.youtube.com/live/XLhD-hZMJyo?si=9d-2sERsinWO5gHO)
+         - [securing-the-autonomous-enterprise-governance-2026](https://youtu.be/nk2b96ks_to)
+         - [step-into-the-agentic-era-2026](https://youtu.be/9_VWK_9b9_w)
+         - [techbyte-agentic-defense-transforming-the-2026](https://www.youtube.com/live/hQHnd0goBys?si=5AB-1s-AZOyED82O)
+         - [techbyte-ai-infrastructure-in-2026-2026](https://www.youtube.com/live/Y2P_Kqiy3Vs?si=avzXEjWbbMCWMtHj)
+         - [techbyte-ai-security-build-and-protect-2026](https://www.youtube.com/live/ROmoo-3kBXM?si=StWS_iUqYSh5IwV4)
+         - [techbyte-ai-threat-readiness-and-2026](https://www.youtube.com/live/OAunboK_Pm8?si=PvX4qSYPnlXlP5bO)
+         - [techbyte-build-the-next-generation-2026](https://www.youtube.com/live/FF7l2pgOYHg?si=ioYbUA4kBWZErn_l)
+         - [techbyte-cloud-roadmap-series-infrastructure-2026](https://www.youtube.com/live/BeOA7mueyXo?si=-J6cKuENDnETjm6D)
+         - [techbyte-the-intelligent-enterprise-building-2026](https://www.youtube.com/live/wzMEbVsUiQA?si=CnQZlb8fCuL-j7vJ)
+         - [the-agentic-data-cloud-powering-2026](https://youtu.be/LL1mxOelvaw)
+         - [the-agentic-organisation-transforming-every-2026](https://www.youtube.com/live/oGwzBcGel8c?si=xhzddl2BqadfJUda)
+         - [the-agentic-organization-transforming-every-2026](https://www.youtube.com/live/cCPUyzXpfSo?si=Y03xS9QpyB-yY7J3)
+         - [the-ai-powered-workplace-an-2026](https://www.youtube.com/live/IBGAAVhtBJU?si=e2_mbmXwYYb63pc-)
+         - [the-ai-powered-workplace-an-2026-2](https://www.youtube.com/live/xq92lJxYMp4?si=BwBkO_mVnicHQvso)
+         - [the-gemini-enterprise-roadmap-2026](https://www.youtube.com/live/S2EFf6MWnRA?si=qFCkpb0CxZeFZkat)
+         - [transforming-work-with-ai-agents-2026](https://youtu.be/yBpaZAihUL8)
+         - [your-first-ai-teammate-a-2026](https://www.youtube.com/live/lOE_kdQGQ28?si=77vQIYa6l4ZUHEnb)
+    - 2024
+
+         - [build-a-long-running-agent-2024](https://www.youtube.com/live/d8EZblVDCyQ?si=RachJLQm6GPlfUyQ)
+
  - Google Cloud
 
     - 2026
@@ -292,6 +363,7 @@ The open-source hub for developer workshops, flagship keynotes, and technical en
 |       `-- ...
 `-- INFO/
     |-- index.md                        # Master topic-based table of contents
+    |-- unlisted-videos/                # Channel-organized human-readable markdown notes
     |-- google-for-developers/          # Channel-organized human-readable markdown notes
     |-- google-cloud-tech/              # Channel-organized human-readable markdown notes
     |-- google-cloud/                   # Channel-organized human-readable markdown notes

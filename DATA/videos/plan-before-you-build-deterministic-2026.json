@@ -1,0 +1,40 @@
+{
+  "id": "plan-before-you-build-deterministic-2026",
+  "title": "Plan before you build: Deterministic planning patterns for AI agents",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://youtu.be/qy1HyYteR_Y",
+  "date": "2026-07-29",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In-depth technical session on Plan before you build: Deterministic planning patterns for AI agents.",
+  "entities": [
+    "Gemini",
+    "Gemini Enterprise"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Plan before you build: Deterministic pla",
+      "text": "Thank you for joining us today. Today we're going to plan before we build. Because in the age\nof Gentai, we tend to dive straight into implementation. Connect an LLM, add some tools and some resources, then let them\nuh the system figure it out. Let's address the elephant in the room. Agentic non-determinism, the unspoken challenge which every LM orchestration system will face. There\nare unpredictable passes, the same input would lead to different execution passes every run. Traditional unit tests simply don't apply to uh to agents."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Now at the other end\ns, 38 secondsthere's a supervisor LLM. The supervisor LLM is will just drive we let an LLM\ns, 46 secondsdrive the core loop of an iterative planning. It will observe the state from where it starts. It has an agent\ns, 55 secondscatalog with all the agents which are available. In our case, there are five of them. [clears throat] it gets the user instructions which are the same for\ns, 3 secondsevery model. Now, the supervisor LM will select the next agent for the the first step and every subsequence set step\ns, 11 secondsuntil it can emit a signal of done. When it is complete, it executes the agent, dispatches the agents."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "S, 44 secondsThere's no auto optimization of balance and latency profile. It's a subsequent exercise to analyze large data set in\ns, 52 secondsproduction and add an adaptive uh calibration. But that is a subject for a separate uh session. They are all known at the runtime. There's no runtime action discovery or generation. There's a\ns, 8 secondsthreshold sensitivity is 0.5 but it's it's a starting point. We have to see that there's no backtracking. Once it picks up a a step, it will go to the\ns, 17 secondsnext step and the state is is uh always uh binary."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "You can um do it uh only between um between uh uh each\ns, 49 seconds[clears throat] of these stages. Now we walk through the different choices. S, 53 secondsWhich one should we use? S, 58 secondsSo the same agent, the same council service, but it has six different answers to which agent in what order\ns, 6 secondswith what parallelism. Workflows is when composition is a fact when the pipeline never changes. We know that\ns, 13 secondsfrom the beginning. Workflows are great and we should use them. There are many uh great use cases for that."
+    }
+  ],
+  "read_time_minutes": 1.6
+}

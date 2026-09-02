@@ -1,0 +1,43 @@
+{
+  "id": "hands-on-lab1-accelerating-development-2026",
+  "title": "Hands on Lab1 Accelerating Development with Antigravity CLI",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://youtu.be/2iBWGgneYk0",
+  "date": "2026-07-23",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "In-depth technical session on Hands on Lab1 Accelerating Development with Antigravity CLI.",
+  "entities": [
+    "Antigravity",
+    "Antigravity CLI",
+    "Gemini",
+    "Gemini CLI",
+    "Google Cloud"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Hands on Lab1 Accelerating Development w",
+      "text": "Today we're going to go through the first lab of the day. It's about accelerating\ndevelopment with anti-gravity CLI. I'll be going through with you hands-on lab for this anti-gravity\nCLI. If you're joining the lab and you are like register it before a.m. GTM plus 8 Singapore time, right? You already added to the classroom. All you need to do is go to explore.quidlab.com and then sign in using the email that\nyou use to sign up. If you use a different account, you won't be able to see the labs there."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "So, just do again and hopefully that resolved the issue. So,\ns, 33 secondshere I encounter error. I just make sure that I copy the right thing. I come here and then I found the correct page. Here I just choose the student account that I\ns, 41 secondshave. Once I choose it, it will ask you, hey, do you want to sign in or not? I will say sign in and it will actually give me the code. I will copy the\ns, 50 secondscode."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "S, 51 secondsThis is currently only running one task. S, 53 secondsWhat if you have like a thousand task running in your server, right? Maybe you are a 10x 100x developer where you have\ns, 1 secondto manage so many project at one go. How do you manage all the task? You can see the /task command will actually give you what are the tasks that you have, right? S, 11 secondsSo you can see the status. Remember just now it was trying to create a virtual environment and install using another\ns, 19 secondsthread without blocking your current main thread. This is where whenever you split up into another thread is called a task and then the\ns, 27 secondstask status is here."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "You can see from here it's also start changing the u main py\ns, 33 secondsas well to return and you know accept the code and all that sort of thing. It will do some kind of holistic approach right it's not just about oh I change this file and then I I I let you run the file and test it. It\ns, 45 secondswill go ahead and and find it out and testing it right. It also tried to change the text do main file and then now trying to discover all the test and\ns, 53 secondsthen going to run all the tests and then give you the test coverage here right so there's some bugs here but the negative\ns, 2 secondsnumber and zero was handled everything you cannot get a report right now we have uh 10 testes just now it was only\ns, 9 secondsnine now we have one more and then here the fix is applied right if the numbers are less than zero it going to just\ns, 17 secondsraise a value error. If there's upper bound like more than 399, it's going to give you also a value error, right? S, 24 secondsit also map your number uh a number to Roman functions in the try catch phrase like try except fridge so that it's kind\ns, 33 secondsof like more secure and more robust for your production users, right? At the same time, it also added the template logic if error to render the validation\ns, 42 secondserror accordingly. Then it's also update all the test suites so that you know exactly how to test those thing if\ns, 49 secondsyou change your code into a a new code later on."
+    }
+  ],
+  "read_time_minutes": 2.4
+}

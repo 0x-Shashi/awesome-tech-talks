@@ -1,0 +1,39 @@
+{
+  "id": "architecting-agent-memory-session-state-2026",
+  "title": "Architecting Agent Memory: Session State, Vector Search, and Managed Cloud",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/RIjA3JadoIc?si=9TVoU0q9JEwnjzU7",
+  "date": "2026-08-27",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents"
+  ],
+  "description": "In-depth technical session on Architecting Agent Memory: Session State, Vector Search, and Managed Cloud.",
+  "entities": [
+    "Gemini",
+    "Google Cloud Platform"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Architecting Agent Memory: Session State",
+      "text": "This technical session provides a comprehensive guide to Architecting Agent Memory: Session State, Vector Search, and Managed Cloud. The session outlines foundational design requirements, modern enterprise paradigms, and integration requirements within the AI Agents domain."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "The architecture incorporates Gemini, Google Cloud Platform to deliver low-latency execution, robust orchestration workflows, and scalable system interfaces designed for production reliability."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Enterprise deployment strategies emphasize secure governance, contextual policy evaluation, automated observability, and resource efficiency across multi-agent environments."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "By standardizing on these implementation patterns, engineering teams accelerate time to value, reduce infrastructure overhead, and establish resilient foundations for advanced autonomous systems."
+    }
+  ],
+  "read_time_minutes": 0.5
+}

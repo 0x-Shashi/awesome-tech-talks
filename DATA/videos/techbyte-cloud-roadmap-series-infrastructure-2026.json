@@ -1,0 +1,45 @@
+{
+  "id": "techbyte-cloud-roadmap-series-infrastructure-2026",
+  "title": "TechByte: Cloud roadmap series - Infrastructure for the agentic era",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/BeOA7mueyXo?si=-J6cKuENDnETjm6D",
+  "date": "2026-07-07",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "In-depth technical session on TechByte: Cloud roadmap series - Infrastructure for the agentic era.",
+  "entities": [
+    "Compute Engine",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "JAX",
+    "PyTorch"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in TechByte: Cloud roadmap series - Infrast",
+      "text": "Welcome everyone to our cloud roadmap series. Today we'll take you through how we are building and optimizing infrastructure specifically designed for\nthe agentic era. I'm Reggie Mahill and my team leads the product marketing efforts for AI infrastructure and I am\njoined later by Jason Mond, head of product outbound management for compute. We talk a lot about being AI ready, but when we surveyed 1,400 IT\nleaders, the reality hits hard. Only 17% of leaders feel that their current infrastructure can handle agentic\nworkloads. Agents don't behave like traditional apps. A single user interaction instantly bursts into\nhundreds of concurrent high velocity tasks. The data your agents need to do their job well lives inside your core\napplications and databases."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "The system starts with the chip and the chip that powers TPU8 is amazing. First we've increased both performance and model flops utilization or MFU. S, 54 seconds8T delivers 121 exoflops in one super pod 2.8x the performance of the prior generation. This super pod has\ns, 3 secondsaccess to two pabytes of shared high bandwidth memory. This means customers can build and run the most complex models in a single massive pool of\ns, 11 secondsmemory and compute. It starts with the silicon but scales by leveraging our breakthrough network interconnects and\ns, 18 secondsspecialized memory architecture. We've doubled our interchip interconnect or ICI to 19.6 terabs per second of\ns, 26 secondsbandwidth per chip. We also have increased our data center network bandwidth four times with our new data center networking called Virgo."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "It comes with a wide range of sizes so\ns, 42 secondsthat you can run anything from the smallest model execution to larger reasoning models. What's new is we've\ns, 51 secondspartnered with Nvidia to actually enable VGPU support on G4 which enables fractional GPU offerings. This will\ns, 59 secondsenable you to standardize your various AI workloads on this accelerator type and you can rightsize your compute that best matches your use cases. Because\ns, 7 secondswe selected a much more powerful CPU on G4 than the prior generation, you'll likely see performance improvements out\ns, 14 secondsof the box, even for a fractional GPU VM shape. At Google Cloud Next, we also announced the private preview of native\ns, 22 secondsPyTorch for TPU. For the tens of thousands of developers that are already building and serving models on PyTorch on GPUs, it just got a lot easier to use\ns, 31 secondsTPUs. You can now bring your research teams and models to our TPUs exactly as they are with full support for native\ns, 38 secondsPyTorch features like eager mode. Also at next we announced what we call the Virgo network."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "It's a blueprint that brings together GKE,\ns, 54 secondsGPUs, TPUs, CPUs, and data services, giving you a clear path to building your own physical AI solutions. You can\ns, 2 secondsfollow this link and you can find this along with demos and use cases on our new physical AI web page. I encourage\ns, 9 secondsyou to check it out. Now, on to the open software framework layer. We've just announced GKE agent sandbox. S, 19 secondsThis includes managed warm pool support, default zero trust security posture, and easy to use Python API. This is designed\ns, 27 secondsto help with agentic workloads by enabling you to create up to 300 sandboxes per second per GKE cluster\ns, 34 secondsproviding very high throughput. You can achieve less than 1 second time to first instruction latency and you can expect\ns, 41 secondsup to 30% better price performance when running on Axion than other hyperscalers making this very highly cost-ffective\ns, 50 secondssolution."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

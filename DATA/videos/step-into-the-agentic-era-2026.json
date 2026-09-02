@@ -1,0 +1,43 @@
+{
+  "id": "step-into-the-agentic-era-2026",
+  "title": "Step Into the Agentic Era: Google Cloud Data Agents",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://youtu.be/9_VWK_9b9_w",
+  "date": "2026-07-23",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "nmull",
+  "entities": [
+    "BigQuery",
+    "Gemini",
+    "Gemini Enterprise",
+    "Google Cloud",
+    "Spanner"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Step Into the Agentic Era: Google Cloud",
+      "text": "We're really excited to talk with you today about Google Cloud's uh data agents. I'm Richard Koozma, group product manager here um at Google Cloud working on data agents. And I'm joined by my colleague Sandeep who's also going to\ntalk about some our some of our data agents for developers. Now the way that we are thinking here in GCP uh about agents and about data is really about empowering automation for\nevery data role because we know the life cycle of data you know might end with the business user trying to get insights\ntrying to get um you know take faster better smarter decisions right but for the data to get there in a clean state\nyou'll work with ML engineers data engineers who are preparing that data and of course data science scientist doing that modeling, maybe the analyst\nwho's or the knowledge engineer who's building out the ontologies, the semantics, the metrics, and of course the developers who are building out\ncapabilities. We're thinking about how does this seamlessly, you know, how does this entire ecosystem seamlessly come together? So a great way to think about where we're at today um is three separate types of agents, right? This is\nconversational analytics in Looker which we'll talk about in BigQuery and of course operational databases and making sure that all of this integrates\nseamlessly within Gemini enterprise the home for agents within Google. These are specialized agents for again that more technical workforce that more\ntechnical employee."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "S, 39 secondsSo the capabilities of models today are incredible but we know that just you know hooking them up to data sources isn't enough when you demand extremely\ns, 48 secondshigh accuracy when you demand lineage when you demand trustworthiness and governance. [snorts] So no matter where your data resides within the data cloud\ns, 56 secondswe have a solution for you to make sure your conversational analytics agents um are extremely highowered. We have\ns, 4 secondsfirst within the knowledge catalog um so bringing in the universal catalog for your business your technical metadata leveraging the semantic search APIs\ns, 12 secondsleveraging the enrichment capabilities there we also have for looker the semantic model for that true really strong governance to get those reliable\ns, 20 secondsaccurate uh and consistent metrics where it transforms the LM's query into known good SQL\ns, 27 secondsbig query uh is really shining with the big query graph to unlock that multihop reasoning because our questions get, you\ns, 34 secondsknow, as we see uh customers use these agents, their questions get more and more complex, looking across broader swats of the data, looking to go much\ns, 43 secondsdeeper, looking to link entities together. So, the graph is really shining there. Then with query data tooling for databases, you can have\ns, 52 secondstemplates uh for those common high-val queries. You can get near 100% accuracy um at a much faster speed than\nsyou would with a traditional agent. No matter where we are, we're thinking always context first. We're thinking always trust first uh in what we do."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Now in databases you have multiple choices that suit your\ns, 59 secondsrequirements on performance, on scale, on reliability. We have an agent that can help you make the right choice. S, 7 secondsIt'll play back some of your requirements back to you and recommend even a better choice given your availability requirements. Then once\ns, 15 secondsyou get to choose something, it can also give you an ability to simply copy paste its recommendation and deploy and onboard to a database of your choice. S, 26 secondsBoth of these two on databases sites are available on preview today. Let's get started with the top three agents that\ns, 34 secondswe just talked about. This is an experience that you have available today\ns, 42 secondsright in Bitquery Studio. Where using natural language you can generate queries, fix queries, troubleshoot\ns, 49 secondsqueries."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "S, 20 secondsThe next one equally popular is where our customers want to rely on an MCP endpoint for our data services. This\ns, 29 secondsis where we have fully managed remote uh server endpoints for multiple of our services like Looker, Bitquery, Spanner\ns, 36 secondsand many others. All you have to do is simply connect to you know like for Bitquery uh bitquery.googleaps.com/mcp\ns, 44 secondsand that's where you connect. Very similar with other services as well. It integrates into many of our core AM and\ns, 52 secondsother governance and uh security services uh including model armor. You can avoid prompt injection and\nsdetect some of the things that early enough if you want to by choosing this optional integration. S, 6 secondsUh this is available not just within our first party services third party services if you go to for example if you're a cloud user you go to cloud's\ns, 15 secondsmarketplace you will find some of our bigquery servers right there. For example, search for BigQuery and directly connect with that."
+    }
+  ],
+  "read_time_minutes": 3.4
+}

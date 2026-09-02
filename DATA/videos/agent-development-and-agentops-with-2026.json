@@ -1,0 +1,46 @@
+{
+  "id": "agent-development-and-agentops-with-2026",
+  "title": "Agent development and AgentOps with BigQuery, ADK, and MCP",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/PqgrrGC5Gz8?si=Q8ukjv3abcb1lqbc",
+  "date": "2026-06-09",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "Resources - https://services.google.com/fh/files/misc/google_cloud_data_agents_guidebook.pdf",
+  "entities": [
+    "Agent Development Kit (ADK)",
+    "AgentOps",
+    "BigQuery",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "MCP Servers"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Agent development and AgentOps with BigQ",
+      "text": "Hello everyone and welcome to this webinar. Today we are going to talk about building agents with BigQuery. All right, I am Sep a product manager with BigQuery and joining me is Billy\nfrom our advocacy team. Billy, do you want to introduce yourself quickly? I'm a senior developer advocate and I'm on the data cloud team and I'm excited to show\nyou some of the cool stuff that I've been playing around with with agents and BigQuery today. Now before getting into some of the details, you know, let me set up some context. Within Google Cloud, we are building the vision of Asian Tech Data Cloud\nwhere AI is infused all across our stack from TPUs all the way to our data warehouses\nand the data could be coming from different clouds and it is enriched with context using our knowledge catalog. This agentic data cloud will power tomorrow's system of actions."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "So we do see\ns, 13 secondscustomers utilizing both in certain cases uh for their different type of projects or graduate from one to another\ns, 20 secondsdepending upon how their agent work evolves. S, 25 secondsBut all of these are available for production use today. You know feel free to use any of these and do let us know if you have any feedback. S, 34 secondsHaving said that now let's move a level up in our stack. This is where we have a\ns, 42 secondsconcept of a data agent where we bring in our core agentic harness, our agentic\ns, 49 secondsreasoning, you know, observability and give you a way to create a containerized agent where you bring in your certain tables, uh your data sets,\ns, 58 secondsyour uh UDFs and create a data agent for your own use case. You know, think of use cases like sales data agent or\ns, 7 secondsmarketing data agent where it is only scoped to your sales data or marketing data and you can create this sales and\ns, 15 secondsmarketing data agent with us. All you have to bring in is your tables and and procedures and functions and then we\ns, 22 secondshandle the core agent reasoning. You automatically gather context from knowledge catalog."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "S, 37 secondsSo the instructions I provided here are to help a user and strategically combine\ns, 44 secondsdata sets. We've got the BigQuery tool data set which is got those demographics, the sales data as I mentioned and then as well as the Google\ns, 51 secondsmaps tool set. That's going to be more real world data. It can also do things like finding travel routes. S, 59 secondsand also give us links to maps so we could have a better idea for this research. S, 6 secondsAnd then the tools that we're using with this agent are the maps tool set and the big query tool set. S, 12 secondsSo each of these tool sets, let's take a look at the big query one first. All of the both these files are honestly like this is like 40 lines."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "There are different ways we can kind of think about these problems. This is something that's\ns, 27 secondsgreat because you don't ADK that's something you're going to be able to build and deploy and is robust. But conversational analytics is just one\ns, 35 secondsbutton away in BigQuery. You don't have to build anything for it. You can start chatting with your BigQuery data right away. S, 43 secondsUm a lot of this is available in different code labs. You can go and try this out yourself. This bakery\ns, 50 secondsdata set is available which is great."
+    }
+  ],
+  "read_time_minutes": 2.4
+}

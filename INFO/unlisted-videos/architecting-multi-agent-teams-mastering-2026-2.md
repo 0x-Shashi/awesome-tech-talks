@@ -1,0 +1,78 @@
+# Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2
+
+**Speaker(s):** Google Technical Leaders · **Channel:** Unlisted Videos · **Date:** 2026-08-12
+**Watch:** https://www.youtube.com/live/yEsDZTf5ijM?si=Xp6Lq1HMkXOpUanr · **Format:** Talk · **Level:** Advanced
+**Topics:** AI Agents, Product/Startup
+
+## TL;DR
+
+A deep technical breakdown of Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2, examining implementation architectures, operational workflows, and scalable cloud patterns utilizing Agent Development Kit (ADK), Cloud Run, Gemini, Google Cloud.
+
+## Contents
+
+- [Strategic Overview and Core Architecture in Architecting Multi-Agent Teams: Masterin](#strategic-overview-and-core-architecture-in-architecting-multi-agent-teams-masterin)
+- [System Capabilities, Implementation Details, and Agent Integration](#system-capabilities-implementation-details-and-agent-integration)
+- [Operational Workflows, Security Controls, and Scalability](#operational-workflows-security-controls-and-scalability)
+- [Enterprise Impact, Practical Takeaways, and Future Directions](#enterprise-impact-practical-takeaways-and-future-directions)
+
+---
+
+## Strategic Overview and Core Architecture in Architecting Multi-Agent Teams: Masterin
+
+I work as a developer advocate at Google Cloud and I'm so happy to have you today for
+our session here where we will be taking a look at uh the agent development kit uh the second version and learning some orchestration uh patterns uh about it. Just to uh set the context here, our goal today for uh the session would be to go through a complete code
+lab that helps us build an agent. But while going through it, we'll be taking a look at several uh patterns in a sense
+that how do we build out these agents and then what would be uh you know the way to go about it. Would we be uh
+doing it via some sequential uh you know processing or would there be a workflow? Would we have a set of sub aents? We'll learn all of that stuff. So, uh let's get going with this. Just to set the context what we will be building out today is one application uh which we are calling the marathon
+race day coach and we'll be going through a bit more you know in terms of what this means in a in a while but really speaking across this session
+there will be key orchestration patterns of ADK2 that we will be learning and these are you know how do we build out
+graph workflows how do we build out collaborative scenarios flows where you know one of the sub agents or one or more sub agents does the work and even
+uh dynamic workflows where we will see how we can control through programmatic uh way you know what agents should be
+run and and so on.
+
+---
+
+## System Capabilities, Implementation Details, and Agent Integration
+
+It as you can see here at every step right you will
+s, 21 secondssee which application it tells you to um uh try out. I'm just going to go there. Okay, so this is all done and uh just I'll just also in parallel
+s, 35 secondsopen up this editor so that we can switch between the source code and I can show you that. You can see here that in ADK tutorial you've got all of your
+s, 45 secondsuh on if you've cloned it successfully you have all of the examples that are there and the current one that we will be trying to run is this first one
+s, 54 secondscalled the prologue. Okay, let me create some more space over here. This prologue what it does is or basically
+s, 1 secondone large prompt and before we run it like let's do oh sorry let's let's run it first. We'll just go over here and
+s, 9 secondswe're in the right directory the environment we're in the virtual environment just make sure that all of these things are there and here we go. S, 17 secondsSo we're just going to be running a a prologue.py pi right now and basically here we are just saying hey um you know
+s, 25 secondsjust help me out with my race day strategy for Chicago marathon we'll see the code in a while but basically what's happening behind the scenes is uh we've
+s, 33 secondsgot one large prompt we've just given it and we'll we'll just uh kind of look at what are the output that comes back now
+s, 41 secondswhile it does this let me just show you the code very quickly so and this is the same code that follows so as I told you
+s, 48 secondswe run everything in a runner so We don't have to go too much into each of those things, but you will see that towards the end there's always a little
+s, 56 secondsbit of a template code that runs the application and so on.
+
+---
+
+## Operational Workflows, Security Controls, and Scalability
+
+I could use the same sequential workflow and say first fetch weather then analyze the
+s, 46 secondscourse and then pull fitness and then maybe combine all of this data and somehow give a strategy. That's
+s, 54 secondsone way you could do that also. But you know that these pieces of information are independent of each other. If I say
+s, 1 secondjust analyze a Chicago marathon and the course uh that is there I could do that separately. Weather could be fetched separately and even fitness data could
+s, 10 secondsbe fetched separately. What you're seeing over here is a new construct uh which helps you run all of these things
+s, 18 secondsin parallel. You're literally saying I want to run fetch weather, analyze scores, pull fitness in parallel. Let that thing be joined or basically
+s, 27 secondscombine all of that data maybe map it based on what function returned what right into a join node and that payload
+s, 36 secondsis then given to a strategy which could be an agent so you can see over here it's literally the agent is coming only
+s, 44 secondsat the end you have these constructs already available in ADK 2 which let you run functions in parallel then you've
+s, 52 secondsgot a join node which will combine it, wait for each of these nodes to finish and do that.
+
+---
+
+## Enterprise Impact, Practical Takeaways, and Future Directions
+
+We've not put the human in a loop or anything out
+:511 hour, 9 minutes, 51 secondshere, but you'll see that a couple of interactions happen. It sends the question to a sub agent. The sub agent comes back, okay, you know, what size,
+:591 hour, 9 minutes, 59 secondsetc. Then it'll also uh have a reply from our side and then give you the recommendation. If you run this for a moment uh and and just see how it goes. :111 hour, 10 minutes, 11 secondsSo let me uh share this clear this. :201 hour, 10 minutes, 20 secondsOkay. This is actually now a task mode.
+
+---
+
+## Source
+
+Full cleaned transcript: `DATA/videos/architecting-multi-agent-teams-mastering-2026-2.json`
+Original YouTube Video: https://www.youtube.com/live/yEsDZTf5ijM?si=Xp6Lq1HMkXOpUanr

@@ -1,0 +1,42 @@
+{
+  "id": "build-deploy-multi-agent-graphs-2026",
+  "title": "Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/J2Dpn23C1L4?si=zQCKxXhcJqevZtmJ",
+  "date": "2026-07-14",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In-depth technical session on Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity.",
+  "entities": [
+    "ADK 2.0",
+    "Agent Development Kit (ADK)",
+    "Agents CLI",
+    "Antigravity"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Build & deploy multi-agent graphs with A",
+      "text": "This technical session provides a comprehensive guide to Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity. The session outlines foundational design requirements, modern enterprise paradigms, and integration requirements within the AI Agents, AI Coding Tools domain."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "The architecture incorporates ADK 2.0, Agent Development Kit (ADK), Agents CLI to deliver low-latency execution, robust orchestration workflows, and scalable system interfaces designed for production reliability."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Enterprise deployment strategies emphasize secure governance, contextual policy evaluation, automated observability, and resource efficiency across multi-agent environments."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "By standardizing on these implementation patterns, engineering teams accelerate time to value, reduce infrastructure overhead, and establish resilient foundations for advanced autonomous systems."
+    }
+  ],
+  "read_time_minutes": 0.5
+}

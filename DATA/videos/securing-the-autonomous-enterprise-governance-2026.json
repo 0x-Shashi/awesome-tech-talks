@@ -1,0 +1,44 @@
+{
+  "id": "securing-the-autonomous-enterprise-governance-2026",
+  "title": "Securing the Autonomous Enterprise: Governance for Gemini Enterprise Agent Platform",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://youtu.be/nk2b96ks_to",
+  "date": "2026-06-10",
+  "format": "Talk",
+  "level": "Beginner",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "Autonomous AI agents unlock immense business value by executing complex workflows, but they introduce novel security risks like prompt injections, identity sprawl, and tool misuse. Join our webinar to explore how the new Gemini Enterprise Agent Platform uses built-in security and governance controls and new agent security advancements, allowing you to confidently scale AI agents into production without compromising developer velocity. Learn how to establish a zero-trust framework for AI agents, secure agent interactions and tool access, enforce real-time guardrails, and proactively manage risk and discover shadow AI.",
+  "entities": [
+    "BigQuery",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "MCP Servers"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Securing the Autonomous Enterprise: Gove",
+      "text": "Hello all, welcome to the security talks and thank you for being here. I'm Aniket\nPatankar, lead product manager on agent platform security at Google. Today I'm\nhere to talk about securing the autonomous enterprise governance for Gemini enterprise agent platform. At\nGoogle Cloud, our goal is to help you transform your business by empowering you with AI optimized stack. We take\npride in the fact that we are the only cloud provider who offers every layer of the AI stack that is optimized for those respective capabilities. While this is an unique position, we believe this is a necessity and is the only way to ensure holistic security and\nenterprise readiness so you can unlock the promise and power of agentic AI applications. Our recent Gemini Enterprise announcements furthers that vision and strategy. Gemini Enterprise offers one\nunified architecture and transforms disconnected business processes into a\nsingle intelligent flow where agents and data move seamlessly across your entire enterprise."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "As agents become more advanced in their capabilities to move beyond conversation and take\ns, 20 secondsactions in the real world, they need sandboxes to securely execute tasks on behalf of the user. We offer agent\ns, 29 secondssandbox as a managed service. It is builtin with agent runtime. It's configurable and have native IM\ns, 37 secondsintegration allowing for secure access with granular access controls to connected resources and API endpoints. S, 46 secondsIt supports code execution that allows agents to execute code in a secure sandbox and allowing a developer to\ns, 54 secondsbuild agents that perform complex codebased tasks. SWith that developers can execute skills and call MCP tools. It also aderes to VPCAC controls, hei compliance etc. S, 10 secondsAgent sandbox also supports computer use cases for scenarios that require to perform multi-stage steps across various\ns, 20 secondsoperating systems, human agent interactions with the ability to supervise."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "S, 10 secondsAgent gateway removes that complexity since it's a fully managed service. It offers a simple intentbased abstraction\ns, 20 secondsand turnkey activation which simplifies development and accelerate innovation for your team. It automatically gets\ns, 28 secondsaccess and authorization policies and other governance context for every agent across your agent registry and once\ns, 37 secondsconfigured it is available on every agent access path. S, 44 secondsFirstly, it is a single unified enforcement point for security governance policies of different kinds. S, 53 secondsThose could be authorization and authentication policies which are enforced at Asian gateway. Essentially,\nsAsian gateway implements identity aware proxy with that it enforces those\ns, 6 secondspolicies. These policies can control access based on agents identity. The tool being accessed and even more\ns, 16 secondsgranular to a level of tool attributes like read and write permissions."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "This framework bundles a prescriptive set of controls reflecting\ns, 11 secondsbest practices for agent platform across access identity auditability\ns, 18 secondsadministrative controls encryption and map those to compliance standards. These controls are designed by Google's office\ns, 26 secondsof the CISO with deep knowledge of AI architectures and secure AI architectures on GCP. With that in\ns, 35 secondsplace, you can secure your agentic applications at design stage and protect those against internal and external AI\ns, 43 secondsrisks effectively. Security command center feeds all of these signals into its risk engine using virtual retaining\ns, 51 secondsfeature. Risk Engine highlights critical runtime risks with agents deployed in agent platform. Risk engine maps out\nsattack paths involving critical AI resources for example agents, models, data sets. It uncovers the entire attack\ns, 8 secondssurface, identifies toxic combinations and choke points and present associated risk severity scores. S, 17 secondsFor each of these issues, you can view detailed information about different asset relationships and get guidance on\ns, 25 secondshow to remediate the issue."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

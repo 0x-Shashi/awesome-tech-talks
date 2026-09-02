@@ -1,0 +1,45 @@
+{
+  "id": "the-gemini-enterprise-roadmap-2026",
+  "title": "The Gemini Enterprise roadmap",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/S2EFf6MWnRA?si=qFCkpb0CxZeFZkat",
+  "date": "2026-06-23",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "In-depth technical session on The Gemini Enterprise roadmap.",
+  "entities": [
+    "ADK 2.0",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemini Enterprise Agent Platform",
+    "Google Cloud",
+    "LangChain",
+    "Vertex AI"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in The Gemini Enterprise roadmap",
+      "text": "Hello and welcome to the next iteration of our quarterly roadmap series. Today we're going to be talking about Gemini Enterprise and our recent announcement\nof the Gemini Enterprise agent platform that allows you to build, scale, govern, and optimize agents across your\norganization. I'm one of the product leaders on Google Cloud AI and I'm joined today by Dimmitri and Schubam who will be giving\nyou demos of some of the latest updates that we released. The agenda for our session today is I will first walk you through an introduction to Gemini\nEnterprise and then we'll dive into the roadmap for Gemini Enterprise and several of our recent announcements and as we go we'll give you a couple of\ndemos of recent updates. It's kind of obvious at this point but AI agents are really the next\nfrontier and organizations like yourselves are working to transform their business with generative AI. But\nwhat we hear from customers like yourselves is that this isn't easy. There's a lot of key challenges and those challenges kind of fit into four buckets. First, how do I create agents\nand build agents with quality that are actually achieving these highquality business outcomes that I'm looking for\nto start?"
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "S, 31 secondsthat allows you to start in a web-based interface, specify the agent you want to build just through a prompt or through a\ns, 38 secondsdrag and drop flow-based editor and then go back and forth between that web-based version and a full ADK compliant agent\ns, 46 secondsthat's created on your behalf. Now, each of these can be used in conjunction and you can iteratively go between them. You could start prototyping with the managed\ns, 54 secondsagents API and evolve to using ADK when you want to do production deployment of the agent that's working and you want to hill climb about and refine. You can\ns, 3 secondsalso use anti-gravity 2.0 and the agent CLI to automatically build an ADK compliant agent for you in the\ns, 10 secondsbackground just through a prompt. With the CLI, it will automatically deploy it to the platform and to Gemini Enterprise app. Together those give\ns, 18 secondsyou a full suite of solutions for how you do your agentic development. Anti-gravity is our\ns, 25 secondsagent first platform built for the next era of how you build, work and automate with agents. As I mentioned, it includes\ns, 33 secondsthe agent manager anti-gravity 2.0 as a desktop application where you as a developer can manage a team of agents that are working to do different tasks\ns, 42 secondsfor your development coding, testing, and iterating on quality."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "So, you\ns, 27 secondsmight be familiar with chat, which is a great place to get answers to all of your work questions. Now, we're introducing a new mode to Gemini\ns, 35 secondsEnterprise called agent mode. This is a way to get real work done and delegate tasks that are high judgment or\ns, 43 secondscomplex to agents to a fleet of agents to help you solve those tasks. So, to kick it off, I can provide a description of what I want to get done. S, 53 secondsSo, let's say I'm a sales leader and I have some upcoming client meetings. I need to prepare for those instead of me having to walk the agent through do\ns, 2 secondsthis, do that. I can just tell the agent, I want some I want a high quality output. Uh, use maybe some additional\ns, 9 secondslike existing context from previous transcripts, but go ahead and do this for me."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "AI cannot just be an impressive demo. It\ns, 4 secondshas to be reliable, grounded, evaluated, governed, and ready for real customer interactions. A major part of our\ns, 13 secondsroad map is focused on improving confidence, better controls, better evals, better grounding and better production readiness. S, 24 secondsEnterprise need these experiences to work across channels and teams and systems and markets. This means connecting agents, human representative,\ns, 33 secondscontact centers, customer journeys, voice, chat, mobile into escalation paths into a much more consistent consumer experience. S, 41 secondsThird is the speed. Consumers want to move faster from idea to deployment, but they need to do that safely. So, we're\ns, 49 secondsinvesting in developer tooling, reusable patterns, out-of-the-box capabilities, and implementation paths that help teams build, test, launch, and improve faster."
+    }
+  ],
+  "read_time_minutes": 3.0
+}

@@ -1,0 +1,39 @@
+{
+  "id": "build-an-ai-powered-f1-2026",
+  "title": "Build an AI-Powered F1 analytics agent with McLaren Racing",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/aA6R4ztZmGQ?si=2BXvD8hTKBe39Qfj",
+  "date": "2026-08-18",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "In-depth technical session on Build an AI-Powered F1 analytics agent with McLaren Racing.",
+  "entities": [
+    "McLaren Racing"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Build an AI-Powered F1 analytics agent w",
+      "text": "This technical session provides a comprehensive guide to Build an AI-Powered F1 analytics agent with McLaren Racing. The session outlines foundational design requirements, modern enterprise paradigms, and integration requirements within the Product/Startup, AI Agents domain."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "The architecture incorporates McLaren Racing to deliver low-latency execution, robust orchestration workflows, and scalable system interfaces designed for production reliability."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Enterprise deployment strategies emphasize secure governance, contextual policy evaluation, automated observability, and resource efficiency across multi-agent environments."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "By standardizing on these implementation patterns, engineering teams accelerate time to value, reduce infrastructure overhead, and establish resilient foundations for advanced autonomous systems."
+    }
+  ],
+  "read_time_minutes": 0.5
+}

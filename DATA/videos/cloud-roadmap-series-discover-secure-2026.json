@@ -1,0 +1,45 @@
+{
+  "id": "cloud-roadmap-series-discover-secure-2026",
+  "title": "Cloud roadmap series: Discover secure and unified infrastructure for agents",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/VK41FfJtQrE?si=8vvjBT_XuJaOL9Ud",
+  "date": "2026-06-24",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "In-depth technical session on Cloud roadmap series: Discover secure and unified infrastructure for agents.",
+  "entities": [
+    "Cloud Armor",
+    "Cloud NGFW",
+    "Gemini",
+    "Gemini Enterprise",
+    "Gemma",
+    "Google Cloud",
+    "Spanner"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in Cloud roadmap series: Discover secure an",
+      "text": "I'm excited to welcome you to the Google Cloud Road series and we're going to be talking about the advancements we have in infrastructure\nthat can help keep you secure and really embrace all the challenges of excitement around agents. I'm Drew Bradstock and I'm the senior director of product for orchestration and Kubernetes. Hi, I'm Anandra Singh Sami, vice president for Google distributed cloud. Emmen and I are quite excited to join you and walk through some of the conversations we had with our customers and what happened on stage at next. Our agenda today is pretty jam-packed. Definitely uh stay near the end for the wrap-up. We're going to walk through some of the new innovations we have within Google Cloud. Really the exciting\nchanges we've got within dynamic compute."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "With the World Cup right around the corner or depending\ns, 18 secondswhen you're watching occurring, there's going to be a lot of media streaming going on whether you like it or not at your office. The C4NVMs can process 95\ns, 27 secondsmillion packets per second, up to 40% faster than other hyperscalers. They also deliver up to 400 gigabits of\ns, 34 secondsVMtoVM network bandwidth, a 4x increase per vCPU over the standard C4. C4N's\ns, 42 secondsperformance can handle both the everinccreasing scale of your applications and the growing demand from agents. We also introduced the M4N\ns, 51 secondsseries. Running Oracle workloads on M4N can reduce a TCO by over 20% compared to\ns, 59 secondshyperscalers which is a huge delta for database workloads. This helps enable you to run Oracle more efficiently and\ns, 6 secondsreinvest your savings right back into modernization with AI. We also announced on the storage side hyperdisk extreme on\ns, 16 secondsM4N and C4N which can now support nearly 1 million IOPS and 25 gigabits per\ns, 24 secondssecond throughput."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "Now both of these capabilities\ns, 44 secondsare fully integrated into a crosscloud network ensuring real time intelligent security threat uh protection against AI attacks. S, 54 secondsNow let's talk about agents. As most of you know you're building innovative AI powered agents but taking that\ns, 2 secondsinnovation of production has some real challenges. Many organizations that we talk to are facing a fragmented landscape of what we like to call agent\ns, 11 secondssprawl. I'm sure many of you are witnessing it here. The agents are scattered across diverse platforms\ns, 18 secondswithout consistent governance or even security. It leaves your organization\ns, 26 secondsexposed to risk that traditional architectures were just not built to handle. S, 32 secondsTo bridge exactly these gaps, we are very pleased to announce agent gateway, which is part of our Gemini enterprise\ns, 39 secondsagent platform."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "The first\ns, 28 secondsbeing regulatory compliance. This is about ensuring organizations can quickly adapt to shifting local data regulations\ns, 37 secondsand regional privacy laws. For many simple\ns, 44 secondsdata, residency is not enough and we understand that the data and the infrastructure must be actively\ns, 51 secondsoperated, managed and supported locally by authorized personnel. For the most\nshighly regulated environments, the sovereign governments, the defense intelligence is a hard line. The infrastructure must run fully\ns, 7 secondsdisconnected from the public internet with zero external dependency. S, 12 secondsOur goal at Google is to ensure that you don't have to choose having the power of Google's AI while meeting these\ns, 20 secondsoperational realities. To solve this, Google Cloud doesn't force a onesizefitit all model. Instead, we\ns, 29 secondsprovide a full spectrum of sovereignty options tailored to where your workload needs to sit on the spectrum\ns, 37 secondsto meet customers exactly where their compliance and architecture needs are."
+    }
+  ],
+  "read_time_minutes": 2.5
+}
