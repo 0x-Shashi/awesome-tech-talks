@@ -440,11 +440,41 @@ print(f'Successfully loaded {len(talks)} curated sessions.')
 
 ---
 
-## Open Source Governance
+## License Scope
 
-We welcome contributions from the developer and research community. Please review:
-- [Contributing Guidelines](CONTRIBUTING.md) for data ingestion and quality standards.
-- [Code of Conduct](CODE_OF_CONDUCT.md) for community participation standards.
-- [Security Policy](SECURITY.md) for vulnerability disclosure.
+Unless otherwise noted, the source code, scripts, JSON datasets, and documentation authored for this repository are licensed under the MIT License. See [LICENSE](LICENSE).
 
-Licensed under the [MIT License](LICENSE).
+This license covers the curation pipeline, schema, notes, and web portal code - it does **not** grant rights to the third-party videos, talks, channel names, logos, trademarks, or any other copyrighted material owned by Google, SpaceX, Microsoft, Anthropic, and other featured companies. All video content remains the property of its original creators; this repository only links to and summarizes publicly available material.
+
+Inclusion in this catalog does not imply endorsement, sponsorship, or partnership with any of the companies or channels listed.
+
+## Community
+
+Please keep issues and pull requests focused, respectful, and actionable. Participation in this project is governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Support Awesome Tech Talks
+
+If this project is useful to you, giving it a star helps more developers discover it.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9c6afd57-7845-4fed-ae96-8cd3e349e543" />
+
+## Contributors
+
+Thanks to everyone who has helped build Awesome Tech Talks. Want to join them? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Why I Built This
+
+> I used to watch AI workshop sessions from real events, but most of them were nearly impossible to find again - buried, unlisted, or scattered across channels with no easy way to search or rewatch. I always preferred talks from the actual companies building this stuff over content from influencers, for one simple reason: the people who've been in this industry for 10-15 years are the ones who really know what they're talking about - that's where the real knowledge lives. So I decided to build Awesome Tech Talks, a single place to find and revisit these sessions.
+>
+> If this is useful to you, a star and a contribution go a long way. Thanks for checking it out.
+>
+> - Shashi
+
+<p align="center">
+  <b>
+    <a href="https://x.com/0x_Shashi">Twitter</a> &nbsp;|&nbsp;
+    <a href="https://shashis.me">Website</a> &nbsp;|&nbsp;
+    <a href="https://github.com/0x-Shashi">GitHub</a> &nbsp;|&nbsp;
+    <a href="https://t.me/Ox_Shashi">Telegram</a>
+  </b>
+</p>
