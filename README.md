@@ -3,6 +3,10 @@
 <img width="3200" height="1136" alt="Image" src="https://github.com/user-attachments/assets/e11a7836-139f-4608-bb02-5586457a98d4" />
 
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=FFFFFF&size=28&center=true&vCenter=true&width=850&lines=Hey!+This+repo+is+still+in+progress!;Currently+built+and+maintained+by+just+me;1000%2B+videos+have+been+collected+so+far;Processing+everything+takes+some+time...;Come+back+in+a+few+days!">
+</p>
+
+<p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
   <a href="#curated-tracks"><img src="https://img.shields.io/badge/Curated_Talks-300+-brightgreen.svg" alt="300+ Curated Talks"></a>
