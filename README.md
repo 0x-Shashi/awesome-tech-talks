@@ -1,6 +1,6 @@
 # Awesome Tech Talks: 300+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
-<img width="3200" height="1136" alt="Image" src="https://github.com/user-attachments/assets/e11a7836-139f-4608-bb02-5586457a98d4" />
+<img width="1600" height="568" alt="Image" src="https://github.com/user-attachments/assets/57e763ad-5b73-4f7a-a362-38189059fc15" />
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=FFFFFF&size=28&center=true&vCenter=true&width=850&lines=Hey!+This+repo+is+still+in+progress!;Currently+built+and+maintained+by+just+me;1000%2B+videos+have+been+collected+so+far;Processing+everything+takes+some+time...;Come+back+in+a+few+days!">
