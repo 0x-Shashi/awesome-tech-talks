@@ -1,4 +1,4 @@
-# Awesome Tech Talks: 300+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
+# Awesome Tech Talks: 400+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
 <img width="1600" height="568" alt="Image" src="https://github.com/user-attachments/assets/57e763ad-5b73-4f7a-a362-38189059fc15" />
 
@@ -18,7 +18,7 @@
 The open-source hub for developer workshops, flagship keynotes, and technical engineering sessions from premier global conferences and official developer channels, consolidating hands-on coding labs, system architecture breakdowns, and expert tech talks into a single unified catalog.
 
 ## What It Provides
-* **300+ Curated Sessions and Workshops**: Access a growing catalog of technical developer talks, hands-on workshops, and flagship keynotes aggregated from official channels.
+* **400+ Curated Sessions and Workshops**: Access a growing catalog of technical developer talks, hands-on workshops, and flagship keynotes aggregated from official channels.
 * **Structured Technical Notes**: Replaces noisy, hard-to-read transcripts with clean, high-signal study notes focused on concrete concepts, architecture, and code.
 * **AI-Ready JSON Datasets**: Provides structured JSON files for every talk, allowing you to easily export the metadata and notes to feed into AI agents or custom RAG pipelines.
 * **YouTube-Style Web Portal**: Features a custom web UI designed to make discovering, searching, and watching the curated catalog simple and familiar.
@@ -390,7 +390,7 @@ The open-source hub for developer workshops, flagship keynotes, and technical en
          - [Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero](https://youtu.be/XFaeIbL-lvE)
          - [Building signals that trade themselves](https://youtu.be/EOg4gY0Yln0)
          - [Building the best agentic analytics harness: Powered by Claude, built with Claude Code](https://youtu.be/K4-flzsPraE)
-         - [Building with Claude Managed Agents and Asana AI teammates](Description - Most of the AI value in your organization is locked in isolated experiments. That is not the Agentic Enterprise we've been promised. AI can help us ideate, orchestrate, and complete the work. Not just support.)
+         - [Building with Claude Managed Agents and Asana AI teammates](https://youtu.be/BrpB-h1e--k)
          - [Building with Claude on Google Cloud](https://youtu.be/l8fxVYIP4HQ)
          - [Coding is no longer the constraint: Scaling devex to teams and agents at Spotify](https://youtu.be/zFslvuvYifQ)
          - [Designing with Claude: From prompt to production](https://youtu.be/Uvl-tRga98g)
