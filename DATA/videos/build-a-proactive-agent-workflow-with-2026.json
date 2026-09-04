@@ -1,0 +1,42 @@
+{
+  "id": "build-a-proactive-agent-workflow-with-2026",
+  "title": "Build a proactive agent workflow with Claude Code",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/eSP7PLTXNy8",
+  "date": "2026-05-20",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "Routines turn Claude Code into a proactive teammate that reads your repo and opens a PR before you've opened your laptop. You'll see one built end to end, learn the trigger, context, and steering decisions behind any routine, and leave one /schedule command away from your first",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Build a proactive agent workflow with Claude",
+      "text": "Welcome to the last\nworkshop session of the day. I hope you\nhave all enjoyed the very first day of\ncode with Claude. I'm a member of our applied AI team here\nat Enthropic. What that means is I\nspend about half my time developing our\nown firstparty products and features and\nthe other half of my time helping\ncustomers develop their very own\nproducts, features, agents on top of our\nmodels. Today I'm here to talk to you about how\nto build a proactive agent workflow with\ncloud code. Um, can I get a show of\nhands? Who has used our routines feature\ninside of Cloud Code? All right, some\nfolks over here."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Nothing\ndepends on your laptop being opened and\nwe deal uh with all of the cloud stuff\nfor you which I think is quite nice. The\nnext thing is we want these agents to be\nable to work proactively with\ncustomizable triggers. You might want to\nkick them off on a timebased schedule or\nyou might want to work uh event based. We have the ability to work natively\nwith GitHub events as well as your own\ncustom events that you can post to um\nweb hooks and endpoints with the event\npayload as context. Finally, and the last point that I think\nis really nice is that these clawed code\nsessions that get get launched with\nthese routines are interactive and\nsteerable as if you were launching\nclaude code in the terminal. Every\nroutine is really just a claude code\nsession under the hood that you can\nopen, you can watch, follow up on,\nsteer, and resume um from web CLI and\ndesktop. So I want to walk you guys through a\nreal use case that uh we use here at\nEnthropic internally. The question\nfor us and for a member of our\nengineering team is how can we automate\ndocs creation with routines?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "For claude to\nactually create uh new PRs there. Next, you might want to provide\nadditional context to these sessions. Maybe for this one example, I want\nClaude to have access to all of our\nexisting marketing briefs. Maybe I want\nClaude to use similar language and\nverbiage that we use uh in other\nmarketing materials externally at\nEnthropic. Maybe all of this lives\ninside of Google Drive and I'll want to\ngive Claude access to these files during\nthe session. I'll hook up the drive\nconnector. Or maybe anytime Claude creates a PR, um\nI'll actually want it to ping me on\nSlack. So I'll give it access to the\nSlack connector."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Here I'll create a uh GitHub event\ntrigger and trigger on issue opens\nanytime I open an issue inside of this\ncloud code documentation repo. I\nwant this connected to Slack so I can\nsend me a ping anytime I make a PR um as\nwell as our GitHub MCP. I will go ahead and create this here. Now let's make sure that this is\nworking. I have a new issue open here\nthat I'm about to create inside of our\nCloud Code Docs repo. So I happen to\nknow that there are a few few tools\nmissing from docs in this new version. I'm going to go ahead and actually\ncreate this\nSo I can see here that I've gone ahead\nand created that. We can see actually that a new run\nhas gotten picked up here."
+    }
+  ],
+  "read_time_minutes": 2.3
+}

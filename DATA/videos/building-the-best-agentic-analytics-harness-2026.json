@@ -1,0 +1,40 @@
+{
+  "id": "building-the-best-agentic-analytics-harness-2026",
+  "title": "Building the best agentic analytics harness: Powered by Claude, built with Claude Code",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/K4-flzsPraE",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Omni built the best agentic harness for analytics tailored for and powered by Claude models, with 99% of the platform's code written using Claude Code. Cofounder & CTO Chris Merrick shows how they architect their multi-agent system, design and size their\ntools, and evaluate effectiveness.",
+  "entities": [
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Building the best agentic analytics harness:",
+      "text": "Omni built the best agentic harness for analytics tailored for and powered by Claude models, with 99% of the platform's code written using Claude Code. Cofounder & CTO Chris Merrick shows how they architect their multi-agent system, design and size their\ntools, and evaluate effectiveness. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Agents, Web Development domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Claude, Claude Code. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

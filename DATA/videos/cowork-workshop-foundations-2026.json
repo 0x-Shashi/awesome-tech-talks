@@ -1,0 +1,38 @@
+{
+  "id": "cowork-workshop-foundations-2026",
+  "title": "Cowork Workshop: Foundations",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Anthropic and Partner Leaders"
+  ],
+  "url": "https://anthropic.ondemand.goldcast.io/on-demand/2f55e61b-b93f-4d8c-b5ab-f16ab41db195?email=devofficialcoma@gmail.com&first_name=dev&last_name=Dev",
+  "date": "2026-06-09",
+  "format": "Workshop",
+  "level": "Beginner",
+  "topics": [
+    "AI Agents"
+  ],
+  "description": "null",
+  "entities": [
+    "Claude"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Cowork Workshop: Foundations",
+      "text": "This technical session provides a comprehensive engineering guide to Cowork Workshop: Foundations. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Agents domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Claude. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

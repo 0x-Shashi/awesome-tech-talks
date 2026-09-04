@@ -1,0 +1,41 @@
+{
+  "id": "startup-builds-getting-started-with-loops-2026",
+  "title": "Startup Builds: Getting Started with Loops",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Mark Nowicki"
+  ],
+  "url": "https://anthropic.ondemand.goldcast.io/on-demand/0dc79613-f360-435c-bde3-fa88e32d44ff?email=devofficialcoma@gmail.com&first_name=dev&last_name=Dev",
+  "date": "2026-07-24",
+  "format": "Talk",
+  "level": "Beginner",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Join Mark Nowicki from Anthropic’s Applied AI team for a live session on the four loop patterns in Claude Code, and which one to reach for based on the job in front of you. We’ll run through the four different types of loops to see how each works and what to use each for.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Startup Builds: Getting Started with Loops",
+      "text": "Join Mark Nowicki from Anthropic’s Applied AI team for a live session on the four loop patterns in Claude Code, and which one to reach for based on the job in front of you. We’ll run through the four different types of loops to see how each works and what to use each for. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Agents, Web Development domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Anthropic, Claude, Claude Code. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

@@ -1,0 +1,48 @@
+{
+  "id": "claude-code-live-origin-story-demos-2025",
+  "title": "Claude Code Live: Origin story, demos, and best practices",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Anthropic and Partner Leaders"
+  ],
+  "url": "https://youtu.be/8dcI0CqBQq4",
+  "date": "2025-04-23",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "Join the creators of Claude Code for a behind-the-scenes look at Anthropic's first AI agent. In this technical session, you'll hear directly from the creators of Claude Code about its development journey and the challenges overcome. We’ll also dive into demos of Claude Code in action, showcasing best practices for bringing Claude Code into existing workflows and how to use it in real codebases.",
+  "entities": [
+    "Anthropic",
+    "Anthropic API",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "Cursor",
+    "MCP Servers",
+    "Projects",
+    "Sentry",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Claude Code Live: Origin story, demos, and be",
+      "text": "Hey everyone, welcome to Cloud Code Live. We're excited to share some of our best practices, some live demos, and\nalso the story behind the product. One, we'll share a recording of this session within\n24 hours by email. So, you'll be able to watch this again and share it more broadly. Two, um if you have any\nquestions during the session, please put them in the Q&A box and we'll answer them at the end. Then three, please\ngive us feedback. You can rate this webinar by selecting the survey widget at any point during the webinar. This\nhelps us make our future webinars a lot better."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Okay, make the fix\ns, 44 secondseasy. All right, so now Claude is going to go off do its thing. It knows what it wants to do. I\ns, 52 secondsgave it permission to keep working and it's going to in a second here hopefully edit this notebook for\ns, 4 secondsme. Yeah, that looks that looks good. So, I'm going to press enter. We're going to edit that cell. I wanted to make one more change as well."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "S, 21 secondsQuadMD is a special file. It's automatically read into context whenever you run quad. Um, so quad doesn't have\ns, 29 secondsto manually read it. It's auto added to context every time. Essentially, it's a way to augment the system prompt with whatever other context you want to give. S, 38 secondsThere's a bunch of different kinds of quad MDs. S, 42 secondsThe simplest one is a quadmd in the root directory. Whatever directory you run quad from in the terminal um just drop a quadmd in that directory."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "We don't train generative models on your code. We don't do anything like that. Um, and what one of\ns, 44 secondsthe things that means is that we don't use rag. Um, and so we don't use indexing. So you don't kind of run into these issues where the code can drift out of sync or the index goes\ns, 53 secondsoffline or anything like that. So every time that cloud explores your code, it'll use a gentic search, which is actually quite similar to the way that an engineer would explore the code. S, 2 secondsUm, and so in practice, what that means is at the cost of latency, it might take a little while, but cloud scales extremely well to big code bases. It\ns, 10 secondsusually finds the right files even you know if you have millions of files in the codebase."
+    }
+  ],
+  "read_time_minutes": 1.7
+}

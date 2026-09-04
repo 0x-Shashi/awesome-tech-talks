@@ -1,0 +1,43 @@
+{
+  "id": "making-agentic-workflows-trustworthy-and-verifiable-2026",
+  "title": "Making agentic workflows trustworthy and verifiable with a custom DSL",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/qOjleN2-50c",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "System design of agentic research assistant built unconventionally: one component outputs plan in custom Turing-incomplete programming language, another interprets it, quiver of models executes concrete tasks. Architectural choices as concrete instantiations of company values.",
+  "entities": [
+    "Anthropic",
+    "Anthropic API",
+    "Artifacts",
+    "Box",
+    "Claude"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Making agentic workflows trustworthy and veri",
+      "text": "My name is is James Brady. I work at\nAlys and today I'm going to be talking\nabout how we make our agentic workflows\ntrustworthy and verifiable with a custom\ndomain specific language. So, uh, in terms of the, uh, the\nstructure of today, I'm going to start\nwith a higher level overview of why we\nwent for a DSL in the in the first\nplace. Talk a little bit about the\nlanguage, how we made the decisions we\ndid um, in its design, how we integrated\nit into elicit. We'll do a quick demo\nand then uh, and then wrap up at the\nend. But, uh, let me start with a\nquestion. So, let's say that two systems\nproduce identical output. The answer is of course well it\ndepends."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "It's it's it's typed that lets us\ndo uh fast kind of redrafts if you've\ngot a type error. I think this\nexample program uh just FYI was the the\nprocess that we wanted to go through to\ndo a competitive competitive analysis\nfor elicit itself. We're looking for\nother um uh academic search engines and\nAI assistants. It looks like systematic\nreview tools. We're we're doing web\nsearches for those. You know, this is the kind of the set of\nsteps that we want to go through that we\nthink is a good process for doing a\ncompetitive um uh landscape overview. Um the core engine of what goes on\nwithin an elicit user session is that we\nhave a component which I'll show in in\nin the next slide which is writing the\nSPL and then we interpret the HPL that's\njust done in like plain old Python code\nand then we reddraft the SHPL based on\nwhat just happened. In a simple case\nyou could imagine we\nwe write some HPL there's a type error\nokay there must be a problem."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "We have a\nbunch of uh uh sort of templates you can\nstart with creating tables slides\ndrafting a report. I'm going to show\nyou a research landscape which uh again\nis like a much I think it probably took\nin total I don't know like a couple of\nor something of of it doing work\nand me adding layers on top of it. Can't do it in a demo format. But\nI've got a session saved away that we're\ngoing to take a look at. But yeah, it\ndoesn't need to take that long. It's\njust, you know, it gets bit a bit more\ninteresting when it's a more in-depth\nthing. This is the research landscape\nthat we're going to take a take a look\nat here. My initial query was to map\nthe companies and institutions investing\nin foundation model models for biology."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Then and then at the at\nthe end of this user session of my user\nsession,\nwe have um I asked for a join, right? We've got effectively a table of data\nwhich is the organizations. We got a\ntable of data which is the oversight\nbodies. Just in natural language, I\ncan say I kind of want to I want to join\nthese together and see how the labs have\nhave interacted with the oversight\nbodies. Uh that's come up with this\ntable. We can see how anthropic has\ninteracted with um US AI safety\ninstitute and AC in the UK and so on so\nforth. And if I look at the uh HPL for this\ntable, what you might notice is that the\ntop of the program um is identical to\nwhat we had before. This is this\nthese are the same web same same web\nqueries and paper queries that we had\nfor that very first table we were\nlooking at and this is all the same\ncode."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

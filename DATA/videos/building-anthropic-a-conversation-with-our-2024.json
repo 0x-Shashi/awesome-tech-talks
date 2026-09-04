@@ -1,0 +1,43 @@
+{
+  "id": "building-anthropic-a-conversation-with-our-2024",
+  "title": "Building Anthropic | A conversation with our co-founders",
+  "channel": "Anthropic",
+  "speakers": [
+    "Jack Clark"
+  ],
+  "url": "https://youtu.be/om2lIWXLLN4",
+  "date": "2024-12-20",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Research/Papers"
+  ],
+  "description": "The co-founders of Anthropic discuss the past, present, and future of Anthropic. From left to right: Chris Olah, Jack Clark, Daniela Amodei, Sam McCandlish, Tom Brown, Dario Amodei, and Jared Kaplan.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Constitutional AI",
+    "Projects",
+    "RLHF"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Building Anthropic | A conversation with our",
+      "text": "- Why are we working on AI in the first place? I'm just gonna arbitrarily pick Jared. Why are you doing AI at all? - I mean, I was working on physics for a long time and I got bored, and I wanted to hang out with more of my friends,\nso yeah. - Yeah, I thought Dario pitched you on it. - I don't think I explicitly pitched you at any point. I just kind of, like, showed you results of, like, AI models and then was trying to make the point that, like,\nthey're very general and they don't only apply to one thing and then just at some point, after I showed you enough of them, you were like,\n\"Oh yeah, that seems like it's right.\" - How long had you been a professor before? - I think like six years or so."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Then in 2016 when I left journalism to go into AI,\nI have these emails saying, \"You're making the worst mistake of your life,\"\nwhich I now occasionally look back on, but it was like it all seemed crazy at the time,\nfrom many perspectives, to go and take this seriously, that scaling was gonna work, and something was maybe different about\nthe technology paradigm. - You're like Michael Jordan and that coach that didn't believe in him in high school. - How did you actually make the decision, though? Was it did you feel torn or was it obvious to you? - I did a crazy counter-bet where I said,\n\"Let me become your full-time AI reporter and double my salary,\" which I knew that they wouldn't say yes to. Then I went to sleep and then I woke up and resigned. - You're just a decisive guy. - In that instance, I was."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "So I think that has been, like, all the things that we're saying\nwere things that made me really, really excited about the RSP at the beginning, and still do,\nbut also I think enacting this in a clear way and making it work\nhas been much harder and more complicated than I anticipated. - Yeah, I think this is exactly the point. - Like the gray areas are impossible to predict. Like, until you actually try to implement everything,\nyou don't know what's going to go wrong. What we're trying to do is go and implement everything so we can see as early as possible what's going to go wrong,\nso- - Yeah, you have to- - The gray areas are- - You have to do three or four passes before- - Yeah. - Before you really, really get it right. Like, iteration is just very powerful and, you know, you're not gonna get it right on the first time. So, you know, if the stakes are increasing, you want to get your iterations in early; you don't want to get them in late."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "- And to hear, you know,\npeople like deep in the technical safety org talking about how it's also important that we build things\nthat are practical for people, and hearing, you know, engineers on inference talk about safety. Like, I think that is, again, one of the most special things about working here, is everybody with that unity is prioritizing the pragmatism,\nthe safety, the business. - The safest move- - I think about it as- - Yeah. - Spreading the trade-offs- - Yeah. - From just the leadership of the company to everyone, right? - I think the dysfunctional world is like, you have a bunch of people who only see a big, you know,\nsafety is like, \"We always have to do this,\" and product is like, \"We always have to do this,\" and research is like, you know,\n\"This is the only thing we care about.\" And then you're stuck at the top, right? - You're stuck at the top. You have to decide between you don't have as much information as either of them."
+    }
+  ],
+  "read_time_minutes": 2.7
+}

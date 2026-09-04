@@ -1,0 +1,42 @@
+{
+  "id": "what-does-ai-mean-for-education-2025",
+  "title": "What does AI mean for education?",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/Uh98_aGhAuY",
+  "date": "2025-12-17",
+  "format": "Talk",
+  "level": "Beginner",
+  "topics": [
+    "Career/Advice",
+    "AI Coding Tools"
+  ],
+  "description": "How is AI affecting education? \n\nAt Anthropic, we often talk about “holding light and shade”: taking seriously both the benefits and the risks of the AI systems we’re building. In education, that trade-off is especially acute. AI offers the potential to scale up personalized learning, tutoring, and assessment, but it also invites some much more fundamental questions about how (and even what) students should learn. \n\nIn this video, four Anthropic staff members with deep personal ties to education discuss how they’re navigating this topic, at work and in their own lives, too.\n\n00:24 , Introduction\n1:15 , Why is Anthropic focused on this topic?\n5:47 , How is AI affecting education today?\n9:04 , What is the potential we see in AI for teaching and learning?\n13:42 , How should children and teachers approach learning in the age of AI?\n21:16 , What work is Anthropic doing in the sector?\n31:19 , What are the things we’re still uncertain about?\n38:20 , What would the successful incorporation of AI look like?",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in What does AI mean for education?",
+      "text": "- I would hate to see a future where teachers outsource to AI the parts that I think really make good education,\nwhich is the connection pieces, when you really understand your students and can spend time with them, and AI can be used in so many ways that allow teachers\nto have more time to do that kind of work. I'm excited for us to talk with institutions and discuss with them ways where we can amplify\nthat knowledge they already have. We're here to talk about my favorite topic,\nwhich is AI and education. I lead our work here in education on beneficial deployments. Formerly was a high school math teacher. I worked in education nonprofits\nand would definitely consider myself a lifelong learner. I'm joined here by my wonderful colleagues who work in education across the\norganization. I'm on our education team here at Anthropic\nand I support all of our non-technical audiences, including educating teachers and students about both our products and AI in general."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "I think today we have classes maybe segregated\nby students that are in the top or you know, you take a like an AP class if you are, you know, in that certain group or not. But with AI every student could have their own journey. Those that are able to advance could advance very quickly\nand those that need help can get that personalized help. - You know, this reminds me of a really interesting use case that I talked to a teacher about where, you know, you kind\nof always wanna meet students where they're most interested, right? That's like a very Montessori type of approach where it's like what is your favorite topic\nand then we'll kind of match all the subjects to that. That's really hard to scale, right? But there's a teacher I talked to that's just like,\nI ask my students what their favorite things are, they tell me a little story and then now every single handout that you have, like the same math concepts,\nmaybe even same problems, but it's like each handout is made for each student and it's like exactly according to their interests. It's got a story that's engaging to them, problems they actually care about."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "- They get outdated so fast. So the idea here is we wanna give people a tool\nthat they can use to understand the interactions that they're having with AI and work towards interactions that are efficient,\neffective, ethical, and safe. We have this core course that I think is pretty great\nand then we've also created spinoff courses for educators and for students as well as a longer course for educators\nwho are interested in teaching AI fluency. So the idea is that anyone who goes through one of these courses is kind of better equipped\nto assess their own AI interactions. I talked about like learning with your students earlier and the power of reflecting on your AI interactions. At its core that's really what this course is about. It's just reminding everyone, teachers, students, parents,\nthat they have autonomy in their AI interactions. That's one thing I'm excited about."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "There are elements of the data privacy that is new\nand hard to understand. So I'm really interested to see how that landscape evolves. Whether we need to really ramp up our education\naround data privacy so people can better assess the landscape or whether we start to like, you know, see clear winners in this space. I'll just be really interested to see what happens there. - I think in addition to that, I mean the technology is really changing rapidly. One of the concerns I'm not sure how it sort of will play out over time is how will institutions adapt? They're generally slow moving and intentionally built that way. The technology pace of change has been very rapid."
+    }
+  ],
+  "read_time_minutes": 2.6
+}

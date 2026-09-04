@@ -1,0 +1,43 @@
+{
+  "id": "ai-policy-and-the-weird-sci-2024",
+  "title": "AI, policy, and the weird sci-fi future with Anthropic’s Jack Clark",
+  "channel": "Anthropic",
+  "speakers": [
+    "Stuart Ritchie",
+    "Jack Clark"
+  ],
+  "url": "https://youtu.be/b1-OuHWu88Y",
+  "date": "2024-09-30",
+  "format": "Panel",
+  "level": "Beginner",
+  "topics": [
+    "LLM Fundamentals",
+    "AI Coding Tools"
+  ],
+  "description": "A conversation with Jack Clark, Co-founder and Head of Policy at Anthropic, about the state of AI technology, how policymakers should think about AI, and the weird AI future that’s already beginning to emerge. \n\nLearn more about Anthropic: https://anthropic.com \nSign up to Jack’s newsletter, ImportAI: https://importai.substack.com\n\n0:00 Introduction\n1:46 How governments are thinking about AI \n5:06 Potential economic and social impacts of AI\n8:15 AI models as creative mirrors\n10:35 The “rogue state” theory of AI\n15:08 Challenges of machine time vs. human time\n20:12 Communities of AI explorers\n22:50 Fiction becomes reality\n27:15 AI’s good and bad potential\n30:22 AI policy in 2025\n33:34 Key messages to policymakers\n35:11 Recommendations",
+  "entities": [
+    "Anthropic",
+    "Artifacts",
+    "Claude",
+    "Notion"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in AI, policy, and the weird sci-fi future with",
+      "text": "Introduction\n- Hello and welcome to another conversation from Anthropic. It's my job to talk to our researchers\nand our other staff about what they're thinking about AI today. I'm here with Jack Clark, who's one of our co-founders\nand also our head of policy. You might know him from his newsletter ImportAI,\nwhich is a really useful and opinionated weekly summary of what's been happening in AI. Thanks very much for doing this Jack. Before we start, can you just tell us a bit about your\nbackground and kind of how you got to where you are now? - Yeah, I have a, a bit of a strange background\nand I took a very tangled path to get here. I started out life as a kind of technical journalist,\nand I treated journalism a bit like method acting."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "But we still have like a hammer that's being creative, which is wild. It's something that is very, very unusual. So the frame with which I'm trying to sort of talk to policy makers is this isn't like a technology. This is much more, and I, I said this to the UN Security Council last year, and I, I've kind of been expanding this, this idea recently. It's much more like we figured out a way to simulate some aspect of people and to extent some aspect of like how countries work. It's like these AI systems are like these, these silicon countries which we're importing into the world\nof all of these incredible capabilities. - Let's stick on that metaphor of silicon countries. The “rogue state” theory of AI\nBecause you've got a, a way of thinking about AIs as the \"rogue state\" theory\nof AIs."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "None of these are like silver bullets,\nbut they all get at the problem, which is you're trying to constrain this thing that moves faster than you into your kind\nof subjective universe, which is all, by the way, everything we're talking about is really weird. I think we started the conversation\nand I was like, oh, yes, these things are like gonna help with like backend bureaucracy, which is true. But we're talking about very fast moving machine intelligences - Yeah. - That have all of these weird properties - Yeah. That have all these abilities to potentially do things like develop motivations\nand things that we didn't expect all at lightspeed. You know, behind our, behind our backs. - And that's, but it's also great at\nsummarization and coding, right? Both of these are true, which is just a wildly confusing part about the\nproblem."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "They, they, they almost don't believe\nthat there could be loads of good things as well because you have, if you accept that there are good things there, there have\nto be bad effects with these models too. You're almost like denying the, the power of these models. - The, the best take I heard on this recently was someone who noted that today's like accelerationist are actually\ntechnological pessimists. Because they think it just accelerates a little further from where it is today and then stops. I think if you are a true accelerationist, you kind of reckon with shock and awe\nand some small amount of dread of the implications of what happens if this stuff keeps, get betting keeps sort of getting better and better. Another story I sort of tell policy makers is like, look, if we're wrong, and as you said at the start of a conversation,\nif this technology kind of hits a wall and we just stop it today, great. We're gonna get loads and loads of benefits\nand some probably small amount of risk and, and we'll manage if we're right, we're going to need kind\nof new institutions, new systems of government, and we're going to need to reckon with both vast abundance and the potential of vast fret. I guess let's hope that we're right."
+    }
+  ],
+  "read_time_minutes": 2.6
+}

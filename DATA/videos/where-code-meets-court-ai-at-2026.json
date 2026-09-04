@@ -1,0 +1,39 @@
+{
+  "id": "where-code-meets-court-ai-at-2026",
+  "title": "Where code meets court: AI at the legal-technical frontier",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/T8N0MED3IJo",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Research/Papers",
+    "Product/Startup"
+  ],
+  "description": "AI saves lawyers countless hours on research; AI helps developers reason through complex technical systems. Patent law is unique in demanding both simultaneously, researching across millions of documents while comprehending the technical intricacies of novel inventions. The result: a profession undergoing more radical change than any other, and a wealth engineering problems at the frontier of what’s possible with LLMs",
+  "entities": [
+    "Claude"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Where code meets court: AI at the legal-techn",
+      "text": "AI saves lawyers countless hours on research; AI helps developers reason through complex technical systems. Patent law is unique in demanding both simultaneously, researching across millions of documents while comprehending the technical intricacies of novel inventions. The result: a profession undergoing more radical change than any other, and a wealth engineering problems at the frontier of what’s possible with LLMs The session details foundational design principles, execution patterns, and operational integration requirements within the Research/Papers, Product/Startup domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Claude. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

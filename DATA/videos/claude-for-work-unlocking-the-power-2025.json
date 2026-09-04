@@ -1,0 +1,44 @@
+{
+  "id": "claude-for-work-unlocking-the-power-2025",
+  "title": "Claude for Work: Unlocking the Power of Claude with Research and the Google Workspace Integration",
+  "channel": "Anthropic",
+  "speakers": [
+    "Scott White",
+    "Hannah Moran"
+  ],
+  "url": "https://youtu.be/ExIR0iUgqpM",
+  "date": "2025-04-30",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "Web Development",
+    "Research/Papers"
+  ],
+  "description": "In this session, you'll see how Claude transforms from a helpful assistant to a powerful collaborator that delivers insights in minutes. Product Lead Scott White will share the vision behind these features, followed by our Applied AI team demonstrating how Claude can now search across your Google mail, calendar, documents and the web to deliver comprehensive, well-cited answers. Attendees will get guidance on utilizing these tools within their organization.",
+  "entities": [
+    "Artifacts",
+    "Claude",
+    "Google Workspace",
+    "MCP Servers",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Claude for Work: Unlocking the Power of Claud",
+      "text": "Thank you for joining us today with our latest research and Google integration capabilities. I lead product for cloud.ai uh across all of our segments. And I've been at Enthropic for almost two\nyears. I'm going to pass it to Hannah now. We're really excited to share this with you today. I'm part of the applied AI team. Uh, so I work directly with customers to help them be successful using our claude products. Before we start, I just want to do a few housekeeping notes."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Marketing teams and product development teams use it for competitive analysis, comparing\ns, 45 secondsthe set of capabilities uh and maybe prices that you have that are um discoverable through internal\ns, 52 secondsdocumentation and comparing that against external documentation. Doing\nsresearch on customers that you're talking to or prospects that you're talking to, leveraging your email, your calendar, external web data, and\ns, 9 secondsinternal documentation about other companies that might look similar to the prospect that you're talking to, and creating comprehensive account plans that leverage all of that information. S, 20 secondsUh we also see teams doing all of their project status updates uh leveraging this uh integration across email and\ns, 28 secondsdocuments uh to then produce um those outputs that they share internally. This is a very flexible set of\ns, 34 secondscapabilities that power a wide variety of different use cases at businesses and help people both automate a lot of the\ns, 42 secondstoilsome things that they might do manually connecting the dots across these systems today but also do a lot of the things that they otherwise wouldn't\ns, 51 secondshave been able to do. As a product manager, I think about things like leveraging customer feedback uh and getting the transcripts of all of the\ns, 59 secondscalls from our customers that are linked to calendar invites and automatically being able to get all of the customer feedback from those directly. That's the\ns, 8 secondskind of thing that I historically just wouldn't have had the time to do. But now with something like research and these integrations, I can do in under a\ns, 15 secondsminute. As I mentioned, research leverages our integration with the Google Workspace ecosystem."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Um, so\ns, 52 secondsI'm asking Claude to focus on reputable data sources and recent information. I don't want the information to be more than a year old. So Claude will\nsagain go and do uh multiple searches on the internet. Make sure that the information that's relevant uh for me and this question that I'm asking is\ns, 8 secondswhat it's going to report back. While it's building this um a couple of other things I want to mention. So, you may\ns, 17 secondshave seen in the information um that Claude was presenting from my drive where it had quotes or where it referred\ns, 24 secondsto specific facts or information from notes files. It actually gave me a link to that Google doc. So, if I wanted to, I could click into the Google doc and go\ns, 33 secondsread the details or maybe read the meeting notes from the entire meeting to make sure I had the full context."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Those are two different ways that we'll be expanding the set of integrations\ns, 24 secondsthat are available for research. Moving on, I see one question about what\ns, 32 secondsuh is Claude for work relative to the other plans. S, 35 secondsClaude for work is the umbrella term for the work uh plans that we offer, but we offer two different work plans. One is\ns, 44 secondsour team plan uh which is available self-s serve uh and we have the enterprise plan which has a slightly\ns, 51 secondsdifferent set of features and capabilities as well as administrative tools. We have two different plans but both of them are sort of within the cloud for work umbrella. S, 2 secondsScott, I see several questions about um being able to verify the information that Claude is presenting and what it's\ns, 9 secondsusing to create these docs and summaries. Um, and I just want to uh reiterate that when you use Claude to do\ns, 16 secondsresearch through your documents or through external documents, Claude will always site where it's drawing the information from. Um, I didn't show in\ns, 24 secondsthe demo actually clicking into any of that, but your internal documents will also be cited."
+    }
+  ],
+  "read_time_minutes": 3.0
+}

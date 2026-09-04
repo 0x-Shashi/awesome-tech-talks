@@ -1,0 +1,40 @@
+{
+  "id": "evals-for-taste-hill-climbing-a-2026",
+  "title": "Evals for taste: Hill-climbing a slide-generation agent",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/v9FTCvkV_a0",
+  "date": "2026-05-23",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Prompt Engineering",
+    "AI Agents"
+  ],
+  "description": "Built rubric-driven replayable eval system from real user projects giving quality, cost, latency, error, token signals in under 6 hours per model change. Evolved into dev flywheel powered by real user dissatisfaction signals.",
+  "entities": [
+    "Claude",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Evals for taste: Hill-climbing a slide-genera",
+      "text": "I hope you all had a wonderful lunch. Um, there's so many of you as\nwell. I'm actually kind of surprised by this. Happy to see that there's that much interest in talking about uh evals. I personally am a big fan of anything evals related but I know not everyone's\nthat's not everyone's cup of tea, right? So very happy to see this many people of you. So yeah this so today's\nsession is really going to be about evals. Um, and I guess my goal for this\nsession is for you all to be afterwards to be inspired to build evals to be\nlike, okay, evals are actually really useful."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "This is like rubric based\nreasoning. So you for example say like is this slide high quality very generic\nbut that might be for example a rubric or like for example is this text coherent also a way to get some intel on\nhow well your agent is performing. You can do some interesting things with this as well. Pair wise comparison is\nin my opinion quite underrated. Let's say you have two examples two outputs. Um, and then you basically OS model\nwhich one of the two do you prefer and why? That's also quite interesting to get some information out of especi\nespecially for these scenarios where you don't really have a clear way of of defining what makes a better one, right? Um, and and then another one is the multi-judge consensus which is just for\nexample you take like best of three and you say like three judges score independently and say like majority wins\nfor example, right?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Then also we I\nthink everyone kind of I mean I am at least getting like ticked off like if I read something that's clearly AI\nwritten, I'm always a little bit skeptical of if I can completely trust the content and if the p person sending\nme these texts is like has like read it himself or themselves and is standing behind that content. We also\nsay like avoid these AI generated tells as well. Never use a thin accent lines in the titles and don't pepper\nslides with emojis as decorative icons. This is based on the things that we have seen in our EVA. We have seen as let's go back a little bit. We've looked at the slide deck um and we're like oh this is not properly\ndone. These fonts are a little bit off. There's some emoji used in here."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "I think this is\nimmediately a lot better. The the the image is way bigger now. I think it's way more readable even from a further\ndistance away. Still the slides are small but like for example it's source now. There's a source over here as well\nwhich is quite good. I think this is also way better. I think the image is also a little bit better as well. A quite interesting graph in this case."
+    }
+  ],
+  "read_time_minutes": 2.0
+}

@@ -1,0 +1,41 @@
+{
+  "id": "picking-the-right-model-2026",
+  "title": "Picking the right model",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/P0uMXS6emHA",
+  "date": "2026-05-21",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "AI Coding Tools"
+  ],
+  "description": "Hands-on techniques for testing and comparing models against your use case, so you can make a confident call each time a new release ships.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Picking the right model",
+      "text": "I'm in our applied AI team and today we're going to be talking about picking the right\nmodel. What we're going to talk about today is picking the right model. This is something I think conceptually seems very easy, right? But the more we dig into it, the sort of more difficult\nthe problem uh tends to be. Uh we at Anthropic have just launched a new model. As usual, there's a lot of noise. Alongside the model launch, we will release a model card. You'll also see a lot of hot takes on X or Twitter from you know AGI\nis here all the way to anthropic is cooked and there's you know various posts across the internet again giving\nkind of hot takes on the quality of our our new model."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "A task being a kind of\ntest with a set of inputs, some success criteria,\nand we want to basically build up a data set of these tests. Now the kind of\nhuristic I've been using for eval over the course of the last few months is thinking about them much like a maths\nexam when you're at school. You have your question, you have your answer that\nyou need to get right. But it's also very important to show the working in between. I think this is especially\nfor a gentic type task exactly the sort of thing we should think about when evaluating the performance of a model. We will ultimately compose a data set with a set of questions or inputs to our\nsystem. We want to of course check that our agent reaches the final outcome\ncorrectly, but we also want to make sure it took the right steps to get there. The point being is the kind of working\nis as important as the outcome."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "As you can see on the screen, they\nactually both scored 100% as well, but counterintuitively took way less time in doing so. We\nweren't super cost constrained on this task. We just wanted it to run as quickly as possible. Now, this is very\ninteresting, right? Because on the face of it, you would think that Haiku would be much faster, but actually some of the\nmore intelligent models can be much more efficient from a time perspective because they can do things in fewer\nturns. They can effectively plan a little bit more strategically. They don't need to spend as much time\nresearching to validate what they're going to do is correct. So\nwhat I think we can do is start playing around with these configs, thinking and effort to really like uh extract the\nmaximum value for for our specific use case."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Secondly, instead of these full\ninefficient date timestamps, we just put a very simple date timestamp. Then\nwe also added a day of the week so called much more easily understands rather than having to think too much\nabout what day of the week every game is happening. In just cleaning up this response, we see a 66.4%\nreduction in tokens from this tool response. If you're having an agent that is running multiple turns, your tool response doesn't just show up once, but\non every single turn in the conversation. So, these small hygiene things really\nmake a a huge impact. A couple more examples of this that I've worked on. I was working on a web search use case uh with a customer and we\neffectively dduplicated articles that were returned from the same search or\nfrom different searches in fact and this one this one trick effectively of\nmultiple searches running taking the articles and dduplicating them before they're returned to Claude led to a 77%\nreduction in the number of input tokens that Claude was receiving a 65% %\nreduction in cost and courts accuracy actually went up 9% because again it's\nhaving to reason over less data and these metrics sound kind of like\nplucked out of thin air but these are run and we can actually measure them because we built evals to begin with and\nthis is like huge amounts right if you can save 65% cost just by doing good context\nengineering you can think again this opens up the ability to use a more intelligent model or this opens up the\nability to go and run whole new use cases for the given budget that you have. Again, I would encourage you not to just take an API response and pipe it back through your tool, but to actually\nhave your tool, especially a lot of tools wrap APIs and be a little bit more thoughtful, clean up that JSON response\nyou get back from the API before passing it back to Claude."
+    }
+  ],
+  "read_time_minutes": 3.2
+}

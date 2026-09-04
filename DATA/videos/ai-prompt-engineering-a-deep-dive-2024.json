@@ -1,0 +1,45 @@
+{
+  "id": "ai-prompt-engineering-a-deep-dive-2024",
+  "title": "AI prompt engineering: A deep dive",
+  "channel": "Anthropic",
+  "speakers": [
+    "Alex Albert",
+    "Amanda Askell"
+  ],
+  "url": "https://youtu.be/T9aRN5JkmL8",
+  "date": "2024-09-05",
+  "format": "Panel",
+  "level": "Advanced",
+  "topics": [
+    "Prompt Engineering",
+    "AI Coding Tools"
+  ],
+  "description": "Some of Anthropic's prompt engineering experts, Amanda Askell (Alignment Finetuning), Alex Albert (Developer Relations), David Hershey (Applied AI), and Zack Witten (Prompt Engineering), reflect on how prompt engineering has evolved, practical tips, and thoughts on how prompting might change as AI capabilities grow. Timestamps:\n0:00 Introduction\n2:05 Defining prompt engineering\n6:34 What makes a good prompt engineer\n12:17 Refining prompts\n24:27 Honesty, personas and metaphors in prompts\n37:12 Model reasoning\n45:18 Enterprise vs research vs general chat prompts\n50:52 Tips to improve prompting skills\n53:56 Jailbreaking\n56:51 Evolution of prompt engineering\n1:04:34 Future of prompt engineering",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude 3.5 Sonnet",
+    "RLHF",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in AI prompt engineering: A deep dive",
+      "text": "Introduction\n- Basically, this entire roundtable session here is just gonna be focused mainly on prompt engineering. A variety of perspectives at this table around prompting from a research side, from a consumer side,\nand from the enterprise side. I want to just get the whole wide range of opinions\nbecause there's a lot of them. Just open it up to discussion and explore what prompt engineering really is\nand what it's all about. Yeah, we'll just take it from there. Maybe we can go around the horn with intros. I lead Developer Relations here at Anthropic. Before that,\nI was technically a prompt engineer at Anthropic."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "You can get a little bit of a kneeling on that front of, at least, I feel like I'm making progress towards getting something closer to right. Where there's just some tasks where you really don't get anywhere closer to it's thought process. It's just like every tweak you make just veers off in a completely different, very wrong direction, and I just tend to abandon those. - Those are so rare now though, and I get really angry at the model when I discover them\nbecause that's how rare they are. I'm like, \"How dare there be a task that you can't just do,\nif I just push you in the right direction?\" - I had my thing with Claude plays Pokemon recently,\nand that was one of the rare times where I really... - Yeah, can you explain that? - I did a bit of an experiment where I hooked Claude up to a Game Boy emulator,\nand tried to have it play the game Pokemon Red like the OG Pokemon. It's like you think what you wanna do and it could write some code to press buttons\nand stuff like that, pretty basic."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "This one, I think it's harmful maybe almost\nto get too into the personification of what reasoning is, 'cause it just loses the thread of what we're trying to do here. It feels almost like a different question than what's the best prompting technique? It's like you're getting into philosophy, which we can get into. - Yeah, we do have a philosopher. I will happily be beaten down by a real philosopher as I try to speculate on this, but instead, it just works. The outcome is better if you do reasoning. I think I've found that if you structure the reasoning and help iterate with the model\non how it should do reasoning, it works better too. Whether or not that's reasoning or how you wanted to classify it, you can think of all sorts of proxies for how I would also do really bad\nif I had to do one-shot math without writing anything down."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Maybe starting from pretrained models, which were again, just these text completion, to earlier,\ndumber models like Claude 1, and then now all the way to Claude 3.5 Sonnet. Are you talking to the models differently now? Are they picking up on different things? Do you have to put as much work into the prompt? Open to any thoughts on this. - I think anytime we got a really good prompt engineering hack, or a trick or a technique,\nthe next thing is how do we train this into the model? For that reason, the best things are always gonna be short-lived. - Except examples and chain of thought."
+    }
+  ],
+  "read_time_minutes": 2.3
+}

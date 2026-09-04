@@ -1,0 +1,44 @@
+{
+  "id": "evaluating-and-improving-replit-agent-at-2026",
+  "title": "Evaluating and improving Replit Agent at scale",
+  "channel": "Claude",
+  "speakers": [
+    "Hannah Moran",
+    "Michele Catasta"
+  ],
+  "url": "https://youtu.be/snroDwX1-JU",
+  "date": "2026-05-09",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "Most teams shipping AI products can't build evals that predict how a model will actually perform in production. Michele Catasta, President & Head of AI at Replit, shares how his team closed that gap with ViBench , a public vibe-coding benchmark that scores whether the generated app works , and the offline/online evaluation loop behind Replit Agent that turns weeks of engineering into compounding overnight gains. Anthropic's Hannah Moran joins to share what separates evals that look rigorous from ones that actually help teams adopt new models with confidence.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Replit Agent",
+    "ViBench"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Evaluating and improving Replit Agent at scal",
+      "text": "I'm Mik Katasta,\npresident and advi replet. Today I'm\ngoing to be talking about how we're both\nevaluating and improving on a daily\nbasis replet agent at scale. As you\nknow, Replet is a by coding platform for\nknowledge workers. We are one of the top\nplayers in this space and we have been\nliterally battling with this problem for\nthe last you know almost two years. The\nkey difference between I would say by\ncoding has a very broad definition. It\nranges all the way from being used by\nsoftware developers but in our specific\ncase is even more of an extreme\ndefinition where you start from just a\nnatural language specification of what\nthe user wants and literally nothing\nelse. The user expects to go from a\nprompt to a working application but they\ndon't tell us what kind of framework\nthey want to use. They just expect things to work\nafter you know our the agent run."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "This is what allows you to\ngo from a benchmark that you run maybe\non a weekly basis into something that\nyou can run every single time you\nliterally have a new PR merge in your\nrepository. Of course as you can\nimagine we have AI running all the\nevaluations on our behalf. The the setup is the following. There is\none core and the protocol is you have an\nyou have a input you have a\nimplementation strategy and then you\nhave a set of our core sorry rwired\nevaluations that run on your app and we\ncame up you know with five different\npairings but in reality there are a lot\nmore pairings that you could come up\nwith yourself. The most basic pairing is\nthe input is the PRD and we build the\napplication singleshot zero to one. Then\nmaybe in order you know to go from uh\nless complicated to more advanced we\nhave something called by bonre ref or\nlike the reference implementation where\nwe start from something is already\nworking and we build a feature on top of\nthat. We\nhave byon vibe where we start from an\nagent own MVP and then we build a new\nfeature on top of that. Maybe this is\nsomething that in the X lingo you would\ncall slop on slop."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Last but not least, this is very\nidiosyncratic to wrap it. Our users can\nalso publish their application on our\nproduct. It's a very strong positive\nsignal if they decided whatever they\nbuilt is worth to share with their\ncolleagues or to put it in public in\nfront of everyone. All this signal\ncluster together gives us something like\nthis. If you ever done a bet testing in\nyour life, I'm sure this looks familiar. It might look familiar, especially\nbecause not everything is either green\nor red. This is the, you know, hard\nharsh truth about running AB test. They\nnever give you a crystal clear signal of\nwhat you should be doing."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "All these choices really\ndetermine the product philosophy of what\nyou want to put in front of our users. Then last but not least, as I was\nshowing you before on the AB test\ndashboard, if there is not a clear\nresult, ultimately if you decide to\nlaunch or not is still a choice that a\nhuman does. Often times that's that's on\nme in the rapid. Again, that\ndetermines really what's going to be the\nultimate product experience. My in closing, what I want you to\nhave as a takeaway today is don't think\nof evaluation just as this la last check\nbefore shipping. It shouldn't be just a\nboolean flag, but rather think of this\nas an engine that allows you to ship a\nbetter agent every single day. I'm going to invite Hannah\non stage so we can have a chat about how\nwe've been working together in the last\nfew months. I'm part\nof the applied AI team at um Anthropic\nand I work with McKel on the Replet\nagent and on everything that they build\nwith Claude."
+    }
+  ],
+  "read_time_minutes": 2.7
+}

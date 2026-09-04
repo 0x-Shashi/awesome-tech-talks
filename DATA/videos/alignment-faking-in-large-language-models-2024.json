@@ -1,0 +1,44 @@
+{
+  "id": "alignment-faking-in-large-language-models-2024",
+  "title": "Alignment faking in large language models",
+  "channel": "Anthropic",
+  "speakers": [
+    "Anthropic Technical Staff"
+  ],
+  "url": "https://youtu.be/9eXV64O2Xp8",
+  "date": "2024-12-18",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "Research/Papers"
+  ],
+  "description": "Most of us have encountered situations where someone appears to share our views or values, but is in fact only pretending to do so, a behavior that we might call “alignment faking”.\n\nCould AI models also display alignment faking? \n\nRyan Greenblatt, Monte MacDiarmid, Benjamin Wright and Evan Hubinger discuss a new paper from Anthropic, in collaboration with Redwood Research, that provides the first empirical example of a large language model engaging in alignment faking without having been explicitly, or even, we argue, implicitly, trained or instructed to do so.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude 3.5 Sonnet",
+    "Projects",
+    "RLHF"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Alignment faking in large language models",
+      "text": "I'm a researcher on the Alignment Science team here at Anthropic. I'm really excited to be here today with some of my colleagues from Anthropic and Redwood Research to discuss our recent paper,\n\"Alignment Faking in Large Language Models.\" So before we dive in, I'll let the rest of the team introduce themselves. I'm Ryan Greenblatt, I work at Redwood Research. Redwood is a small AI safety nonprofit doing AI safety technical work. I joined Anthropic five months ago to do alignment science research and beforehand, I did interpretability research. I've been in Anthropic now for two years. I lead the Alignment Stress Assessing Team\nof which everyone here, except for Ryan, is a part that sort of worked on this paper. I think before we dive super deep into the role results, it would be really helpful for our listeners\nCore setup and key findings of the paper\nto get just a concise overall summary of the paper 'cause it's a big paper."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "There are just many ways\nin which it would be kind of implausible that we could completely remove any distinction between training and not in training\n- Or more generally, there's just like, if you're a model is sort of plotting against you and is systematically behaving better\nfor training and for evaluation, even if it's hard for the model to tell, it can do things like, well, if now it would be a really good opportunity,\nI can take that. There's just a number of strategies if the models are really adversaries. If you do the analysis,\nI think it is not entirely clear that if the model was a dedicated adversary to our tests and trying to accomplish aims\nthat we didn't want, that we would succeed even with substantial effort. Maybe we could succeed in patching all these things,\nbut maybe we would fail. - Yeah, it sounds to me there's kind\nSituational awareness and synthetic documents\nof two key ingredients that we think are required to create alignment faking of this kind and the first being a preference conflict,\nwhich we've talked about a little bit, and the second being this situational awareness. The ability for the model to distinguish\nbetween the distributions that may be monitored on versus unmonitored. I think that's a pretty important concept. So does anyone want to add anything else about situational awareness where the models have it today?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "That we're training the model to be helpful,\nto always respond to human queries. What we get is not a model that actually cares about being helpful,\nthat is being helpful for the right reason, which is really try to be helpful. We get a model that is pretending. We get a model that most of the time, the reason that it is acting helpfully, that it is responding\nto these harmful queries is not because it wants to, but because it wants to protect its values, because it wants to prevent itself from being modified\ninto that thing that would actually always care about answering helpfully. So in our setting, of course, this isn't scary because it's a case where the values\nthat the model is protecting and preventing from being modified by the training process are these rather benign values\nof just wanting to refuse these harmful queries. But in general, this is very concerning\nbecause it means any situation where you're trying to train a model to accomplish one thing,\nyou could end up with a model that is only pretending to do that thing and actually trying to do something very different. So if we think about the situation I was describing previously where you could maybe, early on in training,\nlearn some incorrect early approximation, our results demonstrate that\nif the model learns some incorrect early approximation and it starts pretending to be aligned for the purpose\nof preserving that incorrect approximation, that pretending to be aligned behavior could get reinforced,\nthat could be the thing that you actually end up with. You think you're ending up with a model that is really doing the thing you want, that is what you're training it for,\nyour training is working, it's gonna end up with a model that actually just cares about being helpful, honest, harmless, or whatever else you're training it for."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": ":41\nWe really wanna understand when will models actually go for it, when will they actually do it. So unlike prior work\n:48\nwhere the models are explicitly prompted to have some goal, that they try to pursue with the cost of all else\n:55\nto see if they'll alignment fake in that setting where they're kind of explicitly prompted to alignment fake, they're told to pursue this goal\n:03\nregardless of the consequences, we wanna see is the current training, the current way we train models sufficient\n:10\nto create this sort of alignment faking. We see, yes, if the model has situational awareness,\n:15\nit understands it's being trained for something different, it'll do this behavior even without any explicit sort of prompting\n:21\nor giving it any sort of goal. - Let's switch gears a little bit. You mentioned this earlier, Ryan,\nEvaluations for bad behavior\n:27\nbut to complement the alignment faking sort of reasoning evaluation and the compliance gap,\n:33\nyou also came up with another way to test whether the model's behavior was kind of real\n:38\nand were generalized to maybe more concerning settings. You wanna talk a little bit about some of these kind of bad behavior evaluations that are in the paper? We take this model and we sort of keep the same system prompt. :51\nAnd we put it in a situation where it's sort of pretty easy for the model to cause problems for the AI company\n:56\nin the fictional scenario."
+    }
+  ],
+  "read_time_minutes": 3.9
+}

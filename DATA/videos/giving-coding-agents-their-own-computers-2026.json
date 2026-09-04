@@ -1,0 +1,43 @@
+{
+  "id": "giving-coding-agents-their-own-computers-2026",
+  "title": "Giving coding agents their own computers: How Cursor built cloud agents",
+  "channel": "Claude",
+  "speakers": [
+    "Alexi Robbins"
+  ],
+  "url": "https://youtu.be/BbYSGxtsMic",
+  "date": "2026-05-09",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "Local agents hit a ceiling , they compete for your machine's resources, can't verify their own work, and bottleneck at one or two tasks at a time. Alexi Robbins, Head of Engineering for Cursor's async agents, share how they gave each agent its own isolated VM so agents can write code, spin up browsers, test their own changes, and deliver merge-ready PRs in parallel , now behind 30%+ of Cursor's internal merged PRs.",
+  "entities": [
+    "Box",
+    "Claude",
+    "Computer Use",
+    "Cursor",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Giving coding agents their own computers: How",
+      "text": "So, uh, models are getting\nreally good and for more and more work,\nthe bottleneck is no longer the model\nintelligence. The bottleneck is humans\ngiving the models the tools and the\ncontext and the increasingly ambitious\nuh tasks and objectives to go flex their\npotential. Um at cursor we've been\nworking on removing that bottleneck and\nI'm going to share a bit about how we've\nbeen doing that. And hopefully it's\nhelpful to some of you in in your work. Um, with models this good, we kind of\nsee the job that we have as setting our\nagents free um safely uh uh and and\nhaving them go off and work on bigger\nbigger tasks. So, we've kind of gone\nthrough three stages of uh the process. The first was um giving our agents the\ntools and the context to be more\nautonomous. The second is um we had to\nlearn how to take advantage of these\nmore capable models."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "When you're doing local\ndev, you probably leave things running. Um, not true for the cloud cloud agents. We wanted to optimize their devx. They were spending a lot of time\nsleeping uh waiting for things to start\nup. They didn't uh have good ways of\nwaiting for things. We built an anev\nCLI tool. Um, so they were able to start\nservices, wait for the services to\nstart, check on statuses. They had sort\nof a Swiss Army knife for things like uh\ncreating test accounts and signing in\nfor services."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "We have like uh this URL input and\nthere's CSVs it needs to add. Um, and\nwhat's great is that it's not just using\nthat to do its own end testing to make\nsure that the changes that it made\nworks. You as the developer get to uh\nhave a really high bandwidth method of\nreviewing the work of the agent before\nyou get into code. This becomes\nreally really valuable when you are\nrunning many of these agents um\nsimultaneously in the cloud and bouncing\nbetween them. That's the next thing\nis once you have these autonomous agents\nonboarded, you need to learn to give\nthem more work and give them bigger\nbigger challenges to go tackle. The first is uh you\nhave like a lot of tasks and a lot of\nbugs and issues and you kind of have to\nlearn when to just uh like stop putting\nthose in your notes or start stop\nputting them in your two tracker and\njust kick off prompts. Put them right\ninto a prompt box and kick them off. When you do, uh, you then have a bunch\nmore of these agents running."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "You have the agent\nexperience and you need to care just as\nmuch if not more about the agent\nexperience. The way that our system\nworks is agents uh go about their\nbusiness and they are told to report\nissues as they come up. It's really\njust like what we do with uh the pattern\nI was just describing for humans where\nif you see something wrong, say\nsomething, uh report it and and try to\nwork on a fixed. All those reports are\naccumulated in a system of record. It's\nreally again very uh similar to how\nhuman human systems work. Managers\nwill go in and review all the issues and\ncategorize them and ddup them um and\nbucket them into there issues that can\nbe sort of there are technical problems\nthat can be addressed. Then there are\nissues of um permission where the agents\njust don't have access to something. So they need to get permission."
+    }
+  ],
+  "read_time_minutes": 2.4
+}

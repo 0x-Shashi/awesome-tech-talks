@@ -1,0 +1,42 @@
+{
+  "id": "building-headless-automation-with-claude-code-2025",
+  "title": "Building headless automation with Claude Code | Code w/ Claude",
+  "channel": "Anthropic",
+  "speakers": [
+    "Anthropic Technical Staff"
+  ],
+  "url": "https://youtu.be/dRsjO-88nBs",
+  "date": "2025-07-31",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Backend/Infra",
+    "Web Development"
+  ],
+  "description": "null",
+  "entities": [
+    "Box",
+    "Claude",
+    "Claude Code",
+    "MCP Servers"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Building headless automation with Claude Code",
+      "text": "I am an engineer on the cloud code team. And \ntoday we're going to be talking a little bit about uh the cloud code SDK and uh the cloud \nGitHub action that was just announced today. A little bit about the agenda. We do a little quick start for the SDK uh just to give some examples of how to get \nstarted and how to use the SDK. We will then dive into uh a live demo of the GitHub \naction which should be fun. The GitHub action was built on top of the SDK. It's meant to be \num a source of inspiration for the kind of things that you can do using the cloud code SDK. We'll \nthen dive into some uh more advanced features of the SDK."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Let's get into a significantly more complex example now \nuh which is the uh the cloud GitHub action. So cloud GitHub action was built on top of the SDK \num and it can be used to uh review code. It can be used to create new features. It can be used to \nu triage bugs and so on. And uh this is also open source. I'll include a link at the very \nend of the talk. So you guys can go have a look at the source for inspiration for how to use it. But for now let's jump into a live demo on my laptop."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "While this runs, \nuh, let's let's go back to the presentation, and then we'll check up on how this is doing, \num, towards the end. So, let's do a little bit of a deep dive on the features of the \nSDK. Uh, when you call cloud-ba it has it has uh it has no edit or destructive permission access. Uh, which is great for safety, but it's not great for actually getting things done. Which is why \nthere is a d-allowed tools option which allows you to to preconfigure cloud with uh any permissions \nthat you think it might need in the future for for for your given task. So in this case the first \nexample you see that I've given it permissions bash permissions to uh npm run build npm test \nand the right tool uh which is a good set of uh permissions because this allows cloud to uh \nself-verify what's what it's writing uh and build uh build build your project and test and then \ncontinue writing. Similarly for MCP if you have MCP servers configured um you can allow list those \nMCP tools as well. It's it's a very similar uh very similar process."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Um, and yeah, uh, I guess\nuh, yeah, it tricked us. Uh, that was a good one. Um, but yeah, I mean, \nit it seems like it worked. I think there's definitely more we could do here. We could \nlike show how the power like which questions we we use the power upon over here. There's \nlike definitely more we can do. But at the most basic level, I think uh Claude was able to do \nu do the task that we assigned it to do. This is kind of the \npower of the GitHub action because you didn't really have to run this on your own infra."
+    }
+  ],
+  "read_time_minutes": 2.2
+}

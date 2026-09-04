@@ -1,0 +1,46 @@
+{
+  "id": "controlling-powerful-ai-2025",
+  "title": "Controlling powerful AI",
+  "channel": "Anthropic",
+  "speakers": [
+    "Ethan Perez",
+    "Joe Benton",
+    "Akbir Khan"
+  ],
+  "url": "https://youtu.be/6Unxqr50Kqg",
+  "date": "2025-03-17",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "Research/Papers",
+    "LLM Fundamentals"
+  ],
+  "description": "Anthropic researchers Ethan Perez, Joe Benton, and Akbir Khan discuss AI control, an approach to managing the risks of advanced AI systems. They discuss real-world evaluations showing how humans struggle to detect deceptive AI, the three major threat models researchers are working to mitigate, and the overall idea of controlling highly-capable AI systems whose goals may differ from our own.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude 3.5 Sonnet",
+    "Cursor",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Controlling powerful AI",
+      "text": "Introduction\n- Hi, welcome to another Anthropic roundtable where we're here today to talk about control. I'm an alignment science researcher who's been working at the company for maybe four months now. I've been on the alignment science team for a little over a year here at Anthropic\nand I've previously worked on some control evaluations and chain of thought monitoring. - Hi, I am Ethan Perez. I previously led the adversarial robustness team here\nand I'm currently leading our team on AI control. - Yeah, so AI control's basically an approach to mitigating AI misalignment or the risk that models might have goals\nthat differ from human goals. Typically in in AI safety, ,\nthe most popular approach historically has been to try to align models with human preferences or train them\nor to human preferences and train them to not have bad goals that differ from human values. Yeah, for example, reward hacking or bad personality traits, things that."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "If you're not as confident you can do\nless serious mitigations maybe it's a little suspicious\nbut not the most suspicious. In that case you could re-sample from the model to get a different output that seems safer. Yeah, those are a couple of different strategies. You can also use combinations of monitor trusted\nand untrusted monitors. - Yeah, having human review is also a very- - Yes, that's exactly- - Basically our monitoring\nor our evaluation set was a little bit weird because the only thing we were doing was human review. In practice human review is\nprobably very expensive and so you want to use a weaker model and if the weaker model thinks something is a bit suspicious,\nthen maybe you delegate it to a human or you delegate it to a more powerful model that maybe costs you more to run. There's a lot of variation in this space,\npossible protocols. - So this, this is what my latest control paper is about was adaptive protocols\nwhere it's depending on you get the suspicion score for or you check how the output is from\nyour deployed model by a couple of protocols and then depending on what this profile looks ,\nyou decide do I want to give this a human auditor or do I want to just look at what the trusted monitor said\nor the untrusted monitor which actually seemed to work pretty well and obviously very simple type\nof thing to do but it was just nice."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "- Yeah I mean in practice we're trying\nto get pretty good at running control evaluations quickly as we develop new models. Some of the stuff that I've been working with the alignment evaluations team we have\nthis kind of business decision sabotage eval, this code sabotage eval also some undermining oversight evaluations\nand those are in practice actually control evaluations just with very small amounts of monitoring\nthat we run before all major model releases. We kind of use the results in those evaluations\nas a canary test for how good the malls are at sabotage currently these are basically coming back negative\nat the minute because models even with minimal monitoring interventions in place aren't really that competent\nat doing kind of really creative sabotage or sabotage that requires a lot of planning. - So I guess this leads on to an another question which is what are the open questions in control\nOpen questions in control research\nthat you're excited to work on or excited for other people to work on? - Yeah so I think one of the biggest issues for me\nand we maybe touched on it before is that building control evaluations is really hard\nespecially because we ideally want our control evaluations to be as similar as possible to the actual deployment setting\nand often the lessons we learn if the evaluations are too different are qualitatively wrong\nand so one thing that I'm really excited about is just building really great evaluation data sets\nand that is not the sexiest work out there but it's super valuable from an ML\nand I think people have learned this lesson time and again across the field it's once you have a benchmark\nto optimize against making the number go up or making the measurements and pushing on that is easy\nbut making the data set that really tracks what you care about is hard,\nconcretely probably what this looks is taking some of the threat models that we are most worried about. I think Ethan mentioned some of 'em before\nso there's models copying themselves out of our data centers or models and setting vulnerabilities into code\ntaking these settings, trying to make really good synthetic versions of them and then setting molds loose in these environments\nand seeing what forms of sabotage they can do, what sorts of vulnerabilities we can catch. - Yeah definitely if we have a bunch of these settings I think there's a lot of interesting stuff that could be done. For example, we could have pretty general insights\nabout in general on code, trusted monitoring works better than untrusted monitoring or vice versa."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "I guess maybe this leads onto an interesting question of why do control now as opposed\nWhy work on control now? I feel you've, you've really gone in hard on the control paradigm. I mean I guess maybe it's worth flushing out what the kind of end game is. I think, I think almost all people\nI've talked with, even people who are fans of control think that eventually we need to align models\nfor sufficiently capable models. I think the key key reason being that it's hard\nto control something that's much more , that's just much smarter than you basically\nand you could do fancy pants stuff and make it so that you know\nyou as your human review plus some augment some other trusted models can really be effective at checking\nthe work of a really, really capable superhuman model but at some level of capability gap it seems\nto be probably it's just quite hard to have that much confidence\nthat you're you're doing this effectively. - Yeah I mean people have been talking for years about the difficulty of keeping a super intelligence in a box. - At some point in the limit control almost certainly breaks. - Yeah I think, I dunno, I've at least talked\nwith one person who's , well maybe, you use the the super to monitor itself\nand there's ways to make it make that go well."
+    }
+  ],
+  "read_time_minutes": 4.4
+}

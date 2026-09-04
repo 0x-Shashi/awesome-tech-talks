@@ -1,0 +1,43 @@
+{
+  "id": "build-a-production-ready-agent-with-2026",
+  "title": "Build a production-ready agent with Claude Managed Agents",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/jWWsLe4Gh5Y",
+  "date": "2026-05-21",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "A hands-on build session for Claude Managed Agents. You'll deploy a production-ready agent from scratch, then debug and monitor it live in the developer console.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude Managed Agents",
+    "MCP Servers"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Build a production-ready agent with Claude Ma",
+      "text": "Um, raise your hands\nif you've heard the phrase cloud manage\nagents get brought up like 50 times\ntoday. Keep your hand raised if you\nhave have any idea what cloud manage\nagents even is. And raise your hands if\nyou're excited to learn about cloud\nmanage agents today. Hopefully this will be a\nlittle bit more of a technical deep\ndive. Myself and a couple of my uh\npeers earlier today talked at a very\nhigh level. We talked about the primitives and\nwhatever. We'll do a little bit of\nthat here today. But uh really what I\nwant to make sure that we do is like\nhave our laptops out, start coding."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Agent\nevents are just anything that Claude is\ndoing. These are like messages that\nClaude is sending back to the user. Compaction for if cla is uh needs to\nlike uh you know compact its context\nwindow because it got too large. The\ntools that it's kind of executing on\nyour behalf whether those are MCP tools\nor the uh default agent tools that we've\ndefined. And then there's also\nmulti-agent coordination events for when\nclaw decides to spawn other agents to\nhelp it in doing its work. We'll\nshow a little bit of what that looks\nlike uh during the live uh demo. Session events\nare just like life cycle events that let\nyou know when the status of the session\nis changing. Maybe it entered a a retry\nloop."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "I don't know if you guys have, but\nplease forgive me if this is wrong. I guess I have a little bit of a hint up\ntop. Um,\nand really what am I doing here? Um, I'm\nusing the Enthropic SDK that I've\nimported. Uh, and all of these endpoints\nare kind of available in production\nright now. So, I just set up the SDK. Um, and I'm calling the list sessions\nendpoint within the the SDK. Um, and\njust returning that data."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Here I have a bunch of test\nones. Um, clearly I made a bunch of\nthese. Um, and like you can actually see\nwhat each one like looks like. Agents\nare versioned, so if you ever feel like\nyou made an update that you're not happy\nwith to like the system prompt or the\nlist of tools that it has access to, you\ncan always go back to use a previous\nversion. Um, and we never like get rid\nof that. Um, and this is kind of like\nwhere you see the the certain things\nthat it has configured. In this\ninstance, I configured it with the\nlinear MCP. I didn't give it any skills,\nbut I gave it access to a bunch of other\nagents that it can interact with."
+    }
+  ],
+  "read_time_minutes": 1.8
+}

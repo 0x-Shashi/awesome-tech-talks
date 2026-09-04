@@ -1,0 +1,45 @@
+{
+  "id": "scaling-ai-agent-development-at-netflix-2025",
+  "title": "Scaling AI Agent Development at Netflix: Production Insights with Claude Sonnet 4.5",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Claude Sonnet"
+  ],
+  "url": "https://youtu.be/N91ANP_AvxY",
+  "date": "2025-12-03",
+  "format": "Demo",
+  "level": "Advanced",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "Join Netflix engineering leaders and Anthropic's Applied AI team for an exclusive deep dive into how Netflix scales AI-powered productivity across 3,000+ developers. Learn how Netflix's internal AI infrastructure strategy delivers quality context through centralized infrastructure, configuration management, and rigorous evaluation frameworks. This technical session goes beyond theory to show real implementations, architectural decisions, and demonstrated productivity improvements powered by Claude Sonnet 4.5 from one of the world's most sophisticated engineering organizations.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Computer Use",
+    "MCP Servers",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Scaling AI Agent Development at Netflix: Prod",
+      "text": "Uh, welcome to today's webinar, scaling AI agent development at Netflix production\ninsights with Claude Sonnet 4.5. I'm a product manager at Anthropic. Uh, I work on the research\nteam and get the privilege of helping to develop some of our core models. Most notably recently, I was the product lead\nfor Sonnet 4.5 and Haiku 4.5. Uh, and so I'm really excited today to get the opportunity to uh speak with the Netflix\nteam here and dig into all the incredible things that they're doing with these models. Uh, so one, uh,\nquestions can be submitted at any time using the questions widget in the webinar portal that's off to your right hand side. Uh, second, uh, please give\nus feedback. Uh, we would love to know what you think."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "I think that kind of that collaboration with us as humans is what\ns, 23 secondsallows us to scale. Human productivity uh and develop some really amazing use cases. With that, I'm going to go ahead and hand it over to\ns, 31 secondsthe Netflix team so we can hear more about what they have done in building out their Genai platform and how they have been able to apply Sonnet 4.5 and\ns, 40 secondscloud code uh internally. When Eric Adam and I started talking about the most effective way to talk about developer productivity at\ns, 48 secondsNetflix, uh we sort of realized that in order to tell the story most usefully, um we should probably start by talking about some of the AI specialized tooling\ns, 56 secondsthat we built in our platform and that we gave access to the developer productivity team too to do the awesome work they're going to talk to you about. S, 3 secondsAnd that really leads us to the Netflix genai platform. First and foremost, I kind of want to speak to our team's\ns, 10 secondsfocus, providing exceptional tools for Netflix teams to build things powered by AI. There's a little bit of subtlety to\ns, 17 secondsthe phrasing of this mission, building tools for teams to build things that are powered by AI. That's distinct from what\ns, 27 secondsthe developer productivity team is focused on, which is how we can best use AI to build pretty much anything you can imagine."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "That as claude\ns, 8 secondscode starts up essentially it queries our back end. There's some resolution to give a computed profile back. It's\ns, 16 secondsnot as simple as like there's just one profile defined across the business. S, 20 secondsLike there are global profiles, but we we're able to compute that into a profile that represents something appropriate for the team the developer\ns, 28 secondssits in, the codebase they're currently looking at, security factors, etc. S, 33 secondsThere's lots of things that can go into that resolution. S, 37 secondsSo as basically in that startup process, you get the profile, it is then configured. Like we drop just in time\ns, 45 secondsthe configuration for MCP tools and anything else. Like plugins or commands we can we can deal with all of this for for the assistant so that when\ns, 52 secondscl code just comes up it's just ready to go."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Maybe like digging into some of the technical details that you\ns, 2 secondsshared. Can you talk about how the context delivery architecture handles conflicting or outdated documentation? S, 9 secondsLike what if the agent just gets bad context? What do you do to detect that? S, 13 secondsHow do you correct that? Can you expand on that a bit? Yeah, I have a funny story about that. Uh turns out the first thing I built with Sonnet 4.5 uh\ns, 24 secondswas AI workflow quality tools which include docs faithfulness checks which evaluate these instructions and the\ns, 31 secondsdocumentation claims and look for these conflicts and we were able to identify some real conflicts in some of our\ns, 38 secondsworkflows and documentation that we had to address."
+    }
+  ],
+  "read_time_minutes": 2.7
+}

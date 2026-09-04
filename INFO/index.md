@@ -10,6 +10,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud](unlisted-videos/architecting-agent-memory-session-state-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-27
 - [Securing and scaling interoperability with agent protocols](unlisted-videos/securing-and-scaling-interoperability-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-25
 - [Build a Self-Evolving Agent: Autonomous Self-Improvement 2](unlisted-videos/build-a-self-evolving-agent-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-21
+- [Claude Science AMA: How to accelerate scientific discovery](unlisted-videos/claude-science-ama-how-to-accelerate-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-08-20
 - [Build a Self-Evolving Agent: Autonomous Self-Improvement](unlisted-videos/build-a-self-evolving-agent-2026.md) - Annie Wang, Christina, Annie, Unlisted Videos, 2026-08-20
 - [Build an AI-Powered F1 analytics agent with McLaren Racing](unlisted-videos/build-an-ai-powered-f1-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-18
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
@@ -17,8 +18,11 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2](unlisted-videos/architecting-multi-agent-teams-mastering-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-08-12
 - [Securing agents for scale: Breakthroughs in agent governance](unlisted-videos/securing-agents-for-scale-breakthroughs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-11
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns](unlisted-videos/architecting-multi-agent-teams-mastering-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-11
+- [Claude for Marketing Ops and Analytics](unlisted-videos/claude-for-marketing-ops-and-analytics-2026.md) - Ian Chan, Annabel Custer, Unlisted Videos, 2026-08-06
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
 - [Plan before you build: Deterministic planning patterns for AI agents](unlisted-videos/plan-before-you-build-deterministic-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-29
+- [Startup Builds: Getting Started with Loops](unlisted-videos/startup-builds-getting-started-with-loops-2026.md) - Mark Nowicki, Unlisted Videos, 2026-07-24
+- [Claude for Investing Teams](unlisted-videos/claude-for-investing-teams-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-24
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
 - [Step Into the Agentic Era: Google Cloud Data Agents](unlisted-videos/step-into-the-agentic-era-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
 - [Introduction to Antigravity](unlisted-videos/introduction-to-antigravity-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
@@ -34,8 +38,13 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Build AI agents at scale](unlisted-videos/build-ai-agents-at-scale-2026-2.md) - Asha Kapoor, Unlisted Videos, 2026-07-22
 - [Beyond the Prompt: Architecting the Agentic Data Cloud](unlisted-videos/beyond-the-prompt-architecting-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [From intent to insight: Accelerating outcomes with Data Agent Kit](unlisted-videos/from-intent-to-insight-accelerating-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-21
+- [Claude in Microsoft Foundry: Building agents for production](unlisted-videos/claude-in-microsoft-foundry-building-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-21
 - [Scale AI, not your bill: Managing Model Cost](unlisted-videos/scale-ai-not-your-bill-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-16
+- [How to ship and scale agents with Claude Managed Agents](unlisted-videos/how-to-ship-and-scale-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-16
+- [Evals for AI Agents: How Product Builders Get the Most Out of Every New Model](unlisted-videos/evals-for-ai-agents-how-product-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-14
 - [Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity](unlisted-videos/build-deploy-multi-agent-graphs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-14
+- [Production-Grade Agents on Claude Sonnet 5: Live with Zed and ClickHouse](unlisted-videos/production-grade-agents-on-claude-sonnet-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-13
+- [Cowork for Nonprofits](unlisted-videos/cowork-for-nonprofits-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-10
 - [TechByte: Agentic defense - Transforming the SOC with AI agents](unlisted-videos/techbyte-agentic-defense-transforming-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-08
 - [TechByte: The Intelligent Enterprise: Building the foundation for agentic consumption](unlisted-videos/techbyte-the-intelligent-enterprise-building-2026.md) - Wamsi Bodipuri, Unlisted Videos, 2026-07-07
 - [TechByte: Cloud roadmap series - Infrastructure for the agentic era](unlisted-videos/techbyte-cloud-roadmap-series-infrastructure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-07
@@ -68,10 +77,12 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Agent context engineering for production](google-cloud-tech/agent-context-engineering-2026.md) - George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar, Google Cloud Tech, 2026-06-25
 - [Databases roadmap: The foundation for your agentic AI future](unlisted-videos/databases-roadmap-the-foundation-for-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
 - [Cloud roadmap series: Discover secure and unified infrastructure for agents](unlisted-videos/cloud-roadmap-series-discover-secure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [Claude on Google Cloud: Monitoring and Securing Agents at Scale](unlisted-videos/claude-on-google-cloud-monitoring-and-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-24
 - [The agentic organisation - Transforming every role and workflow](unlisted-videos/the-agentic-organisation-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
 - [The Gemini Enterprise roadmap](unlisted-videos/the-gemini-enterprise-roadmap-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
 - [TechByte: AI infrastructure in 2026 - Architecting for agentic AI](unlisted-videos/techbyte-ai-infrastructure-in-2026-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
 - [[AMER] From Prototype to Production: Architecture for Live AI Systems](unlisted-videos/amer-from-prototype-to-production-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-18
+- [Claude Corps: How to Become a Host Organization](unlisted-videos/claude-corps-how-to-become-a-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-18
 - [[AMER] Enterprise Scale: Advanced Conversational Intelligence](unlisted-videos/amer-enterprise-scale-advanced-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-17
 - [[AMER] Vision Agents & Applied Function Calling](unlisted-videos/amer-vision-agents-applied-function-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-16
 - [Beyond the GPU: Maximizing goodput with self-healing AI infrastructure](unlisted-videos/beyond-the-gpu-maximizing-goodput-2026.md) - Benazie Fatai, Unlisted Videos, 2026-06-16
@@ -82,19 +93,53 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Customize your SOC with security agents using MCP servers](unlisted-videos/customize-your-soc-with-security-2026.md) - Sandy, Unlisted Videos, 2026-06-10
 - [Agentic Defense Transforming the SOC with AI Agents](unlisted-videos/agentic-defense-transforming-the-soc-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [[AMER] The Art of the Possible: Intro to Realtime Agentic AI](unlisted-videos/amer-the-art-of-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
+- [Cowork Workshop: Foundations](unlisted-videos/cowork-workshop-foundations-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-09
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
+- [How Anthropic's marketing team uses Claude Cowork](unlisted-videos/how-anthropics-marketing-team-uses-claude-2026.md) - Austin Lau, Unlisted Videos, 2026-06-04
 - [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [How finance teams use Claude Cowork](unlisted-videos/how-finance-teams-use-claude-cowork-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-02
 - [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
+- [How Anthropic’s sales team run their week with Cowork](unlisted-videos/how-anthropics-sales-team-run-their-2026.md) - Travis Bryant, Brittney Tong, Unlisted Videos, 2026-05-26
+- [Tool, skill, or subagent? Decomposing an agent that outgrew its prompt](claude/tool-skill-or-subagent-decomposing-an-2026.md) - Claude Engineering Team, Claude, 2026-05-23
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
+- [How we Claude Code](claude/how-we-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [Evals for taste: Hill-climbing a slide-generation agent](claude/evals-for-taste-hill-climbing-a-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [Agents that remember](claude/agents-that-remember-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [Teaching agents to learn from your team](claude/teaching-agents-to-learn-from-your-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Making agentic workflows trustworthy and verifiable with a custom DSL](claude/making-agentic-workflows-trustworthy-and-verifiable-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [How AirOps chases friction to build AI products with Claude](claude/how-airops-chases-friction-to-build-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Getting more out of the Claude Platform](claude/getting-more-out-of-the-claude-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Fighting financial crime with Claude Cowork](claude/fighting-financial-crime-with-claude-cowork-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
+- [Building with Claude on Google Cloud](claude/building-with-claude-on-google-cloud-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Building the best agentic analytics harness: Powered by Claude, built with Claude Code](claude/building-the-best-agentic-analytics-harness-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
+- [What legal agents inherit from coding agents: Lessons from Legora](claude/what-legal-agents-inherit-from-coding-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [Memory and dreaming for self learning agents](claude/memory-and-dreaming-for-self-learning-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [How to get to production faster with Claude Managed Agents](claude/how-to-get-to-production-faster-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [Build a production-ready agent with Claude Managed Agents](claude/build-a-production-ready-agent-with-2026.md) - Claude Engineering Team, Claude, 2026-05-21
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
+- [Stop babysitting your agents](claude/stop-babysitting-your-agents-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Coding is no longer the constraint: Scaling devex to teams and agents at Spotify](claude/coding-is-no-longer-the-constraint-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Build a proactive agent workflow with Claude Code](claude/build-a-proactive-agent-workflow-with-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Build AI agents using Claude in Microsoft Foundry](claude/build-ai-agents-using-claude-in-2026.md) - Marlene Mangami, Claude, 2026-05-20
+- [How Warp builds self improving agents on Claude](unlisted-videos/how-warp-builds-self-improving-agents-2026.md) - Zach Lloyd, Unlisted Videos, 2026-05-13
+- [Secure the Advantage: A CISO’s Guide to Agentic AI](unlisted-videos/secure-the-advantage-a-cisos-guide-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-12
+- [The thinking lever](claude/the-thinking-lever-2026-2.md) - Matt Bleifer, Claude, 2026-05-09
+- [The expanding toolkit](claude/the-expanding-toolkit-2026.md) - Claude Engineering Team, Claude, 2026-05-09
+- [Memory and dreaming for self-learning agents](claude/memory-and-dreaming-for-self-learning-2026-2.md) - Claude Engineering Team, Claude, 2026-05-09
+- [Giving coding agents their own computers: How Cursor built cloud agents](claude/giving-coding-agents-their-own-computers-2026.md) - Alexi Robbins, Claude, 2026-05-09
+- [Evaluating and improving Replit Agent at scale](claude/evaluating-and-improving-replit-agent-at-2026.md) - Hannah Moran, Michele Catasta, Claude, 2026-05-09
+- [Building with Claude Managed Agents and Asana AI teammates](claude/building-with-claude-managed-agents-and-2026.md) - Claude Engineering Team, Claude, 2026-05-09
+- [Claude for Financial Services teams: Putting agents to work](unlisted-videos/claude-for-financial-services-teams-putting-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-07
+- [Claude for Nonprofits: Moving Your Workflow Beyond Chat](unlisted-videos/claude-for-nonprofits-moving-your-workflow-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-06
 - [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
 - [The agentic enterprise: Google Workspace & Gemini Enterprise](google-cloud/the-agentic-enterprise-google-workspace-2026.md) - Yulie Kwon Kim, Maryam Gholami, Derek Snyder, Yotam Lemberger, John Aisien, Google Cloud, 2026-04-28
 - [Own your signature customer agentic experiences](google-cloud/own-your-signature-customer-agentic-expe-2026.md) - Darshan Kantak, Archana Kannan, Chad Westfall, Google Cloud, 2026-04-28
+- [Long Running Agents: How Outtake built a cyber investigator on Claude](unlisted-videos/long-running-agents-how-outtake-built-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-28
 - [Driving enterprise value from Agentic AI - Addressing the hard part](google-cloud/driving-enterprise-value-from-agentic-ai-2026.md) - Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart, Google Cloud, 2026-04-28
 - [Cross-cloud infrastructure for the agentic enterprise](google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) - Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan, Google Cloud Tech, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
@@ -102,27 +147,57 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
 - [Next '26: The Future of AI Infrastructure](google-cloud/next-26-the-future-of-ai-infrastructure-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
 - [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [Claude for Legal teams](unlisted-videos/claude-for-legal-teams-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-21
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
+- [Deploying Cowork across the Enterprise , with PayPal](unlisted-videos/deploying-cowork-across-the-enterprise-with-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-16
+- [What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team](unlisted-videos/what-we-shipped-feature-updates-tips-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
+- [Plan First, Ship Faster: How CodeRabbit Built Agent Orchestration on Claude](unlisted-videos/plan-first-ship-faster-how-coderabbit-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
 - [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
+- [Claude Cowork in an Hour: Where do I start?](unlisted-videos/claude-cowork-in-an-hour-where-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-01
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
+- [Claude Code Advanced Patterns: Subagents, MCP, and Scaling to Real Codebases](unlisted-videos/claude-code-advanced-patterns-subagents-mcp-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
 - [The Agentic Organization: Transforming Every Role and Workflow Part 3](unlisted-videos/the-agentic-organization-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-20
 - [Your First AI Teammate: A Practical Guide to Building AI Agents with no code Part 2](unlisted-videos/your-first-ai-teammate-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-19
+- [Best Practices: Claude for Excel and Claude for PowerPoint](unlisted-videos/best-practices-claude-for-excel-and-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-18
 - [Designing AI-ready data platforms for enterprise scale](unlisted-videos/designing-ai-ready-data-platforms-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-17
 - [The AI-Powered Workplace: An Introduction to Agentic Transformation Part 1](unlisted-videos/the-ai-powered-workplace-an-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-03-16
+- [The Future of AI at Work: Introducing Cowork](unlisted-videos/the-future-of-ai-at-work-2026.md) - Boris Cherny, Mikaela Grace, Nicole Sim, Unlisted Videos, 2026-02-10
+- [Building with Advanced Agent Capabilities for Claude on Vertex AI](unlisted-videos/building-with-advanced-agent-capabilities-for-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-06
+- [Claude Code for Financial Services: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-financial-services-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-07
 - [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
+- [Why we built, and donated, the Model Context Protocol (MCP)](anthropic/why-we-built-and-donated-the-2025.md) - David Soria Parra, Stuart Ritchie, Anthropic, 2025-12-12
+- [Building with MCP and Claude Code: Sentry's 0 to 1 Story](unlisted-videos/building-with-mcp-and-claude-code-2025.md) - David Cramer, Jeremy Hadfield, Ilana Nathans, Unlisted Videos, 2025-12-12
+- [Scaling AI Agent Development at Netflix: Production Insights with Claude Sonnet 4.5](unlisted-videos/scaling-ai-agent-development-at-netflix-2025.md) - Claude Sonnet, Unlisted Videos, 2025-12-03
 - [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
+- [Building with Claude in Europe: Agent Fundamentals](unlisted-videos/building-with-claude-in-europe-agent-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-03
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
+- [Agent Skills: Transform Claude from Assistant to Specialized Agent](unlisted-videos/agent-skills-transform-claude-from-assistant-2025.md) - Marius Buleandra, Unlisted Videos, 2025-11-17
+- [Claude Code Best Practices: Power User Insights from Lightspeed Portfolio Companies](unlisted-videos/claude-code-best-practices-power-user-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-10-23
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
+- [Building with MCP and the Claude API](anthropic/building-with-mcp-and-the-claude-2025.md) - Alex Albert, John Welsh, Michael Cohen, Anthropic, 2025-10-10
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
+- [Deploying Multi-Agent Systems Using MCP and A2A with Claude on Vertex AI](unlisted-videos/deploying-multi-agent-systems-using-mcp-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-09-10
 - [The Impossible Computing with Keith Ballinger | The Agent Factory Podcast](google-cloud-tech/keith-ballinger-impossible-computing-2025.md) - Keith Ballinger, Mollie Pettit, Vlad Kolesnikov, Google Cloud Tech, 2025-09-04
+- [Mastering Async Agents: Production Insights from Cognition Labs](unlisted-videos/mastering-async-agents-production-insights-from-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-08-18
+- [How Anthropic and Asana Transform Work at Scale with AI Agents](unlisted-videos/how-anthropic-and-asana-transform-work-2025.md) - Tony Chang, Unlisted Videos, 2025-08-18
 - [Demis Hassabis on shipping momentum, better evals and world models](google-for-developers/demis-hassabis-evals-world-models-2025.md) - Logan Kilpatrick, Demis Hassabis, Google for Developers, 2025-08-11
+- [Vibe coding in prod | Code w/ Claude](anthropic/vibe-coding-in-prod-code-w-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Prompting for Agents | Code w/ Claude](anthropic/prompting-for-agents-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [MCP 201 | Code w/ Claude](anthropic/mcp-201-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Building the future of AI coding with MCP in VS Code and Claude](unlisted-videos/building-the-future-of-ai-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-07-31
+- [Building AI agents with Claude in Google Cloud's Vertex AI | Code w/ Claude](anthropic/building-ai-agents-with-claude-in-2025-2.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Building AI agents with Claude in Amazon Bedrock | Code w/ Claude](anthropic/building-ai-agents-with-claude-in-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
 - [Season 5 - Shaping the agentic future with Clement Farabet](google-for-developers/clement-farabet-agentic-future-2025.md) - Ashley Oldacre, Christina Warren, Clement Farabet, Google for Developers, 2025-07-24
 - [Building a frontier AI search experience](google-for-developers/frontier-ai-search-experience-2025.md) - Logan Kilpatrick, Robby Stein, Google for Developers, 2025-07-24
+- [Scaling Development with Remote Agents: Best Practices and Deep Dive with Augment Code](unlisted-videos/scaling-development-with-remote-agents-best-2025.md) - Leor Newman, Unlisted Videos, 2025-07-08
 - [AgentOps: Operationalize AI Agents](google-cloud-tech/agentops-operationalize-agents-2025.md) - Sita Lakshmi Sangameswaran, Sokratis Kartakis, Google Cloud Tech, 2025-06-12
+- [Lessons on AI agents from Claude Plays Pokemon](anthropic/lessons-on-ai-agents-from-claude-2025.md) - Alex Albert, Anthropic, 2025-04-24
+- [Claude Code Live: Origin story, demos, and best practices](unlisted-videos/claude-code-live-origin-story-demos-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-04-23
+- [AI agents in the enterprise: Leadership lessons and demos from Box and Anthropic](unlisted-videos/ai-agents-in-the-enterprise-leadership-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-03-07
 - [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2024.md) - Annie Wang, Christina, Unlisted Videos, 2024-07-01
 
 ## LLM Fundamentals
@@ -145,6 +220,9 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [[AMER] Multimodal RAG: Grounding Conversational AI in Complex Data](unlisted-videos/amer-multimodal-rag-grounding-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-11
 - [Defending your enterprise against AI models that find vulnerabilities faster than ever](unlisted-videos/defending-your-enterprise-against-ai-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
+- [The thinking lever](claude/the-thinking-lever-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [Picking the right model](claude/picking-the-right-model-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [The thinking lever](claude/the-thinking-lever-2026-2.md) - Matt Bleifer, Claude, 2026-05-09
 - [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
@@ -152,9 +230,14 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [TechByte: AI security: Build and protect](unlisted-videos/techbyte-ai-security-build-and-protect-2026.md) - Veronica Sandaval, Lisa, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
+- [Building Products on Claude Opus 4.6 , A Customer Success Story with Shortcut and Hex](unlisted-videos/building-products-on-claude-opus-46-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-19
+- [How to transform work with Claude for Excel and Claude for PowerPoint](unlisted-videos/how-to-transform-work-with-claude-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-12
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
+- [What is Al "reward hacking", and why do we worry about it?](anthropic/what-is-al-reward-hacking-and-2025.md) - Anthropic Technical Staff, Anthropic, 2025-11-21
+- [Building for Production-Ready Use-Cases: How Lovable Scales with Claude](unlisted-videos/building-for-production-ready-use-cases-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-09-24
+- [Interpretability: Understanding how AI models think](anthropic/interpretability-understanding-how-ai-models-think-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-16
 - [Demis Hassabis on shipping momentum, better evals and world models](google-for-developers/demis-hassabis-evals-world-models-2025.md) - Logan Kilpatrick, Demis Hassabis, Google for Developers, 2025-08-11
 - [Season 5 - Shaping the agentic future with Clement Farabet](google-for-developers/clement-farabet-agentic-future-2025.md) - Ashley Oldacre, Christina Warren, Clement Farabet, Google for Developers, 2025-07-24
 - [Building a frontier AI search experience](google-for-developers/frontier-ai-search-experience-2025.md) - Logan Kilpatrick, Robby Stein, Google for Developers, 2025-07-24
@@ -162,6 +245,10 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Darren Aronofsky and Demis Hassabis on storytelling in the age of AI](google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) - Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt, Google for Developers, 2025-05-24
 - [Science in the age of AI](google-for-developers/science-in-the-age-of-ai-2025.md) - James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar, Google for Developers, 2025-05-23
 - [Deep Dive into Long Context](google-for-developers/deep-dive-long-context-2025.md) - Logan Kilpatrick, Nikolay Savinov, Google for Developers, 2025-05-02
+- [Controlling powerful AI](anthropic/controlling-powerful-ai-2025.md) - Ethan Perez, Joe Benton, Akbir Khan, Anthropic, 2025-03-17
+- [Defending against AI jailbreaks](anthropic/defending-against-ai-jailbreaks-2025.md) - Ethan Perez, Anthropic, 2025-02-28
+- [Alignment faking in large language models](anthropic/alignment-faking-in-large-language-models-2024.md) - Anthropic Technical Staff, Anthropic, 2024-12-18
+- [AI, policy, and the weird sci-fi future with Anthropic’s Jack Clark](anthropic/ai-policy-and-the-weird-sci-2024.md) - Stuart Ritchie, Jack Clark, Anthropic, 2024-09-30
 - [What's next with Gemini: Driving business impact with multimodal use cases](google-cloud-tech/whats-next-with-gemini-driving-business-2024.md) - To The, Jason, Here With, Excited About, Google Cloud Tech, 2024-07-01
 - [Vertex AI Gemini: Model selection and prompt design principles and strategies](google-cloud-tech/vertex-ai-gemini-model-selection-and-pro-2024.md) - Skander Hannachi, Rajesh Thallam, Google Cloud Tech, 2024-07-01
 - [Use large language models to answer difficult science questions](google-cloud-tech/use-large-language-models-to-answer-diff-2024.md) - Nicholas Broad, Google Cloud Tech, 2024-07-01
@@ -180,13 +267,29 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Generative AI text and multimodal embedding models for real world use cases](google-cloud-tech/generative-ai-text-and-multimodal-embedd-2024.md) - Ugo Obialo, Parashar Shah, Jake Bograd-Denton, Google Cloud Tech, 2024-07-01
 - [Building generative AI apps on Google Cloud with LangChain](google-cloud-tech/building-generative-ai-apps-on-google-cl-2024.md) - Harrison Chase, The Ceo, Google Cloud Tech, 2024-07-01
 - [Accelerate AI inference workloads with Google Cloud TPUs and GPUs](google-cloud-tech/accelerate-ai-inference-workloads-with-g-2024.md) - Alexander Spiridonov, Omer Hasan, Uğur Arpaci, Kirat Pandya, Google Cloud Tech, 2024-07-01
+- [Scaling interpretability](anthropic/scaling-interpretability-2024.md) - Anthropic Technical Staff, Anthropic, 2024-06-13
 
 ## Prompt Engineering
 
 - [Beyond the Prompt: Architecting the Agentic Data Cloud](unlisted-videos/beyond-the-prompt-architecting-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [How Anthropic works with Claude Tag in Slack](unlisted-videos/how-anthropic-works-with-claude-tag-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-09
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
+- [Tool, skill, or subagent? Decomposing an agent that outgrew its prompt](claude/tool-skill-or-subagent-decomposing-an-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [Evals for taste: Hill-climbing a slide-generation agent](claude/evals-for-taste-hill-climbing-a-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [The prompting playbook](claude/the-prompting-playbook-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [How Metaview built self-improving prompts for application review](claude/how-metaview-built-self-improving-prompts-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Getting more out of the Claude Platform](claude/getting-more-out-of-the-claude-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Fighting financial crime with Claude Cowork](claude/fighting-financial-crime-with-claude-cowork-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Designing with Claude: From prompt to production](claude/designing-with-claude-from-prompt-to-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Best Practices: Claude for Excel and Claude for PowerPoint](unlisted-videos/best-practices-claude-for-excel-and-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-18
+- [Anthropic’s philosopher answers your questions](anthropic/anthropics-philosopher-answers-your-questions-2025.md) - Amanda Askell, Anthropic, 2025-12-05
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
+- [Prompting for Agents | Code w/ Claude](anthropic/prompting-for-agents-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Prompting 101 | Code w/ Claude](anthropic/prompting-101-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [MCP 201 | Code w/ Claude](anthropic/mcp-201-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [AI agents in the enterprise: Leadership lessons and demos from Box and Anthropic](unlisted-videos/ai-agents-in-the-enterprise-leadership-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-03-07
+- [AI prompt engineering: A deep dive](anthropic/ai-prompt-engineering-a-deep-dive-2024.md) - Alex Albert, Amanda Askell, Anthropic, 2024-09-05
 - [Vertex AI Gemini: Model selection and prompt design principles and strategies](google-cloud-tech/vertex-ai-gemini-model-selection-and-pro-2024.md) - Skander Hannachi, Rajesh Thallam, Google Cloud Tech, 2024-07-01
 - [How Vertex AI makes it easy to customize gen AI models](google-cloud-tech/how-vertex-ai-makes-it-easy-to-customize-2024.md) - Anand Iyer, May Hu, Lavanya Ramani, Google Cloud Tech, 2024-07-01
 - [Deliver the next generation of customer experiences with AI generated live images](google-cloud-tech/deliver-the-next-generation-of-customer-2024.md) - Avanti Sane, Peter Gordon, Joaquín Cuenca, Google Cloud Tech, 2024-07-01
@@ -197,6 +300,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Build a Self-Evolving Agent: Autonomous Self-Improvement 2](unlisted-videos/build-a-self-evolving-agent-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-21
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
 - [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-14
+- [Claude Code for Data Engineering](unlisted-videos/claude-code-for-data-engineering-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-08-11
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns](unlisted-videos/architecting-multi-agent-teams-mastering-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-11
 - [Secure AI from Code to Cloud: Automating Your Defenses with Wiz](unlisted-videos/secure-ai-from-code-to-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-06
 - [Plan before you build: Deterministic planning patterns for AI agents](unlisted-videos/plan-before-you-build-deterministic-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-29
@@ -205,7 +309,10 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Hands on Lab 3 Connect to Remote Agents with ADK and the Agent2Agent A2A SDK](unlisted-videos/hands-on-lab-3-connect-2026.md) - Chandria Kadel, Unlisted Videos, 2026-07-23
 - [Hands on Lab 2 Automate Work with Google Workspace Studio](unlisted-videos/hands-on-lab-2-automate-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
 - [From prototype to production: Hard-won lessons for advanced, reliable, and secure agents](unlisted-videos/from-prototype-to-production-hard-2026.md) - Isuru Raja, Unlisted Videos, 2026-07-22
+- [How to ship and scale agents with Claude Managed Agents](unlisted-videos/how-to-ship-and-scale-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-16
 - [Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity](unlisted-videos/build-deploy-multi-agent-graphs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-14
+- [Production-Grade Agents on Claude Sonnet 5: Live with Zed and ClickHouse](unlisted-videos/production-grade-agents-on-claude-sonnet-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-13
+- [(7/8) Claude Code: Foundations](unlisted-videos/78-claude-code-foundations-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-08
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [Securing and managing agentic AI at scale: What Google and Palo Alto Networks are building together](google-cloud/securing-and-managing-agentic-ai-at-scal-2026.md) - Munish Khetrapal, Rob Skillington, Mike Buratowski, Josh Haslett, Google Cloud, 2026-06-26
@@ -213,23 +320,72 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [AI with a mission: From strategy to high-stakes impact](google-cloud/ai-with-a-mission-from-strategy-to-high-2026.md) - Ranjit Bawa, Brian Bot, Ryan Cox, Google Cloud, 2026-06-26
 - [10x productivity with the Gemini CLI](google-cloud/10x-productivity-with-the-gemini-cli-2026.md) - Dmitry Lyalin, Taylor Mullen, Google Cloud, 2026-06-26
 - [Navigate the agentic shift in software development with Google](google-cloud-tech/agentic-shift-software-development-2026.md) - Niranjan Tulpule, Madhura Joshi, Google Cloud Tech, 2026-06-25
+- [Cooking with Claude: Building an SRE Incident Response Agent](unlisted-videos/cooking-with-claude-building-an-sre-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-25
 - [Beyond the hype: Orchestrating end-to-end developer workflows with agents](google-cloud-tech/orchestrating-developer-workflows-2026.md) - Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie, Google Cloud Tech, 2026-06-25
 - [TechByte: Build the next generation of creative and multimodal experiences](unlisted-videos/techbyte-build-the-next-generation-2026.md) - Katie, Unlisted Videos, 2026-06-24
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
+- [Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude.](anthropic/anthropic-just-showed-a-24-minute-2026.md) - Anthropic Technical Staff, Anthropic, 2026-06-07
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
+- [How Anthropic's marketing team uses Claude Cowork](unlisted-videos/how-anthropics-marketing-team-uses-claude-2026.md) - Austin Lau, Unlisted Videos, 2026-06-04
 - [TechByte: From cost center to value engine: Building your business case for AI-assisted development](unlisted-videos/from-cost-center-to-value-engine-2026.md) - Nathan Harvey, Eva Dong, Unlisted Videos, 2026-05-27
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
+- [How we Claude Code](claude/how-we-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [The capability curve](claude/the-capability-curve-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026.md) - Fiona Fung, Claude, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
+- [Claude Code for State and Local Governments](unlisted-videos/claude-code-for-state-and-local-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-22
+- [Building signals that trade themselves](claude/building-signals-that-trade-themselves-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Beyond the basics with Claude Code](claude/beyond-the-basics-with-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [What legal agents inherit from coding agents: Lessons from Legora](claude/what-legal-agents-inherit-from-coding-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [The thinking lever](claude/the-thinking-lever-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [Picking the right model](claude/picking-the-right-model-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [How Lovable vibecodes production software at scale](claude/how-lovable-vibecodes-production-software-at-2026.md) - Claude Engineering Team, Claude, 2026-05-21
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
+- [Stop babysitting your agents](claude/stop-babysitting-your-agents-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [From one person to 80: Scaling a hypergrowth engineering org with Claude Code](claude/from-one-person-to-80-scaling-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Coding is no longer the constraint: Scaling devex to teams and agents at Spotify](claude/coding-is-no-longer-the-constraint-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero](claude/building-ai-native-at-enterprise-scale-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Build a proactive agent workflow with Claude Code](claude/build-a-proactive-agent-workflow-with-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [How Warp builds self improving agents on Claude](unlisted-videos/how-warp-builds-self-improving-agents-2026.md) - Zach Lloyd, Unlisted Videos, 2026-05-13
+- [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026-2.md) - Fiona Fung, Fiona Fun, Claude, 2026-05-09
+- [Giving coding agents their own computers: How Cursor built cloud agents](claude/giving-coding-agents-their-own-computers-2026.md) - Alexi Robbins, Claude, 2026-05-09
+- [Evaluating and improving Replit Agent at scale](claude/evaluating-and-improving-replit-agent-at-2026.md) - Hannah Moran, Michele Catasta, Claude, 2026-05-09
+- [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026-2.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
+- [Building Products on Claude Opus 4.7 , A Customer Success Story with Solve Intelligence and Blitzy](unlisted-videos/building-products-on-claude-opus-47-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
+- [Claude Code in Healthcare: How Physicians are Building with AI](unlisted-videos/claude-code-in-healthcare-how-physicians-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-23
+- [What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team](unlisted-videos/what-we-shipped-feature-updates-tips-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
+- [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-02
+- [Claude Code Advanced Patterns: Subagents, MCP, and Scaling to Real Codebases](unlisted-videos/claude-code-advanced-patterns-subagents-mcp-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-24
 - [Your First AI Teammate: A Practical Guide to Building AI Agents with no code Part 2](unlisted-videos/your-first-ai-teammate-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-19
+- [Claude Code in an Hour: A Developer's Intro](unlisted-videos/claude-code-in-an-hour-a-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-04
+- [Claude Code for Service Delivery: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-service-delivery-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-30
 - [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
+- [Claude Code for Financial Services: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-financial-services-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-07
+- [What does AI mean for education?](claude/what-does-ai-mean-for-education-2025.md) - Claude Engineering Team, Claude, 2025-12-17
+- [Building with MCP and Claude Code: Sentry's 0 to 1 Story](unlisted-videos/building-with-mcp-and-claude-code-2025.md) - David Cramer, Jeremy Hadfield, Ilana Nathans, Unlisted Videos, 2025-12-12
+- [Scaling AI Agent Development at Netflix: Production Insights with Claude Sonnet 4.5](unlisted-videos/scaling-ai-agent-development-at-netflix-2025.md) - Claude Sonnet, Unlisted Videos, 2025-12-03
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
+- [Transform Legacy Systems into Strategic Assets: Code Modernization with AI](unlisted-videos/transform-legacy-systems-into-strategic-assets-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-13
+- [Claude for Life Sciences: Accelerating Discovery from Hypothesis to Breakthrough](unlisted-videos/claude-for-life-sciences-accelerating-discovery-2025.md) - Jonah Cool, Unlisted Videos, 2025-10-28
+- [Transforming Financial Analysis at Scale: How BCI Leverages Claude's Financial Analysis Solution](unlisted-videos/transforming-financial-analysis-at-scale-how-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-10-23
 - [What’s new with IAM and Org Policy: Access risk, at-scale governance and AI](google-cloud/whats-new-with-iam-and-org-policy-access-2025.md) - Abhishek Hemrajani, Google Cloud, 2025-10-21
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
 - [The Impossible Computing with Keith Ballinger | The Agent Factory Podcast](google-cloud-tech/keith-ballinger-impossible-computing-2025.md) - Keith Ballinger, Mollie Pettit, Vlad Kolesnikov, Google Cloud Tech, 2025-09-04
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
+- [Claude Code in financial services: From analyzing data to modernizing legacy systems](unlisted-videos/claude-code-in-financial-services-from-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-08-29
+- [Threat Intelligence: How Anthropic stops AI cybercrime](anthropic/threat-intelligence-how-anthropic-stops-ai-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-27
+- [Vibe coding in prod | Code w/ Claude](anthropic/vibe-coding-in-prod-code-w-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Prompting 101 | Code w/ Claude](anthropic/prompting-101-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Building the future of AI coding with MCP in VS Code and Claude](unlisted-videos/building-the-future-of-ai-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-07-31
+- [Building AI agents with Claude in Amazon Bedrock | Code w/ Claude](anthropic/building-ai-agents-with-claude-in-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [How Cursor is pioneering new coding frontiers with Claude Opus 4](unlisted-videos/how-cursor-is-pioneering-new-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-06-06
+- [Lessons on AI agents from Claude Plays Pokemon](anthropic/lessons-on-ai-agents-from-claude-2025.md) - Alex Albert, Anthropic, 2025-04-24
+- [Claude Code Live: Origin story, demos, and best practices](unlisted-videos/claude-code-live-origin-story-demos-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-04-23
+- [Building Anthropic | A conversation with our co-founders](anthropic/building-anthropic-a-conversation-with-our-2024.md) - Jack Clark, Anthropic, 2024-12-20
+- [AI, policy, and the weird sci-fi future with Anthropic’s Jack Clark](anthropic/ai-policy-and-the-weird-sci-2024.md) - Stuart Ritchie, Jack Clark, Anthropic, 2024-09-30
+- [AI prompt engineering: A deep dive](anthropic/ai-prompt-engineering-a-deep-dive-2024.md) - Alex Albert, Amanda Askell, Anthropic, 2024-09-05
 - [You can only secure what you can see: How observability empowers security](google-cloud-tech/you-can-only-secure-what-you-can-see-how-2024.md) - Rory, Google Cloud Tech, 2024-07-01
 - [What s next for security professionals](google-cloud-tech/what-s-next-for-security-professionals-2024.md) - Sunil Potti, Kevin Mandia, Sandra Joyce, Google Cloud Tech, 2024-07-01
 - [Rock-solid business continuity and data protection on Google Cloud](google-cloud-tech/rock-solid-business-continuity-and-data-2024.md) - David Seidman, Timothy Isaacs, Ranga Potluri, Google Cloud Tech, 2024-07-01
@@ -262,10 +418,73 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 ## Web Development
 
+- [Claude for Marketing Ops and Analytics](unlisted-videos/claude-for-marketing-ops-and-analytics-2026.md) - Ian Chan, Annabel Custer, Unlisted Videos, 2026-08-06
+- [Startup Builds: Getting Started with Loops](unlisted-videos/startup-builds-getting-started-with-loops-2026.md) - Mark Nowicki, Unlisted Videos, 2026-07-24
 - [Hands on Lab 2 Automate Work with Google Workspace Studio](unlisted-videos/hands-on-lab-2-automate-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Voice and Intelligence: Building the Human Interface for Customer Experience](unlisted-videos/voice-and-intelligence-building-the-human-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-22
+- [Building on the Claude Platform: Claude Fable 5 and model orchestration patterns](unlisted-videos/building-on-the-claude-platform-claude-2026.md) - Jeremy Hadfield, Brad Abrams, Unlisted Videos, 2026-07-22
+- [Claude in Microsoft Foundry: Building agents for production](unlisted-videos/claude-in-microsoft-foundry-building-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-21
+- [Evals for AI Agents: How Product Builders Get the Most Out of Every New Model](unlisted-videos/evals-for-ai-agents-how-product-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-14
+- [Cowork for Nonprofits](unlisted-videos/cowork-for-nonprofits-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-10
+- [How Anthropic works with Claude Tag in Slack](unlisted-videos/how-anthropic-works-with-claude-tag-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-09
 - [Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more](google-cloud-tech/generative-ui-a2ui-agui-2026.md) - Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec, Google Cloud Tech, 2026-06-25
+- [Cooking with Claude: Building an SRE Incident Response Agent](unlisted-videos/cooking-with-claude-building-an-sre-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-25
 - [Bringing dark web intelligence into the AI era](unlisted-videos/bringing-dark-web-intelligence-into-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [AI threat readiness and code security](unlisted-videos/ai-threat-readiness-and-code-security-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Securing & Governing Claude: the Compliance API and Security Integrations](unlisted-videos/securing-governing-claude-the-compliance-api-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-05
+- [The prompting playbook](claude/the-prompting-playbook-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [The capability curve](claude/the-capability-curve-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026.md) - Fiona Fung, Claude, 2026-05-22
+- [Making agentic workflows trustworthy and verifiable with a custom DSL](claude/making-agentic-workflows-trustworthy-and-verifiable-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [How Metaview built self-improving prompts for application review](claude/how-metaview-built-self-improving-prompts-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [How AirOps chases friction to build AI products with Claude](claude/how-airops-chases-friction-to-build-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Designing with Claude: From prompt to production](claude/designing-with-claude-from-prompt-to-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Building with Claude on Google Cloud](claude/building-with-claude-on-google-cloud-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Building the best agentic analytics harness: Powered by Claude, built with Claude Code](claude/building-the-best-agentic-analytics-harness-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Building signals that trade themselves](claude/building-signals-that-trade-themselves-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Memory and dreaming for self learning agents](claude/memory-and-dreaming-for-self-learning-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [How Lovable vibecodes production software at scale](claude/how-lovable-vibecodes-production-software-at-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [Build a production-ready agent with Claude Managed Agents](claude/build-a-production-ready-agent-with-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [From one person to 80: Scaling a hypergrowth engineering org with Claude Code](claude/from-one-person-to-80-scaling-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero](claude/building-ai-native-at-enterprise-scale-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Build AI agents using Claude in Microsoft Foundry](claude/build-ai-agents-using-claude-in-2026.md) - Marlene Mangami, Claude, 2026-05-20
+- [AI with Claude on AWS: From code to orchestration](claude/ai-with-claude-on-aws-from-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Secure the Advantage: A CISO’s Guide to Agentic AI](unlisted-videos/secure-the-advantage-a-cisos-guide-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-12
+- [The expanding toolkit](claude/the-expanding-toolkit-2026.md) - Claude Engineering Team, Claude, 2026-05-09
+- [Memory and dreaming for self-learning agents](claude/memory-and-dreaming-for-self-learning-2026-2.md) - Claude Engineering Team, Claude, 2026-05-09
+- [Building Products on Claude Opus 4.7 , A Customer Success Story with Solve Intelligence and Blitzy](unlisted-videos/building-products-on-claude-opus-47-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
+- [Long Running Agents: How Outtake built a cyber investigator on Claude](unlisted-videos/long-running-agents-how-outtake-built-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-28
+- [Claude Code in Healthcare: How Physicians are Building with AI](unlisted-videos/claude-code-in-healthcare-how-physicians-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-23
+- [Plan First, Ship Faster: How CodeRabbit Built Agent Orchestration on Claude](unlisted-videos/plan-first-ship-faster-how-coderabbit-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
+- [Claude Cowork in an Hour: Where do I start?](unlisted-videos/claude-cowork-in-an-hour-where-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-01
+- [Claude Code in an Hour: A Developer's Intro](unlisted-videos/claude-code-in-an-hour-a-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-04
+- [From 0 to 1: How Zingage Built AI-Powered Home Care on Claude](unlisted-videos/from-0-to-1-how-zingage-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-26
+- [Building Products on Claude Opus 4.6 , A Customer Success Story with Shortcut and Hex](unlisted-videos/building-products-on-claude-opus-46-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-19
+- [How to transform work with Claude for Excel and Claude for PowerPoint](unlisted-videos/how-to-transform-work-with-claude-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-12
+- [The Future of AI at Work: Introducing Cowork](unlisted-videos/the-future-of-ai-at-work-2026.md) - Boris Cherny, Mikaela Grace, Nicole Sim, Unlisted Videos, 2026-02-10
+- [Building with Advanced Agent Capabilities for Claude on Vertex AI](unlisted-videos/building-with-advanced-agent-capabilities-for-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-06
+- [AI on campus](anthropic/ai-on-campus-2026.md) - Anthropic Technical Staff, Anthropic, 2026-01-13
+- [Building with Claude Code: Inside Notion's AI development workflow](unlisted-videos/building-with-claude-code-inside-notions-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-17
+- [Why we built, and donated, the Model Context Protocol (MCP)](anthropic/why-we-built-and-donated-the-2025.md) - David Soria Parra, Stuart Ritchie, Anthropic, 2025-12-12
+- [Building with Claude in Europe: Agent Fundamentals](unlisted-videos/building-with-claude-in-europe-agent-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-03
+- [Agent Skills: Transform Claude from Assistant to Specialized Agent](unlisted-videos/agent-skills-transform-claude-from-assistant-2025.md) - Marius Buleandra, Unlisted Videos, 2025-11-17
+- [Transform Legacy Systems into Strategic Assets: Code Modernization with AI](unlisted-videos/transform-legacy-systems-into-strategic-assets-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-13
+- [Advancing Claude for Financial Services](unlisted-videos/advancing-claude-for-financial-services-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-03
+- [Transforming Financial Analysis at Scale: How BCI Leverages Claude's Financial Analysis Solution](unlisted-videos/transforming-financial-analysis-at-scale-how-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-10-23
+- [Introducing Claude for Life Sciences](anthropic/introducing-claude-for-life-sciences-2025.md) - Jonah Cool, Eric Kauderer-Abrams, Anthropic, 2025-10-20
+- [Building with MCP and the Claude API](anthropic/building-with-mcp-and-the-claude-2025.md) - Alex Albert, John Welsh, Michael Cohen, Anthropic, 2025-10-10
+- [Building for Production-Ready Use-Cases: How Lovable Scales with Claude](unlisted-videos/building-for-production-ready-use-cases-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-09-24
+- [Deploying Multi-Agent Systems Using MCP and A2A with Claude on Vertex AI](unlisted-videos/deploying-multi-agent-systems-using-mcp-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-09-10
+- [Mastering Async Agents: Production Insights from Cognition Labs](unlisted-videos/mastering-async-agents-production-insights-from-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-08-18
+- [How Anthropic and Asana Transform Work at Scale with AI Agents](unlisted-videos/how-anthropic-and-asana-transform-work-2025.md) - Tony Chang, Unlisted Videos, 2025-08-18
+- [Claude for Financial Services Keynote](anthropic/claude-for-financial-services-keynote-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-01
+- [Building headless automation with Claude Code | Code w/ Claude](anthropic/building-headless-automation-with-claude-code-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Building AI agents with Claude in Google Cloud's Vertex AI | Code w/ Claude](anthropic/building-ai-agents-with-claude-in-2025-2.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Scaling Development with Remote Agents: Best Practices and Deep Dive with Augment Code](unlisted-videos/scaling-development-with-remote-agents-best-2025.md) - Leor Newman, Unlisted Videos, 2025-07-08
+- [How Cursor is pioneering new coding frontiers with Claude Opus 4](unlisted-videos/how-cursor-is-pioneering-new-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-06-06
+- [Transforming the world's largest sovereign wealth fund with AI: NBIM’s journey with Anthropic](unlisted-videos/transforming-the-worlds-largest-sovereign-wealth-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-05-27
+- [Claude for Work: Unlocking the Power of Claude with Research and the Google Workspace Integration](anthropic/claude-for-work-unlocking-the-power-2025.md) - Scott White, Hannah Moran, Anthropic, 2025-04-30
+- [Could AI models be conscious?](anthropic/could-ai-models-be-conscious-2025.md) - Kyle Fish, Anthropic, 2025-04-24
 - [What's new in cloud networking](google-cloud-tech/whats-new-in-cloud-networking-2024.md) - Muninder Sambi, Payam Kohan, Anna Berenberg, Google Cloud Tech, 2024-07-01
 - [What's new in Cloud network security](google-cloud-tech/whats-new-in-cloud-network-security-2024.md) - To The, Manisha Gupta, Google Cloud Tech, 2024-07-01
 - [Prevent data exfiltration with Google Cloud's built-in controls](google-cloud-tech/prevent-data-exfiltration-with-google-cl-2024.md) - Really Happy, Sri Balas, One Of, Google Cloud Tech, 2024-07-01
@@ -289,6 +508,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 - [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud Memory](unlisted-videos/architecting-agent-memory-session-state-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-28
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
+- [Beyond the basics with Claude Code](claude/beyond-the-basics-with-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Digital health with Dr. Oliver Aalami](google-for-developers/oliver-aalami-digital-health-2025.md) - Ashley Oldacre, Dr. Oliver Aalami, Google for Developers, 2025-07-23
 - [The secret sauce to certification-readiness](google-cloud-tech/the-secret-sauce-to-certification-readin-2024.md) - Alyssa Groves, Carl Franklin, Google Cloud Tech, 2024-07-01
 - [Identities as the bedrock for Google Cloud security](google-cloud-tech/identities-as-the-bedrock-for-google-clo-2024.md) - Everyone Bright, Rabish Sha, Responsible For, Google Cloud Tech, 2024-07-01
@@ -328,6 +548,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [TechByte: Build the next generation of creative and multimodal experiences](unlisted-videos/techbyte-build-the-next-generation-2026.md) - Katie, Unlisted Videos, 2026-06-24
 - [TechByte: AI threat readiness and code security](unlisted-videos/techbyte-ai-threat-readiness-and-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
 - [Cloud roadmap series: Discover secure and unified infrastructure for agents](unlisted-videos/cloud-roadmap-series-discover-secure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
+- [Claude on Google Cloud: Monitoring and Securing Agents at Scale](unlisted-videos/claude-on-google-cloud-monitoring-and-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-24
 - [TechByte: AI infrastructure in 2026 - Architecting for agentic AI](unlisted-videos/techbyte-ai-infrastructure-in-2026-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
 - [Beyond the GPU: Maximizing goodput with self-healing AI infrastructure](unlisted-videos/beyond-the-gpu-maximizing-goodput-2026.md) - Benazie Fatai, Unlisted Videos, 2026-06-16
 - [New research: How AI is actually transforming security operations](unlisted-videos/new-research-how-ai-is-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
@@ -336,10 +557,18 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Bringing dark web intelligence into the AI era](unlisted-videos/bringing-dark-web-intelligence-into-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [Agentic Defense Transforming the SOC with AI Agents](unlisted-videos/agentic-defense-transforming-the-soc-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [AI threat readiness and code security](unlisted-videos/ai-threat-readiness-and-code-security-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude.](anthropic/anthropic-just-showed-a-24-minute-2026.md) - Anthropic Technical Staff, Anthropic, 2026-06-07
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
+- [Securing & Governing Claude: the Compliance API and Security Integrations](unlisted-videos/securing-governing-claude-the-compliance-api-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-05
 - [Secure Your AI Transformation](unlisted-videos/secure-your-ai-transformation-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [Claude Security: Putting Claude to Work for Defenders](unlisted-videos/claude-security-putting-claude-to-work-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-28
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
+- [Agents that remember](claude/agents-that-remember-2026.md) - Claude Engineering Team, Claude, 2026-05-23
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
+- [How to get to production faster with Claude Managed Agents](claude/how-to-get-to-production-faster-2026.md) - Claude Engineering Team, Claude, 2026-05-21
+- [AI with Claude on AWS: From code to orchestration](claude/ai-with-claude-on-aws-from-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026-2.md) - Fiona Fung, Fiona Fun, Claude, 2026-05-09
+- [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026-2.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
 - [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
 - [Cross-cloud infrastructure for the agentic enterprise](google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) - Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan, Google Cloud Tech, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
@@ -347,15 +576,22 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Next '26: The Future of AI Infrastructure](google-cloud/next-26-the-future-of-ai-infrastructure-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [Orchestrating ML/AI workloads with TPUs on GKE](google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) - Yufeng Guo, Kavitha Gowda, Google Cloud Tech, 2026-04-10
+- [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-02
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
 - [TechByte: AI security: Build and protect](unlisted-videos/techbyte-ai-security-build-and-protect-2026.md) - Veronica Sandaval, Lisa, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
+- [Claude Code for Service Delivery: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-service-delivery-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-30
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
 - [What is smart storage? Meet Google Cloud's storage vision](google-cloud/what-is-smart-storage-meet-google-clouds-2025.md) - Dave Mc, Google Cloud, 2025-11-19
+- [Advancing Claude for Financial Services](unlisted-videos/advancing-claude-for-financial-services-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-03
+- [Claude Code Best Practices: Power User Insights from Lightspeed Portfolio Companies](unlisted-videos/claude-code-best-practices-power-user-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-10-23
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
+- [Claude Code in financial services: From analyzing data to modernizing legacy systems](unlisted-videos/claude-code-in-financial-services-from-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-08-29
+- [Threat Intelligence: How Anthropic stops AI cybercrime](anthropic/threat-intelligence-how-anthropic-stops-ai-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-27
+- [Building headless automation with Claude Code | Code w/ Claude](anthropic/building-headless-automation-with-claude-code-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
 - [AgentOps: Operationalize AI Agents](google-cloud-tech/agentops-operationalize-agents-2025.md) - Sita Lakshmi Sangameswaran, Sokratis Kartakis, Google Cloud Tech, 2025-06-12
 - [You can only secure what you can see: How observability empowers security](google-cloud-tech/you-can-only-secure-what-you-can-see-how-2024.md) - Rory, Google Cloud Tech, 2024-07-01
 - [Workload-optimized and AI-powered infrastructure](google-cloud-tech/workload-optimized-and-ai-powered-infras-2024.md) - Mark Lohmeyer, Srinath Reddy Meadusani, Sushma Gundlapally, Jeff Welsch, Google Cloud Tech, 2024-07-01
@@ -429,6 +665,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 - [Build a Self-Evolving Agent: Autonomous Self-Improvement](unlisted-videos/build-a-self-evolving-agent-2026.md) - Annie Wang, Christina, Annie, Unlisted Videos, 2026-08-20
 - [Build an AI-Powered F1 analytics agent with McLaren Racing](unlisted-videos/build-an-ai-powered-f1-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-18
+- [Claude for Business Development Representatives](unlisted-videos/claude-for-business-development-representatives-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-08-13
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2](unlisted-videos/architecting-multi-agent-teams-mastering-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-08-12
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
 - [Step Into the Agentic Era: Google Cloud Data Agents](unlisted-videos/step-into-the-agentic-era-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
@@ -438,7 +675,9 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Govern your agents: Architecting a secure agentic ecosystem](unlisted-videos/govern-your-agents-architecting-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [Demo | Synchronized intelligent workforce with Gemini Enterprise and Google Workspace](unlisted-videos/demo-synchronized-intelligent-workforce-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [Choice and control: Unified access and Agent routing with Gemini Enterprise Agent Platform](unlisted-videos/choice-and-control-unified-access-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
+- [Building on the Claude Platform: Claude Fable 5 and model orchestration patterns](unlisted-videos/building-on-the-claude-platform-claude-2026.md) - Jeremy Hadfield, Brad Abrams, Unlisted Videos, 2026-07-22
 - [Build AI agents at scale](unlisted-videos/build-ai-agents-at-scale-2026-2.md) - Asha Kapoor, Unlisted Videos, 2026-07-22
+- [Claude IT Setup for Nonprofits](unlisted-videos/claude-it-setup-for-nonprofits-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-17
 - [Scale AI, not your bill: Managing Model Cost](unlisted-videos/scale-ai-not-your-bill-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-16
 - [TechByte: The Intelligent Enterprise: Building the foundation for agentic consumption](unlisted-videos/techbyte-the-intelligent-enterprise-building-2026.md) - Wamsi Bodipuri, Unlisted Videos, 2026-07-07
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
@@ -461,16 +700,24 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Secure Your AI Transformation](unlisted-videos/secure-your-ai-transformation-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
+- [How finance teams use Claude Cowork](unlisted-videos/how-finance-teams-use-claude-cowork-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-02
 - [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
 - [TechByte: From cost center to value engine: Building your business case for AI-assisted development](unlisted-videos/from-cost-center-to-value-engine-2026.md) - Nathan Harvey, Eva Dong, Unlisted Videos, 2026-05-27
+- [How Anthropic’s sales team run their week with Cowork](unlisted-videos/how-anthropics-sales-team-run-their-2026.md) - Travis Bryant, Brittney Tong, Unlisted Videos, 2026-05-26
+- [Where code meets court: AI at the legal-technical frontier](claude/where-code-meets-court-ai-at-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
+- [How legal teams put Claude to work](unlisted-videos/how-legal-teams-put-claude-to-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-15
+- [Building with Claude Managed Agents and Asana AI teammates](claude/building-with-claude-managed-agents-and-2026.md) - Claude Engineering Team, Claude, 2026-05-09
+- [Claude for Nonprofits: Moving Your Workflow Beyond Chat](unlisted-videos/claude-for-nonprofits-moving-your-workflow-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-06
 - [The agentic enterprise: Google Workspace & Gemini Enterprise](google-cloud/the-agentic-enterprise-google-workspace-2026.md) - Yulie Kwon Kim, Maryam Gholami, Derek Snyder, Yotam Lemberger, John Aisien, Google Cloud, 2026-04-28
 - [Own your signature customer agentic experiences](google-cloud/own-your-signature-customer-agentic-expe-2026.md) - Darshan Kantak, Archana Kannan, Chad Westfall, Google Cloud, 2026-04-28
 - [Driving enterprise value from Agentic AI - Addressing the hard part](google-cloud/driving-enterprise-value-from-agentic-ai-2026.md) - Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart, Google Cloud, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
 - [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [Claude for Legal teams](unlisted-videos/claude-for-legal-teams-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-21
+- [Deploying Cowork across the Enterprise , with PayPal](unlisted-videos/deploying-cowork-across-the-enterprise-with-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-16
 - [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
 - [The Agentic Organization: Transforming Every Role and Workflow Part 3](unlisted-videos/the-agentic-organization-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-20
 - [Designing AI-ready data platforms for enterprise scale](unlisted-videos/designing-ai-ready-data-platforms-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-17
@@ -478,11 +725,13 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
 - [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
+- [Building with Claude Code: Inside Notion's AI development workflow](unlisted-videos/building-with-claude-code-inside-notions-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-17
 - [Becoming AI-First: A Partner's Blueprint with Egen CEO](google-cloud/becoming-ai-first-a-partners-blueprint-w-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-11
 - [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
 - [What is smart storage? Meet Google Cloud's storage vision](google-cloud/what-is-smart-storage-meet-google-clouds-2025.md) - Dave Mc, Google Cloud, 2025-11-19
 - [What’s new with IAM and Org Policy: Access risk, at-scale governance and AI](google-cloud/whats-new-with-iam-and-org-policy-access-2025.md) - Abhishek Hemrajani, Google Cloud, 2025-10-21
 - [The Impossible Computing with Keith Ballinger | The Agent Factory Podcast](google-cloud-tech/keith-ballinger-impossible-computing-2025.md) - Keith Ballinger, Mollie Pettit, Vlad Kolesnikov, Google Cloud Tech, 2025-09-04
+- [Claude for Financial Services Keynote](anthropic/claude-for-financial-services-keynote-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-01
 - [Building a frontier AI search experience](google-for-developers/frontier-ai-search-experience-2025.md) - Logan Kilpatrick, Robby Stein, Google for Developers, 2025-07-24
 - [The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure](google-for-developers/ai-art-and-design-2025.md) - Ashley Oldacre, Douglas Edric Stanley, Anthony Masure, Google for Developers, 2025-07-23
 - [Indira Negi - Investing in AI hardware for health](google-for-developers/indira-negi-ai-health-hardware-2025.md) - Ashley Oldacre, Indira Negi, Google for Developers, 2025-07-23
@@ -490,6 +739,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Digital health with Dr. Oliver Aalami](google-for-developers/oliver-aalami-digital-health-2025.md) - Ashley Oldacre, Dr. Oliver Aalami, Google for Developers, 2025-07-23
 - [Building human-centered AI products with Ovetta Sampson](google-for-developers/ovetta-sampson-human-centered-ai-2025.md) - Ashley Oldacre, Ovetta Sampson, Google for Developers, 2025-07-23
 - [3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly](google-for-developers/checks-mobile-app-compliance-2025.md) - Ashley Oldacre, Fergus Hurley, Nia Castelly, Google for Developers, 2025-07-23
+- [Transforming the world's largest sovereign wealth fund with AI: NBIM’s journey with Anthropic](unlisted-videos/transforming-the-worlds-largest-sovereign-wealth-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-05-27
 - [Waymo: AI in the physical world powering the future of driving](google-for-developers/waymo-ai-physical-world-2025.md) - Aditi Roy, Dmitri Dolgov, Google for Developers, 2025-05-24
 - [Darren Aronofsky and Demis Hassabis on storytelling in the age of AI](google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) - Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt, Google for Developers, 2025-05-24
 - [Workload-optimized and AI-powered infrastructure](google-cloud-tech/workload-optimized-and-ai-powered-infras-2024.md) - Mark Lohmeyer, Srinath Reddy Meadusani, Sushma Gundlapally, Jeff Welsch, Google Cloud Tech, 2024-07-01
@@ -518,12 +768,18 @@ Wingerter, Google Cloud Tech, 2024-07-01
 - [TechByte: AI threat readiness and code security](unlisted-videos/techbyte-ai-threat-readiness-and-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-24
 - [The agentic organisation - Transforming every role and workflow](unlisted-videos/the-agentic-organisation-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-23
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
+- [Where code meets court: AI at the legal-technical frontier](claude/where-code-meets-court-ai-at-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
 - [Orchestrating ML/AI workloads with TPUs on GKE](google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) - Yufeng Guo, Kavitha Gowda, Google Cloud Tech, 2026-04-10
+- [From 0 to 1: How Zingage Built AI-Powered Home Care on Claude](unlisted-videos/from-0-to-1-how-zingage-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-26
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
+- [What is Al "reward hacking", and why do we worry about it?](anthropic/what-is-al-reward-hacking-and-2025.md) - Anthropic Technical Staff, Anthropic, 2025-11-21
+- [Claude for Life Sciences: Accelerating Discovery from Hypothesis to Breakthrough](unlisted-videos/claude-for-life-sciences-accelerating-discovery-2025.md) - Jonah Cool, Unlisted Videos, 2025-10-28
+- [Introducing Claude for Life Sciences](anthropic/introducing-claude-for-life-sciences-2025.md) - Jonah Cool, Eric Kauderer-Abrams, Anthropic, 2025-10-20
+- [Interpretability: Understanding how AI models think](anthropic/interpretability-understanding-how-ai-models-think-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-16
 - [Demis Hassabis on shipping momentum, better evals and world models](google-for-developers/demis-hassabis-evals-world-models-2025.md) - Logan Kilpatrick, Demis Hassabis, Google for Developers, 2025-08-11
 - [Season 5 - Shaping the agentic future with Clement Farabet](google-for-developers/clement-farabet-agentic-future-2025.md) - Ashley Oldacre, Christina Warren, Clement Farabet, Google for Developers, 2025-07-24
 - [The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure](google-for-developers/ai-art-and-design-2025.md) - Ashley Oldacre, Douglas Edric Stanley, Anthony Masure, Google for Developers, 2025-07-23
@@ -535,6 +791,12 @@ Wingerter, Google Cloud Tech, 2024-07-01
 - [Waymo: AI in the physical world powering the future of driving](google-for-developers/waymo-ai-physical-world-2025.md) - Aditi Roy, Dmitri Dolgov, Google for Developers, 2025-05-24
 - [Science in the age of AI](google-for-developers/science-in-the-age-of-ai-2025.md) - James Manyika, Pushmeet Kohli, Joëlle Barral, Anima Anandkumar, Google for Developers, 2025-05-23
 - [Deep Dive into Long Context](google-for-developers/deep-dive-long-context-2025.md) - Logan Kilpatrick, Nikolay Savinov, Google for Developers, 2025-05-02
+- [Claude for Work: Unlocking the Power of Claude with Research and the Google Workspace Integration](anthropic/claude-for-work-unlocking-the-power-2025.md) - Scott White, Hannah Moran, Anthropic, 2025-04-30
+- [Could AI models be conscious?](anthropic/could-ai-models-be-conscious-2025.md) - Kyle Fish, Anthropic, 2025-04-24
+- [Controlling powerful AI](anthropic/controlling-powerful-ai-2025.md) - Ethan Perez, Joe Benton, Akbir Khan, Anthropic, 2025-03-17
+- [Defending against AI jailbreaks](anthropic/defending-against-ai-jailbreaks-2025.md) - Ethan Perez, Anthropic, 2025-02-28
+- [Building Anthropic | A conversation with our co-founders](anthropic/building-anthropic-a-conversation-with-our-2024.md) - Jack Clark, Anthropic, 2024-12-20
+- [Alignment faking in large language models](anthropic/alignment-faking-in-large-language-models-2024.md) - Anthropic Technical Staff, Anthropic, 2024-12-18
 - [What's next with Gemini: Driving business impact with multimodal use cases](google-cloud-tech/whats-next-with-gemini-driving-business-2024.md) - To The, Jason, Here With, Excited About, Google Cloud Tech, 2024-07-01
 - [What s next for security professionals](google-cloud-tech/what-s-next-for-security-professionals-2024.md) - Sunil Potti, Kevin Mandia, Sandra Joyce, Google Cloud Tech, 2024-07-01
 - [Use large language models to answer difficult science questions](google-cloud-tech/use-large-language-models-to-answer-diff-2024.md) - Nicholas Broad, Google Cloud Tech, 2024-07-01
@@ -562,13 +824,17 @@ Wingerter, Google Cloud Tech, 2024-07-01
 - [BigQuery and BigLake: Real-world data products for AI/ML at scale](google-cloud-tech/bigquery-and-biglake-real-world-data-pro-2024.md) - Yvette Liu, Sami Akbay, Murat Ozcan, Google Cloud Tech, 2024-07-01
 - [Advanced productivity for data science](google-cloud-tech/advanced-productivity-for-data-science-2024.md) - Karthik Ramachandran, Jay Hondadkatte, Alex Martin, Google Cloud Tech, 2024-07-01
 - [A primer on data on Kubernetes](google-cloud-tech/a-primer-on-data-on-kubernetes-2024.md) - Akshay Ram, Prasanth Veerina, Google Cloud Tech, 2024-07-01
+- [Scaling interpretability](anthropic/scaling-interpretability-2024.md) - Anthropic Technical Staff, Anthropic, 2024-06-13
 - [How to deploy all the JavaScript frameworks to Cloud Run](google-cloud-tech/how-to-deploy-all-the-javascript-framewo-2024.md) - Luke Schlangen, Google Cloud Tech, 2024-05-16
 
 ## Career/Advice
 
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [A fireside chat on the evolution of the developer craft](google-for-developers/developer-craft-evolution-2026.md) - Addy Osmani, Richard Seroter, Aja Hammerly, Ciera Jaspan, Google for Developers, 2026-05-21
+- [AI on campus](anthropic/ai-on-campus-2026.md) - Anthropic Technical Staff, Anthropic, 2026-01-13
+- [What does AI mean for education?](claude/what-does-ai-mean-for-education-2025.md) - Claude Engineering Team, Claude, 2025-12-17
 - [Becoming AI-First: A Partner's Blueprint with Egen CEO](google-cloud/becoming-ai-first-a-partners-blueprint-w-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-11
+- [Anthropic’s philosopher answers your questions](anthropic/anthropics-philosopher-answers-your-questions-2025.md) - Amanda Askell, Anthropic, 2025-12-05
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
 - [The intersection of AI, art, and design with Douglas Edric Stanley and Anthony Masure](google-for-developers/ai-art-and-design-2025.md) - Ashley Oldacre, Douglas Edric Stanley, Anthony Masure, Google for Developers, 2025-07-23
 - [Building human-centered AI products with Ovetta Sampson](google-for-developers/ovetta-sampson-human-centered-ai-2025.md) - Ashley Oldacre, Ovetta Sampson, Google for Developers, 2025-07-23

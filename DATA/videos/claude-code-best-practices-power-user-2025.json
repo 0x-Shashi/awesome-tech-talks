@@ -1,0 +1,44 @@
+{
+  "id": "claude-code-best-practices-power-user-2025",
+  "title": "Claude Code Best Practices: Power User Insights from Lightspeed Portfolio Companies",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Anthropic and Partner Leaders"
+  ],
+  "url": "https://youtu.be/sHCCXK7Xz24",
+  "date": "2025-10-23",
+  "format": "Demo",
+  "level": "Advanced",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "Join Anthropic for an intimate technical session showing Anthropic’s best practices for getting the most from Claude Code.\n\nThis exclusive event features real power users sharing advanced techniques, quantified ROI insights, and practical guidance on evolving from traditional coding to AI-powered development supervision. You'll see live demonstrations of subagents, hooks, and advanced workflows that top technical leaders use to 10x their productivity.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Claude Code Best Practices: Power User Insigh",
+      "text": "Welcome to cloud code best practices. We're you know going to be\nsharing uh tips and tricks from power users and you know leadership at like light speeded portfolio companies and on\nthe cloud code team. Thanks for joining us and really excited to get started. Uh just some housekeeping\nbefore you know we uh before we dive into it. We are going to be recording the session and so you'll get it via email. You can submit questions via\nthe web portal and you know uh we'll try to get to all of them but or we probably won't get to all of them but we will you know get to as many as we can. And uh\nyeah give us feedback. You know this is like one of the first times we've been running this webinar."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "And kind of taking all that and injecting that into cloud code into look h how do\ns, 8 secondsI want to approach a task like this? What that got to was essentially you know use the software itself to to extract um underlying structure. S, 17 secondsthat's kind of what you're seeing on on the right. It's essentially an RPA script which I've never written before. S, 22 secondsBut with cloud code again architecting exactly kind of what I wanted to do. I wrote a very wellperforming uh RPA\ns, 29 secondsscript and you know then the the second task was again kind of extracting structure from that which which um uh again you know I think architecting it\ns, 38 secondsone step removed from cloud code uh before before generating. Zooming out like a little, I think I'll just touch on kind of three of my biggest unlocks,\ns, 46 secondsI think. These are not really, you know, using the Claude M MD in a great way or like MCPs, which I've explored a ton."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "I think generally um what I've seen at anthropic is that we use clear a lot more. We start from a a scrap uh from a fresh start very often. S, 46 secondsUm what I'll do often is like I'll say like if I'm working on a set of changes, so much of the state of my changes are in the codebase itself, right? S, 55 secondsAnd so like it doesn't necessarily need to have all of the like output that it's had before. I'll often like you know once I finish something I'll do\ns, 2 secondsslashclear. If I wanted to like look at what I've done before I might be like hey look at my git diff history or something like that and and look through\ns, 10 secondsthat. I think if you're hitting compact a lot I think think about like you know can you be resetting the state\ns, 18 secondsmore? Cloud code is very very good at like you know like reading your codebase to find things out."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Um, which I think is a really neat application. So, you can sort of apply your own standards\ns, 2 secondslocally as you're iterating, but you can also take those same standards and have Claude help you go out and review other folks code that way as well. We haven't\ns, 10 secondsyet played with integrating that via like the GitHub app or stuff like that. S, 14 secondsBut like I see that as a sort of great natural evolution um if you can make it all work. Adam, do you want to talk a little bit about, you know, like the code you generate because that seems like not React or, you know, not Node.j. I mean, I think, yeah, the number one, it's it's kind of code, you know, it's a file format. Yeah, it was\ns, 35 secondsessentially it it I I my first actually thing I tried was was writing a llinter. S, 41 secondsUm, which as one person did did not go well and eventually, you know, that was one of the repos I simply deleted um\ns, 48 secondsbecause it went nowhere."
+    }
+  ],
+  "read_time_minutes": 2.7
+}

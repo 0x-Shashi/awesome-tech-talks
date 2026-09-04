@@ -1,0 +1,42 @@
+{
+  "id": "ai-with-claude-on-aws-from-2026",
+  "title": "AI with Claude on AWS: From code to orchestration",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/5YHIrTYxM3w",
+  "date": "2026-05-20",
+  "format": "Panel",
+  "level": "Advanced",
+  "topics": [
+    "Backend/Infra",
+    "Web Development"
+  ],
+  "description": "In 45 minutes you'll stand up Claude Code in Amazon Bedrock, teach it your team's conventions with CLAUDE.md, and turn your everyday workflows into reusable agent skills. You'll leave with a working, team-tuned agentic dev environment on Bedrock.",
+  "entities": [
+    "Amazon Bedrock",
+    "Anthropic",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in AI with Claude on AWS: From code to orchestra",
+      "text": "Thank you for joining\nthis session. I work in Amazon Web Services\nand I'm also a developer as many of you\nand also a cloud whisperer as I like to\nsay. We are really just whispering\nmodels these days, not really writing\ncode. Uh in this session we are\ngoing to be talking about how to take\nthe applications that you are building\nin CL code from prototypes that you\nmight have in your computer to fully\nproduction ready applications that you\ncan have in the cloud in this case with\nAmazon web services. Uh I think the\nstory that uh we are telling today is a\nstory about teamwork, a story about\nbetter together because uh I remember I\njoined the team and started working uh\nwith anthropic more than three years\nago. I remember we were still launching\nclot 2 as the big amazing model that was\nuh you know changing and shifting the\nground uh below us and u on since then\nwe have tried to combine the best\nfrontier models that anthropic has been\ndeveloping with the best cloud provider\nuh that we had in Amazon web services\nand uh this session by the way is a\nhands-on session so what we are going to\ndo is that I'm going to give you a brief\nintroduction into how do we work\ntogether anthropic and AWS and how you\ncan use clot in AWS in many different\nways that we have available today and\nthen we are going to give you some\naccounts in AWS so you can free of\ncharge and with no limitations test clot\nin in in bedrock in this case and also\nin in general in AWS so you can see uh\nhow to use it you have a guided\ninstructions and a workshop and again we\nare going to give you an environment so\nyou can play around with it. Um again\nthis collaboration started and uh has\nbeen continued as a very long-term\nrelationship and um we have uh proven\nthis year by year. Amazon has invested\nuh has done a multi-billion investment\nin Antropic uh because we really believe\nthat we are building the future of AI\ntogether and at the same time we are the\nprimary cloud provider for Antropic and\nuh Antropic has uh committed uh more\nthan 100 billion on usage in AWS as well\nin the infrastructure that we are\noffering for powering the motors that\nyou are using every day with cloud and u\nan example of the This investment is\nproject reineer."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "In\nexample if you have to align with GDPR\nand and these kind of regulations. Now if we see the whole ecosystem who\nwho is familiar with Amazon bedrock by\nthe way in this room okay so I was\nsuspecting less hands to be honest\nbecause uh this is really a clot event\nbut uh it's great to hear that you are\nusing bedrock or you know about bedrock\nand this and bedrock has been growing a\nlot since uh the the beginning since the\nlast uh three or four years when we\nreleased the service and today apart\nfrom the core which is obviously the\nfoundation models that you have access\nto and obviously uh anthropic cloud\nmodels are a very important point part\nof that. You also have other features\nthat help you in the full journey as a\ndeveloper. You have uh features that\nhelp you doing evaluation that help you\ndoing pro optimization uh that help you\nfine-tuning the models as we mentioned\nbefore or uh doing model distillation as\nwell if you need it. We also give you\nsome features that help you connecting\nif you have rack use cases. You can have\nknowledge bases that are fully managed\nso that you can attach to it as well. We\nhave uh guard rails which is a way in\nwhich you can apply content filters, you\ncan deny topics uh you can uh protect\nPII data or sensitive data by doing\nautomatic masking and so on. Uh you\ncan also control hallucinations from the\nmodels by doing uh proper grounding\nautomated reasoning checks."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "And\nthat you have two ways of uh doing that\nas well. One is through the cloud\nenterprise in in the AWS marketplace in\nwhich you pretty much subscribe to the\nnumber of developers that you have using\nthis application as well. But you now\nalso have the option of using it uh and\nand let's say point directly the coord\n3P which is one of the latest additions\nalso that the anthropic team did for uh\nconnecting cloud desktop to third\nparties. In this case you can connect\ncloud desktop to bedrock or you can\nconnect even cloud desktop to the cloud\nplatform on AWS if you prefer to do so. Again, you have all sort of\ncombinations to make your life easier\nand uh pretty much meet you where you\nare on your needs on this. Let's dive into the actual\nworkshop that we are going to be\nbuilding together. I just want to uh\nmake a recap that first of all you need\ntwo prerequisites for running this\nworkshop. One is you need an AWS\naccount."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "I just\nwant to remind everybody that those are\nworkshop accounts. It's uh individual\nfor you but make sure that you don't\nupload confidential information,\npersonal information or anything like\nthat. You will have to agree to the\nterms and conditions and click on the\njoin event. From that point on uh\nyou are going to see pretty much this\nexperience that you have in the\ninstructions here where you actually\ngoing to have a an environment fully\ndeployed for you. Uh you will see a\nURL here that will take you to a\nterminal and a pretty much a visual\nstudio code UI where you can actually\nwork on all the instructions that we are\ndoing in the workshop. Let's say that you don't want to follow\nthis path and you want to do it in your\nown machine. You can\nuse cloud directly in a terminal. If you\nprefer, you can configure it for\npointing to bedrock uh with instructions\nthat we are giving you in the workshop."
+    }
+  ],
+  "read_time_minutes": 4.2
+}

@@ -1,0 +1,42 @@
+{
+  "id": "build-ai-agents-using-claude-in-2026",
+  "title": "Build AI agents using Claude in Microsoft Foundry",
+  "channel": "Claude",
+  "speakers": [
+    "Marlene Mangami"
+  ],
+  "url": "https://youtu.be/TQd_YQvydVg",
+  "date": "2026-05-20",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "In this hands-on workshop, you'll provision Claude in Microsoft Foundry, connect it to a real MCP server with Claude Code, and build a working agent. You'll leave with running code and a cupcake to prove it.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Build AI agents using Claude in Microsoft Fou",
+      "text": "Um, thank you for joining us in this session\ntoday. Um, my name is Marlene Mangami and I am a senior developer advocate at\nMicrosoft and I'm joined today as well by two of my colleagues, uh, Liam\nHampton who's also from Microsoft and Chris Snoring, who I'm not sure where\nChris is. He's probably around the room somewhere. Today we are going to be\nbuilding AI agents using Claude in Microsoft Foundry. The approach that\nwe're taking today is super practical. We're not just going to be talking about what AI agents are, but we're\nactually going to be building them using clawed models in Foundry. We'll take a look at what that looks like in a\n. I'm just going to move through my slides."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "So, this\nenvironment is going to start preparing um to load our content. You should find yourself on this screen. We like I mentioned are going to be\nbuilding out an agent with uh AI foundry with Microsoft foundry and thought and\nyou can go through I will mention several things. The first thing is that if you feel pretty confident um and you\nare a self-paced person and you like going ahead you should be able to just\ngo through the instructions and click next and it will have the instructions as you go along. You can actually do\nthis workshop at your own speed and go quickly if you would prefer going on your own. But I'm also going to walk you\nthrough step by step each of the steps. If you got any problems throughout the workshop, uh my colleagues are here\nand we're here to help you if you have any issues. The first thing I will mention before\nI start reading is you can we're using an environment called skillable and to\nyou don't have to type things in."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "When\nwe click on the details tab, the main thing we want to grab is this URI, our target URI. So once we have this, we\nwant to get the target URI and we want to get the API keys. Um, and once we\nhave that, we are going to go ahead and we're going to open up VS Code. When we open up VS Code, it's going to come with some pre-built files already uh available for us to use. The main thing we're going to start by editing is our env file. Here this is\na little bit tricky is that we want to make sure that we update the endpoint. If we go here, I'm just making it so that you can see. We want to uh paste in that endpoint that we have\nand we want to remove at the end it says v1 messages and that's not going to\nwork."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "The agent is we want it to have a specific persona\nand we also want the agent to greet us in a specific way and we can do that by\nmaking the updating the system prompt to make sure that it uh works in a specific\nway. Again, what we can do is just copy this code\nand I'm going to paste it through\nand you will see that we have got some instructions that we're pulling in from\nthe AC the MCP server. We're actually getting a prompt which is already\navailable through the MCP server um which is going to have some agent instructions and we also have the\nspecific welcome banner that we're getting as well as a prompt. This is how prompts are reusable. This is a\ngreat way to uh simplify workflows if you're if you're going to have people\nbuild with your project for example. Again, to get this to work, all we\nneed to do Oh, all we need to do is run the same command. Uh, I don't know if I pressed exit. Ah, I did not press exit."
+    }
+  ],
+  "read_time_minutes": 2.6
+}

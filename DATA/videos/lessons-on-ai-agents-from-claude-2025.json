@@ -1,0 +1,43 @@
+{
+  "id": "lessons-on-ai-agents-from-claude-2025",
+  "title": "Lessons on AI agents from Claude Plays Pokemon",
+  "channel": "Anthropic",
+  "speakers": [
+    "Alex Albert"
+  ],
+  "url": "https://youtu.be/CXhYDOvgpuU",
+  "date": "2025-04-24",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "Alex Albert (Claude Relations) and David Hershey (Applied AI) explore the story behind Claude Plays Pokémon, an experiment that demonstrates how AI agents navigate complex tasks. \n\nThey discuss how Pokemon's turn-based gameplay provides an ideal testing ground for evaluating Claude's agentic capabilities, the evolution of Claude's performance across different model versions, and the real-world applications of AI planning and strategy.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude 3.7 Sonnet",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Lessons on AI agents from Claude Plays Pokemo",
+      "text": "Introduction and what is Claude Plays Pokemon\n- The AI world has talked so much about agents in the last year, but for a lot of the world I think like, it's pretty hard to really understand what that means. I think the example of Pokemon where it's like, oh, it's like not just a chatbot\nwhere I type in a chat and I get a response back, but like it's like doing this on its own and seeing and trying things and taking actions and all that is a way\nthat I think more people have been able to like latch onto what is this agents thing we're talking about? - Today we're diving into the story behind Claude Plays Pokemon. I lead Claude Relations here at Anthropic. I'm on our Applied AI team and I made Claude Plays Pokemon. - David, can we get a broad overview\nof what is Claude Plays Pokemon for those who aren't aware. - Claude Plays Pokemon is a sort of experiment with agents\nthat is hooking up Claude, our language model, to the Game Boy game Pokemon Red,\nletting it actually try to play the game. So we start it from square one, like start a new game and see how Claude does learning\nhow to be a Pokemon master."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "- Claude obviously like knows something about Pokemon. If you go to claude.ai\nand ask it questions like you'll notice that it can recall some like general facts and there's enough in the pop culture\nthat of course Claude knows something about Pokemon. - Through the pre-training process, yeah. It even knows like some\nof the broad strokes information about the game. It knows that like the first gym leader is Brock\nand so it has some sense of like the structure of the game, but the details, it really knows nothing about it. In fact, sometimes it thinks it knows things and it does it. This is one of the hard things you have to fight with. But that means that even without sort\nof like specific training, knowing a little bit about what Pokemon is and some of the motivation of it,\nit has to figure out everything else sort of in the intermediate space."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "- A good example which you still see sometimes but you see a lot less is like Claude's like,\nI need to go to the top left in Pokemon and then it'll just walk into a wall for hours on end. If the model is really fixated on walking to the top left, like yeah you keep just walking up until I get there. - But if it's walking into a wall, like it eventually needs to step back and be like, hmm, maybe I maybe I need to be doing\nsomething else first. - And that's the kinda thing where that's what happens in Pokemon,\nbut yeah it's like super translational to a lot of the other things we do. That's a good parlay into this next question I had\naround what are the current kind of funny moments we've been seeing? I mean, it's not perfect quite yet,\nyou know, it's got a lot better over the past eight or so months, but we haven't beat Pokemon. Funny failures and current limitations\n- And there's definitely been some funny times along the way. - Any stories you could share there?"
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "- You'll see some Frankenstein prompts if you like, try to anticipate every possible thing\nthat the model could end up struggling with, which is why I think it's like just important to be measured and like read a lot\nand like the thing I've learned probably the most is just like watch it, read what it says,\nsee what it's struggling with, understand and just find out like the most minimal ways that you can give it a little bit more context\nrather than trying to like work around every single detail. Maybe switching gears a little bit here. We included Claude Plays Pokemon as part of our Claude 3.7 Sonnet launch. - And we had the benchmark with all the lines- - Yep. - of how far each model's got through the different gyms. - And then we put out like an article kind of explaining it. What was the reaction like by like just the general public\nand people more in the AI space? - I guess like maybe to tell like a little bit of the backstory of that- - Yeah."
+    }
+  ],
+  "read_time_minutes": 3.0
+}

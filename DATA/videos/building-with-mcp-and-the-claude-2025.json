@@ -1,0 +1,48 @@
+{
+  "id": "building-with-mcp-and-the-claude-2025",
+  "title": "Building with MCP and the Claude API",
+  "channel": "Anthropic",
+  "speakers": [
+    "Alex Albert",
+    "John Welsh",
+    "Michael Cohen"
+  ],
+  "url": "https://youtu.be/aZLr962R6Ag",
+  "date": "2025-10-10",
+  "format": "Talk",
+  "level": "Beginner",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Anthropic’s Alex Albert (Claude Relations), John Welsh (Engineering, MCP team), and Michael Cohen (Engineering, Claude API team) discuss the origins of the Model Context Protocol (MCP), the open standard for connecting AI applications to external systems, best practices for getting started with MCP, and how MCP and Claude work together to enable more powerful agentic systems. \n\n00:00 - Introductions\n00:30 - What is MCP?\n1:30 - The origins of MCP\n2:50 - Open sourcing MCP\n5:00 - Remote MCP support\n6:15: MCP registries \n7:40 - Favorite MCPs: Context7 & Playwright \n10:40 - Using the Claude API MCP connector \n11:50 - Prompt engineering with MCP\n14:20 - Best practices for managing context and tools with MCP\n18:20 - How John and Michael use MCP servers for project management, home automation, and more\n20:00 - Understanding the “emergent” behaviors when Claude and MCP servers work together\n22:50 - The future of MCP: growth of the protocol and ecosystem\n \nLearn more about MCP: https://modelcontextprotocol.io/docs/...\n\nLearn more about the Claude Developer Platform: https://www.claude.com/platform/api\n\nLearn more about how to write effective tools for AI agents: https://www.anthropic.com/engineering...",
+  "entities": [
+    "Anthropic",
+    "Asana",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "MCP Servers",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Building with MCP and the Claude API",
+      "text": "- Yeah, I'm never actually writing anything anymore. - It was just you reading\nClaude the whole time. I lead Claude Relations here at Anthropic. Today we're talking about MCP and the Claude API,\nand I'm joined by my colleagues. I'm an engineer on the API team here at Anthropic. - I'm John and I work on the Model Context Protocol team\nhere at Anthropic. - To kick us off here today,\nI really wanna give a high level overview\nof just what is MCP. - MCP is the Model Context Protocol,\nand it's a way of providing external context to models."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "I feel like a lot of folks still have kind of intuitions\nthat were based in how it was, you know, earlier this year\nand early 2025 or something around that. But the protocols moving so fast and things are changing. What's the current state in your guys' mind of MCP? - I feel like a big aha moment for me at least,\nwas when we released remote MCP support. Some of the initial quirks of the protocol\nwere that you had to run everything effectively by yourself,\nwhich prevented providers of MCP servers like Asana\nfrom being able to host their own servers\nthat you could just access very, very quickly. It made the setup process very, very yeah, clunky. I think that, yeah, a very big step change\nin my opinion,\nwas when we kind of provided first-class support\nfor remote hosted MCP servers,\nthat drastically reduced the set of process,\nso that end users can just get started fairly quickly. - And now we have a registry of these servers,\nso people can actually upload these to the registry\nand then we authorize them or we approve them and-\n- Yeah, totally."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "- I think that the main one that I try to give developers\nwhen I talk is that MCP servers and tools\nare really at its core prompts. So we've kind of learned\nthat if you're writing AI-powered applications,\nit's really important to be careful and precise\nabout the language that you use\nwhen you're prompting the model. This extends to everything about defining your MCP server,\nlike defining your tool names appropriately,\ngiving them descriptions. Maybe your description has a few short examples\nin the description of how to use it,\ngiving appropriate parameter names. This is all stuff that's gonna affect your model's behavior\nwhen it interacts with the MCP server. An example though that I had was\nI was making an image generation server\nand I had a tool called Generate Image,\nand then it had a field called Description, and that's it. Then, you tell Claude like,\n\"Hey, generate me an image of a cute puppy,\"\nand it'll go along, call the tool,\nbe like, \"Description, cute puppy.\"\nGreat. If you go and change that,\nand you say like,\n\"This tool calls the XXX diffusion model, version Y\nand should be prompted in this style for best results,\"\nuse this kind of descriptive language,\ndo all of this."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "- One of the biggest use cases that I've found personally\nis Anthropic is often an information highway. There's just so much information all over the place\nbetween our Slack and our docs and our code base\nand getting the latest status on how the project\nthat I'm currently on is going is not often very, very easy\nto understand from just a single source. What I've gotten in the habit of doing\nis I will either on Claude AR or on Claude code\nset up my MCP servers to connect\nto all these various locations\nand I'll just ask it,\n\"Hey, here's a couple of examples of past project updates\nthat I've written myself. Can you go find information from the last week\nand generate a status update using the same exact format?\"\nAnd I would say that the success rate on that\nis much, much higher than I originally thought. - Am I reading your status updates then in your Slack\nand those are all Claude-generated? - Yeah, I'm never actually writing anything anymore. - It was just you reading\nClaude the whole time. - I found a couple of angles from hacking around\nmy home hardware."
+    }
+  ],
+  "read_time_minutes": 2.8
+}

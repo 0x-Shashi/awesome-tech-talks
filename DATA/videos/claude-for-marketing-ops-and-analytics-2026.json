@@ -1,0 +1,42 @@
+{
+  "id": "claude-for-marketing-ops-and-analytics-2026",
+  "title": "Claude for Marketing Ops and Analytics",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Ian Chan",
+    "Annabel Custer"
+  ],
+  "url": "https://anthropic.ondemand.goldcast.io/on-demand/59a61f82-01ca-438d-aa3c-7974b5edae9e?email=devofficialcoma@gmail.com&first_name=dev&last_name=Dev",
+  "date": "2026-08-06",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Ian Chan and Annabel Custer are on Anthropic's marketing operations team. They will walk through how they used Claude Cowork to close the gap between fast-moving marketing plans and the slower systems that support them. Attendees will see two real workflows in action: an automated weekly metrics report and an event build that runs overnight. They will leave with a blueprint for applying the same approach to their own stack.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Cowork"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Claude for Marketing Ops and Analytics",
+      "text": "Ian Chan and Annabel Custer are on Anthropic's marketing operations team. They will walk through how they used Claude Cowork to close the gap between fast-moving marketing plans and the slower systems that support them. Attendees will see two real workflows in action: an automated weekly metrics report and an event build that runs overnight. They will leave with a blueprint for applying the same approach to their own stack. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Agents, Web Development domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Anthropic, Claude, Claude Cowork. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

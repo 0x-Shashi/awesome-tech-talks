@@ -1,0 +1,43 @@
+{
+  "id": "the-expanding-toolkit-2026",
+  "title": "The expanding toolkit",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/KLCuxMDZSDg",
+  "date": "2026-05-09",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Over the last year, capabilities that used to require heavy scaffolding have moved into the model: reliable tool use, context management, writing and running code, computer use, and more. This session walks through these capabilities, shows what changed between model generations, and demonstrates how they compose into agents that finish work instead of just starting it.",
+  "entities": [
+    "Artifacts",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "Computer Use"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in The expanding toolkit",
+      "text": "I'm a research PM here at\nEnthropic. Today I'll be talking\nabout the expanding toolkit. But first\nof all, I want to say thank you\neverybody for joining us at our Code\nwith Claude conference. We're very\ngrateful you're here and we love\nspeaking directly to our users. What am I going to talk about\ntoday? The overarching theme of today's\ntalk is that the scaffolding that you\nhad to build last year actually ships\nwith the model today. I want you all\nto think of the model no longer as just\nan input output LLM box but rather as a\nseries of tools around that model that\nexpands its capabilities and leads to\nbetter performance. In other words we\nsee the model itself as an expanding\ntoolkit."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "You might tell Claude, you\nknow, here are the parameters you need\nin order to call this tool and to use\nthis function. But actually what you can\ndo is give Claude a description of the\noutput schema as well. So you can\nsee in the example I have here in the\ndescription I actually outlined, you\nknow, this search docs tool will search\nthe docs and it'll return the ID, title,\nsnippet, and score. So by doing this um you can actually\nlet Claude know what to expect from this\ntool call. For example, if Claude\nwanted to rank the outputs of this tool,\nit already knows that a score will be\nreturned by this tool, effectively\nsaving it a round trip from the harness. So by doing this, you get more\nefficient and more intelligent outputs\nfrom Claude when using this tool. Now for a cloud code quick tip. This\nis another one that I like to use\nfrequently, you can actually use pre and\npost tool use hooks defined in your\ncloud settings."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "So now we actually offer a\ncode execution tool which automatically\ngives Claude a hosted sandbox on the\nserver side. This means that that\nentire loop that I just described\neffectively happens inside a single API\nturn. No more harness round trips\nbetween Claude and whatever VM you're\nusing. Claude can just in the back end\non the API side tap into that separate\ncomputer that's being used just for\nClaude's scratchpad and work. Now this one is maybe a little less\nof a tip and more so a mental model as\nto how to think about code execution and\nverse your local bash. When we give\nClaude the code execution tool, it\nbasically gets its own computer to do\nstuff on. Think about this in a way\nof like giving Claude a little\ncalculator or something except it's an\nentire computer that it can actually\nuse. So this means that Claude can\nuse this computer for things like\nstateless compute, data analysis."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "I'll show a short\npre-recorded demo of an agentic coding\nloop with cloud code. You'll see\ncomputer use in action while with the\ncloud in Chrome extension. So, basically we what we'll have\nwhat we have here is a uh cloud code\nsession and we've been working on a\nproject management dashboard, but it has\na couple bugs. The first bug is that the\nnew button isn't actually adding a card. The new button should be adding a\ncard. We ask Cloud to open it in\nChrome and try it itself. So we'll see this dashboard load as\nsoon as Claude decides to open the\nbrowser. You can see Cloud is\nconnected through Cloud and Chrome here."
+    }
+  ],
+  "read_time_minutes": 2.3
+}

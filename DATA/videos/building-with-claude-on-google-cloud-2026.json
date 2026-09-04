@@ -1,0 +1,41 @@
+{
+  "id": "building-with-claude-on-google-cloud-2026",
+  "title": "Building with Claude on Google Cloud",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/l8fxVYIP4HQ",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "A live build from zero to deployed in thirty minutes. We'll build a feedback app spanning five roles and the full software lifecycle, using Claude and Google Cloud alongside subagents, MCP servers, and custom skills. You can test the finished app at the end of the session.",
+  "entities": [
+    "Claude",
+    "Google Cloud",
+    "MCP Servers"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Building with Claude on Google Cloud",
+      "text": "A live build from zero to deployed in thirty minutes. We'll build a feedback app spanning five roles and the full software lifecycle, using Claude and Google Cloud alongside subagents, MCP servers, and custom skills. You can test the finished app at the end of the session. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Agents, Web Development domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Claude, Google Cloud, MCP Servers. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

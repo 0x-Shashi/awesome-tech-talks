@@ -1,0 +1,43 @@
+{
+  "id": "advancing-claude-for-financial-services-2025",
+  "title": "Advancing Claude for Financial Services",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Anthropic and Partner Leaders"
+  ],
+  "url": "https://youtu.be/wZ-7ta1Z-yk",
+  "date": "2025-11-03",
+  "format": "Demo",
+  "level": "Advanced",
+  "topics": [
+    "Web Development",
+    "Backend/Infra"
+  ],
+  "description": "Join us for an exclusive look at how leading financial services institutions are transforming their operations with Claude. See live demonstrations of real-time market intelligence, native Excel workflows, and autonomous execution capabilities, as well as hear directly from financial services industry leaders on how they’re driving AI transformation at scale.\n\nWhether you're evaluating AI for your team or scaling existing deployments, you'll leave with practical insights on achieving measurable outcomes in deal execution, investment analysis, risk management, and operational efficiency.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Advancing Claude for Financial Services",
+      "text": "I'm Eleanor and I lead our industries team here at Enthropic. Hey, I'm Nick and I lead product for Claude for Financial Services. Welcome to the launch webinar for the next milestone of Claude for Financial Services. A few quick housekeeping items before we start. If a\nfriend or a colleague wasn't able to join today, don't worry, we'll be sending out a recording within 24 hours of today. We likely won't have time for Q&A at the end, but please submit questions throughout and we see many of you have already started submitting questions and\nthat's amazing. There's a widget at the right hand of your screen. Our team will be monitoring and answering questions throughout and anything we don't get to,\nNick or I or the teams we work with, we'll be sure to follow up."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "S, 51 secondsWe launched skills a few weeks ago. Now, skills are a really easy way for anyone, not just developers, to program Claude\nsto be really great at these core workflows you all really care about. S, 5 secondsThey're essentially bundles of instructions clock can easily follow to do comprehensive research like earnings\ns, 12 secondsdeep dives and initiating coverage, complex analysis like discounted cash flows and leverage bio models and\ns, 19 secondscreating client ready deliverables like dozers and company profiles. S, 26 secondsSimilar to the last slide where we have built these integrations for you and these connectors out of the box, we are providing these stills as part of cloud\ns, 33 secondsfor financial services. But stills can cover an entire spectrum from work that's just for you again to your team to the department to the organization\ns, 41 secondsand across the financial industry as a whole. I for example send out a weekly email on Sunday nights that recaps my team's progress from the previous week\ns, 50 secondsand focus areas for this week. I have a still write that now. While the team thinks I'm spending hours of my Sunday dedicated to updating them, I'm in\ns, 57 secondsreality watching TV while Claude does this work for me."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "It's one of those areas where this is where the value really gets very manifest very quickly\ns, 31 secondswhen you think about a lot of the workflows people have been doing here before it's been very single task or how do I do this one task using AI as\ns, 40 secondsopposed to how do I just automate the entire thing? How do I make think about the entire process differently? So for a lot of us, that's caused us to\ns, 48 secondsrealize that there are lots of little areas of friction that are in the way of making that real. We tend to talk about\ns, 56 secondsthem as uh agentic infrastructure, things that you never thought you needed an API for before or that you never\ns, 4 secondsrealized, oh, this isn't actually conducive to an automated play where there's not a human involved. So\ns, 12 secondsthere's a lot of work that goes into that, you know, that infrastructure to make that real and make that viable. In terms of the human in the loop, that's\ns, 20 secondsone of those things that we're we're pretty passionate about. I think one of the the failings we tend to see when people start looking at these u these\ns, 28 secondsworkflows and and these different approaches for the first time is they think about it in terms of it's got to be perfect. It's it's got to 100% be\ns, 36 secondsaccurate every time."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "We have an\ns, 8 secondsentire ministry of education team internally at anthropic just focused on the former but you know we're thinking a lot more internally about how do we\ns, 15 secondsactually build the products to be useful and that understands what your workflows look like. I think you know software have the advantage of us being able to\ns, 23 secondswrite code for those workflows right I think within the process of writing code we're injecting our domain expertise in terms of what best practices look like\ns, 32 secondsto interact with systems like you know Salesforce and Slack but for us AI is a lot harder right there's a lot less code to write because the beauty is an AI\ns, 40 secondssystem so we want to really give claw the scaffolding with the tools it has access to these skills that it can\ns, 47 secondsflexibly deploy so that we start taking you So these important core workflows for our customers and breaking them down\ns, 54 secondsinto smaller chunks that clock and start attack. S, 58 secondsAnd now let's move on. Andrew would love to hear from you. It feels reductionist to call it change management. S, 4 secondsBut how are you thinking about enabling your teams and driving this level of adoption and rethinking of how they come to work every day? S, 13 secondsUm we we have a two twopronged approach. S, 17 secondswe take, you know, we have a bottoms up and it's sort of a top down."
+    }
+  ],
+  "read_time_minutes": 3.4
+}

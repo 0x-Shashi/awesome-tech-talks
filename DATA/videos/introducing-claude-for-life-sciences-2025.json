@@ -1,0 +1,44 @@
+{
+  "id": "introducing-claude-for-life-sciences-2025",
+  "title": "Introducing Claude for Life Sciences",
+  "channel": "Anthropic",
+  "speakers": [
+    "Jonah Cool",
+    "Eric Kauderer-Abrams"
+  ],
+  "url": "https://youtu.be/sHImlfVM9r4",
+  "date": "2025-10-20",
+  "format": "Workshop",
+  "level": "Beginner",
+  "topics": [
+    "Research/Papers",
+    "Web Development"
+  ],
+  "description": "Anthropic’s Jonah Cool (Head of Life Sciences Partnerships and Deployment) and Eric Kauderer-Abrams (Head of Biology and Life Sciences Research) share their vision for making Claude the go-to AI research assistant for scientists with Claude for Life Sciences.\n\nThey dive into how Anthropic is building AI that actually works for researchers, helping scientists handle real work like running bioinformatics analysis or creating publication-ready figures and reports.\n\nPlus, hear about partnerships with Benchling, 10x Genomics, and PubMed, and how these collaborations are creating an ecosystem where Claude fits naturally into the tools and workflows scientists already use.\n\nLearn more about what Claude can do for life sciences: https://claude.com/solutions/life-sci...\n\n00:00 - Introductions\n00:50 - Anthropic's commitment to advancing life sciences\n04:10 - \"Turning Claude into a scientist\" with MCP servers, skills, partnerships, and more\n09:05 - Training Sonnet 4.5 for long-horizon tasks in life sciences \n15: 20 - Using Claude to accelerate regulatory processes across functions\n20:00 - Making life sciences AI safer and more accessible with new products and partnerships\n25:20 - Anthropic's AI for Science program\n28:50 - Advancing science as a research organization\n31:00 - Shaping the future of life sciences with Claude and Anthropic",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "MCP Servers",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Introducing Claude for Life Sciences",
+      "text": "Introductions\n- It took us three months, ultimately, lots of people working day and night in the lab to fix the problem. I posed this problem to Claude. I said, \"Hey, what should we do to get unstuck?\" And just in one minute, you know, one response, Claude actually just one shotted the answer. I am the Head of Life Sciences focused on partnerships and deployment here at Anthropic. I'm the Head of Biology and Life Sciences here at Anthropic. I'm focused on research and product development,\nand together we're trying to teach Claude to be a biologist. - All right, Eric, let's talk science. I'm really excited about this\nand also excited about the fact that Anthropic and, you know, we're leaning into this space,\nand, you know, maybe the place to start is just thinking about why the life sciences, why Claude, and what Anthropic brings to, you know,\nwhat is already a really big ecosystem, but one that's moving really fast."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "For me, I've always been on the one hand, a part of the software world, the other hand, a part of this bio world, and you know,\nthings started on the software side where you'd give Claude, you know, these little snippets of tasks, right? Over time, those tasks become longer horizon, Claude becomes more autonomous, you know, it can more seamlessly integrate\nthrough the different tools there. I think we're right at that takeoff point in the life sciences where we're just now\nwith all of these connections that we're introducing, able to unlock that next stage where, you know,\nyou don't have to just ask Claude to go perform an analysis and then you do some work, and then you come back\nand you make a BioRender figure and you ask Claude to revise it, right? We could actually give Claude a whole, you know, meaningful chunk of the work\nthat would take a human scientist a couple hours to do. I think that transition is the really exciting point\nin a field where it goes from being, you know, a useful kind of utility to actually\na brainstorming partner, which is what I'm after. - Yeah, it's just kind of like embedded in the process. Training Sonnet 4.5 for long-horizon tasks in life sciences\n- Yeah. We recently released Sonnet 4.5, a really exciting, super powerful model."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "I really believe that we have the opportunity to massively uplift the capabilities of biologists\nin doing incredible, impactful research. That with the tools that we have now, you know,\nwe're finally at that moment where all these things are possible. I remain the same optimism\nthat I had when I first got into this. I think, you know, all the experience in the lab has been really clarifying\nto help point out, okay, there are real problems here that are not pretty and that require, you know,\nlots of grindy work to get in there and disentangle. But I think we're now set up\nto make a dent in that, so. But I'd love to hear what you think. - Yeah, I mean, I totally agree, right? I mean, I share that optimism."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "In this conversation we've been emphasizing a lot breaking the problem down into all these pieces that we're gonna solve independently,\nbut the most important part is when we put it all back together. - And scientists are actually using these things, you know,\nhow's it going and what are we doing, right? So I think the AI for Science program is critical for us to get that feedback\nand be closing the loop with people that are using these things every day in the lab. So I am super excited about that. One other point that I think is really important to make that, you know, speaks to why Anthropic,\nand why the experience of doing this within Anthropic is so exciting, it's such a perfect fit,\nis that as we're talking about accelerating and enhancing capabilities, right? The other side of that is safety\nand the tremendous responsibility that we all have to making sure that we are improving the model's capabilities\nand releasing, you know, increasingly impactful products in a way that is responsible\nand aligned with our responsible scaling policy and best practices in the biosecurity community. It's something I care deeply about. I've worked in biosecurity for years, and I think that, you know, at most companies,\nright, there would be some tension between the impact and the commercial aims of making these models better in biology, right?"
+    }
+  ],
+  "read_time_minutes": 3.0
+}

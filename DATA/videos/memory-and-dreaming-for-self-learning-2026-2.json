@@ -1,0 +1,43 @@
+{
+  "id": "memory-and-dreaming-for-self-learning-2026-2",
+  "title": "Memory and dreaming for self-learning agents",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/RtywqDFBYnQ",
+  "date": "2026-05-09",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "How memory and dreaming turn Claude Managed Agents into self-learning systems. This session walks through design considerations for memory architectures and how dreaming verifies and enriches memory between sessions.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "Claude Managed Agents"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Memory and dreaming for self-learning agents",
+      "text": "My name is Mahes and I'm a product\nmanager on the platform team here at\nAnthropic. Over the past year and a\nhalf, I've gotten to work on primitives\nlike MCP and Skills. Today I want to\ntalk about the primitive that I'm most\nexcited about next, which is memory. Um,\nI'll talk about why we think memory is\nso important and why we've been spending\nso much time on it at Enthropic. How we\nthink about designing memory systems\nthat are built for Frontier Agents. I'm excited to also talk about Dreaming,\na brand new product that we're launching\ntoday in research preview in the managed\nagents API. Model capabilities have improved really\nquickly over the last couple of years\nand agents are capable of tasks that\ntake many many hours and can run for\nor almost days at a time. As\nmodels and agents have improved, we've\nalso invested in building higher and\nhigher level capabilities and primitives\nthat kind of get out of those models way\nand give them access to additional bits\nof their environment and things that\nthey can manage and become more powerful\nover time."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "How do I keep it organized inside\nof a file system? Ultimately, it all\ndoes this with just bash tools and GP\ntools that already make Claude so good\nat agentic coding. The other thing that we had in mind when\ndesigning memory is that it needs to\nscale with the multi- aent systems that\nwe're going to be building over the\ncoming months. Multi multi parallel\nagents is something that we're already\nkind of starting to do with cloud code. There's a lot of uh vibe coders that\nhave like 10 or 15 cloud code sessions\nrunning at the same time. We're\nstarting to see this in an enterprise\nsetting as well where enterprises\nincluding Antropic have hundreds or\nsometimes even thousands of agents\nrunning in parallel interacting with the\nsame set of shared state and the same\nshared memory. There's a couple of\nproperties that come out of this. One is\nwe want to give agents the ability to\nmix and match between the session and\nthe work that it's doing and the set of\nmemory stores that it has access to."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "It's a batch\nasynchronous process that runs\nseparately from the work that you're\ndoing uh within a specific session\nthat's working on a specific task. You\ncan kick off dreaming periodically um\nusing our console or v our API on kind\nof a cron basis or you can plug it in\nusing our API into an existing process. For example, some customers kick off\ndreaming once their agents have finished\na task and are spinning down and want to\nsave those learnings to the memory\nstate. Dreaming comprehensively looks\nthrough recent transcripts, looks for\ncommon mistakes, things that a bunch of\nagents are doing like a failed tool call\nor strategies that are working out for\nthem and finds opportunities to update\nthe memory state that will improve it in\nthe future. It produces this updated\nmemory state that you can then apply\nimmediately to your memory store. Or\nmaybe you want to run some checks and do\nsome manual review um which you can do\nvia the API. The ultimate goal of dreaming is\ncontinuous self-learning and\nself-improvement where the next day's\nagents automatically get better based on\nthe learnings and the work of the\nprevious day's experience. We're excited about dreaming from a\ndesign and research perspective for a\ncouple of reasons."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "We don't\nwant agents necessarily to be going and\nmaking changes as they work. Now there's\nalso the S sur memory store that's readr\nand of course the S sur agents are able\nto constantly make changes to this as\nthey react and learn from the\nenvironment around them. So, we see this alert, this P1 that's\ncoming in from the dispatch service, and\nwe spin up this S sur agent um that goes\nand starts to kick off an investigation. It goes and investigates the CPU\nutilization. Maybe it goes and checks\nout some of the traffic patterns and\nqueries for some of the recent PRs that\nhave gotten deployed. If we click into the\nS sur memory store and notes these in a\nnew diff that gets updated in that\nmemory store. Now, a couple minutes\nlater, that same alert gets paged again\nand a different S sur agent spins up\nwith access to the same memory store. The first thing it does is it sees that\nnote within its memory store that says,\n\"Hey, we already did this investigation."
+    }
+  ],
+  "read_time_minutes": 3.1
+}

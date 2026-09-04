@@ -1,0 +1,43 @@
+{
+  "id": "agent-skills-transform-claude-from-assistant-2025",
+  "title": "Agent Skills: Transform Claude from Assistant to Specialized Agent",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Marius Buleandra"
+  ],
+  "url": "https://youtu.be/_zxeMYPHMOw",
+  "date": "2025-11-17",
+  "format": "Demo",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Learn how to turn Claude from a conversational assistant into a specialized agent that executes complex, repeatable workflows tailored to your specific needs. Join Marius Buleandra from Anthropic's Applied AI team as he shares how Agent Skills can automate tasks that used to take hours, from customer prep work to enterprise document creation, and shows you how to build your own custom skills.\n\nIn this technical deep dive, you'll discover the architecture behind Skills, see live demonstrations of both pre-built and custom skills in action, and learn best practices for creating skills that encode your organization's unique workflows and expertise.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Computer Use",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Agent Skills: Transform Claude from Assistant",
+      "text": "Hello everyone, welcome to the agent skills webinar. My name is Marius and I'm part of the applied AI team here at\nAntropic. Before this uh I was the YC founder building evaluation tools for voice AI agent. What I want to show\nyou in this presentation is how to transform the cloud that you know from a general purpose assistant that you love\nand use every day to a more specialized agent that can help you with some of the more complex tasks that you have at your\ncompany. Before we start, just a few housekeeping notes. Don't be afraid if you miss anything. This will be\nrecorded and this will be sent to you via email in the next 24 hours. If you have any questions uh don't wait until\nthe end of webinar."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "S, 55 secondsAnd soon we'll see a hopefully goodlooking GIF. S, 6 secondsAll right, I'm happy with the result. I think it's uh I can publish this in Slack. S, 16 secondscould claude have done this without the scale? I think the answer is yes, but it would require a lot of iteration. S, 24 secondsWith the scale, Claude knows that the requirements for Slack are 128 by 128. S, 29 secondsUm the size needs to be small and some kind of information about the loop and animation just to make this much much more suitable for Slack. S, 40 secondsAnd now that we saw the skills in action, let's talk about when to use skills."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "I want to uh pass it in a PDF with uh you know\ns, 51 secondsthe legal checklist and I want back a spreadsheet with all these items and a pass fail column for each item. We already have the cloud window as I mentioned. I'm going to plug in the prompt and I'm going to\ns, 6 secondswait for Claude to create the skill for me. S, 12 secondsSo Claude is going to do a few steps here. First is going to invoke the skill creator skill which is available\ns, 20 secondsfor anyone to use right now. In that way you can easily bootstrap a new skill in the right folder structure uh and in\ns, 29 secondsthe right format because we are asking it to generate spreadsheet it also like realize that\ns, 37 secondsrealizes that it it can use the Excel skill as well. Now we're doing a little bit of uh Python uh file\ns, 46 secondsgeneration and then we're going to extract some more data from the PDF that I gave it just to make sure that uh\ns, 54 secondseverything is prepped and and ready to use. Now the reason we're doing a video here is because these do take a\ns, 1 secondminute."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "We have the issue name, we have the date, the l the link to to the GitHub and then we have the report\ns, 21 secondsID. As part of this task, I can run this every single week and and have these things populated. Now we saw how\ns, 29 secondsto create the skills both in cloud AI, both in cloud code. Let's see what's\ns, 35 secondsin plan for the agent skills. Now uh you can use cloud AAI, cloud code,\ns, 41 secondsagent SDK and the API to create and use skills. In the future uh what the team\ns, 49 secondsis working on is creating more features for um authoring skills, creating, editing, discovering and and sharing\ns, 57 secondsskills. We also have a focus on complementing MCP. We want to get to a place where you can use external tools\ns, 5 secondsand software by a combination of skills and MCP uh servers."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

@@ -1,0 +1,42 @@
+{
+  "id": "running-an-ai-native-engineering-org-2026-2",
+  "title": "Running an AI-native engineering org",
+  "channel": "Claude",
+  "speakers": [
+    "Fiona Fung",
+    "Fiona Fun"
+  ],
+  "url": "https://youtu.be/igO8iyca2_g",
+  "date": "2026-05-09",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Backend/Infra"
+  ],
+  "description": "When agentic coding goes from individual tool to org-wide default, the tool isn't the hard part...your processes are. Fiona Fung, Director of Engineering for Claude Code, walks through what broke at Anthropic (review, ownership, hiring) and the norms we had to rewrite to keep shipping.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Running an AI-native engineering org",
+      "text": "There's something in the way I move that\nkeeps them on their own. Hey folks, do y'all hear me? I I I swear this is not a Claude code\nthing, but do you guys mind if I take a\nphoto? Cuz because Boris and Jared had\ntheir session at two, and I really\nthought this was going to be empty. I'm\nlike, there was just no way people would\nstill be coming in from that session. Prom I promise me and Boris don't\njust do selfie words all the time,\n[laughter]\nbut good afternoon and thanks for\nattending. Yeah, my name is Fiona Fun\nand I lead cloud code and co-work\nengineering and product. I work\nreally closely with Boris and cat and\nbefore anthropic I had led and grown\nteams at Meta and then also Microsoft."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Now, uh\ncode reviews, what we'll get into a\nlittle bit. It's not only like roles are\nblurring, right? So between like\nengineers can also now now have AI to\nhelp augment non-engineering roles. My\nnon-engineering partners are also all\nshipping code. What happens when\nroles start blurring and you don't have\nthose you know uh like the silos anymore\nand then that also goes to knowledge\nshare knowledge sharing and onboarding\nand everything is another signal that\nwe're noticing at cloud code how we used\nto do things change a little bit too\nand so you know in the first section we\ntalked about the shift so within the\ncloud code team what are some of the\nnorms that we have to rewrite so I want\nto share some of those with you and then\nyou know hopefully some of them will\nresonate with you or you might find\nhelpful ful\nand so number one is code review uh like\nhuman judgment of like who actually\nneeds it and we'll kind of go through\nall of these but you know like the\nonboarding has also changed how we do\nplanning you heard me talk about like\nplanning a lot hiring especially with\nroles blurring and kind of team makeup\nhow that has changed for us too and also\norg shape that's kind of one of my\nfavorite spicy topics I I'll share that\nstory with you all when I start\nproposing that at anthropic I love my\nrecruiting partners parters are awesome\nbut I remembered you know one recruiting\npartner really did think I was crazy so\nI wanted to share that with y'all too so\nhow have planning changed but also\ntechnical debates planning we do a lot\nless of it like I I would also and also\nthe timing I call it like jit planning\nalmost like jit compiling because even\nwhen I first joined I'm like don't we\nneed a six-month road map and you know\nwe put some effort in we wrote it it was\npretty good for three months and then I\ncame back o over the new year and and so\nmany things had changed already. I\nrealized, wow, six months road map just\nseems like a little bit too long. Again, it's how do you make sure you\nkind of like do just the right amount in\nthe right time because again,\nprototyping and code generation is just\nnot the bottleneck that it used to be. The technical debate one is a fun one\ntoo."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Claude\nwasn't that good at asky art in those\ndays and I remembered asking that's\nwhere product sense really comes in. I\nasked my design partner, hey can you\nreview this for me? She gave me such\ngood feedback. She's like, \"You turn\nClaude into like the Mr. Peanut\ncharacter.\" Because I was trying to make\nhim snow match. Okay, I'm going to do\nsomething more simple. Claude was\nlike ice blue with snowflake. But keep\nin mind kind of that product sense as\nwell."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "That's just an an example of one day\nI remember looking at the spreadsheet\ngoing wait does this don't make sense\nanymore. Always question and always\nlook to defrag and kill old processes. What I want to make sure that I leave a\nlot of room for pods to adapt. It's uh\nfor for each team really has a lot of\nhigh agency for how you know they do\ntriage or leverage cloud to do triage\nany planning rituals or standups how\nthey think about on calls and also which\nworkflows to clottify first. We don't\nusually mandate thou shalt automate\nthis. We have some suggestions and\nlearnings but always give room to your\nteam especially they may be you know\ntouching on different uh problem areas. If I zoom out what were the three\nthings I prioritize on you know I I when\nI joined cloud code that I felt has make\nthe biggest difference keeping the team\nas flat as possible um like managers\nreally pods of work but really keep it\nagile. For example on on cloud code\nand co-work we have one overall team\nmission because sometimes when you start\ncreating pods each pod then wants maybe\nto set up their own mission and then\nanytime you have to shift it might be\ntake a lot of time to to walk people\nthrough that but it's really as flat as\nyou can."
+    }
+  ],
+  "read_time_minutes": 3.5
+}

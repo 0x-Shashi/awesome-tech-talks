@@ -1,0 +1,45 @@
+{
+  "id": "claude-code-for-service-delivery-learn-2026",
+  "title": "Claude Code for Service Delivery: Learn from Boris Cherny, Head of Claude Code",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Boris Cherny"
+  ],
+  "url": "https://youtu.be/r82LXBH-ae0",
+  "date": "2026-01-30",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Backend/Infra"
+  ],
+  "description": "Join Boris Cherny, the inventor of Claude Code, for a session dedicated to professional services delivery teams.\n\nSee live demonstrations of Claude Code powering real modernization workflows - from COBOL-to-cloud migrations that compress months into weeks.\n\nThere’s also dedicated time for Q&A with Boris so you can hear the latest from the founder of Claude Code.",
+  "entities": [
+    "Anthropic",
+    "Artifacts",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Claude Code for Service Delivery: Learn from",
+      "text": "Welcome to AI's hottest webinar, cloud code and service delivery. We have a jam-packed hour\nwaiting for you all and excited to jump into things. First and foremost, some quick housekeeping items. There might\nhave been folks who haven't been able to join or you're going to watch this hour and be like, I want to send this to so many folks. You're going to receive a\nrecorded link after. Q&A can be submitted at any time using the question wit um widget in the webinar portal. We encourage you um we want this to be an informal session and we want it to be as helpful as possible for everyone. Please keep your questions flowing um in\nthe questions widget and we'll be answering them throughout this entire presentation."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "[clears throat] So this is one part of it. I think another part that I would call out is we're starting to see all the different roles kind of blend into one which is\ns, 11 secondskind of interesting. Because for example on the quad code team which for me is like an early indicator of what happens at anthropic which is an early indicator of what happens kind of to\ns, 19 secondsevery other company we're starting to see that everyone codes. On the cloud code team our engineering managers code our product\ns, 27 secondsmanagers code our designers code our data scientists code our user researchers code our finance guy codes um our marketing people code. S, 35 secondseveryone codes your sales sales people code. I think at anthropic like half the GTM uses quad code. Um, and the reason\ns, 44 secondsisn't that like everyone like, you know, went to went back to school and learned CS and, you know, learned to code because they were so inspired. No, like the reason is thought code just makes it\ns, 52 secondsreally easy."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "And you should be able to see like lines of code committed uh lines of code written percent of code written using\ns, 32 secondsquad code. So out of the box you get metrics like this. If you want something more detailed you can just use otel. So like I said we emit open\ns, 39 secondstelemetry events uh for every cloud code action. So if you like you can just write a local\ns, 47 secondscollector and then like slurp these events and then visualize them however you want. You can put them in any kind of data store. S, 53 secondsWe maybe have time for one or two more questions with Boris. Can I use cloud to refactor large\nsprojects, extract specific packages and create a new deployable project in general effectiveness in brownfield space?"
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Whenever cloud initiates in a directory it turns on and starts running with the cloud MD file. In this case what we\ns, 3 secondsare saying is like you know hey claude for executing on this you have to use a fourpart migration strategy which is mig which is documented in the migration\ns, 12 secondsstrategy doc and it's really is like you know first and foremost create test cases. Create a comp comprehensive test suite understand obviously the\ns, 19 secondslegacy codebase create comprehensive test suite according to that second is uh create golden data set. Third\ns, 28 secondsis actually migrate the code and then fourth is to actually do a validation of the outputs of the old program and the\ns, 36 secondsnew program uh in parallel. When we are doing code migration the way to think about this is there is three\ns, 43 secondsmain elements where you have to keep an eye on and sorry I'm just going to I'm just going to enter over here while things are running in parallel. Uh the three things the way to think about this is the syntactic. Like you know when it's migrating into the legacy code base uh\ns, 1 secondit has to do that in the syntactic way and the syntact. S, 6 secondsThe second is around semantic which is like you know is it able to bring the business logic into the right way uh for\ns, 14 secondsthe for the target platform and then the third is idiomatic which is it's is it following the best practices of the language."
+    }
+  ],
+  "read_time_minutes": 2.9
+}

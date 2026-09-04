@@ -1,0 +1,41 @@
+{
+  "id": "threat-intelligence-how-anthropic-stops-ai-2025",
+  "title": "Threat Intelligence: How Anthropic stops AI cybercrime",
+  "channel": "Anthropic",
+  "speakers": [
+    "Anthropic Technical Staff"
+  ],
+  "url": "https://youtu.be/EsCNkDrIGCw",
+  "date": "2025-08-27",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "AI helps people work more efficiently. Unfortunately, this also applies to criminals. We've discovered that our own AI models are being used in sophisticated cybercrime operations, including a large-scale fraud scheme run by North Korea. \n\nWhat is Anthropic doing to detect and prevent AI cybercrime? How exactly are criminals using large language models to scam their victims? And what is \"vibe hacking\"? In this video, Anthropic's Jacob Klein and Alex Moix answer all these questions and more, discussing their work disrupting AI cybercrime and their new Threat Intelligence report. \n\nRead the Threat Intelligence report: https://www.anthropic.com/news/detect...\n\nSections:\nIntroduction [00:00]\n\"Vibe hacking\" [01:49]\nOur response to abuses of our models [08:34]\nNorth Korea's employment scam [15:02]\nRansomware, romance scams, and other abuses [23:50]\nHow concerned should we be? [31:46]\nHow this was made",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Threat Intelligence: How Anthropic stops AI c",
+      "text": "Introduction\n- All right, welcome to another video from Anthropic. My name's Stuart, from the Communications team. A lot of the time when you hear AI companies talking about threats from AI, they mean threats that are gonna happen in the future,\na future where AIs are vastly more capable than they are currently, and where we might lose control of their behavior. But there are a lot of threats that are happening right now. One of them is that cyber criminals are using AI\nto make their crimes much more effective. They're using AI to do scams, fraud, and extortion\nin particularly sophisticated ways. We have a whole team of researchers at Anthropic\nwhose job it is to spot these kind of problems, to stop them from happening, and then to prevent them happening in future. They have a new report out which details some of the, I must say, pretty bizarre cases of cybercrime\nthat we're seeing with Claude, our AI."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "If you explicitly said, I want to make a malware operation\nto scam people out of money, it would never do that. But you can pretend to be, I'm checking this for,\nI work for a security company, I'm checking this. - And this is why it's so important to think of multiple layers of defense\nwhen you're an AI company like Anthropic. Layer one is we train the model so it's less likely to respond to malicious requests,\nwhich is why you have to trick it or jailbreak it. - And when you trick it, you're kind of tricking it to go outside\nof what we've deliberately taught it to do. That's first layer, but we know that's not perfect. We have another layer,\nwhich is we have classifiers running, which are trying to detect this activity and stop it. We also have offline rules running that are saying, do we think leveraging maybe the string\nthat is put into a prompt, do we think that something as malicious is happening?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "- Maybe this is a silly question to ask, but I think it might occur to people, how much money do you think North Korea are making from this? They're making tech company salaries, right? They're presumably using that money to fund their weapons program and whatever else they need to run,\ngiven that they live under sanctions. How much do you reckon overall they earn from this kinda scamming? - We're seeing these actors get jobs as AI developers. Those people make quite a lot of money. - And just like general like coding, coding jobs,\nwhich typically are high salaried. So, they're being pretty effective with this\nand they're not taking jobs at like call centers or something like that, that might not pay as much."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "There are a number of reasons you might target a telecommunications company\nas a bad actor. But seeing that they were exfiltrating data clues us in on the potential that they are\ntrying to maybe identify certain things about communications happening within the country. - Like where the really important nodes are in the communication grid or whatever. So, we saw them target a number\nof companies within Vietnam, and in this case they were using Claude\nas more of an assistant in their operation. Whereas in the vibe hacking case, Claude was essentially on keyboard conducting the operation. In this case, they were more kind of having a conversation with Claude where it's like, hey, like where should I start this attack? They would run a scan on the victim network and paste that data back into Claude\nand say, hey, like, what is this scan telling me? Can you help me prioritize certain machines to target first?"
+    }
+  ],
+  "read_time_minutes": 2.5
+}

@@ -1,0 +1,42 @@
+{
+  "id": "claude-for-life-sciences-accelerating-discovery-2025",
+  "title": "Claude for Life Sciences: Accelerating Discovery from Hypothesis to Breakthrough",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Jonah Cool"
+  ],
+  "url": "https://youtu.be/Qt0fjZAukds",
+  "date": "2025-10-28",
+  "format": "Demo",
+  "level": "Advanced",
+  "topics": [
+    "Research/Papers",
+    "AI Coding Tools"
+  ],
+  "description": "Join us for an exclusive look at how leading pharmaceutical companies and research institutions are transforming their R&D operations with Claude. See live demonstrations of hypothesis generation, protocol optimization, and bioinformatics analysis capabilities, as well as hear directly from life sciences industry leaders on how they're driving AI transformation at scale.\n\nWhether you're evaluating AI for your research teams or scaling existing deployments, you'll leave with practical insights on achieving measurable outcomes in drug discovery, experimental design, literature analysis, and research efficiency.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Claude for Life Sciences: Accelerating Discov",
+      "text": "Hi everyone, welcome to the Cloud for Life Sciences webinar. I'm Jonah Cool and I'm Eric Connor Abrams and we're excited to share with you more details\nabout our first step into the life sciences. So first we'll go over some housekeeping items. We will be distributing a recording after the session. If we have time at the end, we'll get to them um at the end of the session. Otherwise, we'll have one of our team members follow up afterwards. Please fill out the survey in the portal. So, I'll start by reading a quote from Machines of Loving Grace, our CEO\nDaario's essay about the amazing benefits that can come from the development of powerful AI."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "But I think life in the lab is messy and actually integrating in\ns, 51 secondsand accelerating, you know, rather than just being sort of a tool bolted on um is hard, right? I think it's about as hard as it gets because you need to coordinate with lab instruments and\ns, 59 secondsthere are strict data requirements and all sorts of different data formats, right? So, um, what do you think it takes for for these AI tools that we're developing together to really embed in\ns, 8 secondsthe research progress from the beginning rather than being something that's sort of bolted on afterwards? Um, I think at Benchling, you know, we've spent the last decade plus getting scientists to move on to these modern cloud-based tools. That kind\ns, 23 secondsof getting scientists to actually use AI requires two main things. The first one's that like AI really needs to be connected into the scientist's actual\ns, 31 secondsdata. The best possible agent for let's say like analyzing data isn't useful if it requires a bunch of effort\ns, 38 secondsjust to give it your input data and document its output to and I think what that means is that the AI needs to be deeply integrated not just with public\ns, 47 secondsdata but also with private data in kind of um platforms like like basically um ours um sort of second thing that we're\ns, 55 secondslearning is that the AI needs to be really easy to access which means it needs to be kind of embedded into the UI and the kind tools scientists use every\ns, 3 secondsday. You know, these scientific models I was talking about earlier, they're already a really valuable design partner for scientists that are kind of uh\ns, 12 secondsdesigning molecules, but there's this change in behavior that has to happen um that I think won't happen unless they're really embedded in the same place that\ns, 20 secondsthe scientist is kind of designing DNA and protein sequence."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "That is our\ns, 11 secondsinternally uh um hosted and built AI companion for all employees leveraging the cloud models behind we've launched\ns, 21 secondsit and built it with our users with senopians since day one and we've reached an 80% adoption rate since the\ns, 30 secondsbeginning of the year we up to 8 million conversations on our concierge AI companion\ns, 38 secondsanother example is in in R&D. Um, our target discovery engines that combines advanced AI, machine learning, and\ns, 47 secondsintegrating data by experimental techniques for target validation can help us unravel disease biology and\ns, 54 secondsuncover new targets that we want to pursue. Today, these engines have delivered close to seven novel drug targets in just one year. S, 6 secondsSo in the end repeating it's about ambition,\ns, 13 secondsstructure, scale and [clears throat] love. S, 18 secondsI I really appreciate you bringing love, Cheryl. Love lovability as well as utility. S, 27 secondsAnd I think this is also just like a great point, right? I mean so much of science is born out of that like love and dedication to discovery and having\ns, 35 secondstools that you [clears throat] know help scientists you know make the most of that discovery make discoveries more rapidly you know do what they love uh\ns, 43 secondsdefinitely one of our goals and I think you know really front of mind okay so I'll jump in with with the next question uh we introduced kind of an early set of\ns, 50 secondsMCPs and starting to think about how claude can specifically interact with context in the life sciences and I'm really you know proud of these MCPs\ns, 59 secondsgiven how they kind of touch on key pillars of the scientific process from you know knowledge bases like PubMed and\ns, 7 secondsWY to tools and platforms like we heard about from Benchling and 10X Genomics to then of course data sets and Sage and\ns, 15 secondsSynapse and others you know it it still is kind of starting to scratch the surface of one of the key challenges that I think we all face which is that\ns, 24 secondsdata sets kind of exist in different silos and then of course the process of science from early stage stage discovery into validation into the clinic and you\ns, 32 secondsknow clinical trials is similarly maybe also you know somewhat siloed and separated and so you know I'd love to get uh your thoughts on how AI how some\ns, 41 secondsof these MCPs are starting to connect those previously difficult to connect data sets or stages and then perhaps an early indication of where where there's\ns, 50 secondssome early surprises or what you're seeing."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "For now uh of course human in the loop is\ns, 3 secondssomething that is uh built into all of our processes. But in the long term I can really see the way um that we can\ns, 13 secondsvalidate and monitor the potential output um I can see that needle uh moving as well. From our side it's\ns, 20 secondsbeen a very positive journey um and we're really looking forward to uh the way that these models develop in the future. S, 29 secondsYeah, I think your your use case is is such a great example of how, you know, once you start integrating it in um and iterating on the technology itself and\ns, 38 secondshow you use it in the context of your team, you know, you can decrease, you know, the the extent of of you know, human in the loop over time, right? S, 44 secondsObviously, not not to to zero, but um I think it's a great example of like building trust through through real use. S, 52 secondsUm, last, let's go to Scott here on uh on how you use cloud in regulatory settings. Uh, echoing what everyone said here, what I'll add is with something like cloud code, privacy, compliance,\ns, 5 secondssecurity, testing, validation can be agents you add on. So, I view this as a tool to help us scale."
+    }
+  ],
+  "read_time_minutes": 4.6
+}

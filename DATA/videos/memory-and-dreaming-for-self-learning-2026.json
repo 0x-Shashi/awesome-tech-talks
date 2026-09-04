@@ -1,0 +1,42 @@
+{
+  "id": "memory-and-dreaming-for-self-learning-2026",
+  "title": "Memory and dreaming for self learning agents",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/IGo225tfF2I",
+  "date": "2026-05-21",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "How memory and dreaming turn Claude Managed Agents into self-learning systems. This session walks through design considerations for memory architectures and how dreaming verifies and enriches memory between sessions.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude Managed Agents"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Memory and dreaming for self learning agents",
+      "text": "Thank you for joining us today. I'm excited to kick things off on uh the\nbreakout stage. My name is Ravi and I\nlead the API knowledge team within\nplatform at Enthropic. Since joining\nAnthropic last year, my focus has been\ncreating the building blocks for agents\nto interact with many forms of\nknowledge, ranging from the context\nwindow itself to skills, files, and even\ncontent on the web. We recently\nreleased two features that I'm most\nexcited about. We now have the\nbuilding blocks for agents to learn over\ntime and improve from one task to the\nnext. I'll talk about why we think\nmemory is important, how we designed it,\nand we'll close out with dreaming, our\nnew frontier memory feature. But first, a quick timeline of\nmilestones that got us here."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "You might be familiar\nwith claw.md for cloud code or dedicated\nmemory tools in the SDKs. But one pattern we're seeing is that as\nmodels improve, we really just want to\nget out of Claude's way, similar to what\nwe did with skills. Skills was a\nvery basic format that was highly\nflexible. The model understood\nhow to operate with it. So with\nmemory, we've leaned into that same\ndirection with files. Let's talk about some of the\ncapabilities that we design memory\naround. Right now with the current\nset of models, we know a few things. Models and claude are great at\nnavigating virtual environments and a\nfile system."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "In some\ncases, there was duplication or\nfragmentation. So we started thinking really deeply\nabout this problem and in the last\ncouple of months we built a feedback\nloop in the processing layer that combed\nsome of these problems. Now, I've said it a couple times, but\nthis time I mean it. This really\nis available in research preview right\nnow, and it can be used with managed\nagents. It's a process that looks for patterns\nand mistakes across agents and sessions,\nand it automatically\ncurates their memory. Customers\nlike Harvey saw a six times increase in\ncompletion rates for their legal\nbenchmark with Dreaming and we're\nactively seeing other usage of Dreaming\nand we're really excited to see how\npeople are benefiting from it. A quick overview of how\nit is process\nfrom sessions. Think of it like a feedback\nloop."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Now\nwe can dig into an interesting example\nhere where an agent investigated\nand found the root cause of an alert\nand\nit put up a fix and it noted in memory. It noted in\nmemory that a fix was in flight and it\nwas incoming. Then\nthe shared memory store can be read by\nuh subsequent sessions. So here we\ncan see that when a similar issue\narises,\nthe downstream session already knows\nthat a fix is in flight and it's able to\nact based on that information. I really think this is\njust such a cool pattern because you\nknow the I I was once an SR in my career\nand this really uh helps coordinate\nacross all agents\nand it's really cross- session memory at\nwork. [snorts]\nNow for running in enterprises uh an\nimportant piece here is audit logs and\nhistory. With memory you can see the\nfull version history. You can switch\nbetween different versions and you can\nalso attribute the rights to specific\nsessions."
+    }
+  ],
+  "read_time_minutes": 2.2
+}

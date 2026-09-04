@@ -1,0 +1,47 @@
+{
+  "id": "building-with-mcp-and-claude-code-2025",
+  "title": "Building with MCP and Claude Code: Sentry's 0 to 1 Story",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "David Cramer",
+    "Jeremy Hadfield",
+    "Ilana Nathans"
+  ],
+  "url": "https://youtu.be/nKAwzQ2b7JQ",
+  "date": "2025-12-12",
+  "format": "Demo",
+  "level": "Beginner",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "Discover how leading organizations are transforming their workflows with Model Context Protocol (MCP) and Claude Code. Join David Cramer, CPO and Co-founder, at Sentry, alongside Jeremy Hadfield and Ilana Nathans from Anthropic as they share real-world implementation stories and practical strategies for success.\n\nIn this webinar, David will walk through Sentry's journey adopting MCP and Claude Code, from initial exploration to production deployment. Learn how his team integrated Claude into their development workflows, the challenges they overcame, and the measurable impact on productivity and code quality. You'll hear firsthand insights on building with agentic AI tools and see live demonstrations of the solutions they've built.\n\nWhether you're just getting started with Claude Code or looking to scale your MCP implementation, this session offers actionable takeaways from a technical leader who's been in the trenches.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Cursor",
+    "Lovable",
+    "MCP Servers",
+    "Sentry"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Building with MCP and Claude Code: Sentry's 0",
+      "text": "Thank you so much for joining us. I'm a member of the go to market team here at Anthropic and I am joined today by\nJeremy Hadfield from our applied AI team. We're very excited to introduce you to David Kramer who is the co-founder and now the chief product\nofficer at Sentry. Centry is a leading application monitoring tool for developers. They're used by over 150,000\nteams including the team right here at Enthropic. A few housekeeping items before we get started. The session is\nrecorded and we'll distribute it via email by the end of the week. We have a questions widget so please submit your questions throughout and we'll save time\nfor Q&A at the end."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "I think that in general as the models get better it becomes less of a slot machine\ns, 57 secondsand more of like a reliable and very smart intern and I think that will progress even more to the point where it's you know as effective as working\ns, 7 secondswith um you know some software engineers and like it just sort of is a huge force multiplier for for most engineers. I'm\ns, 14 secondscurious like how um actually I think I think that one thing that would be interesting to see is I think you have a\ns, 20 secondsdemo of your Sentry MCP or of your use of cloud code and that would be super cool to see. S, 27 secondsYeah, let me um so we're going to let me jump into Sentry. I assume most people are familiar with Sentry. But let me pull that up. S, 36 secondsYep, we can see. S, 36 secondsUm I'm I'm not going to go too much in here. Sentry, we do a lot of things these days, right?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Here's a really\ns, 14 secondsgood example why GitHub has an MCP server that is like I don't know how many is it's like 40 tools. The biggest issue with MCP is when you load\ns, 21 secondsit up and and Anthropic has a bunch of stuff around this recently that's really awesome. But the the biggest gripe people had is what you load up an MCP server, the more tools it had, the more\ns, 30 secondsdefinitions of those tools, the more of your context window it would consume. If you've used any of these agents, you know, the more context consumed, the less you can kind of do, the more\ns, 37 secondsgenerally the the less reliable it gets with results. I think personally GitHub gave MCP a bad rap because it was\ns, 45 secondsjust like instantly everybody uses GitHub. I actually think it was one of the uh the less well-designed MCP services because\ns, 54 secondsall they did was take their API and they mapped it to a bunch of MCP tools. It's like very very surface level. S, 2 secondsAnd so if you want to so there I have advice for using and advice for building."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "So, what's crazy is um our CFO started using one of the uh like a Bolt or a lovable, one of like sort of the more\ns, 51 secondssimplistic things to build, um, he's into beer and whatnot. He was building like a beer rating app cuz he has like a spreadsheet CFO stuff and he started\ns, 59 secondswith one of these and it wasn't advanced enough for him and he quickly switched to like he switched to cursor in this case but um uh it was like cursor with\ns, 6 secondssonnet and he was like like the app is like legitimate now and I'm like he's probably just as good of a software engineer using this as like half the\ns, 14 secondssoftware engineers that are like early career and I'm like this is like phenomenal to me. Uh, and so I I just thought it was like such an interesting\ns, 21 secondsthing. To be fair, I think like the skills to be effective at his job are probably not wildly different than the skills to be an effective software\ns, 28 secondsengineer at like certain scales, but I think you sort of need those avenues and you need the right pushes and the unlocks and whatnot. But beyond\ns, 37 secondsthat, I actually don't know how you get it from even like, okay, maybe I tried it to I actually can use it or I know how to use it or I want to use it. I\ns, 44 secondsthink there's still all these like different sections of that. We we had a similar uh week here at Enthroic. And I've heard of Yeah, many customers doing the same."
+    }
+  ],
+  "read_time_minutes": 3.1
+}

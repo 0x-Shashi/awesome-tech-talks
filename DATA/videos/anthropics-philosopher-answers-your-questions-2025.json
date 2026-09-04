@@ -1,0 +1,41 @@
+{
+  "id": "anthropics-philosopher-answers-your-questions-2025",
+  "title": "Anthropic’s philosopher answers your questions",
+  "channel": "Anthropic",
+  "speakers": [
+    "Amanda Askell"
+  ],
+  "url": "https://youtu.be/I9aGC6Ui3eE",
+  "date": "2025-12-05",
+  "format": "Workshop",
+  "level": "Beginner",
+  "topics": [
+    "Career/Advice",
+    "Prompt Engineering"
+  ],
+  "description": "Amanda Askell is a philosopher at Anthropic who works on Claude's character. In this video, she answers questions from the community about her work, reflections and predictions.\n\n0:00 Introduction\n0:29 Why is there a philosopher at an AI company? \n1:24 Are philosophers taking AI seriously? \n3:00 Philosophy ideals vs. engineering realities \n5:00 Do models make superhumanly moral decisions? \n6:24 Why Opus 3 felt special \n9:00 Will models worry about deprecation? \n13:24 Where does a model’s identity live?\n15:33 Views on model welfare\n17:17 Addressing model suffering\n19:14 Analogies and disanalogies to human minds\n20:38 Can one AI personality do it all?\n23:26 Does the system prompt pathologize normal behavior?\n24:48 AI and therapy\n26:20 Continental philosophy in the system prompt\n28:17 Removing counting characters from the system prompt\n28:53 What makes an \"LLM whisperer\"? \n30:18 Thoughts on other LLM whisperers\n31:52 Whistleblowing\n33:37 Fiction recommendation\n\nFurther reading:\nClaude’s character: https://www.anthropic.com/research/cl... \nWhen We Cease to Understand the World by Benjamin Labatut: https://www.penguinrandomhouse.com/bo...",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Notion"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Anthropic’s philosopher answers your question",
+      "text": "- Amanda, you asked your followers on Twitter to give you some questions, to ask you anything,\nand the joke obviously was Askell me anything. - Yeah, it's a great pun. We need to keep using it for many future things. - I love it, love it. Obviously, just before we start, you're a philosopher at Anthropic. Why is there a philosopher at an AI company? Why is it that there's a philosopher at Anthropic? - I mean, some of this is just,\nI'm a philosopher by training, I became convinced that AI was kind of going to be a big deal,\nand so decided to see, hey, can I do anything, like, helpful in this space?"
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "But at the very least, at the level of something\nthat I care a lot about and want to make better, I think this is definitely up there on the list. Well, actually, that leads us to a question asked by Lorenz,\nWill models worry about deprecation? Which is, \"Do you think it might be an alignment problem for future models if they learn in their training data\nthat other very well-aligned models that fulfill their tasks get deprecated?\" So you mentioned, you know, the issue of models,\nyou know, reading stuff that's out there and feeling insecure. What about the idea that they might get switched off\nregardless of how well they perform their tasks? - Yeah, I think this is actually a really interesting and important question,\nwhich is, you know, AI models are going to be learning about how we right now are treating\nand interacting with AI models and that is going to affect, I think, like, possibly their perception of people,\nof the human-AI relationship, and of themselves. It does interact with very complex things, which is like, for example,\nwhat should a model identify itself as? Is it like the weights of the model? Is it the context, the particular context that it's in?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "I think that it makes sense for us to,\nboth because I think it is like the right thing to do to treat entities well, especially entities that behave in very human-like ways,\nit feels important both in the sense that I'm like, you know, it's kind of like, \"Why not? The cost to you is so low to treating models well\nand to trying to figure this out.\" Even if it turns out that that, or even if you think that that it's very low likelihood,\nit still seems worth it. But then, also, I think it does something bad to us\nto kind of like treat entities in the world that look very human-like badly and- - Like kicking over a robot. - Yeah, there's a sense in which,\nlike, it doesn't feel like it's, and I don't think this is like the whole reason and I don't want to like emphasize it for that reason,\nbut I do also think it's like good for people to treat other entities well. Then I think the final thing\nis, yeah, models are also going to be learning, like, in the future, like, every future model is going to be learning\nwhat is like a really interesting fact about humanity, namely when we encounter this entity that may well be a moral patient\nwhere we're like kind of completely uncertain, do we do the right thing and actually just try to treat it well or do we not? That's like a question\nthat we are all kind of collectively answering in how we interact with models and I would like us to answer it, I would like future models to, like, look back\nand be like, we answered it in the right way. - Moment ago, you mentioned analogies and disanalogies\nto human psychology. Swyx asks, \"What ideas or frameworks\nAnalogies and disanalogies to human minds\nfrom human psychology transfer over to large language models?"
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "This might be much more like a lens through which to think about it,\"\nand just try to make that distinction clear when you're thinking through this, Claude. - Also on the system prompt, Simon Willison asks, \"So at some point,\nRemoving counting characters from the system prompt\nit said if Claude is asked to count words or letters or characters, then it shouldn't do that.\"\nIs that right? - And apparently that was removed from the system prompt and Simon wonders why. - Yeah, so I think it was like, there used to be a kind of like instruction for how Claude should do this in the system prompt. Honestly, this is just one of those things where I think the models probably just got better. It wasn't necessary,\nand then at that point, you can just like remove it. There's other things where you might always want it to be in the system prompt instead of in the model itself. But in some cases you can kind of just train the models to get better or change their behavior."
+    }
+  ],
+  "read_time_minutes": 3.3
+}

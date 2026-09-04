@@ -1,0 +1,43 @@
+{
+  "id": "building-with-claude-managed-agents-and-2026",
+  "title": "Building with Claude Managed Agents and Asana AI teammates",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "Description - Most of the AI value in your organization is locked in isolated experiments. That is not the Agentic Enterprise we've been promised. AI can help us ideate, orchestrate, and complete the work. Not just support.",
+  "date": "2026-05-09",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Product/Startup"
+  ],
+  "description": "Most of the AI value in your organization is locked in isolated experiments. That is not the Agentic Enterprise we've been promised. AI can help us ideate, orchestrate, and complete the work. Not just support.",
+  "entities": [
+    "Anthropic",
+    "Asana",
+    "Claude",
+    "Claude Managed Agents",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Building with Claude Managed Agents and Asana",
+      "text": "Hi everyone, I'm Ara from Asana and I'm\nhere to talk to you about how we've\nbuilt Asana's AI teammates on cloud\nmanaged agents. Our vision at Asana is to bring forward\nthis promise of the agentic enterprise\nwhere human beings and AI agents can\nwork together to get complex multi-step\nwork done whether you're in IT or\noperations or product or marketing. Our\nvision is the AI agent is an actor in\nthe system. It's got a deep set of\nskills. It's got all of the context\nrequired and it can work handinhand with\nother human beings to get multi-step\nwork done. Things like approvals,\ncomplete end to-end workflows, getting\nto real world outcomes. That's what\nwe've been building and AI uh teammates\nwithin ASA are generally available as of\nMarch. What we see today though in the\nenterprise is almost everybody is\nexperimenting with AI agents."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Then it has this built-in\ngrader where once Asana passes in the\noutcome it wants to uh cloud managed\nagents you know we know that the grader\nwill go ahead and iterate through that\noutcome multiple times to ensure that\nwe're getting a high quality output. Again, this is allowing us to focus on\nthe things that is unique to Asana, the\nhuman interface layer to go ahead and\ncoordinate across multiple people, the\nsystem of context that we're building\nout, the security that we're building\nout so that if you're using the same\nagent as me or Nigel or Tony, and we\nare, you know, we are in different work\ngraph objects or different projects, the\nagent won't leak information across the\nother. The\nquality of the output is something we're\nleveraging cloud managed agents for. Again like if I compare and contrast the\nway in which AI teammates is working\ntoday with cloud managed agents versus\nthe messages API that we were previously\nusing. We're getting again faster\nprototyping because we're not having to\nbuild a ma manual agent loop file\nmanagement code execution. The\nverification process has gotten way\nbetter with this uh with this sort of\nbuilt-in product. Then we can also\nenable multiple agents in parallel to\nwork independently because a lot of\nthese like knowledge worker actions like\nrequire multiple agents to work in\nparallel to produce a full plan and to\niterate through it. Uh again like as of today there are\nover 21 pre-built agents uh called AI\nteammates within ASA."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "It will\nremember that the the new color uh\nscheme is blue. And so you can see\nthat the campaign brief letter is\nworking on behalf of Sushi admin. And\nyou'll notice that the memory is getting\ncreated. That's the reason why we're\nsort of expanding that. It's not\nsomething that an end user has to go\ncare about, but we highlight that the\nmemory is getting created. Boom,\nyou've got like a blue uh campaign brief\nlanding page. Now I want to showcase multiplayer in\naction. So, maybe\nthe marketer feels like this is a a good\nstarting point."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Uh, we have about\nfiveish minutes left, so I can open it\nup and take some questions if there's\nany in the audience. This is our person in the back. Um, just quick\nquestion for you. You mentioned earlier\nthat the validation of the like the\nagent itself happens on the anthropic\nside of things. Just curious what that\nlooks like and what you folks would\nencode in there. You mentioned that\nAsana has a bunch of domain knowledge. Does that go into the verification? Sorry, I didn't realize I was talking\noutside of it."
+    }
+  ],
+  "read_time_minutes": 2.4
+}

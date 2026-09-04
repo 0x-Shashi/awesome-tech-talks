@@ -1,0 +1,42 @@
+{
+  "id": "building-signals-that-trade-themselves-2026",
+  "title": "Building signals that trade themselves",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/EOg4gY0Yln0",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Web Development"
+  ],
+  "description": "There are trading signals in production at Man Group right now , running real capital , that were researched, backtested, and proposed by AI. Tushara Fernando shares what made that possible inside a regulated investment firm: a governed skills framework and core data layer that taught Claude Code how Man Group's quants have worked for decades, now scaled across ~750 developers and quants and 100+ skills. Walk away with the governance model that lets compliance say yes to AI on your most load-bearing workflows.",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Claude Code"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Building signals that trade themselves",
+      "text": "I'm head of data\nand AI at Mang Group. Mangroup are an alternative investment\nmanager. We manage over $200 billion of\nassets. Our clients are pension funds, sovereign\nwealth funds, and large institutions. We manage real people's money, thousands\nof people's pensions and investment\ncapital. When we think about AI, the stakes\nare high for us. Our clients are real\npeople from their teachers in Canada,\ntheir metal workers in Japan. So, we really need to get AI right."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Humans of course reviewed all of the\noutput to make sure that it was\nsensible. But a AI was at the center of\nthat process. I'm sure you want to know what was\nthat signal? How much money did it make? Sorry, I'm not going to tell you that\ntoday. What I'm here to\ntell you about today is our journey. What was the foundation that allowed us\nto do that? How can you apply those\nlearnings in your company?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "People from technology,\npeople from the people team. Why do I\nhave to approve all of them? I I don't want to approve\neverybody else's expense reports.\" And\nwe dug into it and it was just because\nthe the cost center code was hardcoded. It was really just that that was\nthis um this local optimization. It worked for his team,\nso it was going to work for everybody. He\nkind of thought it was quite funny. I mean, so did I, to be honest. Um, but it was really symptomatic of a\nbroader problem."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "We can plot Amazon's monthly credit card\nspend against its stock price returns. These are the results of the credit card\ndata compared to the stock price for the\nsame period. The blue bars are credit card spend and\nthe line is the stock price. Interestingly, in the graph, you can see\nspikes for seasonal spend, such as Black\nFriday and Christmas. Next, we run a back test to see if\ncredit card spend is predictive of the\nstock price by comparing the peaks in\ncredit card spending with the profits\nand losses of the stock. In the results, the signal shows better\nperformance than a buy and hold\nstrategy. We can see that investing\n$1,000 in 2021 using this signal would\nnow be worth around $2,500. This could be a fluke for Amazon."
+    }
+  ],
+  "read_time_minutes": 1.6
+}

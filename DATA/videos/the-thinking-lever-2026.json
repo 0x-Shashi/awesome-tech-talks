@@ -1,0 +1,41 @@
+{
+  "id": "the-thinking-lever-2026",
+  "title": "The thinking lever",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/T7KqH7kYnE4",
+  "date": "2026-05-21",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "AI Coding Tools"
+  ],
+  "description": "Adaptive thinking and effort controls give developers a new decision: how much should Claude reason for a given task? This session covers thinking budgets, effort levels, and the cost, latency, and quality tradeoffs involved.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Computer Use"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in The thinking lever",
+      "text": "Good to see you all today. I'm happy to have so many clawed lovers in one room. My name is Alexander Bricken and I'm on the Applied AI research team here\nat Enthropic. Today we're going to be talking about the thinking lever. Specifically, we're going to talk about how Claude leverages compute at runtime, at inference time, typically called test\ntime compute to make more effective use of tokens in solving some of the hardest problems that Claude has in front of it. I'm going to share some of the best practices when it comes to using different levers and using different tokens to essentially try to solve those\nproblems better. Hopefully you'll learn something as well. Looking back a couple years, one of the key developments in large language models has been this idea of reasoning\nmodels, which is using test time compute to spend more tokens for a model to become more efficient at answering a\nquestion."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Um, and the cars also reflect this more intelligent motion of vehicles. S, 38 secondsSo, what does this mean? Well, arguably the more tokens it spends, the more time it takes. So over time we might see\ns, 46 secondsClaude eventually go from seconds, minutes or hours of work to even days, weeks or months of work. So this is\ns, 55 secondsthe meter benchmark. We're showing that over generations of models and this is a combination of both train time compute,\ns, 3 secondsso larger models, as well as better test time compute, so spending more tokens on our higher reasoning models. We see that\ns, 10 secondsClaude is able to work more autonomously to cover human level tasks to a higher degree of of hours. So mythos uh\ns, 20 secondswhich is one of our latest models works to an extent of roughly 16 hours of human work to a 50% uh level of\ns, 28 secondsaccuracy."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "I'm not thinking in that instance. If I'm doing an academic problem set, though, I am probably thinking at every step of the process. S, 45 secondsNow, Claw can actually choose to not think at all if it doesn't want to. In this example, we could have no thinking block. Um, and that really just\ns, 54 secondsrelates to the question you ask of it, right? Even with humans, if I asked you, what is 10 + 10? You'd immediately spawn\ns, 1 secondrespond with 20. Whereas, if I asked you, you know, work through this really difficult PhD level problem set, you'd\ns, 9 secondsprobably think a lot, but different members of the audience here might think for more or less less time."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "S, 47 secondsAnd this was really interesting because when you put it on low effort, Claude actually came up with this unique solution to navigate the game and almost\ns, 55 secondscomplete it faster than it otherwise would. There are some benefits to doing loweffort because you're explicitly constraining how much the\ns, 3 secondsmodel is thinking through the problem set and maybe it does end up in really unique attractor states. Now while evals are always ideal, I understand they're\ns, 12 secondsquite hard. I speak to customers a lot and often they don't have the perfect eval. So I want to give you a quick, you know, rules of thumbs that you can\ns, 20 secondsuse when you think about the different effort levels that you use. We're going to start on the right looking at max. As I mentioned, max effort can typically\ns, 29 secondsdeliver gains on the hardest tasks, but they might show diminishing marginal returns. So, I wouldn't recommend starting here unless you absolutely know\ns, 38 secondsthat the intelligence of your use case is necessary."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

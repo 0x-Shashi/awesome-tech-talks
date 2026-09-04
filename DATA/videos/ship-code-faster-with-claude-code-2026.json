@@ -1,0 +1,41 @@
+{
+  "id": "ship-code-faster-with-claude-code-2026",
+  "title": "Ship Code Faster with Claude Code on Vertex AI",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Anthropic and Partner Leaders"
+  ],
+  "url": "https://anthropic.ondemand.goldcast.io/on-demand/0e1d85b2-da2f-4607-a115-0e55b0a48d06?email=devofficialcoma@gmail.com&first_name=dev&last_name=Dev",
+  "date": "2026-04-02",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Backend/Infra"
+  ],
+  "description": "Explore how to build and access Claude Code on Vertex AI to accelerate your development workflows. In this technical webinar, we'll walk through Claude Code's capabilities and how to set it up on Vertex AI. Through live demonstrations, you'll see how Claude Code handles real coding tasks end to end so you can start building with confidence on Vertex AI. We’ll also answer some of the top developer community questions for building with Claude on Vertex AI.",
+  "entities": [
+    "Claude",
+    "Claude Code",
+    "Vertex AI"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Ship Code Faster with Claude Code on Vertex A",
+      "text": "Explore how to build and access Claude Code on Vertex AI to accelerate your development workflows. In this technical webinar, we'll walk through Claude Code's capabilities and how to set it up on Vertex AI. Through live demonstrations, you'll see how Claude Code handles real coding tasks end to end so you can start building with confidence on Vertex AI. We’ll also answer some of the top developer community questions for building with Claude on Vertex AI. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Coding Tools, Backend/Infra domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Claude, Claude Code, Vertex AI. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

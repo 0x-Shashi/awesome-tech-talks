@@ -1,0 +1,40 @@
+{
+  "id": "the-prompting-playbook-2026",
+  "title": "The prompting playbook",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/G2B0YWuJUgI",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Prompt Engineering",
+    "Web Development"
+  ],
+  "description": "How to apply core prompting principles to agentic systems that plan, act, and adapt.",
+  "entities": [
+    "Anthropic",
+    "Claude"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in The prompting playbook",
+      "text": "Um, thank you so much for joining me this afternoon in the breakout room. The last session today of\ncode with Claude. I hope you've all had a fantastic day so far. I am an applied AI\nengineer at Anthropic here in London. This afternoon, we're going to be talking about the prompting playbook. Prompting is arguably one of the first skills, if not the first skill\nthat we had to learn as engineers when we first started to work with LLMs. Even now it continues to be one of the most critical um skills to building\neffective AI systems. Today we're going to discuss some best practices\num in the context of two practical scenarios that you're probably encountering at work."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Let's have a look at how our\nfirst pass the evals did. We can see as we expect our control case all of our\ntest cases have passed. This is what we expect for this unambiguous test case. But it's performing pretty poorly in these other areas. Now, before we zoom\nin on those specific failure modes here, let's do some general cleanup of our\nprompt. So, as we mentioned, when we look through this prompt, there's a couple oddities here already. So, for example,\nfirst one is we're telling the bot that it's um a human, which just isn't true,\nright? We can see as we scroll down there's clearly some information here that has been copied directly from a\nwebsite."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "So, what we're going to tell the model instead is give this balanced view uh um\nwhere it says, you know, customers on grandfather's plan have different allowances, but it's captured in the\ncustomer information that's given and that is the accurate source of truth. Running the eval here we should hopefully be addressing uh um all of the test cases for the hotspot case. Now I\nam running this live so there could be some variability here but we see here that now clearly all of our test cases\nare are passing. What did we learn from this? Well, we\nworry a lot about hallucinations or the invention of facts and numbers, but\nactually the opposite can also happen. The model can withhold information that\nit actually has access to. Now, we saw here that this is likely a result of a patch that we introduced for a previous\nmodel. A best practice that we could follow here is actually using version\ncontrol where wherever we are making defensive changes in the prompt, we are\ntracking the reason why we've introduced these."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Um, so here is our baseline prompt. We've already applied some of\nthat general hygiene and those best practices that we saw earlier on using XML tags to structure the prompt. We've\ngiven it an output format as well. Now that we're giving a schedule, uh we're asking it to\noutput a JSON which if we don't give that output structure might lead to\npassing errors uh downstream. When we run the simple model on a first iteration of the\nevals, all cases fail. Now, just what we're looking at here is in our test\nset, we're essentially repeating uh um we're doing five trials here. And\nthese numbers are showing how many violations were made in each trial. In the outputs, we can see that it's made a decent attempt at reasoning\nthrough the problem, but it's burning a lot of tokens."
+    }
+  ],
+  "read_time_minutes": 2.3
+}

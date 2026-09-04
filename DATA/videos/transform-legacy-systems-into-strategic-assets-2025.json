@@ -1,0 +1,43 @@
+{
+  "id": "transform-legacy-systems-into-strategic-assets-2025",
+  "title": "Transform Legacy Systems into Strategic Assets: Code Modernization with AI",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Anthropic and Partner Leaders"
+  ],
+  "url": "https://youtu.be/8qtSeQuNv0o",
+  "date": "2025-11-13",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Web Development"
+  ],
+  "description": "Join Anthropic and Deloitte for a webinar on how leading enterprises are using agentic AI to accelerate modernization initiatives, from legacy COBOL migrations to microservices transformations.\n\nDiscover how enterprises are using Claude Code and tested AI driven software development life cycle frameworks to achieve modernization outcomes in weeks, not years, while preserving critical business logic and reducing risk.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Transform Legacy Systems into Strategic Asset",
+      "text": "Mustafa and I'm the head of partner marketing at Enthropic and I'm genuinely pumped to be hosting this session today\non code modernization with Enthropic and our partners Deoid. Just a quick set of housekeeping notes and I'm sure I'll make it painless. I promise first we're recording this bad\nboy. If you need to step away or your cat walks across your keyboard, don't stress it. We'll get you the full\nrecording in your mailbox within 24 hours. Second, please, please, please ask questions. The questions widget on the right hand side of your screen, use it. We got some really smart\npeople here today."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Claude analyzed the program\ns, 24 secondsformerly known as CBAC4C and identified complex cobalt patterns like line break processing and\ns, 32 secondsmulti-file coordination. Claude developed a migration plan for this feature with five phases. Two, translate\ns, 41 secondsdata models from copy books to Java classes. Three, build the IO layer compatible with the original file formats. Four, convert business logic\ns, 50 secondswhile preserving Cobalt specific behaviors. Finally create a dual test harness. One using GNU Cobalt 3.2.0\ns, 57 secondsfor the original codebase and one in Java 17. The resulting Java code went beyond a simple syntax translation."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Now with the newer platform, this is where the new approach, the groundbreaking things come up. We're able to go do the scan and discovery of\ns, 42 secondsthe entire platform across the board and be able to scan it to figure it out how many applications are there. What's with each of the\ns, 51 secondsinterfaces and dependency between this application? If we have modify one of them, what's the what's the impact of fallout radius both from interfaces from\nsa data and dependency of the application functional flow? We're able to articulate all of that in a very high\ns, 7 secondsrich fidelity way. That changes a confidence to the you know clients and business stakeholders to say what they needed. Think about this approach is\ns, 16 secondsmoving from risk mitigation to business value first. We prioritize application core to business what it takes to do number one."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "That changes a confidence building measure. How do we bring them along? That's the way we approach it. When we go to the\nsboardroom, we try to share the risk number one. Number two, we find a way to build a confidence in a quicker time frame than taking a multiple years to\ns, 9 secondsshow the road map. That's that's the way we are approaching. This is like the final question for the fireside and then we'll open up to uh the listeners questions. S, 19 secondsUm you know this is one of my favorite topics to talk about."
+    }
+  ],
+  "read_time_minutes": 1.8
+}

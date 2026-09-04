@@ -1,0 +1,40 @@
+{
+  "id": "agents-that-remember-2026",
+  "title": "Agents that remember",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/geUv4CjPpxI",
+  "date": "2026-05-23",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Every time you close a session, your agent loses everything it learned. In this workshop, you'll wire persistent memory onto a Claude agent and then use Dreaming to batch-consolidate past transcripts into structured recall. By the end of the 45 minutes, you'll have an agent that remembers across sessions and you'll know how to set this up for your own agents.",
+  "entities": [
+    "Anthropic",
+    "Claude"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Agents that remember",
+      "text": "Thank you all for\njoining us today. Uh, I'm an engineer here at Anthropic. Today we'll be learning about how to\nbuild agents that remember. So uh\ntoday we're going to talk a little bit\nabout the base case with agents today uh\nwhich is that they are isolated and this\nkind of limits their usefulness in a lot\nof real world workflows. We'll look\nat how we can actually solve this\nproblem uh with our new agent memory\nstores feature that we've launched. This will give agents access to a live\nmemory store that they can read and\nwrite to over multiple sessions. Then we'll look at how we can improve\nthese memory stores over time uh using a\nnew feature that we call dreaming. And then finally we'll get to see how\nall of this ties together with both our\nCLI and also our awesome console\ninterface."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "You\ncould create it per user, per workspace,\netc. It's up to you to kind of define\nwhat the boundaries of the memory store\nare. And then under the hood, this\nmemory store gets attached as a file\nsystem to the the session container and\nthe model has tools to read and write to\nit. The actual interesting thing here\nis that we've actually you mounted it as\na file system because it's such a\npowerful interface for the model. You\ncan use things like bash to like uh like\nexplore the file system. It can use GP\nto kind of search for keywords. It can\nalso read files and do a bunch of like\nreally powerful things um that make it\nmuch more useful for the agent. So I'll switch back to my computer\nhere and we'll walk through kind of how\nto create a memory store."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "If Claude is creating kind of\nsubdirectories to organize memory files,\nyou can actually edit these memory files\ndirectly if you wanted to. For\ninstance, if Claude wrote something u\nthat was incorrect or maybe you just\nwanted to add more information, you can\ndo that. Again, as we saw before,\nyou can add additional memories to a\nmemory store. Okay, so I'm going to go back to the\nslides real quick. As we just talked about, uh this is\nhow you create a memory store and then\nmount it on a session that you want to\nuse it on. Again, it's up to you to kind\nof decide which of your sessions will\nuse memory, which ones will not. Uh, we also saw how you can like list\nmemories and see what's currently in a\nmemory store. Let's move on to talk a little bit\nabout dreaming."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "This\ntime it is adding again a slug, a\ndescription of the event, some\nadditional metadata and again adding\nmore details. And generally we find\nthat like uh more information actually\nreally does help future sessions. If\nyou think about intuitively um while an\nagent's working on a task currently,\nit's kind of hard to predict down the\nline what it might need, right? That's\njust generally a harder prediction\nproblem. It's actually good to kind\nof write additional details down that a\nfuture agent might remember. Dreaming can always like go back and\nlike remove stuff that is no longer\nneeded. And if I go to the output memory\nstore here, I'll just click on it. Again, you can see all the files that\nI created."
+    }
+  ],
+  "read_time_minutes": 2.3
+}

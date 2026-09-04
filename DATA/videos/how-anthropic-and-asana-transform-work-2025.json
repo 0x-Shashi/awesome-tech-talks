@@ -1,0 +1,45 @@
+{
+  "id": "how-anthropic-and-asana-transform-work-2025",
+  "title": "How Anthropic and Asana Transform Work at Scale with AI Agents",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Tony Chang"
+  ],
+  "url": "https://youtu.be/Uxz16pu2L78",
+  "date": "2025-08-18",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Discover how to transform work with Claude-powered AI agents at scale. Tony Chang, AI Studio Product Lead at Asana, will share their real-world journey from early AI experimentation to production-ready AI systems. Then Janak Sevak, Applied AI at Anthropic, will reveal patterns from numerous customer implementations. Learn how AI agents address core enterprise use cases and get actionable guidance on where to start. The session concludes with a live Q&A where you can ask both speakers your questions about implementing AI agents at scale.",
+  "entities": [
+    "Anthropic",
+    "Asana",
+    "Claude",
+    "Claude Code",
+    "Claude Opus 4",
+    "MCP Servers",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in How Anthropic and Asana Transform Work at Sca",
+      "text": "Welcome to our webinar on transforming work at scale with AI agents. Today we're going to show you how to move beyond AI experiments to productionready systems that transform\nwork. You'll see Asana's journey with 170,000 plus customers and learn about multi-agent architectures. We've got two fantastic speakers today. First up, Tony Chang, who runs AI Studio at ASA and has taken them from basic AI features to complex agentic workflows. Tony will discuss ASA's AI transformation and give a live demo of their agents in action. We also have\nJohn Seek from Anthropic's applied AI team who brings insights from multiple enterprise implementations. We'll wrap\nwith a panel Q&A where you can ask both speakers your questions."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "This\ns, 52 secondsagentic loop that is the plan act reflect loop continues till the time LLM gets to a point where it understands\nswhat is a good output and that's what you see as an outcome. That's what uh\ns, 7 secondsagent group happens and because of this action of agents to be able to plan act\ns, 13 secondsand reflect what it really does is it gives the agents sort of a superpower\ns, 20 secondsright and agents really excel at certain things which is open-ended problems with unpredictable next steps. You don't know and and research is a great example\ns, 29 secondsof this or core refactoring is a great example of this which is where you don't know what you kind of know the final output right but you don't know what the\ns, 38 secondssteps would need to be kind of working towards that. That's where really good at that uh variable workflows that can't be prescripted. If you knew all\ns, 45 secondsthe steps that needed to be taken you would already written a code for that right that's how software evolved and developed over the last 20 30 40 years. S, 54 secondsUh but agents are very good at taking those workflows where we can't really know what the next steps could be because there could be multiple of\ns, 1 secondthose. They're very good at adapting and exploring new ideas that are closely related and and essentially track\ns, 8 secondsprogress based on that. Understanding where based on again that environmental feedback where they need to go, what they need to do is they are very good at\ns, 15 secondsthat."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Give it a single uh prompt and then have it do the exact same thing every time. This is an\ns, 30 secondsexample of a workflow step where you don't really need to uh assign this out to an AI agent to do complex thinking\ns, 39 secondsbecause you're really just uh performing the same work every single time. But let's say I have something a little bit\ns, 48 secondsmore complex. Um, and let's say I'm working on this marketing campaign and I need to go and figure out what should my\ns, 56 secondsnext quarter's marketing calendar look like. Um, it's not necessarily easy\ns, 3 secondsfor a human person to go do that. That's kind of the type of work that you'll get more ROI through uh an AI\ns, 11 secondsagent where you can let them spend a little more time thinking and reasoning about it and coming up with a plan and executing on it. That will save uh\ns, 20 secondsyour team time. Uh in Asana here uh I have a couple of AI agents that I've\ns, 27 secondscreated."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "But if it is something that like\ns, 20 secondsyou know you can easily uh mitigate then probably you can think about using agents for that. Again this is just to give a guideline of how you should think about it. To make it a little\ns, 28 secondsbit more practical giving an example of why coding is a great agent use case. S, 34 secondsThink about it this way right like you know writing code is a complex process going from a design doc to a PR. There\ns, 42 secondsis a lot that happens in that in that process and and agents are really good at that and like you know go figure out what needs to be built go scale it out and and and kind of work on that space. S, 52 secondsIs it a high value task? Absolutely it is a high value task right we all know like you know how much it takes to really build robust code and I think\ns, 1 secondthere is a lot of value that can be added especially for use cases where you have to do refactoring of code especially for use cases where you have\ns, 7 secondsto do uh more uh detailed uh architecture development or something like that\ns, 14 secondsis it viable yes like you know cloud code I kind of mentioned it earlier but cloud in general is great at coding at coding right we have great ratings on\ns, 23 secondsbbench And finally what is the cost of error like you know relatively low we can add unit test we can have CI steps right you\ns, 30 secondsknow everything in that process which would make it uh a little bit more robust and stronger so that's there and\ns, 38 secondsas you think about building this I think there are some of the core principles that you can bring into the bring into\ns, 45 secondsyour equation and at enthropic we have a core value which is which is says that you know do the simplest thing that works\ns, 53 secondsAnd that's what I would kind of say here which is identify your problem and implement the simplest solution that you can do to address that need. The way\nsto probably go about it is start small, start simple, scale up, focus on high value use cases where you can truly\ns, 7 secondsdefine the value."
+    }
+  ],
+  "read_time_minutes": 4.0
+}

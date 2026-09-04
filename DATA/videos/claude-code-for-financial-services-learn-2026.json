@@ -1,0 +1,45 @@
+{
+  "id": "claude-code-for-financial-services-learn-2026",
+  "title": "Claude Code for Financial Services: Learn from Boris Cherny, Head of Claude Code",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Boris Cherny"
+  ],
+  "url": "https://youtu.be/EqW_RboD7f4",
+  "date": "2026-01-07",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "Join Boris Cherny, the inventor of Claude Code, for a hands-on session built for FSI engineering teams.\n\nSee live demonstrations of Claude Code and Agent SDK powering real workflows, from SWE agents that accelerate development to compliance and claims agents that automate complex review processes.\n\nYou'll also hear how other financial services teams are putting these tools into production and learn practical approaches you can apply to your own deployments.\n\nTarget Audience: Technical teams looking to deepen their Claude Code deployments",
+  "entities": [
+    "Anthropic",
+    "Anthropic API",
+    "Box",
+    "Claude",
+    "Claude Code",
+    "Google Workspace",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Claude Code for Financial Services: Learn fro",
+      "text": "Thank you so much for joining. My name is Bridget Kanty and I'm on the go to market team here at Enthropics supporting the financial services industry. I'm really excited to be\nhosting this session today on cloud code for financial services. This turnout is amazing to everyone who's on Pacific time 2 that made it wow very impressive. Some quick housekeeping we're going to get into. Today's going to be recording recorded and don't you worry the recording will be sent to your inbox\nwithin 24 hours. If you need to jump or if you want to share this webinar because it's so good you'll be able to do all that within 24 hours. Secondly,\nplease submit all questions in the chat today."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Can we teach claude to code in Cobalt? S, 5 secondsYeah, it actually should already. If there's any issues, please file an issue on GitHub and we want to hear um but it\ns, 14 secondsshould totally be able to write in cobalt already. S, 18 secondsAnd then final question I'm going to send your way for now, Boris. Then also there's so many questions coming in everyone. Thank you and we'll follow up via email. This will be my holiday\ns, 26 secondsholiday break task to get these answers to you. But the final one we'll do is what guardrails do you impose on cloud code in your own development?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "S, 9 secondsUm we've packaged up the knowhow there and so it just works. S, 13 secondsAnd then there's the second category which is very powerful for organizations. They are skills that encode your specific standards and workflows. S, 22 secondsFor example, we have anthropics internal brand styling as a skill which I'll also show later. It knows our colors,\ns, 30 secondstypography, how to format presentations like this one, right? So, anyone at Enthropic using cloud code gets output that match our brand automatically. S, 40 secondsAnd so, uh, for FSI use cases, imagine being able to encode your firm's code review standards, documentation\ns, 49 secondstemplates, regulatory compliance checks, risk assessment frameworks. Once it's in a skill, every developer on\ns, 56 secondsyour team has access to that institutional knowledge without needing to be an expert in every domain."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "This is a little bit harder to control but definitely very concrete. So all that\ns, 38 secondsto say to this question's point right traditional metrics like um lines of code written or commits really don't capture the real value of cloud code. S, 46 secondsthe wins are kind of in the harder to measure stuff, right? Getting up to speed on unfamiliar code bases. Um, kind of how are you able to unblock yourself\ns, 54 secondswithout waiting for an engineer on your team. Many ways to go about this. No kind of one-sizefits-all that I can tell\ns, 1 secondyou about, but usually a combination of these adoption metrics, um, sentiment surveys, and layering in tasks, um,\ns, 9 secondstiming for specific use cases is a good place to start. Then of course over time you evolve it based on how your team actually works and um how you\ns, 17 secondscalibrate against uh developer productivity in that way."
+    }
+  ],
+  "read_time_minutes": 2.1
+}
