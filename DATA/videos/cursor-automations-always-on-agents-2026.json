@@ -1,0 +1,41 @@
+{
+  "id": "cursor-automations-always-on-agents-2026",
+  "title": "Cursor Automations - Building Always-On Agents",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/nlIWMtdOlHI",
+  "date": "2026-04-09",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how to build always-on agents with Cursor Automations.\n\nAt its core, an automation is three things:\n\ntrigger: a cron schedule, a Jira column move, a Slack message, a PagerDuty alert, or a webhook\n\ninstruction: the prompt the agent follows\n\ntools: actions like opening a PR, posting to Slack, or calling an MCP\n\nWhen a trigger fires, a cloud agent spins up in an isolated VM, does the work, and delivers a PR with diffs, screenshots, and screen recordings.",
+  "entities": [
+    "Cursor",
+    "Cursor Automations",
+    "Slack",
+    "GitHub",
+    "Jira",
+    "PagerDuty",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor Automations - Building Always-On Agents",
+      "text": "In this session on Cursor Automations - Building Always-On Agents, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Automations, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

@@ -1,0 +1,40 @@
+{
+  "id": "customizing-cursor-agent-rules-skills-mcp-2026",
+  "title": "Customizing Cursor Agent with Rules, Skills, MCP, and Hooks",
+  "channel": "Cursor",
+  "speakers": [
+    "Ner"
+  ],
+  "url": "https://youtu.be/vdiyEMmpk9s",
+  "date": "2026-06-09",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Prompt Engineering",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how to customize Cursor Agent with rules, skills, MCP servers, hooks, and the marketplace.\n\nKey features covered:\n\nRules: Encode your team's standards and inject persistent context. Use always, intelligent, glob, or manual triggers, and keep always-apply rules lean to protect the context window.\n\nSkills: Bundle reusable workflows the agent fetches dynamically or you call as commands. Skills are shared across .cursor, .cloud, and .codex folders, so they carry over between agents.\n\nMCP servers: Connect Cursor to external tools like Linear, Jira, and Figma. Tools load dynamically, so relevant context comes in without leaving the editor.\n\nHooks: Enforce deterministic controls at trigger points like prompt submit. Command-based and prompt-based hooks handle audit logging and secret scanning across the agent loop.\n\nMarketplace: Install or publish plugins that bundle rules, skills, subagents, commands, hooks, and MCP servers into one package for your team.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent",
+    "MCP Servers",
+    "Figma",
+    "Jira"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Customizing Cursor Agent with Rules, Skills, MCP, and Hooks",
+      "text": "In this session on Customizing Cursor Agent with Rules, Skills, MCP, and Hooks, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent, MCP Servers work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

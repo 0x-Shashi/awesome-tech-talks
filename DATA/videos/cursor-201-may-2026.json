@@ -1,0 +1,37 @@
+{
+  "id": "cursor-201-may-2026",
+  "title": "Cursor 201 - May",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/hT00PYA298w",
+  "date": "2026-05-22",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we dove deeper into Cursor's advanced features.\n\nKey workflows covered:\n\nSkills and automations:\n\nRepeatable playbooks and triggers to extend agent workflows beyond the IDE.\n\nSubagents:\n\nParallel isolated workers that return summaries without bloating the main thread.\n\nCloud agents:\n\nAsync agents that run in the cloud and deliver PRs with diffs and artifacts.\n\nBugbot:\n\nPR review that flags issues and offers one-click fixes in Cursor or the cloud.\n\nComposer 2.5:\n\nCursor's latest model for longer tasks, tool use, and plan-then-build workflows.",
+  "entities": [
+    "Cursor",
+    "Bugbot",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor 201 - May",
+      "text": "In this session on Cursor 201 - May, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Bugbot, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

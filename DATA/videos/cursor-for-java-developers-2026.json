@@ -1,0 +1,41 @@
+{
+  "id": "cursor-for-java-developers-2026",
+  "title": "Cursor for Java Developers",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/7ojqZR1vdUs",
+  "date": "2026-03-13",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "In this workshop, we cover how Java developers can use Cursor for agentic development.\n\nKey workflows covered:\n\nJetBrains ACP integration:\n\nInstall the Cursor plugin in IntelliJ (or other JetBrains IDEs) via View - Tool Windows - AI Chat. Once connected, you get access to Cursor's full model lineup, semantic codebase search, and Ask / Plan / Agent modes - all without leaving your existing IDE. Recommended IntelliJ version: 2025.3.3.\n\nCodebase Q\\&A with semantic search:\n\nAsk Cursor to explain an unfamiliar repo and it uses both grep and vector-based semantic search to return fast, meaningful answers.\n\nPlan Mode to Agent Mode workflow:\n\nUse a high-reasoning model (GPT-5.4 or Opus) in Plan Mode to investigate, design, and produce a structured to-do list before any code is written. Review and trim the to-dos, then switch to a fast executor model (Composer 1.5) in Agent Mode to implement.\n\nRules, Skills, and Sub-agents:\n\nThink of rules as coding standards your agent always follows (keep them short - Cursor's own are 8 lines). Skills are on-demand playbooks that can be triggered by humans or invoked automatically by the agent. Sub-agents are specialized workers you can spin up for isolated tasks. All three persist between sessions since they're saved to the .cursor directory.\n\nParallel agents via CLI:\n\nSpin up multiple cursor agent sessions in the terminal simultaneously, each using a different model, to tackle independent tasks in parallel.\n\nCloud Agents (cursor.com/agents):\n\nKick off long-running tasks from anywhere. Pick a repo, branch, and model, attach MCP tools like Slack, and let the agent work asynchronously. It delivers a PR with diffs, screenshots, and screen recordings of what it built.\n\nAutomations:\n\nTrigger cloud agents automatically on PR merges, Slack messages, or PagerDuty alerts. Set up a doc-writing bot that reads every merged PR and updates your /docs folder automatically - or get the agent to start working on an incident before you've even rolled out of bed.\n\nBugBot PR Review:\n\nRun \"bug bot run\" on any pull request and Cursor reviews the code, flags issues, and gives you a one-click path to fix in cloud or in Cursor.\n\nModel selection guidance:\n\nJoseph's personal defaults: Opus or GPT-5.4 for planning and high-reasoning tasks; Gemini for doc writing; Composer 1.5 for fast execution; GPT models for auditing plans and finding bugs.\n\n\\--------------------------------------\n\nThis is a recording from our live session on March 12, 2026.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent",
+    "Cursor CLI",
+    "Bugbot",
+    "Slack",
+    "PagerDuty",
+    "Java"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor for Java Developers",
+      "text": "In this session on Cursor for Java Developers, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent, Cursor CLI work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

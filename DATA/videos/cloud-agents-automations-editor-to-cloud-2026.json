@@ -1,0 +1,39 @@
+{
+  "id": "cloud-agents-automations-editor-to-cloud-2026",
+  "title": "Cloud Agents and Automations - From In-Editor to Cloud Fleets",
+  "channel": "Cursor",
+  "speakers": [
+    "Dawson Lind"
+  ],
+  "url": "https://youtu.be/9pFmvs1_IHc",
+  "date": "2026-09-03",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how to move from in-editor help to cloud agents and automations.\n\nKey workflows covered:\n\nMaturity curve:\n\nMove from on-the-shoulder help to background cloud agents, then to an AI software factory where automations carry work from idea to done with light review.\n\nSync foundation:\n\nUse Ask Mode to explore a repo and Design Mode to edit selected UI in the browser. Commit skills and use subagents for repeatable work like test coverage.\n\nCloud agents:\n\nRun larger tasks in isolated cloud VMs, then review screenshots, recordings, or pull requests later. There is no separate hosting fee. Usage is billed on tokens.\n\nAutomations:\n\nTie an agent to a trigger, like a Slack bug report, so it investigates, fixes, verifies, and keeps memory for the next run.\n\nGuardrails:\n\nUse hooks and worktrees to check async work and avoid collisions. poteto-mode, from the pstack plugin, runs a heavier plan-and-verify loop.",
+  "entities": [
+    "Cursor",
+    "Bugbot",
+    "Slack",
+    "GitHub",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cloud Agents and Automations - From In-Editor to Cloud Fleets",
+      "text": "In this session on Cloud Agents and Automations - From In-Editor to Cloud Fleets, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Bugbot, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

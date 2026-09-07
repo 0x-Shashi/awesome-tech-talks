@@ -1,0 +1,40 @@
+{
+  "id": "cursor-x-slack-2026",
+  "title": "Cursor x Slack",
+  "channel": "Cursor",
+  "speakers": [
+    "Jack Clary"
+  ],
+  "url": "https://youtu.be/4CBVFNHP-7I",
+  "date": "2026-05-05",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "In this workshop, we cover how teams can power their development workflows by combining Cursor and Slack.\n\nKey workflows covered:\n\n@Cursor directly in Slack:\n\nInstall the Cursor integration in your Slack workspace (via cursor.com dashboard → Integrations). Cursor reads the channel's messages as context, pulls the relevant repo from GitHub/GitLab, investigates the issue, writes a fix, and opens a PR complete with a screen recording that proves it works.\n\nCI channel automation:\n\nPoint Cursor at your CI alerts channel (BuildKite, GitHub Actions, etc.) and tag it in failure threads. It reads the exact error as context, debugs surgically, and posts a fix back to the thread.\n\nEnriched PR descriptions:\n\nUse a Cursor rule or skill to automatically inject a \"Slack Context\" section into PRs - summarizing the reports or alerts that triggered the fix so reviewers have the full picture without hunting through Slack.\n\nPre-planning with Slack context:\n\nBefore writing code, use Cursor + Slack MCP to synthesize channel history into decisions already made, insights gathered, and open questions.\n\nPM Agent (how Cursor builds with Cursor):\n\nAn always-on automation in Cursor's internal issues channel. When anyone posts a bug, the agent classifies it, does codebase reconnaissance using a custom skill, cross-references Linear to avoid duplicate tickets, and polls the Slack thread every 10 seconds to gather screenshots and replies.\n\nCursor Automations:\n\nTrigger cloud agents on any Slack message, PR merge, or CI failure. Configure a system prompt, attach skills, and connect MCPs (Slack, Notion, Linear, Sentry, Datadog, and more).\n\nCursor Marketplace \\& Plugins:\n\nPlugins bundle MCPs, sub-agents, skills, commands, rules, and hooks into a shareable package - public on the Marketplace or private for your team.",
+  "entities": [
+    "Cursor",
+    "Cursor Automations",
+    "Datadog",
+    "Slack",
+    "GitHub",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor x Slack",
+      "text": "In this session on Cursor x Slack, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Automations, Datadog work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

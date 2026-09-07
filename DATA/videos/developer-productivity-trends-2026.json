@@ -1,0 +1,36 @@
+{
+  "id": "developer-productivity-trends-2026",
+  "title": "Developer Productivity Trends",
+  "channel": "Cursor",
+  "speakers": [
+    "Rohan"
+  ],
+  "url": "https://youtu.be/ctWbpG2H92I",
+  "date": "2026-01-29",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "In this workshop, we explored how AI is reshaping engineering workflows, from measuring meaningful productivity gains to implementing rollout strategies at scale.\n\nWe analyzed a productivity research study, reviewed customer case studies, and walked through Cursor's analytics features to help teams quantify impact.\n\nKey Takeaways\n\nVelocity and quality drive real impact: Move beyond outdated metrics like lines of code or commit counts. Focus on what matters: PR cycle time, bug revert rates, and AI share of committed code. Track both velocity (how fast features ship) and quality (how well they work) to measure true productivity gains.\n\nBottlenecks are shifting, not disappearing: AI accelerates coding, refactoring, and testing by 2-5x. But planning, design, security, and CI/CD are becoming the new bottlenecks. AI-native teams need to focus engineering effort on creative problem-solving and architectural decisions while automating the rest.\n\nResources\n\nThe slide deck can be viewed at https://cursor.com/resources/cursor-d...\n\n​For more Cursor content, view our upcoming live workshops at https://luma.com/cursor",
+  "entities": [
+    "Cursor"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Developer Productivity Trends",
+      "text": "In this session on Developer Productivity Trends, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

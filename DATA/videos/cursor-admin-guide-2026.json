@@ -1,0 +1,37 @@
+{
+  "id": "cursor-admin-guide-2026",
+  "title": "Cursor Admin Guide",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/sljxg7IH9zc",
+  "date": "2026-04-09",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "In this workshop, learn how enterprise admins can roll out, manage, and measure Cursor at scale.\n\nEnterprise readiness \\& security:\n\nPrivacy mode is on by default and cannot be disabled. Cursor has zero data retention agreements with all major model providers - no code or prompts are stored or used for training. Standard compliance features include SOC 2 Type 2, SSO, and MDM enforcement. Additional controls include Hooks (to customize and secure the agent loop), .cursorignore (to exclude sensitive files from indexing), audit logs, and spend alerts with group-level usage limits.\n\nAdmin analytics dashboard:\n\nTrack usage across all surfaces (IDE, CLI, Cloud Agents), by model, and by agent feature (Skills, Hooks, MCPs). Built-in classifiers break down work type, agent mode, task complexity, and prompt specificity, helpful for identifying teams needing additional training.\n\nMarketplace \\& plugins:\n\nCentrally distribute vetted plugins (Skills, Rules, Sub-agents, MCPs) to your whole team, or create private team marketplaces for internal tools and automations.\n\nMeasuring ROI:\n\nTim outlines a four-phase journey: qualitative signals → velocity metrics (PR throughput, code acceptance) → quality metrics (bug rates) → financial impact.\n\nDriving adoption:\n\nHigh-volume/high-acceptance users are power users to learn from. High-volume/low-acceptance signals a training opportunity. Low-volume users need awareness and support.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor Admin Guide",
+      "text": "In this session on Cursor Admin Guide, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

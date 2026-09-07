@@ -1,0 +1,37 @@
+{
+  "id": "cursor-admin-guide-analytics-roi-and-usage-management-2025",
+  "title": "Cursor Admin Guide: Analytics, ROI, and Usage Management",
+  "channel": "Cursor",
+  "speakers": [
+    "Alex Tapper"
+  ],
+  "url": "https://youtu.be/ighPUh4OMVM",
+  "date": "2025-12-22",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "​​Welcome to our live Cursor Admin Guide workshop from Wednesday, December 17th.\n\n​We walked through how engineering leaders measure the impact of Cursor across their organizations, covering usage analytics, user segmentation, and practical ways to connect Cursor activity to productivity and outcomes.\n\nAs additional resources, feel free to review the slide deck and our 2025 productivity report.\n\nSlide deck: https://drive.google.com/file/d/1Lc5D...\n\nProductivity report: https://cursor.com/blog/productivity",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor Admin Guide: Analytics, ROI, and Usage Management",
+      "text": "In this session on Cursor Admin Guide: Analytics, ROI, and Usage Management, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "agents-for-web-development-2026",
+  "title": "Agents for Web Development",
+  "channel": "Cursor",
+  "speakers": [
+    "Hassan"
+  ],
+  "url": "https://youtu.be/WlCaJWDaLGE",
+  "date": "2026-07-07",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we build a full-stack web feature with Cursor agents, from Linear ticket to reviewed PR.\n\nKey workflows covered:\n\nModel selection \\& the harness:\n\nCursor is model-neutral, so you can mix models per task , plan in Opus or GPT, implement in Composer 2.5. Multi-provider routing keeps you working even during a provider outage.\n\nAgents Window \\& MCPs:\n\nThe Agents Window combines browser, terminal, and file explorer in one surface. MCPs pull your Linear tickets and Figma designs straight into the chat, erasing context switching across the SDLC.\n\nSkills, rules \\& subagents:\n\nSkills encode a step-by-step build process; rules load glob-scoped standards into context. Subagents run token-efficient parallel work like UI smoke tests, returning only results to the parent agent.\n\nPlan \\& Design Mode:\n\nPlan Mode lets you iterate before implementing to save tokens. Design Mode lets you click or circle elements in the browser to make front-end changes without hunting through CSS.\n\nReview \\& Cloud Agents:\n\nBugBot auto-reviews and fixes your PRs as a last line of defense. Cloud agents run long front-end tasks with Git, a desktop, and a file store, returning screenshots and artifacts.",
+  "entities": [
+    "Cursor",
+    "Bugbot",
+    "Figma",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Agents for Web Development",
+      "text": "In this session on Agents for Web Development, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Bugbot, Figma work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

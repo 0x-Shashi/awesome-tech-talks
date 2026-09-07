@@ -1,0 +1,40 @@
+{
+  "id": "cloud-agents-and-automations-building-a-self-driving-codebase-2026",
+  "title": "Cloud Agents and Automations: Building a Self-Driving Codebase",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/7bYGXmgKP4A",
+  "date": "2026-07-24",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover cloud agents and automations in Cursor, building toward a self-driving codebase.\n\nKey workflows covered:\n\nCloud agents: A VM spins up in the cloud with a checkout of your code, dependencies, and secrets. The agent makes changes, tests them, and opens a PR while you close your laptop and walk away.\n\nParallel work: Each agent runs in its own isolated VM with a fresh checkout, so you can kick off several tickets at once without conflicts. Plan locally, then hand the build phase off to the cloud.\n\nRemote validation: Cloud agents record a video artifact clicking through the change, and you can take control of the VM to review the diff before merging.\n\nAutomations: Automations are cloud agents that run on a schedule or trigger like GitHub, Slack, Sentry, PagerDuty, or a webhook, with memories and MCP access for context.\n\nBuilt-in security agents: Per-PR security review and scheduled vulnerability scans ship out of the box, with configurable checks, custom instructions, and Slack alerts.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent",
+    "VS Code",
+    "Slack",
+    "GitHub",
+    "PagerDuty"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cloud Agents and Automations: Building a Self-Driving Codebase",
+      "text": "In this session on Cloud Agents and Automations: Building a Self-Driving Codebase, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent, VS Code work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

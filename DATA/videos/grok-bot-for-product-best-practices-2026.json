@@ -1,0 +1,40 @@
+{
+  "id": "grok-bot-for-product-best-practices-2026",
+  "title": "Grok Bot For Product Best Practices",
+  "channel": "Cursor",
+  "speakers": [
+    "Kevin Neparco"
+  ],
+  "url": "https://youtu.be/x5OawRpQxII",
+  "date": "2026-09-04",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how a product team of Bots research, write, design, and ship.\n\nKey workflows covered\n\n• Specialist teammates: You staff named Bots for chief of staff, analyst, PM, designer, and engineering manager. Each keeps its own memory and tools, so you DM the specialist for that job.\n\n• Attention list: A Bot watches Slack, Gmail, and Notion and lists where your attention went. Use that list to filter noise and compare focus with your stated priorities.\n\n• Routines: Ask a Bot to repeat a job on a schedule. We set hourly inbox triage on the chief of staff and an hourly install pulse after an X MCP launch.\n\n• Research to PRD: PM Pete pulled social, Slack, and user research into a Notion RFC for voice mode. Pixel used Figma and the design system to drop mocks into the same doc.\n\n• Ship with Cloud Agents: Pete and Emily joined a group chat. Emily split the PRD into tickets and handed coding to Cloud Agents, pausing when a login or approval was needed.\n\nHelpful resources",
+  "entities": [
+    "Cursor",
+    "Grok Bot",
+    "Slack",
+    "Figma",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Grok Bot For Product Best Practices",
+      "text": "In this session on Grok Bot For Product Best Practices, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Grok Bot, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

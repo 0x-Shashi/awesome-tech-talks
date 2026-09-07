@@ -1,0 +1,40 @@
+{
+  "id": "cursor-x-datadog-2026",
+  "title": "Cursor x Datadog",
+  "channel": "Cursor",
+  "speakers": [
+    "Amita"
+  ],
+  "url": "https://youtu.be/UrdNNPgV6xU",
+  "date": "2026-04-27",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, Amrita from Cursor and Tib from Datadog show how to use Cursor and Datadog together to go from production alert to merged PR fix.\n\nKey workflows covered:\n\nDatadog + Cursor MCP integration:\n\nDatadog handles runtime visibility (real users, real payloads, production state) while Cursor handles the codebase. Install the Datadog plugin from the Cursor Marketplace to get the MCP bundled with a set of pre-built skills.\n\nCanvas for data visualization:\n\nUse /canvas to turn Datadog error data into dashboards and reports without leaving Cursor.\n\nAutomations:\n\nWire a Datadog webhook to a Cursor automation so that when an alert fires, the agent triages the issue using the Datadog MCP, investigates the relevant code, and opens a pull request. Current triggers include Time, GitHub, GitLab, Slack, Linear, PagerDuty, Sentry, and custom Webhooks.\n\nCloud Agents:\n\nRun agents asynchronously on a remote VM, useful for overnight work, distributed teams, and keeping tasks off your local machine.\n\nCustom skills:\n\nBuild skills on top of the Datadog MCP that encode how your team specifically investigates issues. Store them in .cursor so cloud agents can use them too.",
+  "entities": [
+    "Cursor",
+    "Datadog",
+    "Slack",
+    "GitHub",
+    "PagerDuty",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor x Datadog",
+      "text": "In this session on Cursor x Datadog, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Datadog, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

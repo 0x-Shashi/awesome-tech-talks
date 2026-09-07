@@ -1,0 +1,42 @@
+{
+  "id": "simon-eskildsen-on-scaling-shopify-building-turbopuffer-and-the-future-of-databases-2026",
+  "title": "Simon Eskildsen on scaling Shopify, building turbopuffer, and the future of databases",
+  "channel": "Cursor",
+  "speakers": [
+    "Simon Eskildsen",
+    "Aman Sanger"
+  ],
+  "url": "https://youtu.be/bWyOyyrVIXk",
+  "date": "2026-05-14",
+  "format": "Fireside Chat",
+  "level": "Advanced",
+  "topics": [
+    "Backend/Infra",
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "Sualeh Asif (Co-Founder of Cursor) sits down with Simon Eskildsen (CEO of turbopuffer) to discuss scaling Shopify through flash sales, why a new database company emerges every 15 years, and what makes a P99 engineer.\n\n0:00 - Scaling Shopify through flash sales and outages\n\n7:11 - How the Shopify infrastructure team evolved\n\n8:13 - How top infrastructure teams collaborated in the 2010s\n\n10:35 - Engineering principles from Logrus and on-call\n\n17:38 - The story behind Simon’s famous-ish blog, Napkin Math\n\n23:05 - Why new database companies keep winning\n\n32:21 - How Simon became a fan of databases\n\n35:45 - AI coding, and where agents still fail\n\n38:44 - What it would take for turbopuffer to become Google-scale\n\n42:10 - Hiring P99 engineers in the AI era\n\n48:45 - What's next for databases",
+  "entities": [
+    "Cursor",
+    "Turbopuffer",
+    "GitHub",
+    "Shopify",
+    "Python",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Simon Eskildsen on scaling Shopify, building turbopuffer, and the future of databases",
+      "text": "In this session on Simon Eskildsen on scaling Shopify, building turbopuffer, and the future of databases, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Turbopuffer, GitHub work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.2
+}

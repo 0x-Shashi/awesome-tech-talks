@@ -1,0 +1,39 @@
+{
+  "id": "figma-plugin-in-cursor-2026",
+  "title": "Figma Plugin in Cursor",
+  "channel": "Cursor",
+  "speakers": [
+    "Santi"
+  ],
+  "url": "https://youtu.be/3hrAqLBcPFs",
+  "date": "2026-07-08",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Web Development",
+    "AI Agents"
+  ],
+  "description": "In this workshop, we connect the Figma plugin in Cursor to move a ticket from design to code without a single handoff doc.\n\nKey features covered:\n\nFigma plugin \\& MCP:\n\nInstall the Figma plugin from Marketplace in one click and authenticate. The agent reads and writes Figma as structured data via an MCP server and 11 bundled skills.\n\nDesign drift detection:\n\nGive the agent a Figma link and it sweeps the whole codebase for token and component drift that humans would miss, then fixes it automatically.\n\nTicket to feature:\n\nGather context from Linear, Slack, and Granola, generate a new Figma design from your library, draft a plan, and build the feature on a cloud agent.\n\nDesign Mode:\n\nClick, drag, or draw over your running app or the built-in browser. Cursor pulls the component with its variables and states into context for the agent.\n\nFigma skills:\n\nGenerate or sync a design library from your code, translate Figma motion into production code, and create launch decks in Figma Slides.\n\nCustom skills \\& rules:\n\nUse slash create skill and create rule to encode good UI/UX principles or ban emojis in your UI so every agent respects them.",
+  "entities": [
+    "Cursor",
+    "Slack",
+    "Figma",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Figma Plugin in Cursor",
+      "text": "In this session on Figma Plugin in Cursor, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Slack, Figma work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

@@ -1,0 +1,36 @@
+{
+  "id": "how-ai-agents-are-rewiring-sdlc-lifecycle-2026",
+  "title": "How AI Agents are Rewiring the SDLC - Lifecycle Transformation",
+  "channel": "Cursor",
+  "speakers": [
+    "Jack Clary"
+  ],
+  "url": "https://youtu.be/_vi4x0vqxLk",
+  "date": "2026-06-03",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how AI agents reshape the software development lifecycle in Cursor.\n\nKey topics:\n\nAgents across the SDLC: See how agents augment planning, design, development, testing, and deployment instead of only codegen.\n\nWorkflow and ownership: Learn what changes in tooling, rituals, and accountability when agents are active participants.\n\nIncremental adoption: Use practical patterns to roll agents out without disrupting existing processes.\n\nPlanning and scope: Scope work in Plan Mode so agents align on specs before they edit your codebase.\n\nBuild and deliver: Use IDE and cloud agents to implement changes and open PRs across the lifecycle.\n\nReview at scale: Understand why review becomes the bottleneck as velocity rises, and how agent review helps.\n\nJoin us again for a future session at cursor.com/workshops",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of How AI Agents are Rewiring the SDLC - Lifecycle Transformation",
+      "text": "In this session on How AI Agents are Rewiring the SDLC - Lifecycle Transformation, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

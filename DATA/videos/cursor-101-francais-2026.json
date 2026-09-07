@@ -1,0 +1,40 @@
+{
+  "id": "cursor-101-francais-2026",
+  "title": "Cursor 101 Francais",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/Xc5OPdjP8Xo",
+  "date": "2026-07-07",
+  "format": "Workshop",
+  "level": "Beginner",
+  "topics": [
+    "Web Development",
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "Dans cet atelier Cursor 101 en français, nous découvrons les bases de la plateforme agentique de Cursor, du contexte à l'exécution.\n\nPoints abordés :\n\nSurfaces \\& fenêtre agent :\n\nCursor n'est plus seulement un IDE. Travaillez avec l'agent depuis la fenêtre agent (Cursor 3), l'IDE, le CLI ou Slack, avec navigateur, terminal et explorateur de fichiers dans une seule interface.\n\nNeutralité des modèles :\n\nCursor est agnostique : accédez aux modèles frontier et à Composer 2.5, rapide et économique. Le mode auto choisit le bon modèle selon la tâche pour éviter de gérer le coût manuellement.\n\nContexte \\& indexation :\n\nLe moteur d'indexation sémantique transforme votre code en base vectorielle et le combine au grep pour récupérer le bon contexte. Les serveurs MCP connectent l'agent à Jira, Figma et vos autres outils.\n\nModes \\& Plan Mode :\n\nLes modes Ask et Debug explorent le code sans le modifier. Le mode Plan produit un plan éditable, étape par étape, que vous validez avant que l'agent ne l'exécute.\n\nRègles, Skills \\& Design Mode :\n\nLes règles injectent vos standards à chaque session ; les skills packagent des workflows répétables, créés depuis un chat. Le mode Design modifie l'UI en sélectionnant des éléments dans le navigateur.",
+  "entities": [
+    "Cursor",
+    "Slack",
+    "Figma",
+    "Jira",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor 101 Francais",
+      "text": "In this session on Cursor 101 Francais, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Slack, Figma work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

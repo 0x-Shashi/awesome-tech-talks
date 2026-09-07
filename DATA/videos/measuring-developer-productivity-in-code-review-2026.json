@@ -1,0 +1,39 @@
+{
+  "id": "measuring-developer-productivity-in-code-review-2026",
+  "title": "Measuring Developer Productivity in Code Review",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/c_PBt8ezPQ8",
+  "date": "2026-07-22",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "In this workshop, AJ Valenty and Pat Wolfe (Forward Deployed Engineering / Origin) dig into how code review is changing in the age of agentic coding - and how to measure developer productivity when AI is writing more of the code.\n\nDrawing on Cursor's Developer Habits report, they cover what's shifted over the past year: developers are shipping far more code, pull requests are getting much larger, and more changes are being accepted without a manual line-by-line review. The bottleneck moves downstream to review and testing - creating PR backlogs, overwhelmed senior engineers, rubber-stamp reviews, and even source-control infrastructure straining under agent-driven volume.\n\nThey walk through Cursor's two-layer review approach:\n\nAgentic review: bots that review PRs immediately at a senior-level bar\n\nBugbot - logic, syntax, and style, with org-wide context\n\nSecurity reviewer - catches vulnerabilities before merge\n\nApprover / router - routes PRs and can auto-approve low-risk changes\n\nVulnerability scanner - scheduled scans that open PRs and pipe findings into Slack\n\nHuman review: freed up for higher-level architectural concerns\n\nAlso covered: Cursor automations, cloud agents, and the Cursor SDK - plus the ROI metrics Cursor uses to evaluate review tooling.",
+  "entities": [
+    "Cursor",
+    "Cursor Automations",
+    "Bugbot",
+    "Slack",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Measuring Developer Productivity in Code Review",
+      "text": "In this session on Measuring Developer Productivity in Code Review, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Automations, Bugbot work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cursor-cloud-agents-2026",
+  "title": "Cursor Cloud Agents",
+  "channel": "Cursor",
+  "speakers": [
+    "Emily"
+  ],
+  "url": "https://youtu.be/0JsmvKps9po",
+  "date": "2026-03-21",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how to use Cursor Cloud Agents to run long-running, asynchronous coding tasks.\n\nCloud Agents run on Cursor's remote infrastructure, support parallelization, and generate PRs with diffs, screenshots, and screen recordings.\n\nKey workflows covered:\n\n\\[Getting started]\n\nGo to cursor.com/onboard, select a repo from GitHub or GitLab, optionally add environment variables or secrets, and hit Start. The Cloud Agent UI gives you a live view of the development environment setup, terminal output, file diffs, commits, and CI check status.\n\n\\[Ways to launch]\n\nTrigger a cloud agent from the Cursor IDE (local to cloud), from a Slack thread (mention @Cursor), from a Linear ticket (mention @Linear), or directly from your phone at cursor.com/agents.\n\n\\[Plan Mode → Cloud execution workflow]\n\nBuild a structured plan locally using a high-reasoning model, review and refine the to-do list, then send it to run in the cloud. Alternatively, fire off an agent directly from local to cloud without a plan step.\n\n\\[Subagents and parallelization]\n\nCloud Agents can spawn subagents to work on isolated tasks in parallel, making them especially powerful for large codebases (the demo features Grafana at 2M+ lines, 30K files). This dramatically speeds up implementation and exploration.\n\n\\[Artifacts]\n\nAfter completing a task, Cloud Agents produce a walkthrough video and screenshots showing exactly what was built and tested. The agent figures out how to verify its own work, runs unit tests, checks API responses, and navigates the UI manually to confirm everything works.\n\n\\[MCP server support]\n\nCloud Agents can connect to any MCP server: Atlassian/Jira, Slack, Linear, Datadog, Granola, Excalidraw. This is used to pull ticket details, log context, create diagrams, and surface relevant information automatically during a run.\n\n\\[Automations]\n\nSchedule cloud agents to run on triggers: a Slack message, a GitHub PR merge, a cron job, or a PagerDuty alert. Pre-built templates include things like a CI failure fixer, a feature flag cleanup bot, and more.",
+  "entities": [
+    "Cursor",
+    "Datadog",
+    "Slack",
+    "GitHub",
+    "Jira",
+    "PagerDuty",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor Cloud Agents",
+      "text": "In this session on Cursor Cloud Agents, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Datadog, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

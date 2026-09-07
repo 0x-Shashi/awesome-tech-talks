@@ -1,0 +1,38 @@
+{
+  "id": "john-schulman-on-dead-ends-scaling-rl-and-building-research-institutions-2025",
+  "title": "John Schulman on dead ends, scaling RL, and building research institutions",
+  "channel": "Cursor",
+  "speakers": [
+    "John Schulman",
+    "Michael Truell"
+  ],
+  "url": "https://youtu.be/29BYxvvF1iM",
+  "date": "2025-12-18",
+  "format": "Fireside Chat",
+  "level": "Advanced",
+  "topics": [
+    "LLM Fundamentals",
+    "Research/Papers",
+    "AI Coding Tools"
+  ],
+  "description": "A conversation with John Schulman on the first year LLMs could have been useful, building research teams, and where RL goes from here.\n\n00:00 - Speedrunning ChatGPT\n\n09:22 - Archetypes of research managers\n\n11:56 - Was OpenAI inspired by Bell Labs?\n\n16:54 - The absence of value functions\n\n18:23 - Continual learning\n\n21:09 - Brittle generalization\n\n24:05 - Co-training generators and verifiers, GANs\n\n27:06 - John’s personal use of AI for research\n\n28:54 - Day in the life\n\n33:01 - Slowdowns in consequential ML ideas\n\n36:21 - \"Peer review\" within the labs\n\n39:19 - Distribution shift in researchers\n\n43:33 - Future of RL\n\n45:33 - Will the labs coordinate if the world needs them to?\n\n44:46 - Forecasting ills in AGI and engineering\n\n47:53 - Thinking Machines",
+  "entities": [
+    "Cursor",
+    "OpenAI"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of John Schulman on dead ends, scaling RL, and building research institutions",
+      "text": "In this session on John Schulman on dead ends, scaling RL, and building research institutions, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, OpenAI work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

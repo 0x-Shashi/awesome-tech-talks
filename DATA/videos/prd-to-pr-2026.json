@@ -1,0 +1,38 @@
+{
+  "id": "prd-to-pr-2026",
+  "title": "PRD to PR",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/UP1Y3-l0R3o",
+  "date": "2026-03-21",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "In this session, we walked through the full journey from a product requirements document to an open pull request.\n\nWhat's covered:\n\nConnecting project management tools (Linear, Jira, Notion) via MCP so your agent reads PRDs directly\n\nUsing a high-reasoning model (GPT-5.4, Opus 4.6) in Plan Mode to build an implementation plan, then switching to a fast executor model (Composer) to build it\n\nHow subagents spin up automatically to tackle parallel workstreams\n\nSkills, rules, and commands, and when to use each\n\nCloud Agents: kick off a task from anywhere, get back a PR with diffs and a screen recording\n\nModel selection guidance: which models to use for planning vs. execution vs. cost-sensitive tasks\n\n\\--------------------------------------\n\nThis is a recording from our live session on March 18, 2026.",
+  "entities": [
+    "Cursor",
+    "GitHub",
+    "Jira",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of PRD to PR",
+      "text": "In this session on PRD to PR, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, GitHub, Jira work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

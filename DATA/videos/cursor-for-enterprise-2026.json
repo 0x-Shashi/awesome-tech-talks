@@ -1,0 +1,37 @@
+{
+  "id": "cursor-for-enterprise-2026",
+  "title": "Cursor for Enterprise",
+  "channel": "Cursor",
+  "speakers": [
+    "Noah"
+  ],
+  "url": "https://youtu.be/c_6HyUNNk-k",
+  "date": "2026-04-23",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "In this workshop, we cover how enterprise teams can deploy and manage Cursor at scale.\n\nKey workflows covered:\n\nPrivacy \\& Data Governance:\n\nPrivacy mode, enabled by default for all enterprise customers, ensures code is never retained by model providers or used for training. All model providers operate under zero data retention agreements. For cloud agent workloads, Cursor supports self-hosted infrastructure within your own VPC.\n\nNetwork Configuration \\& IP Protection:\n\nCursor is built to work across complex enterprise network environments, including proxies like Zscaler, with support for IP allowlisting, VPC peering, and full traffic encryption in transit.\n\nAgent Governance with Hooks:\n\nHooks let you observe or intercept the agent loop at a granular level, before a file read, after an agent response, and more. Attach custom scripts to any hook event to enforce file-type validation, internal compliance rules, or telemetry reporting. Hooks can be defined at the team level and will apply across all users in your organization.\n\nModel \\& MCP Governance:\n\nFrom admin settings, you can restrict access to specific models (e.g., limit usage of expensive premium models) and control which MCP integrations are available to users organization-wide.\n\nTeam-Level Rules \\& Skills:\n\nRules let you apply persistent context, coding standards, design guidelines, approved data sources, to every user's agent interactions across the team. Skills are invocable on-demand (via slash command or agent inference) and are better suited when context doesn't need to apply to every single prompt, since each rule adds to the context window.\n\nSandboxing:\n\nConfigure which terminal commands agents are allowed to run. Allow-list or block specific commands to keep agents operating within defined bounds, balancing security with avoiding excessive approval prompts for users.\n\nVisibility, Analytics \\& Audit Logs:\n\nThe admin dashboard provides workspace-wide analytics: AI-committed code share, edits made, user activity, and intent breakdowns by work category. A granular audit log is fully exportable and accessible via API, including a new read-only analytics API, making it easy to build internal reports and demonstrate ROI to executive stakeholders.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor for Enterprise",
+      "text": "In this session on Cursor for Enterprise, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

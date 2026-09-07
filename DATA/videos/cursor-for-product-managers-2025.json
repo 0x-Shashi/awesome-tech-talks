@@ -1,0 +1,40 @@
+{
+  "id": "cursor-for-product-managers-2025",
+  "title": "Cursor for Product Managers",
+  "channel": "Cursor",
+  "speakers": [
+    "Emily"
+  ],
+  "url": "https://youtu.be/kdmhPIEb8uk",
+  "date": "2025-12-05",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "Hear from Rohan Varma (PM), Zoë Barnswell (TAM), Patrick Coyle (GTM), and Emily Gavrilenko (Growth) on the evolving role of PMs within AI native orgs.\n\nHere are the top takeaways:\n\n1\\. PMs no longer stop at the PRD\n\nAI lets product managers explore the codebase, validate assumptions early, update docs as they go, and even ship small improvements, expanding impact from just “planning” to meaningful contributions throughout the whole software lifecycle.\n\n2\\. Understanding the code is a skill, not a barrier\n\nInstead of waiting for an engineer to walk you through a system, you can ask questions in plain language, generate diagrams, trace logic, and quickly build a grounded mental model of the product.\n\n3\\. Resources should be AI-readable, not just human-readable\n\nPRDs and specs are most powerful when they’re structured clearly and live close to the codebase. When written this way, they become inputs that AI agents and engineers can immediately use to break down work, plan changes, and execute.\n\n4\\. Your tools can finally talk to each other\n\nWith Cloud Agents and MCP, PMs can connect systems like Linear, Datadog, Notion, and internal tools into a single workflow. Instead of chasing information across platforms or pinging multiple teammates, you can ask one place and get a full, connected answer.\n\n5\\. “Deliver demos, not memos” is becoming the bar\n\nCursor makes it fast for PMs to translate ideas into small, working demos. That means you don’t just describe what you want, you can show it.\n\n6\\. The PM advantage is shifting to judgment, not Jira\n\nAs execution gets faster, the real differentiator for PMs is clarity: knowing which problems matter, why they matter, and how they connect to users. AI accelerates the “doing,” which makes the quality of the “deciding” even more important.\n\nThis is a recorded session from Thursday, December 4th. ​See our upcoming events at https://luma.com/cursor",
+  "entities": [
+    "Cursor",
+    "Datadog",
+    "Slack",
+    "Jira",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor for Product Managers",
+      "text": "In this session on Cursor for Product Managers, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Datadog, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

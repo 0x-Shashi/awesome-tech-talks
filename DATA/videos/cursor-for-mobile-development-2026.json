@@ -1,0 +1,39 @@
+{
+  "id": "cursor-for-mobile-development-2026",
+  "title": "Cursor for Mobile Development",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/Zi24xGb2Z9A",
+  "date": "2026-04-27",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how mobile developers can use Cursor for agentic development.\n\nKey workflows covered:\n\nJetBrains ACP integration (Android Studio):\n\nInstall the Cursor plugin in Android Studio via View → Tool Windows → AI Chat. Once connected, you get access to Cursor's full model lineup, semantic codebase search, and Ask / Plan / Agent modes\n\nCodebase Q\\&A:\n\nAsk Cursor to explain an unfamiliar mobile repo, whether it's a React Native, Flutter, or native iOS/Android project, and it uses both grep and vector-based semantic search to return fast, meaningful answers about your architecture, navigation patterns, and platform-specific code.\n\nPlan Mode to Agent Mode workflow:\n\nUse a high-reasoning model in Plan Mode to investigate your feature requirements, design the implementation approach, and produce a structured to-do list before any code is written. Review and trim the to-dos, then switch to a fast executor model in Agent Mode to implement across your iOS, Android, or cross-platform codebase.\n\nRules, Skills, and Sub-agents:\n\nThink of rules as coding standards your agent always follows, platform naming conventions, file structure, lint rules. Skills are on-demand playbooks for mobile-specific tasks like generating a new screen, writing platform channel code, or running UI tests. Sub-agents are specialized workers you can spin up for isolated tasks like asset generation or localization.\n\nParallel agents via CLI:\n\nSpin up multiple Cursor agent sessions in the terminal simultaneously, one targeting your iOS layer, another your Android layer, another your shared business logic, each using a different model, to tackle independent tasks in parallel.\n\nCloud Agents:\n\nPick a repo, branch, and model, attach MCP tools like Slack or Firebase, and let the agent work asynchronously. It delivers a PR with diffs, screenshots, and screen recordings of what it built, including emulator captures of UI changes.\n\nAutomations:\n\nTrigger cloud agents automatically on PR merges, Slack messages, or crash alerts from your observability tools. Set up a release notes bot that reads every merged PR and updates your app store changelogs automatically.\n\nBugBot PR Review:\n\nRun \"bug bot run\" on any pull request and Cursor reviews your mobile code, flags issues like missing null checks, unsafe main-thread access, or accessibility gaps, and gives you a one-click path to fix in cloud or in Cursor.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent",
+    "Bugbot",
+    "VS Code",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor for Mobile Development",
+      "text": "In this session on Cursor for Mobile Development, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent, Bugbot work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

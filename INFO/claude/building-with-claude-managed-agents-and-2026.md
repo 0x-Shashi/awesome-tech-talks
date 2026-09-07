@@ -1,7 +1,7 @@
 # Building with Claude Managed Agents and Asana AI teammates
 
 **Speaker(s):** Claude Engineering Team · **Channel:** Claude · **Date:** 2026-05-09
-**Watch:** Description - Most of the AI value in your organization is locked in isolated experiments. That is not the Agentic Enterprise we've been promised. AI can help us ideate, orchestrate, and complete the work. Not just support. · **Format:** Talk · **Level:** Intermediate
+**Watch:** https://youtu.be/BrpB-h1e--k · **Format:** Talk · **Level:** Intermediate
 **Topics:** AI Agents, Product/Startup
 
 ## TL;DR
@@ -136,4 +136,4 @@ outside of it.
 
 ## Source
 Full cleaned transcript: `DATA/videos/building-with-claude-managed-agents-and-2026.json`
-Canonical recording: Description - Most of the AI value in your organization is locked in isolated experiments. That is not the Agentic Enterprise we've been promised. AI can help us ideate, orchestrate, and complete the work. Not just support.
+Canonical recording: https://youtu.be/BrpB-h1e--k

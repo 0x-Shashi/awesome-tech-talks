@@ -1,0 +1,39 @@
+{
+  "id": "securing-agentic-coding-at-scale-2026",
+  "title": "Securing Agentic Coding at Scale",
+  "channel": "Cursor",
+  "speakers": [
+    "Nate Umoff"
+  ],
+  "url": "https://youtu.be/SeAQUJ_QO_Y",
+  "date": "2026-02-24",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents"
+  ],
+  "description": "In this session, we covered how to govern agents responsibly as your organization rolls out AI coding tools.\n\nKey features covered:\n\nHooks: Deterministic scripts that run at specific points in the agent execution loop, letting you intercept and validate agent actions before they happen (e.g., before a commit or command runs).\n\nModel \\& MCP controls: Admin-level allowlists and blocklists to restrict exactly which models and MCP servers agents can access across your entire org.\n\nSandbox mode: Isolated execution environments that limit agents to only what admins explicitly allow, with network access off by default and Git operations restricted to read-only. Enforced at the org level.\n\nTeam rules: Shared context pushed across every developer in your organization, ensuring consistent agent behavior in both the Cursor IDE and BugBot.\n\nConversation Insights: Analytics that passively categorize the type of work happening across your org, so you can see how engineering time is actually being spent.\n\nCursor Blame: Git blame augmented with line-level AI co-authorship tracking, giving you a clear attribution chain for audits, compliance, and code review prioritization.\n\nThis is a recording from our live session on February 17, 2026.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent",
+    "Cursor Tab",
+    "Bugbot",
+    "MCP Servers"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Securing Agentic Coding at Scale",
+      "text": "In this session on Securing Agentic Coding at Scale, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent, Cursor Tab work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

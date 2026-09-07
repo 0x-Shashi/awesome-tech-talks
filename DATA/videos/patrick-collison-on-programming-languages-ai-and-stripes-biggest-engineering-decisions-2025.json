@@ -1,0 +1,38 @@
+{
+  "id": "patrick-collison-on-programming-languages-ai-and-stripes-biggest-engineering-decisions-2025",
+  "title": "Patrick Collison on programming languages, AI, and Stripe's biggest engineering decisions",
+  "channel": "Cursor",
+  "speakers": [
+    "Patrick Collison",
+    "Michael Truell"
+  ],
+  "url": "https://youtu.be/motX94ztOzo",
+  "date": "2025-07-15",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Web Development",
+    "Product/Startup",
+    "AI Coding Tools"
+  ],
+  "description": "Michael Truell (CEO of Cursor) sits down with Patrick Collison (CEO of Stripe) to discuss programming languages, the role of AI in programming, and building long-lasting software.\n\n00:00 Patrick's first startup in Smalltalk\n\n03:35 LISP chatbots\n\n06:09 Ideas from esoteric programming languages\n\n09:12 Bret Victor and Dynamicland\n\n16:37 Programming human organizations\n\n20:28 Codebase's \"Big Bang\" and MongoDB\n\n25:49 Rewriting Stripe\n\n32:00 How do you, Patrick Collison, use AI?\n\n38:25 Changes to GDP/TFP\n\n41:56 Programming human biology\n\n46:10 Unexpected beneficiaries of AI",
+  "entities": [
+    "Cursor",
+    "Stripe"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Patrick Collison on programming languages, AI, and Stripe's biggest engineering decisions",
+      "text": "In this session on Patrick Collison on programming languages, AI, and Stripe's biggest engineering decisions, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Stripe work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

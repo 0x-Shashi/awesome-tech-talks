@@ -6,6 +6,13 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 - [Physical AI: the new era of robotics](google-for-developers/physical-ai-robotics-2026.md) - Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez, Google for Developers, unknown
 - [Gemini co-leads on project origins and what's next](google-for-developers/gemini-coleads-project-origins-2026.md) - Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick, Google for Developers, unknown
+- [Meet Grok Bot: Your Team of AI Agents](cursor/meet-grok-bot-your-team-of-ai-agents-2026.md) - Amita, Cursor, 2026-09-04
+- [How AI Agents are Rewiring the SDLC - Plan Mode and Agent Loops](cursor/how-ai-agents-are-rewiring-sdlc-plan-mode-2026.md) - Evette, Cursor, 2026-09-04
+- [Grok Bot for GTM: From Prospecting to Customer Calls](cursor/grok-bot-for-gtm-from-prospecting-to-customer-calls-2026.md) - Cursor Technical Team, Cursor, 2026-09-04
+- [Grok Bot For Product Best Practices](cursor/grok-bot-for-product-best-practices-2026.md) - Kevin Neparco, Cursor, 2026-09-04
+- [Cloud Agents and Automations - From In-Editor to Cloud Fleets](cursor/cloud-agents-automations-editor-to-cloud-2026.md) - Dawson Lind, Cursor, 2026-09-03
+- [Cursor Rules, Skills, and MCPs](cursor/cursor-rules-skills-and-mcps-2026.md) - Kiara, Cursor, 2026-08-31
+- [Cursor 101 part 2](cursor/cursor-101-part-2-2026.md) - Cursor Technical Team, Cursor, 2026-08-31
 - [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud Memory](unlisted-videos/architecting-agent-memory-session-state-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-28
 - [Architecting Agent Memory: Session State, Vector Search, and Managed Cloud](unlisted-videos/architecting-agent-memory-session-state-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-27
 - [Securing and scaling interoperability with agent protocols](unlisted-videos/securing-and-scaling-interoperability-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-25
@@ -18,10 +25,13 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2](unlisted-videos/architecting-multi-agent-teams-mastering-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-08-12
 - [Securing agents for scale: Breakthroughs in agent governance](unlisted-videos/securing-agents-for-scale-breakthroughs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-11
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns](unlisted-videos/architecting-multi-agent-teams-mastering-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-11
+- [Security Remediation with Cursor](cursor/security-remediation-with-cursor-2026.md) - Cursor Technical Team, Cursor, 2026-08-10
 - [Claude for Marketing Ops and Analytics](unlisted-videos/claude-for-marketing-ops-and-analytics-2026.md) - Ian Chan, Annabel Custer, Unlisted Videos, 2026-08-06
+- [Startups: Landing your First Customer with Cursor](cursor/startups-landing-your-first-customer-with-cursor-2026.md) - Cursor Technical Team, Cursor, 2026-08-04
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
 - [Plan before you build: Deterministic planning patterns for AI agents](unlisted-videos/plan-before-you-build-deterministic-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-29
 - [Startup Builds: Getting Started with Loops](unlisted-videos/startup-builds-getting-started-with-loops-2026.md) - Mark Nowicki, Unlisted Videos, 2026-07-24
+- [Cloud Agents and Automations: Building a Self-Driving Codebase](cursor/cloud-agents-and-automations-building-a-self-driving-codebase-2026.md) - Cursor Technical Team, Cursor, 2026-07-24
 - [Claude for Investing Teams](unlisted-videos/claude-for-investing-teams-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-24
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
 - [Step Into the Agentic Era: Google Cloud Data Agents](unlisted-videos/step-into-the-agentic-era-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
@@ -31,6 +41,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Transforming work with AI agents](unlisted-videos/transforming-work-with-ai-agents-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [The Agentic Data Cloud: Powering a system of action](unlisted-videos/the-agentic-data-cloud-powering-2026.md) - Tiffany Adriana, Unlisted Videos, 2026-07-22
 - [Purpose-Built Agents: A Customer Spotlight with CIMB Niaga](unlisted-videos/purpose-built-agents-a-customer-2026.md) - Billis Tiaan, Unlisted Videos, 2026-07-22
+- [Measuring Developer Productivity in Code Review](cursor/measuring-developer-productivity-in-code-review-2026.md) - Cursor Technical Team, Cursor, 2026-07-22
 - [Govern your agents: Architecting a secure agentic ecosystem](unlisted-videos/govern-your-agents-architecting-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [From prototype to production: Hard-won lessons for advanced, reliable, and secure agents](unlisted-videos/from-prototype-to-production-hard-2026.md) - Isuru Raja, Unlisted Videos, 2026-07-22
 - [Demo | Synchronized intelligent workforce with Gemini Enterprise and Google Workspace](unlisted-videos/demo-synchronized-intelligent-workforce-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
@@ -39,6 +50,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Beyond the Prompt: Architecting the Agentic Data Cloud](unlisted-videos/beyond-the-prompt-architecting-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [From intent to insight: Accelerating outcomes with Data Agent Kit](unlisted-videos/from-intent-to-insight-accelerating-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-21
 - [Claude in Microsoft Foundry: Building agents for production](unlisted-videos/claude-in-microsoft-foundry-building-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-21
+- [The Outer Loop: Code Reviews in Cursor](cursor/the-outer-loop-code-reviews-in-cursor-2026.md) - Tomas, Cursor, 2026-07-19
 - [Scale AI, not your bill: Managing Model Cost](unlisted-videos/scale-ai-not-your-bill-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-16
 - [How to ship and scale agents with Claude Managed Agents](unlisted-videos/how-to-ship-and-scale-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-16
 - [Evals for AI Agents: How Product Builders Get the Most Out of Every New Model](unlisted-videos/evals-for-ai-agents-how-product-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-14
@@ -46,8 +58,15 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Production-Grade Agents on Claude Sonnet 5: Live with Zed and ClickHouse](unlisted-videos/production-grade-agents-on-claude-sonnet-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-13
 - [Cowork for Nonprofits](unlisted-videos/cowork-for-nonprofits-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-10
 - [TechByte: Agentic defense - Transforming the SOC with AI agents](unlisted-videos/techbyte-agentic-defense-transforming-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-08
+- [Power-User Workflows: Local Agents, Cloud Fleets, and Automations](cursor/power-user-workflows-local-agents-cloud-fleets-2026.md) - Mark, Cursor, 2026-07-08
+- [Figma Plugin in Cursor](cursor/figma-plugin-in-cursor-2026.md) - Santi, Cursor, 2026-07-08
 - [TechByte: The Intelligent Enterprise: Building the foundation for agentic consumption](unlisted-videos/techbyte-the-intelligent-enterprise-building-2026.md) - Wamsi Bodipuri, Unlisted Videos, 2026-07-07
 - [TechByte: Cloud roadmap series - Infrastructure for the agentic era](unlisted-videos/techbyte-cloud-roadmap-series-infrastructure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-07
+- [Cursor Automations - Event and Schedule Driven Cloud Agents](cursor/cursor-automations-cloud-agents-2026.md) - Jason, Cursor, 2026-07-07
+- [Cursor 101 Francais](cursor/cursor-101-francais-2026.md) - Cursor Technical Team, Cursor, 2026-07-07
+- [Cloud Agents and Automations - Fleet Architecture](cursor/cloud-agents-automations-fleet-architecture-2026.md) - Snooper Anani, Cursor, 2026-07-07
+- [Agents for Web Development](cursor/agents-for-web-development-2026.md) - Hassan, Cursor, 2026-07-07
+- [Advanced Workflows: Skills, Automations, Subagents, and Bugbot](cursor/advanced-workflows-skills-automations-bugbot-2026.md) - Cursor Technical Team, Cursor, 2026-07-07
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [Sameer Samat on Android 17 and the Future of Intelligent Computing](google-for-developers/sameer-samat-android17-2026.md) - Sameer Samat, Logan Kilpatrick, Google for Developers, 2026-07-01
 - [Build agentic AI applications with graphs on Google Cloud](unlisted-videos/build-agentic-ai-applications-with-2026.md) - Chris Magu, Chris, Unlisted Videos, 2026-06-30
@@ -85,21 +104,29 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Claude Corps: How to Become a Host Organization](unlisted-videos/claude-corps-how-to-become-a-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-18
 - [[AMER] Enterprise Scale: Advanced Conversational Intelligence](unlisted-videos/amer-enterprise-scale-advanced-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-17
 - [[AMER] Vision Agents & Applied Function Calling](unlisted-videos/amer-vision-agents-applied-function-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-16
+- [Securing Agent Outputs](cursor/securing-agent-outputs-2026.md) - Cursor Technical Team, Cursor, 2026-06-16
 - [Beyond the GPU: Maximizing goodput with self-healing AI infrastructure](unlisted-videos/beyond-the-gpu-maximizing-goodput-2026.md) - Benazie Fatai, Unlisted Videos, 2026-06-16
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
 - [[AMER] Multimodal RAG: Grounding Conversational AI in Complex Data](unlisted-videos/amer-multimodal-rag-grounding-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-11
+- [Running 128 Coding Agents at Once](cursor/running-128-coding-agents-at-once-2026.md) - Cursor Technical Team, Cursor, 2026-06-11
 - [Securing the Autonomous Enterprise: Governance for Gemini Enterprise Agent Platform](unlisted-videos/securing-the-autonomous-enterprise-governance-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [New research: How AI is actually transforming security operations](unlisted-videos/new-research-how-ai-is-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [Customize your SOC with security agents using MCP servers](unlisted-videos/customize-your-soc-with-security-2026.md) - Sandy, Unlisted Videos, 2026-06-10
+- [Coding Agents and the Future of Engineering](cursor/coding-agents-and-the-future-of-engineering-2026.md) - Joseph, Cursor, 2026-06-10
 - [Agentic Defense Transforming the SOC with AI Agents](unlisted-videos/agentic-defense-transforming-the-soc-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
 - [[AMER] The Art of the Possible: Intro to Realtime Agentic AI](unlisted-videos/amer-the-art-of-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
+- [Customizing Cursor Agent with Rules, Skills, MCP, and Hooks](cursor/customizing-cursor-agent-rules-skills-mcp-2026.md) - Ner, Cursor, 2026-06-09
 - [Cowork Workshop: Foundations](unlisted-videos/cowork-workshop-foundations-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-09
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
 - [How Anthropic's marketing team uses Claude Cowork](unlisted-videos/how-anthropics-marketing-team-uses-claude-2026.md) - Austin Lau, Unlisted Videos, 2026-06-04
+- [Cursor Core Features for Everyday Agentic Coding](cursor/cursor-core-features-everyday-coding-2026.md) - Cursor Technical Team, Cursor, 2026-06-04
+- [Multi-Repo Cloud Agents: Ship Faster Across Complex Codebases](cursor/multi-repo-cloud-agents-ship-faster-across-complex-codebases-2026.md) - Cursor Technical Team, Cursor, 2026-06-03
+- [How AI Agents are Rewiring the SDLC - Lifecycle Transformation](cursor/how-ai-agents-are-rewiring-sdlc-lifecycle-2026.md) - Jack Clary, Cursor, 2026-06-03
 - [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [How finance teams use Claude Cowork](unlisted-videos/how-finance-teams-use-claude-cowork-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-02
+- [Cursor for Finance Teams](cursor/cursor-for-finance-teams-2026.md) - Will, Cursor, 2026-05-29
 - [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
 - [How Anthropic’s sales team run their week with Cowork](unlisted-videos/how-anthropics-sales-team-run-their-2026.md) - Travis Bryant, Brittney Tong, Unlisted Videos, 2026-05-26
 - [Tool, skill, or subagent? Decomposing an agent that outgrew its prompt](claude/tool-skill-or-subagent-decomposing-an-2026.md) - Claude Engineering Team, Claude, 2026-05-23
@@ -107,13 +134,18 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [How we Claude Code](claude/how-we-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-23
 - [Evals for taste: Hill-climbing a slide-generation agent](claude/evals-for-taste-hill-climbing-a-2026.md) - Claude Engineering Team, Claude, 2026-05-23
 - [Agents that remember](claude/agents-that-remember-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [Training Composer 2](cursor/training-composer-2-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
 - [Teaching agents to learn from your team](claude/teaching-agents-to-learn-from-your-2026.md) - Claude Engineering Team, Claude, 2026-05-22
+- [Refactoring Legacy Codebases](cursor/refactoring-legacy-codebases-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
 - [Making agentic workflows trustworthy and verifiable with a custom DSL](claude/making-agentic-workflows-trustworthy-and-verifiable-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [How AirOps chases friction to build AI products with Claude](claude/how-airops-chases-friction-to-build-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Getting more out of the Claude Platform](claude/getting-more-out-of-the-claude-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Fighting financial crime with Claude Cowork](claude/fighting-financial-crime-with-claude-cowork-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Directing the future: craft and creativity in the age of AI](google-for-developers/doug-liman-directing-future-2026.md) - Mira Lane, Doug Liman, Julina Tatlock, Jed Weintrob, Google for Developers, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
+- [Cursor Agent SDK](cursor/cursor-agent-sdk-2026.md) - Tim, Cursor, 2026-05-22
+- [Cursor 201 - May](cursor/cursor-201-may-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
+- [Cursor 101 - May](cursor/cursor-101-may-2026.md) - Christian, Cursor, 2026-05-22
 - [Building with Claude on Google Cloud](claude/building-with-claude-on-google-cloud-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Building the best agentic analytics harness: Powered by Claude, built with Claude Code](claude/building-the-best-agentic-analytics-harness-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [A new era of discovery: AI and the frontiers of science with Demis Hassabis](google-for-developers/demis-hassabis-ai-science-frontiers-2026.md) - Mike Allen, Demis Hassabis, Google for Developers, 2026-05-22
@@ -126,6 +158,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Coding is no longer the constraint: Scaling devex to teams and agents at Spotify](claude/coding-is-no-longer-the-constraint-2026.md) - Claude Engineering Team, Claude, 2026-05-20
 - [Build a proactive agent workflow with Claude Code](claude/build-a-proactive-agent-workflow-with-2026.md) - Claude Engineering Team, Claude, 2026-05-20
 - [Build AI agents using Claude in Microsoft Foundry](claude/build-ai-agents-using-claude-in-2026.md) - Marlene Mangami, Claude, 2026-05-20
+- [Simon Eskildsen on scaling Shopify, building turbopuffer, and the future of databases](cursor/simon-eskildsen-on-scaling-shopify-building-turbopuffer-and-the-future-of-databases-2026.md) - Simon Eskildsen, Aman Sanger, Cursor, 2026-05-14
 - [How Warp builds self improving agents on Claude](unlisted-videos/how-warp-builds-self-improving-agents-2026.md) - Zach Lloyd, Unlisted Videos, 2026-05-13
 - [Secure the Advantage: A CISO’s Guide to Agentic AI](unlisted-videos/secure-the-advantage-a-cisos-guide-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-12
 - [The thinking lever](claude/the-thinking-lever-2026-2.md) - Matt Bleifer, Claude, 2026-05-09
@@ -136,45 +169,72 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Building with Claude Managed Agents and Asana AI teammates](claude/building-with-claude-managed-agents-and-2026.md) - Claude Engineering Team, Claude, 2026-05-09
 - [Claude for Financial Services teams: Putting agents to work](unlisted-videos/claude-for-financial-services-teams-putting-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-07
 - [Claude for Nonprofits: Moving Your Workflow Beyond Chat](unlisted-videos/claude-for-nonprofits-moving-your-workflow-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-06
+- [Model Selection and Token Efficiency in Cursor](cursor/model-selection-token-efficiency-cursor-2026.md) - Renee Velasco, Cursor, 2026-05-05
+- [Cursor x Slack](cursor/cursor-x-slack-2026.md) - Jack Clary, Cursor, 2026-05-05
+- [Cursor for Knowledge Work](cursor/cursor-for-knowledge-work-2026.md) - Emily Guereno, Cursor, 2026-05-05
 - [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
 - [The agentic enterprise: Google Workspace & Gemini Enterprise](google-cloud/the-agentic-enterprise-google-workspace-2026.md) - Yulie Kwon Kim, Maryam Gholami, Derek Snyder, Yotam Lemberger, John Aisien, Google Cloud, 2026-04-28
 - [Own your signature customer agentic experiences](google-cloud/own-your-signature-customer-agentic-expe-2026.md) - Darshan Kantak, Archana Kannan, Chad Westfall, Google Cloud, 2026-04-28
 - [Long Running Agents: How Outtake built a cyber investigator on Claude](unlisted-videos/long-running-agents-how-outtake-built-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-28
 - [Driving enterprise value from Agentic AI - Addressing the hard part](google-cloud/driving-enterprise-value-from-agentic-ai-2026.md) - Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart, Google Cloud, 2026-04-28
 - [Cross-cloud infrastructure for the agentic enterprise](google-cloud-tech/cross-cloud-agentic-enterprise-2026.md) - Drew Bradstock, Muninder Sambi, James Duncan, Fiona Tan, Google Cloud Tech, 2026-04-28
+- [Cursor x Datadog](cursor/cursor-x-datadog-2026.md) - Amita, Cursor, 2026-04-27
+- [Cursor for Mobile Development](cursor/cursor-for-mobile-development-2026.md) - Cursor Technical Team, Cursor, 2026-04-27
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
 - [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
 - [Next '26: The Future of AI Infrastructure](google-cloud/next-26-the-future-of-ai-infrastructure-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [How Cursor uses Cursor](cursor/how-cursor-uses-cursor-2026.md) - Jet Simmer, Cursor, 2026-04-23
 - [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [Cursor for Enterprise](cursor/cursor-for-enterprise-2026.md) - Noah, Cursor, 2026-04-23
+- [Cursor for Designers](cursor/cursor-for-designers-2026.md) - Bryson, Cursor, 2026-04-23
+- [Cursor CLI](cursor/cursor-cli-2026.md) - Tim, Cursor, 2026-04-23
 - [Claude for Legal teams](unlisted-videos/claude-for-legal-teams-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-21
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [Deploying Cowork across the Enterprise , with PayPal](unlisted-videos/deploying-cowork-across-the-enterprise-with-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-16
+- [Cursor Automations - Building Always-On Agents](cursor/cursor-automations-always-on-agents-2026.md) - Cursor Technical Team, Cursor, 2026-04-09
+- [Cursor Admin Guide](cursor/cursor-admin-guide-2026.md) - Cursor Technical Team, Cursor, 2026-04-09
 - [What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team](unlisted-videos/what-we-shipped-feature-updates-tips-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
 - [Plan First, Ship Faster: How CodeRabbit Built Agent Orchestration on Claude](unlisted-videos/plan-first-ship-faster-how-coderabbit-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
 - [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
 - [Claude Cowork in an Hour: Where do I start?](unlisted-videos/claude-cowork-in-an-hour-where-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-01
+- [Engineering Teams in the Agentic Era](cursor/engineering-teams-in-the-agentic-era-2026.md) - Nate, Cursor, 2026-03-30
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
 - [Claude Code Advanced Patterns: Subagents, MCP, and Scaling to Real Codebases](unlisted-videos/claude-code-advanced-patterns-subagents-mcp-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
+- [PRD to PR](cursor/prd-to-pr-2026.md) - Cursor Technical Team, Cursor, 2026-03-21
+- [Cursor Cloud Agents](cursor/cursor-cloud-agents-2026.md) - Emily, Cursor, 2026-03-21
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
 - [The Agentic Organization: Transforming Every Role and Workflow Part 3](unlisted-videos/the-agentic-organization-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-20
 - [Your First AI Teammate: A Practical Guide to Building AI Agents with no code Part 2](unlisted-videos/your-first-ai-teammate-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-19
 - [Best Practices: Claude for Excel and Claude for PowerPoint](unlisted-videos/best-practices-claude-for-excel-and-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-18
 - [Designing AI-ready data platforms for enterprise scale](unlisted-videos/designing-ai-ready-data-platforms-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-17
 - [The AI-Powered Workplace: An Introduction to Agentic Transformation Part 1](unlisted-videos/the-ai-powered-workplace-an-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-03-16
+- [Cursor for Java Developers](cursor/cursor-for-java-developers-2026.md) - Cursor Technical Team, Cursor, 2026-03-13
+- [Customizing Cursor Agent](cursor/customizing-cursor-agent-2026.md) - Cursor Technical Team, Cursor, 2026-03-07
+- [Securing Agentic Coding at Scale](cursor/securing-agentic-coding-at-scale-2026.md) - Nate Umoff, Cursor, 2026-02-24
+- [Cursor for Quality Assurance](cursor/cursor-for-quality-assurance-2026.md) - Cursor Technical Team, Cursor, 2026-02-24
+- [Cursor for Data Science](cursor/cursor-for-data-science-2026.md) - Matt, Cursor, 2026-02-24
 - [The Future of AI at Work: Introducing Cowork](unlisted-videos/the-future-of-ai-at-work-2026.md) - Boris Cherny, Mikaela Grace, Nicole Sim, Unlisted Videos, 2026-02-10
+- [Cursor for Security Teams](cursor/cursor-for-security-teams-2026.md) - Cursor Technical Team, Cursor, 2026-02-06
+- [Cursor for Financial Services](cursor/cursor-for-financial-services-2026.md) - David Shah, Cursor, 2026-02-06
 - [Building with Advanced Agent Capabilities for Claude on Vertex AI](unlisted-videos/building-with-advanced-agent-capabilities-for-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-06
+- [Developer Productivity Trends](cursor/developer-productivity-trends-2026.md) - Rohan, Cursor, 2026-01-29
 - [Claude Code for Financial Services: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-financial-services-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-07
 - [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
+- [Cursor Admin Guide: Analytics, ROI, and Usage Management](cursor/cursor-admin-guide-analytics-roi-and-usage-management-2025.md) - Alex Tapper, Cursor, 2025-12-22
 - [Why we built, and donated, the Model Context Protocol (MCP)](anthropic/why-we-built-and-donated-the-2025.md) - David Soria Parra, Stuart Ritchie, Anthropic, 2025-12-12
 - [Building with MCP and Claude Code: Sentry's 0 to 1 Story](unlisted-videos/building-with-mcp-and-claude-code-2025.md) - David Cramer, Jeremy Hadfield, Ilana Nathans, Unlisted Videos, 2025-12-12
+- [Cursor for Product Managers](cursor/cursor-for-product-managers-2025.md) - Emily, Cursor, 2025-12-05
 - [Scaling AI Agent Development at Netflix: Production Insights with Claude Sonnet 4.5](unlisted-videos/scaling-ai-agent-development-at-netflix-2025.md) - Claude Sonnet, Unlisted Videos, 2025-12-03
 - [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
 - [Building with Claude in Europe: Agent Fundamentals](unlisted-videos/building-with-claude-in-europe-agent-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-03
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
+- [Cursor for Professional Services](cursor/cursor-for-professional-services-2025.md) - Hugo, Cursor, 2025-11-21
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
+- [Cursor for Support Teams](cursor/cursor-for-support-teams-2025.md) - Cursor Technical Team, Cursor, 2025-11-18
+- [Cursor for Sales Engineers](cursor/cursor-for-sales-engineers-2025.md) - Mark, Cursor, 2025-11-18
 - [Agent Skills: Transform Claude from Assistant to Specialized Agent](unlisted-videos/agent-skills-transform-claude-from-assistant-2025.md) - Marius Buleandra, Unlisted Videos, 2025-11-17
 - [Claude Code Best Practices: Power User Insights from Lightspeed Portfolio Companies](unlisted-videos/claude-code-best-practices-power-user-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-10-23
 - [AI agents for data engineering and data science | The Agent Factory Podcast](google-cloud-tech/agents-for-data-engineering-2025.md) - Smitha Kolan, Lucia Subatin, Google Cloud Tech, 2025-10-16
@@ -204,7 +264,10 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 - [Physical AI: the new era of robotics](google-for-developers/physical-ai-robotics-2026.md) - Jacklyn Dallas, Kanishka Rao, Alberto Rodriguez, Google for Developers, unknown
 - [Gemini co-leads on project origins and what's next](google-for-developers/gemini-coleads-project-origins-2026.md) - Jeff Dean, Koray Kavukcuoglu, Noam Shazeer, Oriol Vinyals, Logan Kilpatrick, Google for Developers, unknown
+- [Model Selection and Token Efficiency - Token Economics and Model Choice](cursor/model-selection-token-economics-2026.md) - Santi Garza, Cursor, 2026-09-04
+- [Cursor x BCG: The New Rules of AI Competition](cursor/cursor-x-bcg-the-new-rules-of-ai-competition-2026.md) - Cursor Technical Team, Cursor, 2026-08-01
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
+- [How to select the right model for the right task](cursor/how-to-select-the-right-model-for-the-right-task-2026.md) - Santi, Cursor, 2026-06-30
 - [Scale AI that your workforce will actually use](google-cloud/scale-ai-that-your-workforce-will-actual-2026.md) - Casey McNamara, Akram Al-Ganad, Daniel Sumners, Google Cloud, 2026-06-26
 - [Accelerating the next wave of intelligent innovation with NVIDIA and Google Cloud](google-cloud/accelerating-the-next-wave-of-intelligen-2026-2.md) - Ian Buck, Google Cloud, 2026-06-26
 - [Accelerating the next wave of intelligent innovation with NVIDIA and Google Cloud](google-cloud/accelerating-the-next-wave-of-intelligen-2026.md) - Ian Buck, Google Cloud, 2026-06-26
@@ -218,11 +281,14 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Agent context engineering for production](google-cloud-tech/agent-context-engineering-2026.md) - George Lee, Kimberly Milam, Jeff Dixon, Preethi Prabhakar, Google Cloud Tech, 2026-06-25
 - [Yossi Matias on the golden age of research](google-for-developers/yossi-matias-research-golden-age-2026.md) - Yossi Matias, Logan Kilpatrick, Google for Developers, 2026-06-12
 - [[AMER] Multimodal RAG: Grounding Conversational AI in Complex Data](unlisted-videos/amer-multimodal-rag-grounding-conversational-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-11
+- [Running 128 Coding Agents at Once](cursor/running-128-coding-agents-at-once-2026.md) - Cursor Technical Team, Cursor, 2026-06-11
 - [Defending your enterprise against AI models that find vulnerabilities faster than ever](unlisted-videos/defending-your-enterprise-against-ai-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
+- [Training Composer 2](cursor/training-composer-2-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
 - [The thinking lever](claude/the-thinking-lever-2026.md) - Claude Engineering Team, Claude, 2026-05-21
 - [Picking the right model](claude/picking-the-right-model-2026.md) - Claude Engineering Team, Claude, 2026-05-21
 - [The thinking lever](claude/the-thinking-lever-2026-2.md) - Matt Bleifer, Claude, 2026-05-09
+- [Model Selection and Token Efficiency in Cursor](cursor/model-selection-token-efficiency-cursor-2026.md) - Renee Velasco, Cursor, 2026-05-05
 - [Vibe coding to production: Logan Kilpatrick on the evolution of AI Studio](google-cloud/vibe-coding-to-production-logan-kilpatri-2026.md) - Logan Kilpatrick, Google Cloud, 2026-04-23
 - [Gemma 4 production stack: Model Armor, ADK Agents, Tracing](google-cloud-tech/gemma4-production-stack-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-04-19
 - [How to Build a production-ready RAG AI agent](google-cloud-tech/production-ready-rag-agent-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-29
@@ -234,6 +300,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [How to transform work with Claude for Excel and Claude for PowerPoint](unlisted-videos/how-to-transform-work-with-claude-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-12
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
+- [John Schulman on dead ends, scaling RL, and building research institutions](cursor/john-schulman-on-dead-ends-scaling-rl-and-building-research-institutions-2025.md) - John Schulman, Michael Truell, Cursor, 2025-12-18
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
 - [What is Al "reward hacking", and why do we worry about it?](anthropic/what-is-al-reward-hacking-and-2025.md) - Anthropic Technical Staff, Anthropic, 2025-11-21
 - [Building for Production-Ready Use-Cases: How Lovable Scales with Claude](unlisted-videos/building-for-production-ready-use-cases-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-09-24
@@ -271,9 +338,12 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 ## Prompt Engineering
 
+- [Model Selection and Token Efficiency - Token Economics and Model Choice](cursor/model-selection-token-economics-2026.md) - Santi Garza, Cursor, 2026-09-04
 - [Beyond the Prompt: Architecting the Agentic Data Cloud](unlisted-videos/beyond-the-prompt-architecting-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [How Anthropic works with Claude Tag in Slack](unlisted-videos/how-anthropic-works-with-claude-tag-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-09
+- [How to select the right model for the right task](cursor/how-to-select-the-right-model-for-the-right-task-2026.md) - Santi, Cursor, 2026-06-30
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
+- [Customizing Cursor Agent with Rules, Skills, MCP, and Hooks](cursor/customizing-cursor-agent-rules-skills-mcp-2026.md) - Ner, Cursor, 2026-06-09
 - [Tool, skill, or subagent? Decomposing an agent that outgrew its prompt](claude/tool-skill-or-subagent-decomposing-an-2026.md) - Claude Engineering Team, Claude, 2026-05-23
 - [Evals for taste: Hill-climbing a slide-generation agent](claude/evals-for-taste-hill-climbing-a-2026.md) - Claude Engineering Team, Claude, 2026-05-23
 - [The prompting playbook](claude/the-prompting-playbook-2026.md) - Claude Engineering Team, Claude, 2026-05-22
@@ -282,6 +352,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Fighting financial crime with Claude Cowork](claude/fighting-financial-crime-with-claude-cowork-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Designing with Claude: From prompt to production](claude/designing-with-claude-from-prompt-to-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Best Practices: Claude for Excel and Claude for PowerPoint](unlisted-videos/best-practices-claude-for-excel-and-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-18
+- [Customizing Cursor Agent](cursor/customizing-cursor-agent-2026.md) - Cursor Technical Team, Cursor, 2026-03-07
 - [Anthropic’s philosopher answers your questions](anthropic/anthropics-philosopher-answers-your-questions-2025.md) - Amanda Askell, Anthropic, 2025-12-05
 - [How to build AI agents with memory](google-for-developers/ai-agents-with-memory-2025.md) - Sita Lakshmi Sangameswaran, Kimberly Milam, Google for Developers, 2025-10-07
 - [The evolved developer with Muhammad Farooq](google-for-developers/muhammad-farooq-evolved-developer-2025.md) - Christina Warren, Ashley Oldacre, Muhammad Farooq, Google for Developers, 2025-08-29
@@ -296,24 +367,46 @@ Curated study notes and architecture guides for technical talks, organized by to
 
 ## AI Coding Tools
 
+- [Model Selection and Token Efficiency - Token Economics and Model Choice](cursor/model-selection-token-economics-2026.md) - Santi Garza, Cursor, 2026-09-04
+- [Meet Grok Bot: Your Team of AI Agents](cursor/meet-grok-bot-your-team-of-ai-agents-2026.md) - Amita, Cursor, 2026-09-04
+- [How AI Agents are Rewiring the SDLC - Plan Mode and Agent Loops](cursor/how-ai-agents-are-rewiring-sdlc-plan-mode-2026.md) - Evette, Cursor, 2026-09-04
+- [Grok Bot for GTM: From Prospecting to Customer Calls](cursor/grok-bot-for-gtm-from-prospecting-to-customer-calls-2026.md) - Cursor Technical Team, Cursor, 2026-09-04
+- [Grok Bot For Product Best Practices](cursor/grok-bot-for-product-best-practices-2026.md) - Kevin Neparco, Cursor, 2026-09-04
+- [Cloud Agents and Automations - From In-Editor to Cloud Fleets](cursor/cloud-agents-automations-editor-to-cloud-2026.md) - Dawson Lind, Cursor, 2026-09-03
+- [Cursor Rules, Skills, and MCPs](cursor/cursor-rules-skills-and-mcps-2026.md) - Kiara, Cursor, 2026-08-31
+- [Cursor 101 part 2](cursor/cursor-101-part-2-2026.md) - Cursor Technical Team, Cursor, 2026-08-31
 - [Securing and scaling interoperability with agent protocols](unlisted-videos/securing-and-scaling-interoperability-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-25
 - [Build a Self-Evolving Agent: Autonomous Self-Improvement 2](unlisted-videos/build-a-self-evolving-agent-2026-2.md) - Rahman Irani, Unlisted Videos, 2026-08-21
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
 - [Build a Long-Running Agent: Persistent Workflows with Google ADK](unlisted-videos/build-a-long-running-agent-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-14
 - [Claude Code for Data Engineering](unlisted-videos/claude-code-for-data-engineering-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-08-11
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns](unlisted-videos/architecting-multi-agent-teams-mastering-2026.md) - Annie Wang, Christina, Unlisted Videos, 2026-08-11
+- [Security Remediation with Cursor](cursor/security-remediation-with-cursor-2026.md) - Cursor Technical Team, Cursor, 2026-08-10
 - [Secure AI from Code to Cloud: Automating Your Defenses with Wiz](unlisted-videos/secure-ai-from-code-to-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-06
+- [Startups: Landing your First Customer with Cursor](cursor/startups-landing-your-first-customer-with-cursor-2026.md) - Cursor Technical Team, Cursor, 2026-08-04
+- [Cursor x BCG: The New Rules of AI Competition](cursor/cursor-x-bcg-the-new-rules-of-ai-competition-2026.md) - Cursor Technical Team, Cursor, 2026-08-01
 - [Plan before you build: Deterministic planning patterns for AI agents](unlisted-videos/plan-before-you-build-deterministic-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-29
+- [Cloud Agents and Automations: Building a Self-Driving Codebase](cursor/cloud-agents-and-automations-building-a-self-driving-codebase-2026.md) - Cursor Technical Team, Cursor, 2026-07-24
 - [Introduction to Antigravity](unlisted-videos/introduction-to-antigravity-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
 - [Hands on Lab1 Accelerating Development with Antigravity CLI](unlisted-videos/hands-on-lab1-accelerating-development-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
 - [Hands on Lab 3 Connect to Remote Agents with ADK and the Agent2Agent A2A SDK](unlisted-videos/hands-on-lab-3-connect-2026.md) - Chandria Kadel, Unlisted Videos, 2026-07-23
 - [Hands on Lab 2 Automate Work with Google Workspace Studio](unlisted-videos/hands-on-lab-2-automate-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
+- [Measuring Developer Productivity in Code Review](cursor/measuring-developer-productivity-in-code-review-2026.md) - Cursor Technical Team, Cursor, 2026-07-22
 - [From prototype to production: Hard-won lessons for advanced, reliable, and secure agents](unlisted-videos/from-prototype-to-production-hard-2026.md) - Isuru Raja, Unlisted Videos, 2026-07-22
+- [The Outer Loop: Code Reviews in Cursor](cursor/the-outer-loop-code-reviews-in-cursor-2026.md) - Tomas, Cursor, 2026-07-19
 - [How to ship and scale agents with Claude Managed Agents](unlisted-videos/how-to-ship-and-scale-agents-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-16
 - [Build & deploy multi-agent graphs with ADK 2.0, Agents CLI, and Antigravity](unlisted-videos/build-deploy-multi-agent-graphs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-14
 - [Production-Grade Agents on Claude Sonnet 5: Live with Zed and ClickHouse](unlisted-videos/production-grade-agents-on-claude-sonnet-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-13
+- [Power-User Workflows: Local Agents, Cloud Fleets, and Automations](cursor/power-user-workflows-local-agents-cloud-fleets-2026.md) - Mark, Cursor, 2026-07-08
+- [Figma Plugin in Cursor](cursor/figma-plugin-in-cursor-2026.md) - Santi, Cursor, 2026-07-08
 - [(7/8) Claude Code: Foundations](unlisted-videos/78-claude-code-foundations-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-08
+- [Cursor Automations - Event and Schedule Driven Cloud Agents](cursor/cursor-automations-cloud-agents-2026.md) - Jason, Cursor, 2026-07-07
+- [Cursor 101 Francais](cursor/cursor-101-francais-2026.md) - Cursor Technical Team, Cursor, 2026-07-07
+- [Cloud Agents and Automations - Fleet Architecture](cursor/cloud-agents-automations-fleet-architecture-2026.md) - Snooper Anani, Cursor, 2026-07-07
+- [Agents for Web Development](cursor/agents-for-web-development-2026.md) - Hassan, Cursor, 2026-07-07
+- [Advanced Workflows: Skills, Automations, Subagents, and Bugbot](cursor/advanced-workflows-skills-automations-bugbot-2026.md) - Cursor Technical Team, Cursor, 2026-07-07
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
+- [How to select the right model for the right task](cursor/how-to-select-the-right-model-for-the-right-task-2026.md) - Santi, Cursor, 2026-06-30
 - [AI tools for human creativity](google-for-developers/creative-lab-ai-creative-tools-2026.md) - Matthew Carey, Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev, Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin, Google for Developers, 2026-06-27
 - [Securing and managing agentic AI at scale: What Google and Palo Alto Networks are building together](google-cloud/securing-and-managing-agentic-ai-at-scal-2026.md) - Munish Khetrapal, Rob Skillington, Mike Buratowski, Josh Haslett, Google Cloud, 2026-06-26
 - [Agentic transformation in the public sector](google-cloud/agentic-transformation-in-the-public-sec-2026.md) - Karen Dahut, Ted Ross, Jeremy Walsh, Pavan Pidigu, Google Cloud, 2026-06-26
@@ -323,16 +416,29 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Cooking with Claude: Building an SRE Incident Response Agent](unlisted-videos/cooking-with-claude-building-an-sre-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-25
 - [Beyond the hype: Orchestrating end-to-end developer workflows with agents](google-cloud-tech/orchestrating-developer-workflows-2026.md) - Ricky Robinett, Aaron Wanjala, Azim Shaik, Doug McKenzie, Google Cloud Tech, 2026-06-25
 - [TechByte: Build the next generation of creative and multimodal experiences](unlisted-videos/techbyte-build-the-next-generation-2026.md) - Katie, Unlisted Videos, 2026-06-24
+- [Securing Agent Outputs](cursor/securing-agent-outputs-2026.md) - Cursor Technical Team, Cursor, 2026-06-16
+- [Running 128 Coding Agents at Once](cursor/running-128-coding-agents-at-once-2026.md) - Cursor Technical Team, Cursor, 2026-06-11
+- [Coding Agents and the Future of Engineering](cursor/coding-agents-and-the-future-of-engineering-2026.md) - Joseph, Cursor, 2026-06-10
+- [Customizing Cursor Agent with Rules, Skills, MCP, and Hooks](cursor/customizing-cursor-agent-rules-skills-mcp-2026.md) - Ner, Cursor, 2026-06-09
 - [Agent development and AgentOps with BigQuery, ADK, and MCP](unlisted-videos/agent-development-and-agentops-with-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-09
 - [Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude.](anthropic/anthropic-just-showed-a-24-minute-2026.md) - Anthropic Technical Staff, Anthropic, 2026-06-07
 - [How to design a multi-agent system that skips the LLM](google-cloud-tech/multi-agent-system-without-llm-2026.md) - Casey West, Annie Wang, Google Cloud Tech, 2026-06-06
 - [How Anthropic's marketing team uses Claude Cowork](unlisted-videos/how-anthropics-marketing-team-uses-claude-2026.md) - Austin Lau, Unlisted Videos, 2026-06-04
+- [Cursor Core Features for Everyday Agentic Coding](cursor/cursor-core-features-everyday-coding-2026.md) - Cursor Technical Team, Cursor, 2026-06-04
+- [Multi-Repo Cloud Agents: Ship Faster Across Complex Codebases](cursor/multi-repo-cloud-agents-ship-faster-across-complex-codebases-2026.md) - Cursor Technical Team, Cursor, 2026-06-03
+- [How AI Agents are Rewiring the SDLC - Lifecycle Transformation](cursor/how-ai-agents-are-rewiring-sdlc-lifecycle-2026.md) - Jack Clary, Cursor, 2026-06-03
+- [Cursor for Finance Teams](cursor/cursor-for-finance-teams-2026.md) - Will, Cursor, 2026-05-29
 - [TechByte: From cost center to value engine: Building your business case for AI-assisted development](unlisted-videos/from-cost-center-to-value-engine-2026.md) - Nathan Harvey, Eva Dong, Unlisted Videos, 2026-05-27
 - [The future of software development](google-for-developers/future-of-software-development-2026.md) - Logan Kilpatrick, Tulsee Doshi, Varun Mohan, Michael Gerstenhaber, Google for Developers, 2026-05-23
 - [How we Claude Code](claude/how-we-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-23
+- [Training Composer 2](cursor/training-composer-2-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
 - [The capability curve](claude/the-capability-curve-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026.md) - Fiona Fung, Claude, 2026-05-22
+- [Refactoring Legacy Codebases](cursor/refactoring-legacy-codebases-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
 - [Defining the agentic AI era](google-for-developers/defining-agentic-ai-era-2026.md) - Logan Kilpatrick, Koray Kavukcuoglu, Liz Reid, Josh Woodward, Jeff Dean, Google for Developers, 2026-05-22
+- [Cursor Agent SDK](cursor/cursor-agent-sdk-2026.md) - Tim, Cursor, 2026-05-22
+- [Cursor 201 - May](cursor/cursor-201-may-2026.md) - Cursor Technical Team, Cursor, 2026-05-22
+- [Cursor 101 - May](cursor/cursor-101-may-2026.md) - Christian, Cursor, 2026-05-22
 - [Claude Code for State and Local Governments](unlisted-videos/claude-code-for-state-and-local-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-05-22
 - [Building signals that trade themselves](claude/building-signals-that-trade-themselves-2026.md) - Claude Engineering Team, Claude, 2026-05-22
 - [Beyond the basics with Claude Code](claude/beyond-the-basics-with-claude-code-2026.md) - Claude Engineering Team, Claude, 2026-05-22
@@ -346,27 +452,56 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Coding is no longer the constraint: Scaling devex to teams and agents at Spotify](claude/coding-is-no-longer-the-constraint-2026.md) - Claude Engineering Team, Claude, 2026-05-20
 - [Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero](claude/building-ai-native-at-enterprise-scale-2026.md) - Claude Engineering Team, Claude, 2026-05-20
 - [Build a proactive agent workflow with Claude Code](claude/build-a-proactive-agent-workflow-with-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Simon Eskildsen on scaling Shopify, building turbopuffer, and the future of databases](cursor/simon-eskildsen-on-scaling-shopify-building-turbopuffer-and-the-future-of-databases-2026.md) - Simon Eskildsen, Aman Sanger, Cursor, 2026-05-14
 - [How Warp builds self improving agents on Claude](unlisted-videos/how-warp-builds-self-improving-agents-2026.md) - Zach Lloyd, Unlisted Videos, 2026-05-13
 - [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026-2.md) - Fiona Fung, Fiona Fun, Claude, 2026-05-09
 - [Giving coding agents their own computers: How Cursor built cloud agents](claude/giving-coding-agents-their-own-computers-2026.md) - Alexi Robbins, Claude, 2026-05-09
 - [Evaluating and improving Replit Agent at scale](claude/evaluating-and-improving-replit-agent-at-2026.md) - Hannah Moran, Michele Catasta, Claude, 2026-05-09
+- [Model Selection and Token Efficiency in Cursor](cursor/model-selection-token-efficiency-cursor-2026.md) - Renee Velasco, Cursor, 2026-05-05
+- [Cursor x Slack](cursor/cursor-x-slack-2026.md) - Jack Clary, Cursor, 2026-05-05
+- [Cursor for Knowledge Work](cursor/cursor-for-knowledge-work-2026.md) - Emily Guereno, Cursor, 2026-05-05
 - [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026-2.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
 - [Building Products on Claude Opus 4.7 , A Customer Success Story with Solve Intelligence and Blitzy](unlisted-videos/building-products-on-claude-opus-47-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
+- [Cursor x Datadog](cursor/cursor-x-datadog-2026.md) - Amita, Cursor, 2026-04-27
+- [Cursor for Mobile Development](cursor/cursor-for-mobile-development-2026.md) - Cursor Technical Team, Cursor, 2026-04-27
 - [Fireside chat on an agentic simulation: Race Condition](google-for-developers/race-condition-agentic-simulation-2026.md) - Tom Greenaway, Casey West, Google for Developers, 2026-04-24
+- [How Cursor uses Cursor](cursor/how-cursor-uses-cursor-2026.md) - Jet Simmer, Cursor, 2026-04-23
+- [Cursor for Enterprise](cursor/cursor-for-enterprise-2026.md) - Noah, Cursor, 2026-04-23
+- [Cursor for Designers](cursor/cursor-for-designers-2026.md) - Bryson, Cursor, 2026-04-23
+- [Cursor CLI](cursor/cursor-cli-2026.md) - Tim, Cursor, 2026-04-23
 - [Claude Code in Healthcare: How Physicians are Building with AI](unlisted-videos/claude-code-in-healthcare-how-physicians-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-23
+- [Cursor Automations - Building Always-On Agents](cursor/cursor-automations-always-on-agents-2026.md) - Cursor Technical Team, Cursor, 2026-04-09
+- [Cursor Admin Guide](cursor/cursor-admin-guide-2026.md) - Cursor Technical Team, Cursor, 2026-04-09
 - [What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team](unlisted-videos/what-we-shipped-feature-updates-tips-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-08
 - [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-02
+- [Engineering Teams in the Agentic Era](cursor/engineering-teams-in-the-agentic-era-2026.md) - Nate, Cursor, 2026-03-30
 - [Claude Code Advanced Patterns: Subagents, MCP, and Scaling to Real Codebases](unlisted-videos/claude-code-advanced-patterns-subagents-mcp-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-24
+- [PRD to PR](cursor/prd-to-pr-2026.md) - Cursor Technical Team, Cursor, 2026-03-21
+- [Cursor Cloud Agents](cursor/cursor-cloud-agents-2026.md) - Emily, Cursor, 2026-03-21
 - [Your First AI Teammate: A Practical Guide to Building AI Agents with no code Part 2](unlisted-videos/your-first-ai-teammate-a-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-19
+- [Cursor for Java Developers](cursor/cursor-for-java-developers-2026.md) - Cursor Technical Team, Cursor, 2026-03-13
+- [Customizing Cursor Agent](cursor/customizing-cursor-agent-2026.md) - Cursor Technical Team, Cursor, 2026-03-07
 - [Claude Code in an Hour: A Developer's Intro](unlisted-videos/claude-code-in-an-hour-a-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-03-04
+- [Securing Agentic Coding at Scale](cursor/securing-agentic-coding-at-scale-2026.md) - Nate Umoff, Cursor, 2026-02-24
+- [Cursor for Quality Assurance](cursor/cursor-for-quality-assurance-2026.md) - Cursor Technical Team, Cursor, 2026-02-24
+- [Cursor for Data Science](cursor/cursor-for-data-science-2026.md) - Matt, Cursor, 2026-02-24
+- [Cursor for Security Teams](cursor/cursor-for-security-teams-2026.md) - Cursor Technical Team, Cursor, 2026-02-06
+- [Cursor for Financial Services](cursor/cursor-for-financial-services-2026.md) - David Shah, Cursor, 2026-02-06
 - [Claude Code for Service Delivery: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-service-delivery-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-30
+- [Developer Productivity Trends](cursor/developer-productivity-trends-2026.md) - Rohan, Cursor, 2026-01-29
 - [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
 - [Claude Code for Financial Services: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-financial-services-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-07
+- [Cursor Admin Guide: Analytics, ROI, and Usage Management](cursor/cursor-admin-guide-analytics-roi-and-usage-management-2025.md) - Alex Tapper, Cursor, 2025-12-22
+- [John Schulman on dead ends, scaling RL, and building research institutions](cursor/john-schulman-on-dead-ends-scaling-rl-and-building-research-institutions-2025.md) - John Schulman, Michael Truell, Cursor, 2025-12-18
 - [What does AI mean for education?](claude/what-does-ai-mean-for-education-2025.md) - Claude Engineering Team, Claude, 2025-12-17
 - [Building with MCP and Claude Code: Sentry's 0 to 1 Story](unlisted-videos/building-with-mcp-and-claude-code-2025.md) - David Cramer, Jeremy Hadfield, Ilana Nathans, Unlisted Videos, 2025-12-12
+- [Cursor for Product Managers](cursor/cursor-for-product-managers-2025.md) - Emily, Cursor, 2025-12-05
 - [Scaling AI Agent Development at Netflix: Production Insights with Claude Sonnet 4.5](unlisted-videos/scaling-ai-agent-development-at-netflix-2025.md) - Claude Sonnet, Unlisted Videos, 2025-12-03
+- [Cursor for Professional Services](cursor/cursor-for-professional-services-2025.md) - Hugo, Cursor, 2025-11-21
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
+- [Cursor for Support Teams](cursor/cursor-for-support-teams-2025.md) - Cursor Technical Team, Cursor, 2025-11-18
+- [Cursor for Sales Engineers](cursor/cursor-for-sales-engineers-2025.md) - Mark, Cursor, 2025-11-18
 - [Transform Legacy Systems into Strategic Assets: Code Modernization with AI](unlisted-videos/transform-legacy-systems-into-strategic-assets-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-13
 - [Claude for Life Sciences: Accelerating Discovery from Hypothesis to Breakthrough](unlisted-videos/claude-for-life-sciences-accelerating-discovery-2025.md) - Jonah Cool, Unlisted Videos, 2025-10-28
 - [Transforming Financial Analysis at Scale: How BCI Leverages Claude's Financial Analysis Solution](unlisted-videos/transforming-financial-analysis-at-scale-how-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-10-23
@@ -380,6 +515,7 @@ Curated study notes and architecture guides for technical talks, organized by to
 - [Prompting 101 | Code w/ Claude](anthropic/prompting-101-code-w-claude-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
 - [Building the future of AI coding with MCP in VS Code and Claude](unlisted-videos/building-the-future-of-ai-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-07-31
 - [Building AI agents with Claude in Amazon Bedrock | Code w/ Claude](anthropic/building-ai-agents-with-claude-in-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Patrick Collison on programming languages, AI, and Stripe's biggest engineering decisions](cursor/patrick-collison-on-programming-languages-ai-and-stripes-biggest-engineering-decisions-2025.md) - Patrick Collison, Michael Truell, Cursor, 2025-07-15
 - [How Cursor is pioneering new coding frontiers with Claude Opus 4](unlisted-videos/how-cursor-is-pioneering-new-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-06-06
 - [Lessons on AI agents from Claude Plays Pokemon](anthropic/lessons-on-ai-agents-from-claude-2025.md) - Alex Albert, Anthropic, 2025-04-24
 - [Claude Code Live: Origin story, demos, and best practices](unlisted-videos/claude-code-live-origin-story-demos-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-04-23
@@ -418,6 +554,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 ## Web Development
 
+- [Grok Bot For Product Best Practices](cursor/grok-bot-for-product-best-practices-2026.md) - Kevin Neparco, Cursor, 2026-09-04
 - [Claude for Marketing Ops and Analytics](unlisted-videos/claude-for-marketing-ops-and-analytics-2026.md) - Ian Chan, Annabel Custer, Unlisted Videos, 2026-08-06
 - [Startup Builds: Getting Started with Loops](unlisted-videos/startup-builds-getting-started-with-loops-2026.md) - Mark Nowicki, Unlisted Videos, 2026-07-24
 - [Hands on Lab 2 Automate Work with Google Workspace Studio](unlisted-videos/hands-on-lab-2-automate-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
@@ -427,6 +564,8 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Evals for AI Agents: How Product Builders Get the Most Out of Every New Model](unlisted-videos/evals-for-ai-agents-how-product-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-14
 - [Cowork for Nonprofits](unlisted-videos/cowork-for-nonprofits-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-10
 - [How Anthropic works with Claude Tag in Slack](unlisted-videos/how-anthropic-works-with-claude-tag-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-07-09
+- [Figma Plugin in Cursor](cursor/figma-plugin-in-cursor-2026.md) - Santi, Cursor, 2026-07-08
+- [Cursor 101 Francais](cursor/cursor-101-francais-2026.md) - Cursor Technical Team, Cursor, 2026-07-07
 - [Generative UI for any agent, anywhere: A2UI, AG-UI, MCP Apps, and more](google-cloud-tech/generative-ui-a2ui-agui-2026.md) - Alan Blount, Atai Barkai, Ido Salomon, Nicolas Le Pallec, Google Cloud Tech, 2026-06-25
 - [Cooking with Claude: Building an SRE Incident Response Agent](unlisted-videos/cooking-with-claude-building-an-sre-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-25
 - [Bringing dark web intelligence into the AI era](unlisted-videos/bringing-dark-web-intelligence-into-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-10
@@ -467,6 +606,8 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Building with Claude Code: Inside Notion's AI development workflow](unlisted-videos/building-with-claude-code-inside-notions-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-17
 - [Why we built, and donated, the Model Context Protocol (MCP)](anthropic/why-we-built-and-donated-the-2025.md) - David Soria Parra, Stuart Ritchie, Anthropic, 2025-12-12
 - [Building with Claude in Europe: Agent Fundamentals](unlisted-videos/building-with-claude-in-europe-agent-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-03
+- [Cursor for Professional Services](cursor/cursor-for-professional-services-2025.md) - Hugo, Cursor, 2025-11-21
+- [Cursor for Sales Engineers](cursor/cursor-for-sales-engineers-2025.md) - Mark, Cursor, 2025-11-18
 - [Agent Skills: Transform Claude from Assistant to Specialized Agent](unlisted-videos/agent-skills-transform-claude-from-assistant-2025.md) - Marius Buleandra, Unlisted Videos, 2025-11-17
 - [Transform Legacy Systems into Strategic Assets: Code Modernization with AI](unlisted-videos/transform-legacy-systems-into-strategic-assets-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-13
 - [Advancing Claude for Financial Services](unlisted-videos/advancing-claude-for-financial-services-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-11-03
@@ -480,6 +621,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Claude for Financial Services Keynote](anthropic/claude-for-financial-services-keynote-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-01
 - [Building headless automation with Claude Code | Code w/ Claude](anthropic/building-headless-automation-with-claude-code-2025.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
 - [Building AI agents with Claude in Google Cloud's Vertex AI | Code w/ Claude](anthropic/building-ai-agents-with-claude-in-2025-2.md) - Anthropic Technical Staff, Anthropic, 2025-07-31
+- [Patrick Collison on programming languages, AI, and Stripe's biggest engineering decisions](cursor/patrick-collison-on-programming-languages-ai-and-stripes-biggest-engineering-decisions-2025.md) - Patrick Collison, Michael Truell, Cursor, 2025-07-15
 - [Scaling Development with Remote Agents: Best Practices and Deep Dive with Augment Code](unlisted-videos/scaling-development-with-remote-agents-best-2025.md) - Leor Newman, Unlisted Videos, 2025-07-08
 - [How Cursor is pioneering new coding frontiers with Claude Opus 4](unlisted-videos/how-cursor-is-pioneering-new-coding-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-06-06
 - [Transforming the world's largest sovereign wealth fund with AI: NBIM’s journey with Anthropic](unlisted-videos/transforming-the-worlds-largest-sovereign-wealth-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-05-27
@@ -518,12 +660,14 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 - [Data agent kit: Your coding agent can now query your data](google-cloud-tech/data-agent-kit-coding-agent-2026.md) - Annie Wang, Jeff Planner, Google Cloud Tech, 2026-08-15
 - [Securing agents for scale: Breakthroughs in agent governance](unlisted-videos/securing-agents-for-scale-breakthroughs-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-11
+- [Security Remediation with Cursor](cursor/security-remediation-with-cursor-2026.md) - Cursor Technical Team, Cursor, 2026-08-10
 - [Secure AI from Code to Cloud: Automating Your Defenses with Wiz](unlisted-videos/secure-ai-from-code-to-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-06
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
 - [AI Agent Infrastructure Decoded](google-cloud/ai-agent-infrastructure-decoded-2026.md) - Chelsie Czop, Schneider Larbi, Google Cloud, 2026-07-24
 - [From intent to insight: Accelerating outcomes with Data Agent Kit](unlisted-videos/from-intent-to-insight-accelerating-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-21
 - [TechByte: Agentic defense - Transforming the SOC with AI agents](unlisted-videos/techbyte-agentic-defense-transforming-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-08
 - [TechByte: Cloud roadmap series - Infrastructure for the agentic era](unlisted-videos/techbyte-cloud-roadmap-series-infrastructure-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-07
+- [Cloud Agents and Automations - Fleet Architecture](cursor/cloud-agents-automations-fleet-architecture-2026.md) - Snooper Anani, Cursor, 2026-07-07
 - [Intent-driven development with Claude Code and Fable 5](google-cloud-tech/intent-driven-development-2026.md) - Smitha Kolan, Lydia Hallie, YK Sugi, Google Cloud Tech, 2026-07-06
 - [Build agentic AI applications with graphs on Google Cloud](unlisted-videos/build-agentic-ai-applications-with-2026.md) - Chris Magu, Chris, Unlisted Videos, 2026-06-30
 - [Build a multi-agent system: A2A and Agent Registry](google-cloud-tech/multi-agent-a2a-agent-registry-2026.md) - Annie Wang, Sita Lakshmi, Google Cloud Tech, 2026-06-27
@@ -567,6 +711,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Building the quantum-AI future with Hartmut Neven and James Manyika](google-for-developers/neven-manyika-quantum-ai-2026.md) - James Manyika, Hartmut Neven, Google for Developers, 2026-05-22
 - [How to get to production faster with Claude Managed Agents](claude/how-to-get-to-production-faster-2026.md) - Claude Engineering Team, Claude, 2026-05-21
 - [AI with Claude on AWS: From code to orchestration](claude/ai-with-claude-on-aws-from-2026.md) - Claude Engineering Team, Claude, 2026-05-20
+- [Simon Eskildsen on scaling Shopify, building turbopuffer, and the future of databases](cursor/simon-eskildsen-on-scaling-shopify-building-turbopuffer-and-the-future-of-databases-2026.md) - Simon Eskildsen, Aman Sanger, Cursor, 2026-05-14
 - [Running an AI-native engineering org](claude/running-an-ai-native-engineering-org-2026-2.md) - Fiona Fung, Fiona Fun, Claude, 2026-05-09
 - [Ship Code Faster with Claude Code on Vertex AI](unlisted-videos/ship-code-faster-with-claude-code-2026-2.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-29
 - [What's next in AI infrastructure: Scaling for the agentic and physical AI era](google-cloud/whats-next-in-ai-infrastructure-scaling-2026.md) - Mark Lohmeyer, Stephan Pretorius, Myle Ott, Google Cloud, 2026-04-28
@@ -581,7 +726,9 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Build an AI Agent knowledge base using SQL (BigQuery + Gemini)](google-cloud-tech/agent-knowledge-base-bigquery-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-28
 - [TechByte: AI security: Build and protect](unlisted-videos/techbyte-ai-security-build-and-protect-2026.md) - Veronica Sandaval, Lisa, Unlisted Videos, 2026-03-24
 - [Build multi-agent AI A2A + Cloud Run | Hands On AI (Part 2)](google-cloud-tech/hands-on-multi-agent-part2-2026.md) - Ayo Adedeji, Annie Wang, Google Cloud Tech, 2026-03-22
+- [Cursor Cloud Agents](cursor/cursor-cloud-agents-2026.md) - Emily, Cursor, 2026-03-21
 - [Build a multi-agent system | Hands On AI (Part 1)](google-cloud-tech/hands-on-multi-agent-part1-2026.md) - Annie Wang, Ayo Adedeji, Google Cloud Tech, 2026-03-21
+- [Cursor for Security Teams](cursor/cursor-for-security-teams-2026.md) - Cursor Technical Team, Cursor, 2026-02-06
 - [Claude Code for Service Delivery: Learn from Boris Cherny, Head of Claude Code](unlisted-videos/claude-code-for-service-delivery-learn-2026.md) - Boris Cherny, Unlisted Videos, 2026-01-30
 - [Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley](google-for-developers/mike-clark-vertex-ai-devfest-2025.md) - Frank van Puffelen, Mike Clark, Google for Developers, 2025-11-21
 - [What is smart storage? Meet Google Cloud's storage vision](google-cloud/what-is-smart-storage-meet-google-clouds-2025.md) - Dave Mc, Google Cloud, 2025-11-19
@@ -663,11 +810,14 @@ Lugani, Google Cloud Tech, 2024-07-01
 
 ## Product/Startup
 
+- [Grok Bot for GTM: From Prospecting to Customer Calls](cursor/grok-bot-for-gtm-from-prospecting-to-customer-calls-2026.md) - Cursor Technical Team, Cursor, 2026-09-04
 - [Build a Self-Evolving Agent: Autonomous Self-Improvement](unlisted-videos/build-a-self-evolving-agent-2026.md) - Annie Wang, Christina, Annie, Unlisted Videos, 2026-08-20
 - [Build an AI-Powered F1 analytics agent with McLaren Racing](unlisted-videos/build-an-ai-powered-f1-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-08-18
 - [Claude for Business Development Representatives](unlisted-videos/claude-for-business-development-representatives-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-08-13
 - [Architecting Multi-Agent Teams: Mastering the Three Orchestration Patterns of ADK 2](unlisted-videos/architecting-multi-agent-teams-mastering-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-08-12
+- [Startups: Landing your First Customer with Cursor](cursor/startups-landing-your-first-customer-with-cursor-2026.md) - Cursor Technical Team, Cursor, 2026-08-04
 - [From tokenmaxxing to tokenomics for your AI agents](google-cloud-tech/tokenomics-for-ai-agents-2026.md) - J.R. Storment, Luke Schlangen, Google Cloud Tech, 2026-08-03
+- [Cursor x BCG: The New Rules of AI Competition](cursor/cursor-x-bcg-the-new-rules-of-ai-competition-2026.md) - Cursor Technical Team, Cursor, 2026-08-01
 - [Step Into the Agentic Era: Google Cloud Data Agents](unlisted-videos/step-into-the-agentic-era-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-23
 - [Transforming work with AI agents](unlisted-videos/transforming-work-with-ai-agents-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-07-22
 - [The Agentic Data Cloud: Powering a system of action](unlisted-videos/the-agentic-data-cloud-powering-2026.md) - Tiffany Adriana, Unlisted Videos, 2026-07-22
@@ -701,6 +851,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [GE for CX: Unifying the Customer Journey and Delivering Transformative ROI](unlisted-videos/ge-for-cx-unifying-the-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [Announcing Gemini Enterprise Agent Platform: Build, Scale, Govern, and Optimize Agents](unlisted-videos/announcing-gemini-enterprise-agent-platform-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-06-03
 - [How finance teams use Claude Cowork](unlisted-videos/how-finance-teams-use-claude-cowork-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-06-02
+- [Cursor for Finance Teams](cursor/cursor-for-finance-teams-2026.md) - Will, Cursor, 2026-05-29
 - [The AI-powered workplace: An introduction to agentic transformation](unlisted-videos/the-ai-powered-workplace-an-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-05-27
 - [TechByte: From cost center to value engine: Building your business case for AI-assisted development](unlisted-videos/from-cost-center-to-value-engine-2026.md) - Nathan Harvey, Eva Dong, Unlisted Videos, 2026-05-27
 - [How Anthropic’s sales team run their week with Cowork](unlisted-videos/how-anthropics-sales-team-run-their-2026.md) - Travis Bryant, Brittney Tong, Unlisted Videos, 2026-05-26
@@ -716,19 +867,25 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Driving enterprise value from Agentic AI - Addressing the hard part](google-cloud/driving-enterprise-value-from-agentic-ai-2026.md) - Chetna Sehgal, RP (Rajendra Prasad), Dennis Seah, Laura Rinehart, Google Cloud, 2026-04-28
 - [Build AI agents at scale with Google Cloud](google-cloud-tech/build-ai-agents-at-scale-2026.md) - Brian Delahunty, Addy Osmani, Andrew McNamara, Michael Gerstenhaber, Sara Liao-Troth, Google Cloud Tech, 2026-04-27
 - [From systems of intelligence to systems of action: Yasmeen Ahmad on the agentic data cloud](google-cloud/from-systems-of-intelligence-to-systems-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-23
+- [Cursor for Enterprise](cursor/cursor-for-enterprise-2026.md) - Noah, Cursor, 2026-04-23
 - [Claude for Legal teams](unlisted-videos/claude-for-legal-teams-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-21
 - [Deploying Cowork across the Enterprise , with PayPal](unlisted-videos/deploying-cowork-across-the-enterprise-with-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-04-16
+- [Cursor Admin Guide](cursor/cursor-admin-guide-2026.md) - Cursor Technical Team, Cursor, 2026-04-09
 - [Engineering the Next Era of Agentic AI (with Publicis Sapient)](google-cloud/engineering-the-next-era-of-agentic-ai-w-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-04-01
 - [The Agentic Organization: Transforming Every Role and Workflow Part 3](unlisted-videos/the-agentic-organization-transforming-every-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-20
 - [Designing AI-ready data platforms for enterprise scale](unlisted-videos/designing-ai-ready-data-platforms-2026.md) - Google Technical Leaders, Unlisted Videos, 2026-03-17
 - [The AI-Powered Workplace: An Introduction to Agentic Transformation Part 1](unlisted-videos/the-ai-powered-workplace-an-2026-2.md) - Google Technical Leaders, Unlisted Videos, 2026-03-16
+- [Developer Productivity Trends](cursor/developer-productivity-trends-2026.md) - Rohan, Cursor, 2026-01-29
 - [How to use AI for your job search | Google Career Certificates](grow-with-google/ai-for-job-search-2026.md) - Tony, Sydney, Grow with Google, 2026-01-28
 - [The questions every CEO should ask about AI (with Anuj Kadyan of McKinsey & Co)](google-cloud/the-questions-every-ceo-should-ask-about-2026.md) - Google Cloud Technical Leaders, Google Cloud, 2026-01-20
 - [From pilot to production: Google Cloud’s Noel Kenehan on building AI that works](google-cloud/from-pilot-to-production-google-clouds-n-2026.md) - Noel, Google Cloud, 2026-01-05
+- [Cursor Admin Guide: Analytics, ROI, and Usage Management](cursor/cursor-admin-guide-analytics-roi-and-usage-management-2025.md) - Alex Tapper, Cursor, 2025-12-22
 - [Building with Claude Code: Inside Notion's AI development workflow](unlisted-videos/building-with-claude-code-inside-notions-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-12-17
 - [Becoming AI-First: A Partner's Blueprint with Egen CEO](google-cloud/becoming-ai-first-a-partners-blueprint-w-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-11
+- [Cursor for Product Managers](cursor/cursor-for-product-managers-2025.md) - Emily, Cursor, 2025-12-05
 - [How AI agents will impact your business (Google DeepMind explains)](google-cloud/how-ai-agents-will-impact-your-business-2025.md) - Google Cloud Technical Leaders, Google Cloud, 2025-12-03
 - [What is smart storage? Meet Google Cloud's storage vision](google-cloud/what-is-smart-storage-meet-google-clouds-2025.md) - Dave Mc, Google Cloud, 2025-11-19
+- [Cursor for Support Teams](cursor/cursor-for-support-teams-2025.md) - Cursor Technical Team, Cursor, 2025-11-18
 - [What’s new with IAM and Org Policy: Access risk, at-scale governance and AI](google-cloud/whats-new-with-iam-and-org-policy-access-2025.md) - Abhishek Hemrajani, Google Cloud, 2025-10-21
 - [The Impossible Computing with Keith Ballinger | The Agent Factory Podcast](google-cloud-tech/keith-ballinger-impossible-computing-2025.md) - Keith Ballinger, Mollie Pettit, Vlad Kolesnikov, Google Cloud Tech, 2025-09-04
 - [Claude for Financial Services Keynote](anthropic/claude-for-financial-services-keynote-2025.md) - Anthropic Technical Staff, Anthropic, 2025-08-01
@@ -739,6 +896,7 @@ Lugani, Google Cloud Tech, 2024-07-01
 - [Digital health with Dr. Oliver Aalami](google-for-developers/oliver-aalami-digital-health-2025.md) - Ashley Oldacre, Dr. Oliver Aalami, Google for Developers, 2025-07-23
 - [Building human-centered AI products with Ovetta Sampson](google-for-developers/ovetta-sampson-human-centered-ai-2025.md) - Ashley Oldacre, Ovetta Sampson, Google for Developers, 2025-07-23
 - [3-step approach to mobile app compliance with Checks co-founders Fergus Hurley and Nia Castelly](google-for-developers/checks-mobile-app-compliance-2025.md) - Ashley Oldacre, Fergus Hurley, Nia Castelly, Google for Developers, 2025-07-23
+- [Patrick Collison on programming languages, AI, and Stripe's biggest engineering decisions](cursor/patrick-collison-on-programming-languages-ai-and-stripes-biggest-engineering-decisions-2025.md) - Patrick Collison, Michael Truell, Cursor, 2025-07-15
 - [Transforming the world's largest sovereign wealth fund with AI: NBIM’s journey with Anthropic](unlisted-videos/transforming-the-worlds-largest-sovereign-wealth-2025.md) - Anthropic and Partner Leaders, Unlisted Videos, 2025-05-27
 - [Waymo: AI in the physical world powering the future of driving](google-for-developers/waymo-ai-physical-world-2025.md) - Aditi Roy, Dmitri Dolgov, Google for Developers, 2025-05-24
 - [Darren Aronofsky and Demis Hassabis on storytelling in the age of AI](google-for-developers/aronofsky-hassabis-ai-storytelling-2025.md) - Mira Lane, Darren Aronofsky, Demis Hassabis, Eliza McNitt, Google for Developers, 2025-05-24
@@ -775,6 +933,7 @@ Wingerter, Google Cloud Tech, 2024-07-01
 - [Orchestrating ML/AI workloads with TPUs on GKE](google-cloud-tech/tpus-on-gke-ml-workloads-2026.md) - Yufeng Guo, Kavitha Gowda, Google Cloud Tech, 2026-04-10
 - [From 0 to 1: How Zingage Built AI-Powered Home Care on Claude](unlisted-videos/from-0-to-1-how-zingage-2026.md) - Anthropic and Partner Leaders, Unlisted Videos, 2026-02-26
 - [Keras Turns 10: A decade of deep learning](google-for-developers/keras-10-years-deep-learning-2026.md) - Yufeng Guo, François Chollet, Matt Watson, Google for Developers, 2026-01-16
+- [John Schulman on dead ends, scaling RL, and building research institutions](cursor/john-schulman-on-dead-ends-scaling-rl-and-building-research-institutions-2025.md) - John Schulman, Michael Truell, Cursor, 2025-12-18
 - [Koray Kavukcuoglu: This Is How We Are Going to Build AGI](google-for-developers/koray-kavukcuoglu-building-agi-2025.md) - Logan Kilpatrick, Koray Kavukcuoglu, Google for Developers, 2025-11-25
 - [What is Al "reward hacking", and why do we worry about it?](anthropic/what-is-al-reward-hacking-and-2025.md) - Anthropic Technical Staff, Anthropic, 2025-11-21
 - [Claude for Life Sciences: Accelerating Discovery from Hypothesis to Breakthrough](unlisted-videos/claude-for-life-sciences-accelerating-discovery-2025.md) - Jonah Cool, Unlisted Videos, 2025-10-28

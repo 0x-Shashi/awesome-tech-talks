@@ -1,0 +1,36 @@
+{
+  "id": "refactoring-legacy-codebases-2026",
+  "title": "Refactoring Legacy Codebases",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/kMcL9RKXWYo",
+  "date": "2026-05-22",
+  "format": "Workshop",
+  "level": "Advanced",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover practical strategies for tackling tech debt and refactoring legacy code with AI agents.\n\nKey workflows covered:\n\nSpecialized sub-agents:\n\nInventory, test gen, migration, and verification sub-agents each scoped to one phase with its own context.\n\nPlan with Linear MCP:\n\nCrawl the codebase, then turn the inventory into phased Linear issues the agent executes against.\n\nTest-driven migration:\n\nGenerate tests against the legacy code first to lock in expected behavior before rewriting.\n\nMultitask mode:\n\nParallelize independent sub-agents whenever migration steps have no cross-task dependencies.\n\nCloud agents with computer use:\n\nOne-shot the migration in an isolated VM and review the agent's own UAT screen recordings.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Refactoring Legacy Codebases",
+      "text": "In this session on Refactoring Legacy Codebases, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

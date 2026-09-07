@@ -1,0 +1,36 @@
+{
+  "id": "coding-agents-and-the-future-of-engineering-2026",
+  "title": "Coding Agents and the Future of Engineering",
+  "channel": "Cursor",
+  "speakers": [
+    "Joseph"
+  ],
+  "url": "https://youtu.be/M3mAb-E0gtc",
+  "date": "2026-06-10",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we explore how coding agents are reshaping engineering and where the discipline is heading.\n\nKey topics covered:\n\nFrom autocomplete to agents: How coding has shifted from completing the next line to delegating entire tasks. Agents now plan, edit across files, and ship work that engineers steer rather than type.\n\nThe new engineering loop: The day-to-day moves from writing code to planning, delegating, and reviewing. Running parallel agents on independent tasks compresses throughput while humans stay in control.\n\nAgents across the SDLC: Agents operate at every stage now, planning, building, testing, and reviewing, not just code generation. We look at how each phase changes when agents are active participants.\n\nReview and judgment as the bottleneck: As agents write more code, verification, taste, and direction become the scarce skills. Review and clear intent matter more than raw typing speed.\n\nWhere Cursor is headed: In-house models, cloud agents, and automations point toward more autonomous engineering, with humans setting goals and guardrails.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Coding Agents and the Future of Engineering",
+      "text": "In this session on Coding Agents and the Future of Engineering, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}
