@@ -1,0 +1,41 @@
+{
+  "id": "techbyte-get-your-data-ai-ready-how-2026",
+  "title": "TechByte: Get your data AI-ready: How migrating your data platform can accelerate AI",
+  "channel": "Unlisted Videos",
+  "speakers": [
+    "Google Technical Leaders"
+  ],
+  "url": "https://www.youtube.com/live/-NovdUsJcBw?si=y8HpYGxxymV7ZTO4",
+  "date": "2026-05-28",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "AI Coding Tools"
+  ],
+  "description": "null",
+  "entities": [
+    "BigQuery",
+    "Google Cloud",
+    "Vertex AI"
+  ],
+  "segments": [
+    {
+      "heading": "Strategic Overview and Core Architecture in TechByte: Get your data AI-ready: How mi",
+      "text": "Thanks for joining us for a really interesting uh conversation\ntoday. We have lined up a webinar on get your data AI ready and how migrating\nyour platform can accelerate AI and how to get started. We have an interesting conversation today lined up with myself uh talking to\nIan Townsen who's the chief product and technology officer at Cadent a leading ad tech provider. I'm a group product manager at Google Cloud. I'm the head of product for migrations. So what we're going to talk today is give you a synopsis of what Google is\ndoing and what we are investing in and how we are kind of shaping up automation to help your migrations and your\ntransformations easier, faster, more predictable, lower cost and happen more\ntangibly for you. Then Ian is going to share their thought process, their migration journey thus far and how they\nhave planned and thought and prepared for it. Then we'll get into a small fireside chat where we can talk to Ian\nand pick uh his brains more on some of the nuances as we uh you know all think through migrations being a big change for us."
+    },
+    {
+      "heading": "System Capabilities, Implementation Details, and Agent Integration",
+      "text": "Google cloud has a number of firstparty services for supporting uh different flavors of data and then of\ns, 8 secondscourse you're achieving unified governance and you're achieving uh unified access. We are setting all of\ns, 15 secondsthat up as part of the data migration pillar and then the last piece which again used to take a lot of time was is\ns, 23 secondsthis data ready uh is this production ready. You spending a lot of effort in automating validation in generating\ns, 32 secondstest cases for you. We have a third pillar where the actual time to get you started is substantially reduced because\ns, 40 secondsof data validation illustrating this but we do have a proven and phase migration methodology and I will just quickly show you a couple of snapshots of what we do. S, 51 seconds[snorts] So assess and discovery I double clicked on it before. We are able to discover your assets. We are able to\ns, 58 secondsgenerate the for your workloads and do a value analysis, cost savings, expansion of workloads, additional use cases,\ns, 7 secondsclearly understand dependencies and the way this information is available to you is through a very comprehensive\ns, 15 secondsautomatically fully automatically generated report a system generated report. This is available in Lucer\ns, 21 secondsStudio."
+    },
+    {
+      "heading": "Operational Workflows, Security Controls, and Scalability",
+      "text": "As I said, we're sort of in the early stages of these. But if I was going to talk about these three\ns, 50 secondsareas that sort of were standout for us during this process, I'd sort of jump on these three things. I think number one, you've heard me say this a lot through this conversation, is it's business\ns, 59 secondstransformation, not just a technical trans transformation. [clears throat] The key is getting buy in and more importantly support from the executive\ns, 6 secondsteam and the board was how we presented this business transformation. We weren't here just to do something technical in the background. We're here to really\ns, 14 secondsdrive business goals. So, we didn't separate the technology plan from our business goals. We actually linked the two together and demonstrated values in\ns, 22 secondscost savings, in improvement of performance, in ability to do more feature sets faster to build to where we\ns, 29 secondsgo."
+    },
+    {
+      "heading": "Enterprise Impact, Practical Takeaways, and Future Directions",
+      "text": "S, 5 secondsThis was we're not making just a choice from the business and we're sort of ripping the rug out from them. We are going to invest in them and help them\ns, 14 secondsget through the change and help them get excited because and we're seeing this already in our process. People are certifying\ns, 22 secondsthemselves. They're getting excited about the technology. They're trying new things because the technology gives them that ability. So we had a huge\ns, 31 secondsprogram for upskilling, res-killing the systems and going through that at the same time. Um, it's\ns, 39 secondsalmost this is you're going to find this funny because you've been focused so much on accelerating the migration as fast as you possibly can, but there's\ns, 47 secondshow fast you can go and how fast you should go, right? And so it there was we we sort of had a structured\ns, 55 secondsapproach to make sure that when we managed change with the team, we did it not in such a way that that blew up the momentum or created that concern because our success is based on the team, right?"
+    }
+  ],
+  "read_time_minutes": 3.1
+}
