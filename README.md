@@ -1,11 +1,11 @@
-# Awesome Tech Talks: 500+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
+# Awesome Tech Talks: 2500+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
 <img width="3200" height="1136" alt="Image" src="https://github.com/user-attachments/assets/e11a7836-139f-4608-bb02-5586457a98d4" />
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
-  <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Curated_Talks-500+-brightgreen.svg" alt="500+ Curated Talks"></a>
+  <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Curated_Talks-2500+-brightgreen.svg" alt="2500+ Curated Talks"></a>
   <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Workshops_%26_Talks-Official_Channels-e78a53.svg" alt="Workshops and Talks from Official Channels"></a>
   <a href="https://www.trackawesomelist.com/0x-Shashi/awesome-tech-talks/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"></a>
   <a href="https://github.com/0x-Shashi/awesome-tech-talks/commits/main"><img src="https://img.shields.io/github/last-commit/0x-Shashi/awesome-tech-talks.svg" alt="GitHub Last Commit"></a>
@@ -14,7 +14,7 @@
 The open-source hub for developer workshops, flagship keynotes, and technical engineering sessions from premier global conferences and official developer channels, consolidating hands-on coding labs, system architecture breakdowns, and expert tech talks into a single unified catalog.
 
 ## What It Provides
-* **500+ Curated Sessions and Workshops**: Access a growing catalog of technical developer talks, hands-on workshops, and flagship keynotes aggregated from official channels.
+* **2500+ Curated Sessions and Workshops**: Access a growing catalog of technical developer talks, hands-on workshops, and flagship keynotes aggregated from official channels.
 * **Structured Technical Notes**: Replaces noisy, hard-to-read transcripts with clean, high-signal study notes focused on concrete concepts, architecture, and code.
 * **AI-Ready JSON Datasets**: Provides structured JSON files for every talk, allowing you to easily export the metadata and notes to feed into AI agents or custom RAG pipelines.
 * **YouTube-Style Web Portal**: Features a custom web UI designed to make discovering, searching, and watching the curated catalog simple and familiar.
