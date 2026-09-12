@@ -5,6 +5,9 @@ desktop.ini
 .vscode/
 .idea/
 
-# Local temporary files
+# Local files
 *.log
 *.tmp
+*.jsonl
+local/
+
