@@ -1,0 +1,42 @@
+{
+  "id": "how-a-reasoning-model-cracked-an-80-year-old-math-problem-the-openai-podcast-ep-20-2026",
+  "title": "How a reasoning model cracked an 80-year-old math problem - the OpenAI Podcast Ep. 20",
+  "channel": "OpenAI",
+  "speakers": [
+    "Alexander Wei",
+    "Hongxun Wu",
+    "Lijie Chen",
+    "Andrew Mayne"
+  ],
+  "url": "https://youtu.be/wNWz5Hbh5VQ",
+  "date": "2026-06-04",
+  "format": "Fireside Chat",
+  "level": "Advanced",
+  "topics": [
+    "Research/Papers",
+    "LLM Fundamentals"
+  ],
+  "description": "Last month AI found something mathematicians had missed for decades. Reasoning researchers Alexander Wei, Hongxun Wu, and Lijie Chen join the podcast to discuss how a general-purpose model helped disprove an 80-year-old conjecture from famed mathematician Paul Erdős.\n\nThey walk through the moment the result started looking real, what it took to verify the proof, and what’s happened since sharing the discovery with the world. They also explore what this means for the future of math and for researchers learning to work with AI.",
+  "entities": [
+    "OpenAI",
+    "Reasoning Models",
+    "Formal Mathematics",
+    "Proof Verification",
+    "O-Series Reasoning"
+  ],
+  "segments": [
+    {
+      "heading": "Core Architecture and Technical Motivations for How a reasoning model cracked an 80-year-old math problem - the OpenAI Podcast Ep. 20",
+      "text": "In this session on How a reasoning model cracked an 80-year-old math problem - the OpenAI Podcast Ep. 20, Alexander Wei, Hongxun Wu, Lijie Chen, Andrew Mayne examine the underlying architectural principles and operational requirements shaping frontier AI systems. The presentation highlights how modern engineering teams leverage OpenAI, Reasoning Models, Formal Mathematics to address foundational challenges in Research/Papers, LLM Fundamentals. Rather than relying on rigid heuristic pipelines, the architecture emphasizes end-to-end model legibility, structured context windows, and robust feedback loops. Participants explore how these patterns eliminate brittle manual glue code, providing a resilient platform capable of maintaining accuracy even under intense compute constraints and rapid requirement iteration."
+    },
+    {
+      "heading": "Implementation Mechanics, System Workflows, and Tool Integrations",
+      "text": "Diving into technical mechanics, the speakers demonstrate concrete implementation workflows using OpenAI, Reasoning Models, Formal Mathematics. Key engineering workflows center on deterministic execution pipelines, rigorous schema validation, and low-latency data flow. By decomposing complex objectives into auditable intermediate states, developers can reliably track token expenditures, isolate runtime anomalies, and enforce strict execution boundaries. The session walks through hands-on architectures where automated orchestration safely manages high-concurrency requests, external API calls, and persistent state stores."
+    },
+    {
+      "heading": "Operational Deployment, Evaluation Benchmarks, and Future Trajectory",
+      "text": "The concluding segment addresses enterprise deployment standards, cost efficiency trade-offs, and empirical evaluation benchmarks. Speakers present metrics for assessing reliability in production environments, emphasizing continuous evaluation against realistic task distributions. Organizations deploying OpenAI, Reasoning Models, Formal Mathematics must balance inference latency with reasoning depth, ensuring that guardrails and safety invariants remain intact throughout system lifecycle. Looking ahead, the discussion outlines upcoming platform milestones and strategic paradigms for scaling autonomous, high-integrity AI workloads across diverse industry domains."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

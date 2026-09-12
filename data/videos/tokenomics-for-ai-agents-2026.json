@@ -1,0 +1,75 @@
+{
+  "id": "tokenomics-for-ai-agents-2026",
+  "title": "From tokenmaxxing to tokenomics for your AI agents",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "J.R. Storment",
+    "Luke Schlangen"
+  ],
+  "url": "https://youtu.be/6LQNHQ7-IcI?si=DRo7Z1210viBghp6",
+  "date": "2026-08-03",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "Product/Startup"
+  ],
+  "description": "Are your AI budgets exploding? In this episode of The Agent Factory, host Luke Schlangen sits down with J.R. Storment, the newly appointed head of the Tokenomics Foundation under the Linux Foundation. Together, they discuss the industry's rapid shift from the era of tokenmaxxing to the great token panic, exploring how enterprises can scale AI agents without blowing through their revenue.",
+  "entities": [
+    "Tokenomics Foundation",
+    "Linux Foundation",
+    "FinOps Foundation",
+    "CNCF (Cloud Native Computing Foundation)",
+    "Kubernetes",
+    "MCP (Model Context Protocol)",
+    "Open Router",
+    "Goldman Sachs",
+    "NVIDIA",
+    "Pinterest five-layer cake",
+    "Adobe Big T framework",
+    "KV cache",
+    "GPT-1",
+    "Fable 5",
+    "Opus",
+    "The Agent Factory podcast",
+    "Linus Torvalds",
+    "Dylan Patel",
+    "Semi Analysis"
+  ],
+  "segments": [
+    {
+      "heading": "The era of tokenmaxxing and why it ended",
+      "text": "From roughly January 2023 to November 2025, the industry lived in what J.R. Storment calls the era of tokenmaxxing. Companies had leaderboards measuring which developers spent the most tokens. A Fortune 50 global CIO told him he had unlimited budget for tokens. Around November 2025, a cluster of model launches from all frontier providers changed the calculus: Linus Torvalds, who had publicly dismissed AI coding in November, returned after the holidays and launched his first AI-assisted coding project. By April 2026, the great token panic began. Token spend was vertical, budgets were exceeded, and companies began installing hard caps."
+    },
+    {
+      "heading": "Global token growth: trillions to quadrillions",
+      "text": "Open Router data shows token growth went from linear to nonlinear after November 2025. Goldman Sachs financial analysis projects global tokens will grow from approximately 6 quadrillion today to 120 quadrillion within 3.5 years, approaching quintillion-scale numbers. The primary causes of nonlinear growth are: (1) context windows exploding from tens of thousands to 1 million-plus tokens per conversation, and (2) agentic loops where agents retry failures, spawn subagents, and run while users sleep."
+    },
+    {
+      "heading": "What a token actually is: four functions",
+      "text": "Tokens serve four distinct functions: (1) the unit of output from data centers, encompassing both input and output tokens across text, image, and video modalities; (2) the unit of cognition, the atomic piece by which models think and build concepts; (3) the unit of pricing, with cost-per-million-tokens as the standard metric; and (4) the unit of monetization, where neo-clouds, frontier model providers (Anthropic, OpenAI, Google), and higher-level services all monetize through token-based pricing. Unlike a barrel of oil, a token is not a fixed-size unit and varies by model and provider."
+    },
+    {
+      "heading": "AI spend is broader than tokens: KV cache and hidden costs",
+      "text": "A common misnomer is that AI cost equals token cost. J.R. Storment identifies the broader cost landscape: KV (key-value) cache behavior (cached tokens cost less; certain model-routing decisions that break the KV cache increase cost), vector database and storage, orchestration harnesses, inference compute, evaluations, monitoring, governance, and human labor including senior engineering time. When J.R. asked a room of FinOps leaders to raise their hand if they knew what KV cache was, only 10% did."
+    },
+    {
+      "heading": "AI scarcity is ending the era of subsidized tokens",
+      "text": "Token prices fell dramatically through 2024 but have plateaued since November 2025 due to hardware, power, and memory bottlenecks. The latest frontier models from all providers launch at the same price point or higher than their predecessors. Neo-clouds are requiring three-to-five year customer commitments. Large clouds have trillions of dollars in backlog they cannot service. Intel's CEO stated hardware relief is not expected until 2028. Reports surfaced that $200-per-month subscription plans were costing frontier providers tens of thousands of dollars per user at the inference layer."
+    },
+    {
+      "heading": "Defining tokenomics: energy to intelligence to value",
+      "text": "J.R. Storment defines tokenomics as an emerging discipline of converting energy and capital into tokens, consuming those tokens efficiently to enable intelligence, and ultimately driving value. The shorthand is energy to intelligence to value. This splits into three pillars: Production (data centers, edge devices such as Mac Minis or phones, and procured tokens from providers), Consumption (programmatic model routing, caching, prompt architecture, workload-to-model matching), and Value (monetization models, hybrid credit systems, and the shift from seat-based to usage-based pricing)."
+    },
+    {
+      "heading": "Pinterest five-layer cake and Adobe Big T framework",
+      "text": "Pinterest presented a five-layer tokenomics consumption model at the FinOps Foundation conference. Their principal engineer must think about: (1) the silicon generation at their Cloud provider, (2) whether the Cloud provider has capacity and power for their workloads, (3) the inference stack including quantization and model routing, (4) governance, and (5) other configuration factors. Adobe donated the Big T framework to the Linux Foundation, a riff on Big O notation in computer science, which maps how to forecast token needs for workloads and which levers to pull: model routing, prompt architecture, caching, workload-to-model matching, and abstraction layer management."
+    },
+    {
+      "heading": "Tokenomics vs. FinOps: a new discipline, not a rebrand",
+      "text": "FinOps (Financial Operations) assumes resources already exist and focuses on maximizing value from provisioned Cloud instances, databases, and existing services. Tokenomics extends further left in the supply chain to the creation of tokens themselves: the electrical power flowing into data centers, the hardware buildout, and the production capacity decisions that enable token factories to exist. Jensen Huang stated at GTC in March that every CEO needs to think about token factory effectiveness."
+    }
+  ],
+  "read_time_minutes": 2.7
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ai-agent-infrastructure-decoded-2026",
+  "title": "AI Agent Infrastructure Decoded",
+  "channel": "Google Cloud",
+  "speakers": [
+    "Chelsie Czop",
+    "Schneider Larbi"
+  ],
+  "url": "https://youtu.be/TZTDqtSpzv8?si=Frm_R3P_ezMyW0mw",
+  "date": "2026-07-24",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Deep dive into the underlying compute and architecture required to build, deploy, and scale enterprise AI agents. Covers test-time thinking compute, matching workloads to CPUs, TPUs, and NVIDIA RTX/GeForce GPUs, and four Google Cloud deployment paths (Cloud Run, GKE Agent Sandbox, Agent Runtime, and GKE). Concludes with a live multi-agent drug discovery demo (Bio-Forge) using NVIDIA Nemotron and DiffDock on GKE.",
+  "entities": [
+    "Gemini 3",
+    "Gemini Enterprise Agent Platform",
+    "Agent Development Kit (ADK)",
+    "Agent Runtime (formerly Agent Engine)",
+    "Cloud Run",
+    "GKE (Google Kubernetes Engine)",
+    "GKE Agent Sandbox (gVisor)",
+    "NVIDIA RTX 6000 Pro",
+    "NVIDIA Nemotron (NIM)",
+    "DiffDock",
+    "Model Context Protocol (MCP)",
+    "Agent2Agent (A2A)",
+    "UniProt",
+    "Confidential GPU",
+    "Model Armor",
+    "Vertex AI Search"
+  ],
+  "segments": [
+    {
+      "heading": "What defines an AI agent and why enterprise adoption converged",
+      "text": "Unlike simple chatbots that return static text responses to prompts, agents take high-level goals, formulate plans, execute tools, observe environment feedback, and loop until completion. Enterprise agent maturity converged due to three factors: (1) advanced reasoning models capable of multi-step tool calling, (2) open standardized protocols (MCP for tools/data and A2A for inter-agent communication), and (3) mature platform orchestration and governance runtimes (ADK and Gemini Enterprise Agent Platform)."
+    },
+    {
+      "heading": "Inference evolution: thinking compute and matching hardware to agent tasks",
+      "text": "The AI frontier has shifted from training larger models to allocating compute at inference (test-time compute or thinking budgets). Models like Gemini 3 generate scripts, execute in sandboxes, read error logs, and iterate before returning verified answers. Compute requirements split across components: orchestration and glue logic run efficiently on commodity CPUs; text reasoning calls managed TPU-backed APIs; complex simulations and molecular rendering require high-throughput GPUs (NVIDIA RTX 6000 Pro with confidential computing)."
+    },
+    {
+      "heading": "Four Google Cloud deployment patterns for AI agents",
+      "text": "Architectures sit across a spectrum from serverless simplicity to full infrastructure control: (1) Cloud Run: serverless speed, scales to zero, ideal for spiky traffic, ADK APIs, and A2A endpoints; (2) GKE Agent Sandbox: gVisor kernel-isolated execution for safely running untrusted agent-generated code at scale; (3) Agent Runtime: managed enterprise runtime providing out-of-the-box session management, Memory Bank, tracing, and IAM; (4) Raw GKE: maximum customization for specialized GPU clusters and custom containerized inference microservices (NIMs)."
+    },
+    {
+      "heading": "Enterprise security ground-up and decision framework",
+      "text": "Security requires multi-layer defense: Confidential GPUs at the silicon layer, VPC Service Controls at the network perimeter, SPIFFE-based Agent Identity, Model Armor edge content filtering against prompt injections, and Cloud audit logs. Decision tree: use RAG when closing a knowledge gap, fine-tuning (SFT/LoRA) for behavioral or formatting gaps, Model-as-a-Service for general capabilities, and self-hosted GPU endpoints for strict residency or high-volume unit economics."
+    },
+    {
+      "heading": "Demo: Bio-Forge multi-agent drug discovery on GKE and Gemini Enterprise",
+      "text": "A multi-agent biomedical system (Bio-Forge) demonstrates accelerating leukemia drug discovery: (1) An orchestrator agent queries the UniProt database via specialized tools to fetch human ABL1 kinase sequences; (2) A lead agent calls an NVIDIA DiffDock microservice running on GKE GPU nodes to perform 3D molecular docking simulations of Imatinib; (3) Agent-to-UI renders interactive 3D protein binding poses; (4) Lead optimization models generate 8 new drug variants; (5) Gemini performs safety synthesis to evaluate cardiotoxicity and recommend against unviable candidates before in-vitro trials."
+    }
+  ],
+  "read_time_minutes": 1.4
+}

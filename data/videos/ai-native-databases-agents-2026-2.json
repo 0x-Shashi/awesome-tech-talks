@@ -1,0 +1,51 @@
+{
+  "id": "ai-native-databases-agents-2026-2",
+  "title": "Power intelligent agents with AI-native databases",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Amit Ganesh",
+    "Yannis Papakonstantinou",
+    "David Soria Parra"
+  ],
+  "url": "https://youtu.be/quzn4hOXQmI?si=6zwj5VpOhl03CF45",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Explores how AI-native databases transform enterprise data into active agent context. Covers the convergence of operational databases and warehouses, multimodal search, graph RAG, and natural language interfaces. Features a fireside chat with Anthropic's David Soria Parra on the Model Context Protocol (MCP) and showcases Google Cloud pre-built data agents.",
+  "entities": [
+    "AI-native databases",
+    "Model Context Protocol (MCP)",
+    "BigQuery",
+    "Cloud Spanner",
+    "Graph RAG",
+    "Multimodal Search",
+    "Anthropic",
+    "Agent Development Kit (ADK)",
+    "Agent Registry",
+    "Enterprise Data Agents"
+  ],
+  "segments": [
+    {
+      "heading": "The inflection point: AI-native databases vs. legacy data silos",
+      "text": "For the first time in the 50-year history of databases, AI is fundamentally redefining what data systems do. Legacy architectures trap enterprise knowledge in disconnected operational databases and analytical warehouses, making it difficult for agents to query cross-silo context. AI-native databases break down these boundaries by unifying operational storage, vector indexes, knowledge graphs, and model execution directly within the database engine."
+    },
+    {
+      "heading": "Superpowers of AI-native databases: search, graph RAG, and multimodal context",
+      "text": "AI-native databases provide high-fidelity context through four capabilities: (1) Hybrid search combining lexical BM25 with dense semantic vector retrieval, (2) Natural language querying that translates intent into safe SQL/GQL, (3) Multimodal search indexing images, video, and audio alongside relational tables, and (4) Graph RAG uncovering complex relationship paths across entity networks."
+    },
+    {
+      "heading": "Fireside chat with David Soria Parra on Model Context Protocol (MCP)",
+      "text": "Anthropic's David Soria Parra discusses the origins and rapid adoption of MCP. Rather than requiring developers to write custom point-to-point API connectors for every model and tool, MCP standardizes how language models discover data schemas, execute tool queries, and receive structured context securely across enterprise boundaries."
+    },
+    {
+      "heading": "Google Cloud pre-built data agents and enterprise adoption",
+      "text": "Google Cloud provides pre-built data agents that integrate out of the box with BigQuery and operational stores. These agents automate database optimization, monitor data quality, assist with complex query formulation, and safely expose business intelligence to non-technical users via governed Agent Platform interfaces."
+    }
+  ],
+  "read_time_minutes": 0.8
+}

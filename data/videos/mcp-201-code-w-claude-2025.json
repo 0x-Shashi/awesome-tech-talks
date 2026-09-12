@@ -1,0 +1,43 @@
+{
+  "id": "mcp-201-code-w-claude-2025",
+  "title": "MCP 201 | Code w/ Claude",
+  "channel": "Anthropic",
+  "speakers": [
+    "Anthropic Technical Staff"
+  ],
+  "url": "https://youtu.be/HNzH5Us1Rvg",
+  "date": "2025-07-31",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Prompt Engineering"
+  ],
+  "description": "null",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "MCP Servers",
+    "Projects",
+    "Slack"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in MCP 201 | Code w/ Claude",
+      "text": "I'm a member of technical staff at \nAnthropic and one of the co-creators of uh, MCP. Today I'm going to tell you a little bit more \nabout the protocol and the things you can do um just to give you an understanding of um what \nthere's more to the protocol than what most people use it for at the moment which would be tools. Really the goal today is to showcase you what the protocol is capable of and how you can use \nit in ways to build richer interactions with MCP clients. That goes beyond the tool call tool \ncalling that most people are used to. I will first go through all the different like what we \ncall primitives like ways for the servers to expose information to a client before we go \ninto some of the bit more lesser known aspects of the protocol and then I want to talk a little bit \nabout like how to build a really rich interaction before we take a little stab of what's coming next \nfor MCP and how we bring MCP to the web. But to just get you started, I want to talk about one of \nthe MCP primitives um that servers can expose to MCP clients that very few people know. What a prompts are really are predefined templates for AI interactions. That's to say it's a way for an MCP server to expose a set of text, you know, like a prompt \nin a way um that allows um users to directly um add this to the context window and see how they \nwould use for example the MCP uh server uh you're building."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "So in this scenario, what you're going to see \nis Claude is going to go uh and write a beautiful diagram that visualizes the database schema for \nme. I've exposed the schema via resources. There's a lot of unexport space still here. Again, \nif you go beyond just like adding it file and think about like retrieval augmentation or any \nother thing the application might want to do. One is prompts again \nthe things that the user interacts with there's the second one is resources that the application \ninteract with then of course there should be a third one that you all are very familiar with \num that I don't want to get into too much depth because if you have built an MCP server you \nprobably have built it for exposing a tool and so tools are really these actions of course that \ncan be invoked that's like one of the I think most magical moment I feel when you build an \nMCP server is when the model for the first time invokes something that you care about \nthat you have built for and has this little impact on you know it might be like quing a \ndatabase for you or whatever it might be. But this is again the thing that the model decides \nwhen to call to an action. So these are three very basic primitives that the protocol exposes. If you think carefully about these three primitives that I just showcased you to to you, \nthere's a little bit of overlap about like how do you use like they could like when do \nyou use what really and so there's something that very that we don't talk enough about and \nit's somewhere buried in the specification language of the model context protocol is \nwhat I call the interaction model and I think showcasing it hopefully makes clear when you use \nWhat?"
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Then there's the last primitive that I want to touch \non that's also a bit more interesting and it's one of these things that in retrospective as one \nof the person who has built the protocol um I've probably named terribly to be fair I'm not a very \nnot not very good at naming and you will see this throughout the talk probably but there's a thing \ncalled roots and roots is also an interesting aspect because let's imagine I want to build today \nan MCP server that deals with my git commands I don't want to deal with git. I don't want to do \nsource control commands. I don't remember any of that. I want to have MCP deal like an MCP server \ndeal with this. Now I'm going to hook up an MCP server into my favorite IDE. But how does the \nIDE know how does the MC sorry, how does the MCP server know what are the open projects in the IDE? Because obviously I want to run the git commands in the workspaces I have open, right? So roots \nis a way for the server to inquire from the client such as VS code for example what are the projects \nyou have open so that I can operate within only those directories that the server has opened and I \nknow where I want to execute my git commands and this again is a feature that's not that widely \nused but for example VS code currently does support this and so these These are, you know, \njust all the big primitives that MCP offers."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "It's just OS 2.0 zero a little bit cleaned up and you're probably already doing it if you're \ndoing a wall and if you do implement this wall flow you get two interesting patterns out of that \nand the first one is the scenario of an MCP server in the web and a good example of this \nis if you for example a payment provider and you have you know website payment.com and I as a user \nhave an online account there now I as the payment provider can expose mcp.payment.com that the user \ncan put into an MCP client and the MCP client will do the or flow. I log in as my account and I know \nthis is payment.com. I know this is the the person that is my online account with the provider that I \ntrust. I don't trust some random Docker container running locally built by a third party developer \nanymore. I trust the person I already trust with the data anyway and their developers. On the \ntheir development side, they can just ex like ex like update this server as they want and they \ndon't have to wait for me to download a new like docker image. So this is I think will be a \nreally really big step for enabling MCP servers to be exposed on the web and MCP clients to interact \nbasically with all the online interactions that you already have. Here's just a small \nlittle example of this."
+    }
+  ],
+  "read_time_minutes": 4.4
+}

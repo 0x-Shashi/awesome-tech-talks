@@ -1,0 +1,94 @@
+{
+  "id": "neven-manyika-quantum-ai-2026",
+  "title": "Building the quantum-AI future with Hartmut Neven and James Manyika",
+  "channel": "Google for Developers",
+  "speakers": [
+    "James Manyika",
+    "Hartmut Neven"
+  ],
+  "url": "https://youtu.be/yQPnb4gxKRc?si=Z2WEZuDCKp0fhSuV",
+  "date": "2026-05-22",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Research/Papers",
+    "Backend/Infra",
+    "LLM Fundamentals"
+  ],
+  "description": "Join Hartmut Neven and James Manyika to explore the intersection of quantum computing and AI. Discover how AI is helping to build and operate quantum computers, while quantum unlocks new ways for AI models to train, learn from complex data, and accelerate scientific discovery, making quantum a key part of Google’s innovation strategy.",
+  "entities": [
+    "Google Quantum AI",
+    "Google DeepMind",
+    "Willow chip",
+    "AlphaQubit",
+    "Quantum Echoes",
+    "Shor algorithm",
+    "RSA 2048",
+    "ECC-256",
+    "Michel Devoret",
+    "John Martinis",
+    "John Clarke",
+    "Richard Feynman",
+    "Craig Gidney",
+    "Refik Anadol",
+    "Daedalus",
+    "AlphaFold",
+    "superconducting qubits",
+    "neutral atoms",
+    "quantum error correction",
+    "logical qubits",
+    "physical qubits",
+    "superposition",
+    "coherence time",
+    "Josephson junctions",
+    "lithium-air batteries",
+    "NMR",
+    "MRI",
+    "diphenyl",
+    "wormholes",
+    "holographic duality",
+    "time crystals",
+    "non-abelian anyons",
+    "diffusion neural networks",
+    "post-quantum cryptography"
+  ],
+  "segments": [
+    {
+      "heading": "Quantum computing fundamentals and superposition",
+      "text": "Hartmut Neven explains that the computational advantage of quantum computers originates in superposition: quantum physics states that a system can exist simultaneously in many configurations that evolve together in time. On Google's Willow chip, 105 physical qubits can exist in a superposition of 2^105 distinct bit strings. In a single clock cycle, the processor can interact with 2^105 states simultaneously, enabling calculations that would take the largest classical supercomputers 10 septillion years to complete. Macroscopic superconducting circuits (using Josephson junctions and aluminum loops cooled to 10 millikelvin) create artificial atoms that exhibit quantized energy levels while remaining engineerable at chip scale."
+    },
+    {
+      "heading": "Hardware progress: coherence times and cooling",
+      "text": "Keeping quantum states alive requires extending coherence time (the duration superpositions survive without decaying into classical noise). Coherence times on Google chips have advanced from 20 microseconds to over 250 microseconds, shifting the primary engineering bottleneck from basic quantum physics limits to system-level integration and control electronics. The processor operates at 10 millikelvin in dilution refrigerators because temperature represents thermal noise that destroys delicate quantum states."
+    },
+    {
+      "heading": "Feynman's killer app and quantum simulation targets",
+      "text": "Neven emphasizes that quantum computers are specialized accelerators rather than general-purpose replacements for classical machines. Their premier application, envisioned by Richard Feynman, is simulating quantum systems where combinatorial complexity defeats classical computers. Specific practical targets include designing lithium-air batteries (which offer higher theoretical energy density than jet kerosene, potentially enabling electric commercial aircraft, but suffer from material degradation issues that quantum simulation can diagnose) and discovering new catalysts for clean chemical synthesis."
+    },
+    {
+      "heading": "Google's six-milestone roadmap and error correction progress",
+      "text": "Google Quantum AI tracks progress against a six-milestone roadmap toward a useful fault-tolerant machine. Milestone 1 (quantum supremacy benchmark) was achieved in 2019. Milestone 2 (demonstrating that quantum error correction works in physical hardware) was reached in 2022, when scaling physical qubits to logical qubits produced a modest error reduction. With the Willow chip in 2024, error suppression improved by a factor of 2 below threshold. The team is currently working on Milestone 3: building a high-fidelity logical qubit module that can serve as the scalable building block for modular quantum architectures."
+    },
+    {
+      "heading": "Quantum Echoes: first practical quantum machine learning algorithm",
+      "text": "While earlier milestones used random circuit sampling as synthetic benchmarks, Quantum Echoes represents a practical quantum algorithm demonstrating real utility. Developed with UC Berkeley researchers, Quantum Echoes extracts structural information from nuclear magnetic resonance (NMR) data. In a chemistry demonstration, the algorithm computed the unknown relative dihedral angle between the two benzene rings of diphenyl, solving an open structural question in chemistry using experimental quantum hardware."
+    },
+    {
+      "heading": "Bidirectional acceleration: Quantum plus AI equals Quantum AI",
+      "text": "Neven and Manyika describe bidirectional synergy between AI and quantum computing. In one direction, AI accelerates quantum engineering: Google DeepMind developed AlphaQubit, applying machine learning decoders to dramatically improve real-time quantum error correction. In the other direction, quantum processors will generate high-value synthetic training datasets for foundation models in molecular biology and materials science, where empirical data collection takes decades (such as the 50 years required to compile the protein structures that trained AlphaFold). Google Quantum AI recently generated its first materials science datasets for DeepMind."
+    },
+    {
+      "heading": "Fundamental physics discoveries on quantum chips",
+      "text": "Google's quantum processors serve as experimental laboratories for fundamental physics. Demonstrations include simulating holographic duality (creating a traversable wormhole state in entangled qubits based on the AdS/CFT correspondence), observing non-abelian anyons (braiding quasiparticles whose exchanged states alter the global system wave function), and creating time crystals (out-of-equilibrium quantum systems exhibiting perpetual periodic motion without absorbing or dissipating energy)."
+    },
+    {
+      "heading": "Post-quantum cryptography timelines moving forward",
+      "text": "Algorithmic breakthroughs by Google researcher Craig Gidney have drastically reduced the physical qubit count required to break classical public-key cryptography. Breaking RSA-2048 was previously thought to require 20 million physical qubits; Gidney showed it requires roughly 1 million. For elliptic curve cryptography (ECC-256), used widely in digital signatures and blockchain networks, the threshold has dropped to a few hundred thousand qubits. Because of these algorithmic efficiencies, a commercially impactful quantum computer requires roughly 100,000 qubits rather than 1 million (Milestone 5 is the new Milestone 6). Google has urged organizations to transition to post-quantum cryptography standards by 2029."
+    },
+    {
+      "heading": "Quantum noise in generative media and neutral atom architectures",
+      "text": "Google Quantum AI has explored feeding quantum probability distributions and noise tensors into diffusion models to generate visual art. Collaborations with digital artist Refik Anadol (Quantum Memories, viewed by 1.3 million museum visitors) and exhibitions in Berlin demonstrated public engagement with quantum-generated media.\n\nIn hardware development, Google has opened a second research thread in Boulder, Colorado, investigating neutral atom quantum computing alongside superconducting circuits. While superconducting qubits offer superior gate speed, neutral atom architectures offer natural integration with quantum sensing, which could enable unprecedented precision in physical measurements."
+    }
+  ],
+  "read_time_minutes": 2.9
+}

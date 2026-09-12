@@ -1,0 +1,47 @@
+{
+  "id": "why-we-built-and-donated-the-2025",
+  "title": "Why we built, and donated, the Model Context Protocol (MCP)",
+  "channel": "Anthropic",
+  "speakers": [
+    "David Soria Parra",
+    "Stuart Ritchie"
+  ],
+  "url": "https://youtu.be/PLyCki2K0Lg",
+  "date": "2025-12-12",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Web Development"
+  ],
+  "description": "Anthropic's Stuart Ritchie speaks with co-creator David Soria Parra about the development of the Model Context Protocol (MCP), an open standard to connect AI to external tools and services, and why Anthropic is donating it to the Linux Foundation.\n\n00:00 - What is MCP?\n01:21 - The problem MCP solves\n02:46 - The USB-C analogy\n03:45 - How MCP began\n05:36 - What makes MCP different\n08:05 - Community adoption\n09:54 - Standards without mandates\n11:05 - From Anthropic hackathon to Hacker News\n13:37 - The decision to open source\n15:18 - Donating MCP to the Linux Foundation\n17:27 - The Agentic AI Foundation\n20:34 - Criticisms of MCP\n28:21 - The future of MCP\n30:58 - What have people built with MCP?\n32:53 - Advice for non-developers\n34:58 - What David is most proud of",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Cursor",
+    "MCP Servers",
+    "Projects",
+    "Slack",
+    "Zed"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Why we built, and donated, the Model Context",
+      "text": "MCP until you know now was owned by anthropic including trademarks and some of the code by donating it to an entity. What we effectively doing is we're you know giving the trademarks away. We're giving you know the like some of the way\nwe dealing with licensing these type of things. A lot of the boring legal ease goes over to the Linux Foundation but it\nmakes sure that all the big players can be safe that this cannot be taken away and you if you bet on MCP nobody will\nchange that on you in the future. But of\ncourse, we don't just want them to produce text. We want them to be useful in the real world. We want them to\nconnect to all the pieces of software and sometimes hardware that we use in our daily lives, whether that's at work\nor elsewhere. One way of doing that, of connecting the AI applications to uh\nother pieces of software, is the model context protocol or MCP for short, which\nis an open-source standard developed by anthropic that we are uh announcing\ntoday that we're donating to the Linux Foundation."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "I think\nthose were the the things that I think really were key to the success. The other part is um that I think it needed\nto come from one of the big labs or players in the market to make sure that there's enough adoption in the beginning\nwith because you know you could right away off the bat like connect your MCP server to claude. The thing it really reminds me of in a past life I used to be very interested in uh open science. This idea of\ntrying to uh make science more replicable by uh putting you know for\ninstance the methods that you use to do an experiment uh maybe you you put all the the information all the uh the\nmaterials that you used online put all the data online uh you you you you share\neverything about your experiment and it allows everyone to come in and check that what you did was right but it also just allows everyone to just\ngrow science in an organic way rather than having everything stuck behind pay walls or indeed just in your own\ncomputer and not shared with everyone. There's a lot of things we actually don't know really well and we\nthere are better people in the world to help us with. I think for you know a good example of this was when we did uh\nauthentication in the beginning we you know made some assumptions that I think in certain contextes particular\nenterprises didn't work perfectly well and we because it's an open source project we had people for like\nspecialists in the area people who are literally writing the standards around this come in and help us and I think this is one of these things that only\nwork in open source and wouldn't work in a closed environment. Again, again to draw the analogy to science, it's a bit like uh\nother researchers who are better at statistics coming in and saying the code you've put online doesn't work. I\nwouldn't have known this if I just read your paper, but I can see this in now because the only reason that they can\nsee that is because it's open."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "So that's what we're going to\ndo is by donating it to an an entity. What we effectively doing is we're, you know, giving the trademarks away. We're\ngiving, you know, the like some of the, you know, the way we deal with licensing, these type of things. A lot of the boring legal ease goes over to\nthe Linux Foundation, but it makes sure that all the big players can be safe. That this cannot be taken away and you\nif you bet on MCP nobody will change that on you in the future. What's in it for us to do that? People\nmight have people are always you know suspicious of big companies like anthropic like what's in it for anthropic to do this. We care about building an open ecosystem."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "I makes a big difference because now instead of loading 50 tools you need to\nload only the five actually tool. And the second part of that is then later in in general like when you\nwhen you have the tools ready the way the model uses the tools um it you know\nit puts all the tool calls into the context window the results into the context window and some of these values\nare actually intermediate values and part of like what we also now launched on the API side is something called\nprogrammatic tool calling where you allow the model to compose these tools in in a code block that you just need to\nexecute and you never need to put these temporary intermediate values and tool calls into the context window and even\nthat saves a lot of tool like context as well and so together with tool search I\nthink we have like giving people at least an idea of how to solve these things on the application side\nright right so it's not a fundamental issue with the MTP itself it's just the way that we use it now can be improved\nand we're working on those improvements and don't forget we're only a year into this application the application developers themselves they learn a lot\nat the moment about like what's the right patterns how to do these correctly. Are there any other major criticisms\nthat you think are valid of the MCP? There's a there's a question for example um people that use a lot of cloud code,\nthey wonder why would they want to use MCP servers instead of like uh command line tools. I think that's a\nvalid criticism in in some of these environments. Com command line tools\nare better suited but you know that command line tools don't work in like a web client very easily for example. MCP is a bit more general but MCP is also not like a solution that tries to be like a one sizefits-all because very\nrarely there's a one set. Some of these criticisms, other criticisms are more around like the ability to scale\nthem the protocol really well because it's an inherently stateful protocol because we still believe that any type\nof agentic behavior is very stateful inherently."
+    }
+  ],
+  "read_time_minutes": 4.3
+}

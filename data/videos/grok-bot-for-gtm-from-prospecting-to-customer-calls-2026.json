@@ -1,0 +1,40 @@
+{
+  "id": "grok-bot-for-gtm-from-prospecting-to-customer-calls-2026",
+  "title": "Grok Bot for GTM: From Prospecting to Customer Calls",
+  "channel": "Cursor",
+  "speakers": [
+    "Cursor Technical Team"
+  ],
+  "url": "https://youtu.be/JZQsf5AXEig",
+  "date": "2026-09-04",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Product/Startup",
+    "AI Coding Tools"
+  ],
+  "description": "Key workflows covered:\n\nBots as specialized teammates:\n\nEach Grok Bot has a persona and a job, not one-off tasks. They work async , overnight, on calls, or away from your computer , and you onboard them like new hires.\n\nChief of Staff \\& routines:\n\nSet routines to scan your inbox, flag and draft replies, and prep you for the day's calls. Ask Grok Bot what else you could automate, then turn repetitive work into routines.\n\nProspecting bot:\n\nIt researches accounts and prospects, watches their podcasts and webinars for personal hooks, pulls intent data, and drops messaging straight into your Gmail drafts at scale.\n\nSlides \\& engineer bots:\n\nThe slides bot builds customer decks from Granola and Gong notes using your Figma brand kit. The engineer bot answers technical questions live from your codebase or docs.\n\nForecast \\& customer experts:\n\nThe forecast bot updates Salesforce next steps from email, Slack, Gong, and Granola. A per-customer expert tracks Slack, notes, feature requests, Linear tickets, and news.\n\nSkills, computer use \\& controls:\n\nTeach a skill by demonstrating a workflow, connect tools via plugins or the bot's own computer when no plugin exists, and set approval rules before sensitive actions.",
+  "entities": [
+    "Cursor",
+    "Grok Bot",
+    "Slack",
+    "Figma",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Grok Bot for GTM: From Prospecting to Customer Calls",
+      "text": "In this session on Grok Bot for GTM: From Prospecting to Customer Calls, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Grok Bot, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

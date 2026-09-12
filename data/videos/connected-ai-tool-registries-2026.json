@@ -1,0 +1,65 @@
+{
+  "id": "connected-ai-tool-registries-2026",
+  "title": "Build connected AI: Orchestrate tools and agents with registries and ADK",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Michael Vakoc",
+    "Mak Ahmad",
+    "Min Zu"
+  ],
+  "url": "https://youtu.be/bjaXpSz4ao0?si=_wre7_yF3XkPMHTL",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Scale is the new challenge for enterprise agent teams: not building agents, but governing hundreds of them. This Cloud Next session covers Agent Registry as the single source of truth for agents and MCP servers, SpecBoost for automatically generating and enriching API specs from logs, Agent Identity with SPIFFE-based per-agent credentials, and a Klook (APAC travel platform) case study showing how they used this stack to build a supply research multi-agent system.",
+  "entities": [
+    "Agent Registry",
+    "Agent Identity (SPIFFE-based)",
+    "SPIFFE ID",
+    "Secure Credentials Vault",
+    "SpecBoost",
+    "API Hub",
+    "Agent Platform (Vertex AI)",
+    "ADK (Agent Development Kit)",
+    "MCP servers",
+    "A2A (Agent2Agent protocol)",
+    "Agent Designer",
+    "Gemini CLI",
+    "OAuth 2.0 (two-legged and three-legged)",
+    "IAM",
+    "Apigee gateway",
+    "Shadow API discovery",
+    "Klook (APAC travel platform)",
+    "Supply research agent",
+    "Orchestrator subagent pattern",
+    "Agent policies",
+    "MCP gateway"
+  ],
+  "segments": [
+    {
+      "heading": "The challenge has shifted: from building agents to governing hundreds",
+      "text": "Last year at Cloud Next, the challenge was building agents that connect to data sources. A2A was just announced. MCP was new and exciting. The challenge has now shifted: organizations have hundreds of agents that often duplicate work, dozens of MCP servers doing the same thing because teams were each building their own, and no governance layer. Three specific pain points: (1) discoverability: builders cannot find what agents or MCP servers already exist in their organization; (2) building on top: even when they find something, integrating securely is non-trivial; (3) governance: platform teams cannot ensure that only authorized agents call the right set of tools."
+    },
+    {
+      "heading": "Agent Registry: single source of truth for agents, MCPs, and models",
+      "text": "Agent Registry is the central catalog for all agents, MCP servers, and registered models in a Google Cloud project. It supports registering third-party MCP servers if no existing entry is found. Available via portal UI, API, and SDK. ADK has built-in primitives to discover and call registered agents and MCP servers using just a few lines of code by providing the registry ID. The portal shows: registered agents with their skills and A2A agent card details, registered MCP servers with tool lists and usage metrics, and generated code snippets for ADK integration."
+    },
+    {
+      "heading": "Agent Identity: SPIFFE-based per-agent credentials and secure vault",
+      "text": "Agent Identity is a SPIFFE-based identity standard that gives each deployed agent its own unique identity (a SPIFFE ID). The identity lifecycle matches the agent lifecycle: created at deployment, revoked when the agent is deleted. This removes the previous pattern where a shared service account was used by all agents in a project, making granular permission management impossible. Agent Identity also includes a Secure Credentials Vault for storing API keys and OAuth credentials per agent, so developers do not need to manage secret sprawl themselves. OAuth configurations (two-legged for service-to-service, three-legged for user-delegated access) are stored in the vault and associated with the specific agent identity."
+    },
+    {
+      "heading": "SpecBoost: from no API specs to enriched, agent-ready MCP servers",
+      "text": "Enterprise APIs commonly lack rich, accurate OpenAPI specifications. Agents calling underspecified APIs hallucinate parameter names, call endpoints incorrectly, or fail silently. SpecBoost (enabled in API Hub) solves this with three modes: (1) generate: produce API specs from scratch by analyzing API gateway logs (Apigee runtime or Cloud Storage log buckets); (2) boost: take existing specs and enrich them so they are more agent-readable (better descriptions, error examples, parameter semantics); (3) merge: compare generated specs against documentation to detect drift when engineers deploy API changes without updating docs. No spec is published without human sign-off. Vision: API documentation becomes automatically live-updated whenever an API changes. One-click conversion from enriched spec in API Hub to a registered MCP service in Agent Registry is in progress."
+    },
+    {
+      "heading": "Klook case study: supply research multi-agent system",
+      "text": "Klook is the largest online experiences platform in APAC with 300,000 products across 4,000 destinations and 65 million experiences booked in 2025. The supply research process was manual, slow, and unable to cover the long tail of opportunities. Agents miss seasonal windows (cherry blossom tours, Christmas markets) if insights are delayed by days of manual research. Klook built a multi-agent supply research system: an orchestrator agent coordinates multiple specialized sub-agents, each analyzing a different social platform (one per platform, running in parallel). Key ADK decision: use standalone sub-agents rather than skills for sub-tasks that need their own context and parallel execution. ADK enabled fast wiring. Three learnings: (1) speed: ADK makes new agents fast to build and wire together; (2) reusability: all agents go into Agent Registry so they are discovered by other teams (for example, the YouTube analysis agent also supports voice-of-customer use cases); (3) continuous optimization: non-technical domain experts access published agents via Gemini Enterprise and provide direct feedback. An in-house supply quality agent then evaluates Klook's own catalog against market needs using internal booking data. All internal APIs are being progressively converted to MCP servers and centralized in Agent Registry for governance. Result: workflows that took days now complete in hours."
+    }
+  ],
+  "read_time_minutes": 2.5
+}

@@ -1,0 +1,41 @@
+{
+  "id": "prompting-101-code-w-claude-2025",
+  "title": "Prompting 101 | Code w/ Claude",
+  "channel": "Anthropic",
+  "speakers": [
+    "Anthropic Technical Staff"
+  ],
+  "url": "https://youtu.be/ysPbXH0LpIE",
+  "date": "2025-07-31",
+  "format": "Talk",
+  "level": "Beginner",
+  "topics": [
+    "Prompt Engineering",
+    "AI Coding Tools"
+  ],
+  "description": "null",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Prompting 101 | Code w/ Claude",
+      "text": "Thank you for joining us today for prompting 101. I'm part \nof the applied AI team here at Anthropic. With me is Christian, also part of the applied \nAI team. What we're going to do today is take you through a little bit of prompting best \npractices. We're going to use a real world scenario and build up a prompt together. So \na little bit about what prompt engineering is. You're all probably a little \nbit familiar with this. This is the way that we communicate with a language model and try to get \nit to do what we want."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "We want to make \nsure that assessment is as clear and as confident as possible. If not, we're sort of losing track of \nwhat we're doing. If we transition back to the the console, um we can jump to a V2 that we have \nhere. You can see here um I'll also just illustrate the data because \nwe didn't really do that last time around just to really highlight what we're looking at. So, \nwhat we're seeing here, this is the car accident report form, and it's just 17 different checkboxes \ngoing through what actually happened. You can see there's a vehicle A and vehicle B, \nboth on the left and right hand side. The main purpose of this is that we want to make sure that \nClaude can understand this manually generated data to assess what's actually going on. That is \nuh corroborated by if I navigate back here to this sketch that we can highlight here as well."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "We've kept the same user prompt down here. Oh, your scroll is backwards from mine. Uh, \nthe we have the same user prompt here. Still asking Claude to do the same task, same context. We'll see here that it's spending less time. It's kind of narrating to us a little bit less \nabout what the form is because it already knows what that is. It's not concerned with kind \nof bringing us that information back. It's going to give us a whole list of what it found to be \nchecked, what the sketch shows."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Then move on to the sketch. After you've kind of confidently gotten information \nout of the form and you can say what's factually true, then you can go on and think about what you \ncan gain from that sketch. Keeping in mind your understanding of the accident so far. So, whatever \nyou've learned from the form, you're trying to match that up with the sketch. That's how \nyou're going to arrive um at your final uh at your final assessment of the form. Here you can see one behavior that this produced for Claude because I told \nit to very carefully examine the form. It's showing me its work as it does that. So, \nit's telling me each individual box."
+    }
+  ],
+  "read_time_minutes": 1.9
+}

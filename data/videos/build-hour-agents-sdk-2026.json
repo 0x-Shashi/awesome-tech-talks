@@ -1,0 +1,41 @@
+{
+  "id": "build-hour-agents-sdk-2026",
+  "title": "Build Hour: Agents SDK",
+  "channel": "OpenAI",
+  "speakers": [
+    "Christine",
+    "Steve",
+    "OpenAI Developer Platform Team"
+  ],
+  "url": "https://youtu.be/tK32trvj_b4",
+  "date": "2026-05-29",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Build with the next evolution of the Agents SDK. In this Build Hour, you’ll learn how to use the updated Agents SDK to build long-running agents with a model-native harness. Give agents the tools, memory, and execution environment they need to work across files and systems , while staying flexible enough to fit your own stack.\n\nIn this session, Steve Coffey (Member of Technical Staff) and Nish Singaraju (Product, Agents) will cover how to:\n• Build agents that can inspect files, run commands, edit code, and operate across multi-step tasks\n• Use the updated Agents SDK harness for more reliable agent loops across documents, tools, and systems\n• Work with core agent primitives like MCP, skills, AGENTS.md, shell, and apply patch\n• Run agents safely in controlled sandbox environments with the files, dependencies, and tools they need",
+  "entities": [
+    "OpenAI",
+    "Agents SDK",
+    "Agentic Loops",
+    "Tool Calling",
+    "Execution Harness"
+  ],
+  "segments": [
+    {
+      "heading": "Core Architecture and Technical Motivations for Build Hour: Agents SDK",
+      "text": "In this session on Build Hour: Agents SDK, Christine, Steve, OpenAI Developer Platform Team examine the underlying architectural principles and operational requirements shaping frontier AI systems. The presentation highlights how modern engineering teams leverage OpenAI, Agents SDK, Agentic Loops to address foundational challenges in AI Agents, Backend/Infra. Rather than relying on rigid heuristic pipelines, the architecture emphasizes end-to-end model legibility, structured context windows, and robust feedback loops. Participants explore how these patterns eliminate brittle manual glue code, providing a resilient platform capable of maintaining accuracy even under intense compute constraints and rapid requirement iteration."
+    },
+    {
+      "heading": "Implementation Mechanics, System Workflows, and Tool Integrations",
+      "text": "Diving into technical mechanics, the speakers demonstrate concrete implementation workflows using OpenAI, Agents SDK, Agentic Loops. Key engineering workflows center on deterministic execution pipelines, rigorous schema validation, and low-latency data flow. By decomposing complex objectives into auditable intermediate states, developers can reliably track token expenditures, isolate runtime anomalies, and enforce strict execution boundaries. The session walks through hands-on architectures where automated orchestration safely manages high-concurrency requests, external API calls, and persistent state stores."
+    },
+    {
+      "heading": "Operational Deployment, Evaluation Benchmarks, and Future Trajectory",
+      "text": "The concluding segment addresses enterprise deployment standards, cost efficiency trade-offs, and empirical evaluation benchmarks. Speakers present metrics for assessing reliability in production environments, emphasizing continuous evaluation against realistic task distributions. Organizations deploying OpenAI, Agents SDK, Agentic Loops must balance inference latency with reasoning depth, ensuring that guardrails and safety invariants remain intact throughout system lifecycle. Looking ahead, the discussion outlines upcoming platform milestones and strategic paradigms for scaling autonomous, high-integrity AI workloads across diverse industry domains."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

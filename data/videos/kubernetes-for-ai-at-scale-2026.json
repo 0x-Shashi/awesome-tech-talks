@@ -1,0 +1,48 @@
+{
+  "id": "kubernetes-for-ai-at-scale-2026",
+  "title": "Engineering the future of Kubernetes for AI at scale",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Kaslin Fields",
+    "Jago Macleod",
+    "Boaz Rant"
+  ],
+  "url": "https://youtu.be/yVvLjWDmb0Y?si=DOYxe9PHHjIJQmi_",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "Deep dive into Kubernetes architecture engineered for large-scale AI inference and autonomous agent workloads. Traces the evolution from stateless containers ('cattle') and StatefulSets to AI-native scheduling, Dynamic Resource Allocation (DRA), Kueue batch management, and hardware-aware topology routing. Features Palo Alto Networks sharing their enterprise GKE AI infrastructure.",
+  "entities": [
+    "Kubernetes / GKE",
+    "Dynamic Resource Allocation (DRA)",
+    "Kueue",
+    "StatefulSets",
+    "Palo Alto Networks",
+    "GKE Agent Sandbox",
+    "GPU / TPU Workload Slicing",
+    "Hardware-Aware Topology Routing"
+  ],
+  "segments": [
+    {
+      "heading": "Evolution of Kubernetes: from stateless cattle to AI accelerators",
+      "text": "Kaslin Fields outlines the historical arc of Kubernetes: beginning with stateless ephemeral containers ('cattle, not pets'), introducing StatefulSets for persistent databases in 2016, and now transforming into an AI-first orchestrator optimizing specialized TPU, GPU, and memory accelerator topologies."
+    },
+    {
+      "heading": "Dynamic Resource Allocation (DRA) and Kueue batch queuing",
+      "text": "AI workloads require granular control over specialized accelerator hardware. Dynamic Resource Allocation (DRA) standardizes driver-level GPU/TPU slicing and interconnect visibility, while open-source Kueue manages multi-tenant job queues, fair-share scheduling, and automated preemption across large-scale model training and inference clusters."
+    },
+    {
+      "heading": "GKE Agent Sandbox and infrastructure fluidity for AI agents",
+      "text": "Jago Macleod details how GKE supports autonomous AI agent execution. Using gVisor kernel sandboxing, GKE spins up isolated code-execution pods in subseconds, providing total compute and network isolation for untrusted agent-generated code with snapshot-based suspend/resume to minimize idle compute costs."
+    },
+    {
+      "heading": "Enterprise case study: Palo Alto Networks on GKE",
+      "text": "Boaz Rant from Palo Alto Networks explains how their cybersecurity platform scales AI inference across global GKE clusters. By leveraging automated node auto-provisioning and Kueue scheduling, they run real-time threat detection models with 99.99% availability and optimized accelerator utilization."
+    }
+  ],
+  "read_time_minutes": 0.6
+}

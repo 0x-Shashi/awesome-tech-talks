@@ -1,0 +1,37 @@
+{
+  "id": "model-selection-token-economics-2026",
+  "title": "Model Selection and Token Efficiency - Token Economics and Model Choice",
+  "channel": "Cursor",
+  "speakers": [
+    "Santi Garza"
+  ],
+  "url": "https://youtu.be/KcshxSB3sNY",
+  "date": "2026-09-04",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "LLM Fundamentals",
+    "Prompt Engineering",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover what tokens are, what burns them, and how to pick a model without slowing down.\n\nKey topics covered:\n\nTokens:\n\nYou are billed for tokens in and out of the model, not for agent actions like search. The harness wraps the model and is tuned per model.\n\nFour token types:\n\nInput, output, cache write, and cache read. Output costs more than input. Cache reads cost less, and a rule or model change can rewrite the cache.\n\nContext:\n\nThe harness feeds context back each turn. Near 90% it compacts the middle of the chat, not the prefix or your latest ask.\n\nModel choice:\n\nExplore in Ask Mode, plan with a stronger model, then build with Composer. Auto can send harder turns to a stronger model.\n\nHabits:\n\nStart a new chat per task, mention past chats, and keep always-on rules short so they do not ride every turn.",
+  "entities": [
+    "Cursor",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Model Selection and Token Efficiency - Token Economics and Model Choice",
+      "text": "In this session on Model Selection and Token Efficiency - Token Economics and Model Choice, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

@@ -1,0 +1,62 @@
+{
+  "id": "scale-ai-agents-production-2026",
+  "title": "Scale AI agents in production",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Ryan Ismert",
+    "Elia Secchi",
+    "Praveen Dhas",
+    "Tejal Pandit"
+  ],
+  "url": "https://youtu.be/LHcjN11nNPU?si=uQ4EMOZchxCusM6-",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Covers Google's Gemini Enterprise Agent Platform architecture across four pillars: Build, Scale, Govern, and Optimize. Introduces the new Agent CLI with automated scaffolding and eval loops, Agent Runtime with subsecond warm starts and 7-day workflows, Memory Bank, and sandboxes. Features production case studies from Comcast (Xfinity Assistant 2.0 with decoupled session architecture) and Palo Alto Networks (autonomous network remediation with 24% autonomous resolution rate).",
+  "entities": [
+    "Gemini Enterprise Agent Platform",
+    "Agent Runtime (formerly Agent Engine)",
+    "Agent CLI",
+    "Agent Studio",
+    "Agent Development Kit (ADK)",
+    "Memory Bank",
+    "Agent Sessions",
+    "Agent Sandboxes (Code Execution & Computer Use)",
+    "Agent Registry",
+    "Agent Gateway",
+    "Agent Identity",
+    "Bidirectional streaming",
+    "Comcast",
+    "Xfinity Assistant 2.0",
+    "Palo Alto Networks",
+    "Gemini 2.5 Flash",
+    "Gemini 3.0 Flash",
+    "Directed Acyclic Graph (DAG)",
+    "Bigtable",
+    "Vertex AI Search",
+    "BigQuery"
+  ],
+  "segments": [
+    {
+      "heading": "Gemini Enterprise Agent Platform: the four pillars",
+      "text": "Moving from prototype to production requires a vertically integrated stack across four areas: (1) Build: over 200 foundation models, ADK updates, low-code Agent Studio, and the new Agent CLI; (2) Scale: upgraded Agent Runtime supporting 7-day workflows, subsecond warm starts, bidirectional streaming, managed Sessions, Memory Bank, and isolated Sandboxes (code execution with 14-day TTL and Chromium-based computer use); (3) Govern: fleet management via Agent Identity, Agent Gateway, and Agent Registry for up to 3,000 agents per project; (4) Optimize: simulation, automated evaluation, and trajectory observability."
+    },
+    {
+      "heading": "Demo: Agent CLI lifecycle and automated evaluation loop",
+      "text": "Prototyping is fast, but production iteration cycles often take weeks. The open-source Agent CLI embeds expert ADK knowledge into coding agents (Antigravity IDE, Gemini CLI, Cursor, Claude Code). A demo building a customer support agent for an online shoe store shows the CLI: (1) clarifying intent and requirements, (2) scaffolding ADK codebase, (3) generating synthetic test datasets and executing automated eval loops with self-correcting code updates until all test criteria pass, (4) one-click deployment to Agent Runtime, and (5) running conversational analysis on production BigQuery telemetry."
+    },
+    {
+      "heading": "Comcast case study: Xfinity Assistant 2.0 and decoupled session management",
+      "text": "Comcast's Xfinity Assistant serves millions of customers across digital apps and hardware. Transitioning from rigid rule-based trees to generative AI (XA 2.0), Comcast solved a critical operational challenge: agent in-memory sessions were lost during rolling code upgrades, causing active users to lose troubleshooting context. Working with Google Cloud, Comcast decoupled session management into a dedicated session service shared across steering, repair, and technician dispatch agents. Live demos show end-to-end technician scheduling and proactive appointment tracking."
+    },
+    {
+      "heading": "Palo Alto Networks case study: autonomous network reasoning ecosystem",
+      "text": "Palo Alto Networks replaced static support workflows with an autonomous reasoning multi-agent system powered by Gemini 2.5/3.0 Flash, Bigtable, and Vertex AI Search. A Root Agent handles multimodal user inputs (e.g., server rack photos) and applies guardrails with human off-ramps. A specialized RCA Agent executes dynamic investigation DAGs up to three iterations over logs, metrics, and network configs. Production benchmarks achieved: sub-100 second end-to-end resolution, 2-5 second streaming thought latency, and a 24% autonomous resolution rate."
+    }
+  ],
+  "read_time_minutes": 1.3
+}

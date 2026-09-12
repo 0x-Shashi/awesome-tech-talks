@@ -1,0 +1,42 @@
+{
+  "id": "interpretability-understanding-how-ai-models-think-2025",
+  "title": "Interpretability: Understanding how AI models think",
+  "channel": "Anthropic",
+  "speakers": [
+    "Anthropic Technical Staff"
+  ],
+  "url": "https://youtu.be/fGKNUvivvnc",
+  "date": "2025-08-16",
+  "format": "Talk",
+  "level": "Advanced",
+  "topics": [
+    "LLM Fundamentals",
+    "Research/Papers"
+  ],
+  "description": "What's happening inside an AI model as it thinks? Why are AI models sycophantic, and why do they hallucinate? Are AI models just \"glorified autocompletes\", or is something more complicated going on? How do we even study these questions scientifically?\n\nJoin Anthropic's Josh Batson, Emmanuel Ameisen, and Jack Lindsey as they discuss the latest research on AI interpretability.\n\nRead more about Anthropic's interpretability research: https://www.anthropic.com/news/tracin... \n\nSections:\nIntroduction [00:00]\nThe biology of AI models [01:37]\nScientific methods to open the black box [6:43]\nSome surprising features inside Claude's mind [10:35]\nCan we trust what a model claims it's thinking? [20:39]\nWhy do AI models hallucinate? [25:17]\nAI models planning ahead [34:15]\nWhy interpretability matters [38:30]\nThe future of interpretability [53:35]\nMembers of the Anthropic interpretability",
+  "entities": [
+    "Anthropic",
+    "Box",
+    "Claude",
+    "Notion"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Interpretability: Understanding how AI models",
+      "text": "Introduction\nthe the model doesn't think of itself necessarily as trying to predict the next word. Internally, it's developed\npotentially all sorts of intermediate goals and abstractions that help it achieve that kind of meta objective. When you're talking to a large language model, what exactly is it that you're talking to? Are you talking to something\nlike a glorified autocomplete? Are you talking to something like an internet search engine? Or are you talking to\nsomething that's actually thinking um and maybe even thinking like a person? It turns out rather concerningly that nobody really knows the answer to those questions. And here at Anthropic, we\nare very interested in in finding those answered out."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "Oh, it's like asking me to choose one of\nmy 30 million children. Um, I mean, I I think, you know, there there's like two\nkinds of favorites. There's like, oh, it's so cool that there's it's got some special notion of like this one, you\nknow, little thing, right? I mean, we did this thing on the Golden Gate Bridge, which is like a famous San Francisco landmark, Golden Gate Claw. It's like a lot of fun. It like has an idea of the Golden Gate Bridge that like\nisn't just like the words Golden Gate autocomplete bridge, but is like I'm driving from San Francisco to Marin, and\nthen it's thinking of the same thing. Meaning that like you see sort of like the same stuff light up inside or it's like a picture of the bridge and so\nyou're like okay it's got some robust notion of like what what the bridge is. But I think when it comes to um stuff\nthat seems sort of like weirder, you know, one question is how how do models like keep track of who's in the story,\nlike just like literally like like okay, you got all these people and they're doing stuff."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "Like that's a whole\nnew thing to ask the model to do. And so what we found is that it seems like because we've bolted this\non at the end, there's sort of two things going on at once. One is the model's doing the thing that it was\ndoing when it was guessing the city initially. Two, there's a separate bit of the\nmodel that's just trying to answer the question, do I know this at all? Do\nI know what the capital uh city of France is or, you know, should I say no? It turns out that sometimes um that separate step can be wrong. If that\nseparate step says yes actually I do know the answer to that and then the model is like all right well then I'm\nanswering and then halfway through it's like ah capital France uh London uh it's too late. It's already committed to sort\nof like answering."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Just to add on one thing. I think I mean something we do in like human society is we kind of offload work or tasks to\nother people based on our trust in them. I you know I well I'm not anyone's\nboss but Josh Josh is someone's boss and you know Josh might give give someone a task uh like go go and code up this\nthing and then he has some faith that you know that person isn't a sociopath\nwho's going to like sneak some bug in there to try to undermine the company. He he like takes their word for it that\nthey did a good job. And similarly like people are the way people are using language models now we're we're not\nwe're not spot-racking everything they write especially like I you know the the the best example for this is using\nlanguage models for coding assistance people like the the models are just writing thousands and thousands of lines\nof code and people are kind of like doing a cursory job of reading it but and then it's going into the codebase\nand what gives us the trust in the model that like we don't need to read everything it writes that we can just\nkind of like let it do its thing. It's knowing that its motivations are sort of pure. And so that's why I think like the kind of being able to see inside its head is so important as a cuz cuz unlike\nhumans where like why do I think that Emanuel isn't a sociopath? It's cuz like you know we like I don't know he seems\nlike a cool guy."
+    }
+  ],
+  "read_time_minutes": 3.0
+}

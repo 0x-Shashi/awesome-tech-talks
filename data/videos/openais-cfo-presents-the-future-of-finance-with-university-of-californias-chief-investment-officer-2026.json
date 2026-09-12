@@ -1,0 +1,40 @@
+{
+  "id": "openais-cfo-presents-the-future-of-finance-with-university-of-californias-chief-investment-officer-2026",
+  "title": "OpenAI's CFO Presents the Future of Finance with University of California’s Chief Investment Officer",
+  "channel": "OpenAI",
+  "speakers": [
+    "Sarah Friar",
+    "Jagdeep Singh Bachher"
+  ],
+  "url": "https://youtu.be/76ABuBGX4IY",
+  "date": "2026-06-10",
+  "format": "Panel",
+  "level": "Intermediate",
+  "topics": [
+    "Product/Startup",
+    "Career/Advice"
+  ],
+  "description": "OpenAI CFO Sarah Friar joined UC CIO Jagdeep Singh Bachher for an OpenAI Forum conversation on AI’s impact on finance and careers. Friar reflected on her nonlinear path from engineering to finance leadership, emphasizing curiosity, adaptability, and kindness as essential skills for students entering a changing workforce. She described how OpenAI’s finance team is using tools like custom GPTs for investor relations, audit support, and more. While AI is transforming finance tasks and expanding what lean teams can do, Friar stressed that human trust and relationships remain central, especially in fundraising and leadership",
+  "entities": [
+    "OpenAI",
+    "University of California",
+    "Enterprise Finance",
+    "Capital Allocation",
+    "AI Workforce"
+  ],
+  "segments": [
+    {
+      "heading": "Core Architecture and Technical Motivations for OpenAI's CFO Presents the Future of Finance with University of California’s Chief Investment Officer",
+      "text": "In this session on OpenAI's CFO Presents the Future of Finance with University of California’s Chief Investment Officer, Sarah Friar, Jagdeep Singh Bachher examine the underlying architectural principles and operational requirements shaping frontier AI systems. The presentation highlights how modern engineering teams leverage OpenAI, University of California, Enterprise Finance to address foundational challenges in Product/Startup, Career/Advice. Rather than relying on rigid heuristic pipelines, the architecture emphasizes end-to-end model legibility, structured context windows, and robust feedback loops. Participants explore how these patterns eliminate brittle manual glue code, providing a resilient platform capable of maintaining accuracy even under intense compute constraints and rapid requirement iteration."
+    },
+    {
+      "heading": "Implementation Mechanics, System Workflows, and Tool Integrations",
+      "text": "Diving into technical mechanics, the speakers demonstrate concrete implementation workflows using OpenAI, University of California, Enterprise Finance. Key engineering workflows center on deterministic execution pipelines, rigorous schema validation, and low-latency data flow. By decomposing complex objectives into auditable intermediate states, developers can reliably track token expenditures, isolate runtime anomalies, and enforce strict execution boundaries. The session walks through hands-on architectures where automated orchestration safely manages high-concurrency requests, external API calls, and persistent state stores."
+    },
+    {
+      "heading": "Operational Deployment, Evaluation Benchmarks, and Future Trajectory",
+      "text": "The concluding segment addresses enterprise deployment standards, cost efficiency trade-offs, and empirical evaluation benchmarks. Speakers present metrics for assessing reliability in production environments, emphasizing continuous evaluation against realistic task distributions. Organizations deploying OpenAI, University of California, Enterprise Finance must balance inference latency with reasoning depth, ensuring that guardrails and safety invariants remain intact throughout system lifecycle. Looking ahead, the discussion outlines upcoming platform milestones and strategic paradigms for scaling autonomous, high-integrity AI workloads across diverse industry domains."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

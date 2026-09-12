@@ -1,0 +1,66 @@
+{
+  "id": "agentic-shift-software-development-2026",
+  "title": "Navigate the agentic shift in software development with Google",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Niranjan Tulpule",
+    "Madhura Joshi"
+  ],
+  "url": "https://youtu.be/Z9Zz75pmOeg?si=SzxL-z7MQbcTe-t4",
+  "date": "2026-06-25",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Backend/Infra",
+    "AI Agents"
+  ],
+  "description": "Google is Customer Zero for its own developer AI products. In this Cloud Next session, two VPs share what they have actually learned deploying AI coding agents internally at Google with over 100,000 engineers. Covers the 75% AI code stat, real failures and pivots in AI code review strategy, spec-driven development, agent observability and trajectory tracking, and how Google scales AI adoption through AI champions and team-level agents.",
+  "entities": [
+    "Gemini CLI",
+    "Antigravity (Antigravity IDE)",
+    "AI code review agent",
+    "Shepherding agent",
+    "Risk assessor agent",
+    "Python readability agent",
+    "Spec-driven development",
+    "Spec-driven testing agent",
+    "Agent trajectories",
+    "Path clustering",
+    "Token heat maps",
+    "AI champions program",
+    "Personal agents (Google categorization)",
+    "Team agents (Google categorization)",
+    "Auto-approvals (agentic governance)",
+    "Cloud Code",
+    "Agent doom loop",
+    "CI/CD pipeline"
+  ],
+  "segments": [
+    {
+      "heading": "Scale of AI-written code at Google",
+      "text": "Sundar Pichai announced at Cloud Next 2026 that approximately 75% of all new code at Google is written by AI. In the last 12 months, Google added more code than it had in the preceding three years combined. About one-third of all code changes submitted at Google are entirely or almost entirely authored by coding agents (human contribution approximately 1-2% of those changes). GitHub reported a 30% increase in merged pull requests across their corpus over the same period. The enterprise paradox: how do you convert 10x code volume into 10x business value without 10x risk? Code volume growth is putting pressure on code review, testing, and other systems designed for human-scale throughput."
+    },
+    {
+      "heading": "Lessons from building AI code review at Google: three strategies, two failures",
+      "text": "Approximately 10% of developer time at Google goes into code review. As code volume grew, that percentage held constant, raising concerns about rubber-stamping. First attempt: one central AI review agent catching all issues for all teams. Result: spectacular failure. Models in 2023-2024 were not reliable enough to catch serious issues consistently, and developers pushed back on AI interfering during flow time. Second attempt: specialized agents targeting narrow, well-defined issues (for example, a Python readability agent enforcing Google's style guide). Evals looked great. Result: developer productivity for the Python cohort dropped 9% in the first week of the experiment, because developers found the volume of comments overwhelming. Both extreme approaches failed."
+    },
+    {
+      "heading": "The tiered approach that works: central plus specialized plus shepherding",
+      "text": "Google's current three-anchor AI review strategy: (1) A central review agent covering a small, universal set of issues applicable to all teams (security, reliability, performance, maintainability). This set is intentionally small. The agent is tunable at individual and team levels for additional specialization. (2) A shepherding agent that monitors in-flight code changes and drives them through the CI/CD pipeline. If a build breaks, the shepherding agent attempts to fix the root cause and re-activates the review agent. It iterates until CI/CD is clear. (3) A risk assessor agent that scans all in-flight changes for risk. High-risk changes are tagged and require mandatory human review. Governance mechanisms for low-risk changes to flow through auto-approvals without human review are also in progress."
+    },
+    {
+      "heading": "Spec-driven development and testing",
+      "text": "The AI doom loop: approximately 12% of developer time goes to babysitting AI coding agents. Natural language prompts are inherently imprecise, leading to incomplete design, excessive clarifying back-and-forth, and developers letting agents do whatever they want and refactoring later. Spec-driven development addresses this by requiring developers to work with agents upfront to produce a precise requirements specification before code is written. The spec captures design intent, API contracts, constraints, and success criteria. Developers using spec-driven development produce less rework, more exhaustive system designs, and more readable and maintainable code. Spec-driven testing: a testing agent reads existing code and tests, produces a specification document showing current API contracts and pre/post-conditions, highlights missing test coverage, accepts developer feedback on the spec, and then implements the missing tests by editing the test file. The spec is updated to reflect new coverage status."
+    },
+    {
+      "heading": "Agent observability: trajectories, path clustering, and token heat maps",
+      "text": "Traditional observability is like train tracks: fixed, observable, predictable. Agent observability is like a self-driving car: each run takes a different path. Two altitudes of agent trajectory tracking at Google: (1) Individual trajectory: user inputs across all turns, how the agent interprets inputs, chain-of-thought reasoning, steps taken for each task, and annotated output signals. (2) Aggregate trajectory: path clustering to identify common failure patterns, tool reliability analysis, token heat maps to find inefficiencies and recurring dead ends, tool-set rationalization. Key finding from aggregate trajectory analysis: teams often expose far too many MCP tools initially. Honing in on the critical tool set for specific workflows improved agent reliability and reduced token waste. Benefits observed: developers can redirect stuck agents faster (avoiding the doom loop), system health monitoring, and rapid identification of hotspots."
+    },
+    {
+      "heading": "Scaling AI adoption at Google: AI champions, dashboards, and two agent categories",
+      "text": "Scaling AI adoption across 100,000 developers with diverse roles (ML, frontend, hardware, distributed systems) requires managing the pace of change. Developers need to shift mental models from syntax to systems. Google's AI Champions program: a network of engaged early adopters who receive knowledge packs, hands-on coaching, and early product access. They share quality signals back to product teams before broad rollout, and spread best practices within their organizations. The program creates two flywheels: a rapid product feedback loop (usage data flows back to Google DeepMind) and a knowledge-spreading flywheel (effective approaches discovered by YouTube teams reach Maps teams). Token use dashboards and adoption rate metrics help teams understand whether AI is being used effectively. Two emerging agent categories: (1) Personal agents running with developer permissions on their computer (Antigravity IDE, Gemini CLI, Cloud Code). (2) Team agents that carry tribal knowledge: team best practices, coding standards, deployment procedures. Both categories require governance, sandboxing, and accountability attribution."
+    }
+  ],
+  "read_time_minutes": 3.1
+}

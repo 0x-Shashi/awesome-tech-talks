@@ -1,0 +1,40 @@
+{
+  "id": "tool-skill-or-subagent-decomposing-an-2026",
+  "title": "Tool, skill, or subagent? Decomposing an agent that outgrew its prompt",
+  "channel": "Claude",
+  "speakers": [
+    "Claude Engineering Team"
+  ],
+  "url": "https://youtu.be/mWvtOHlZM-I",
+  "date": "2026-05-23",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Prompt Engineering"
+  ],
+  "description": "When does logic belong in a tool, a skill, or a subagent? You'll learn the decision framework by doing: inherit a 402-line inventory agent, decompose it live on Claude Managed Agents, and run evals after every change to see what flips.",
+  "entities": [
+    "Claude",
+    "Claude Managed Agents"
+  ],
+  "segments": [
+    {
+      "heading": "Architectural Overview and System Objectives in Tool, skill, or subagent? Decomposing an agen",
+      "text": "When does logic belong in a tool, a skill, or a subagent? You'll learn the decision framework by doing: inherit a 402-line inventory agent, decompose it live on Claude Managed Agents, and run evals after every change to see what flips. The session details foundational design principles, execution patterns, and operational integration requirements within the AI Agents, Prompt Engineering domain."
+    },
+    {
+      "heading": "Technical Capabilities, Tooling Integration, and Protocols",
+      "text": "Speakers analyze technical capabilities across Claude, Claude Managed Agents. The architecture highlights reliable agent tool use, context window optimization, protocol standards, and seamless workflow interoperability."
+    },
+    {
+      "heading": "Production Deployment, Verification, and Best Practices",
+      "text": "Production readiness demands robust evaluation harnesses, state validation, and error-handling loops. Teams implement systematic monitoring and guardrails to ensure reliability across repeated executions."
+    },
+    {
+      "heading": "Organizational Impact, Scalability, and Industry Outlook",
+      "text": "Deploying agentic systems transforms developer and team workflows by automating high-friction tasks. Organizations scale safely by pairing automated tool orchestration with structured human review."
+    }
+  ],
+  "read_time_minutes": 1.0
+}

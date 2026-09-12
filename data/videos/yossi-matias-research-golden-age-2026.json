@@ -1,0 +1,134 @@
+{
+  "id": "yossi-matias-research-golden-age-2026",
+  "title": "Yossi Matias on the golden age of research",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Yossi Matias",
+    "Logan Kilpatrick"
+  ],
+  "url": "https://youtu.be/FPBwadTeph0?si=pPTO_eUXVrUf1Oq0",
+  "date": "2026-06-12",
+  "format": "Fireside Chat",
+  "level": "Intermediate",
+  "topics": [
+    "Research/Papers",
+    "AI Agents",
+    "LLM Fundamentals"
+  ],
+  "description": "Yossi Matias, Vice President at Google and Head of Google Research, joins host Logan Kilpatrick for a wide-ranging conversation about what it means to do research at Google scale. Their conversation explores the magic cycle of research from breakthrough to real-world impact across flood forecasting, MedGemma, and the just-launched Gemini for Science. Learn more about AI tools for scientific discovery including Co-Scientist and Empirical Research Assistance (ERA), and topics like speculative decoding, generative UI, and quantum computing milestones including the Willow chip.",
+  "entities": [
+    "Google Research",
+    "Google DeepMind",
+    "Google Earth AI",
+    "MedGemma",
+    "Gemma 4",
+    "High-Def",
+    "NeuralGCM",
+    "WeatherNext",
+    "FireSat",
+    "Ground Source",
+    "AI Co-Scientist",
+    "ERA",
+    "Gemini for Science",
+    "AlphaEvolve",
+    "NotebookLM",
+    "Literature Insights",
+    "Paper Assistant Tool",
+    "PAT",
+    "LearnLM",
+    "Learn Your Way",
+    "AI Quest",
+    "Vantage",
+    "Willow chip",
+    "DeepVariant",
+    "DeepConsensus",
+    "AMI",
+    "Included Health",
+    "HCA Healthcare",
+    "speculative decoding",
+    "GenUI",
+    "True benchmark",
+    "Google Duplex",
+    "ICML",
+    "STOC",
+    "NeurIPS",
+    "Nature",
+    "JAMA",
+    "NHS",
+    "WMO",
+    "GiveDirectly",
+    "Pathways",
+    "PaLM",
+    "PaLM 2",
+    "Bard",
+    "Move 37",
+    "quantum error correction",
+    "verifiable quantum advantage",
+    "Google Quantum AI lab",
+    "Willow",
+    "MedPaLM"
+  ],
+  "segments": [
+    {
+      "heading": "The mission of Google Research and the magic cycle",
+      "text": "Yossi Matias, VP and Head of Google Research, describes the group's mission as making the impossible possible: identifying what could make a meaningful difference, driving breakthrough research, and applying results to products, science, and society. He calls this the magic cycle of research because applying results to reality always creates the next research question. The scope spans foundational ML and algorithms, systems, quantum computing, generative AI, health, education, and climate. He argues this is the golden age of research because both the research itself and the translation to impact are accelerating faster than ever, with AI acting as the subject of research and simultaneously as an accelerator of the research process."
+    },
+    {
+      "heading": "Google Earth AI and planetary intelligence",
+      "text": "Google Research built geospatial models independently over the years (flood prediction, WeatherNext storm prediction, remote sensing foundation models). The team unified these as a single platform called Google Earth AI, with an agentic AI layer on top. Applications include public health, crisis resilience, and business use cases. One external example: researchers from Harvard, Boston Children's Hospital, and Mount Sinai published a Nature paper analyzing measles vaccination coverage at ZIP code level, built directly on Earth AI."
+    },
+    {
+      "heading": "MedGemma: open health AI with offline capability",
+      "text": "MedGemma is an open platform for health models built by taking Google Research health AI and placing it on Gemma. Released on the High-Def platform, it reached more than 5 million downloads. A specific case from Uganda: a healthcare worker used a MedGemma-based application without an internet connection to help save a mother and baby. The team building the Ugandan app treats offline capability as a core requirement because connectivity in rural villages is low. They noted that Gemma 4 was the first model to combine multimodality and agentic capability in a package suitable for low-resource deployment, enabling frontier-level AI development outside large labs."
+    },
+    {
+      "heading": "AI as an amplifier of human ingenuity",
+      "text": "Matias frames AI's central purpose as amplifying human ingenuity, empowering healthcare workers, teachers, scientists, and business people. NeuralGCM (developed with University of Chicago) provided weather warnings to 38 million farmers in India. He acknowledges that AI-related disruptions require societal adjustment and support for workers whose roles are changing, but argues the right framing is how to amplify what people can do rather than how to automate them out."
+    },
+    {
+      "heading": "Flood forecasting: from impossible to 150 countries",
+      "text": "The flood prediction program began after Matias visited a Bihar, India village where several people perished in an overnight flood. Experts said accurate flood warnings were too difficult due to too many variables. The team ran a small pilot covering about 1 million people, published a hypothesis paper at a NeurIPS workshop, then scaled to cover all of India, published a global hydrologic model in Nature, and ultimately reached flood prediction in 150 countries covering 2 billion people up to seven days in advance.\n\nFor flash floods, no usable training dataset existed. The technique called Ground Source used Gemini to process public news data and distill 2.6 million labeled urban flash flood events, which trained a prediction model now in operation as part of Earth AI. The government of Nigeria used the API to send funds to villages ahead of floods for evacuation; GiveDirectly similarly pre-positioned resources based on predictions."
+    },
+    {
+      "heading": "Healthcare AI: diabetic retinopathy screening to mammography",
+      "text": "A JAMA paper published ten years ago showed AI could screen for diabetic retinopathy on par with experts. After years of iteration, Matias observed clinics in Bangkok where patients received AI-assisted screening results in two minutes instead of weeks, dramatically improving follow-up rates.\n\nTwo recent Nature papers documented an NHS study showing AI as a second reader for mammography could identify 25% of missed diagnoses and return roughly 40% of radiologist time.\n\nMedPaLM was the first paper demonstrating a language model could pass medical exam questions. By the time a follow-up paper appeared, HCA Healthcare was already piloting language models for end-of-shift nursing reports. AMI (Articulate Medical Intelligence Explorer) explores conversational AI for medical diagnostics; a pilot with Included Health is now running in clinical settings. Healthcare AI adoption is running at roughly twice the rate of other industries."
+    },
+    {
+      "heading": "AI Co-Scientist: hypothesis generation across disciplines",
+      "text": "AI Co-Scientist is a multi-agent system that, given a research question, performs three tasks: literature search across as much relevant literature as needed (including cross-disciplinary literature), hypothesis generation from that literature, and ranking plus validation of hypotheses against the literature. Matias describes it as a virtual lab performing work that a very senior researcher would normally do for junior colleagues.\n\nAt Imperial College, researchers had spent nearly a decade toward a particular bacterial hypothesis. AI Co-Scientist reached the same hypothesis within a couple of days and proposed additional hypotheses the human team had not considered. Professor Tiago at Imperial described working with it as collaborating with an amazing colleague. Other partners include Stanford (liver fibrosis) and groups working on drug repurposing. Some partners have already published papers based on Co-Scientist-generated hypotheses. Matias notes the capacity for novel hypotheses is consistent with precedents like AlphaGo's Move 37."
+    },
+    {
+      "heading": "The validation bottleneck and Paper Assistant Tool",
+      "text": "As hypothesis generation accelerates, the bottleneck shifts to validation. Matias argues the scientific method and peer review are more important than ever, not less, and notes that knowing not just whether something is factual but the confidence level of that claim is critical.\n\nPaper Assistant Tool (PAT) receives a paper draft and provides structured feedback to authors. Google partnered with ICML, STOC, and NeurIPS to make PAT available to authors before submission deadlines. Approximately 10,000 papers were uploaded, and many authors reported it identified gaps or suggested additional experiments. Matias sees this as a first step toward AI-assisted validation infrastructure."
+    },
+    {
+      "heading": "ERA and Gemini for Science",
+      "text": "ERA (Empirical Research Assistants) addresses the bottleneck of building and tuning computational models. If a researcher has a scoreable problem (they know what they are computing and how to measure it) and the input data, ERA performs automated search through thousands of model architectures and parameter spaces. Work previously taking weeks or months is accelerated significantly. ERA was published in Nature and, simultaneously, eight new research papers enabled by ERA were released across cosmology, epidemiology, engineering, and economics.\n\nGemini for Science was announced combining: AI Co-Scientist for hypothesis generation, ERA plus AlphaEvolve for computational modeling and discovery, and Literature Insights built with NotebookLM. Matias envisions any researcher including grad students and postdocs running a virtual lab using these tools and asking bigger questions earlier in their career."
+    },
+    {
+      "heading": "Speculative decoding and LLM efficiency research",
+      "text": "Speculative decoding is an algorithm developed at Google Research that accelerates LLM inference by double or more than double in both latency and throughput, without quality loss. Matias calls it an algorithmic free lunch. The technique has become an industry standard, effectively giving the entire world LLM performance equivalent to having at least twice as many chips. Applied to Gemma 4, a team achieved three-times performance improvement. Matias is still looking for 10x or 100x algorithmic or architectural improvements and expects non-linear step functions rather than gradual gains."
+    },
+    {
+      "heading": "Generative UI",
+      "text": "GenUI (Generative UI) is a research prototype that uses generative AI not only to create content but to decide how to present that content most effectively given its nature. The prototype moved from demo to deployment in Search and Gemini within months of the initial concept, which Matias cites as one of the fastest examples of the magic cycle he has seen. AI tools were used during development to accelerate the prototyping itself."
+    },
+    {
+      "heading": "LLM factuality research since 2021",
+      "text": "Google Research began work on LLM factuality in 2021, when very few in the field thought it would become critical. They published one of the first papers on measuring LLM consistency and by 2022 released the True benchmark for factuality evaluation. Results were applied to Bard, PaLM, PaLM 2, and Gemini in collaboration with Google DeepMind. A public factuality leaderboard encourages other developers to benchmark themselves. Matias notes factuality requirements become more nuanced as models take on agentic tasks: confidence levels in outputs matter as much as raw accuracy."
+    },
+    {
+      "heading": "Quantum computing: Willow chip and verifiable quantum advantage",
+      "text": "Google built its Quantum AI lab in 2012. The Nobel Prize in Physics 2025 recognized foundational work from the 1980s by Michel Devoret (Google Quantum AI lab), John Martinis (formerly of the lab), and John Clarke (Berkeley) on superconducting qubits.\n\nThe Willow chip achieved two milestones: (1) dramatically better quantum error correction performance than any previous system, demonstrating a path to scalable quantum computing; (2) verifiable quantum advantage, solving a specific problem 13,000 times faster than the best classical computer with independently verifiable results. Expected quantum advantages include material simulation, quantum sensing, and generating synthetic training data for AI models. Quantum will complement rather than replace classical computing."
+    },
+    {
+      "heading": "Education, LearnLM, and skills for the future",
+      "text": "Matias considers education the single most important lever for societal progress. Google Research developed LearnLM, a model tuned for educational use (re-leveling explanations, quizzes, real-time assessment). Integrated into Gemini, a Ghana high school teacher using a third-party LearnLM-based app reported students received daily assessment feedback instead of once or twice a week, and the teacher reclaimed five hours per week.\n\nLearn Your Way explores personalizing textbooks in multimodal form. AI Quest, developed with Stanford Education Center, exposes children to AI opportunities. Vantage, developed with NYU, attempts to measure and develop collaboration skills, which Matias argues will be more important than ever as the human role shifts toward asking the right questions and validating outputs.\n\nOn skills for the future: computational thinking and basic computer science fundamentals will become more important, not less, for the same reason mathematics remained important after calculators became widespread. Collaboration is a real skill that needs to be taught deliberately."
+    },
+    {
+      "heading": "Yossi Matias background and the research-product connection",
+      "text": "Matias worked at Bell Labs mathematical center during its heyday alongside visits from Paul Erdos. His most cited theoretical work was motivated by what was then the largest data warehouse in the world and helped found data stream analytics. Later at Google, he worked in Search leadership building Trends and Autocomplete. He led Google Duplex, the 2018 demonstration where an AI system made restaurant reservations by phone, motivated by his belief that conversational interaction with computers would become universal. He explicitly rejects the term technology transfer in favor of a bidirectional magic cycle where product problems create new research questions and vice versa."
+    }
+  ],
+  "read_time_minutes": 6.5
+}

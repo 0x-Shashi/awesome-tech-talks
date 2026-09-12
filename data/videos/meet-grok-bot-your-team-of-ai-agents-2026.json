@@ -1,0 +1,37 @@
+{
+  "id": "meet-grok-bot-your-team-of-ai-agents-2026",
+  "title": "Meet Grok Bot: Your Team of AI Agents",
+  "channel": "Cursor",
+  "speakers": [
+    "Amita"
+  ],
+  "url": "https://youtu.be/rkigdXf-52I",
+  "date": "2026-09-04",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we introduce Grok Bot , a team of always-on agents with memory, tools, and their own computers , across personal and engineering use cases.\n\nKey features covered:\n\nTeam of always-on agents:\n\nGrok Bot gives you persona-based bots that take on roles, delegate to each other, and message back and forth. You act as the CEO organizing your team.\n\nThree pillars:\n\nEvery bot has persistent memory stored in S3 with no context limit, access to your connected plugins and accounts, and its own remote computer that keeps running after you close your laptop.\n\nChief of Staff demo:\n\nSpin up inbox, calendar, and to-do bots that coordinate in a group chat. Organize your day by voice or text, and tag specific bots like you would in a group message.\n\nSkills \\& Teach a Task:\n\nSave shareable skills, or demonstrate a workflow on the bot's computer , like booking a flight , and it turns the demo into a reusable skill for gaps no plugin covers.\n\nRoutines \\& controls:\n\nTrigger bots on a schedule, message, or incident. Set granular rules so a bot asks before sensitive actions, like emailing external vendors or editing a shared calendar.",
+  "entities": [
+    "Cursor",
+    "Grok Bot",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Meet Grok Bot: Your Team of AI Agents",
+      "text": "In this session on Meet Grok Bot: Your Team of AI Agents, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Grok Bot, Cursor Agent work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

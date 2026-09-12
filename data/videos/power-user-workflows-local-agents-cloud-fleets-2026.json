@@ -1,0 +1,39 @@
+{
+  "id": "power-user-workflows-local-agents-cloud-fleets-2026",
+  "title": "Power-User Workflows: Local Agents, Cloud Fleets, and Automations",
+  "channel": "Cursor",
+  "speakers": [
+    "Mark"
+  ],
+  "url": "https://youtu.be/DeVWMPzg8gc",
+  "date": "2026-07-08",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover power-user workflows from local agents to cloud fleets and automations.\n\nKey workflows covered:\n\nAgents window \\& surfaces:\n\nManage local and cloud agents across repos from one pane. Use workspaces for multi-repo front-end and back-end work.\n\nAsk → Plan → Build:\n\nStart in Ask mode to orient in the codebase. Switch to Plan mode for an editable plan, then execute with Composer 2.5.\n\nSubagents \\& Multitask:\n\nSubagents delegate work in isolated context windows with their own models. Multitask lets you define parallel tasks in one session.\n\nCloud agents \\& skills:\n\nHand off long-running features to cloud agents with computer use. Monitor runs from desktop, web, or phone using repo skills.\n\nSkills, Marketplace \\& automations:\n\nPackage repeatable workflows as skills and share plugins via Marketplace. Trigger Jira-to-PR automations with webhooks and Slack updates.",
+  "entities": [
+    "Cursor",
+    "VS Code",
+    "Slack",
+    "Jira",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Power-User Workflows: Local Agents, Cloud Fleets, and Automations",
+      "text": "In this session on Power-User Workflows: Local Agents, Cloud Fleets, and Automations, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, VS Code, Slack work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

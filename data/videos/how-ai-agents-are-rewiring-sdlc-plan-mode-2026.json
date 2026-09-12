@@ -1,0 +1,42 @@
+{
+  "id": "how-ai-agents-are-rewiring-sdlc-plan-mode-2026",
+  "title": "How AI Agents are Rewiring the SDLC - Plan Mode and Agent Loops",
+  "channel": "Cursor",
+  "speakers": [
+    "Evette"
+  ],
+  "url": "https://youtu.be/c0JjmzmWLkg",
+  "date": "2026-09-04",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we cover how agents can plan, build, review, and recover across the SDLC.\n\nKey workflows covered:\n\nPlan and design:\n\nUse Plan Mode to write a spec with requirements, tests, and steps for the next agent. You can also start from a Jira or Linear ticket and pull context from Slack or Confluence.\n\nBuild:\n\nKeep short rules and skills so agents follow your repo's practices. Build on the IDE, CLI, or Agents Window, with rules always on and skills applied only when relevant.\n\nTest and review:\n\nRun Bugbot and Security Reviewer on every pull request. Bugbot can autofix low-severity issues and leave medium and high ones for an engineer.\n\nMonitor:\n\nTrigger a cloud agent from PagerDuty to pull Datadog, recent commits, and triage the incident before you sit down to debug.\n\nPlaybooks:\n\nStart small with a Slack trigger that opens a pull request. Then chain small skill-shaped agents the way Benny does for bug triage.",
+  "entities": [
+    "Cursor",
+    "Bugbot",
+    "VS Code",
+    "Datadog",
+    "Slack",
+    "Jira",
+    "PagerDuty",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of How AI Agents are Rewiring the SDLC - Plan Mode and Agent Loops",
+      "text": "In this session on How AI Agents are Rewiring the SDLC - Plan Mode and Agent Loops, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Bugbot, VS Code work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.2
+}

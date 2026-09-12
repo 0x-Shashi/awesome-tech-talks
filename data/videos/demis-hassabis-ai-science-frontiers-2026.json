@@ -1,0 +1,102 @@
+{
+  "id": "demis-hassabis-ai-science-frontiers-2026",
+  "title": "A new era of discovery: AI and the frontiers of science with Demis Hassabis",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Mike Allen",
+    "Demis Hassabis"
+  ],
+  "url": "https://youtu.be/dgBLVm2L1P4?si=1IKjLoQltfXyp98i",
+  "date": "2026-05-22",
+  "format": "Fireside Chat",
+  "level": "Beginner",
+  "topics": [
+    "Research/Papers",
+    "Product/Startup",
+    "AI Agents"
+  ],
+  "description": "We are at an incredibly exciting and consequential moment for AI. Join Google DeepMind co-founder and CEO Demis Hassabis for a conversation about how AI is helping to solve some of the most complex problems in science, and why we are on the cusp of a new golden age of discovery and exploration.",
+  "entities": [
+    "Google DeepMind",
+    "AlphaGo",
+    "AlphaFold",
+    "Isomorphic Labs",
+    "Genie",
+    "WeatherNext",
+    "Waymo",
+    "Gemini for Science",
+    "Gemini Spark",
+    "Gemini robotics",
+    "Gemini 3.5 Flash",
+    "Gemini Omni",
+    "AI Mode",
+    "Workspace",
+    "Nobel Prize in Chemistry",
+    "The Thinking Game (documentary)",
+    "The Infinity Machine (book)",
+    "Sebastian Mallaby",
+    "European Bioinformatics Institute",
+    "Hurricane Melissa",
+    "Navier-Stokes equations",
+    "AGI",
+    "AlphaGo vs Lee Sedol",
+    "DeepMind",
+    "Theme Park (game)",
+    "longevity escape velocity",
+    "Foundation series",
+    "Culture series",
+    "Godel Escher Bach",
+    "India AI Summit",
+    "Google I/O",
+    "Axios",
+    "Paul Nurse",
+    "Jennifer Doudna",
+    "CRISPR",
+    "Einstein test",
+    "singularity",
+    "continual learning"
+  ],
+  "segments": [
+    {
+      "heading": "Foothills of the singularity: AGI timeline around 2030",
+      "text": "Demis Hassabis elaborates on his I/O keynote statement that we are standing in the foothills of the singularity. He defines singularity not in the specific Kurzweil sense but as a descriptor for the era that AGI precipitates: a moment so transformative that making predictions beyond it becomes unreliable because so much will change. He places AGI arrival at around 2030, plus or minus a year, based on current trajectory. He describes 2026-2027 as the period when people are starting to feel the acceleration, pointing to agentic systems as the leading indicator. His personal marker: he can now vibe-code a game prototype in a spare hour or two that would have taken six months before."
+    },
+    {
+      "heading": "The Einstein test as the AGI threshold",
+      "text": "Hassabis clarifies that AGI will not arrive as a single dramatic moment but as a gradual, fast improvement. His personal test for full AGI is what he calls the Einstein test: imagine a frontier model with a knowledge cutoff of 1901. Could it independently derive the insights Einstein produced in his 1905 miracle year, including special relativity? Current systems clearly cannot. Hassabis sees no fundamental reason why future systems should not be able to, but this requires a kind of creative leap or genuine insight that current models lack. That creativity and leap-of-insight quality is what he is specifically watching for."
+    },
+    {
+      "heading": "Google's competitive position: full-stack advantage",
+      "text": "Hassabis argues that Google's main structural advantage is its unique full-stack position: chips, data centers, cloud, frontier lab, and billion-user consumer products that already have AI embedded. No other organization has all of these simultaneously. The biggest recent change is rewriting the tech stack from the ground up to be AI-first and then agent-first, enabling direct deployment of the latest model improvements across all surfaces at massive scale. Consumer metrics cited: Gemini app at 900 million monthly active users with significant recent growth. AI Mode in Search is described as unbelievably popular. On small, efficient models: critical for serving billions of users internally and for enterprise customers at scale."
+    },
+    {
+      "heading": "The AI backlash: why, and what to do about it",
+      "text": "Hassabis acknowledges the backlash but disagrees with how some peers communicate about AI. His framing: AI will be 10 times the impact of the Industrial Revolution, possibly 10 times faster (over a decade vs. a century), which he describes as roughly 100x the Industrial Revolution and possibly an underestimate. He does not claim certainty about net job effects: nobody knows whether there will be more or different jobs. His response to the backlash: demonstrate unequivocal concrete benefits, especially through AI for Science work in drug discovery, material science, mathematics, and energy. He is optimistic about human ingenuity to find productive uses, pointing to enthusiasm from young people at the India AI Summit who see AI democratizing access to tools that previously required teams of 50 experts."
+    },
+    {
+      "heading": "AlphaFold: the decision to fold every protein and release it free",
+      "text": "A clip from the documentary The Thinking Game shows the moment in a DeepMind meeting when Hassabis realized the right deployment strategy for AlphaFold. The system was accurate and fast (folding a protein in seconds). Knowing approximately 200 million proteins were known to science, a back-of-envelope calculation told him the entire set could be folded with available compute. He instantly rejected the conventional approach (set up a server, have scientists submit sequences one by one) in favor of folding everything and releasing it free to the world. The database was built in partnership with the European Bioinformatics Institute in Cambridge and is accessible at essentially the speed of a Google Search. He frames this as the highest-impact deployment of the breakthrough possible."
+    },
+    {
+      "heading": "Simulations, Genie, and weather prediction",
+      "text": "Hassabis has been interested in simulations since writing Theme Park in 1994, one of the first AI simulation games. He sees AI and simulations as complementary in two directions: AI can learn simulations of complex phenomena (WeatherNext learning to predict hurricane paths from data rather than solving Navier-Stokes equations by hand), and simulations can provide training data for AI systems. The Genie 3D interactive model is used to test Waymo self-driving systems in one-in-a-billion edge cases: what if there is a forest fire while driving, a biplane has made an emergency landing on the motorway, or an elephant appears in the road? These scenarios never appear in normal training data but reveal whether systems behave safely in extreme conditions."
+    },
+    {
+      "heading": "What is missing from current AI systems: jagged intelligence and continual learning",
+      "text": "Hassabis identifies two major gaps in current frontier models that AGI systems would not have:\n\n1. Jagged intelligence: current models can excel at hard problems in certain framings but fail at strictly simpler versions of the same problem when presented slightly out of distribution. True general intelligence does not exhibit this inconsistency. A human expert who is good at a domain can solve easier problems in that domain too.\n\n2. Continual learning: current models do not learn after deployment. Hassabis wants systems that can adapt and learn from experience after their initial training run, connected to personalization and the ability to update their knowledge to the user's specific context.\n\nFor I/O 2027, he expects agents embedded in real workflows as a major theme, and significant robotics advances from world models like Gemini robotics applied to multiple physical form factors."
+    },
+    {
+      "heading": "Self-improvement and verifiable domains",
+      "text": "Hassabis identifies AI self-improvement as the central area of active investment across leading labs. Coding and mathematics are special because their outputs are verifiable: you can check whether a solution is correct. This verifiability enables generating synthetic training data and creates a compounding flywheel: better models write better code, which can be used to generate more training data, which trains better models. He describes this as evidence of a very interesting compounding dynamic. Cybersecurity becomes increasingly important as agents grow more powerful: ensuring that agents delegated to long-running tasks are doing exactly what they were instructed to do, no more and no less, in a verifiable and monitorable way."
+    },
+    {
+      "heading": "Why Hassabis chose to build AI: the science motivation",
+      "text": "Hassabis traces his motivation to childhood fascination with the biggest questions in science: the nature of reality, consciousness, time, quantum mechanics. He noticed that physics, his favorite subject, had not made fundamental progress since the early 20th century (Einstein, Heisenberg), and formed the hypothesis that brilliant human minds were approaching the limit of what they could comprehend unaided. Reading biographies of Feynman, Einstein, and Weinberg reinforced this. Combined with science fiction (Asimov's Foundation, Iain Banks's Culture series) and philosophy (Godel, Escher, Bach), he concluded that building AI was both the most interesting scientific artifact in itself and the most useful tool for advancing the other frontiers of knowledge. This motivation predates any external validation of the approach; he says he would still be working on AI even if it had remained a niche academic subject.\n\nSebastian Mallaby's biography The Infinity Machine is based on more than 30 hours of conversations in a London pub (coffee, not alcohol), which Hassabis says went fast because of the wide-ranging intellectual discussions."
+    },
+    {
+      "heading": "Silicon Valley freneticism vs. the need for direction",
+      "text": "Hassabis observes that the Bay Area startup ecosystem has unmatched builder energy but also a freneticism that he cautions against. His specific concern: speed is favored over direction, but running at 100 miles per hour in the wrong direction is worse than standing still and thinking carefully about where to go. He argues that the next major advances will come from deep-tech applications of AI to hard science, which require years of sustained effort before results appear, and are incompatible with a purely high-velocity, reactive approach. His advice: build in quiet, reflective time to think deeply about what you are trying to accomplish and whether the direction is correct, not just whether you are moving fast."
+    }
+  ],
+  "read_time_minutes": 4.9
+}

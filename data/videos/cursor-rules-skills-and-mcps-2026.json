@@ -1,0 +1,41 @@
+{
+  "id": "cursor-rules-skills-and-mcps-2026",
+  "title": "Cursor Rules, Skills, and MCPs",
+  "channel": "Cursor",
+  "speakers": [
+    "Kiara"
+  ],
+  "url": "https://youtu.be/PJA9sWBWkEI",
+  "date": "2026-08-31",
+  "format": "Workshop",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "AI Coding Tools"
+  ],
+  "description": "In this workshop, we break down rules, skills, MCPs, and sub-agents , and when to use each , building a real feature in Adobe's open-source React Spectrum repo.\n\nKey topics covered:\n\nRules vs skills:\n\nRules are persistent instructions the agent always respects; skills are specialized helpers invoked only when needed. Both live as files in the .cursor folder.\n\nCreating rules:\n\nUse /create rule or plain language to set team, personal, or org standards. Examples: require an accessible name on every interactive component, or print localhost on each UI change.\n\nCreating skills:\n\nSave reusable workers as Markdown files. Invoke them with a slash command or let the model pick them up, and nest parent and child skills for bigger tasks.\n\nMCPs:\n\nThink of MCPs as APIs for agents. Connect tools like Granola, Slack, or Atlassian via OAuth to pull notes, raise Jira tickets, and publish Confluence documentation without leaving Cursor.\n\nSub-agents:\n\nEach sub-agent gets its own context window. Spawn up to 8 per agent, and 8 more each, to preserve context without compression , great for standardizing how tickets get implemented.\n\nMarketplace \\& plugins:\n\nPublish and share rules, skills, MCPs, and sub-agents from the marketplace. A plugin bundles several together, like Atlassian's MCP plus its skills.",
+  "entities": [
+    "Cursor",
+    "Cursor CLI",
+    "Cursor Rules",
+    "VS Code",
+    "Slack",
+    "Jira",
+    "Cursor Agent"
+  ],
+  "segments": [
+    {
+      "heading": "Core Concepts and Architectural Foundations of Cursor Rules, Skills, and MCPs",
+      "text": "In this session on Cursor Rules, Skills, and MCPs, the focus centers on understanding the practical design patterns and developer workflows enabled by modern AI-assisted engineering. As development teams adopt agentic systems, the boundaries between manual code authorship and automated synthesis begin to blur. The speakers emphasize that establishing reliable context is paramount: providing the right repository structure, explicit project rules, and scoped documentation allows the underlying models to generate precise, syntactically correct implementations. By anchoring the discussion in real-world scenarios, the talk demonstrates how engineering productivity accelerates when tools operate directly within the IDE, reducing friction and eliminating disruptive context switching across disjointed external interfaces."
+    },
+    {
+      "heading": "Technical Implementation, Tooling, and Workflow Patterns",
+      "text": "Diving deeper into operational mechanics, the presentation details how specific platform capabilities interact to execute complex programming tasks. Key components such as Cursor, Cursor CLI, Cursor Rules work in concert to maintain project state and navigate intricate dependency graphs. The session highlights the importance of deterministic tool calling, background agent execution, and structured feedback loops. Developers are guided through concrete demonstrations showing how natural language prompts are parsed into multi-file diffs, verified against local unit tests, and iteratively refined before final commit. This pattern ensures high reliability across both legacy refactoring and greenfield service development."
+    },
+    {
+      "heading": "Evaluation, Best Practices, and Future Directions",
+      "text": "The concluding segment addresses best practices for scaling agent-driven development across larger teams. Speakers discuss token efficiency, model selection economics, and safety guardrails required when granting agents access to internal APIs and production repositories. Teams must establish clear evaluation benchmarks to verify that automated contributions maintain rigorous security and code quality standards. By combining automated linting, continuous integration checks, and human-in-the-loop review, organizations can safely harness autonomous agents to resolve routine maintenance tasks, documentation updates, and cross-repository migrations while preserving engineering velocity."
+    }
+  ],
+  "read_time_minutes": 1.1
+}

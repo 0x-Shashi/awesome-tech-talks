@@ -1,0 +1,42 @@
+{
+  "id": "running-an-ai-native-engineering-org-2026",
+  "title": "Running an AI-native engineering org",
+  "channel": "Claude",
+  "speakers": [
+    "Fiona Fung"
+  ],
+  "url": "https://youtu.be/IA5LWIGqnyM",
+  "date": "2026-05-22",
+  "format": "Talk",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "Web Development"
+  ],
+  "description": "When agentic coding goes from individual tool to org-wide default, the tool isn't the hard part…your processes are. Fiona Fung, Leader for Engineering and Product for Claude Code and Cowork, walks through how the bottlenecks changed at Anthropic (review, ownership, hiring) and the norms we rewrote to keep shipping.",
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Projects"
+  ],
+  "segments": [
+    {
+      "heading": "Architecture and Core Concepts in Running an AI-native engineering org",
+      "text": "Well, thank you so much for joining me\ntoday. I'm excited to speak with all of\nyou about, you know, some lessons I've\nlearned as I've been leading uh cla code\nand co-work. So, actually, first I\nshould do an intro. So, yeah, my name is\nFiona Fun and I lead engineering and\nproduct for cloud code and co-work. Before Enthropic, I had also built and\nled teams at Meta and Microsoft. So, with that, let's dive into some\nlessons I'm excited to share with all of\nyou. Hopefully, maybe you'll find a\ncouple of tidbits that may be helpful to\nyou. There are five topics I really want\nto cover today."
+    },
+    {
+      "heading": "Technical Mechanics, Implementation Patterns, and Tooling",
+      "text": "But very often we\nforget to audit to go wait are those\nprocesses still required or is it still\nserving its purpose? For example,\nwhat were some of the things that we had\nto change? Planning norms when coding is\nno longer you know the the the\nbottleneck and and not like and you have\nlike much more coding bandwidth how did\nwe rethink through planning uh code\nownership is also another interesting\nquestion almost all the claude code\ncommits now are also you know\nco-authored by claude I don't think I've\nin the last few months ever saw a commit\nthat wasn't a code review is a good one\nlike that's a lot of questions I get a\nlot as well also team makeup roles are\nblurring and what are the skill sets\nthat we're thinking, hey, you know what? These are actually skill sets we're kind\nof like doubling down into also\nknowledge sharing. What happens when\nmaybe documentation is no longer your\nsource of truth? Given some of those\nshifts, these are some of the team norms\nthat we had to rewrite. We talked about code review uh and\nactually cat this morning in the talk\nreally talked about clot code review as\nwell. That was a really like that's how\nan amazing tool for us to make sure\nwe're all still doing the right thing."
+    },
+    {
+      "heading": "Operational Workflows, Evaluation, and Production Scaling",
+      "text": "You you\nyou create you turn Claude into Mr. Peanut's an\nAmerican brand.\" in in in the US we had\nthis jar of peanuts and you know their\ntheir mascot is this little peanut\ncharacter and I was like holy crap\nthat's totally right. I I thought he was\na nomad, but you're right. So that's where like humans\nalso like with that product sense, it's\nreally important to keep that expertise\nin the loop as well. Now, what should my team makeup be? Because roles are blurring and clog is\naugmenting. So when it comes to\nengineering, these are the two profiles\nthat I now really like focus on. One is\ncreative builders with product sense."
+    },
+    {
+      "heading": "Strategic Implications, Governance, and Key Takeaways",
+      "text": "Again,\nit's the e even our team principles and\neven processes that we put on even after\na few months when we notice, hey, is\nthis really serving its intended\npurpose, we really always give ourselves\npermission to always critique and make\nsure to always revisit and but bottoms\nup there's a lot of freedom for you know\nlike you know team or pods to adapt. For example, how cloud shows up in team\ntriage or any teams like planning\nrituals or standups or which workflows\nget cloudified first that is a lot of\nbottoms up. I found that this balance\nof make sure you align with the team in\nterms of like what's important in terms\nof team culture and also update those as\nyou go but then leave some room for each\npod to adapt. If I zoom out what were the three\nthings that I prioritized for cloud code\nand co-work that I think has worked\nreally well. Number one it was you\nknow like keeping the org agile and as\nflat as possible having managers also\nyou know like support pots of work but\nlike also really get into the codebase\nand be directly responsible for parts of\nthe product as well. Number two\nthat's quadify so if cla can do it\nclaude should. That's always a\nquestion we're asking and and maybe\nthat's the other interesting too like um\nyou know this morning you heard the\ntalks about the models the models are\nimproving at an amazing pace. Sometimes we might find even if cla\nwasn't good at doing something two or\nthree months ago now with like a model\nupdate it's actually gone really good."
+    }
+  ],
+  "read_time_minutes": 3.0
+}

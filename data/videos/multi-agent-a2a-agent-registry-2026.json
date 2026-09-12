@@ -1,0 +1,79 @@
+{
+  "id": "multi-agent-a2a-agent-registry-2026",
+  "title": "Build a multi-agent system: A2A and Agent Registry",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Annie Wang",
+    "Sita Lakshmi"
+  ],
+  "url": "https://youtu.be/-MME36Ft9Gc?si=sX4r_L4j8pdKh-m4",
+  "date": "2026-06-27",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "When you have 100 AI agents across your org, how do they find and talk to each other? This episode of Hands On AI covers Agent2Agent (A2A) protocol and Agent Registry. Build a production-ready multi-agent system: start with A2A (HTTP for AI agents), then solve agent sprawl with Agent Registry so your agents discover each other instead of hard-coding URLs. Built live with a dog walker agent and a trip planner agent using Google's Agent Development Kit (ADK), then orchestrated together.",
+  "entities": [
+    "Agent2Agent (A2A) Protocol",
+    "Agent Registry",
+    "Agent Development Kit (ADK)",
+    "ADK 1.x",
+    "to_a2a (ADK helper)",
+    "Agent card (/.well-known/agent-card.json)",
+    "Gemini Flash",
+    "Google Maps API",
+    "Cloud Console",
+    "Vertex AI Agent Platform",
+    "gcloud CLI",
+    "LangChain",
+    "LangGraph",
+    "CrewAI",
+    "Server-Sent Events (SSE)",
+    "Google Application Default Credentials",
+    "OAuth",
+    "MCP servers",
+    "Sequential agent (ADK)",
+    "Agent policies (private preview)"
+  ],
+  "segments": [
+    {
+      "heading": "What is Agent2Agent (A2A): HTTP for AI agents",
+      "text": "A2A (Agent to Agent) protocol is Google's open protocol for inter-agent communication, announced in 2025. The analogy: just as HTTP lets any browser talk to any web server regardless of the server software, A2A lets agents built with any framework (ADK, LangChain, LangGraph, CrewAI) discover and communicate with each other. Agents expose an agent card at /.well-known/agent-card.json: a JSON file describing their name, description, capabilities, and the URL to connect to them. This serves as the agent's LinkedIn profile or business card."
+    },
+    {
+      "heading": "When to use A2A vs. local sub-agents",
+      "text": "ADK supports local sub-agents (sequential and workflow agents) that run in-process. A2A is preferred when agents need to run remotely and independently, when loose coupling is required for easier maintenance and independent deployment, or when agents are built by different teams or with different frameworks. Without A2A, each inter-agent connection requires custom HTTP endpoints, custom authentication, and hardcoded URLs. With A2A, all of this is standardized and agents can be updated independently without redeploying the entire system."
+    },
+    {
+      "heading": "Synchronous vs. asynchronous A2A communication",
+      "text": "A2A supports two communication modes. Synchronous polling: the client agent repeatedly calls the remote agent to check for results (analogous to standing in a bubble tea shop repeatedly asking if the order is ready). Streaming with Server-Sent Events (SSE): the client subscribes to the remote agent and receives push notifications when results are available (analogous to getting a push notification when the order is ready). Both modes can be configured in A2A."
+    },
+    {
+      "heading": "Demo: wrapping an ADK agent as an A2A remote agent",
+      "text": "The dog walker agent is a standard ADK LLM agent using Gemini Flash with four tools: get_dog_profile, get_local_weather, find_park, and find_walk_route. Wrapping it as an A2A remote agent requires adding to_a2a from the ADK library in a server.py file. The agent card is either auto-generated or customized with skills metadata. Once wrapped, the agent serves a JSON agent card at /.well-known/agent-card.json. A trip planner agent on the client side connects to the dog walker by reading its agent card URL and calling it via A2A. This requires only the agent card URL to be known at design time."
+    },
+    {
+      "heading": "Agent sprawl and why Agent Registry solves it",
+      "text": "Agent sprawl occurs when an organization has many agents (tens to hundreds) spread across cloud, on-premises, and hybrid environments. Problems: no central inventory of what agents exist or who owns them, each agent requires custom connection logic, no governance or auditability. Agent Registry solves three problems: (1) reusability, agents and MCP servers are registered once and discoverable by any agent in the organization; (2) standardized connectivity, one way to connect to any registered agent, MCP server, or endpoint regardless of their implementation; (3) governance and audit, cloud-native audit compliance, cost tracking, and risk monitoring in a central view. Agent Registry is not limited to ADK: LangGraph, CrewAI, and agents hosted in other clouds or on-premises can all be registered."
+    },
+    {
+      "heading": "Registering agents via gcloud and Cloud Console",
+      "text": "Agents are registered using either the gcloud CLI command (which passes an agent card JSON to create a new Agent Registry service entry) or the Cloud Console UI (paste-from-JSON flow). After registration, the console shows each agent's ID, protocol (A2A), and skills. Google Cloud's own MCP servers are pre-populated in Agent Registry and can be discovered and enabled from the console. Agent policies (currently in private preview) allow administrators to restrict which agents or MCP servers a given agent is permitted to call."
+    },
+    {
+      "heading": "Connecting through Agent Registry instead of hardcoded URLs",
+      "text": "Agent Registry exposes an MCP server. Instead of hardcoding agent URLs in orchestrator code, the orchestrator connects to the Agent Registry MCP server, passes tags or descriptions in a prompt, and the registry dynamically returns the URL for the correct agent or MCP tool. The returned URL is then used to make the A2A call. This eliminates hardcoded URLs and allows the system to scale as new agents are added without code changes. The same pattern works for MCP tool discovery: the orchestrator uses the registry to dynamically find and call MCP servers."
+    },
+    {
+      "heading": "Demo: orchestrator agent using Agent Registry (dog walker plus trip planner)",
+      "text": "The orchestrator agent sends a single prompt (walk Bobby this afternoon and plan a two-day trip to Lisbon) to the sequential ADK agent. The agent calls the Agent Registry MCP server to search for the registered dog walker and trip planner agents, gets back their IDs and URLs, and then uses call_remote_agent to make A2A calls to each. The result combines a trip summary with a pet care routine. The same orchestrator pattern can be extended so that sub-agents (dog walker, trip planner) themselves query the registry to discover and call MCP tools like Google Maps dynamically."
+    },
+    {
+      "heading": "Authentication in A2A and Agent Registry",
+      "text": "Agent Registry and A2A use Google Application Default Credentials by default. Agents authenticating with gcloud auth login or service accounts use those credentials. For user-delegated credentials (three-legged OAuth), the access token must be fetched and refreshed separately, then passed to the agent. User-credential flows with OAuth will be covered in a future episode."
+    }
+  ],
+  "read_time_minutes": 3.1
+}

@@ -1,0 +1,90 @@
+{
+  "id": "doug-liman-directing-future-2026",
+  "title": "Directing the future: craft and creativity in the age of AI",
+  "channel": "Google for Developers",
+  "speakers": [
+    "Mira Lane",
+    "Doug Liman",
+    "Julina Tatlock",
+    "Jed Weintrob"
+  ],
+  "url": "https://youtu.be/3AIme0FZr4g?si=A0moCFMArrYeJTmL",
+  "date": "2026-05-22",
+  "format": "Fireside Chat",
+  "level": "Beginner",
+  "topics": [
+    "Product/Startup",
+    "Research/Papers",
+    "AI Agents"
+  ],
+  "description": "Go behind the scenes with filmmaker Doug Liman, his production partners at 30 Ninjas Julina Tatlock and Jed Weintrob, and Google's Mira Lane as they explore the intersection of cinematic craft and AI. Join them for a look into their latest collaborations and how the world's leading storytellers are directing these new tools to push the boundaries of filmmaking.",
+  "entities": [
+    "30 Ninjas",
+    "Veo",
+    "Gemini Live",
+    "Gemini Omni",
+    "Android XR",
+    "Google Cardboard",
+    "Galaxy XR",
+    "Unity",
+    "DK Metcalf",
+    "Casey Affleck",
+    "Gal Gadot",
+    "Pete Davidson",
+    "Hailee Steinfeld",
+    "Ron Perlman",
+    "Jake Gyllenhaal",
+    "Conor McGregor",
+    "Bitcoin (film)",
+    "ASTEROID (film)",
+    "Invisible (VR series)",
+    "Roadhouse (film)",
+    "The Bourne Identity",
+    "Mr. and Mrs. Smith",
+    "Edge of Tomorrow",
+    "Swingers",
+    "Wolf of Wall Street",
+    "Tom Cruise",
+    "Emily Blunt",
+    "Warner Bros.",
+    "Universal",
+    "DeepMind",
+    "Google I/O",
+    "Cannes",
+    "Craig Wright",
+    "Guinness Book of World Records",
+    "Gaudi church",
+    "Sagrada Familia"
+  ],
+  "segments": [
+    {
+      "heading": "Technology as a creative tool through Doug Liman's career",
+      "text": "Doug Liman frames his relationship with technology as continuous throughout his career. Swingers (1996) was made possible by a new high-speed Kodak film stock that enabled shoestring-budget night-exterior shooting that would not have been feasible two years earlier. He went on to make the first long-form VR series (Invisible, 2015, with Google Cardboard), entering the Guinness Book of World Records for it. He describes his approach as jumping into journeys without knowing how they will end, like guiding whitewater rafting trips where not everyone ends the trip in the boat. He joined Google's AI film initiative 2.5 years ago when Google suggested a short film; he arrived with a full feature script."
+    },
+    {
+      "heading": "Bitcoin: the first fully AI studio feature film",
+      "text": "Bitcoin is the first fully AI studio feature film. It stars Casey Affleck as Craig Wright (the man who may or may not have created Bitcoin), Pete Davidson as a billionaire making the biggest financial gamble in history, and Gal Gadot as a reporter trying to determine the truth. The cast includes approximately 125-140 actors across around 150 locations worldwide, significantly more than a typical Bourne Identity-scale film. Liman describes the story's theme as resonant with AI filmmaking: the Bitcoin ethos of trust-verify, do not trust humans but let computers verify, mirrors the tension between human creativity and machine generation in the film's production.\n\nAll performances were captured on a single stage over 4.5 weeks of production, following 6 months of prep and R&D. Post-production was initially estimated to take 40 years; it has since been compressed to 6 months, fitting within a conventional film schedule. A 10-minute preview was shown at Cannes before the Google I/O presentation."
+    },
+    {
+      "heading": "How AI removes location and budget constraints for filmmakers",
+      "text": "One of the most significant discoveries for Liman was the elimination of the traditional director-producer negotiation over locations and budget. In conventional filmmaking, if a director wants to shoot in Vegas, the producer counters with a basement conference room; trade-offs are constant. With AI-generated environments, Liman realized he could go to Vegas and Antigua in the same film without choosing between them. This changed how he wrote the script: instead of condensing a story to 40 scenes across a manageable number of locations, Bitcoin spans approximately 150 locations because the only constraint is whether each location actually serves the story. He wanted to make Wolf of Wall Street look sleepy in terms of scale and excess.\n\nThe expanded location count created more work, not less: 150 locations require characters and people in each one, so casting expanded rather than contracted. Liman explicitly chose not to use any AI-generated performances; every actor in the film is a human being."
+    },
+    {
+      "heading": "The production workflow for Bitcoin",
+      "text": "Julina Tatlock served as AI supervisor on set during the capture phase. The workflow:\n\n1. Performances captured on stage with witness cameras. Liman composed specific shots on set rather than capturing only raw data, because ASTEROID taught him that editing pure data without pre-selected shots is unworkable.\n2. AI artists worked with the art department and production designer to generate environments as stills and frames.\n3. Generated frames were fed into an animatic so Liman could evaluate in near-real-time whether scenes were working.\n4. Scenes that were not working in the animatic were rewritten and reshot on stage.\n5. Post-production: generated footage is assembled into scenes using the captured performances and composed shots as anchors. Witness cameras provide backup angles that Liman can choose to use in post if he changes his mind about a shot.\n\nJed Weintrob describes 30 Ninjas's production pipeline as explicitly agile: it changes every couple of weeks as new tools become available, unlike traditional VFX studio pipelines that are largely fixed. Gemini Omni was specifically credited with enabling the six-month post timeline."
+    },
+    {
+      "heading": "ASTEROID: immersive VR film with AI interactive character extension",
+      "text": "ASTEROID is a film shot in 180-degree stereoscopic for the Galaxy XR headset. The story involves a cast including DK Metcalf (NFL wide receiver, playing a version of himself) and other characters on an asteroid mission, most of whom do not survive. The film was directed by Liman and was made as part of a collaboration with the Android XR team.\n\nAfter the film, Google approached 30 Ninjas about extending the story through an agentic interactive character. The extension: DK Metcalf's character, thought to be dead, turns out to be stranded on the asteroid. The viewer assumes the role of a NASA employee on Earth and must use voice conversation to help DK survive and be rescued.\n\nTechnically, the interactive character is built in Unity and uses the Gemini Live native audio API for natural language conversation. Julina Tatlock notes that Gemini Live native audio, which arrived approximately four months before the premiere, was the key capability that made natural conversational interaction possible rather than scripted NPC dialogue. The character is trained not just on DK Metcalf's real persona (he can discuss football, his career, and his personality) but specifically on DK-as-character-in-the-story (he knows he is stranded, has the stakes of the film's world).\n\nPreparing the character required approximately 1,000 pages of writing to put the character through situations, establish behavioral guardrails, and define responses. For example: if a user tries to get DK to trash-talk other NFL players, the character diplomatically redirects. The writing process is substantial, not automated: the character requires a complete backstory, training, testing, and approval from DK Metcalf himself. Liman compares the interactive extension to sequels: instead of making a traditional sequel, the interactive chapter continues the story for audiences who want to stay in the world."
+    },
+    {
+      "heading": "AI writing and jobs: the reality at 30 Ninjas",
+      "text": "Mira Lane raises the question of whether AI is replacing screenwriters. The 30 Ninjas experience is the opposite: AI-driven expansion of scope creates more work, not less. Liman notes that many of his film industry peers are currently not working because the overall number of large productions has declined sharply. 30 Ninjas is hiring them: top film editors, screenwriters generating shot sequences for Bitcoin, an award-winning Brazilian feature film editor (since Brazil no longer finances large-budget films) who discovered AI tools and made AI shorts, was discovered at a festival by Tatlock, and is now a lead creative at 30 Ninjas. The company is also hiring AI-native artists alongside experienced filmmakers.\n\nWeintrob is explicit: we are creating jobs, not generating them through AI. The expansion of scope in Bitcoin (150 locations, 125+ actors) created more casting and production work than a traditionally budgeted production would."
+    },
+    {
+      "heading": "Advice for filmmakers working with AI tools",
+      "text": "Jed Weintrob: Just go do it. Google and other companies have invested billions of dollars in tools that give any filmmaker access to capabilities previously unavailable. Use them. The best way to get hired at 30 Ninjas was to make AI shorts independently and be found through festivals.\n\nJulina Tatlock: Learn what the tools do well, but also try to break them and make them produce results that look unlike everything else. AI video generation has recurring tendencies (subjects centered in frame, certain lighting patterns) that become stylistic fingerprints. Find the edges where the models fail in interesting ways and incorporate that into story and visual style deliberately. In Bitcoin, some scenes told in memory or from a past perspective lean into the specific visual qualities that AI generation produces.\n\nDoug Liman: The advice is essentially the same as for traditional filmmaking: chart your own path, do not copy what exists, and do not use AI to skip the creative work. Using a language model to write a scene for you produces results that are terrible precisely because they are generic. The tools should amplify your humanity and your specific creative voice, not substitute for it."
+    }
+  ],
+  "read_time_minutes": 5.0
+}

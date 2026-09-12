@@ -1,0 +1,78 @@
+{
+  "id": "intent-driven-development-2026",
+  "title": "Intent-driven development with Claude Code and Fable 5",
+  "channel": "Google Cloud Tech",
+  "speakers": [
+    "Smitha Kolan",
+    "Lydia Hallie",
+    "YK Sugi"
+  ],
+  "url": "https://youtu.be/6ERUGFurDHY?si=6ARv2tiq-dVOqRFu",
+  "date": "2026-07-06",
+  "format": "Demo",
+  "level": "Intermediate",
+  "topics": [
+    "AI Coding Tools",
+    "AI Agents",
+    "Backend/Infra"
+  ],
+  "description": "Are you still writing your software architecture line by line, or are you letting autonomous agents do the heavy lifting? In this episode of The Agent Factory, we explore the radical shift toward intent-driven development, where your job is to tell the AI what to build rather than how to build it. Host Smitha Kolan sits down with Lydia Hallie from Anthropic and YK Sugi, the creator of CS Dojo and author of the viral Claude Code Tips repository.",
+  "entities": [
+    "Claude Code",
+    "Fable 5",
+    "Anthropic",
+    "CS Dojo",
+    "Claude Code Tips repository",
+    "Auto Mode",
+    "Claude Design",
+    "Dynamic Workflows",
+    "Gemini Enterprise Agent Platform",
+    "Vertex AI",
+    "Three.js",
+    "Ammo.js (ammo wrap)",
+    "Playwright",
+    "Claude Cowork",
+    "GitHub CLI (GH)",
+    "Claude bot",
+    "Opus 46",
+    "setup-vertex wizard",
+    "intent-driven development",
+    "permission fatigue",
+    "The Agent Factory podcast"
+  ],
+  "segments": [
+    {
+      "heading": "Intent-driven development: expressing what, not how",
+      "text": "YK Sugi coined intent-driven development as distinct from prompt-engineering advice. The principle is knowing exactly what you want to build and expressing that intent clearly, rather than specifying implementation steps. One concrete tip: use voice-to-type instead of keyboard typing. Voice allows faster, less self-censored expression of intent. Lydia Hallie (Anthropic) notes the team internally focuses on verification as a core part of intent: plan mode, adding images, and using structured prompts that give Claude context on what the developer actually wants."
+    },
+    {
+      "heading": "Claude Code at enterprise scale via Gemini Enterprise Agent Platform",
+      "text": "Claude Code runs locally by default but can be pointed at Google Cloud's Vertex AI backend for enterprise-scale deployment. Setup: install gcloud SDK, set Project ID from Cloud Console, enable Vertex AI API, set environment variables for Vertex AI integration, then start Claude. Alternatively, the built-in setup-vertex wizard handles most steps automatically: it checks application default credentials, selects a project, runs a quick haiku-level model check, and lists available models including Opus 46 and Fable 5."
+    },
+    {
+      "heading": "Demo: building a 3D slingshot game via voice prompts",
+      "text": "YK demonstrated intent-driven development by building a 3D physics slingshot game using Three.js and ammo wrap (a physics library). The workflow: start broad (what architecture and libraries to use, asking Claude to suggest options), then iterate narrower (add trajectory preview, then shatter targets). Claude autonomously ran Playwright tests it was not asked to run. YK prompted entirely by voice. The game was committed to a public GitHub repository via Claude, with a draft PR created automatically using Claude's GitHub CLI integration."
+    },
+    {
+      "heading": "Auto Mode: the solution to permission fatigue",
+      "text": "Permission fatigue occurs when Claude Code asks confirmation for every action, causing users to approve without reading. The previous bypass option was skipping permissions entirely, which is dangerous. Auto Mode sits between the two: it runs a classifier on each tool call to assess danger. If the tool call is clearly dangerous (deleting an unexpected file), it asks. If it is a routine read, edit, or write the user implicitly approved by initiating the task, it proceeds silently. Auto Mode is also more resistant to prompt injection because the classifier catches instructions embedded in tool outputs."
+    },
+    {
+      "heading": "Dynamic Workflows: parallel subagents with a JavaScript plan file",
+      "text": "Dynamic Workflows is a Claude Code feature invoked by natural language: the phrase use a dynamic workflow causes Claude to generate a structured JavaScript workflow file. That file defines named build phases (for example, build-engine, build-UI, build-audio, build-haptics) that run in parallel, followed by sequential integration, review, and verify phases. The workflow can be saved with a name and re-run deterministically. Individual subagents within the workflow can be configured to use different models (for example, cheaper Sonnet for low-complexity agents, Fable 5 for complex ones). Lydia ran the demo on Fable 5."
+    },
+    {
+      "heading": "The software engineer role is shifting toward product manager",
+      "text": "Lydia Hallie frames the shift: with Claude Code generating most code, the engineer's role moves toward understanding architecture, owning feature intent, and reviewing output. The analogy: just as machine code once mattered but engineers now focus on higher-level abstractions, engineers are moving from writing syntax to owning architecture and taste. The review ratio has inverted: previously 90% writing, 10% reviewing; now 90% reviewing, 10% hand-coding. YK adds that engineers must remain responsible for output and not commit generated code blindly."
+    },
+    {
+      "heading": "Claude Code as a universal computer interface",
+      "text": "YK uses Claude Code for video editing, data analysis, storage cleanup, research, and real estate research. He used it to compile a list of realtor email addresses when buying a property, saving him roughly $10,000 in commission. The terminal is returning as the universal interface to the computer. Lydia notes that internally at Anthropic, non-engineering teams (marketing, data science) started using Claude Code for non-coding tasks, which led the team to build Claude Cowork: a desktop app that uses the same runtime but has better connectors and system prompts for non-technical tasks like email, calendar management, and booking."
+    },
+    {
+      "heading": "Craft, technical debt, and the Hacker News debate",
+      "text": "A recurring debate on Hacker News argues that AI coding tools reduce craft and increase technical debt. YK's position: the engineer is responsible for the output, not the tool. Just as a painter using an automated brush is still accountable for the painting, engineers should not commit generated code they have not verified. The solution is drafting PRs, reviewing manually or with AI before merging. Lydia notes that having Claude-bot enabled on GitHub means it automatically attempts to fix CI failures and reviewer comments by pushing to the branch, which compresses the review loop."
+    }
+  ],
+  "read_time_minutes": 2.8
+}
