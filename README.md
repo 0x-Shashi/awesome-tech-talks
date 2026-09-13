@@ -1,6 +1,6 @@
-# Awesome Tech Talks: 2500+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
+# Awesome Tech Talks: 2600+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
 
-<img width="3200" height="1136" alt="Image" src="https://github.com/user-attachments/assets/e11a7836-139f-4608-bb02-5586457a98d4" />
+<img width="1600" height="568" alt="Image" src="https://github.com/user-attachments/assets/cd718369-e4f4-4f00-8ea9-bddba28dc7a6" />
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
@@ -11,28 +11,17 @@
   <a href="https://github.com/0x-Shashi/awesome-tech-talks/commits/main"><img src="https://img.shields.io/github/last-commit/0x-Shashi/awesome-tech-talks.svg" alt="GitHub Last Commit"></a>
 </p>
 
-The open-source hub for developer workshops, flagship keynotes, and technical engineering sessions from premier global conferences and official developer channels, consolidating hands-on coding labs, system architecture breakdowns, and expert tech talks into a single unified catalog.
+Most of the best engineering talks never show up in your recommendations. This is a growing archive of 2600+ sessions, workshops, and keynotes, pulled directly from official channels (Google, Anthropic, Cursor, Microsoft, OpenAI, and more), including unlisted replays and website-only recordings that don't surface anywhere else.
 
 ## What It Provides
-* **2500+ Curated Sessions and Workshops**: Access a growing catalog of technical developer talks, hands-on workshops, and flagship keynotes aggregated from official channels.
-* **Structured Technical Notes**: Replaces noisy, hard-to-read transcripts with clean, high-signal study notes focused on concrete concepts, architecture, and code.
-* **AI-Ready JSON Datasets**: Provides structured JSON files for every talk, allowing you to easily export the metadata and notes to feed into AI agents or custom RAG pipelines.
-* **YouTube-Style Web Portal**: Features a custom web UI designed to make discovering, searching, and watching the curated catalog simple and familiar.
+
+* **Browsable Catalog, Two Ways**: Every session is indexed in `catalog/by-company.md` and `catalog/by-topic/`, so you can browse by company and channel (Google, Anthropic, Cursor, Microsoft, OpenAI, and more) or by topic (AI Agents, LLM Fundamentals, Web Development, and more).
+* **Full Dataset on Hugging Face**: Metadata, timestamps, entity tags, and cleaned transcript segments for the entire 2600+ talk collection are published as a structured dataset on Hugging Face, ready to plug into RAG pipelines, AI agents, or your own search tools.
 
 ## Why We Built It
 
-* **Direct Attribution for Scattered Content**: Flagship tech talks and workshops are often scattered across isolated official channels with low visibility, or re-uploaded to social media for views without crediting the creators. This project consolidates them and restores proper attribution to original company meetings.
-* **Strict Practitioner Focus**: We bypass content creators and tech influencers. Every talk in this repository features actual engineers, developers, and researchers presenting real-world engineering solutions.
-* **Software and AI Concentration**: General media covers everything from hardware to consumer gadgets. We focus exclusively on software engineering, cloud runtimes, and artificial intelligence to keep signal density as high as possible.
-
-## Consumable Data Assets
-
-| Data Asset | Path | Purpose |
-|---|---|---|
-| **Canonical JSON Schema** | [`data/schema.json`](data/schema.json) | The exact schema specification used to validate talk metadata, categories, and structure. |
-| **Granular Talk JSONs** | [`data/videos/`](data/videos/) | Structured sample files containing metadata, timestamps, entity tags, and segmented notes for RAG integration. |
-| **Full Manifest Index** | [`data/manifest.jsonl`](data/manifest.jsonl) | A fast-loading JSON Lines catalog index containing metadata summary records for sample talks. |
-| **Full Dataset (3,000+ Talks)** | [Hugging Face Datasets](https://huggingface.co/) | The complete multi-thousand session dataset with transcripts and embeddings, hosted externally for AI agents. |
+* **Nothing Like This Exists**: Flagship engineering talks are scattered across dozens of isolated channels, buried in unlisted replays, or lost entirely, with no single place to find or search them.
+* **Practitioners Over Influencers**: Every talk here comes directly from official engineering teams (the people who actually built the thing), not from creators repackaging half-understood takes for views.
 
 ## Documentation Guides
 
@@ -45,109 +34,84 @@ The open-source hub for developer workshops, flagship keynotes, and technical en
   </b>
 </p>
 
----
+## How to Use This Repo
 
-## Curated Tracks and Catalog
+<details>
+<summary><b>Click to expand: Catalog by Company and Catalog by Topic</b></summary>
 
-Browse the complete collection of curated technical talks through our dedicated catalog indexes:
+### Catalog by Company
 
-* **[Catalog by Company and Channel](catalog/by-company.md)**: Browse all curated sessions organized by company, channel, and year.
-* **Catalog by Topic (`catalog/by-topic/`)**: Multi-category breakdown grouping sessions across AI, systems architecture, web, and research domains.
+All sessions are organized by company, channel, and year inside [`catalog/by-company.md`](catalog/by-company.md).
 
----
+* Sessions are grouped under each company (Google, Anthropic, Cursor, Microsoft, OpenAI, and more), then further split by official channel and year.
+* Useful if you already know whose engineering team you want to learn from, e.g. "show me everything Anthropic has published this year."
+* Every entry links directly to the original YouTube video or official source, so you land straight on the talk with no extra clicks.
 
-## Repository Architecture and Structure
+[Browse Catalog by Company](catalog/by-company.md)
 
+### Catalog by Topic
+
+All sessions are also grouped by subject matter inside [`catalog/by-topic/`](catalog/by-topic/).
+
+* Sessions are tagged into 1 to 3 categories from a fixed taxonomy (AI Agents, LLM Fundamentals, Web Development, Backend/Infra, and more).
+* Useful if you care more about the subject than the source, e.g. "show me everything on AI agents regardless of which company made it."
+* Each topic file links out to the exact talks under that category so you can jump straight in.
+
+[Browse Catalog by Topic](catalog/by-topic/)
+
+</details>
+
+
+## Who Has the Most Talks
+
+<p align="center">
+  <img width="3200" height="2400" alt="Talks per company breakdown" src="https://github.com/user-attachments/assets/b65e627a-25cf-4abc-9303-3574c5c746cc" />
+</p>
+
+## Repository Layout
 ```
 .
-|-- .gitignore                          # Standard repository exclusion rules
-|-- AGENTS.md                           # Contributor and AI agent guidelines
-|-- CODE_OF_CONDUCT.md                  # Contributor Covenant Code of Conduct v2.1
-|-- CONTRIBUTING.md                     # Contribution guidelines and schema rules
-|-- LICENSE                             # MIT Open Source License
-|-- README.md                           # Master index and documentation
-|-- SECURITY.md                         # Security policy and reporting instructions
-|-- catalog/                            # Catalog navigation indexes
-|   |-- by-company.md                   # Full catalog organized by company and channel
-|   `-- by-topic/                       # Topic category collections
+|-- README.md                # This file
+|-- LICENSE                  # MIT License
+|-- catalog/
+|   |-- by-company.md        # All sessions grouped by company, channel, year
+|   |-- by-topic/            # All sessions grouped by topic
 |-- data/
-|   |-- schema.json                     # JSON Schema specification for video records
-|   |-- manifest.jsonl                  # Bulk export sample records
-|   `-- videos/                         # 100 representative sample records (UTF-8 JSON)
-`-- docs/                               # Project documentation
-    |-- architecture.md
-    |-- audit-log.md
-    `-- faq.md
+|   |-- schema.json          # Schema used for the Hugging Face dataset
+|-- docs/
+    |-- architecture.md      # How the project is structured
+    |-- faq.md               # Common questions
+    `-- audit-log.md         # Change and audit history
+
 ```
 
-### Architectural Rationale
+The full dataset (metadata, transcripts, topic tags) lives on Hugging Face, not in this repo. See the next section for access.
 
-* **Canonical IDs (`[speaker-or-topic]-[year]`)**: Each talk is identified by an immutable slug shared across `data/videos/{id}.json` and catalog records.
-* **Multi-Topic Tagging without Duplication**: Because frontier technical talks address multiple topics simultaneously, topic categorization is modeled as an array within the JSON schema rather than physical directory nesting. This prevents file duplication while supporting multi-dimensional indexing.
-* **Practitioner Signal**: Curation ensures only high-signal engineering and architecture talks are included in published records.
+## Access the Full Dataset
 
----
+<p align="center">
+  <img width="1917" height="1078" alt="Hugging Face dataset preview" src="https://github.com/user-attachments/assets/14c3f599-9d85-43f0-99b1-4389e3354e43" />
+</p>
 
-## Topic Taxonomy
+This repo indexes the talks. The full content, metadata, cleaned transcripts, timestamps, entity tags, and topic labels for all 2600+ sessions, lives in a single dataset on [Hugging Face](#).
 
-Every entry is categorized using 1 to 3 non-overlapping topics from a closed set to guarantee predictable filtering:
+Each record includes:
 
-| Topic | Focus Areas and Subject Matter |
-|---|---|
-| **AI Agents** | Autonomous orchestration, tool calling, memory banks, multi-agent protocols (A2A, A2UI), and simulation environments. |
-| **LLM Fundamentals** | Pre-training, post-training, reinforcement learning, reasoning models (Deep Think), context windows, and scaling laws. |
-| **Prompt Engineering** | System prompts, few-shot prompting, instruction adherence, topic extraction filters, and structured outputs. |
-| **AI Coding Tools** | Agentic coding assistants, IDE integrations, automated test generation, code synthesis, and vibe coding. |
-| **Web Development** | Full-stack web architectures, client-side runtimes, APIs, dynamic UI streaming, and web frameworks. |
-| **Android/Mobile** | Edge accelerators, on-device intelligence, mobile system architecture, Gemini Nano, and Android SDKs. |
-| **Backend/Infra** | Distributed training clusters, cloud hosting runtimes (Agent Engine, Cloud Run), OpenTelemetry, and GPU/TPU hardware. |
-| **Product/Startup** | Product management for AI, commercialization strategies, technical leadership, UX paradigms, and safety governance. |
-| **Research/Papers** | Scientific discovery, physical AI, world models (Genie 3), quantum algorithms, and dynamic competitive benchmarks. |
-| **Career/Advice** | Engineering craft evolution, technical management, developer education, and team culture. |
+* Title, speaker(s), channel, publish date, and canonical URL
+* Format (Talk, Workshop, Panel, Fireside Chat, Demo) and difficulty level
+* 1 to 3 topic tags from a fixed taxonomy (AI Agents, LLM Fundamentals, Web Development, and more)
+* Cleaned, segmented transcript text with timestamps
+* Extracted entities (named tools, models, products mentioned)
 
----
+Load it directly in Python:
 
-## Data Schema Specification
+```
+from datasets import load_dataset
 
-All JSON records in `data/videos/` adhere to the specification defined in [`data/schema.json`](data/schema.json).
-
-### Core Field Definitions
-
-| Field | Type | Description | Constraints |
-|---|---|---|---|
-| `id` | string | Canonical kebab-case slug | Must match filename |
-| `title` | string | Canonical YouTube video title | Verbatim string |
-| `channel` | string | YouTube publisher channel | Validated channel name |
-| `speakers` | array[string] | List of visible on-screen speakers | Non-empty array |
-| `url` | string | Canonical YouTube URL | Valid URI format |
-| `date` | string | Publication date | ISO YYYY-MM-DD or 'unknown' |
-| `format` | string | Presentation format | Talk, Workshop, Panel, Fireside Chat, Demo |
-| `level` | string | Technical difficulty | Beginner, Intermediate, Advanced |
-| `topics` | array[string] | Assigned domain tags | 1 to 3 items from taxonomy |
-| `description` | string | Publisher summary | Verbatim text |
-| `entities` | array[string] | Named products, tools, and models | Extracted glossary |
-| `segments` | array[object] | Cleaned transcript segments | Heading and cleaned text |
-| `read_time_minutes` | number | Estimated reading duration | ~250 words per minute |
-
----
-
-## Developer Guide and Ingestion Examples
-
-### Bulk Dataset Loading with Python
-
-```python
-import json
-from pathlib import Path
-
-# Load sample curated sessions from the single manifest
-manifest_path = Path('data/manifest.jsonl')
-with open(manifest_path, 'r', encoding='utf-8') as f:
-    talks = [json.loads(line) for line in f]
-
-print(f'Successfully loaded {len(talks)} curated sessions.')
+dataset = load_dataset("your-org/awesome-tech-talks")
 ```
 
----
+Use it to power a RAG pipeline, fine-tune a model, build a search tool, or explore transcripts offline without touching YouTube at all.
 
 ## License Scope
 
