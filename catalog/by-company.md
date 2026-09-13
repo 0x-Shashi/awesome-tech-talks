@@ -1,8 +1,25 @@
-# Catalog by Company
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&width=600&color=FFFFFF&size=30&lines=Welcome+to+Awesome+Tech+Talks;Grouped+by+the+Companies+Behind+Them;Browse+2600%2B+sessions+by+source;Star+the+repo+if+you+find+it+useful" alt="Typing SVG" /></a>
+</p>
 
-Curated developer talks, flagship keynotes, and technical workshops organized by company, channel, and year.
+<div align="center">
 
-Total talks: 2271
+<table>
+  <tr>
+    <td align="center" width="200"><a href="#anthropic"><b>Anthropic</b></a></td>
+    <td align="center" width="200"><a href="#cursor"><b>Cursor</b></a></td>
+    <td align="center" width="200"><a href="#google"><b>Google</b></a></td>
+    <td align="center" width="200"><a href="#microsoft"><b>Microsoft</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="200"><a href="#openai"><b>OpenAI</b></a></td>
+    <td align="center" width="200"><a href=""><b>Coming Soon</b></a></td>
+    <td align="center" width="200"><a href=""><b>Coming Soon</b></a></td>
+    <td align="center" width="200"><a href=""><b>Coming Soon</b></a></td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
