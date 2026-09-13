@@ -2,9 +2,9 @@
 
 ## 1. Principles and Architecture
 
-- Keep one clear owner for each fact. The machine-readable records in `data/videos/*.json` and `data/schema.json` are the canonical dataset definitions.
-- The web application (`apps/web/` in the future monorepo structure) is strictly a read-only consumer of `data/` and `catalog/`. It never mutates dataset files at runtime.
-- Do not add a database or search backend for content. The repository provides clean catalog navigation in `catalog/by-company.md` and integration samples in `data/videos/`.
+- Keep one clear owner for each fact. The schema in `data/schema.json` defines the canonical record structure for the dataset distributed on Hugging Face.
+- The web application (`apps/web/` in the future monorepo structure) is strictly a read-only consumer of `catalog/` and schema metadata. It never mutates dataset files at runtime.
+- Do not add a database or search backend for content. The repository provides clean catalog navigation in `catalog/by-company.md` and `catalog/by-topic/`.
 - YouTube video content is embedded directly using official iframe players and thumbnails are fetched dynamically from YouTube CDN. Video media files are never hosted locally.
 
 ## 2. Hard Style and Formatting Rules
@@ -43,6 +43,6 @@
 
 Before concluding any change:
 1. Run `python .claude/tools/check.py` to verify schema validity, file existence, and style compliance (zero emojis, zero banned dashes).
-2. If catalog entries or dataset samples were modified:
+2. If catalog entries were modified:
    - Run `python .claude/tools/update_readme.py` to refresh `catalog/by-company.md`
 3. Ensure the git working tree remains clean and properly formatted.
