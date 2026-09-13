@@ -11,6 +11,10 @@
   <a href="https://github.com/0x-Shashi/awesome-tech-talks/commits/main"><img src="https://img.shields.io/github/last-commit/0x-Shashi/awesome-tech-talks.svg" alt="GitHub Last Commit"></a>
 </p>
 
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&width=600&color=FFFFFF&size=25&lines=Hey!+This+project+is+still+in+progress;Thousands+of+talks+collected+so+far;Around+40%25+of+the+way+there;Built+solo%2C+one+commit+at+a+time;Thanks+for+your+patience" alt="Typing SVG" /></a>
+</p>
+
 Most of the best engineering talks never show up in your recommendations. This is a growing archive of 2600+ sessions, workshops, and keynotes, pulled directly from official channels (Google, Anthropic, Cursor, Microsoft, OpenAI, and more), including unlisted replays and website-only recordings that don't surface anywhere else.
 
 ## What It Provides
