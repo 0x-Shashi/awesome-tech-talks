@@ -69,7 +69,7 @@ All sessions are also grouped by subject matter inside [`catalog/by-topic/`](cat
 ## Who Has the Most Talks
 
 <p align="center">
-  <img width="3200" height="2400" alt="Talks per company breakdown" src="https://github.com/user-attachments/assets/b65e627a-25cf-4abc-9303-3574c5c746cc" />
+  <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/d4af5ab5-5a86-4a6e-b3f1-58c72d324454" />
 </p>
 
 ## Repository Layout
@@ -94,10 +94,10 @@ The full dataset (metadata, transcripts, topic tags) lives on Hugging Face, not 
 ## Access the Full Dataset
 
 <p align="center">
-  <img width="1917" height="1078" alt="Hugging Face dataset preview" src="https://github.com/user-attachments/assets/14c3f599-9d85-43f0-99b1-4389e3354e43" />
+  <img width="1882" height="1078" alt="Image" src="https://github.com/user-attachments/assets/8a9d5ec7-be86-4b01-a3ce-8588e3f4f202" />
 </p>
 
-This repo indexes the talks. The full content, metadata, cleaned transcripts, timestamps, entity tags, and topic labels for all 2600+ sessions, lives in a single dataset on [Hugging Face](#).
+This repo indexes the talks. The full content, metadata, cleaned transcripts, timestamps, entity tags, and topic labels for all 2600+ sessions, lives in a single dataset on [Hugging Face](https://huggingface.co/datasets/0xShashi/tech-talks-segments).
 
 Each record includes:
 
