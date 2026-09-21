@@ -1,0 +1,147 @@
+# Infrastructure as Code
+
+Curated technical sessions and workshops tagged under Infrastructure as Code.
+
+Total sessions: 119
+
+---
+
+## 2026
+
+- [SpecKit で実現する Agentic DevOps：仕様から CI/CD へ（GitHub Actions 活用）](https://youtu.be/YOTDL5eC4DA) (Microsoft - Microsoft Reactor, 2026-05-20)
+- [Maximizing developer experiences in Microsoft Fabric](https://youtu.be/CaUzbMNCQz4) (Microsoft - Microsoft Reactor, 2026-04-21)
+
+## 2025
+
+- [Customized MCP with Azure Container Apps and Microsoft Foundry Agents](https://youtu.be/p65miiDELh0) (Microsoft - Microsoft Reactor, 2025-12-04)
+- [Open Source e DevOps com GitHub: Ferramentas para equipes modernas](https://youtu.be/FPskvBtedJU) (Microsoft - Microsoft Reactor, 2025-11-19)
+- [Crea una IA multiagente lista para producción en Microsoft Foundry](https://youtu.be/iVHJwrqG6Ag) (Microsoft - Microsoft Reactor, 2025-11-19)
+- [MCP in Real Time and Deploy on Azure](https://youtu.be/VXl-YsP3SjY) (Microsoft - Microsoft Reactor, 2025-09-12)
+- [Building RAG applications with KAITO RAGEngine](https://youtu.be/Il2qcgQUDFQ) (Microsoft - Microsoft Reactor, 2025-08-19)
+- [AKS Labs: Deploy AKS with Terraform & Azure Verified Modules](https://youtu.be/ECHtE69fJTQ) (Microsoft - Microsoft Reactor, 2025-08-06)
+- [GitHub Actions: Automatizando IaC com Terraform](https://youtu.be/NGNaRX69CdE) (Microsoft - Microsoft Reactor, 2025-06-04)
+- [São Paulo | Global Azure 2025 - Dia 2](https://youtu.be/17hknH1POTI) (Microsoft - Microsoft Reactor, 2025-05-10)
+- [Fire side Chat for scaling Terraform in regulated Industries](https://youtu.be/X_ffIpa_wCI) (Microsoft - Microsoft Reactor, 2025-04-24)
+- [Smart, efficient, and well-architected IaC with Azure Verified Modules](https://youtu.be/4Wlhl3C7_r8) (Microsoft - Microsoft Reactor, 2025-02-14)
+- [Collaboration and Deploy with GitHub Copilot](https://youtu.be/zlrisJD2oxY) (Microsoft - Microsoft Reactor, 2025-02-13)
+
+## 2024
+
+- [Explorando GitHub Actions: Pipelines para Aplicações e Infraestrutura](https://youtu.be/GArgXs2beBo) (Microsoft - Microsoft Reactor, 2024-11-22)
+- [Automate Infra Provisioning with Azure Verified Modules | #AzureHappyHours](https://youtu.be/t3km_edwWlU) (Microsoft - Microsoft Reactor, 2024-10-26)
+- [Building Azure Infrastructure Using Terraform](https://youtu.be/rHmty-ar1tc) (Microsoft - Microsoft Reactor, 2024-08-30)
+- [Deploying an AI App to a Private Network on Azure](https://youtu.be/YGBM3S5wCss) (Microsoft - Microsoft Reactor, 2024-07-26)
+- [Add User Login to AI Apps using Built-in Auth](https://youtu.be/3K-ZpKJkUOg) (Microsoft - Microsoft Reactor, 2024-07-09)
+- [Scale infrastructure as code: Proven strategies and productive workflows](https://youtu.be/YkNZ56eiXhw) (Google - Google Cloud Tech, 2024-07-01)
+- [Multi-project, multi-runtime, multi-region infrastructure as code](https://youtu.be/lN1YEEZ_6qE) (Google - Google Cloud Tech, 2024-07-01)
+- [Season of AI: Core AI](https://youtu.be/cb0SqU9tRXU) (Microsoft - Microsoft Reactor, 2024-06-25)
+- [Accelerate Application Security with GitHub AI](https://youtu.be/bQBS0ec1xug) (Microsoft - Microsoft Reactor, 2024-06-04)
+- [Encontro de estudantes embaixadores e Interessados](https://youtu.be/Y-_OviVxA-s) (Microsoft - Microsoft Reactor, 2024-05-04)
+- [GitHub Copilot tips from the field: How to accelerate Infrastructure as Code adoption..](https://youtu.be/NTYJqgGBChM) (Microsoft - Microsoft Reactor, 2024-04-20)
+- [From Day Zero To Production with Azure Container Apps](https://youtu.be/yAtMgufv7Aw) (Microsoft - Microsoft Reactor, 2024-04-04)
+
+## 2023
+
+- [Despliegue de Recursos de Datos de Azure con Terraform](https://youtu.be/uG2QpFquiGA) (Microsoft - Microsoft Reactor, 2023-12-13)
+- [Implementando Recursos de Dados do Azure com Terraform](https://youtu.be/LhLZKNIKMaM) (Microsoft - Microsoft Reactor, 2023-12-05)
+- [Deploy Azure Resources with Arm Templates & PowerShell | #MVPConnect](https://youtu.be/__I3jQfZ5gg) (Microsoft - Microsoft Reactor, 2023-10-26)
+- [Github Copilot for DevOps Engineers - Using Copilot to help write Infrastructure as Code](https://youtu.be/6C-Gy5fR7KY) (Microsoft - Microsoft Reactor, 2023-10-25)
+- [Deploying Azure Data Resources with Terraform](https://youtu.be/1UHBc1AIAwI) (Microsoft - Microsoft Reactor, 2023-10-18)
+- [Learn Live - DevOps and Deconstruct the E2E Workflow for Testing and Deployment](https://youtu.be/FGDQIDtddsY) (Microsoft - Microsoft Reactor, 2023-10-06)
+- [Reactor Popup: K8SUG (Kubernetes) Community Meetup](https://youtu.be/-jXTDucRMqI) (Microsoft - Microsoft Reactor, 2023-09-14)
+- [Automating AKS cluster creation using Bicep and Azure DevOps | #Techespresso](https://youtu.be/vuvEWE5pnQY) (Microsoft - Microsoft Reactor, 2023-07-25)
+- [Let's Get Technical - Singapore: Deliver quality services with IaC on Azure DevOps](https://youtu.be/U1atTktRpYs) (Microsoft - Microsoft Reactor, 2023-07-13)
+- [Deploying a website to Azure using Terraform](https://youtu.be/S1bLHN31-Ic) (Microsoft - Microsoft Reactor, 2023-06-22)
+- [Deploying Infrastructure to Azure with Terraform - Understanding Terraform](https://youtu.be/0NZpFT2RBZ4) (Microsoft - Microsoft Reactor, 2023-06-08)
+- [Building CICD pipeline with Azure devops](https://youtu.be/f3R1VsL19kM) (Microsoft - Microsoft Reactor, 2023-05-20)
+- [London I Global Azure Bootcamp 2023](https://youtu.be/qjVcH53-1SI) (Microsoft - Microsoft Reactor, 2023-05-12)
+- [Global Azure 2023 at North Toronto Cloud & DevOps User Group](https://youtu.be/2XuwDkI_IcU) (Microsoft - Microsoft Reactor, 2023-05-12)
+- [Global Azure Israel 2023(Hebrew)](https://youtu.be/TPDDj32aLDI) (Microsoft - Microsoft Reactor, 2023-05-11)
+- [The Power of Azure DevOps and Terraform: Streamlining Infrastructure Management](https://youtu.be/RFLzYsHZ2iQ) (Microsoft - Microsoft Reactor, 2023-04-18)
+- [Terraform in 60 minutes: Azure Deployment made easy](https://youtu.be/LN-i20R2iHk) (Microsoft - Microsoft Reactor, 2023-04-03)
+- [Terraform on Azure February Community Call](https://youtu.be/Kt8SvkDimFY) (Microsoft - Microsoft Reactor, 2023-02-23)
+- [AKS Construction Set](https://youtu.be/3OIclYETvrI) (Microsoft - Microsoft Reactor, 2023-01-12)
+
+## 2022
+
+- [Cloud Native Azure Services and Best Practices](https://youtu.be/GO3-i-Of7b4) (Microsoft - Microsoft Reactor, 2022-12-15)
+- [Terraform on Azure December Community Call](https://youtu.be/HQ9aQxzKIT8) (Microsoft - Microsoft Reactor, 2022-12-09)
+- [Going beyond lint with Azure Bicep](https://youtu.be/i0s9rvTuoRM) (Microsoft - Microsoft Reactor, 2022-12-08)
+- [DevOpsDays TLV & Cloud Native Day Pre-Event Meetup](https://youtu.be/VlbjELzuNo0) (Microsoft - Microsoft Reactor, 2022-11-15)
+- [Deploying Azure Resources using Azure DevOps](https://youtu.be/gZxLTb_t_wU) (Microsoft - Microsoft Reactor, 2022-11-15)
+- [A cloud migration story - running at 100% all while migrating and shipping new features](https://youtu.be/T06-G6fsU6c) (Microsoft - Microsoft Reactor, 2022-10-28)
+- [Let’s play Azure Adventure - A RPG game to test your Azure practical skills](https://youtu.be/WYD0a96PCoM) (Microsoft - Microsoft Reactor, 2022-10-06)
+- [Using Azure IoT and Azure serverless services to create remote desktop hub](https://youtu.be/yPs5oCzrolI) (Microsoft - Microsoft Reactor, 2022-10-03)
+- [Using Azure serverless Functions and IaC to automate service creation](https://youtu.be/KxkY_vmNG6k) (Microsoft - Microsoft Reactor, 2022-09-22)
+- [Create Your Azure Infrastructure with Cloud Development Kit for Terraform](https://youtu.be/sSxRkypPVI8) (Microsoft - Microsoft Reactor, 2022-09-15)
+- [Let's Learn Infrastructure as Code with Sam and Bruno](https://youtu.be/NHISJBasX-o) (Microsoft - Microsoft Reactor, 2022-07-18)
+- [Usando Azure Pipelines y Bicep para aprovisionar Kubernetes en Azure](https://youtu.be/XCs6i7y6Zr8) (Microsoft - Microsoft Reactor, 2022-07-05)
+- [Azure Terraform May Community Call](https://youtu.be/VE1m0ZgDllk) (Microsoft - Microsoft Reactor, 2022-05-28)
+- [Microsoft Security Insights Show Ep. 103](https://youtu.be/JTgbXkQKesI) (Microsoft - Microsoft Reactor, 2022-05-25)
+- [Bicep by example | Part 2](https://youtu.be/4VlcOO096i0) (Microsoft - Microsoft Reactor, 2022-05-25)
+- [Introduction to Infrastructure as Code with Bicep | Part 1](https://youtu.be/UdLtT91aHtI) (Microsoft - Microsoft Reactor, 2022-05-18)
+- [Bicep Advanced Deployments - Part 2](https://youtu.be/6QLkSRc7tgM) (Microsoft - Microsoft Reactor, 2022-05-11)
+- [Global Azure -The easy road from code to node!](https://youtu.be/0Iy65TEZcNA) (Microsoft - Microsoft Reactor, 2022-05-05)
+- [Global Azure - Enterprise Scale Machine Learning on Azure](https://youtu.be/1HSkq5xbxEQ) (Microsoft - Microsoft Reactor, 2022-05-05)
+- [Global Azure - Click-ops to git-ops, leveraging AzOps to manage Azure as Code](https://youtu.be/EIMdO521EhQ) (Microsoft - Microsoft Reactor, 2022-05-05)
+- [Global Azure - Chalk up! Time for some advanced Bicep training!](https://youtu.be/l6jlctOFbdA) (Microsoft - Microsoft Reactor, 2022-05-05)
+- [Bicep Advanced Deployments - Part 1](https://youtu.be/wevlRsVxsUw) (Microsoft - Microsoft Reactor, 2022-05-04)
+- [DevOps, Azure e a certificação AZ-400](https://youtu.be/lHciVzZE-uE) (Microsoft - Microsoft Reactor, 2022-04-28)
+- [Securing a network with Bicep - EP3/3](https://youtu.be/IQCsgcpQVeA) (Microsoft - Microsoft Reactor, 2022-04-21)
+- [Working within your Azure Vnet - EP2/3](https://youtu.be/NzDZO-HPSJg) (Microsoft - Microsoft Reactor, 2022-04-14)
+- [Build a virtual network with Bicep - EP1/3](https://youtu.be/bJP8vsu4Ua8) (Microsoft - Microsoft Reactor, 2022-04-07)
+- [Automating the deployment of ARM templates in your DevOps workflow](https://youtu.be/4Kxkgftty7w) (Microsoft - Microsoft Reactor, 2022-04-06)
+- [Authoring DevOps pipelines using YAML in GitHub Actions](https://youtu.be/0yJbHewtHqg) (Microsoft - Microsoft Reactor, 2022-03-30)
+- [Deploying Azure services using Azure Resource Manager from the CLI and templates](https://youtu.be/qcOy7klf8tM) (Microsoft - Microsoft Reactor, 2022-03-23)
+- [Azure Terraform Verified Modules](https://youtu.be/o5heBHeucPM) (Microsoft - Microsoft Reactor, 2022-03-23)
+- [Best practices to secure Azure Kubernetes Cluster with Security Centre and more.](https://youtu.be/ZTOUIddiBmc) (Microsoft - Microsoft Reactor, 2022-03-03)
+- [Introducción a Azure Kubernetes Service](https://youtu.be/X0E3OOAN51A) (Microsoft - Microsoft Reactor, 2022-03-01)
+- [Automate Infrastructure creation with Terraform (IaC)](https://youtu.be/j1x4TDOfvjA) (Microsoft - Microsoft Reactor, 2022-02-22)
+- [Deploying Azure resources with Python and Pulumi](https://youtu.be/ccyS0NdNXKQ) (Microsoft - Microsoft Reactor, 2022-02-16)
+- [Introducción a Bash](https://youtu.be/OfpXXZjAh0o) (Microsoft - Microsoft Reactor, 2022-02-10)
+- [DevOps Series - Infrastuctor As Code (IaC) S1 E4](https://youtu.be/zQbuHSRkXgo) (Microsoft - Microsoft Reactor, 2022-02-10)
+- [Introduction to Automated Deployments on Azure with Terraform](https://youtu.be/qq70x8XesK0) (Microsoft - Microsoft Reactor, 2022-02-09)
+- [Flexing Your Security Governance with Azure Policy As Code](https://youtu.be/SuH_TBBsvLI) (Microsoft - Microsoft Reactor, 2022-02-03)
+- [Desarrollo, prueba y publicación mediante Azure Functions Core Tools](https://youtu.be/Qd0ijHQAxu8) (Microsoft - Microsoft Reactor, 2022-01-19)
+- [Deploy a Web Application with Azure Resource Management Templates](https://youtu.be/rtHoRTnZWwI) (Microsoft - Microsoft Reactor, 2022-01-06)
+
+## 2021
+
+- [Deploy Bicep files by using Github Actions](https://youtu.be/oSrvETity28) (Microsoft - Microsoft Reactor, 2021-12-01)
+- [Automating our Infrastructure with Code - Lets Make a Cloud App with .NET](https://youtu.be/oDyToaBVTaA) (Microsoft - Microsoft Reactor, 2021-12-01)
+- [DevOps Workflow with Kubernetes in Productions | #AzureHappyHours](https://youtu.be/YmLZP4Ua_6Y) (Microsoft - Microsoft Reactor, 2021-11-30)
+- [Getting Started with Microsoft Azure Automatic Grading Engine](https://youtu.be/5jnVk8o8G7k) (Microsoft - Microsoft Reactor, 2021-11-24)
+- [Ignite Table Topics Microsoft 365 - "Converting PowerShell scripts to use Graph"](https://youtu.be/6sUQvcYY11Q) (Microsoft - Microsoft Reactor, 2021-11-19)
+- [Deploy Infra with Terraform, Azure pipelines & GitHub Actions | #AzureHappyHours](https://youtu.be/4aDJC9nRS3U) (Microsoft - Microsoft Reactor, 2021-11-08)
+- [Tudo sobre Azure: Well-Architected: Um tour pelo backstage](https://youtu.be/Nx6Q1Jm94VA) (Microsoft - Microsoft Reactor, 2021-10-29)
+- [Data on Azure - What, When, How?](https://youtu.be/pg7l-82Dgmc) (Microsoft - Microsoft Reactor, 2021-10-28)
+- [Administrating and Managing Azure Kubernetes Cluster](https://youtu.be/ZYT5Tb48THY) (Microsoft - Microsoft Reactor, 2021-10-25)
+- [Azure Well-Architected Framework | Cost & Operational Excellence](https://youtu.be/jmlGIDBPeU4) (Microsoft - Microsoft Reactor, 2021-10-21)
+- [CloudEdge Academy: Azure DevOps & Terraform (Hebrew)](https://youtu.be/ZLHlADnVAZE) (Microsoft - Microsoft Reactor, 2021-10-14)
+- [AZ-204 | Create Ubuntu/Windows VMs in Azure - Portal, PowerShell, CLI, and ARM](https://youtu.be/UVaopUKI930) (Microsoft - Microsoft Reactor, 2021-10-13)
+- [Implementing Azure Front Door with Multi-Region AKS Clusters - Part 2](https://youtu.be/f4q1TqwsX_k) (Microsoft - Microsoft Reactor, 2021-10-06)
+- [AZ-204 | Azure Web Apps (.NET 5 Web API), Azure SQL, and Connection String](https://youtu.be/urG3xaXHxN0) (Microsoft - Microsoft Reactor, 2021-09-30)
+- [AZ-204 | Hands-on Creating Azure App Service Web Apps](https://youtu.be/e7Ldak8y32E) (Microsoft - Microsoft Reactor, 2021-09-16)
+- [Terraform on Azure (Fundamentals)](https://youtu.be/EZce4gTciIg) (Microsoft - Microsoft Reactor, 2021-09-07)
+- [Implementing Azure Front Door with Multi-Region AKS Clusters - Part 1](https://youtu.be/wMwsCeFdwnI) (Microsoft - Microsoft Reactor, 2021-09-02)
+- [Azure Disk Encryption: Linux VM](https://youtu.be/cXK1vr78fW0) (Microsoft - Microsoft Reactor, 2021-08-16)
+- [Azure Disk Encryption: Windows VM](https://youtu.be/QLKO8uGESsc) (Microsoft - Microsoft Reactor, 2021-08-05)
+- [DevOps for Java Shops | Rapidly Develop & Deploy Java Apps using GitHub Actions](https://youtu.be/lBSBBqVpE8Y) (Microsoft - Microsoft Reactor, 2021-06-01)
+- [DevOps for Java Shops | Azure Pipelines + Terraform + Java = Awesome!](https://youtu.be/8XA_SawqiMw) (Microsoft - Microsoft Reactor, 2021-06-01)
+- [DevOps for Java Shops | Rapidly develop & deploy Java apps using GitHub Actions](https://youtu.be/4V83EbZx998) (Microsoft - Microsoft Reactor, 2021-05-25)
+- [DevOps for Java Shops Series | DevOps Introduction](https://youtu.be/f9NNTQowy7c) (Microsoft - Microsoft Reactor, 2021-05-04)
+- [Real World DevOps](https://youtu.be/TkQYKDvdfb4) (Microsoft - Microsoft Reactor, 2021-04-22)
+- [Best Practices to Automate your Cloud Resource Management Carnegie Mellon University & Microsoft Lea](https://youtu.be/Kg7xXkiLkuk) (Microsoft - Microsoft Reactor, 2021-02-22)
+- [Back to Basics on Java Series | Introduction to Databases on Azure](https://youtu.be/fMRfPmmaFjU) (Microsoft - Microsoft Reactor, 2021-02-19)
+- [Back to Basics on Java Series | Introduction to Azure App Service](https://youtu.be/-1Wt2mridKU) (Microsoft - Microsoft Reactor, 2021-02-09)
+- [Azure Fundamentals: Automate Deployment and Configuration of Resources (IaC - ARM Templates)(Hebrew)](https://youtu.be/BQxefJj4gJs) (Microsoft - Microsoft Reactor, 2021-01-27)
+
+## 2020
+
+- [Como implementar sua infra no Azure de modo consistente usando ARM Templates](https://youtu.be/9Ihk7GTEXZo) (Microsoft - Microsoft Reactor, 2020-12-02)
+- [Building and Deploying the Cloud with 12 Factor Compliant Terraform](https://youtu.be/hNTxoJ--qQ0) (Microsoft - Microsoft Reactor, 2020-12-02)
+- [Terraform your Project](https://youtu.be/7RsZyEtYZZ8) (Microsoft - Microsoft Reactor, 2020-11-24)
+- [Automated Infrastructure with Pulumi and Azure](https://youtu.be/qGeF35TH8e4) (Microsoft - Microsoft Reactor, 2020-09-24)
+- [Infrastructure as Code with ARM Templates](https://youtu.be/RsA_OxfShD0) (Microsoft - Microsoft Reactor, 2020-06-02)
+- [CI/CD DevOps pipelines for Kubernetes | Microsoft Reactor Abu Dhabi](https://youtu.be/lUsyPkDPlns) (Microsoft - Microsoft Reactor, 2020-05-11)
+- [Let's Start the Good Way with ARM Templates](https://youtu.be/UX_C18jSv7s) (Microsoft - Microsoft Reactor, 2020-05-08)

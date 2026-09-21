@@ -17,7 +17,7 @@ Yes. The repository catalog indexes (`catalog/`), dataset schema (`data/`), and 
 ### Dataset and AI Ingestion
 
 #### How do I access the dataset for AI tools?
-The full dataset of 2600+ sessions containing metadata, cleaned transcripts, timestamps, entity tags, and topic labels is hosted on Hugging Face. You can load it directly in Python using `datasets.load_dataset("your-org/awesome-tech-talks")`. The record schema is specified in `data/schema.json`.
+The full dataset containing metadata, cleaned transcripts, timestamps, section headings, and topic labels is hosted on Hugging Face. You can load it directly in Python using `datasets.load_dataset("0xShashi/tech-talks-segments")`. The record schemas are specified in `data/schema.json` and `data/schema_segments.json`.
 
 #### Why are there no emojis or em dashes in the repository?
 To ensure maximum compatibility with parsers, tokenizers, terminal renderers, and database imports, emojis and unicode dash variants are strictly banned.

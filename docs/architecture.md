@@ -12,8 +12,8 @@ The repository separates high-level catalog presentation, detailed navigation pa
 - **Catalog Navigation Layer (`catalog/`)**: Dedicated markdown indexes providing organized access paths:
   - `catalog/by-company.md`: Grouped by company, channel, and year.
   - `catalog/by-topic/`: Sessions grouped by subject matter according to a fixed taxonomy.
-- **Data Specification Layer (`data/`)**: Canonical JSON schema (`data/schema.json`) defining the data contract for video records.
-- **External Dataset Distribution**: The complete 2600+ session dataset with metadata, timestamps, entity tags, and cleaned transcript segments is distributed via Hugging Face for AI agents, RAG pipelines, and search tooling.
+- **Data Specification Layer (`data/`)**: Canonical JSON schemas (`data/schema.json` and `data/schema_segments.json`) defining the data contracts for video-level and segment-level records.
+- **External Dataset Distribution**: The complete session dataset with metadata, timestamps, section headings, and cleaned transcript segments is distributed via Hugging Face for AI agents, RAG pipelines, and search tooling.
 
 ```
                   [ Developer / Visitor ]
@@ -26,12 +26,12 @@ The repository separates high-level catalog presentation, detailed navigation pa
          |                              (Browsable Catalogs)
          |                                       |
          v                                       v
- [ data/schema.json ]                 YouTube Official Videos
-  (Contract Schema)
+ [ data/schema.json & ]               YouTube Official Videos
+ [ schema_segments.json ]
          |
          v
  [ Hugging Face Dataset ]
- (Full 2600+ Talks: Transcripts, Timestamps, Entities)
+ (Full Talks: Transcripts, Timestamps, Headings)
 ```
 
 ---
@@ -50,7 +50,8 @@ The repository separates high-level catalog presentation, detailed navigation pa
 |   |-- by-company.md        # All sessions grouped by company, channel, year
 |   `-- by-topic/            # All sessions grouped by topic
 |-- data/
-|   `-- schema.json          # Schema used for the Hugging Face dataset
+|   |-- schema.json          # Video-level schema contract
+|   `-- schema_segments.json # Segment-level schema contract
 `-- docs/
     |-- architecture.md      # System architecture and repository structure
     |-- faq.md               # Frequently asked questions

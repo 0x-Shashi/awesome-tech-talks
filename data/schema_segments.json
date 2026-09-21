@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/0x-Shashi/awesome-tech-talks/blob/main/data/schema_segments.json",
+  "title": "Awesome Tech Talks segment record",
+  "description": "Schema specification for segment records in the Awesome Tech Talks dataset hosted on Hugging Face (tech_talks_segments.parquet).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "segment_id",
+    "video_id",
+    "title",
+    "company",
+    "channel",
+    "video_type",
+    "upload_date",
+    "duration_seconds",
+    "description",
+    "topics",
+    "segment_index",
+    "total_segments",
+    "heading",
+    "heading_confidence",
+    "start_time",
+    "text",
+    "word_count"
+  ],
+  "properties": {
+    "segment_id": {
+      "type": "string",
+      "description": "Unique identifier for the segment (video_id plus segment index)."
+    },
+    "video_id": {
+      "type": "string",
+      "description": "Canonical YouTube video identifier."
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the talk or session."
+    },
+    "company": {
+      "type": "string",
+      "description": "Organization that hosted or published the session."
+    },
+    "channel": {
+      "type": "string",
+      "description": "Channel name where the video was originally uploaded."
+    },
+    "video_type": {
+      "type": "string",
+      "enum": ["public", "unlisted"],
+      "description": "Visibility status (public or unlisted)."
+    },
+    "upload_date": {
+      "type": "string",
+      "pattern": "^(\\d{4}-\\d{2}-\\d{2}|unknown)$",
+      "description": "Original publication date in ISO format (YYYY-MM-DD), or unknown."
+    },
+    "duration_seconds": {
+      "type": ["number", "null"],
+      "description": "Total duration of the full video in seconds."
+    },
+    "url": {
+      "type": ["string", "null", "number"],
+      "description": "Source URL to the original session, if available."
+    },
+    "description": {
+      "type": "string",
+      "description": "Original video description text."
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of standardized topic tags assigned to the session."
+    },
+    "qc_flags": {
+      "type": ["string", "null", "number"],
+      "description": "Quality control or validation notices, if any."
+    },
+    "segment_index": {
+      "type": "integer",
+      "description": "Positional index of the segment within the video."
+    },
+    "total_segments": {
+      "type": "integer",
+      "description": "Total count of segments for this video."
+    },
+    "heading": {
+      "type": "string",
+      "description": "Extracted section heading or topic transition title."
+    },
+    "heading_confidence": {
+      "type": "string",
+      "enum": ["high", "low"],
+      "description": "Confidence level of the heading extraction (high or low)."
+    },
+    "start_time": {
+      "type": "string",
+      "description": "Timestamp offset where the segment begins (HH:MM:SS or MM:SS)."
+    },
+    "text": {
+      "type": "string",
+      "description": "Cleaned, normalized transcript text for the segment."
+    },
+    "word_count": {
+      "type": "integer",
+      "description": "Total word count of the segment."
+    }
+  }
+}

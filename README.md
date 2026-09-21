@@ -81,7 +81,8 @@ All sessions are also grouped by subject matter inside [`catalog/by-topic/`](cat
 |   |-- by-company.md        # All sessions grouped by company, channel, year
 |   |-- by-topic/            # All sessions grouped by topic
 |-- data/
-|   |-- schema.json          # Schema used for the Hugging Face dataset
+|   |-- schema.json          # Video-level schema (tech_talks_unified.parquet)
+|   `-- schema_segments.json # Segment-level schema (tech_talks_segments.parquet)
 |-- docs/
     |-- architecture.md      # How the project is structured
     |-- faq.md               # Common questions
@@ -97,22 +98,41 @@ The full dataset (metadata, transcripts, topic tags) lives on Hugging Face, not 
   <img width="1882" height="1078" alt="Image" src="https://github.com/user-attachments/assets/8a9d5ec7-be86-4b01-a3ce-8588e3f4f202" />
 </p>
 
-This repo indexes the talks. The full content, metadata, cleaned transcripts, timestamps, entity tags, and topic labels for all 2600+ sessions, lives in a single dataset on [Hugging Face](https://huggingface.co/datasets/0xShashi/tech-talks-segments).
+This repo indexes the talks. The full content, metadata, cleaned transcripts, timestamps, section headings, and topic labels for all sessions lives in the official dataset on [Hugging Face](https://huggingface.co/datasets/0xShashi/tech-talks-segments).
 
-Each record includes:
+The dataset is published in two levels of granularity:
 
-* Title, speaker(s), channel, publish date, and canonical URL
-* Format (Talk, Workshop, Panel, Fireside Chat, Demo) and difficulty level
-* 1 to 3 topic tags from a fixed taxonomy (AI Agents, LLM Fundamentals, Web Development, and more)
-* Cleaned, segmented transcript text with timestamps
-* Extracted entities (named tools, models, products mentioned)
+### 1. Video Level Records (`tech_talks_unified.parquet`)
+
+* `video_id`: Canonical YouTube video identifier
+* `company`: Host organization (Google, Microsoft, Anthropic, OpenAI, Cursor)
+* `channel`: Source channel name
+* `video_type`: Visibility status (public or unlisted replay)
+* `title`: Full video title
+* `upload_date`: Publication date (YYYY-MM-DD)
+* `shareable_url`: Direct link to the video
+* `duration_seconds`: Total video length in seconds
+* `description`: Original video description text
+* `topics`: Standardized taxonomy topic tags
+* `segments`: Structured transcript segments with headings, timestamps, and confidence
+* `full_transcript`: Complete concatenated transcript text
+
+### 2. Segment Level Records (`tech_talks_segments.parquet`)
+
+* `segment_id`: Unique identifier for the chunk
+* `video_id`, `title`, `company`, `channel`, `video_type`, `upload_date`, `duration_seconds`
+* `heading`: Extracted section heading or topic transition title
+* `heading_confidence`: Extraction confidence score (high or low)
+* `start_time`: Timestamp offset for the segment (HH:MM:SS)
+* `text`: Cleaned, normalized transcript text
+* `word_count`: Word count per segment chunk
 
 Load it directly in Python:
 
-```
+```python
 from datasets import load_dataset
 
-dataset = load_dataset("your-org/awesome-tech-talks")
+dataset = load_dataset("0xShashi/tech-talks-segments", split="train")
 ```
 
 Use it to power a RAG pipeline, fine-tune a model, build a search tool, or explore transcripts offline without touching YouTube at all.
