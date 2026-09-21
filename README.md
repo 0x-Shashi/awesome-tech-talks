@@ -1,15 +1,13 @@
-# Awesome Tech Talks: 2600+ Sessions and Workshops from Google, SpaceX, Microsoft, Anthropic, and More
-
-<img width="1600" height="568" alt="Image" src="https://github.com/user-attachments/assets/cd718369-e4f4-4f00-8ea9-bddba28dc7a6" />
-
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
-  <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Curated_Talks-2500+-brightgreen.svg" alt="2500+ Curated Talks"></a>
-  <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Workshops_%26_Talks-Official_Channels-e78a53.svg" alt="Workshops and Talks from Official Channels"></a>
-  <a href="https://www.trackawesomelist.com/0x-Shashi/awesome-tech-talks/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"></a>
-  <a href="https://github.com/0x-Shashi/awesome-tech-talks/commits/main"><img src="https://img.shields.io/github/last-commit/0x-Shashi/awesome-tech-talks.svg" alt="GitHub Last Commit"></a>
+  <img width="150" height="150" alt="Awesome Tech Talks Logo" src="https://github.com/user-attachments/assets/6c27f674-370f-4061-951f-992f71e5fe79" />
 </p>
+
+<h1 align="center">Awesome Tech Talks: 6,000+ Technical Talks, Workshops, Webinars, Keynotes, and Unlisted Developer Sessions Across the Industry</h1>
+
+
+<div align="center"><a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a> <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a> <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Curated_Talks-6000+-brightgreen.svg" alt="6000+ Curated Talks"></a> <a href="#curated-tracks-and-catalog"><img src="https://img.shields.io/badge/Workshops_%26_Talks-Official_Channels-e78a53.svg" alt="Workshops and Talks from Official Channels"></a> <a href="https://www.trackawesomelist.com/0x-Shashi/awesome-tech-talks/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"></a> <a href="https://github.com/0x-Shashi/awesome-tech-talks/commits/main"><img src="https://img.shields.io/github/last-commit/0x-Shashi/awesome-tech-talks.svg" alt="GitHub Last Commit"></a></div>
+
+
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&width=600&color=FFFFFF&size=25&lines=Hey!+This+project+is+still+in+progress;Thousands+of+talks+collected+so+far;Around+40%25+of+the+way+there;Built+solo%2C+one+commit+at+a+time;Thanks+for+your+patience" alt="Typing SVG" /></a>
