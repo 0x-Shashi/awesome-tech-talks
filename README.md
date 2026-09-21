@@ -13,12 +13,12 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&width=600&color=FFFFFF&size=25&lines=Hey!+This+project+is+still+in+progress;Thousands+of+talks+collected+so+far;Around+40%25+of+the+way+there;Built+solo%2C+one+commit+at+a+time;Thanks+for+your+patience" alt="Typing SVG" /></a>
 </p>
 
-Most of the best engineering talks never show up in your recommendations. This is a growing archive of 2600+ sessions, workshops, and keynotes, pulled directly from official channels (Google, Anthropic, Cursor, Microsoft, OpenAI, and more), including unlisted replays and website-only recordings that don't surface anywhere else.
+Most of the best engineering talks never show up in your recommendations. This is a growing archive of 6000+ sessions, workshops, and keynotes, pulled directly from official channels (Google, Anthropic, Cursor, Microsoft, OpenAI, and more), including unlisted replays and website-only recordings that don't surface anywhere else.
 
 ## What It Provides
 
 * **Browsable Catalog, Two Ways**: Every session is indexed in `catalog/by-company.md` and `catalog/by-topic/`, so you can browse by company and channel (Google, Anthropic, Cursor, Microsoft, OpenAI, and more) or by topic (AI Agents, LLM Fundamentals, Web Development, and more).
-* **Full Dataset on Hugging Face**: Metadata, timestamps, entity tags, and cleaned transcript segments for the entire 2600+ talk collection are published as a structured dataset on Hugging Face, ready to plug into RAG pipelines, AI agents, or your own search tools.
+* **Full Dataset on Hugging Face**: Metadata, timestamps, entity tags, and cleaned transcript segments for the entire 6000+ talk collection are published as a structured dataset on Hugging Face, ready to plug into RAG pipelines, AI agents, or your own search tools.
 
 ## Why We Built It
 
