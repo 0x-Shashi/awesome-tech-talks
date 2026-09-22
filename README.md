@@ -66,9 +66,18 @@ All sessions are also grouped by subject matter inside [`catalog/by-topic/`](cat
 
 ## Who Has the Most Talks
 
-<p align="center">
-  <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/d4af5ab5-5a86-4a6e-b3f1-58c72d324454" />
-</p>
+<div align="center">
+
+| Company | Channels | Public | Unlisted | Total Sessions | Share |
+|---|---|---|---|---|---|
+| Microsoft | 1 | 6,170 | 0 | 6,170 | 91.4% |
+| Google | 4 | 182 | 68 | 250 | 3.7% |
+| Anthropic | 3 | 68 | 72 | 140 | 2.1% |
+| OpenAI | 2 | 74 | 48 | 122 | 1.8% |
+| Cursor | 1 | 64 | 1 | 65 | 1.0% |
+| **Total** | **11** | **6,558** | **189** | **6,747** | **100%** |
+
+</div>
 
 ## Repository Layout
 ```
